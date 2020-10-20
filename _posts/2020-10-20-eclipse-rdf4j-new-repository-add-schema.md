@@ -21,11 +21,11 @@ tags: [rdf4j, eclipse_rdf4j, rdf4j_new_repository, triple_repository, rdf4j_add_
 
 ## 3. 온톨로지 스키마 추가
 
-### 1. rdf4j Add
+### 1) rdf4j Add
 
 ![img004](/assets/img/2020-10-20-eclipse-rdf4j-new-repository-add-schema/img004.png)
 
-### 2. API
+### 2) API
 
 ```java
 import org.eclipse.rdf4j.RDF4JException;
@@ -75,13 +75,13 @@ public class AddFile {
 
 ## 4. 결과 확인
 
-### 1. rdf4j Query
+### 1) rdf4j Query
 
 ![img006](/assets/img/2020-10-20-eclipse-rdf4j-new-repository-add-schema/img006.png)
 
 ![img007](/assets/img/2020-10-20-eclipse-rdf4j-new-repository-add-schema/img007.png)
 
-### 2. API
+### 2) API
 
 ```java
 import org.eclipse.rdf4j.repository.Repository;
