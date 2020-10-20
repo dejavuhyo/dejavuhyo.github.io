@@ -8,9 +8,9 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: 덴져러스 Blog                          # the main title
+title: 밥줄과 취미사이 ːː 못 먹어도 고!                          # the main title
 
-tagline: 못 먹어도 고!  # it will display as the sub-title
+tagline: https://dejavuhyo.github.io https://blog.naver.com/dejavuhyo  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
