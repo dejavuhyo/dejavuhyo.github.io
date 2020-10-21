@@ -10,9 +10,9 @@ tags: [intellij_camelcase, underscore, camelcase, underscore_camelcase]
 
 * File → settings → Plugins
 
-![img001](/assets/img/2020-09-28-underscore_case_toggle_to_camel_case/img001.png)
+![img001](/assets/img/2020-09-28-intellij-underscore-case-toggle-to-camel-case/img001.png)
 
-![img002](/assets/img/2020-09-28-underscore_case_toggle_to_camel_case/img002.png)
+![img002](/assets/img/2020-09-28-intellij-underscore-case-toggle-to-camel-case/img002.png)
 
 ## 2. 단축키
 
