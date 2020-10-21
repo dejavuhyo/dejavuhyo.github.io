@@ -6,7 +6,7 @@ categories: [Database, GraphDatabase]
 tags: [rdf4j, eclipse_rdf4j, rdf4j_new_repository, triple_repository, rdf4j_add_schema, rdf4j_add_rdf, rdf4j_add_triple]
 ---
 
-## 1. Repository 생성
+# 1. Repository 생성
 
 ![img001](/assets/img/2020-10-20-eclipse-rdf4j-new-repository-add-schema/img001.png)
 
@@ -14,18 +14,18 @@ tags: [rdf4j, eclipse_rdf4j, rdf4j_new_repository, triple_repository, rdf4j_add_
 
 ![img003](/assets/img/2020-10-20-eclipse-rdf4j-new-repository-add-schema/img003.png)
 
-## 2. 온톨로지 스키마 준비
+# 2. 온톨로지 스키마 준비
 
 * Wine 온톨로지 스키마를 다운 받아 레파지토리에 추가 하였다.
 * <https://www.w3.org/TR/2004/REC-owl-guide-20040210/wine.rdf> 
 
-## 3. 온톨로지 스키마 추가
+# 3. 온톨로지 스키마 추가
 
-### 1) rdf4j Add
+## 1) rdf4j Add
 
 ![img004](/assets/img/2020-10-20-eclipse-rdf4j-new-repository-add-schema/img004.png)
 
-### 2) API
+## 2) API
 
 ```java
 import org.eclipse.rdf4j.RDF4JException;
@@ -73,15 +73,15 @@ public class AddFile {
 
 ![img005](/assets/img/2020-10-20-eclipse-rdf4j-new-repository-add-schema/img005.png)
 
-## 4. 결과 확인
+# 4. 결과 확인
 
-### 1) rdf4j Query
+## 1) rdf4j Query
 
 ![img006](/assets/img/2020-10-20-eclipse-rdf4j-new-repository-add-schema/img006.png)
 
 ![img007](/assets/img/2020-10-20-eclipse-rdf4j-new-repository-add-schema/img007.png)
 
-### 2) API
+## 2) API
 
 ```java
 import org.eclipse.rdf4j.repository.Repository;
