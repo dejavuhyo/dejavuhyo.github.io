@@ -1,8 +1,8 @@
 ---
-title: 인텔리제이 깃랩 최초(origin) 커밋
+title: IntelliJ에서 GitLab 최초 Commit
 author: Hyosik
 date: 2019-12-18
-categories: [Tools, SCM]
+categories: [Tools, IDE]
 tags: [git_lab_commit, git_lab_origin_commit, intellij_git_lab_commit, 깃랩_커밋, 깃랩_origin_커밋, 인텔리제이_깃랩_커밋]
 ---
 
