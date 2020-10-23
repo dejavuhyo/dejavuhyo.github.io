@@ -1,5 +1,5 @@
 ---
-title: Eclipse rdf4j Repository 생성 및 schema 추가
+title: Eclipse rdf4j Repository 생성 및 Schema 추가
 author: Hyosik
 date: 2020-10-20
 categories: [Database, GraphDatabase]
