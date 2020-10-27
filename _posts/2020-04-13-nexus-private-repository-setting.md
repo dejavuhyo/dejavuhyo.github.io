@@ -43,7 +43,7 @@ url 부분을 Nexus의 Public Repositories의 Repository Path로 설정
 <repositories>
     <repository>
         <id>central</id>
-        <url></">http://서버주소:8081/nexus/content/groups/public</url>
+        <url>http://서버주소:8081/nexus/content/groups/public</url>
         <releases>
             <enabled>true</enabled>
         </releases>
@@ -57,7 +57,7 @@ url 부분을 Nexus의 Public Repositories의 Repository Path로 설정
 <pluginRepositories>
     <pluginRepository>
         <id>central</id>
-        <url></">http://서버주소:8081/nexus/content/groups/public</url>
+        <url>http://서버주소:8081/nexus/content/groups/public</url>
         <releases>
             <enabled>true</enabled>
         </releases>
