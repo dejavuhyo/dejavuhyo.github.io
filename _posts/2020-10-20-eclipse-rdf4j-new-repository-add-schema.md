@@ -16,8 +16,7 @@ tags: [rdf4j, eclipse_rdf4j, rdf4j_new_repository, triple_repository, rdf4j_add_
 
 ## 2. 온톨로지 스키마 준비
 
-* Wine 온톨로지 스키마를 다운 받아 레파지토리에 추가 하였다.
-* <https://www.w3.org/TR/2004/REC-owl-guide-20040210/wine.rdf> 
+* [Wine 온톨로지](https://www.w3.org/TR/2004/REC-owl-guide-20040210/wine.rdf)를 다운 받아 레파지토리에 추가 하였다.
 
 ## 3. 온톨로지 스키마 추가
 
