@@ -6,7 +6,7 @@ categories: [Programming, Architecture]
 tags: [micro_service_architecture, monolithic_architecture, msa, 마이크로서비스_아키텍처, 모노리틱_아키텍처]
 ---
 
-## 1. Micro Service(마이크로 서비스)란?
+## 1. Micro Service(마이크로 서비스)란
 애플리케이션을 느슨히 결합된 서비스의 모임으로 구조화하는 서비스 지향 아키텍처(SOA) 스타일의 일종인 소프트웨어 개발 기법이다.
 
 마이크로서비스 아키텍처에서 서비스들은 섬세(fine-grained)하고 프로토콜은 가벼운 편이다. 애플리케이션을 더 조그마한 여러 서비스로 분해할 때의 장점은 모듈성을 개선시키고 애플리케이션의 이해, 개발, 테스트를 더 쉽게 해주고 애플리케이션 침식에 더 탄련적으로 만들어 준다.
