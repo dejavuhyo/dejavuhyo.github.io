@@ -68,7 +68,7 @@ tags: [nexus_maven_repository, nexus_repository, maven_repository, nexus_reposit
  
     <repository>
         <id>egovframe</id>
-        <!-- <url></url>">http://maven.egovframe.kr:8080/maven/</url> -->
+        <!-- <url>http://maven.egovframe.kr:8080/maven/</url> -->
         <url>http://서버주소:8081/nexus/content/groups/public</url>
         <releases>
             <enabled>true</enabled>
@@ -80,7 +80,7 @@ tags: [nexus_maven_repository, nexus_repository, maven_repository, nexus_reposit
  
     <repository>
         <id>egovframe2</id>
-        <!-- <url></url>">http://www.egovframe.go.kr/maven/</url> -->
+        <!-- <url>http://www.egovframe.go.kr/maven/</url> -->
         <url>http://서버주소:8081/nexus/content/groups/public</url>
         <releases>
             <enabled>true</enabled>
