@@ -60,7 +60,7 @@ tags: [mqtt_broker, mqtt_mosquitto, mosquitto_install, mosquitto_setup, mosquitt
 
 ## 3. 포트 확인
 
-``` shell script
+```bash
 C:\Windows\system32>netstat -an
 ```
 
