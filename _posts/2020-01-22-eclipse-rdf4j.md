@@ -42,10 +42,10 @@ rdf4j는 즉시 사용할 수 있는 일련의 데이터베이스를 제공한�
 rdf4j는 war 파일로 배포되기 때문에 apache-tomcat의 webapps 폴더에 war 파일만 넣으면 rdf4j 실행이 가능하다.
 
 ### 1) apache-tomcat 다운로드
-* [다운로드](http://tomcat.apache.org)
+* [Apache Tomcat](http://tomcat.apache.org)
 
 ### 2) rdf4j 다운로드
-* [다운로드](https://rdf4j.org/download)
+* [Eclipse rdf4j](https://rdf4j.org/download)
 
 ![img001](/assets/img/2020-01-22-eclipse-rdf4j/img001.png)
 
