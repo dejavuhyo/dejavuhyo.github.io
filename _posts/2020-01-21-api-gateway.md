@@ -26,37 +26,37 @@ Zuul은 다양한 유형의 Filter를 사용하여 이러한 문제를 신속하
 ## 4. Netflix Filter의 기능
 
 ### 1) Authentication and Security
-* 클라이언트 요청시, 각 리소스에 대한 인증 요구 사항을 식별하고 이를 만족시키지 않는 요청은 거부
+클라이언트 요청시, 각 리소스에 대한 인증 요구 사항을 식별하고 이를 만족시키지 않는 요청은 거부
 
 ### 2) Insights and Monitoring
-* 의미있는 데이터 및 통계 제공
+의미있는 데이터 및 통계 제공
 
 ### 3) Dynamic Routing
-* 필요에 따라 요청을 다른 클러스터로 동적으로 라우팅
+필요에 따라 요청을 다른 클러스터로 동적으로 라우팅
 
 ### 4) Stress Testing
-* 성능 측정을 위해 점차적으로 클러스터 트래픽을 증가
+성능 측정을 위해 점차적으로 클러스터 트래픽을 증가
 
 ### 5) Load Shedding
-* 각 유형의 요청에 대해 용량을 할당하고, 초과하는 요청은 제한
+각 유형의 요청에 대해 용량을 할당하고, 초과하는 요청은 제한
 
 ### 6) Static Response handling
-* 클러스터에서 오는 응답을 대신하여 API Gateway에서 응답 처리
+클러스터에서 오는 응답을 대신하여 API Gateway에서 응답 처리
 
 ## 5. Zuul Filter
 Zuul Filter는 4가지 Filter로 나누어 진다.
 
 ### 1) PRE Filter
-* 라우팅전에 실행되는 필터로, 주로 인증, origin 서버 선택, 디버그 정보 logging을 한다.
+라우팅전에 실행되는 필터로, 주로 인증, origin 서버 선택, 디버그 정보 logging을 한다.
 
 ### 2) ROUTING Filter
-* 요청에 대한 라우팅을 처리하는 필터로, Apache HttpClient나 Netflix Ribbon을 사용하여 http 요청을 built하고 sent 한다.
+요청에 대한 라우팅을 처리하는 필터로, Apache HttpClient나 Netflix Ribbon을 사용하여 http 요청을 built하고 sent 한다.
 
 ### 3) POST Filter
-* 라우팅 후에 실행되는 필터로, response에 대한 표준 HTTP header를 추가, 통계 및 metrics 수집, 요청에 대한 streaming을 한다.
+라우팅 후에 실행되는 필터로, response에 대한 표준 HTTP header를 추가, 통계 및 metrics 수집, 요청에 대한 streaming을 한다.
 
 ### 4) ERROR Filter
-* 오류가 발생하면 실행 된다.
+오류가 발생하면 실행 된다.
 
 ![zuul-netflix-cloud-architecture](/assets/img/2020-01-21-api-gateway/request-lifecycle.png)
 
