@@ -21,16 +21,19 @@ Eclipse rdf4j is a powerful Java framework for processing and handling RDF data.
 rdf4j는 즉시 사용할 수 있는 일련의 데이터베이스를 제공한다.
 
 ### 1) Memory Store
+
 * Transactional RDF database using main memory with optional persistent sync to disk.
 * It is fast with excellent performance for small datasets.
 * It scales with amount of RAM available.
 
 ### 2) Native Store
+
 * Ttransactional RDF database using direct disk IO for persistence.
 * It is a more scalable solution than the memory store, with a smaller memory footprint, and also offers better consistency and durability.
 * It is currently aimed at medium-sized datasets in the order of 100 million triples.
 
 ### 3) ElasticsearchStore
+
 * Experimental RDF database that uses Elasticsearch for storage.
 * This is useful if you are already using Elasticsearch for other things in your project and you want to add some small scale graph data.
 * A good usecase is if you need reference data or an ontology for your application.
@@ -42,9 +45,11 @@ rdf4j는 즉시 사용할 수 있는 일련의 데이터베이스를 제공한�
 rdf4j는 war 파일로 배포되기 때문에 apache-tomcat의 webapps 폴더에 war 파일만 넣으면 rdf4j 실행이 가능하다.
 
 ### 1) apache-tomcat 다운로드
+
 * [Apache Tomcat](http://tomcat.apache.org)
 
 ### 2) rdf4j 다운로드
+
 * [Eclipse rdf4j](https://rdf4j.org/download)
 
 ![img001](/assets/img/2020-01-22-eclipse-rdf4j/img001.png)
@@ -60,6 +65,7 @@ rdf4j는 war 파일로 배포되기 때문에 apache-tomcat의 webapps 폴더에
 ![img003](/assets/img/2020-01-22-eclipse-rdf4j/img003.png)
 
 ### 5) rdf4j-server 및 rdf4j-workbench 접속
+
 * <http://localhost:8080/rdf4j-server>
 * <http://localhost:8080/rdf4j-workbench>
 
