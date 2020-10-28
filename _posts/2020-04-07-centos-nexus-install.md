@@ -12,6 +12,7 @@ tags: [centos_nexus, centos_nexus_install, nexus_repository, nexus, sonatype_nex
 * <https://dejavuhyo.blog.me/221469375994>
 
 ## 2. 계정 생성
+
 * Nexus를 root 계정으로 설치하는 것을 권장하지 않기 때문에 nexus 계정을 만든다.
 
 ```bash
@@ -70,6 +71,7 @@ logout
 ```
 
 ## 5. 서비스 등록 및 설정
+
 * 복사 및 편집
 
 ```bash
@@ -91,6 +93,7 @@ PIDDIR="/home/nexus"
 ```
 
 ## 6. 서비스 시작 및 종료
+
 * 시작
 
 ```bash
@@ -120,6 +123,7 @@ root     30456 21608  0 09:35 pts/0    00:00:00 grep --color=auto nexus
 ```
 
 ## 8. 방화벽 설정
+
 * Nexus 기본 포트 8081을 열어준다.
 
 ```bash
@@ -131,8 +135,9 @@ success
 ```
 
 ## 9. 웹 접속
-* 접속 주소: http://서버주소:8081/nexus
-* 초기 ID/PW: admin / admin123
+
+* **접속 주소**: http://서버주소:8081/nexus
+* **초기 ID/PW**: admin / admin123
 
 ![img001](/assets/img/2020-04-07-centos-nexus-install/img001.png)
 
