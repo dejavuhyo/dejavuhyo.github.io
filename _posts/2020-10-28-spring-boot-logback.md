@@ -7,17 +7,17 @@ tags: [logback, springboot_logback, log, 로그백, 스프링부트_로그백, �
 ---
 
 ## 1. LogBack이란
-Log4j를 만든 개발자 Ceki Gülcü가 Log4j를 기반으로 더 빠른 속도와 더 적은 메모리 점유율 등의 성능을 개발하여 만든 Logging Framework입니다.
+Log4j를 만든 개발자 Ceki Gülcü가 Log4j를 기반으로 더 빠른 속도와 더 적은 메모리 점유율 등의 성능을 개발하여 만든 Logging Framework이다.
 
 * **LogBack Manual**: <http://logback.qos.ch/manual/index.html>
 
 ## 2. LogBack 특징
 
 ### 1) Level
-로그에 레벨을 설정할 수 있습니다. 개발 시 디버깅을 위해 출력하도록 한 로그들은 개발 완료 후 운영 시점에서는 더 이상 출력하지 않게 합니다. 로그마다 레벨을 설정해두고 설정 파일에서 출력 로그 레벨을 설정하여 원하는 단계의 로그만 출력할 수 있습니다.
+로그에 레벨을 설정할 수 있다. 개발 시 디버깅을 위해 출력하도록 한 로그들은 개발 완료 후 운영 시점에서는 더 이상 출력하지 않게 한다. 로그마다 레벨을 설정해두고 설정 파일에서 출력 로그 레벨을 설정하여 원하는 단계의 로그만 출력할 수 있다.
 
 ### 2) Appender
-출력 방법을 선택할 수 있습니다. 로그의 기록을 담당하는 Appender에게 출력 위치(콘솔, 파일 등)나 출력 내용(날짜/시간, 레벨 등)에 대한 패턴을 설정할 수 있습니다.
+출력 방법을 선택할 수 있다. 로그의 기록을 담당하는 Appender에게 출력 위치(콘솔, 파일 등)나 출력 내용(날짜/시간, 레벨 등)에 대한 패턴을 설정할 수 있다.
 
 * **ConsoleAppender**: 콘솔에 로그를 기록하는 방법
 * **FileAppender**: 파일에 로그를 기록하는 방법
@@ -26,19 +26,19 @@ Log4j를 만든 개발자 Ceki Gülcü가 Log4j를 기반으로 더 빠른 속�
 * **DBAppender**: 데이터베이스에 로그를 기록하는 방법
 
 ### 3) Logger
-로그마다 다른 설정 내용을 쉽게 적용시킬 수 있습니다. 위의 주요 설정을 포함한 다양한 설정 항목을 가지고 있는 객체(Logger)에 이름을 부여하여 필요한 상황에 맞게 적절한 Logger를 호출하여 사용할 수 있습니다.
+로그마다 다른 설정 내용을 쉽게 적용시킬 수 있다. 위의 주요 설정을 포함한 다양한 설정 항목을 가지고 있는 객체(Logger)에 이름을 부여하여 필요한 상황에 맞게 적절한 Logger를 호출하여 사용할 수 있다.
 
 ### 4) Automatic Reloading Configuration File
-설정 파일을 스캔하는 별도의 스레드를 두어 지정한 시간마다 설정 파일을 스캔해 프로그램의 재시작 없이 설정을 변경할 수 있습니다.
+설정 파일을 스캔하는 별도의 스레드를 두어 지정한 시간마다 설정 파일을 스캔해 프로그램의 재시작 없이 설정을 변경할 수 있다.
 
 ### 5) Automatic Compression / Removal
-로그 파일을 생성할 때, 별도의 프로그램을 통해 압축을 진행할 필요 없이 자동 압축을 지원하며, 시간 또는 개수를 설정하여 설정한 시간이나 개수를 초과할 경우 로그 파일이 자동으로 삭제되도록 할 수 있습니다.
+로그 파일을 생성할 때, 별도의 프로그램을 통해 압축을 진행할 필요 없이 자동 압축을 지원하며, 시간 또는 개수를 설정하여 설정한 시간이나 개수를 초과할 경우 로그 파일이 자동으로 삭제되도록 할 수 있다.
 
 ### 6) Graceful Recovery From I/O Failures
-로그 기록 중에 장애가 발생할 경우, 서버 중지 없이 장애 발생시점으로부터의 자동 복구를 지원합니다.
+로그 기록 중에 장애가 발생할 경우, 서버 중지 없이 장애 발생시점으로부터의 자동 복구를 지원한다.
 
 ### 7) If Statement
-설정 파일에 조건문을 사용하여 세밀하게 로깅 설정하여 여러 환경에 맞게 자동 구성되도록 할 수 있습니다.
+설정 파일에 조건문을 사용하여 세밀하게 로깅 설정하여 여러 환경에 맞게 자동 구성되도록 할 수 있다.
 
 ### 8) 패턴에 사용되는 요소
 
@@ -63,14 +63,14 @@ Log4j를 만든 개발자 Ceki Gülcü가 Log4j를 기반으로 더 빠른 속�
 
 > ERROR < WARN < INFO < DEBUG < TRACE
 
-* **ERROR**: 요청을 처리하는 중 오류가 발생한 경우 표시합니다.
-* **WARN**: 처리 가능한 문제, 향후 시스템 에러의 원인이 될 수 있는 경고성 메시지를 나타냅니다.
-* **INFO**: 상태변경과 같은 정보성 로그를 표시합니다.
-* **DEBUG**: 프로그램을 디버깅하기 위한 정보를 표시합니다.
-* **TRACE**: 추적 레벨은 Debug보다 훨씬 상세한 정보를 나타냅니다.
+* **ERROR**: 요청을 처리하는 중 오류가 발생한 경우 표시한다.
+* **WARN**: 처리 가능한 문제, 향후 시스템 에러의 원인이 될 수 있는 경고성 메시지를 나타낸다.
+* **INFO**: 상태변경과 같은 정보성 로그를 표시한다.
+* **DEBUG**: 프로그램을 디버깅하기 위한 정보를 표시한다.
+* **TRACE**: 추적 레벨은 Debug보다 훨씬 상세한 정보를 나타낸다.
 
 ## 3. 적용
-Spring Boot 구동 시 자동으로 logback-spring.xml 파일이 있는지 탐색하고 logback 설정을 적용 합니다.
+Spring Boot 구동 시 자동으로 logback-spring.xml 파일이 있는지 탐색하고 logback 설정을 적용한다.
 
 * **경로**: src/main/resources/logback-spring.xml
 
@@ -112,7 +112,7 @@ Spring Boot 구동 시 자동으로 logback-spring.xml 파일이 있는지 탐�
         </rollingPolicy>
     </appender>
 
-    <!--에러 일 경우 파일에 로그를 남깁니다-->
+    <!-- 에러 일 경우 파일에 로그를 남김 -->
     <appender name="ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <filter class="ch.qos.logback.classic.filter.LevelFilter">
             <level>error</level>
@@ -146,7 +146,7 @@ Spring Boot 구동 시 자동으로 logback-spring.xml 파일이 있는지 탐�
         <appender-ref ref="ROLLFILE"/>
         <appender-ref ref="ERROR"/>
     </logger>
-    <!-- SQL문과 해당 SQL을 실행시키는데 수행된 시간 정보(milliseconds)를 포함한다. -->
+    <!-- SQL문과 해당 SQL을 실행시키는데 수행된 시간 정보(milliseconds)를 포함 -->
     <logger name="jdbc.sqltiming" level="debug" additivity="false">
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="ROLLFILE"/>
