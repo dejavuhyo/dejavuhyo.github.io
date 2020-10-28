@@ -3,7 +3,7 @@ title: Spring Boot Logback 설정
 author: Hyosik
 date: 2020-10-28
 categories: [Architecture, Programming]
-tags: [logback, springboot_logback, 로그백, 스프링부트_로그백]
+tags: [logback, springboot_logback, log, 로그백, 스프링부트_로그백, 스프링부트_로그, 로그]
 ---
 
 ## 1. LogBack이란
@@ -70,11 +70,9 @@ Log4j를 만든 개발자 Ceki Gülcü가 Log4j를 기반으로 더 빠른 속�
 * **TRACE**: 추적 레벨은 Debug보다 훨씬 상세한 정보를 나타냅니다.
 
 ## 3. 적용
-
-### 1) 경로
 Spring Boot 구동 시 자동으로 logback-spring.xml 파일이 있는지 탐색하고 logback 설정을 적용 합니다.
 
-* src/main/resources/logback-spring.xml
+* **경로**: src/main/resources/logback-spring.xml
 
 * logback-spring.xml
 
