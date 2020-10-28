@@ -65,6 +65,7 @@ tags: [jenkins_gitlab_tomcat, jenkins_gitlab, jenkins_tomcat, jenkins_tomcat_dep
 ![img016](/assets/img/2020-04-09-jenkins-gitlab-tomcat/img016.png)
 
 ### 1) 소스 코드 관리
+
 * GitLab Project 주소 복사
 
 ![img017](/assets/img/2020-04-09-jenkins-gitlab-tomcat/img017.png)
@@ -74,6 +75,7 @@ tags: [jenkins_gitlab_tomcat, jenkins_gitlab, jenkins_tomcat, jenkins_tomcat_dep
 ![img018](/assets/img/2020-04-09-jenkins-gitlab-tomcat/img018.png)
 
 ### 2) Build
+
 * Invoke top-level Maven targets 선택
 
 ![img019](/assets/img/2020-04-09-jenkins-gitlab-tomcat/img019.png)
@@ -101,6 +103,7 @@ tags: [jenkins_gitlab_tomcat, jenkins_gitlab, jenkins_tomcat, jenkins_tomcat_dep
 ![img024](/assets/img/2020-04-09-jenkins-gitlab-tomcat/img024.png)
 
 ## 5. 배포 확인
+
 * http://서버주소:8080/
 
 ![img025](/assets/img/2020-04-09-jenkins-gitlab-tomcat/img025.png)
