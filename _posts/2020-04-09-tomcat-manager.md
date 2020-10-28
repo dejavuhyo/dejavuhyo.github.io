@@ -10,6 +10,7 @@ Jenkins에서 war 파일 배포를 위해 manager 접속이 필요하다. manage
 설정 없이 접속을 하면 403 Access Denied 에러가 나기 때문에 아래 설정이 필요하다.
 
 ## 1. conf 디렉터리 tomcat-users.xml 설정
+
 * 편집
 
 ```bash
@@ -38,6 +39,7 @@ Jenkins에서 war 파일 배포를 위해 manager 접속이 필요하다. manage
 ```
 
 ## 2. manager 디렉터리 context.xml 설정
+
 * 편집
 
 ```bash
@@ -57,6 +59,7 @@ Jenkins에서 war 파일 배포를 위해 manager 접속이 필요하다. manage
 ```
 
 ## 3. 접속 확인
+
 * http://서버주소:8080/manager/html
 
 ![img001](/assets/img/2020-04-09-tomcat-manager/img001.png)
