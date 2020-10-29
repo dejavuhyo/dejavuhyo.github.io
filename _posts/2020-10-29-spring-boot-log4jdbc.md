@@ -11,7 +11,6 @@ tags: [log4jdbc, springboot_log4jdbc, log, database_log, 스프링부트_데이�
 * Maven
 
 ```xml
-<!-- https://mvnrepository.com/artifact/org.bgee.log4jdbc-log4j2/log4jdbc-log4j2-jdbc4.1 -->
 <dependency>
     <groupId>org.bgee.log4jdbc-log4j2</groupId>
     <artifactId>log4jdbc-log4j2-jdbc4.1</artifactId>
