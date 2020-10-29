@@ -52,11 +52,9 @@ spring.datasource.password=password
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration scan="true" scanPeriod="30 seconds" debug="true">
-    <!-- 콘솔로 로그를 남김 -->
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <charset>UTF-8</charset>
-            <!-- 로그 메시지 패턴 -->
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n</pattern>
         </encoder>
     </appender>
