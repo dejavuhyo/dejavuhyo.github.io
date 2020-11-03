@@ -2,7 +2,7 @@
 title: Linux에서 RPM 패키지 관리를 위한 DNF 명령
 author: Hyosik
 date: 2020-11-03
-categories: [OS, RHEL/CentOS]
+categories: [OS, Linux]
 tags: [linux_dnf, centos_dnf, dnf, dandified_yum, dnf_commands, rpm_패키지_관리, dnf_명령]
 ---
 
@@ -76,6 +76,10 @@ _dnf list_ 명령은 모든 저장소에서 사용 가능한 모든 패키지와
 
 ### 5) DNF를 사용하여 설치된 모든 패키지 나열
 _dnf list_ 명령은 모든 저장소에서 사용 가능한/설치된 모든 패키지를 표시합니다. 그러나 아래와 같이 _list installed_ 옵션을 사용하여 설치된 패키지만 나열하는 옵션이 있다.
+
+```bash
+[root@localhost ~]# dnf list installed
+```
 
 ![img005](/assets/img/2020-11-03-dnf-commands-for-rpm-package-management/img005.png)
 
