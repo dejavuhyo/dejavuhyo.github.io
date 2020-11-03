@@ -2,7 +2,7 @@
 title: CentOS Background 프로세스 실행
 author: Hyosik
 date: 2020-09-11
-categories: [OS, CentOS]
+categories: [OS, RHEL/CentOS]
 tags: [background_process_run, background_process, nohup, 백그라운드_프로세스_실행, 백그라운드_프로세스]
 ---
 
