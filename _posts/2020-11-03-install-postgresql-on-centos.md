@@ -2,7 +2,7 @@
 title: CentOS 8에 PostgreSQL 13 설치
 author: Hyosik
 date: 2020-11-03
-categories: [PostgreSQL, Database]
+categories: [Database, PostgreSQL]
 tags: [centos_postgresql, postgresql_install, centos_postgresql_install, posrgresql, postgresql_설치, centos8_postgresql13_install]
 ---
 
