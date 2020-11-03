@@ -2,8 +2,8 @@
 title: Linux에서 RPM 패키지 관리를 위한 DNF 명령
 author: Hyosik
 date: 2020-11-03
-categories: [OS, Linux]
-tags: [linux_dnf, centos_dnf, dnf, dandified_yum]
+categories: [OS, RHEL/CentOS]
+tags: [linux_dnf, centos_dnf, dnf, dandified_yum, dnf_commands, rpm_패키지_관리, dnf_명령]
 ---
 
 ## 1. DNF란
@@ -26,11 +26,7 @@ RHEL/CentOS 시스템에 DNF를 설치하려면 먼저 epel-release 저장소를
 
 ```bash
 [root@localhost ~]# yum install epel-release
-```
-
-또는
-
-```bash
+OR
 [root@localhost ~]# yum install epel-release -y
 ```
 
@@ -40,7 +36,7 @@ RHEL/CentOS 시스템에 DNF를 설치하려면 먼저 epel-release 저장소를
 [root@localhost ~]# yum install dnf
 ```
 
-## DNF 명령어
+## 3. DNF 명령어
 
 ### 1) DNF 버전 확인
 시스템에 설치된 DNF의 버전을 확인
