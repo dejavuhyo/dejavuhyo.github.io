@@ -2,7 +2,7 @@
 title: CentOS 방화벽(firewall) 설정
 author: Hyosik
 date: 2020-04-13
-categories: [OS, RHEL/CentOS]
+categories: [OS, CentOS]
 tags: [centos_firewall, firewall_setting, firewall, centos_방화벽, 방화벽_설정]
 ---
 
