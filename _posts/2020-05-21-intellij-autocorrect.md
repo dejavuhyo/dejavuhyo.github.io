@@ -1,7 +1,7 @@
 ---
 title: IntelliJ 대소문자 구분 없이 자동완성(Autocorrect)
 author: Hyosik
-date: 2020-05-21 18:00:00
+date: 2020-05-21 18:00:00 +0900
 categories: [Tools, IDE]
 tags: [intellij_autocorrect, intellij_autocomplete, intellij_match_case, 인텔리제이_자동완성_대소문자_구분_해제]
 ---
