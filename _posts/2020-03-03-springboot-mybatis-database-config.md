@@ -1,7 +1,7 @@
 ---
 title: SpringBoot에서 MyBatis DatabaseConfig 설정
 author: Hyosik
-date: 2020-03-03 14:30:00
+date: 2020-03-03 14:30:00 +0900
 categories: [Programming, Architecture]
 tags: [springboot_mybatis, mybatis_databaseconfig, databaseconfig]
 ---
