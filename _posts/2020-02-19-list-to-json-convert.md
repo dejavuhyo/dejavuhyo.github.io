@@ -1,7 +1,7 @@
 ---
 title: List를 Json으로 변환
 author: Hyosik
-date: 2020-02-19 17:00:00
+date: 2020-02-19 17:00:00 +0900
 categories: [Language, Java]
 tags: [list_to_json, list_to_json_convert, 리스트_제이슨_변환]
 ---
