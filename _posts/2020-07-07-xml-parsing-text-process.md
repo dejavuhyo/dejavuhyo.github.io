@@ -1,7 +1,7 @@
 ---
 title: XML 파싱시 text 처리
 author: Hyosik
-date: 2020-07-07 11:00:00
+date: 2020-07-07 11:00:00 +0900
 categories: [Language, Java]
 tags: [xml_text, xml_parsing, xml_파싱_text_처리, xml_파싱]
 ---
