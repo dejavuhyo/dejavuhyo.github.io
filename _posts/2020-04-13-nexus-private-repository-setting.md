@@ -1,7 +1,7 @@
 ---
 title: Nexus 내부 저장소 설정
 author: Hyosik
-date: 2020-04-13
+date: 2020-04-13 17:00:00
 categories: [Tools, Nexus]
 tags: [nexus_repository, nexus_public_repositories, nexus_repository_setting, nexus_maven, 넥서스_저장소, 내부_저장소, 넥서스_메이븐, 넥서스_저장소_설정]
 ---
