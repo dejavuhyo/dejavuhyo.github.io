@@ -1,7 +1,7 @@
 ---
 title: API Gateway
 author: Hyosik
-date: 2020-01-21
+date: 2020-01-21 10:00:00
 categories: [Programming, Microservices]
 tags: [api_gateway, zuul, zuul_filter, prefilter, routefilter, postfilter, errorfilter, netflix_zuul]
 ---
