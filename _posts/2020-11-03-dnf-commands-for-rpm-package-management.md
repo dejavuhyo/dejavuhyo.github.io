@@ -1,7 +1,7 @@
 ---
 title: Linux에서 RPM 패키지 관리를 위한 DNF 명령
 author: Hyosik
-date: 2020-11-03
+date: 2020-11-03 17:33:00
 categories: [OS, Linux]
 tags: [linux_dnf, centos_dnf, dnf, dandified_yum, dnf_commands, rpm_패키지_관리, dnf_명령]
 ---
