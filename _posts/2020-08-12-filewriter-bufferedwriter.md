@@ -1,7 +1,7 @@
 ---
 title: FileWriter, BufferedWriter를 이용한 파일 생성
 author: Hyosik
-date: 2020-08-12
+date: 2020-08-12 11:05:00
 categories: [Language, Java]
 tags: [filewriter, bufferedwriter, file_creation, 파일생성]
 ---
