@@ -1,7 +1,7 @@
 ---
 title: MQTT 개념 및 특징
 author: Hyosik
-date: 2020-05-26 17:00:00
+date: 2020-05-26 17:00:00 +0900
 categories: [Tools, MQTT]
 tags: [mqtt, mqtt_concept, mqtt_개념, mqtt_특징]
 ---
