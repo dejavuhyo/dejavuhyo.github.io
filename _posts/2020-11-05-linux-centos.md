@@ -1,7 +1,7 @@
 ---
 title: Red Hat Linux와 CentOS
 author: Hyosik
-date: 2020-11-05 11:30:00
+date: 2020-11-05 11:30:00 +0900
 categories: [OS, Linux]
 tags: [red_hat_linux, rhel, linux, centos, linux_centos]
 ---
