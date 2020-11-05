@@ -1,5 +1,5 @@
 ---
-title: Linux와 CentOS
+title: Red Hat Linux와 CentOS
 author: Hyosik
 date: 2020-11-05
 categories: [OS, Linux]
@@ -42,7 +42,7 @@ CentOS는 Community Enterprise Operating System 의 약자로 Red Hat 이 공개
 
 * 배포판별 비교표
 
-![img001](/assets/img/2020-11-05-red-hat-linux-centos/img001.png)
+![img001](/assets/img/2020-11-05-linux-centos/img001.png)
 
 ## 4. RHEL을 기업이 선호하는 이유
 OS 는 서비스와 솔루션을 구동하기 위한 중요한 요소이므로 기업에서는 OS 를 선택할때 여러 가지 척도로 제품을 선정하고 있다. 특히 중요한 척도들은 다음과 같다.
@@ -90,20 +90,20 @@ RHEL 은 버전 5부터 10년의 프로덕션 단계의 지원을 하고 있으�
 
 |  | 프로덕션 단계1(약 5년 6개월) | 프로덕션 단계2(약 1년) | 프로덕션 단계3(약 3년 6개월) | 연장 라이프 단계(약 3년) |
 |:---|:---:|:---:|:---:|:---:|:---:|
-| Red Hat Customer Portal을 통해 이전에 출시된 콘텐츠에 액세스 | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) |
-| Red Hat Customer Portal을 통한 자가 지원 | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) |
+| Red Hat Customer Portal을 통해 이전에 출시된 콘텐츠에 액세스 | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) |
+| Red Hat Customer Portal을 통한 자가 지원 | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) |
 | 기술 지원 | 무제한 | 무제한 | 무제한 | 기존 설치에 한해 지원 |
-| RHSA(비동기 보안 에라타) | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) | ![error](/assets/img/2020-11-05-red-hat-linux-centos/error.png) |
-| 비동기 버그 픽스 Errata(RHBA) | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) | ![error](/assets/img/2020-11-05-red-hat-linux-centos/error.png) |
-| 업데이트 릴리스 | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) | ![error](/assets/img/2020-11-05-red-hat-linux-centos/error.png) |
+| RHSA(비동기 보안 에라타) | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![error](/assets/img/2020-11-05-linux-centos/error.png) |
+| 비동기 버그 픽스 Errata(RHBA) | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![error](/assets/img/2020-11-05-linux-centos/error.png) |
+| 업데이트 릴리스 | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![error](/assets/img/2020-11-05-linux-centos/error.png) |
 | 개정된 하드웨어 지원 | 기본 | 소스 변경이 많이 않을 경우에 한해 지원 | 가상화 사용 | 가상화 사용 |
-| 소프트웨어 기능 개선 | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) | ![error](/assets/img/2020-11-05-red-hat-linux-centos/error.png) | ![error](/assets/img/2020-11-05-red-hat-linux-centos/error.png) | ![error](/assets/img/2020-11-05-red-hat-linux-centos/error.png) |
-| 업데이트된 설치 이미지 | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) | ![check](/assets/img/2020-11-05-red-hat-linux-centos/check.png) | ![error](/assets/img/2020-11-05-red-hat-linux-centos/error.png) |
+| 소프트웨어 기능 개선 | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![error](/assets/img/2020-11-05-linux-centos/error.png) | ![error](/assets/img/2020-11-05-linux-centos/error.png) | ![error](/assets/img/2020-11-05-linux-centos/error.png) |
+| 업데이트된 설치 이미지 | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![error](/assets/img/2020-11-05-linux-centos/error.png) |
 
 * 단계별 기술 지원표
 위와 같이 긴 제품 수명 주기를 갖고 지원을 하고 있으므로 OS 의 해당 버전 단종이나 기술 지원 만료로 구동하는 솔루션이나 서비스에 문제가 생길수 있는 우려가 적다. (RHEL 3, 4는 7년을 지원한다.)
 
-![img002](/assets/img/2020-11-05-red-hat-linux-centos/img002.png)
+![img002](/assets/img/2020-11-05-linux-centos/img002.png)
 
 * RHEL 기술지원 연대표
 또 국내의 많은 리눅스 기술지원 업체와 별도 계약을 통해 장애나 문제 발생시 외부 전문가들의 현장 방문 지원도 받을 수 있다.
