@@ -1,7 +1,7 @@
 ---
 title: IntelliJ에서 GitLab 프로젝트 받기 및 모듈 추가
 author: Hyosik
-date: 2020-03-20 14:00:00
+date: 2020-03-20 14:00:00 +0900
 categories: [Tools, IDE]
 tags: [intellij_gitlab_add_module, intellij_add_module, 인텔리제이_깃랩_모듈_추가, 인텔리제이_모듈_추가, 깃랩_받기, 깃랩_겟]
 ---
