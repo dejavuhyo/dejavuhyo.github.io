@@ -1,7 +1,7 @@
 ---
 title: MyBatis foreach 문법
 author: Hyosik
-date: 2020-02-20
+date: 2020-02-20 11:00:00
 categories: [Programming, DataMapping]
 tags: [mybatis_foreach, mybatis_반복문]
 ---
