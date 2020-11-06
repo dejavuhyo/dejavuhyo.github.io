@@ -51,6 +51,7 @@ tags: [nexus_maven_repository, nexus_repository, maven_repository, nexus_reposit
 ![img015](/assets/img/2020-04-14-nexus-repository-add/img015.png)
 
 ## 6. 적용
+
 * pom.xml
 
 ```xml
