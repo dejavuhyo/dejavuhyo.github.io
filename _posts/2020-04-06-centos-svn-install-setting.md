@@ -124,6 +124,7 @@ user = 1234
 ```
 
 ### 3) 계정 권한설정
+
 * authz
 
 ```bash
@@ -143,6 +144,7 @@ user = rw
 ```
 
 ## 6. SVN 서버 설정
+
 * svnserve
 
 ```bash
