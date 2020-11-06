@@ -46,7 +46,7 @@ Maven은 또한 프로젝트의 디렉토리 구조를 레이아웃하는 방법
 
 프로젝트에 재구성 할 수 없는 비정상적인 빌드 구조가 있는 경우 일부 기능을 포기하거나 Maven을 아예 사용하지 않아야 할 수 있습니다.
 
-![check](/assets/img/2020-11-06-what-is-maven/img001.png)
+![img001](/assets/img/2020-11-06-what-is-maven/img001.png)
 
 ## 3. 차이점
 
