@@ -45,7 +45,6 @@ public class DemoApplication {
 | 초(0-59) | 분(0-59) | 시간(0-23) | 일(1-31) | 월(1-12) | 요일(0-7) |
 
 * 요일에서 0과 7은 일요일이며, 1부터 월요일이고 6이 토요일이다.
-
 * [CronMaker](http://www.cronmaker.com/) 사이트에서 cron 표현식을 생성할 수 있다.
 
 ### 2) 구현
