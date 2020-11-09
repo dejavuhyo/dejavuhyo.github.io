@@ -268,7 +268,7 @@ Maven이 행할수 있는 여러가지 동작을 수행하는 명령을 Goal이�
 
 * **clean**: 컴파일 결과물인 target 디렉토리 삭제
 * **compile**: 모든 소스코드 컴파일, 리소스파일을 target/classes 디렉토리에 복사
-* **package**: compile 수행 후, 테스트 수행, <packaging> 정보에 따라 패키징 수행
+* **package**: compile 수행 후, 테스트 수행, packaging 정보에 따라 패키징 수행
 * **install**: package 수행 후, local repo에 install 수행
 * **deploy**: install 수행 후, 배포 수행, 여기서 배포는 웹서버에 배포가 아니라 회사 repo에 배포다.
 
@@ -295,8 +295,8 @@ Maven은 Repository라는 개념이 있으며, Local Repository, Repository, Plu
 ### 1) Local Repository(로컬 저장소)
 Maven은 dependency 및 packaging한 프로젝트 결과물을 local에 특정 위치에 저장
 
-* Linux & Mac: <홈디렉토리>/.m2
-* Windows: C:\Users\<유저이름>/.m2
+* Linux & Mac: [홈디렉토리]/.m2
+* Windows: C:\Users\[유저이름]/.m2
 
 .m2 디렉토리 하위에 dependency 및 packaging한 결과물들을 groupId, artifactId, versions값으로 하위 디렉토리구조가 생성이 되며 저장된다.
 
