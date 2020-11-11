@@ -19,18 +19,15 @@ tags: [java_home, java_classpath, classpath, 자바_홈, 자바_클래스패스,
 ### 2) JAVA_HOME 설정
 
 * 시스템 변수 → 새로 만들기
-
-> 변수 이름: JAVA_HOME
->
-> 변수 값: C:\Program Files\Java\zulu8.50.0.21
+  - 변수 이름: JAVA_HOME
+  - 변수 값: C:\Program Files\Java\zulu8.50.0.21
 
 ![img003](/assets/img/2020-11-11-java-classpath/img003.png)
 
 ### 3) Path 설정
 
 * Path 선택 → 편집 → 새로 만들기
-
-> %JAVA_HOME%\bin
+  - %JAVA_HOME%\bin
 
 ![img004](/assets/img/2020-11-11-java-classpath/img004.png)
 
@@ -39,10 +36,8 @@ tags: [java_home, java_classpath, classpath, 자바_홈, 자바_클래스패스,
 ### 4) CLASSPATH 설정
 
 * 시스템 변수 → 새로 만들기
-
-> 변수 이름: CLASSPATH
->
-> %JAVA_HOME%\lib
+  - 변수 이름: CLASSPATH
+  - 변수 값: %JAVA_HOME%\lib
 
 ![img006](/assets/img/2020-11-11-java-classpath/img006.png)
 
