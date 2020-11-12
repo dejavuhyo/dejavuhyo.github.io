@@ -160,6 +160,7 @@ HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고
 * Accept header를 사용한다.
 
 > 예) http://restapi.example.com/members/soccer/345/photo.jpg (X)
+>
 > 예) GET / members/soccer/345/photo HTTP/1.1 Host: restapi.example.com Accept: image/jpg (O)
 
 ### 7) 리소스 간에는 연관 관계가 있는 경우
