@@ -83,7 +83,7 @@ RHEL 은 버전 5부터 10년의 프로덕션 단계의 지원을 하고 있으�
 * 단계별 지원 내역은 다음 표와 같다.
 
 |  | 프로덕션 단계1 (약 5년 6개월) | 프로덕션 단계2 (약 1년) | 프로덕션 단계3 (약 3년 6개월) | 연장 라이프 단계 (약 3년) |
-|:-----|:-----:|:-----:|:-----:|:-----:|:-----:|
+|:---|:---:|:---:|:---:|:---:|:---:|
 | Red Hat Customer Portal을 통해 이전에 출시된 콘텐츠에 액세스 | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) |
 | Red Hat Customer Portal을 통한 자가 지원 | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) | ![check](/assets/img/2020-11-05-linux-centos/check.png) |
 | 기술 지원 | 무제한 | 무제한 | 무제한 | 기존 설치에 한해 지원 |
