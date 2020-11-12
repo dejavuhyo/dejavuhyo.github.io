@@ -7,9 +7,6 @@ tags: [rest, rest_api, restful]
 ---
 
 ## 1. REST란
-
-![img001](/assets/img/2020-11-12-rest-restapi-resuful/img001.png)
-
 REST(Representational State Transfer)는 월드 와이드 웹과 같은 분산 하이퍼미디어 시스템을 위한 소프트웨어 아키텍처의 한 형식이다
 
 이 용어는 로이 필딩(Roy Fielding)의 2000년 박사학위 논문에서 소개되었다. 필딩은 HTTP의 주요 저자 중 한 사람이다. 이 개념은 네트워킹 문화에 널리 퍼졌다.
@@ -30,6 +27,8 @@ HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고
   - **Update**: 수정(PUT)
   - **Delete**: 삭제(DELETE)
   - **HEAD**: header 정보 조회(HEAD)
+
+![img001](/assets/img/2020-11-12-rest-restapi-restful/img001.png)
 
 ## 2. REST의 구성요소
 
@@ -108,7 +107,7 @@ HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고
 
 ## 4. REST API란
 
-![img002](/assets/img/2020-11-12-rest-restapi-resuful/img002.png)
+![img002](/assets/img/2020-11-12-rest-restapi-restful/img002.png)
 
 ### 1) API(Application Programming Interface)란
 데이터와 기능의 집합을 제공하여 컴퓨터 프로그램간 상호작용을 촉진하며, 서로 정보를 교환가능 하도록 하는 것
@@ -168,20 +167,22 @@ HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고
 
 > 예) GET: /users/{userid}/devices (일반적으로 소유 *has* 의 관계를 표현할 때)
 
-![img003](/assets/img/2020-11-12-rest-restapi-resuful/img003.png)
+* REST API 설계 예시
+
+![img003](/assets/img/2020-11-12-rest-restapi-restful/img003.png)
 
 ## 6. RESTful 이란
 RESTful은 일반적으로 REST라는 아키텍처를 구현하는 웹 서비스를 나타내기 위해 사용되는 용어이다. *REST API* 를 제공하는 웹 서비스를 *RESTful* 하다고 할 수 있다.
 
 RESTful은 REST를 REST답게 쓰기 위한 방법으로, 누군가가 공식적으로 발표한 것이 아니다. 즉, REST 원리를 따르는 시스템은 RESTful이란 용어로 지칭된다.
 
+![img004](/assets/img/2020-11-12-rest-restapi-restful/img004.png)
+
 ## 7. RESTful의 목적
 
 이해하기 쉽고 사용하기 쉬운 REST API를 만드는 것으로 RESTful한 API를 구현하는 근본적인 목적이 성능 향상에 있는 것이 아니라 일관적인 컨벤션을 통한 API의 이해도 및 호환성을 높이는 것이다.
 
 성능이 중요한 상황에서는 굳이 RESTful한 API를 구현할 필요는 없다.
-
-![img004](/assets/img/2020-11-12-rest-restapi-resuful/img004.png)
 
 ## [출처 및 참고]
 * <https://ko.wikipedia.org/wiki/REST>
