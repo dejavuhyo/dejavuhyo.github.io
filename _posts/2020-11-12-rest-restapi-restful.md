@@ -102,6 +102,7 @@ HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고
 ### 6) Uniform Interface(인터페이스 일관성)
 
 * URI로 지정한 Resource에 대한 조작을 통일되고 한정적인 인터페이스로 수행한다.
+
 * HTTP 표준 프로토콜에 따르는 모든 플랫폼에서 사용이 가능하다.
   - 특정 언어나 기술에 종속되지 않는다.
 
