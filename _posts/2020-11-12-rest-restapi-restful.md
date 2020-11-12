@@ -7,6 +7,9 @@ tags: [rest, rest_api, restful]
 ---
 
 ## 1. REST란
+
+![img001](/assets/img/2020-11-12-rest-restapi-restful/img001.png)
+
 REST(Representational State Transfer)는 월드 와이드 웹과 같은 분산 하이퍼미디어 시스템을 위한 소프트웨어 아키텍처의 한 형식이다
 
 이 용어는 로이 필딩(Roy Fielding)의 2000년 박사학위 논문에서 소개되었다. 필딩은 HTTP의 주요 저자 중 한 사람이다. 이 개념은 네트워킹 문화에 널리 퍼졌다.
@@ -27,8 +30,6 @@ HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고
   - **Update**: 수정(PUT)
   - **Delete**: 삭제(DELETE)
   - **HEAD**: header 정보 조회(HEAD)
-
-![img001](/assets/img/2020-11-12-rest-restapi-restful/img001.png)
 
 ## 2. REST의 구성요소
 
@@ -174,11 +175,12 @@ HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고
 ![img003](/assets/img/2020-11-12-rest-restapi-restful/img003.png)
 
 ## 6. RESTful 이란
+
+![img004](/assets/img/2020-11-12-rest-restapi-restful/img004.png)
+
 RESTful은 일반적으로 REST라는 아키텍처를 구현하는 웹 서비스를 나타내기 위해 사용되는 용어이다. *REST API* 를 제공하는 웹 서비스를 *RESTful* 하다고 할 수 있다.
 
 RESTful은 REST를 REST답게 쓰기 위한 방법으로, 누군가가 공식적으로 발표한 것이 아니다. 즉, REST 원리를 따르는 시스템은 RESTful이란 용어로 지칭된다.
-
-![img004](/assets/img/2020-11-12-rest-restapi-restful/img004.png)
 
 ## 7. RESTful의 목적
 
