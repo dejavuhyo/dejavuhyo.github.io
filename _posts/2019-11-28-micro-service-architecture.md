@@ -2,7 +2,7 @@
 title: Micro Service Architecture
 author: Hyosik
 date: 2019-11-28 14:30:00 +0900
-categories: [Programming, Architecture]
+categories: [Application, Architecture]
 tags: [micro_service_architecture, monolithic_architecture, msa, 마이크로서비스_아키텍처, 모노리틱_아키텍처]
 ---
 
