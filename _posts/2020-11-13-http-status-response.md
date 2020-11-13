@@ -1,7 +1,7 @@
 --- 
 title: HTTP 응답 코드
 author: Hyosik
-date: 2020-11-12 10:30:00 +0900
+date: 2020-11-13 10:30:00 +0900
 categories: [Application, Microservices]
 tags: [http_status, http_response, http_status_response, http_상태, http_응답, http_상태_응답_코드]
 ---
