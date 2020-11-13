@@ -25,11 +25,11 @@ HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고
 즉, REST는 자원 기반의 구조(ROA, Resource Oriented Architecture) 설계의 중심에 Resource가 있고 HTTP Method를 통해 Resource를 처리하도록 설계된 아키텍쳐를 의미한다.
 
 * CRUD Operation
-  - **Create**: 생성(POST)
-  - **Read**: 조회(GET)
-  - **Update**: 수정(PUT)
-  - **Delete**: 삭제(DELETE)
-  - **HEAD**: header 정보 조회(HEAD)
+  - **Create:** 생성(POST)
+  - **Read:** 조회(GET)
+  - **Update:** 수정(PUT)
+  - **Delete:** 삭제(DELETE)
+  - **HEAD:** header 정보 조회(HEAD)
 
 ## 2. REST의 구성요소
 
@@ -60,8 +60,8 @@ HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고
 ### 1) Server-Client(서버-클라이언트 구조)
 
 * 자원이 있는 쪽이 Server, 자원을 요청하는 쪽이 Client가 된다.
-  - **REST Server**: API를 제공하고 비즈니스 로직 처리 및 저장을 책임진다.
-  - **Client**: 사용자 인증이나 context(세션, 로그인 정보) 등을 직접 관리하고 책임진다.
+  - **REST Server:** API를 제공하고 비즈니스 로직 처리 및 저장을 책임진다.
+  - **Client:** 사용자 인증이나 context(세션, 로그인 정보) 등을 직접 관리하고 책임진다.
 
 * 서로 간 의존성이 줄어든다.
 
