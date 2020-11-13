@@ -106,8 +106,8 @@ success
 ```
 
 ## 8. 웹 접속
-* **접속 주소**: http://서버주소:9090
-* **초기 비밀번호**:  /var/lib/jenkins/secrets/initialAdminPassword에 있음
+* **접속 주소:** http://서버주소:9090
+* **초기 비밀번호:**  /var/lib/jenkins/secrets/initialAdminPassword에 있음
 
 ```bash
 [root@localhost ~]# vi /var/lib/jenkins/secrets/initialAdminPassword
