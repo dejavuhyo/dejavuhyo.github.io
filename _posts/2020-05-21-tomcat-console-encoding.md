@@ -14,9 +14,9 @@ Windows10의 콘솔 인코딩과 Tomcat 로그의 인코딩이 달라서 문제�
 ## 2. 버전 확인
 Tomcat의 logging.properties 파일에 인코딩 설정이 추가된 버전 (버전별 ChangeLog 확인)
 
-* **Tomcat7**: v7.0.92 이상
-* **Tomcat8.5**: v8.5.36 이상
-* **Tomcat9**: v9.0.14 이상
+* **Tomcat7:** v7.0.92 이상
+* **Tomcat8.5:** v8.5.36 이상
+* **Tomcat9:** v9.0.14 이상
 
 ## 3. 콘솔 확인
 
