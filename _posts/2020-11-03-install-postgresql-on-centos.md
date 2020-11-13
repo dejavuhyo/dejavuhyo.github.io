@@ -59,7 +59,7 @@ YUM 저장소는 Linux 배포의 CentOS 및 RHEL 제품군을 모두 지원한�
 
 ![img006](/assets/img/2020-11-03-install-postgresql-on-centos/img006.png)
 
-* **데이터베이스 구성 파일 경로**: /var/lib/pgsql/13/data/postgresql.conf
+* **데이터베이스 구성 파일 경로:** /var/lib/pgsql/13/data/postgresql.conf
 
 ![img007](/assets/img/2020-11-03-install-postgresql-on-centos/img007.png)
 
