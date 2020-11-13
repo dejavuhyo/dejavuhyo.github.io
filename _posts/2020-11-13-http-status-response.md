@@ -167,3 +167,4 @@ tags: [http_status, http_response, http_status_response, http_상태, http_응�
 
 ## [출처 및 참고]
 * <https://namu.wiki/w/HTTP/%EC%9D%91%EB%8B%B5%20%EC%BD%94%EB%93%9C>
+* <https://tools.ietf.org/html/rfc7231>
