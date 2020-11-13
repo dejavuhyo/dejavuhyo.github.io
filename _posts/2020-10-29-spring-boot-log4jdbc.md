@@ -22,7 +22,7 @@ tags: [log4jdbc, springboot_log4jdbc, log, database_log, 스프링부트_데이�
 
 ### 1) log4jdbc.log4j2.properties
 
-* **경로**: src/main/resources/log4jdbc.log4j2.properties
+* **경로:** src/main/resources/log4jdbc.log4j2.properties
 
 ```properties
 log4jdbc.spylogdelegator.name=net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
@@ -31,7 +31,7 @@ log4jdbc.dump.sql.maxlinelength=0
 
 ### 2) application.properties
 
-* **경로**: src/main/resources/application.properties
+* **경로:** src/main/resources/application.properties
 
 ```properties
 spring.datasource.driver-class-name=net.sf.log4jdbc.sql.jdbcapi.DriverSpy
@@ -44,9 +44,9 @@ spring.datasource.password=password
 
 ### 1) logback-spring.xml 추가
 
-* **경로**: src/main/resources/logback-spring.xml
+* **경로:** src/main/resources/logback-spring.xml
 
-* **logback-spring.xml 상세 설정**: <https://dejavuhyo.github.io/posts/spring-boot-logback/>
+* **logback-spring.xml 상세 설정:** <https://dejavuhyo.github.io/posts/spring-boot-logback/>
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
