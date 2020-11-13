@@ -9,7 +9,7 @@ tags: [logback, springboot_logback, log, 로그백, 스프링부트_로그백, �
 ## 1. LogBack이란
 Log4j를 만든 개발자 Ceki Gülcü가 Log4j를 기반으로 더 빠른 속도와 더 적은 메모리 점유율 등의 성능을 개발하여 만든 Logging Framework이다.
 
-* **LogBack Manual**: <http://logback.qos.ch/manual/index.html>
+* **LogBack Manual:** <http://logback.qos.ch/manual/index.html>
 
 ## 2. LogBack 특징
 
@@ -19,11 +19,11 @@ Log4j를 만든 개발자 Ceki Gülcü가 Log4j를 기반으로 더 빠른 속�
 ### 2) Appender
 출력 방법을 선택할 수 있다. 로그의 기록을 담당하는 Appender에게 출력 위치(콘솔, 파일 등)나 출력 내용(날짜/시간, 레벨 등)에 대한 패턴을 설정할 수 있다.
 
-* **ConsoleAppender**: 콘솔에 로그를 기록하는 방법
-* **FileAppender**: 파일에 로그를 기록하는 방법
-* **RollingFileAppender**: 여러 개의 파일을 순회하며 로그를 기록하는 방법
-* **SMTPAppender**: 로그를 메일로 기록하는 방법
-* **DBAppender**: 데이터베이스에 로그를 기록하는 방법
+* **ConsoleAppender:** 콘솔에 로그를 기록하는 방법
+* **FileAppender:** 파일에 로그를 기록하는 방법
+* **RollingFileAppender:** 여러 개의 파일을 순회하며 로그를 기록하는 방법
+* **SMTPAppender:** 로그를 메일로 기록하는 방법
+* **DBAppender:** 데이터베이스에 로그를 기록하는 방법
 
 ### 3) Logger
 로그마다 다른 설정 내용을 쉽게 적용시킬 수 있다. 위의 주요 설정을 포함한 다양한 설정 항목을 가지고 있는 객체(Logger)에 이름을 부여하여 필요한 상황에 맞게 적절한 Logger를 호출하여 사용할 수 있다.
@@ -42,37 +42,37 @@ Log4j를 만든 개발자 Ceki Gülcü가 Log4j를 기반으로 더 빠른 속�
 
 ### 8) 패턴에 사용되는 요소
 
-* **%Logger{length}**: Logger name을 축약(length는 최대 자리 수)
-* **%thread**: 현재 스레드 이름
-* **%-5level**: 로그 레벨, -5는 출력의 고정폭 값
-* **%msg**: 로그 메시지
-* **%n**: 개행 문자
-* **%d**: 로그 기록시간
-* **%p**: 로깅 레벨
-* **%F**: 로깅이 발생한 프로그램 파일명
-* **%M**: 로깅일 발생한 메소드의 이름
-* **%l**: 로깅이 발생한 호출지의 정보
-* **%L**: 로깅이 발생한 호출지의 라인 수
-* **%t**: 쓰레드 명
-* **%c**: 로깅이 발생한 카테고리
-* **%C**: 로깅이 발생한 클래스 명
-* **%m**: 로그 메시지
-* **%r**: 애플리케이션 시작 이후부터 로깅이 발생한 시점까지의 시간
+* **%Logger{length}:** Logger name을 축약(length는 최대 자리 수)
+* **%thread:** 현재 스레드 이름
+* **%-5level:** 로그 레벨, -5는 출력의 고정폭 값
+* **%msg:** 로그 메시지
+* **%n:** 개행 문자
+* **%d:** 로그 기록시간
+* **%p:** 로깅 레벨
+* **%F:** 로깅이 발생한 프로그램 파일명
+* **%M:** 로깅일 발생한 메소드의 이름
+* **%l:** 로깅이 발생한 호출지의 정보
+* **%L:** 로깅이 발생한 호출지의 라인 수
+* **%t:** 쓰레드 명
+* **%c:** 로깅이 발생한 카테고리
+* **%C:** 로깅이 발생한 클래스 명
+* **%m:** 로그 메시지
+* **%r:** 애플리케이션 시작 이후부터 로깅이 발생한 시점까지의 시간
 
 ### 9) Log Level
 
 > ERROR < WARN < INFO < DEBUG < TRACE
 
-* **ERROR**: 요청을 처리하는 중 오류가 발생한 경우 표시한다.
-* **WARN**: 처리 가능한 문제, 향후 시스템 에러의 원인이 될 수 있는 경고성 메시지를 나타낸다.
-* **INFO**: 상태변경과 같은 정보성 로그를 표시한다.
-* **DEBUG**: 프로그램을 디버깅하기 위한 정보를 표시한다.
-* **TRACE**: 추적 레벨은 Debug보다 훨씬 상세한 정보를 나타낸다.
+* **ERROR:** 요청을 처리하는 중 오류가 발생한 경우 표시한다.
+* **WARN:** 처리 가능한 문제, 향후 시스템 에러의 원인이 될 수 있는 경고성 메시지를 나타낸다.
+* **INFO:** 상태변경과 같은 정보성 로그를 표시한다.
+* **DEBUG:** 프로그램을 디버깅하기 위한 정보를 표시한다.
+* **TRACE:** 추적 레벨은 Debug보다 훨씬 상세한 정보를 나타낸다.
 
 ## 3. 적용
 Spring Boot 구동 시 자동으로 logback-spring.xml 파일이 있는지 탐색하고 logback 설정을 적용한다.
 
-* **경로**: src/main/resources/logback-spring.xml
+* **경로:** src/main/resources/logback-spring.xml
 
 * logback-spring.xml
 
