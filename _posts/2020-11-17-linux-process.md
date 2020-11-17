@@ -3,7 +3,7 @@ title: Linux 프로세스
 author: Hyosik
 date: 2020-11-17 11:30:00 +0900
 categories: [OS, Linux]
-tags: [process, process_id, process_kill, linux_process]
+tags: [process, process_id, process_kill, linux_process, 리눅스_프로세스]
 ---
 
 ## 1. 프로세스 확인
@@ -74,13 +74,13 @@ tags: [process, process_id, process_kill, linux_process]
 ## 3. 특정 프로세스 정보
 
 ```bash
-[root@localhost ~]# ps -ef | grep 프로세스명
+[root@localhost ~]# ps -ef | grep spring-boot-application
 ```
 
 ## 4. 프로세스 PID 확인
 
 ```bash
-[root@localhost ~]# ps -ef | grep 프로세스명
+[root@localhost ~]# ps -ef | grep spring-boot-application
 ```
 
 ## 5. 현재 실행중인 프로세스 목록 확인
