@@ -71,28 +71,23 @@ tags: [process, process_id, process_kill, linux_process, 리눅스_프로세스]
 [root@localhost ~]# pstree
 ```
 
-## 3. 특정 프로세스 정보
+## 3. 해당 프로세스 정보
+ps -ef | grep [프로세스명]
 
 ```bash
 [root@localhost ~]# ps -ef | grep spring-boot-application
 ```
 
-## 4. 프로세스 PID 확인
-
-```bash
-[root@localhost ~]# ps -ef | grep spring-boot-application
-```
-
-## 5. 현재 실행중인 프로세스 목록 확인
+## 4. 현재 실행중인 전체 프로세스 목록 확인
 
 ```bash
 [root@localhost ~]# top
 ```
 
-## 6. 프로세스 kill
+## 5. 프로세스 kill
 
 ```bash
-[root@localhost ~]# kill -9 PID
+[root@localhost ~]# kill -9 [PID]
 ```
 
 * 자주쓰는 옵션
