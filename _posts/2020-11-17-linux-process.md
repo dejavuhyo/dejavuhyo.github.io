@@ -85,9 +85,10 @@ ps -ef | grep [프로세스명]
 ```
 
 ## 5. 프로세스 kill
+kill -9 [PID]
 
 ```bash
-[root@localhost ~]# kill -9 [PID]
+[root@localhost ~]# kill -9 25344
 ```
 
 * 자주쓰는 옵션
