@@ -1,5 +1,5 @@
 --- 
-title: IntelliJ 메모리 설정 
+title: IntelliJ 메모리 설정
 author: Hyosik
 date: 2020-11-18 09:30:00 +0900
 categories: [Tools, IDE]
@@ -68,6 +68,8 @@ The IDE is running low on memory and this  mightaffect performance. please consi
 * Appearance → Show memory indicator 체크
 
 ![img005](/assets/img/2020-11-18-intellij-memory-setting/img005.png)
+
+* 확인
 
 ![img006](/assets/img/2020-11-18-intellij-memory-setting/img006.png)
 
