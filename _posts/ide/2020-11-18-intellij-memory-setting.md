@@ -7,7 +7,7 @@ tags: [intellij_memory, intellij_jvm, intellij, memory]
 ---
 
 ## 1. 메모리 부족 메시지
-IntelliJ 동작이 느리거나 메모리 부족 경고가 뜬다.
+IntelliJ 동작이 느리거나 메모리 부족 메시지가 뜬다.
 
 ```text
 Low Memory
