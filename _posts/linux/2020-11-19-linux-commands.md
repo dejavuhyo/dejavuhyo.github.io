@@ -80,7 +80,7 @@ display all running processes
 kill process id *pid*
 
 ### 4) killall proc
-kill all processes named proc *
+kill all processes named proc
 
 ### 5) bg
 lists stopped or background jobs (resume a stopped job in the background)
@@ -109,6 +109,66 @@ change the permissions of file to octal, which can be found separately for user,
 > chmod 755 – rwx for owner, rx for group and world
 >
 > For more options, see **man chmod**
+
+## 4. Searching
+
+### 1) grep pattern files
+search for *pattern* in *files*
+
+### 2) grep -r pattern dir
+search recursively for *pattern* in *dir*
+
+### 3) command | grep pattern
+search for *pattern* in the output of *command*
+
+### 4) locate file
+find all instances of *file*
+
+## 5. Compression
+
+### 1) tar cf file.tar files
+create a tar named *file.tar* containing *files*
+
+### 2) tar xf file.tar
+extract the files from *file.tar*
+
+### 3) tar czf file.tar.gz files
+create a tar with Gzip compression
+
+### 4) tar xzf file.tar.gz
+extract a tar using Gzip
+
+### 5) tar cjf file.tar.bz2
+create a tar with Bzip2 compression
+
+### 6) tar xjf file.tar.bz2
+extract a tar using Bzip2
+
+### 7) gzip file
+compresses *file* and renames it to *file.gz*
+
+### 8) gzip -d file.gz
+decompresses *file.gz* back to *file*
+
+## 6. Network
+
+### 1) ping host
+ping *host* and output results
+
+### 2) whois domain
+get whois information for *domain*
+
+### 3) dig domain
+get DNS information for *domain*
+
+### 4) dig -x host
+reverse lookup *host*
+
+### 5) wget file
+download *file*
+
+### 6) wget -c file
+continue a stopped download
 
 ## [출처 및 참고]
 * <https://fosswire.com/post/2007/08/unixlinux-command-cheat-sheet/>
