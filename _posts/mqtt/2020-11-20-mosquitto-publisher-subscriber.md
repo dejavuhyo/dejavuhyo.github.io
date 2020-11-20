@@ -51,9 +51,6 @@ public class Publisher {
 
         MemoryPersistence persistence = new MemoryPersistence();
 
-        if (args.length > 1)
-            brokerUrl = "tcp://" + args[0] + ":1883";
-
         try {
             MqttClient sampleClient = new MqttClient(brokerUrl, clientId, persistence);
 
