@@ -1,12 +1,12 @@
 ---
 title: Mosquitto Publisher Subscriber
 author: Hyosik
-date: 2020-07-29 17:00:00 +0900
+date: 2020-11-20 10:30:00 +0900
 categories: [Tools, MQTT]
-tags: [mosquitto_publisher, mosquitto_subscriber, mosquitto_pub, mosquitto_sub, matt_publisher, mqtt_subscriber, mqtt_pub, mqtt_sub]
+tags: [mosquitto_publisher, mosquitto_subscriber, mosquitto_pub, mosquitto_sub, matt_publisher, mqtt_subscriber, mqtt_pub, mqtt_sub, mqtt_broker, mqtt]
 ---
 
-## 1. Paho Download
+## 1. Eclipse Paho Client Mqttv3 Download
 
 * Gradle
 
@@ -96,7 +96,6 @@ public class Publisher {
     }
 }
 ```
-
 
 ## 3. Subscriber
 
@@ -250,7 +249,6 @@ public class Subscriber {
     }
 }
 ```
-
 
 ## 출처 및 참고
 * <https://iot.knu.ac.kr/tech/CPL-TR-16-02-MQTT.pdf>
