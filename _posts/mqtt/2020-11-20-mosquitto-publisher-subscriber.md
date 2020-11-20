@@ -113,7 +113,7 @@ public class Subscriber {
     public static void main(String[] args) throws Exception {
 
         String brokerUrl = "tcp://192.168.0.214:1883";
-        String clientId = "Subcriber";
+        String clientId = "subcriber";
         String id = "admin";
         String password = "admin123";
         String topicName = "test";
