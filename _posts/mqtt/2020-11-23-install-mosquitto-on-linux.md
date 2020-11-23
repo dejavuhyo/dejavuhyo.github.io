@@ -16,7 +16,7 @@ tags: [mosquitto_install, mosquitto_linux, mosquitto_install_linux]
 ## 2. 의존성 패키지 설치
 
 ```bash
-[root@localhost ~]# yum install gcc
+[root@localhost ~]# yum install gcc*
 [root@localhost ~]# yum install openssl openssl-devel
 [root@localhost ~]# yum install pcre pcre-devel
 [root@localhost ~]# yum install zlib zlib-devel
@@ -168,7 +168,7 @@ tags: [mosquitto_install, mosquitto_linux, mosquitto_install_linux]
 # OR
 [root@localhost mosquitto]# mosquitto -c ./mosquitto.conf -d
 # OR
-[root@localhost mosquitto]# nohup mosquitto -c ./mosquitto.conf -d &
+[root@localhost mosquitto]# nohup mosquitto -c ./mosquitto.conf -d
 ```
 
 ## 출처 및 참고
