@@ -57,8 +57,9 @@ tags: [mosquitto_install, mosquitto_linux, mosquitto_install_linux]
 ```
 * 추가
 
-include ld.so.conf.d/*.conf
-include /usr/local/openssl/lib
+> include ld.so.conf.d/*.conf
+>
+> include /usr/local/openssl/lib
 
 * 적용
 
@@ -100,7 +101,7 @@ include /usr/local/openssl/lib
 
 * 추가
 
-include /usr/local/mosquitto/lib
+> include /usr/local/mosquitto/lib
 
 * 적용
 
@@ -133,10 +134,14 @@ ln -s /usr/local/mosquitto/lib/libmosquitto.so.1 /usr/lib/libmosquitto.so.1
 ```
 
 * 추가
-MOSQUITTO_HOME=/usr/local/mosquitto
-export MOSQUITTO_HOME
-PATH=$PATH:$MOSQUITTO_HOME/src
-export PATH
+
+> MOSQUITTO_HOME=/usr/local/mosquitto
+>
+> export MOSQUITTO_HOME
+>
+> PATH=$PATH:$MOSQUITTO_HOME/src
+>
+> export PATH
 
 * 적용
 
