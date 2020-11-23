@@ -52,9 +52,11 @@ tags: [mosquitto_install, mosquitto_linux, mosquitto_install_linux]
 ### 3) 라이브러리 로딩 추가
 
 * 편집
+
 ```bash
 [root@localhost ~]# vi /etc/ld.so.conf
 ```
+
 * 추가
 
 > include ld.so.conf.d/*.conf
@@ -63,7 +65,7 @@ tags: [mosquitto_install, mosquitto_linux, mosquitto_install_linux]
 
 * 적용
 
-```
+```bash
 [root@localhost ~]# /sbin/ldconfig
 ```
 
@@ -111,18 +113,20 @@ tags: [mosquitto_install, mosquitto_linux, mosquitto_install_linux]
 
 * ld.so.conf 내용
 
-```text
-include ld.so.conf.d/*.conf
-include /usr/local/openssl/lib
-include /usr/local/mosquitto/lib
-/usr/lib
-/usr/local/lib
-```
+> include ld.so.conf.d/*.conf
+> 
+> include /usr/local/openssl/lib
+>
+> include /usr/local/mosquitto/lib
+>
+> /usr/lib
+>
+> /usr/local/lib
 
 ### 4) 심볼릭 링크 생성
 
 ```bash
-ln -s /usr/local/mosquitto/lib/libmosquitto.so.1 /usr/lib/libmosquitto.so.1
+[root@localhost ~]# ln -s /usr/local/mosquitto/lib/libmosquitto.so.1 /usr/lib/libmosquitto.so.1
 ```
 
 ### 5) MOSQUITTO_HOME 설정
