@@ -156,9 +156,7 @@ export PATH
 
 ```bash
 [root@localhost mosquitto]# mosquitto
-# OR
 [root@localhost mosquitto]# mosquitto -c ./mosquitto.conf -d
-# OR
 [root@localhost mosquitto]# nohup mosquitto -c ./mosquitto.conf -d &
 ```
 
