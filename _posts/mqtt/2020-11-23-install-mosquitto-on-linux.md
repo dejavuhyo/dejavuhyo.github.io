@@ -28,7 +28,7 @@ tags: [mosquitto_install, mosquitto_linux, mosquitto_install_linux]
 ### 1) 다운로드
 
 ```bash
-[root@localhost ~]# wget http://www.openssl.org/source/openssl-1.1.1g.tar.gz
+[root@localhost ~]# wget
 [root@localhost ~]# tar -zxvf openssl-1.1.1g.tar.gz
 [root@localhost ~]# cp -Rf openssl-1.1.1g /usr/local/openssl
 [root@localhost ~]# cd /usr/local/openssl
@@ -77,7 +77,7 @@ include /usr/local/openssl/lib
 ### 1) 다운로드
 
 ```bash
-[root@localhost ~]# wget http://mosquitto.org/files/source/mosquitto-1.6.12.tar.gz
+[root@localhost ~]# wget
 [root@localhost ~]# tar -zxvf mosquitto-1.6.12.tar.gz
 [root@localhost ~]# cp -Rf mosquitto-1.6.12 /usr/local/mosquitto
 [root@localhost ~]# cd /usr/local/mosquitto
@@ -102,7 +102,7 @@ include /usr/local/openssl/lib
 
 include /usr/local/mosquitto/lib
 
-# 적용
+* 적용
 
 ```bash
 [root@localhost ~]# /sbin/ldconfig
@@ -156,7 +156,9 @@ export PATH
 
 ```bash
 [root@localhost mosquitto]# mosquitto
+# OR
 [root@localhost mosquitto]# mosquitto -c ./mosquitto.conf -d
+# OR
 [root@localhost mosquitto]# nohup mosquitto -c ./mosquitto.conf -d &
 ```
 
