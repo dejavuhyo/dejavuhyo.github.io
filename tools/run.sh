@@ -14,14 +14,11 @@ set -eu
 
 WORK_DIR="$(dirname "$(dirname "$(realpath "$0")")")"
 
-CONTAINER="${WORK_DIR}/.container"
+CONTAINER=.container
 SYNC_TOOL=_scripts/sh/sync_monitor.sh
 
-cmd="bundle exec jekyll s"
-JEKYLL_DOCKER_HOME="/srv/jekyll"
-
+cmd="bundle exec jekyll s -l -o"
 realtime=false
-docker=false
 
 _help() {
   echo "Usage:"
@@ -35,47 +32,27 @@ _help() {
   echo "     -h, --help              Print the help information"
   echo "     -t, --trace             Show the full backtrace when an error occurs"
   echo "     -r, --realtime          Make the modified content updated in real time"
-  echo "         --docker            Run within docker"
 }
 
 _cleanup() {
-  rm -rf "$CONTAINER"
+  if [[ -d _site || -d .jekyll-cache ]]; then
+    jekyll clean
+  fi
+
+  rm -rf "${WORK_DIR}/${CONTAINER}"
   ps aux | grep fswatch | awk '{print $2}' | xargs kill -9 > /dev/null 2>&1
 }
 
-_setup_docker() {
-  # docker image `jekyll/jekyll` based on Alpine Linux
-  echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories
-  ## CN Apline sources mirror
-  # sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories
-  apk update
-  apk add yq
-}
-
 _init() {
-  cd "$WORK_DIR"
 
-  if [[ -f Gemfile.lock ]]; then
-    rm -f Gemfile.lock
+  if [[ -d "${WORK_DIR}/${CONTAINER}" ]]; then
+    rm -rf "${WORK_DIR}/${CONTAINER}"
   fi
 
-  if [[ -d $CONTAINER ]]; then
-    rm -rf "$CONTAINER"
-  fi
-
-  mkdir "$CONTAINER"
-  cp -r ./* "$CONTAINER"
-  cp -r ./.git "$CONTAINER"
-
-  if $docker; then
-    local _image_user=$(stat -c "%U" "$JEKYLL_DOCKER_HOME"/.)
-
-    if [[ $_image_user != $(whoami) ]]; then
-      # under Docker for Linux
-      chown -R "$(stat -c "%U:%G" "$JEKYLL_DOCKER_HOME"/.)" "$CONTAINER"
-    fi
-
-  fi
+  temp="$(mktemp -d)"
+  cp -r "$WORK_DIR"/* "$temp"
+  cp -r "${WORK_DIR}/.git" "$temp"
+  mv "$temp" "${WORK_DIR}/${CONTAINER}"
 
   trap _cleanup INT
 }
@@ -95,8 +72,10 @@ _check_command() {
   fi
 }
 
-_run() {
-  cd "$CONTAINER"
+main() {
+  _init
+
+  cd "${WORK_DIR}/${CONTAINER}"
   bash _scripts/sh/create_pages.sh
   bash _scripts/sh/dump_lastmod.sh
 
@@ -115,23 +94,8 @@ _run() {
       "$WORK_DIR" | xargs -0 -I {} bash "./${SYNC_TOOL}" {} "$WORK_DIR" . &
   fi
 
-  if $docker; then
-    cmd+=" -H 0.0.0.0"
-  else
-    cmd+=" -l -o"
-  fi
-
   echo "\$ $cmd"
   eval "$cmd"
-}
-
-main() {
-  if $docker; then
-    _setup_docker
-  fi
-
-  _init
-  _run
 }
 
 while (($#)); do
@@ -167,10 +131,6 @@ while (($#)); do
     -r | --realtime)
       _check_command fswatch "http://emcrisostomo.github.io/fswatch/"
       realtime=true
-      shift
-      ;;
-    --docker)
-      docker=true
       shift
       ;;
     -h | --help)
