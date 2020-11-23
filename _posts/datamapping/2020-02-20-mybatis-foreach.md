@@ -6,7 +6,7 @@ categories: [Application, DataMapping]
 tags: [mybatis_foreach, mybatis_반복문]
 ---
 
-## Array 사용
+## 1. Array 사용
 
 * Controller
 
@@ -50,7 +50,7 @@ public class DemoVO {
 </select>
 ```
 
-## List 사용
+## 2. List 사용
 
 * Controller
 
