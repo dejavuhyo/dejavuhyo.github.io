@@ -1,28 +1,47 @@
-name: 'Automatic build'
+name: 'Continuous Integration'
 on:
   push:
-    branches:
-      - master
+    branches-ignore:
+      - 'production'
+    tags-ignore:
+      - '*'
     paths-ignore:
+      - '.github/**'
+      - '!.github/workflows/ci.yml'
+      - '.travis.yml'
       - '.gitignore'
+      - 'docs/**'
       - 'README.md'
       - 'LICENSE'
+  pull_request:
+    paths:
+      - '**'
 
 jobs:
-  continuous-delivery:
-    runs-on: ubuntu-latest
+  ci:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
 
     steps:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.6.x'
 
-      - name: Install tools
+      - name: Install tools (for Ubuntu)
+        if: matrix.os == 'ubuntu-latest'
         run: |
           sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys CC86BB64
           sudo add-apt-repository ppa:rmescandon/yq
           sudo apt update
           sudo apt install yq -y
+
+      - name: Install tools (for macOS)
+        if: matrix.os == 'macos-latest'
+        run: |
+          brew install coreutils
+          brew install yq
 
       - name: Checkout
         uses: actions/checkout@v2
@@ -52,26 +71,10 @@ jobs:
         run: |
           bundle install --local
 
-      - name: Check baseurl
-        run: |
-          baseurl="$(grep '^baseurl:' _config.yml | yq r - baseurl)"
-          if [[ -n $baseurl ]]; then
-            echo "::set-env name=SPEC_TEST::_site_no_baseurl"
-          fi
-
       - name: Build Site
         run: |
           bash tools/build.sh
 
-          if [[ -n $SPEC_TEST ]]; then
-            # Bypass the defects of htmlproofer
-            bash tools/build.sh -b "" -d "$SPEC_TEST"
-          fi          
-
       - name: Test Site
         run: |
-          bash tools/test.sh "$SPEC_TEST"
-
-      - name: Deploy
-        run: |
-          bash tools/deploy.sh
+          bash tools/test.sh
