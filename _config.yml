@@ -8,9 +8,9 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: 밥줄과 취미 사이 ːː 못 먹어도 고!                          # the main title
+title: Chirpy                          # the main title
 
-tagline: https://dejavuhyo.github.io https://blog.naver.com/dejavuhyo  # it will display as the sub-title
+tagline: A text-focused Jekyll theme.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -18,25 +18,25 @@ description: >-                        # used by seo meta and the atom feed
   and focuses on text presentation.
 
 # Replace with the website url, e.g. 'https://username.github.io'
-url: 'https://dejavuhyo.github.io'
+url: 'protocol://domain'
 
-author: Hyosik                  # change to your full name
+author: your_full_name                  # change to your full name
 
-avatar: /assets/img/favicons/me.png   # support internet resources
+avatar: /assets/img/sample/avatar.jpg   # support internet resources
 
 github:
-  username: dejavuhyo             # change to your github username
+  username: github_username             # change to your github username
 
 twitter:
-  username:             # change to your twitter username
+  username: twitter_username            # change to your twitter username
 
 social:
-  name: Hyosik                  # it will shows as the copyright owner in Footer
-  email: dejavuhyo@gmail.com             # change to your email address
+  name: your_full_name                  # it will shows as the copyright owner in Footer
+  email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/dejavuhyo       # change to your github homepage
+    - https://twitter.com/username      # change to your twitter homepage
+    - https://github.com/username       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -51,7 +51,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 baseurl: ''
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Seoul
+timezone: Asia/Shanghai
 
 google_analytics:
   id: ''          # Fill with your Google Analytics ID
@@ -168,10 +168,8 @@ sass:
 
 compress_html:
   clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: [html, head, body, dt, dd, rt, rp,
-            optgroup, option, colgroup, caption,
-            thead, tbody, tfoot, tr, td, th]
+  comments: all
+  endings: all
   profile: false
   blanklines: false
   ignore:
