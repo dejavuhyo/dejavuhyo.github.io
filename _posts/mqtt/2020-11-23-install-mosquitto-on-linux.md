@@ -1,7 +1,7 @@
 ---
 title: 리눅스에 Mosquitto 설치
 author: Hyosik
-date: 2020-11-22 09:30:00 +0900
+date: 2020-11-23 09:30:00 +0900
 categories: [Tools, MQTT]
 tags: [mosquitto_install, mosquitto_linux, mosquitto_install_linux]
 ---
@@ -16,7 +16,7 @@ tags: [mosquitto_install, mosquitto_linux, mosquitto_install_linux]
 ## 2. 의존성 패키지 설치
 
 ```bash
-[root@localhost ~]# yum install gcc*
+[root@localhost ~]# yum install gcc
 [root@localhost ~]# yum install openssl openssl-devel
 [root@localhost ~]# yum install pcre pcre-devel
 [root@localhost ~]# yum install zlib zlib-devel
@@ -28,7 +28,7 @@ tags: [mosquitto_install, mosquitto_linux, mosquitto_install_linux]
 ### 1) 다운로드
 
 ```bash
-[root@localhost ~]# wget
+[root@localhost ~]# wget http://www.openssl.org/source/openssl-1.1.1g.tar.gz
 [root@localhost ~]# tar -zxvf openssl-1.1.1g.tar.gz
 [root@localhost ~]# cp -Rf openssl-1.1.1g /usr/local/openssl
 [root@localhost ~]# cd /usr/local/openssl
@@ -77,7 +77,7 @@ include /usr/local/openssl/lib
 ### 1) 다운로드
 
 ```bash
-[root@localhost ~]# wget
+[root@localhost ~]# wget http://mosquitto.org/files/source/mosquitto-1.6.12.tar.gz
 [root@localhost ~]# tar -zxvf mosquitto-1.6.12.tar.gz
 [root@localhost ~]# cp -Rf mosquitto-1.6.12 /usr/local/mosquitto
 [root@localhost ~]# cd /usr/local/mosquitto
