@@ -23,7 +23,11 @@ tags: [linux_shellscript, start_shellscript, stop_shellscript, 시작_쉘스크�
 ### 3) 추가
 spring-boot-application에 로그 설정이 되어 있으면 nohup을 사용하지 않고 실행
 
-> **로그설정:** <https://dejavuhyo.github.io/posts/spring-boot-logback/>, <https://blog.naver.com/dejavuhyo/222129041829>
+> 로그설정:
+>
+> <https://dejavuhyo.github.io/posts/spring-boot-logback/>
+>
+> <https://blog.naver.com/dejavuhyo/222129041829>
 
 ```shell
 #!/bin/bash
