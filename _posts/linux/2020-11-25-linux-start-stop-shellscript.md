@@ -49,6 +49,8 @@ java -jar spring-boot-application.jar &
 
 ```shell
 #!/bin/bash
+
 APP_PID=$(ps -ef | grep java | grep spring-boot-application.jar | grep -v grep | awk '{print $2}')
+
 kill -KILL $APP_PID
 ```
