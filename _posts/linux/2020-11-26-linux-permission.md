@@ -3,7 +3,7 @@ title: Linux 권한 설정
 author: Hyosik
 date: 2020-11-26 09:30:00 +0900
 categories: [OS, Linux]
-tags: [linux_permission, permission, chmod, chown, chgrp, umask, 리눅스_권한, 권한]
+tags: [linux_permission, permission, chmod, chown, 리눅스_권한, 권한]
 ---
 
 ## 1. 접근 권한(chmod)
@@ -36,7 +36,6 @@ Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'.
 GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
 Report chmod translation bugs to <http://translationproject.org/team/>
 For complete documentation, run: info coreutils 'chmod invocation'
-
 ```
 
 * 주요 옵션
@@ -78,8 +77,11 @@ For complete documentation, run: info coreutils 'chmod invocation'
 
 * chmod [소유자 권한][그룹 권한][일반사용자 권한] 파일명
 
-* 예: chmod 766 test.txt
-  - test.txt에 대해 소유자 권한(읽기,쓰기,실행), 그룹 권한(읽기,쓰기), 일반사용자(읽기,쓰기)로 변경한다.
+* 예: test.txt에 대해 소유자 권한(읽기,쓰기,실행), 그룹 권한(읽기,쓰기), 일반사용자(읽기,쓰기)로 변경
+
+```bash
+[root@localhost ~]# chmod 766 test.txt
+```
 
 ## 2. 소유권 및 그룹(chown)
 파일이나 디렉터리 소유주나 그룹을 변경할 때 사용한다. 명령을 실행하면 이전 소유주는 해당 파일에 이 명령을 다시 시행할 수 없다. 명령어를 사용하기 위해서는 슈퍼유저 권한이 필요하다.
@@ -147,8 +149,11 @@ For complete documentation, run: info coreutils 'chown invocation'
 
 * chown [소유권자]:[그룹식별자] [소유권을 변경하고 싶은 파일명]
 
-* 예: chmod aaa:bbb text.txt
-  - text.txt 파일명의 소유권자를 aaa로 하고, 그룹식별자를 bbb로 변경한다.
+* 예: text.txt 파일명의 소유권자를 aaa로 하고, 그룹식별자를 bbb로 변경
+
+```bash
+[root@localhost ~]# chmod aaa:bbb text.txt
+```
 
 ## [출처 및 참고]
 * <https://eunguru.tistory.com/93>
