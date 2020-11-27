@@ -1,5 +1,5 @@
 ---
-title: Mosquitto Publisher Subscriber
+title: Mosquitto Publisher, Subscriber
 author: Hyosik
 date: 2020-11-20 10:30:00 +0900
 categories: [Tools, MQTT]
