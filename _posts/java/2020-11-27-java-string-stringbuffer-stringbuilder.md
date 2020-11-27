@@ -1,9 +1,9 @@
 --- 
-title: Java String, StringBuffer, StringBuilder 차이 및 장단점
+title: String, StringBuffer, StringBuilder 차이 및 장단점
 author: Hyosik
 date: 2020-11-27 11:05:00 +0900
 categories: [Language, Java]
-tags: [java_string, stringbuffer, stringbuilder]
+tags: [string, stringbuffer, stringbuilder]
 ---
 
 ## 1. 개념
