@@ -9,9 +9,9 @@ tags: [string, stringbuffer, stringbuilder]
 ## 1. 개념
 Java에서 문자열을 다루는 대표적인 클래스로 String, StringBuffer, StringBuilder가 있다.
 
-연산이 많이 않을때는 특별한 이슈가 발생할 가능성이 거의 없지만, 연산횟수가 많아지거나 멀티스레드, Race Condition 등의 상황이 자주 발생하면 각 클래스의 특징을 이해하고 상황에 맞는 적절한 클래스를 사용해야 한다.
+연산이 많이 않을때는 특별한 이슈가 발생할 가능성이 거의 없지만, 연산횟수가 많아지거나 멀티스레드, 경쟁 상태(Race Condition) 등의 상황이 자주 발생하면 각 클래스의 특징을 이해하고 상황에 맞는 적절한 클래스를 사용해야 한다.
 
-String과 StringBuffer와 StringBuilder의 기본적인 차이는 String은 불변(immutable), StringBuffer와 StringBuilder는 변함(mutable) 이다.
+String과 StringBuffer와 StringBuilder의 기본적인 차이는 String은 불변(Immutable), StringBuffer와 StringBuilder는 변함(Mutable) 이다.
 
 ## 2. String
 String 객체는 한번 생성되면 할당된 메모리 공간이 변하지 않는다.
