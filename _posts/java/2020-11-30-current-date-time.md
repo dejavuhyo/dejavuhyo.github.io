@@ -16,7 +16,7 @@ public class CurrentDateTime {
 
     public static void main(String[] args) {
 
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
         Date date = new Date();
 
@@ -40,7 +40,7 @@ public class CurrentDateTime {
 
     public static void main(String[] args) {
 
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     
         // 에러: 추상클래스는 인스턴스를 생성할 수 없다.
         // Calendar calendar = new Calendar();
@@ -66,7 +66,7 @@ public class CurrentDateTime {
 
     public static void main(String[] args) {
 
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
         String currentDt = sdf.format(System.currentTimeMillis());
         System.out.println(currentDt);
@@ -85,7 +85,7 @@ public class CurrentDateTime {
 
     public static void main(String[] args) {
 
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
         StringBuffer stringBuffer = new StringBuffer();
         Date date = new Date();
