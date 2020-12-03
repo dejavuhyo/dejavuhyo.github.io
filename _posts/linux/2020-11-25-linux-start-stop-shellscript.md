@@ -10,13 +10,13 @@ tags: [linux_shellscript, start_shellscript, stop_shellscript, 시작_쉘스크�
 
 ### 1) 파일생성
 
-```bash
+```shell
 [root@localhost ~]# touch start.sh
 ```
 
 ### 2) 편집
 
-```bash
+```shell
 [root@localhost ~]# vi start.sh
 ```
 
@@ -39,13 +39,13 @@ java -jar spring-boot-application.jar &
 
 ### 1) 파일생성
 
-```bash
+```shell
 [root@localhost ~]# touch stop.sh
 ```
 
 ### 2) 편집
 
-```bash
+```shell
 [root@localhost ~]# vi stop.sh
 ```
 
