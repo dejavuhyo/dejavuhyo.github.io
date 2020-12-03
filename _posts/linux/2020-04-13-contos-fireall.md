@@ -8,7 +8,7 @@ tags: [centos_firewall, firewall_setting, firewall, centos_방화벽, 방화벽_
 
 ## 1. 설치
 
-```bash
+```shell
 [root@localhost ~]# yum list install firewalld
 [root@localhost ~]# systemctl start firewalld
 [root@localhost ~]# systemctl enable firewalld
@@ -24,13 +24,13 @@ tags: [centos_firewall, firewall_setting, firewall, centos_방화벽, 방화벽_
 
 * 편집
 
-```bash
+```shell
 [root@localhost ~]# vi /etc/firewalld/firewalld.conf
 ```
 
 * 수정
 
-```bash
+```text
 # default zone
 # The default zone used if an empty zone string is used.
 # Default: public
@@ -42,7 +42,7 @@ DefaultZone=dmz
 
 * 편집
 
-```bash
+```shell
 [root@localhost ~]# vi /etc/firewalld/zones/public.xml
 ```
 
@@ -66,7 +66,7 @@ DefaultZone=dmz
 ## 3. 재시작
 서비스 재구동시 firewall-cmd 명령어 사용
 
-```bash
+```shell
 [root@localhost ~]# firewall-cmd --reload
 ```
 
@@ -74,26 +74,26 @@ DefaultZone=dmz
 
 ### 1) 포트 추가
 
-```bash
-firewall-cmd --permanent --zone=public --add-port=8080/tcp
+```shell
+[root@localhost ~]# firewall-cmd --permanent --zone=public --add-port=8080/tcp
 ```
 
 포트를 범위로 지정하려면 - 구분자를 넣어서 설정 (4000 ~ 4100 포트 오픈)
 
-```bash
-firewall-cmd --permanent --zone=public --add-port=4000-4100/tcp
+```shell
+[root@localhost ~]# firewall-cmd --permanent --zone=public --add-port=4000-4100/tcp
 ```
 
 ### 2) 포트 삭제
 
-```bash
-firewall-cmd --permanent --zone=public --remove-port=8080/tcp
+```shell
+[root@localhost ~]# firewall-cmd --permanent --zone=public --remove-port=8080/tcp
 ```
 
 ### 3) 허용 IP 추가
 
-```bash
-firewall-cmd --permanent --zone=public --add-source=192.168.1.0/24 --add-port=22/tcp
+```shell
+[root@localhost ~]# firewall-cmd --permanent --zone=public --add-source=192.168.1.0/24 --add-port=22/tcp
 ```
 
 ## 5. Zone
@@ -101,65 +101,65 @@ Zone은 서버의 용도에 맞게 사전에 정의된 네트워크의 신뢰 �
 
 ### 1) Zone 목록 보기
 
-```bash
-firewall-cmd --get-zones
+```shell
+[root@localhost ~]# firewall-cmd --get-zones
 ```
 
 ### 2) 전체 Zone 목록 상세 보기
 
-```bash
-firewall-cmd --list-all-zone
+```shell
+[root@localhost ~]# firewall-cmd --list-all-zone
 ```
 
 ### 3) 기본(default) Zone 보기
 
-```bash
-firewall-cmd --get-default-zone
+```shell
+[root@localhost ~]# firewall-cmd --get-default-zone
 ```
 
 ### 4) 활성화된 Zone 보기
 
-```bash
-firewall-cmd --get-active-zone
+```shell
+[root@localhost ~]# firewall-cmd --get-active-zone
 ```
 
 ### 5) 새로운 Zone 추가
 
-```bash
-firewall-cmd --permanent --new-zone=webserver
+```shell
+[root@localhost ~]# firewall-cmd --permanent --new-zone=webserver
 ```
 
 ### 6) Zone 삭제
 
-```bash
-firewall-cmd --permanent --delete-zone=webserver
+```shell
+[root@localhost ~]# firewall-cmd --permanent --delete-zone=webserver
 ```
 
 ## 6. 서비스 목록
 
 ### 1) 사전에 정의된 목록 보기
 
-```bash
-firewall-cmd --get-services
+```shell
+[root@localhost ~]# firewall-cmd --get-services
 ```
 
 ### 2) permanent로 등록된 서비스 목록 보기
 dmz 존에 영구적으로 등록된 서비스 목록 확인
 
-```bash
-firewall-cmd --permanent --list-all --zone=dmz
+```shell
+[root@localhost ~]# firewall-cmd --permanent --list-all --zone=dmz
 ```
 
 ### 3) 서비스 추가
 
-```bash
-firewall-cmd --permanent --zone=dmz --add-service=http
+```shell
+[root@localhost ~]# firewall-cmd --permanent --zone=dmz --add-service=http
 ```
 
 ### 4) 서비스 삭제
 
-```bash
-firewall-cmd --permanent --zone=dmz --remove-service=http
+```shell
+[root@localhost ~]# firewall-cmd --permanent --zone=dmz --remove-service=http
 ```
 
 ## 출처 및 참고
