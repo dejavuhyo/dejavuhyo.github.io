@@ -13,13 +13,13 @@ Jenkins에서 war 파일 배포를 위해 manager 접속이 필요하다. manage
 
 * 편집
 
-```bash
+```shell
 [root@localhost apache-tomcat-9.0.34]# vi conf/tomcat-users.xml
 ```
 
 * 추가
 
-```bash
+```xml
 <tomcat-users xmlns="http://tomcat.apache.org/xml"
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
               xsi:schemaLocation="http://tomcat.apache.org/xml tomcat-users.xsd"
@@ -42,13 +42,13 @@ Jenkins에서 war 파일 배포를 위해 manager 접속이 필요하다. manage
 
 * 편집
 
-```bash
+```shell
 [root@localhost apache-tomcat-9.0.34]# vi webapps/manager/META-INF/context.xml
 ```
 
 * 설정
 
-```bash
+```xml
 <Context antiResourceLocking="false" privileged="true" >
 
   <Valve className="org.apache.catalina.valves.RemoteAddrValve"
