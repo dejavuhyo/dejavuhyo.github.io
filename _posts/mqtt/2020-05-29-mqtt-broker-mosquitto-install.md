@@ -62,7 +62,7 @@ tags: [mqtt_broker, mqtt_mosquitto, mosquitto_install, mosquitto_setup, mosquitt
 
 ## 3. 포트 확인
 
-```bash
+```command
 C:\Windows\system32>netstat -an
 ```
 
@@ -75,7 +75,7 @@ C:\Windows\system32>netstat -an
 
 * 모든 통신 로그를 보면서 시작
 
-```bash
+```command
 C:\Program Files\mosquitto>mosquitto -v
 ```
 
@@ -83,13 +83,13 @@ C:\Program Files\mosquitto>mosquitto -v
 
 * 시작
 
-```bash
+```command
 C:\Program Files\mosquitto>net start mosquitto
 ```
 
 * 종료
 
-```bash
+```command
 C:\Program Files\mosquitto>net stop mosquitto
 ```
 
@@ -97,7 +97,7 @@ C:\Program Files\mosquitto>net stop mosquitto
 
 ### 2) Subscriber 실행
 
-```bash
+```command
 C:\Program Files\mosquitto>mosquitto_sub -h localhost -t /testTopic
 ```
 
