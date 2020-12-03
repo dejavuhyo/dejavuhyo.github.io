@@ -9,7 +9,7 @@ tags: [background_process_run, background_process, nohup, 백그라운드_프로
 ## 1. Background 실행
 프로세스를 백그라운드(background)로 실행하기 위해서는 일반적으로 뒤에 & 붙여 실행한다.
 
-```bash
+```shell
 [root@localhost ~]# java -jar spring-boot-application.jar &
 ```
 
@@ -18,7 +18,7 @@ tags: [background_process_run, background_process, nohup, 백그라운드_프로
 ## 2. nohup Background 실행
 프로그램을 Background에서 지속적으로 실행되고 있는 상태로 만들기 위해서 nohup 명령을 사용한다.
 
-```bash
+```shell
 [root@localhost ~]# nohup java -jar spring-boot-application.jar &
 ```
 
@@ -27,13 +27,13 @@ tags: [background_process_run, background_process, nohup, 백그라운드_프로
 
 ### 1) 다른 파일명으로 출력
 
-```bash
+```shell
 [root@localhost ~]# nohup java -jar spring-boot-application.jar > log.out
 ```
 
 ### 2) 출력하지 않음
 
-```bash
+```shell
 [root@localhost ~]# nohup java -jar spring-boot-application.jar > /dev/null
 ```
 
@@ -41,13 +41,13 @@ tags: [background_process_run, background_process, nohup, 백그라운드_프로
 
 ### 1) 실행중인 프로세스 찾기
 
-```bash
+```shell
 [root@localhost ~]# ps -ef | grep spring-boot-application
 ```
 
 ### 2) 프로세스 종료
 
-```bash
+```shell
 [root@localhost ~]# kill -9 {PID}
 ```
 
