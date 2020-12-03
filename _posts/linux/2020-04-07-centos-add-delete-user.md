@@ -8,7 +8,7 @@ tags: [centos_add_user, centos_delete_user, centos_계정_추가, centos_계정_
 
 ## 1. 계정 생성
 
-```bash
+```shell
 [root@localhost ~]# useradd 계정명
 ```
 
@@ -16,12 +16,12 @@ tags: [centos_add_user, centos_delete_user, centos_계정_추가, centos_계정_
 
 * 계정과 홈 디렉터리 모두 삭제
 
-```bash
+```shell
 [root@localhost ~]# userdel -r 계정명
 ```
 
 * 계정만 삭제
 
-```bash
+```shell
 [root@localhost ~]# userdel 계정명
 ```
