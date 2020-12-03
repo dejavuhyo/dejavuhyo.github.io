@@ -10,19 +10,19 @@ tags: [process, process_id, process_kill, linux_process, 리눅스_프로세스]
 
 ### 1) 목록 확인
 
-```bash
+```shell
 [root@localhost ~]# ps
 ```
 
 ### 2) 상세정보 확인
 
-```bash
+```shell
 [root@localhost ~]# ps -f
 ```
 
 ## 2. 모든 프로세스 정보
 
-```bash
+```shell
 # 목록
 [root@localhost ~]# ps -e
 
@@ -32,7 +32,7 @@ tags: [process, process_id, process_kill, linux_process, 리눅스_프로세스]
 
 ### 1) 목록 및 자원 사용률
 
-```bash
+```shell
 [root@localhost ~]# ps -aux
 ```
 
@@ -67,27 +67,27 @@ tags: [process, process_id, process_kill, linux_process, 리눅스_프로세스]
 
 ### 2) 프로세스 트리
 
-```bash
+```shell
 [root@localhost ~]# pstree
 ```
 
 ## 3. 해당 프로세스 정보
 ps -ef | grep [프로세스명]
 
-```bash
+```shell
 [root@localhost ~]# ps -ef | grep spring-boot-application
 ```
 
 ## 4. 현재 실행중인 전체 프로세스 목록 확인
 
-```bash
+```shell
 [root@localhost ~]# top
 ```
 
 ## 5. 프로세스 kill
 kill -9 [PID]
 
-```bash
+```shell
 [root@localhost ~]# kill -9 25344
 ```
 
