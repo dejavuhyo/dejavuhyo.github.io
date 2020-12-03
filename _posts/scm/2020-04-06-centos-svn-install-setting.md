@@ -8,7 +8,7 @@ tags: [centos_svn, centos_svn_install_setting, centos_svn_install, centos_svn_se
 
 ## 1. SVN 설치 확인
 
-```bash
+```shell
 [root@localhost ~]# yum list installed subversion
 Loaded plugins: fastestmirror, langpacks
 Loading mirror speeds from cached hostfile
@@ -21,7 +21,7 @@ Error: No matching Packages to list
 
 ## 2. SVN 설치가능 목록 확인
 
-```bash
+```shell
 [root@localhost ~]# yum list subversion
 Loaded plugins: fastestmirror, langpacks
 Loading mirror speeds from cached hostfile
@@ -36,7 +36,7 @@ subversion.x86_64                                1.7.14-14.el7                  
 
 ## 3. SVN 설치
 
-```bash
+```shell
 [root@localhost ~]# yum install subversion.x86_64
 Loaded plugins: fastestmirror, langpacks
 Loading mirror speeds from cached hostfile
@@ -63,7 +63,7 @@ Complete!
 
 ## 4. SVN 디렉터리 및 Repository 생성
 
-```bash
+```shell
 [root@localhost ~]# mkdir /svn/repos
 [root@localhost ~]# 
 [root@localhost ~]# cd /svn/repos/
@@ -77,7 +77,7 @@ repos
 
 ## 5. SVN 계정 설정
 
-```bash
+```shell
 [root@localhost conf]# cd /svn/repos/conf/
 ```
 
@@ -85,14 +85,14 @@ repos
 
 * svnserve.conf
 
-```bash
+```shell
 [root@localhost conf]# vi svnserve.conf 
 [root@localhost conf]#
 ```
 
 * 설정
 
-```bash
+```text
 [general]
 anon-access = none #익명 사용자 권한 none 권한 없음 
 auth-access = write #인증 사용자 권한 write 읽기/쓰기 권한
@@ -108,14 +108,14 @@ realm = My First Repository #인증시 사용자에게 보여질 인증 메세�
 
 * passwd
 
-```bash
+```shell
 [root@localhost conf]# vi passwd 
 [root@localhost conf]#
 ```
 
 * 추가
 
-```bash
+```text
 [users]
 # harry = harryssecret
 # sally = sallyssecret
@@ -127,14 +127,14 @@ user = 1234
 
 * authz
 
-```bash
+```shell
 [root@localhost conf]# vi authz 
 [root@localhost conf]#
 ```
 
 * 추가
 
-```bash
+```text
 # [repository:/baz/fuz]
 # @harry_and_sally = rw
 # * = r
@@ -147,14 +147,14 @@ user = rw
 
 * svnserve
 
-```bash
+```shell
 [root@localhost conf]# vi /etc/sysconfig/svnserve 
 [root@localhost conf]#
 ```
 
 * 설정
 
-```bash
+```text
 # OPTIONS is used to pass command-line arguments to svnserve.
 #
 # Specify the repository location in -r parameter:
@@ -166,7 +166,7 @@ OPTIONS="--threads --root /svn/repos"
 
 ### 1) SVN 기본 포트 3690을 열어준다.
 
-```bash
+```shell
 [root@localhost conf]# firewall-cmd --zone=public --permanent --add-port=3690/tcp
 success
 [root@localhost conf]# 
@@ -174,7 +174,7 @@ success
 
 ### [참고] 3690 포트 닫기
 
-```bash
+```shell
 [root@localhost conf]# firewall-cmd --zone=public --permanent --remove-port=3690/tcp
 success
 [root@localhost conf]#
@@ -182,7 +182,7 @@ success
 
 ### 2) 방화벽 재시작 (설정된 내용 적용)
 
-```bash
+```shell
 [root@localhost ~]# firewall-cmd --reload
 success
 [root@localhost conf]#
@@ -190,7 +190,7 @@ success
 
 ### 3) 방화벽 설정 확인
 
-```bash
+```shell
 [root@localhost conf]# firewall-cmd --list-all
 public (active)
   target: default
@@ -213,21 +213,21 @@ public (active)
 
 ### 1) svnserve 시작(재시작)
 
-```bash
+```shell
 [root@localhost ~]# systemctl restart svnserve.service
 [root@localhost ~]#
 ```
 
 ### 2) 재부팅시 SVN 자동시작 설정
 
-```bash
+```shell
 [root@localhost conf]# systemctl enable /usr/lib/systemd/system/svnserve.service 
 [root@localhost conf]#
 ```
 
 ### 3) SVN 상태 확인
 
-```bash
+```shell
 [root@localhost conf]# ps -ef | grep svnserve
 root     30481     1  0 13:48 ?        00:00:00 svnserve -d -r /home/svn/
 root     30655 28556  0 13:59 pts/0    00:00:00 grep --color=auto svnserve
