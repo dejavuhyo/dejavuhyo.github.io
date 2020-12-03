@@ -45,7 +45,7 @@ tags: [java_home, java_classpath, classpath, 자바_홈, 자바_클래스패스,
 
 ## 2. 확인
 
-```bash
+```command
 C:\Users\user>echo %JAVA_HOME%
 C:\Users\user>java -version
 C:\Users\user>javac
