@@ -3,14 +3,13 @@ title: CentOS Yum Repository 추가 및 삭제
 author: Hyosik
 date: 2020-12-03 10:33:00 +0900
 categories: [OS, Linux]
-tags: [yum_repository, yum_repository_add, yum_repository_delete, centos_yum, centos_yum_repository]
+tags: [yum_repository, yum_repository_add, yum_repository_delete, centos_yum, centos_yum_repository, yum_repository_추가, yum_repository_삭제]
 ---
 
 ## 1. Yum Repository란
 Yum Repository는 Package를 모아놓은 저장소이다. Yum을 통해 Package 설치 시 활성화된 Yum Repository에서 다운로드하여 설치하기 때문에 Package가 Repository에 없으면 설치를 할 수 없다.
 
 Default Repository가 아닌 EPEL(Extra Package for Enterprise Linux), REMI 등 다른 Repository를 추가하여 원하는 Package 또는 최신 버전의 Package를 설치할 수 있다.
-
 
 ## 2. Yum Repository 확인
 
@@ -157,13 +156,10 @@ REMI 저장소는 최신 버전의 패키지가 저장되어있다. 기본 저�
 
 Yum 저장소에는 REMI 저장소 패키지가 없기 때문에 rpm 파일을 따로 다운로드받아서 설치해야한다.
 
-> **OS 버전별 패키지 파일 URL**
->
-> CentOS 5: http://rpms.famillecollet.com/enterprise/remi-release-5.rpm
->
-> CentOS 6: http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
->
-> CentOS 7: http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
+* OS 버전별 패키지 파일 URL
+  - CentOS 5: http://rpms.famillecollet.com/enterprise/remi-release-5.rpm
+  - CentOS 6: http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
+  - CentOS 7: http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
 
 * 설치
 
