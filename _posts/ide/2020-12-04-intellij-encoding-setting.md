@@ -45,5 +45,5 @@ tags: [intellij_encoding, ide_encoding, intellij, encoding, intellij_인코딩, 
 ![img003](/assets/img/2020-12-04-intellij-encoding-setting/img003.png)
 
 ## [출처 및 참고]
-<https://www.jetbrains.com/help/idea/2019.2/configuring-individual-file-encoding.html>
-<https://www.jetbrains.com/help/idea/2019.2/settings-file-encodings.html>
+* <https://www.jetbrains.com/help/idea/2019.2/configuring-individual-file-encoding.html>
+* <https://www.jetbrains.com/help/idea/2019.2/settings-file-encodings.html>
