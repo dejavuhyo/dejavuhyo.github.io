@@ -1,7 +1,7 @@
 --- 
 title: IntelliJ 인코딩 설정
 author: Hyosik
-date: 2020-12-04 09:35:00 +0900
+date: 2020-12-04 09:30:00 +0900
 categories: [Tools, IDE]
 tags: [intellij_encoding, ide_encoding, intellij, intellij_인코딩]
 ---
