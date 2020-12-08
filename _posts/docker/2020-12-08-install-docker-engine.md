@@ -129,7 +129,7 @@ Available Packages
 Docker의 저장소를 사용하여 Docker를 설치할 수 없는 경우 .rpm 릴리즈 파일을 다운로드하고 수동으로 설치할 수 있다. Docker Engine을 업그레이드할 때마다 새 파일을 다운로드해야 한다.
 
 ### 1) .rpm 파일 다운로드
-<https://download.docker.com/linux/centos/>에서 CentOS 버전을 선택하고, 설치하려는 Docker 버전 x86_64/stable/Packages/ 경로의 .rpm 파일을 다운로드 한다.
+<https://download.docker.com/linux/centos/> CentOS 버전을 선택하고, 설치하려는 Docker 버전 x86_64/stable/Packages/ 경로의 .rpm 파일을 다운로드 한다.
 
 ```shell
 [root@localhost ~]# wget https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.3.9-3.1.el7.x86_64.rpm
