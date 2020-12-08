@@ -20,7 +20,7 @@ tags: [docker-install, docker-engine-install, cnetos-docker-install, centos-dock
 [root@localhost ~]# sudo yum remove docker-engine
 ```
 
-/var/lib/docker/에 images, containers, volumes, and networks를 포함한 컨텐츠는 보존됨
+> /var/lib/docker/에 images, containers, volumes, and networks를 포함한 컨텐츠는 보존됨
 
 ## 2. 저장소 설정
 필요에 따라 다양한 방법으로 Docker Engine을 설치할 수 있다.
@@ -35,7 +35,7 @@ tags: [docker-install, docker-engine-install, cnetos-docker-install, centos-dock
 [root@localhost ~]# sudo yum update
 ```
 
-### 2) 유틸리티 제공하는 패키지 설치
+### 2) 유틸리티 패키지 설치
 
 ```shell
 [root@localhost ~]# sudo yum install -y yum-utils
