@@ -3,7 +3,7 @@ title: Micro Service Architecture
 author: Hyosik
 date: 2019-11-28 14:30:00 +0900
 categories: [Application, Architecture]
-tags: [micro_service_architecture, monolithic_architecture, msa, 마이크로서비스_아키텍처, 모노리틱_아키텍처]
+tags: [micro service architecture, monolithic architecture, msa, 마이크로서비스 아키텍처, 모노리틱 아키텍처]
 ---
 
 ## 1. Micro Service(마이크로 서비스)란
