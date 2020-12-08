@@ -20,14 +20,16 @@ tags: [docker-install, docker-engine-install, cnetos-docker-install, centos-dock
 [root@localhost ~]# sudo yum remove docker-engine
 ```
 
-> /var/lib/docker/에 images, containers, volumes, and networks를 포함한 컨텐츠는 보존됨
+> /var/lib/docker/에 images, containers, volumes, and networks를 포함한 컨텐츠는 보존된다.
 
-## 2. 저장소 설정
+## 2. 설치 방법
 필요에 따라 다양한 방법으로 Docker Engine을 설치할 수 있다.
 
-* 대부분 쉬운 설치 및 업그레이드를 위해 Docker 저장소를 설정하고 설치 한다.(권장되는 방식)
+* 권장되는 방식으로 대부분 쉬운 설치 및 업그레이드를 위해 Docker 저장소를 설정하고 설치 한다.
 
 * RPM 패키지를 다운로드하여 수동으로 설치하고 업그레이드를 수동으로 관리한다. 인터넷에 액세스할 수 없는 시스템에 Docker를 설치하는 상황에서 유용하다.
+
+## 3. 저장소를 사용하여 설치
 
 ### 1) yum 패키지 업데이트
 
@@ -51,9 +53,9 @@ grabbing file https://download.docker.com/linux/centos/docker-ce.repo to /etc/yu
 repo saved to /etc/yum.repos.d/docker-ce.repo
 ```
 
-## 3. Docker Engine 설치
+### 4) Docker Engine 설치
 
-### 1) 최신 버전 Docker Engine 및 containerd 설치
+* 최신 버전 Docker Engine 및 containerd 설치
 
 ```shell
 [root@localhost ~]# sudo yum install docker-ce docker-ce-cli containerd.io
@@ -61,9 +63,7 @@ repo saved to /etc/yum.repos.d/docker-ce.repo
 
 > GPG 키를 수락하라는 메시지가 표시되면 지문이 일치하는지 확인하고, 060A 61C5 1B55 8A7F 742B 77AA C52F EB6B 621E 9F35 일치하는 경우 수락한다.
 
-### 2) 특정 버전의 Docker Engine 설치
-
-* 설치 가능 버전 확인
+* 특정 버전의 Docker Engine 설치
 
 ```shell
 [root@localhost ~]# yum list docker-ce --showduplicates | sort -r
@@ -119,13 +119,31 @@ Available Packages
  * base: mirror.kakao.com
 ```
 
-* 설치
+* 특정 버전 설치
 
 ```shell
 [root@localhost ~]# sudo yum install docker-ce-<VERSION_STRING> docker-ce-cli-<VERSION_STRING> containerd.io
 ```
 
-## 4. 실행 및 확인
+## 4. 패키지에서 설치
+Docker의 저장소를 사용하여 Docker를 설치할 수 없는 경우 .rpm 릴리즈 파일을 다운로드하고 수동으로 설치할 수 있다. Docker Engine을 업그레이드할 때마다 새 파일을 다운로드해야 한다.
+
+### 1) .rpm 파일 다운로드
+<https://download.docker.com/linux/centos/>에서 CentOS 버전을 선택하고, 설치하려는 Docker 버전 x86_64/stable/Packages/ 경로의 .rpm 파일을 다운로드 한다.
+
+```shell
+[root@localhost ~]# wget https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.3.9-3.1.el7.x86_64.rpm
+[root@localhost ~]# wget https://download.docker.com/linux/centos/7/x86_64/stable/Packages/docker-ce-19.03.9-3.el7.x86_64.rpm
+[root@localhost ~]# wget https://download.docker.com/linux/centos/7/x86_64/stable/Packages/docker-ce-cli-19.03.9-3.el7.x86_64.rpm
+```
+
+### 2) 설치
+
+```shell
+[root@localhost ~]# sudo yum install docker-ce-19.03.9-3.el7.x86_64.rpm
+```
+
+## 5. 실행 및 확인
 
 ### 1) 실행 및 등록
 
@@ -146,6 +164,11 @@ Docker version 19.03.14, build 5eb3275d40
 
 ```shell
 [root@localhost ~]# sudo docker run hello-world
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+0e03bdcc26d7: Pull complete 
+Digest: sha256:e7c70bb24b462baa86c102610182e3efcb12a04854e8c582838d92970a09f323
+Status: Downloaded newer image for hello-world:latest
 
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
