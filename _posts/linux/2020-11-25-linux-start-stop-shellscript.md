@@ -1,5 +1,5 @@
 --- 
-title: Linux 시작 종료 Shell Script
+title: Linux 시작, 종료 Shell Script
 author: Hyosik
 date: 2020-11-25 09:45:00 +0900
 categories: [OS, Linux]
