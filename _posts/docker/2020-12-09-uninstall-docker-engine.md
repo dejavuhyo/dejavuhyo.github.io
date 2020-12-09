@@ -3,7 +3,7 @@ title: Docker Engine 제거
 author: Hyosik
 date: 2020-12-08 16:50:00 +0900
 categories: [Tools, Docker]
-tags: [docker-ininstall, docker-engine-uninstall, cnetos-docker-uninstall, centos-docker, docker, docker-제거, 도커-제거, 도커-엔진-제거]
+tags: [docker-uninstall, docker-engine-uninstall, cnetos-docker-uninstall, centos-docker, docker, docker-제거, 도커-제거, 도커-엔진-제거]
 ---
 
 ## 1. Docker Engine 제거
