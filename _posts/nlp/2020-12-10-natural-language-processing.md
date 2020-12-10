@@ -1,7 +1,7 @@
 --- 
 title: 자연어 처리
 author: Hyosik
-date: 2020-12-09 09:00:00 +0900
+date: 2020-12-10 09:00:00 +0900
 categories: [Language, NLP]
 tags: [natural-language-processing, nlp, 자연어-처리]
 ---
