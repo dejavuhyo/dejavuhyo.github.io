@@ -153,43 +153,43 @@ tags: [vi-keymap, vim-keymap, visual-editor, keymap, vi-단축키, vim-단축키
 
 * Basic Editing
 
-![img001](/assets/img/2020-12-31-vi-vim-keymap/img001.gif)
+![img001](/assets/img/2020-12-11-vi-vim-keymap/img001.gif)
 
 * Operators & Repetition
 
-![img002](/assets/img/2020-12-31-vi-vim-keymap/img002.gif)
+![img002](/assets/img/2020-12-11-vi-vim-keymap/img002.gif)
 
 * Yank & Paste
 
-![img003](/assets/img/2020-12-31-vi-vim-keymap/img003.gif)
+![img003](/assets/img/2020-12-11-vi-vim-keymap/img003.gif)
 
 * Searching
 
-![img004](/assets/img/2020-12-31-vi-vim-keymap/img004.gif)
+![img004](/assets/img/2020-12-11-vi-vim-keymap/img004.gif)
 
 * Marks & Macros
 
-![img005](/assets/img/2020-12-31-vi-vim-keymap/img005.gif)
+![img005](/assets/img/2020-12-11-vi-vim-keymap/img005.gif)
 
 * Various Motions
 
-![img006](/assets/img/2020-12-31-vi-vim-keymap/img006.gif)
+![img006](/assets/img/2020-12-11-vi-vim-keymap/img006.gif)
 
 * Various Commands
 
-![img007](/assets/img/2020-12-31-vi-vim-keymap/img007.gif)
+![img007](/assets/img/2020-12-11-vi-vim-keymap/img007.gif)
 
 * 한글 단축키 모음
 
-![img008](/assets/img/2020-12-31-vi-vim-keymap/img008.jpg)
+![img008](/assets/img/2020-12-11-vi-vim-keymap/img008.jpg)
 
 * vim 명령어 단축키
 
-![img009](/assets/img/2020-12-31-vi-vim-keymap/img009.jpg)
+![img009](/assets/img/2020-12-11-vi-vim-keymap/img009.jpg)
 
 * vim 이동 단축키
 
-![img010](/assets/img/2020-12-31-vi-vim-keymap/img010.jpg)
+![img010](/assets/img/2020-12-11-vi-vim-keymap/img010.jpg)
 
 ## [출처 및 참고]
 * <http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html>
