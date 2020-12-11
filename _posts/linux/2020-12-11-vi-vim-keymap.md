@@ -1,7 +1,7 @@
 --- 
 title: vi, vim 편집기 명령어
 author: Hyosik
-date: 2020-12-11 09:30:00 +090
+date: 2020-12-11 09:30:00 +0900
 categories: [OS, Linux]
 tags: [vi-keymap, vim-keymap, visual-editor, keymap, vi-단축키, vim-단축키]
 ---
