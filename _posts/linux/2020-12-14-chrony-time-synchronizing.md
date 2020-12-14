@@ -173,7 +173,7 @@ can use the /usr/bin/tzselect command in shell scripts:
 Asia/Seoul
 ```
 
-* 최종 설정 확인
+* 최종 상태 확인
 
 ```shell
 [root@localhost ~]# timedatectl status
