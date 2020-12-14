@@ -73,13 +73,11 @@ Dependencies resolved.
 # Please consider joining the pool (http://www.pool.ntp.org/join.html).
 # pool 2.centos.pool.ntp.org iburst  
   
-# 한국 공용 타임서버 설정
-2.asia.pool.ntp.org
-
-# server 0.centos.pool.ntp.org iburst
-# server 1.centos.pool.ntp.org iburst
-# server 2.centos.pool.ntp.org iburst
-# server 3.centos.pool.ntp.org iburst
+# 한국 공용 타임서버
+server 0.centos.pool.ntp.org iburst
+server 1.centos.pool.ntp.org iburst
+server 2.centos.pool.ntp.org iburst
+server 3.centos.pool.ntp.org iburst
 
 # Allow NTP client access from local network.
 # 내부 네트워크에서 이 서버를 타임 서버로 참조하기 위한 설정
