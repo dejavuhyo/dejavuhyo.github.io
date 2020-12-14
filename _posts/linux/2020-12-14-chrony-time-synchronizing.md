@@ -54,22 +54,7 @@ Dependencies resolved.
 완료되었습니다!
 ```
 
-## 3. 방화벽 등록
-
-```shell
-[root@localhost ~]# firewall-cmd --add-service=ntp --permanent
-[root@localhost ~]# firewall-cmd l--reload
-```
-
-## 4. 시작 및 자동 실행 설정
-
-```shell
-[root@localhost ~]# sudo systemctl start chronyd
-[root@localhost ~]# sudo systemctl enable chronyd
-[root@localhost ~]# sudo systemctl restart chronyd
-```
-
-## 5. 설정
+## 3. 설정
 
 ### 1) 타임서버 설정
 기본으로 설정이 되어 있는 CentOS NTP pool의 time server가 아니라, 다른 Time server에서 동기화를 하고 싶다면 /etc/chrony.conf 에서 server 지시자에 원하는 Time server를 등록하면 된다.
@@ -84,13 +69,13 @@ Dependencies resolved.
 # pool 2.centos.pool.ntp.org iburst  
   
 # 한국 공용 타임서버
-server 0.centos.pool.ntp.org iburst
-server 1.centos.pool.ntp.org iburst
-server 2.centos.pool.ntp.org iburst
-server 3.centos.pool.ntp.org iburst
+server 0.asia.pool.ntp.org
+server 1.asia.pool.ntp.org
+server 2.asia.pool.ntp.org
+server 3.asia.pool.ntp.org
 
 # Allow NTP client access from local network.
-# 내부 네트워크에서 이 서버를 타임 서버로 참조하기 위한 설정
+# 내부 네트워크에서 이 서버를 타임 서버로 참조하기 위한 설정s
 #allow 192.168.0.0/16
 ```
 
@@ -199,6 +184,21 @@ Asia/Seoul
 System clock synchronized: yes
               NTP service: active
           RTC in local TZ: no
+```
+
+## 4. 방화벽 등록
+
+```shell
+[root@localhost ~]# firewall-cmd --add-service=ntp --permanent
+[root@localhost ~]# firewall-cmd l--reload
+```
+
+## 5. 시작 및 자동 실행 설정
+
+```shell
+[root@localhost ~]# sudo systemctl start chronyd
+[root@localhost ~]# sudo systemctl enable chronyd
+[root@localhost ~]# sudo systemctl restart chronyd
 ```
 
 ## [출처 및 참고]
