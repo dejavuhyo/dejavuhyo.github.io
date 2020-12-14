@@ -3,7 +3,7 @@ title: Chrony를 이용한 시간 동기화
 author: Hyosik
 date: 2020-12-14 10:00:00 +0900
 categories: [OS, Linux]
-tags: [chrony, ntp-daemon-client, ntp, chrony-time-synchronizing, time-synchronizing, 시간-동기화]
+tags: [chrony, ntp, chrony-time-synchronizing, time-synchronizing, 시간-동기화]
 ---
 
 ## 1. 개요
@@ -62,7 +62,7 @@ Dependencies resolved.
 ## 5. 설정
 
 ### 1) 타임서버 설정
-기본으로 설정이 되어 있는 CentOS NTP pool의 time server가 아니라, 다른 Time server에서 동기화를 하고 싶다면 /etc/chrony/chrony.conf 에서 server 지시자에 원하는 Time server를 등록하면 된다.
+기본으로 설정이 되어 있는 CentOS NTP pool의 time server가 아니라, 다른 Time server에서 동기화를 하고 싶다면 /etc/chrony.conf 에서 server 지시자에 원하는 Time server를 등록하면 된다.
 
 ```shell
 [root@localhost ~]# vi /etc/chrony.conf
@@ -86,7 +86,9 @@ Dependencies resolved.
 #allow 192.168.0.0/16
 ```
 
-### 2) 동기화 보기
+### 2) 동기화
+
+* 상태 확인
 
 ```shell
 [root@localhost ~]# timedatectl status
@@ -123,9 +125,62 @@ System clock synchronized: yes
 
 ```shell
 [root@localhost ~]# tzselect
+Please identify a location so that time zone rules can be set correctly.
+Please select a continent, ocean, "coord", or "TZ".
+ 1) Africa
+ 2) Americas
+ 3) Antarctica
+ 4) Asia
+ 5) Atlantic Ocean
+ 6) Australia
+ 7) Europe
+ 8) Indian Ocean
+ 9) Pacific Ocean
+10) coord - I want to use geographical coordinates.
+11) TZ - I want to specify the time zone using the Posix TZ format.
+#? 4
+Please select a country whose clocks agree with yours.
+ 1) Afghanistan		  18) Israel		    35) Palestine
+ 2) Armenia		  19) Japan		    36) Philippines
+ 3) Azerbaijan		  20) Jordan		    37) Qatar
+ 4) Bahrain		  21) Kazakhstan	    38) Russia
+ 5) Bangladesh		  22) Korea (North)	    39) Saudi Arabia
+ 6) Bhutan		  23) Korea (South)	    40) Singapore
+ 7) Brunei		  24) Kuwait		    41) Sri Lanka
+ 8) Cambodia		  25) Kyrgyzstan	    42) Syria
+ 9) China		  26) Laos		    43) Taiwan
+10) Cyprus		  27) Lebanon		    44) Tajikistan
+11) East Timor		  28) Macau		    45) Thailand
+12) Georgia		  29) Malaysia		    46) Turkmenistan
+13) Hong Kong		  30) Mongolia		    47) United Arab Emirates
+14) India		  31) Myanmar (Burma)	    48) Uzbekistan
+15) Indonesia		  32) Nepal		    49) Vietnam
+16) Iran		  33) Oman		    50) Yemen
+17) Iraq		  34) Pakistan
+#? 23
+
+The following information has been given:
+
+	Korea (South)
+
+Therefore TZ='Asia/Seoul' will be used.
+Selected time is now:	Mon Dec 14 12:59:44 KST 2020.
+Universal Time is now:	Mon Dec 14 03:59:44 UTC 2020.
+Is the above information OK?
+1) Yes
+2) No
+#? 1
+
+You can make this change permanent for yourself by appending the line
+	TZ='Asia/Seoul'; export TZ
+to the file '.profile' in your home directory; then log out and log in again.
+
+Here is that TZ value again, this time on standard output so that you
+can use the /usr/bin/tzselect command in shell scripts:
+Asia/Seoul
 ```
 
-* 시간대 확인
+* 최종 설정 확인
 
 ```shell
 [root@localhost ~]# timedatectl status
