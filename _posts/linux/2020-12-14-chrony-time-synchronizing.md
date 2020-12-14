@@ -17,6 +17,16 @@ Stratum 0은 primary reference clock 이라고 부르며, NTP protocol과는 상
 
 보통 Stratum 1 level의 서버들은 primary reference clock에서 시간을 동기화 하여 서비스를 하며, NTP에서 최상위층이라고 생각하면 된다.
 
+> Cent 8/RHEL 8 버전부터는 NTP가 사라지고 Chrony를 제공하고 있다.
+
+```shell
+[root@localhost ~]# dnf install ntp
+CentOS-8 - AppStream                                                                                0.0  B/s |   0  B     00:00    
+Errors during downloading metadata for repository 'AppStream':
+  - Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+오류: Failed to download metadata for repo 'AppStream': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for http://mirrorlist.centos.org/?release=8&arch=x86_64&repo=AppStream&infra=stock [Could not resolve host: mirrorlist.centos.org]
+```
+
 ## 2. 설치
 chrony는 NTP와 동일하게 Time service를 하지 않고 서버의 시간 동기화를 하기만 하려고 해도 기본적으로 daemon으로 구동을 해야 한다.
 
