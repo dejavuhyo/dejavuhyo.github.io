@@ -7,9 +7,9 @@ tags: [chrony, ntp, chrony-time-synchronizing, time-synchronizing, 시간-동기
 ---
 
 ## 1. 개요
-chrony는 RHEL 7에서 기본으로 제공하는 NTP daemon/client 이다. RHEL 7 부터 NTP 대신에 chrony를 제공하고 있다.
+Chrony는 RHEL 7에서 기본으로 제공하는 NTP daemon/client 이다. RHEL 7 부터 NTP 대신에 chrony를 제공하고 있다.
 
-chorny가 NTP보다 설정이 더 간결하고 NTP의 단점을 개선하고자 시작된 project 이기 때문에 chrony 사용을 권장 한다.
+Chrony가 NTP보다 설정이 더 간결하고 NTP의 단점을 개선하고자 시작된 project 이기 때문에 chrony 사용을 권장 한다.
 
 Time server 설정 전에 우선 알아야 할 것이 Stratum 이라는 의미이다. Stratum은 지층이라는 의미로, NTP protocol은 피라미드 형식의 구성으로 이루어져 있기 때문에, Stratum 0은 피라미드의 꼭대기라고 비유할 수 있다.
 
@@ -28,7 +28,7 @@ Errors during downloading metadata for repository 'AppStream':
 ```
 
 ## 2. 설치
-chrony는 NTP와 동일하게 Time service를 하지 않고 서버의 시간 동기화를 하기만 하려고 해도 기본적으로 daemon으로 구동을 해야 한다.
+Chrony는 NTP와 동일하게 Time service를 하지 않고 서버의 시간 동기화를 하기만 하려고 해도 기본적으로 Daemon으로 구동을 해야 한다.
 
 ### 1) ntp package 삭제
 
