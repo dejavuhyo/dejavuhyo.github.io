@@ -1,9 +1,9 @@
 --- 
 title: NTP를 이용한 시간 동기화
 author: Hyosik
-date: 2020-12-15 10:00:00 +0900
+date: 2020-12-15 09:10:00 +0900
 categories: [OS, Linux]
-tags: [ntp, chrony-time-synchronizing, time-synchronizing, 시간-동기화]
+tags: [ntp, chrony-time-synchronizing, time-synchronizing, 시간-동기화, ntp-시간-동기화]
 ---
 
 ## 1. 개요
@@ -27,7 +27,7 @@ NTP는 Time Service를 하지 않고 서버의 시간 동기화를 하기만 하
 ### 1) chrony package 삭제
 
 ```shell
-[root@localhost ~]# dnf remove chrony
+[root@localhost ~]# yum remove chrony
 ```
 
 ### 2) ntp 설치
@@ -62,9 +62,7 @@ server 3.asia.pool.ntp.org
 
 ```shell
 [root@localhost ~]# firewall-cmd --add-service=ntp --permanent
-success
 [root@localhost ~]# firewall-cmd --reload
-success
 ```
 
 ## 5. 시작 및 자동 실행 설정
@@ -77,7 +75,7 @@ success
 
 ## 6. 동기화 확인
 
-* 동기화까지 15분 정도의 시간이 소요된다.
+* 동기화까지 15분 정도 시간이 소요된다.
 
 ```shell
 [root@localhost ~]# ntpq -p
