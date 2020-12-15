@@ -24,13 +24,13 @@ Stratum 0은 primary reference clock 이라고 부르며, NTP protocol과는 상
 ## 2. 설치
 NTP는 Time Service를 하지 않고 서버의 시간 동기화를 하기만 하려고 해도 기본적으로 Daemon으로 구동을 해야 한다.
 
-### 1) chrony package 삭제
+### 1) Chrony Package 삭제
 
 ```shell
 [root@localhost ~]# yum remove chrony
 ```
 
-### 2) ntp 설치
+### 2) NTP 설치
 
 ```shell
 [root@localhost ~]# yum install ntp
