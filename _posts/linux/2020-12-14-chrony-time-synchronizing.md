@@ -30,7 +30,7 @@ Errors during downloading metadata for repository 'AppStream':
 ## 2. 설치
 Chrony는 NTP와 동일하게 Time service를 하지 않고 서버의 시간 동기화를 하기만 하려고 해도 기본적으로 Daemon으로 구동을 해야 한다.
 
-### 1) ntp package 삭제
+### 1) NTP Package 삭제
 
 ```shell
 [root@localhost ~]# dnf remove ntp
@@ -41,7 +41,7 @@ Dependencies resolved.
 완료되었습니다!
 ```
 
-### 2) chrony 설치
+### 2) Chrony 설치
 
 ```shell
 [root@localhost ~]# dnf install chrony
