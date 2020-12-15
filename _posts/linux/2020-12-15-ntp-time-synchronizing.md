@@ -13,7 +13,7 @@ Stratum은 지층이라는 의미로, NTP protocol은 피라미드 형식의 구
 
 Stratum 0은 primary reference clock 이라고 부르며, NTP protocol과는 상관이 없다.
 
-즉 직접적으로 시간 서비스를 하는 것은 아니며, Stratum 1로 시간을 전송하는 장비들을 말하며 primary reference clock 장비에는 GPS, 세슘 원자 시계 등이 있다.
+즉, 직접적으로 시간 서비스를 하는 것은 아니며, Stratum 1로 시간을 전송하는 장비들을 말하며 primary reference clock 장비에는 GPS, 세슘 원자 시계 등이 있다.
 
 보통 Stratum 1 level의 서버들은 primary reference clock에서 시간을 동기화 하여 서비스를 하며, NTP에서 최상위층이라고 생각하면 된다.
 
@@ -75,7 +75,7 @@ server 3.asia.pool.ntp.org
 
 ## 6. 동기화 확인
 
-* 동기화까지 15분 정도 시간이 소요된다.
+* 동기화까지 약15분 정도 시간이 소요된다.
 
 ```shell
 [root@localhost ~]# ntpq -p
