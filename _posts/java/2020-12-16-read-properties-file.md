@@ -3,7 +3,7 @@ title: Properties 파일 읽기
 author: Hyosik
 date: 2020-12-16 09:30:00 +0900
 categories: [Language, Java]
-tags: [properties, read-properties, properties-file, properties-파일-읽기, 파일-읽기]
+tags: [properties, read-properties, properties, properties-읽기, 파일-읽기]
 ---
 
 ## 1. Properties 파일
@@ -15,7 +15,7 @@ spring.datasource.username=postgres
 spring.datasource.password=postgres
 ```
 
-## 2. Key를 이용하여 읽기
+## 2. Key를 이용하여 Value 가져오기
 
 ```java
 import java.io.BufferedInputStream;
