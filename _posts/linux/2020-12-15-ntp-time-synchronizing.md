@@ -21,6 +21,8 @@ Stratum 0은 primary reference clock 이라고 부르며, NTP protocol과는 상
 
 또한, NTP 구성 목적이 대부분 정확한 시간 보다는 시간의 동기화에 있기 때문에 꼭 최상위 stratum에 동기화를 할 이유가 별로 없기 때문에 Stratum 2 정도에 sync를 하는 것을 권장 한다.
 
+> Cent 8/RHEL 8 버전부터는 NTP가 사라지고 Chrony를 제공하고 있다.
+
 ## 2. 설치
 NTP는 Time Service를 하지 않고 서버의 시간 동기화를 하기만 하려고 해도 기본적으로 Daemon으로 구동을 해야 한다.
 
