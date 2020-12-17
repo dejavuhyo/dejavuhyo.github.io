@@ -82,7 +82,7 @@ public class DatabaseConfig {
 spring.datasource.driver-class-name=org.postgresql.Driver
 spring.datasource.jdbc-url=jdbc:log4jdbc:postgresql://localhost:5432/postgres
 spring.datasource.username=postgres
-spring.datasource.password=root
+spring.datasource.password=postgres
 
 spring.datasource.minimum-idle=10
 spring.datasource.maximum-pool-size=50
