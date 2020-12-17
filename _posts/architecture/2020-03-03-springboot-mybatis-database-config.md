@@ -83,4 +83,13 @@ spring.datasource.driver-class-name=org.postgresql.Driver
 spring.datasource.jdbc-url=jdbc:log4jdbc:postgresql://localhost:5432/postgres
 spring.datasource.username=postgres
 spring.datasource.password=root
+
+spring.datasource.minimum-idle=10
+spring.datasource.maximum-pool-size=50
+spring.datasource.idle-timeout=10000
+spring.datasource.connection-timeout=10000
+spring.datasource.validation-timeout=10000
+spring.datasource.max-lifetime=580000
+spring.datasource.connection-test-query=SELECT 1
+spring.datasource.pool-name=YOUR_POOL_NAME
 ```
