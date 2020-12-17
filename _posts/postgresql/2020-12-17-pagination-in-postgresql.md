@@ -7,7 +7,7 @@ tags: [pagination, paging, postgresql-pagination, limit-offset, postgresql-페�
 ---
 
 ## 1. 개념
-PostgreSQL에서 OFFSET , LIMIT 및 선택적으로 FETCH NEXT 연산자를 사용하여 페이징을 수행한다.
+PostgreSQL에서 OFFSET, LIMIT 및 선택적으로 FETCH NEXT 연산자를 사용하여 페이징을 수행한다.
 
 * [PostgreSQL Documentation](https://www.postgresql.org/docs/12/queries-limit.html) 참고
 
@@ -18,20 +18,20 @@ PostgreSQL에서 OFFSET , LIMIT 및 선택적으로 FETCH NEXT 연산자를 사�
 ```sql
 CREATE TABLE customer
 (
-    CustomerId INT NOT NULL,
-    FirstName VARCHAR(40) NOT NULL,
-    LastName VARCHAR(20) NOT NULL,
-    Company VARCHAR(80),
-    Address VARCHAR(70),
-    City VARCHAR(40),
-    State VARCHAR(40),
-    Country VARCHAR(40),
-    PostalCode VARCHAR(10),
-    Phone VARCHAR(24),
-    Fax VARCHAR(24),
-    Email VARCHAR(60) NOT NULL,
-    SupportRepId INT,
-    CONSTRAINT PK_Customer PRIMARY KEY  (CustomerId)
+    customer_id INT NOT NULL,
+    first_name VARCHAR(40) NOT NULL,
+    last_name VARCHAR(20) NOT NULL,
+    company VARCHAR(80),
+    address VARCHAR(70),
+    city VARCHAR(40),
+    state VARCHAR(40),
+    country VARCHAR(40),
+    postal_code VARCHAR(10),
+    phone VARCHAR(24),
+    fax VARCHAR(24),
+    email VARCHAR(60) NOT NULL,
+    support_rep_id INT,
+    CONSTRAINT pk_customer PRIMARY KEY (customer_id)
 );
 ```
 
@@ -50,7 +50,7 @@ LIMIT는 원하는 레코드 수를 쿼리에 알려준다.
 
 ```sql
 select * from public.customer
-order by customerid
+order by customer_id
 limit 5;
 ```
 
@@ -61,7 +61,7 @@ OFFSET으로 처음 5개 레코드를 가져오는 쿼리 이다. 처음부터 �
 
 ```sql
 select * from public.customer
-order by customerid
+order by customer_id
 limit 5
 offset 0;
 ```
@@ -72,7 +72,7 @@ OFFSET은 0을 기준으로 하기 때문에 1에서 시작하지 않는다.
 
 ```sql
 select * from public.customer
-order by customerid
+order by customer_id
 limit 5
 offset 5;
 ```
@@ -84,19 +84,19 @@ OFFSET을 사용하여 쿼리를 시작할 위치를 알려준다. 0이 기준�
 * 5개의 레코드를 보여주는 1번 페이지 쿼리
 
 ```sql
-Select * from public.customer
-Order By customerid
-LIMIT 5
-OFFSET (1 - 1) * 5;
+select * from public.customer
+order by customer_id
+limit 5
+offset (1 - 1) * 5;
 ```
 
 * 10개의 레코드를 보여주는 2번 페이지 쿼리
 
 ```sql
-Select * from public.customer
-Order By customerid
-LIMIT 10
-OFFSET (2 - 1) * 10;
+select * from public.customer
+order by customer_id
+limit 10
+offset (2 - 1) * 10;
 ```
 
 ## [출처 및 참고]
