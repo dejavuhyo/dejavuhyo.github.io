@@ -46,9 +46,9 @@ Spring MVC의 컨트롤러에서는 데이터를 반환하기 위해 @ResponseBo
 * RestController는 해당 요청을 처리하고 데이터를 반환한다.
 
 ## 3. Gson 사용
-@RestController와 @ResponseBody로 해결할 수 있으면 좋지만, JSON 객체를 직접 만들어야 할 때가 발생한다.
+@RestController와 @ResponseBody로 해결할 수 있으면 좋지만, Json 객체를 직접 만들어야 할 때가 발생한다.
 
-JsonObject를 사용해서 JSON 객체를 직접 만들 수 있고, JsonArray를 사용하여 배열도 담을 수 있다.
+JsonObject를 사용해서 Json 객체를 직접 만들 수 있고, JsonArray를 사용하여 배열도 담을 수 있다.
 
 * 샘플 데이터
 
@@ -117,7 +117,6 @@ public class SearchController {
 
         JsonArray jsonArray = new JsonArray();
         for (SearchVO vo : searchValList) {
-
             JsonObject jsonObject = new JsonObject();
             jsonObject.addProperty("customer_id", vo.getCustomerId());
             jsonObject.addProperty("first_name", vo.getFirstName());
@@ -132,6 +131,7 @@ public class SearchController {
             jsonObject.addProperty("fax", vo.getFax());
             jsonObject.addProperty("email", vo.getEmail());
             jsonObject.addProperty("support_rep_id", vo.getSupportRepId());
+            
             jsonArray.add(jsonObject);
         }
         obj.add("data", jsonArray);
@@ -340,7 +340,7 @@ public class SearchVO {
 		"phone": "010-1234-5678",
 		"fax": "02-1111-2222",
 		"email": "hsahn@email.com",
-		"support_rep_id": "10"
+		"support_rep_id": "2"
 	}, {
 		"customer_id": "2",
 		"first_name": "Shin",
@@ -354,7 +354,7 @@ public class SearchVO {
 		"phone": "010-2345-6789",
 		"fax": "02-2222-3333",
 		"email": "yjshin@email.com",
-		"support_rep_id": "20"
+		"support_rep_id": "1"
 	}]
 }
 ```
