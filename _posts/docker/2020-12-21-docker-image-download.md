@@ -59,7 +59,6 @@ ansibleplaybookbundle/postgresql-apb    An APB which deploys RHSCL PostgreSQL   
 fredboat/postgres                       PostgreSQL 10.0 used in FredBoat's docker-co…   1                    
 manageiq/postgresql                     Container with PostgreSQL and built on CentO…   0                    [OK]
 cfcommunity/postgresql                  https://github.com/cloudfoundry-community/po…   0                    
-[root@localhost ~]#
 ```
 
 ## 3. 이미지 다운로드
@@ -68,8 +67,6 @@ cfcommunity/postgresql                  https://github.com/cloudfoundry-communit
 
 ```shell
 [root@localhost ~]# docker pull --help
-
-```shell
 Usage:  docker pull [OPTIONS] NAME[:TAG|@DIGEST]
 
 Pull an image or a repository from a registry
