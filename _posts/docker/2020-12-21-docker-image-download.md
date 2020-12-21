@@ -67,6 +67,7 @@ cfcommunity/postgresql                  https://github.com/cloudfoundry-communit
 
 ```shell
 [root@localhost ~]# docker pull --help
+
 Usage:  docker pull [OPTIONS] NAME[:TAG|@DIGEST]
 
 Pull an image or a repository from a registry
