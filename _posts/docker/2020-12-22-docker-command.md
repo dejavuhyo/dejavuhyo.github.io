@@ -79,7 +79,7 @@ Options:
 ### 4) 이미지 삭제
 
 ```shell
-[root@localhost ~]# sudo docker rmi [이미지 id]
+[root@localhost ~]# sudo docker rmi [이미지 ID]
 ```
 
 * Rmi Help
@@ -142,7 +142,7 @@ Options:
 [root@localhost ~]# sudo docker run [options] image[:TAG|@DIGEST] [COMMAND] [ARG...]
 ```
 
-| size | material |
+| 옵션 | 설명 |
 |:---:|:---:|
 | -d | 백그라운드 모드 |
 | -p | 호스트와 컨테이너의 포트를 연결 (포워딩) |
