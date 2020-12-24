@@ -1,7 +1,7 @@
 --- 
 title: 자바 멀티스레드
 author: Hyosik
-date: 2020-12-16 09:30:00 +0900
+date: 2020-12-24 09:30:00 +0900
 categories: [Language, Java]
 tags: [multi-thread, thread, java-multi-thread, java-thread, 멀티-스레드, 자바-멀티-스레드]
 ---
@@ -47,7 +47,6 @@ Running 상태에서 스레드가 모두 실행되고 난 후 완료 상태이�
 CPU를 점유권을 상실한 상태이다. 특정 메서드를 실행 시켜 Runnable(준비상태)로 전환한다.
 wait() 메소드에 의해 Blocked 상태가 된 스레드는 notify() 메소드가 호출되면 Runnable 상태로 된다. sleep(시간) 메소드에 의해 Blocked 상태가 된 스레드는 지정된 시간이 지나면 Runnable 상태로 된다.
 
-
 ## 4. Thread 적용
 
 ### 1) Single Thread(Thread 클래스 상속)
@@ -74,8 +73,8 @@ public class SingleThread extends Thread {
             } catch (InterruptedException ie) {
                 ie.printStackTrace();
             }
-            System.out.println("# 스레드 이름: " + currentThread().getName());
-            System.out.println("# temp value: " + i);
+            System.out.println("스레드 이름: " + currentThread().getName());
+            System.out.println("temp value: " + i);
         }
     }
 
@@ -110,8 +109,8 @@ public class SingleThread2 implements Runnable {
             } catch (InterruptedException ie) {
                 ie.printStackTrace();
             }
-            System.out.println("# 스레드 이름: " + Thread.currentThread().getName());
-            System.out.println("# temp value: " + i);
+            System.out.println("스레드 이름: " + Thread.currentThread().getName());
+            System.out.println("temp value: " + i);
         }
     }
 
@@ -268,7 +267,7 @@ public class ThreadSafe {
 
 date1의 1984-09-08를 출력하고 있는데, 갑자기 date2도 SimpleDateFormat 클래스를 이용해서 2020-12-24을 출력하려고 하기 때문이다.
 
-* 해결 방법
+* 해결 방법: synchronized 사용
 
 ```java
 import java.text.DateFormat;
