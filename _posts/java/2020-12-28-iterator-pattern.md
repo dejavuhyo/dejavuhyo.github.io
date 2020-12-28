@@ -3,7 +3,7 @@ title: Iterator Pattern
 author: Hyosik
 date: 2020-12-28 09:10:00 +0900
 categories: [Language, Java]
-tags: [iterator-pattern, iterator, 반복자-패턴]
+tags: [iterator-pattern, iterator, design-pattern, 반복자-패턴, 디자인-패턴]
 ---
 
 ## 1. Iterator 패턴이란
@@ -172,4 +172,5 @@ BookShelf를 수정하더라도 BookShelf가 iterator 메소드를 가지고 있
 디자인 패턴은 클래스의 재이용화를 촉진한다. 재이용화를 촉진한다는 것은 클래스를 부품처럼 사용할 수 있게 하고, 하나의 부품을 수정해도 다른 부품에 큰 영향 없이 적은 수정만으로 끝낼 수 있다는 것을 의미한다.
 
 ## [출처 및 참고]
-* <Java 언어로 배우는 디자인 패턴 입문>
+* Java 언어로 배우는 디자인 패턴 입문
+* <https://itstory.tk/entry/Gof-%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-Iterator-%EB%B0%98%EB%B3%B5%EC%9E%90-%ED%8C%A8%ED%84%B4>
