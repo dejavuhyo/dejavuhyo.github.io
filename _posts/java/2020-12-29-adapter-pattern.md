@@ -89,7 +89,7 @@ public class PrintBanner extends Banner implements Print {
 ```
 
 * Main 클래스
-  - 어댑터 역할의 PrintBanner 클래스를 사용해서 Hello라는 문자열을 약하게(갈호를 붙임), 또는 강하게(*사이에) 표시한다.
+  - 어댑터 역할의 PrintBanner 클래스를 사용해서 Hello라는 문자열을 약하게(갈호를 붙임), 또는 강하게(* 사이에) 표시한다.
 
 ```java
 public class Main {
