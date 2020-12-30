@@ -49,19 +49,18 @@ public abstract class AbstractDisplay {  // 추상 클래스 AbstractDisplay
   - 상위 클래스인 AbstractDisplay 클래스에서 추상 메소드였던 open, print, close가 모두 구현되어 있기 때문에 CharDisplay 클래스는 추상 클래스가 아니다.
 
 ```java
-public class CharDisplay extends AbstractDisplay {  // CharDisplay는 AbstractDisplay의 
-// 하위 클래스.
-    private char ch;                              // 표시해야 할 문자
-    public CharDisplay(char ch) {                  // 생성자에서 전달된 문자 ch을
-        this.ch = ch;                             // 필드에 기억해 둔다.
+public class CharDisplay extends AbstractDisplay {  // CharDisplay는 AbstractDisplay의 하위 클래스.
+    private char ch;                                // 표시해야 할 문자
+    public CharDisplay(char ch) {                   // 생성자에서 전달된 문자 ch을
+        this.ch = ch;                               // 필드에 기억해 둔다.
     }
     public void open() {                            // 상위 클래스에서는 추상 메소드였다.
-						  // 여기에서 오버라이드해서 구현.
+						    // 여기에서 오버라이드해서 구현.
         System.out.print("<<");                     // 개시 문자열"<<"을 표시한다.
     }
     public void print() {                           // print 메소드도 여기에서 구현한다.
-// 이것이 display에서 반복해서 호출된다.
-        System.out.print(ch);                      // 필드에 기억해 둔 문자를 1개 표시한다.
+						    // 이것이 display에서 반복해서 호출된다.
+        System.out.print(ch);                       // 필드에 기억해 둔 문자를 1개 표시한다.
     }
     public void close() {                           // close 메소드도 여기에서 구현.
         System.out.println(">>");                   // 종료 문자열 ">>"을 표시.
@@ -72,34 +71,47 @@ public class CharDisplay extends AbstractDisplay {  // CharDisplay는 AbstractDi
 * StringDisplay 클래스
 
 ```java
-public class StringDisplay extends AbstractDisplay {    // StringDisplay도 
-// AbstrctDisplay의 하위 클래스.
-    private String string;                            // 표시해야 할 문자열.
-    private int width;                              // 바이트 단위로 계산한 문자열의 「폭」.
+public class StringDisplay extends AbstractDisplay {    // StringDisplay도 AbstrctDisplay의 하위 클래스.
+    private String string;                              // 표시해야 할 문자열.
+    private int width;                                  // 바이트 단위로 계산한 문자열의 「폭」.
     public StringDisplay(String string) {               // 생성자에서 전달된 문자열 string을
         this.string = string;                           // 필드에 기억.
-        this.width = string.getBytes().length;          // 그리고 바이트 단위의 폭도 필드에
-							// 기억해 두고 나중에 사용한다.
+        this.width = string.getBytes().length;          // 그리고 바이트 단위의 폭도 필드에 기억해 두고 나중에 사용한다.
     }
     public void open() {                             // 오버라이드해서 정의한 open 메소드.
         printLine();                                 // 이 클래스의 메소드 printLine에서
                                                      // 선을 그리고 있다.
     }
     public void print() {                               // print 메소드는
-        System.out.println("|" + string + "|");     // 필드에 기억해 둔 문자열의
-   							// 전후에 "|"을 붙여서 표시.
+        System.out.println(“|” + string + “|”);         // 필드에 기억해 둔 문자열의 전후에 “|”을 붙여서 표시.
     }
     public void close() {                               // close 메소드는
         printLine();                                    // open 처럼 printLine 메소드에서
-                                                       // 선을 그리고 있다.
+                                                        // 선을 그리고 있다.
     }
     private void printLine() {                  // open과 close에서 호출된 printLine 메소드이다.
- 						// private이기 때문에 이 클래스 안에서만 사용된다.
-        System.out.print(「+「);                // 테두리의 모서리를 표현하는"+" 마크를 표시.
-        for (int i = 0; i < width; i++) {       // width개의 "-"을 표시하고
+                                                // private이기 때문에 이 클래스 안에서만 사용된다.
+        System.out.print(「+「);                // 테두리의 모서리를 표현하는”+” 마크를 표시.
+        for (int i = 0; i < width; i++) {       // width개의 “-“을 표시하고
             System.out.print(「-「);            // 테두리 선으로 이용한다.
         }
-        System.out.println(d1, d2, d3 모두 AbstractDisplay의 하위클래스의 인스턴스이기 때문에
+        System.out.println(「+「);              // 테두리의 모서리를 표현하는 “+” 마크를 표시.
+    }
+}
+```
+
+* Main 클래스
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        // 'H'을 가진 CharDisplay 인스턴스를 1개 만든다.
+        AbstractDisplay d1 = new CharDisplay('H');
+        // "Hello, world."을 가진 StringDisplay의 인스턴스를 1개 만든다.
+        AbstractDisplay d2 = new StringDisplay("Hello, world.");
+        // “안녕하세요.”를 가진 StringDisplay의 인스턴스를 1개 만든다.
+        AbstractDisplay d3 = new StringDisplay("안녕하세요.");
+        d1.display();   // d1, d2, d3 모두 AbstractDisplay의 하위클래스의 인스턴스이기 때문에
         d2.display();   // 상속한 display메소드를 호출할 수 있다.
         d3.display();   // 실제 동작은 CharDisplay나 StringDisplay에서 결정한다.
     }
@@ -116,7 +128,6 @@ public class StringDisplay extends AbstractDisplay {    // StringDisplay도
 
 * 하위 클래스를 상위 클래스와 동일시한다.
 "상위 클래스형의 변수에 하위 클래스의 어떠한 인스턴스를 대입해도 제대로 작동할 수 있도록 한다"는 원칙은 The Liskov Substitution Principle(LSP)이라고 불린다. LSP는 Template Method 패턴에 국한되지 않는 상속의 일반적인 원칙이다.
-
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
