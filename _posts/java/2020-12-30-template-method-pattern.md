@@ -15,7 +15,7 @@ tags: [template-method-pattern, template-method, design-pattern, 템플릿-메�
 
 ## 2. 객체
 
-* Template Method 패턴 클래스 다이어그램
+* Template Method 패턴의 클래스 다이어그램
 
 ![img001](/assets/img/2020-12-30-template-method-pattern/img001.png)
 
