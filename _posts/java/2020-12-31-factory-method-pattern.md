@@ -14,6 +14,8 @@ Template Method 패턴에서는 상위 클래스에서 처리의 골격을 만�
 ## 2. 객체
 Factory Method 패턴을 보면 상위 클래스(추상적인 골격, framework) 측에 있는 Creator 역할과 Product 역할의 관계가 하위 클래스(구체적인 내용, idcard) 측에 있는 ConcreateCreator 역할과 ConcreateProduct 역할의 관계와 병행하고 있음을 알 수 있다.
 
+* Factory Method 패턴의 클래스
+
 ![img001](/assets/img/2020-12-31-factory-method-pattern/img001.png)
 
 ### 1) Product(제품)의 역할
