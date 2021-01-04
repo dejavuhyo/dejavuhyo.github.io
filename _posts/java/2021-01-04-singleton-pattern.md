@@ -19,10 +19,9 @@ tags: [singleton-pattern, singleton, design-pattern, 싱글턴-패턴, 디자인
 
 ## 2. 객체
 
-* Template Method 패턴의 클래스 다이어그램
+* Singleton 패턴의 클래스 다이어그램
 
 ![img001](/assets/img/2021-01-04-singleton-pattern/img001.png)
-
 
 ### 1) Singleton의 역할
 Singleton 패턴에는 Singleton의 역할만이 존재한다. Singleton 역할은 유일한 인스턴스를 얻기 위한 static 메소드를 가지고 있다. 이 메소드는 언제나 동일한 인스턴스를 반환한다.
