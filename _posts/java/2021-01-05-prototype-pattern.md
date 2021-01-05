@@ -176,6 +176,7 @@ public class Main {
 
 * frakework와 생성하는 인스턴스를 분리하고 싶은 경우
 
+
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
 * <https://commons.wikimedia.org/wiki/Prototype_(design_pattern)>
