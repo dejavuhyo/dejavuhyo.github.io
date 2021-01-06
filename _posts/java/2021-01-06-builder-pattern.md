@@ -11,7 +11,7 @@ tags: [builder-pattern, builder, design-pattern, 빌더-패턴, 디자인-패턴
 
 ## 2. 객체
 
-* Prototype 패턴의 클래스 다이어그램
+* Builder 패턴의 클래스 다이어그램
 
 ![img001](/assets/img/2021-01-06-builder-pattern/img001.png)
 
@@ -142,8 +142,7 @@ public class HTMLBuilder extends Builder {
 * Main 클래스
   - Builder 패턴의 테스트 프로그램이다. 커맨드 라인에서 plain을 지정한 경우에는 TextBuilder 클래스의 인스턴스를 Director 클래스의 생성자에게 전달한다. 또한 커맨드 라인에서 html을 지정한 경우에는 HTMLBuilder 클래스의 인스턴스를 Director 클래스의 생성자에게 전달한다.
   - TextBuilder와 HTMLBuilder는 Builder의 하위 클래스이고 Director는 Builder의 메소드만을 사용해서 문서를 작성한다. Builder의 메소드만을 사용한다는 것은 Director는 실제로 동작하는 것이 TextBuilder인지, HTMLBuilder인지 모른다는 의미이다.
-
-따라서 Builder는 문서를 구축하려는 목적을 달성하기 위해서 필요 충분한 메소드군을 선언할 필요가 있다. 단, 일반 텍스트나 HTML 파일에 고유의 메소드까지 Builder가 제공해서는 안된다.
+  - 따라서 Builder는 문서를 구축하려는 목적을 달성하기 위해서 필요 충분한 메소드군을 선언할 필요가 있다. 단, 일반 텍스트나 HTML 파일에 고유의 메소드까지 Builder가 제공해서는 안된다.
 
 ```java
 public class Main {
@@ -183,4 +182,4 @@ Builder 클래스는 문서를 구축할 때(목적을 달성하기 위해) 필�
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://commons.wikimedia.org/wiki/Prototype_(design_pattern)>
+* <https://commons.wikimedia.org/wiki/Builder>
