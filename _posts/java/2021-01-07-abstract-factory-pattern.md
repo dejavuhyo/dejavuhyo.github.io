@@ -358,7 +358,7 @@ public class TableTray extends Tray {
 ```
 
 * TablePage 클래스
-Page 클래스의 하위 클래스이다.
+  - Page 클래스의 하위 클래스이다.
 
 ```java
 package tablefactory;
