@@ -336,7 +336,7 @@ import java.util.Iterator;
 
 public class TableTray extends Tray {
     public TableTray(String caption) {
-        super(caption);                     
+        super(caption);
     }
     public String makeHTML() {
         StringBuffer buffer = new StringBuffer();
