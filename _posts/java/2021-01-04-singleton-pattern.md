@@ -28,9 +28,10 @@ Singleton 패턴에는 Singleton의 역할만이 존재한다. Singleton 역할�
 
 ## 3. 예제
 
-* Singleton 클래스
-  - 인스턴스를 1개 밖에 만들 수 없으며, singleton은 static 필드(클래스 변수)로서 Singleton 클래스의 인스턴스에서 초기화된다. 이 초기화는 Singleton 클래스를 로드할 때 1회만 실행된다.
-  - Singleton 클래스의 생성자는 private로 되어 있다. 이것은 Singleton 클래스 외부에서 생성자의 호출을 금지하기 위해서이다. Singleton 패턴은 프로그래머가 실수를 해도 인스턴스가 1개만 생성되도록 보증하는 패턴이다. 이것을 보증하기 위해서 생성자를 private로 해둘 필요가 있다.
+### 1) Singleton 클래스
+인스턴스를 1개 밖에 만들 수 없으며, singleton은 static 필드(클래스 변수)로서 Singleton 클래스의 인스턴스에서 초기화된다. 이 초기화는 Singleton 클래스를 로드할 때 1회만 실행된다.
+
+Singleton 클래스의 생성자는 private로 되어 있다. 이것은 Singleton 클래스 외부에서 생성자의 호출을 금지하기 위해서이다. Singleton 패턴은 프로그래머가 실수를 해도 인스턴스가 1개만 생성되도록 보증하는 패턴이다. 이것을 보증하기 위해서 생성자를 private로 해둘 필요가 있다.
 
 ```java
 public class Singleton {
@@ -44,7 +45,7 @@ public class Singleton {
 }
 ```
 
-* Main 클래스
+### 2) Main 클래스
 
 ```java
 public class Main {
