@@ -13,7 +13,7 @@ tags: [decorator-pattern, decorator, design-pattern, 데코레이터-패턴, 디
 
 ## 2. 객체
 
-* Composite 패턴의 클래스 다이어그램
+* Decorator 패턴의 클래스 다이어그램
 
 ![img001](/assets/img/2021-01-13-decorator-pattern/img001.png)
 
