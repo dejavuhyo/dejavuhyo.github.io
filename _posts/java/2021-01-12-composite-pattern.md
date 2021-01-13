@@ -33,9 +33,10 @@ Composite 패턴의 사용자이다. Composite 역할이 포함하고 있는 Com
 
 ## 3. 예제
 
-* Entry 클래스
-  - 추상  클래스로서 디렉터리 엔트리를 표현하며 하위 클래스인 File 클래스와 Directory 클래스를 만든다.
-  - 디렉터리 엔트리는 이름을 가지고 있다. 이름을 얻기 위한 메소드로서 getName을 준비하며 하위 클래스에서 구현을 한다. 또한 디렉터리 엔트리는 크기를 가지고 있다. 크기를 얻기 위한 getSize 메소드를 준비하며 이것도 하위 클래스에서 구현한다.
+### 1) Entry 클래스
+추상  클래스로서 디렉터리 엔트리를 표현하며 하위 클래스인 File 클래스와 Directory 클래스를 만든다.
+
+디렉터리 엔트리는 이름을 가지고 있다. 이름을 얻기 위한 메소드로서 getName을 준비하며 하위 클래스에서 구현을 한다. 또한 디렉터리 엔트리는 크기를 가지고 있다. 크기를 얻기 위한 getSize 메소드를 준비하며 이것도 하위 클래스에서 구현한다.
 
 ```java
 public abstract class Entry {
@@ -54,9 +55,10 @@ public abstract class Entry {
 }
 ```
 
-* File 클래스
-  - 파일을 표현하는 클래스이다. Entry 클래스의 하위 클래스로 선언한다. 필드는 두 개이며 파일의 이름을 표현하는 name과 크기를 나타내는 size이다. 생성자에서는 이름과 크기를 제공해서 File의 인스턴스를 만든다.
-  - 추상 메소드는 상위 클래스의 Entry 클래스에서 모두 구현되고 있으므로 File 클래스는 추상 클래스가 아니다.
+### 2) File 클래스
+파일을 표현하는 클래스이다. Entry 클래스의 하위 클래스로 선언한다. 필드는 두 개이며 파일의 이름을 표현하는 name과 크기를 나타내는 size이다. 생성자에서는 이름과 크기를 제공해서 File의 인스턴스를 만든다.
+
+추상 메소드는 상위 클래스의 Entry 클래스에서 모두 구현되고 있으므로 File 클래스는 추상 클래스가 아니다.
 
 ```java
 public class File extends Entry {
@@ -78,9 +80,10 @@ public class File extends Entry {
 }
 ```
 
-* Directory 클래스
-  - 디렉터리를 표현하는 클래스이며 Entry 클래스의 하위 클래스로 정의되어 있다.
-  - 필드는 두 개가 있다. 첫 번째의 필드 name은 디렉터리의 이름을 나타내며 File 클래스와 동일하다. 그러나 Directory에는 크기를 나타내는 필드가 없다. 이것은 디렉터리의 크기를 동적으로 계산해서 구하고 있기 때문이다. 두 번째의 필드 directory는 ArrayList로 정의되고 있다. 이 directory가 디렉터리 엔트리를 저장해 두기 위한 필드이다.
+### 3) Directory 클래스
+디렉터리를 표현하는 클래스이며 Entry 클래스의 하위 클래스로 정의되어 있다.
+
+필드는 두 개가 있다. 첫 번째의 필드 name은 디렉터리의 이름을 나타내며 File 클래스와 동일하다. 그러나 Directory에는 크기를 나타내는 필드가 없다. 이것은 디렉터리의 크기를 동적으로 계산해서 구하고 있기 때문이다. 두 번째의 필드 directory는 ArrayList로 정의되고 있다. 이 directory가 디렉터리 엔트리를 저장해 두기 위한 필드이다.
 
 ```java
 import java.util.Iterator;
@@ -119,8 +122,8 @@ public class Directory extends Entry {
 }
 ```
 
-* FileTreatmentException 클래스
-  - 파일에 대해서 add 메소드를 잘못 호출 했을 때 제공되는 예외이다. 이 예외는 Java의 클래스 라이브러리에서 제공하는 것이 아니라 이 예제 프로그램을 위해 정의한 클래스이다.
+### 4) FileTreatmentException 클래스
+파일에 대해서 add 메소드를 잘못 호출 했을 때 제공되는 예외이다. 이 예외는 Java의 클래스 라이브러리에서 제공하는 것이 아니라 이 예제 프로그램을 위해 정의한 클래스이다.
 
 ```java
 public class FileTreatmentException extends RuntimeException {
@@ -132,9 +135,8 @@ public class FileTreatmentException extends RuntimeException {
 }
 ```
 
-* Main 클래스
-  - 디렉터리 계층을 만든다. 우선 처음에 root, bin, tmp, usr이라는 디렉터리를 만들고 bin의 아래에 vi라는 파일과 latex라는 파일을 넣는다.
-  - 그리고 usr 디렉터리 아래에 Kim, Lee, Park라는 디렉터리를 만들어 각 사람의 파일을 그 아래에 만든다.
+### 5) Main 클래스
+디렉터리 계층을 만든다. 우선 처음에 root, bin, tmp, usr이라는 디렉터리를 만들고 bin의 아래에 vi라는 파일과 latex라는 파일을 넣는다. 그리고 usr 디렉터리 아래에 Kim, Lee, Park라는 디렉터리를 만들어 각 사람의 파일을 그 아래에 만든다.
 
 ```java
 public class Main {
