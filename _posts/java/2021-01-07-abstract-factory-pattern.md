@@ -34,8 +34,8 @@ ConcreteFactory 역할의 인터페이스(API)를 구현한다.
 
 ## 3. 예제
 
-* Item 클래스
-  - Link와 Tray의 상위 클래스이다. 이것은 Link와 Tray를 동일시하기 위한 클래스이다. caption 필드는 이 항목의 '목차'를 표시한다. makeHTML 메소드는 추상 메소드로 하위 클래스에서 구현되도록 한다. 이 메소드를 호출하면 HTML의 문자열이 반환값이 된다.
+### 1) Item 클래스
+Link와 Tray의 상위 클래스이다. 이것은 Link와 Tray를 동일시하기 위한 클래스이다. caption 필드는 이 항목의 '목차'를 표시한다. makeHTML 메소드는 추상 메소드로 하위 클래스에서 구현되도록 한다. 이 메소드를 호출하면 HTML의 문자열이 반환값이 된다.
 
 ```java
 package factory;
@@ -49,8 +49,8 @@ public abstract class Item {
 }
 ```
 
-* Link 클래스
-  - HTML의 하이퍼링크를 추상적으로 표현한 클래스이다. url 필드는 링크되는 곳의 URL을 저장하기 위한 것이다. Link 클래스에서는 추상 메소드가 전혀 등장하지 않는 것처럼 보이지만, 상위 클래스(Item)의 추상 메소드(makeHTML)가 구현되어 있지 않으므로 Link 클래스도 추상 클래스이다.
+### 2) Link 클래스
+HTML의 하이퍼링크를 추상적으로 표현한 클래스이다. url 필드는 링크되는 곳의 URL을 저장하기 위한 것이다. Link 클래스에서는 추상 메소드가 전혀 등장하지 않는 것처럼 보이지만, 상위 클래스(Item)의 추상 메소드(makeHTML)가 구현되어 있지 않으므로 Link 클래스도 추상 클래스이다.
 
 ```java
 package factory;
@@ -64,8 +64,8 @@ public abstract class Link extends Item {
 }
 ```
 
-* Tray 클래스
-  - 복수의 Link나 Tray를 모아서 합친 것을 표시한 클래스이다. Link와 Tray는 add 메소드를 사용해서 모은다. 'Link나 Tray'라는 부분을 표현하기 위해 add 메소드에서는 Link와 Tray의 상위 클래스인 Item을 인수로 갖는다. Tray 클래스도 Item 클래스의 추상 메소드 makeHTML을 상속하고 있지만 구현은 하지 않는다. 그러므로 Tray 클래스는 추상 클래스가 된다.
+### 3) Tray 클래스
+복수의 Link나 Tray를 모아서 합친 것을 표시한 클래스이다. Link와 Tray는 add 메소드를 사용해서 모은다. 'Link나 Tray'라는 부분을 표현하기 위해 add 메소드에서는 Link와 Tray의 상위 클래스인 Item을 인수로 갖는다. Tray 클래스도 Item 클래스의 추상 메소드 makeHTML을 상속하고 있지만 구현은 하지 않는다. 그러므로 Tray 클래스는 추상 클래스가 된다.
 
 ```java
 package factory;
@@ -82,10 +82,8 @@ public abstract class Tray extends Item {
 }
 ```
 
-* Page 클래스
-  - HTML 페이지 전체를 추상적으로 표현한 클래스이다. Link나 Tray가 추상적인 '부품'이라면 Page 클래스는 추상적인 '제품'에 해당한다. title은 페이지의 제목, author는 페이지의 저자를 표현하기 위한 필드이다.
-  - 저자 이름은 생성자에서 인수로 지정한다. 페이지에는 add 메소드를 사용해서 Item(즉, Link 혹은 Tray)을 추가한다. 추가한 것이 이 페이지에서 표시된다.
-  - output 메소드 안에서는 제목을 기초로 파일명을 결정하고 makeHTML의 메소드를 사용해서 자신의 HTML의 내용을 파일에 기술하고 있다.
+### 4) Page 클래스
+HTML 페이지 전체를 추상적으로 표현한 클래스이다. Link나 Tray가 추상적인 '부품'이라면 Page 클래스는 추상적인 '제품'에 해당한다. title은 페이지의 제목, author는 페이지의 저자를 표현하기 위한 필드이다. 저자 이름은 생성자에서 인수로 지정한다. 페이지에는 add 메소드를 사용해서 Item(즉, Link 혹은 Tray)을 추가한다. 추가한 것이 이 페이지에서 표시된다. output 메소드 안에서는 제목을 기초로 파일명을 결정하고 makeHTML의 메소드를 사용해서 자신의 HTML의 내용을 파일에 기술하고 있다.
 
 ```java
 package factory;
@@ -118,11 +116,14 @@ public abstract class Page {
 }
 ```
 
-* Factory 클래스
-  - getFactory 메소드는 클래스의 이름을 지정해서 구체적인 공장의 인스턴스를 작성한다. getFactory 안에서는 Class 클래스의 forName 메소드를 사용해서, 그 클래스를 동적으로 읽는다. 그리고 newInstance 메소드를 이용해서, 그 클래스의 인스턴스를 한 개 작성한다. 이것이 getFactory의 반환값이 된다.
-  - Class 클래스는 java.lang 패키지에 속하는 클래스로서 '클래스를 표현하는 클래스'이다. Class 클래스는 Java의 표준 라이브러리에 포함되어 있다. forName은 java.lang.Class의 클래스 메소드(static 메소드)이고, newInstance는 java.lang.Class의 인스턴스 메소드이다.
-  - getFactory 메소드의 안에는 구체적인 공장의 인스턴스를 만들지만, 반환값은 추상적인 공자이라는 점에 주의해야한다.
-  - createLink, createTray, createPage의 각 메소드는 그 추상적인 공장에서 부품이나 제품을 작성할 때 이용하는 메소드이다. 이것은 모두 추상 메소드로 되어 있고, 실제의 구체적인 부품이나 제품의 작성은 Factory의 하위 클래스에게 맡기고 있다. 단, 메소드의 이름과 시그니처만은 확실히 정해져 있다.
+### 5) Factory 클래스
+getFactory 메소드는 클래스의 이름을 지정해서 구체적인 공장의 인스턴스를 작성한다. getFactory 안에서는 Class 클래스의 forName 메소드를 사용해서, 그 클래스를 동적으로 읽는다. 그리고 newInstance 메소드를 이용해서, 그 클래스의 인스턴스를 한 개 작성한다. 이것이 getFactory의 반환값이 된다.
+
+Class 클래스는 java.lang 패키지에 속하는 클래스로서 '클래스를 표현하는 클래스'이다. Class 클래스는 Java의 표준 라이브러리에 포함되어 있다. forName은 java.lang.Class의 클래스 메소드(static 메소드)이고, newInstance는 java.lang.Class의 인스턴스 메소드이다.
+
+getFactory 메소드의 안에는 구체적인 공장의 인스턴스를 만들지만, 반환값은 추상적인 공장이라는 점에 주의해야한다.
+
+createLink, createTray, createPage의 각 메소드는 그 추상적인 공장에서 부품이나 제품을 작성할 때 이용하는 메소드이다. 이것은 모두 추상 메소드로 되어 있고, 실제의 구체적인 부품이나 제품의 작성은 Factory의 하위 클래스에게 맡기고 있다. 단, 메소드의 이름과 시그니처만은 확실히 정해져 있다.
 
 ```java
 package factory;
@@ -145,8 +146,8 @@ public abstract class Factory {
 }
 ```
 
-* Main 클래스
-  - 추상적인 공장을 사용해서 추상적인 제품을 제조하고, 추상적인 제품을 조립하고 있다. import 되어 있는 것이 factory 패키지뿐인 점에서 알 수 있듯이 이 클래스에서는 구체적인 부품, 제품, 공장을 전혀 이용하지 않는다. 구체적인 공장의 클래스 이름은 커맨드 라인에서 지정한다.
+### 6) Main 클래스
+추상적인 공장을 사용해서 추상적인 제품을 제조하고, 추상적인 제품을 조립하고 있다. import 되어 있는 것이 factory 패키지뿐인 점에서 알 수 있듯이 이 클래스에서는 구체적인 부품, 제품, 공장을 전혀 이용하지 않는다. 구체적인 공장의 클래스 이름은 커맨드 라인에서 지정한다.
 
 ```java
 import factory.*;
@@ -190,8 +191,8 @@ public class Main {
 }
 ```
 
-* ListFactory 클래스
-  - Factory 클래스의 추상 메소드 createLink, createTray, createPage를 구현하고 있다. 여기에서는 단순하게 ListLink, ListTray, ListPage를 new하고 있다.
+### 7) ListFactory 클래스
+Factory 클래스의 추상 메소드 createLink, createTray, createPage를 구현하고 있다. 여기에서는 단순하게 ListLink, ListTray, ListPage를 new하고 있다.
 
 ```java
 package listfactory;
@@ -210,8 +211,8 @@ public class ListFactory extends Factory {
 }
 ```
 
-* ListLink 클래스
-  - Link 클래스의 하위 클래스이다. 구현해야 할 메소드는 상위 클래스에서 추상 메소드였던 makeHTML이다. ListLink에서는 <li> 태그와 <a> 태그를 사용해서 HTML의 일부분을 작성하고 있다.
+### 8) ListLink 클래스
+Link 클래스의 하위 클래스이다. 구현해야 할 메소드는 상위 클래스에서 추상 메소드였던 makeHTML이다. ListLink에서는 <li> 태그와 <a> 태그를 사용해서 HTML의 일부분을 작성하고 있다.
 
 ```java
 package listfactory;
@@ -227,10 +228,12 @@ public class ListLink extends Link {
 }
 ```
 
-* ListTray 클래스
-  - Tray 클래스의 하위 클래스이다. tray 필드 안에는 HTML로 출력해야 할 Item 들이 모여있다. 그것들을 HTML의 태그로 표현하는 것이 이 makeHTML 메소드의 사명이다.
-  - 변수 item의 내용이 실제로 무엇인지를 조사해서 switch문이나 if문을 사용하는 프로그램을 작성해서는 안된다. 그것은 매우 비오브젝트(비객체) 지향적인 프로그램이 되고만다. 변수 item은 Item형이고 Item 클래스에서는 makeHTML이라는 메소드가 선언되고 있다. 그리고 ListLink나 ListTray는 모두 Item 클래스의 하위 클래스이다. 그러므로 안심하고 makeHTML 메소드를 호출하면 된다.
-  - 여기에서 사용되고 있는 java.util.Iterator라는 클래스는 Iterator 패턴에서 배운 것과 기능적으로는 같지만, 여기에서는 Java의 클래스 라이브러리로 제공되고 있는 것이다. java.util.ArrayList 클래스에서 java.util.Iterator 클래스를 만들기 위해서는 iterator라는 메소드가 사용된다.
+### 9) ListTray 클래스
+Tray 클래스의 하위 클래스이다. tray 필드 안에는 HTML로 출력해야 할 Item 들이 모여있다. 그것들을 HTML의 태그로 표현하는 것이 이 makeHTML 메소드의 사명이다.
+
+변수 item의 내용이 실제로 무엇인지를 조사해서 switch문이나 if문을 사용하는 프로그램을 작성해서는 안된다. 그것은 매우 비오브젝트(비객체) 지향적인 프로그램이 되고만다. 변수 item은 Item형이고 Item 클래스에서는 makeHTML이라는 메소드가 선언되고 있다. 그리고 ListLink나 ListTray는 모두 Item 클래스의 하위 클래스이다. 그러므로 안심하고 makeHTML 메소드를 호출하면 된다.
+
+여기에서 사용되고 있는 java.util.Iterator라는 클래스는 Iterator 패턴에서 배운 것과 기능적으로는 같지만, 여기에서는 Java의 클래스 라이브러리로 제공되고 있는 것이다. java.util.ArrayList 클래스에서 java.util.Iterator 클래스를 만들기 위해서는 iterator라는 메소드가 사용된다.
 
 ```java
 package listfactory;
@@ -258,8 +261,8 @@ public class ListTray extends Tray {
 }
 ```
 
-* ListPage 클래스
-  - Page 클래스의 하위 클래스이다. ListPage는 필드의 내용을 사용해 페이지를 구성하고 있다. 저자 이름(author)은 <address> 태그를 사용해 표현하고 있다.
+### 10) ListPage 클래스
+Page 클래스의 하위 클래스이다. ListPage는 필드의 내용을 사용해 페이지를 구성하고 있다. 저자 이름(author)은 <address> 태그를 사용해 표현하고 있다.
 
 ```java
 package listfactory;
@@ -289,8 +292,8 @@ public class ListPage extends Page {
 }
 ```
 
-* TableFactory 클래스
-  - Factory 클래스의 하위 클래스이다. createLink, createTray, createPage에서는 각각 TableLink, TableTray, TablePage라는 클래스의 인스턴스를 만들고 있다.
+### 11) TableFactory 클래스
+Factory 클래스의 하위 클래스이다. createLink, createTray, createPage에서는 각각 TableLink, TableTray, TablePage라는 클래스의 인스턴스를 만들고 있다.
 
 ```java
 package tablefactory;
@@ -309,8 +312,10 @@ public class TableFactory extends Factory {
 }
 ```
 
-* TableLink 클래스
-  - Link 클래스의 하위 클래스이다. makeHTML에서는 테이블의 1열을 구성하는 <td> 태그를 사용하고 있다.
+## 4. 별도의 구체적인 공장을 추가하기
+
+### 1) TableLink 클래스
+Link 클래스의 하위 클래스이다. makeHTML에서는 테이블의 1열을 구성하는 <td> 태그를 사용하고 있다.
 
 ```java
 package tablefactory;
@@ -326,8 +331,8 @@ public class TableLink extends Link {
 }
 ```
 
-* TableTray 클래스
-  - Tray 클래스의 하위 클래스이다. makeHTML에서는 <td>와 <table> 태그를 사용해서 Item들을 출력하고 있다.
+### 2) TableTray 클래스
+Tray 클래스의 하위 클래스이다. makeHTML에서는 <td>와 <table> 태그를 사용해서 Item들을 출력하고 있다.
 
 ```java
 package tablefactory;
@@ -357,8 +362,8 @@ public class TableTray extends Tray {
 }
 ```
 
-* TablePage 클래스
-  - Page 클래스의 하위 클래스이다.
+### 3) TablePage 클래스
+Page 클래스의 하위 클래스이다.
 
 ```java
 package tablefactory;
@@ -388,7 +393,7 @@ public class TablePage extends Page {
 }
 ```
 
-## 4. 개념 확장
+## 5. 개념 확장
 
 ### 1) 구체적인 공장을 새로 추가하는 것은 간단하다.
 Abstract Factory 패턴에 구체적인 공장을 새로 추가하는 것은 간단하다. '간단'하다는 것은 어떤 클래스를 만들고, 어떤 메소드를 구현하면 좋은지가 확실하다는 의미이다.
