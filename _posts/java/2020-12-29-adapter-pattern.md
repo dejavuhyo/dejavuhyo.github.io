@@ -41,11 +41,9 @@ Adaptee 역할의 메소드를 사용해서 어떻게든 Target 역할을 만족
 
 클래스에 의한 Adapter 패턴의 경우에는 Adapter의 역할은 '상속'을 사용한 Adaptee의 역할을 이용하지만, 인스턴스에 의한 Adapter 패턴의 경우에는 '위임'을 사용한 Adaptee의 역할을 이용한다.
 
-## 3. 예제
+## 3. 상속을 사용한 Adapter 패턴 예제
 
-### 1) 상속을 사용한 Adapter 패턴
-
-* Banner 클래스
+### 1) Banner 클래스
 
 ```java
 public class Banner {
@@ -62,7 +60,7 @@ public class Banner {
 }
 ```
 
-* Print 인터페이스
+### 2) Print 인터페이스
 
 ```java
 public interface Print {
@@ -71,8 +69,8 @@ public interface Print {
 }
 ```
 
-* PrintBanner 클래스
-  - PrintBanner 클래스가 어댑터의 역할을 완수한다. 준비된 Banner 클래스를 확장(extends)해서 showWithParen 메소드와 showWithAster 메소드를 상속한다. 또한, 필요한 Print 인터페이스를 구현(implements)해서 printWeak 메소드와 printStrong 메소드를 구현하고 있다.
+### 3) PrintBanner 클래스
+PrintBanner 클래스가 어댑터의 역할을 완수한다. 준비된 Banner 클래스를 확장(extends)해서 showWithParen 메소드와 showWithAster 메소드를 상속한다. 또한, 필요한 Print 인터페이스를 구현(implements)해서 printWeak 메소드와 printStrong 메소드를 구현하고 있다.
 
 ```java
 public class PrintBanner extends Banner implements Print {
@@ -88,8 +86,8 @@ public class PrintBanner extends Banner implements Print {
 }
 ```
 
-* Main 클래스
-  - 어댑터 역할의 PrintBanner 클래스를 사용해서 Hello라는 문자열을 약하게(갈호를 붙임), 또는 강하게(* 사이에) 표시한다.
+### 4) Main 클래스
+어댑터 역할의 PrintBanner 클래스를 사용해서 Hello라는 문자열을 약하게(갈호를 붙임), 또는 강하게(* 사이에) 표시한다.
 
 ```java
 public class Main {
@@ -100,15 +98,14 @@ public class Main {
     }
 }
 ```
-
-### 2) 위임을 사용한 Adapter 패턴
+## 4. 위임을 사용한 Adapter 패턴 예제
 Banner 클래스를 이용해서 Print 클래스와 동일한 메소드를 갖는 클래스를 실현하는 것이다. Java에서는 2개의 클래스를 동시에 상속할 수 없기 때문에(단일 상속), PrintBanner 클래스를 Print와 Banner 모두의 하위 클래스로 정의할 수 없다.
 
 PrintBanner 클래스는 banner 필드에서 Banner 클래스의 인스턴스를 가진다. 이 인스턴스는 PrintBanner 클래스의 생성자에서 생성한다. 그리고 printWeak 및 printStrong 메소드에서는 banner 필드를 매개로 showWithParen, showWithAster 메소르를 호출한다.
 
 PrintBanner 클래스의 printWeak 메소드가 호출되었을 때, 자신이 처리하는 것이 아니라 별도의 인스턴스(Banner의 인스턴스)인 showWithParen 메소드에게 위임하고 있다.
 
-* Print 클래스
+### 1) Print 클래스
 
 ```java
 public abstract class Print {
@@ -117,7 +114,7 @@ public abstract class Print {
 }
 ```
 
-* PrintBanner 클래스
+### 2) PrintBanner 클래스
 
 ```java
 public class PrintBanner extends Print {
@@ -134,7 +131,7 @@ public class PrintBanner extends Print {
 }
 ```
 
-## 4. 개념 확장
+## 5. 개념 확장
 
 ### 1) 사용하는 경우
 Adapter 패턴은 기존의 클래스를 개조해서 필요한 클래스를 만든다. 이 패턴으로 필요한 메소드를 빠르게 만들 수 있다. 만약 버그가 발생해도 기존의 클래스(Adaptee의 역할)에는 버그가 없으므로 Adapter 역할의 클래스를 중점적으로 조사하면 되고, 프로그램 검사도 상당히 쉬워진다.
