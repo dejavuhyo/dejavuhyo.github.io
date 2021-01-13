@@ -35,10 +35,12 @@ Implementor 역할의 인터페이스(API)를 구체적으로 구현하는 역�
 
 ## 3. 예제
 
-* Display 클래스
-  - 추상적인 '무언가를 표시하는 것'이다. 이 클래스는 '기능의 클래스 계층'의 최상위에 있는 클래스이다. impl 필드는 Display 클래스의 '구현'을 나타내는 인스턴스이다.
-  - 생성자에는 구현을 나타내는 클래스의 인스턴스를 전달한다. 인수로 전달된 인스턴스는 impl 필드에 저장되어 이후에 처리할 때 사용된다.
-  - open, print, close 세 메소드는 Display 클래스가 제공하는 인터페이스(API)에서 표시를 실행하는 순서를 나타내고 있다. open은 표시의 전처리, print는 표시 그 자체, close는 표시의 후처리 역할을 맡는다. 메소드들을 실현하기 위해 impl 필드의 구현 메소드를 이용하고 있다. 여기에서 Display의 인터페이스(API)가 DisplayImpl의 인터페이스(API)로 변환된다. display 메소드는 open, print, close라는 Display의 인터페이스(API)를 이용해서 '표시한다'라는 처리를 실현하고 있다.
+### 1) Display 클래스
+추상적인 '무언가를 표시하는 것'이다. 이 클래스는 '기능의 클래스 계층'의 최상위에 있는 클래스이다. impl 필드는 Display 클래스의 '구현'을 나타내는 인스턴스이다.
+
+생성자에는 구현을 나타내는 클래스의 인스턴스를 전달한다. 인수로 전달된 인스턴스는 impl 필드에 저장되어 이후에 처리할 때 사용된다.
+
+open, print, close 세 메소드는 Display 클래스가 제공하는 인터페이스(API)에서 표시를 실행하는 순서를 나타내고 있다. open은 표시의 전처리, print는 표시 그 자체, close는 표시의 후처리 역할을 맡는다. 메소드들을 실현하기 위해 impl 필드의 구현 메소드를 이용하고 있다. 여기에서 Display의 인터페이스(API)가 DisplayImpl의 인터페이스(API)로 변환된다. display 메소드는 open, print, close라는 Display의 인터페이스(API)를 이용해서 '표시한다'라는 처리를 실현하고 있다.
 
 ```java
 public class Display {
@@ -63,8 +65,8 @@ public class Display {
 }
 ```
 
-* CountDisplay 클래스
-  - Display 클래스에 기능을 추가한 것이 CountDisplay이다. Display 클래스에는 '표시한다'는 기능밖에 없지만 CountDisplay 클래스에서는 '지정횟수만큼 표시한다'는 기능이 추가 되었다. 이것이multiDisplay 메소드이다. CountDisplay 클래스에서는 open, print, close라는 Display 클래스에서 상속받은 메소드를 사용해서 새로운 메소드를 추가하고 있다.
+### 2) CountDisplay 클래스
+Display 클래스에 기능을 추가한 것이 CountDisplay이다. Display 클래스에는 '표시한다'는 기능밖에 없지만 CountDisplay 클래스에서는 '지정횟수만큼 표시한다'는 기능이 추가 되었다. 이것이multiDisplay 메소드이다. CountDisplay 클래스에서는 open, print, close라는 Display 클래스에서 상속받은 메소드를 사용해서 새로운 메소드를 추가하고 있다.
 
 ```java
 public class CountDisplay extends Display {
@@ -81,8 +83,8 @@ public class CountDisplay extends Display {
 }
 ```
 
-* DisplayImpl 클래스
-  - DisplayImpl 클래스는 '구현의 클래스 계층'의 최상위에 위치한다. DisplayImpl 클래스는 추상 클래스이며 rawOpen, rawPrint, rawClose라는 세 가지 메소드를 가지고 있다. 이것은 Display 클래스의 open, print, close에 각각 대응하며 전처리, 표시, 후처리를 실행한다.
+### 3) DisplayImpl 클래스
+DisplayImpl 클래스는 '구현의 클래스 계층'의 최상위에 위치한다. DisplayImpl 클래스는 추상 클래스이며 rawOpen, rawPrint, rawClose라는 세 가지 메소드를 가지고 있다. 이것은 Display 클래스의 open, print, close에 각각 대응하며 전처리, 표시, 후처리를 실행한다.
 
 ```java
 public abstract class DisplayImpl {
@@ -92,8 +94,8 @@ public abstract class DisplayImpl {
 }
 ```
 
-* StringDisplayImpl 클래스
-  - StringDisplayImpl 클래스는 문자열을 표시하는 클래스이다. 단지 표시만 하는 것이 아니라 DisplayImpl 클래스의 하위 클래스로서 rawOpen, rawPrint, rawClose 메소드를 사용해서 표시를 실행한다. DisplayImpl과 StringDisplayImpl 두 클래스가 '구현의 클래스 계층'에 해당된다.
+### 4) StringDisplayImpl 클래스
+StringDisplayImpl 클래스는 문자열을 표시하는 클래스이다. 단지 표시만 하는 것이 아니라 DisplayImpl 클래스의 하위 클래스로서 rawOpen, rawPrint, rawClose 메소드를 사용해서 표시를 실행한다. DisplayImpl과 StringDisplayImpl 두 클래스가 '구현의 클래스 계층'에 해당된다.
 
 ```java
 public class StringDisplayImpl extends DisplayImpl {
@@ -122,8 +124,8 @@ public class StringDisplayImpl extends DisplayImpl {
 }
 ```
 
-* Main 클래스
-  - 앞서 기술한 네 개의 클래스를 조합해서 문자열을 표시한다. 변수 d1에는 Display 클래스의 인스턴스를 대입하고 변수 d2와 d3에는 CountDisplay 클래스의 인스턴스를 대입한다. 둘 다 StringDisplayImpl 클래스의 인스턴스가 구현을 담당한다. d1, d2, d3은 모두 Display 클래스의 인스턴스의 일종이기 때문에 display 메소드를 호출할 수 있고 d3은 multiDisplay 메소드도 호출할 수 있다.
+### 5) Main 클래스
+앞서 기술한 네 개의 클래스를 조합해서 문자열을 표시한다. 변수 d1에는 Display 클래스의 인스턴스를 대입하고 변수 d2와 d3에는 CountDisplay 클래스의 인스턴스를 대입한다. 둘 다 StringDisplayImpl 클래스의 인스턴스가 구현을 담당한다. d1, d2, d3은 모두 Display 클래스의 인스턴스의 일종이기 때문에 display 메소드를 호출할 수 있고 d3은 multiDisplay 메소드도 호출할 수 있다.
 
 ```java
 public class Main {
