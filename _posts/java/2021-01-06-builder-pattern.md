@@ -29,8 +29,8 @@ Builder 패턴을 이용하는 역할이다
 
 ## 3. 예제
 
-* Builder 클래스
-  - '문서'를 만들 메소드들을 선언하고 있는 추상 클래스이다. makrTitle, makeString, makeItems는 각각 타이틀, 문자열, 개별 항목을 문서 안에 구축하는 메소드이다. close 메소드는 문서를 완성시키는 메소드이다.
+### 1) Builder 클래스
+'문서'를 만들 메소드들을 선언하고 있는 추상 클래스이다. makrTitle, makeString, makeItems는 각각 타이틀, 문자열, 개별 항목을 문서 안에 구축하는 메소드이다. close 메소드는 문서를 완성시키는 메소드이다.
 
 ```java
 public abstract class Builder {
@@ -41,10 +41,12 @@ public abstract class Builder {
 }
 ```
 
-* Director 클래스
-  - Builder 클래스로 선언되어 있는 메소드를 사용해서 문서를 만든다. Director 클래스의 생성자의 인수는 Builder 형이다. 그러나 실세로는 Builder 클래스의 인스턴스가 인수로 주어지는 경우는 없다. 이유는 Builder 클래스는 추상 클래스이므로 인스턴스를 만들 수 없기 때문이다.
-  - Director의 생성자에게 실제로 전달되는 것은 Builder 클래스의 하위 클래스(TextBuilder 클래스나 HTMLBuilder 클래스 등)의 인스턴스이다. 주어진 Builder 클래스의 하위 클래스 종류에 따라 Director 클래스가 만들 구체적인 문서의 형식이 정해진다.
-  - construct 메소드는 문서를 만드는 메소드이며, Builder에서 선언되어 있는 메소드만을 사용한다. 이 메소드를 호출하면 문서가 만들어진다.
+### 2) Director 클래스
+Builder 클래스로 선언되어 있는 메소드를 사용해서 문서를 만든다. Director 클래스의 생성자의 인수는 Builder 형이다. 그러나 실세로는 Builder 클래스의 인스턴스가 인수로 주어지는 경우는 없다. 이유는 Builder 클래스는 추상 클래스이므로 인스턴스를 만들 수 없기 때문이다.
+
+Director의 생성자에게 실제로 전달되는 것은 Builder 클래스의 하위 클래스(TextBuilder 클래스나 HTMLBuilder 클래스 등)의 인스턴스이다. 주어진 Builder 클래스의 하위 클래스 종류에 따라 Director 클래스가 만들 구체적인 문서의 형식이 정해진다.
+
+construct 메소드는 문서를 만드는 메소드이며, Builder에서 선언되어 있는 메소드만을 사용한다. 이 메소드를 호출하면 문서가 만들어진다.
 
 ```java
 public class Director {
@@ -70,8 +72,8 @@ public class Director {
 }
 ```
 
-* TexBuilder 클래스
-  - Builder 클래스의 하위 클래스이다. 일반 텍스트를 사용해서 문서를 구축하고 결과는 String으로 반환한다.
+### 3) TexBuilder 클래스
+Builder 클래스의 하위 클래스이다. 일반 텍스트를 사용해서 문서를 구축하고 결과는 String으로 반환한다.
 
 ```java
 public class TextBuilder extends Builder {
@@ -100,8 +102,8 @@ public class TextBuilder extends Builder {
 }
 ```
 
-* HTMLBuilder 클래스
-  - Builder 클래스의 하위 클래스이다. HTMLBuilder 클래스는 HTML 파일로 문서를 구축한다. 구축한 결과는 HTML 파일의 파일명으로 반환한다.
+### 4) HTMLBuilder 클래스
+Builder 클래스의 하위 클래스이다. HTMLBuilder 클래스는 HTML 파일로 문서를 구축한다. 구축한 결과는 HTML 파일의 파일명으로 반환한다.
 
 ```java
 import java.io.*;
@@ -139,10 +141,12 @@ public class HTMLBuilder extends Builder {
 }
 ```
 
-* Main 클래스
-  - Builder 패턴의 테스트 프로그램이다. 커맨드 라인에서 plain을 지정한 경우에는 TextBuilder 클래스의 인스턴스를 Director 클래스의 생성자에게 전달한다. 또한 커맨드 라인에서 html을 지정한 경우에는 HTMLBuilder 클래스의 인스턴스를 Director 클래스의 생성자에게 전달한다.
-  - TextBuilder와 HTMLBuilder는 Builder의 하위 클래스이고 Director는 Builder의 메소드만을 사용해서 문서를 작성한다. Builder의 메소드만을 사용한다는 것은 Director는 실제로 동작하는 것이 TextBuilder인지, HTMLBuilder인지 모른다는 의미이다.
-  - 따라서 Builder는 문서를 구축하려는 목적을 달성하기 위해서 필요 충분한 메소드군을 선언할 필요가 있다. 단, 일반 텍스트나 HTML 파일에 고유의 메소드까지 Builder가 제공해서는 안된다.
+### 5) Main 클래스
+Builder 패턴의 테스트 프로그램이다. 커맨드 라인에서 plain을 지정한 경우에는 TextBuilder 클래스의 인스턴스를 Director 클래스의 생성자에게 전달한다. 또한 커맨드 라인에서 html을 지정한 경우에는 HTMLBuilder 클래스의 인스턴스를 Director 클래스의 생성자에게 전달한다.
+
+TextBuilder와 HTMLBuilder는 Builder의 하위 클래스이고 Director는 Builder의 메소드만을 사용해서 문서를 작성한다. Builder의 메소드만을 사용한다는 것은 Director는 실제로 동작하는 것이 TextBuilder인지, HTMLBuilder인지 모른다는 의미이다.
+
+따라서 Builder는 문서를 구축하려는 목적을 달성하기 위해서 필요 충분한 메소드군을 선언할 필요가 있다. 단, 일반 텍스트나 HTML 파일에 고유의 메소드까지 Builder가 제공해서는 안된다.
 
 ```java
 public class Main {
