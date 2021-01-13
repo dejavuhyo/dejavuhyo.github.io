@@ -32,8 +32,8 @@ Product 역할을 생성하는 추상 클래스는 framework 쪽에 가깝다. �
 
 ## 3. 예제
 
-* Product 클래스
-  - 이 클래스에서는 추상 메소드 use만이 선언되어 있다. 구체적인 use의 구현은 모두 Product의 하위 클래스에게 맡기고 있다.
+### 1) Product 클래스
+이 클래스에서는 추상 메소드 use만이 선언되어 있다. 구체적인 use의 구현은 모두 Product의 하위 클래스에게 맡기고 있다.
 
 ```java
 package framework;
@@ -43,8 +43,8 @@ public abstract class Product {
 }
 ```
 
-* Factory 클래스
-  - Template Method 패턴이 사용되고 있다. 추상 메소드 createProduct에서는 '제품을 만들고', 만든 제품을 추상 메소드 registerProduct에서 '등록'한다. '제품을 만들고', '등록'하는 구현은 하위 클래스에서 수행한다.
+### 2) Factory 클래스
+Template Method 패턴이 사용되고 있다. 추상 메소드 createProduct에서는 '제품을 만들고', 만든 제품을 추상 메소드 registerProduct에서 '등록'한다. '제품을 만들고', '등록'하는 구현은 하위 클래스에서 수행한다.
 
 ```java
 package framework;
@@ -60,7 +60,7 @@ public abstract class Factory {
 }
 ```
 
-* IDCard 클래스
+### 3) IDCard 클래스
 
 ```java
 package idcard;
@@ -81,7 +81,7 @@ public class IDCard extends Product {
 }
 ```
 
-* IDCardFactory 클래스
+### 4) IDCardFactory 클래스
   - createProduct와 registerProduct의 두 가지 메소드를 구현하고 있다. createProduct에서는 IDCard의 인스턴스를 생성해서 '제품을 만드는'일을 실현하고 있다. registerProduct에서는 IDCard의 owner(소유자)를 owners 필드에 추가해서 '등록'이라는 기능을 실현하고 있다.
 
 ```java
@@ -103,7 +103,7 @@ public class IDCardFactory extends Factory {
 }
 ```
 
-* Main 클래스
+### 5) Main 클래스
 
 ```java
 import framework.*;
