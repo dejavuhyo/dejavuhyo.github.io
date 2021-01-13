@@ -50,8 +50,8 @@ Aggregate 역할이 결정한 인터페이스를 실제로 구현하는 일을 �
 
 ## 3. 예제
 
-* Agreegate 인터페이스
-  - 요소들이 나열되어 있는 '집합체'를 나타낸다.
+### 1) Agreegate 인터페이스
+요소들이 나열되어 있는 '집합체'를 나타낸다.
 
 ```java
 public interface Aggregate {
@@ -59,8 +59,8 @@ public interface Aggregate {
 }
 ```
 
-* Iterator 인터페이스
-  - 요소를 하나씩 나열하면서 루프 변수와 같은 역할을 수행한다.
+### 2) Iterator 인터페이스
+요소를 하나씩 나열하면서 루프 변수와 같은 역할을 수행한다.
 
 ```java
 public interface Iterator {
@@ -69,8 +69,8 @@ public interface Iterator {
 }
 ```
 
-* Book 클래스
-  - 책 이름을 getName 메소드에서 얻는 일을 한다. 책 이름은 생성자(constructor)에서 인스턴스를 초기화할 때 인수로 지정한다.
+### 3) Book 클래스
+책 이름을 getName 메소드에서 얻는 일을 한다. 책 이름은 생성자(constructor)에서 인스턴스를 초기화할 때 인수로 지정한다.
 
 ```java
 public class Book {
@@ -84,8 +84,8 @@ public class Book {
 }
 ```
 
-* BookShelf 클래스
-  - 서가를 나타내는 클래스 이며 Aggregate 인테페이스를 구현하고 있다.
+### 4) BookShelf 클래스
+서가를 나타내는 클래스 이며 Aggregate 인테페이스를 구현하고 있다.
 
 ```java
 public class BookShelf implements Aggregate {
@@ -110,8 +110,8 @@ public class BookShelf implements Aggregate {
 }
 ```
 
-* BookShelfIterator 클래스
-  - BookShelf 클래스의 검색을 실행하며 Iterator 인터페이스를 구현하고 있다.
+### 5) BookShelfIterator 클래스
+BookShelf 클래스의 검색을 실행하며 Iterator 인터페이스를 구현하고 있다.
 
 ```java
 public class BookShelfIterator implements Iterator {
@@ -136,7 +136,7 @@ public class BookShelfIterator implements Iterator {
 }
 ```
 
-* Main 클래스
+### 6) Main 클래스
 
 ```java
 import java.util.*;
