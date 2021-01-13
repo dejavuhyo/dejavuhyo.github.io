@@ -27,8 +27,8 @@ AbstractClass 역할에서 정의되어 있는 추상 메소드를 구체적으�
 
 ## 3. 예제
 
-* AbstractDisplay 클래스
-  - open, print, close, display라는 메소드를 가지고 있다. 이중에서 open, print, close는 추상 메소드이고 display 메소드만이 구현되고 있다.
+### 1) AbstractDisplay 클래스
+open, print, close, display라는 메소드를 가지고 있다. 이중에서 open, print, close는 추상 메소드이고 display 메소드만이 구현되고 있다.
 
 ```java
 public abstract class AbstractDisplay {  // 추상 클래스 AbstractDisplay
@@ -45,8 +45,8 @@ public abstract class AbstractDisplay {  // 추상 클래스 AbstractDisplay
 }
 ```
 
-* CharDisplay 클래스
-  - 상위 클래스인 AbstractDisplay 클래스에서 추상 메소드였던 open, print, close가 모두 구현되어 있기 때문에 CharDisplay 클래스는 추상 클래스가 아니다.
+### 2) CharDisplay 클래스
+상위 클래스인 AbstractDisplay 클래스에서 추상 메소드였던 open, print, close가 모두 구현되어 있기 때문에 CharDisplay 클래스는 추상 클래스가 아니다.
 
 ```java
 public class CharDisplay extends AbstractDisplay {  // CharDisplay는 AbstractDisplay의 하위 클래스.
@@ -68,7 +68,7 @@ public class CharDisplay extends AbstractDisplay {  // CharDisplay는 AbstractDi
 }
 ```
 
-* StringDisplay 클래스
+### 3) StringDisplay 클래스
 
 ```java
 public class StringDisplay extends AbstractDisplay {    // StringDisplay도 AbstrctDisplay의 하위 클래스.
@@ -100,7 +100,7 @@ public class StringDisplay extends AbstractDisplay {    // StringDisplay도 Abst
 }
 ```
 
-* Main 클래스
+### 4) Main 클래스
 
 ```java
 public class Main {
