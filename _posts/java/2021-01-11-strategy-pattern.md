@@ -26,10 +26,12 @@ Context는 Strategy를 이용하는 역할을 한다. ConcreteStrategy의 인스
 
 ## 3. 예제
 
-* Hand 클래스
-  - 클래스 내부에서 주먹은 0, 가위는 1, 보는 2라는 int로 표현하고 있다. 이것을 손의 값을 표시하는 필드(handvalue)에 저장한다. Hand 클래스의 인스턴스는 세 개만 작성되고, 처음에 세개의 인스턴스가 만들어져 배열 hand에 저장된다.
-  - 클래스 메소드 getHand를 사용해서 인스턴스를 얻을 수 있다. 손의 값을 인수로 할당하면 인스턴스가 반환값이 된다.
-  - 이 Hand 클래스는 다른 클래스(Player, WinningStrategy, ProbStrategy)로부터 사용되지만 Strategy 패턴의 역할에는 포함되지 않는다.
+### 1) Hand 클래스
+클래스 내부에서 주먹은 0, 가위는 1, 보는 2라는 int로 표현하고 있다. 이것을 손의 값을 표시하는 필드(handvalue)에 저장한다. Hand 클래스의 인스턴스는 세 개만 작성되고, 처음에 세개의 인스턴스가 만들어져 배열 hand에 저장된다.
+
+클래스 메소드 getHand를 사용해서 인스턴스를 얻을 수 있다. 손의 값을 인수로 할당하면 인스턴스가 반환값이 된다.
+
+이 Hand 클래스는 다른 클래스(Player, WinningStrategy, ProbStrategy)로부터 사용되지만 Strategy 패턴의 역할에는 포함되지 않는다.
 
 ```java
 public class Hand {
@@ -72,9 +74,10 @@ public class Hand {
 }
 ```
 
-* Strategy 인터페이스
-  - 가위바위보의 '전략'을 위한 추상 메소드의 집합이다. 이 메소드가 호출되면 Strategy 인터페이스를 구현하는 클래스는 전략적으로 '다음에 낼 손'을 결정한다.
-  - Study는 '직전에 낸 손으로 이겼는지, 졌는지'를 학습하기 위한 메소드이다. 직전의 nextHand 메소드를 호출해서 이겼을 경우 study(true)로 호출하고, 진 경우 study(false)로 호출한다. 이에 따라 Strategy 인터페이스를 구현할 클래스는 자신의 내부 상태를 변화시켜 이후의 nexthand 메소드의 반환값을 결정하는 재료로 사용한다.
+### 2) Strategy 인터페이스
+가위바위보의 '전략'을 위한 추상 메소드의 집합이다. 이 메소드가 호출되면 Strategy 인터페이스를 구현하는 클래스는 전략적으로 '다음에 낼 손'을 결정한다.
+
+Study는 '직전에 낸 손으로 이겼는지, 졌는지'를 학습하기 위한 메소드이다. 직전의 nextHand 메소드를 호출해서 이겼을 경우 study(true)로 호출하고, 진 경우 study(false)로 호출한다. 이에 따라 Strategy 인터페이스를 구현할 클래스는 자신의 내부 상태를 변화시켜 이후의 nexthand 메소드의 반환값을 결정하는 재료로 사용한다.
 
 ```java
 public interface Strategy {
@@ -83,11 +86,14 @@ public interface Strategy {
 }
 ```
 
-* WinningStrategy 클래스
-  - Strategy 인터페이스를 구현하는 클래스 중 하나이다. Strategy 인터페이스를 구현한다는 것은 nextHand와 study라는 두 개의 메소드를 구현하는 것이 된다. 이 클래스는 직전 승부에서 이겼으면 다음에도 같은 손을 낸다는 어리석은 전략을 취한다. 만일 직전 승부에서 졌다면 다음 손은 난수를 사용해 결정한다.
-  - random 필드는 이 클래스가 난수를 필요로 할 때 사용할 java.util.Random의 인스턴스를 저장한다. 말하자면 이 클래스가 사용할 난수발생기라고 할 수 있다.
-  - won 필드는 이전 승부의 결과를 저장한다. 이겼으면 true, 졌으면 false가 된다.
-  - prevHand 필드는 이전 승부에서 내밀었던 손을 저장한다.
+### 3) WinningStrategy 클래스
+Strategy 인터페이스를 구현하는 클래스 중 하나이다. Strategy 인터페이스를 구현한다는 것은 nextHand와 study라는 두 개의 메소드를 구현하는 것이 된다. 이 클래스는 직전 승부에서 이겼으면 다음에도 같은 손을 낸다는 어리석은 전략을 취한다. 만일 직전 승부에서 졌다면 다음 손은 난수를 사용해 결정한다.
+
+random 필드는 이 클래스가 난수를 필요로 할 때 사용할 java.util.Random의 인스턴스를 저장한다. 말하자면 이 클래스가 사용할 난수발생기라고 할 수 있다.
+
+won 필드는 이전 승부의 결과를 저장한다. 이겼으면 true, 졌으면 false가 된다.
+
+prevHand 필드는 이전 승부에서 내밀었던 손을 저장한다.
 
 ```java
 import java.util.Random;
@@ -111,10 +117,12 @@ public class WinningStrategy implements Strategy {
 }
 ```
 
-* ProbStrategy 클래스
-  - 또 하나의 구체적인 '전략'이다. 이것은 다음 손은 언제나 난수로 결정하지만, 과거 승패의 이력을 사용해서 각각의 손을 낼 확률을 바꾸고 있다.
-  - history 필드는 과거의 승패를 반영한 확률계산을 위한 표를 만든다. history는 int의 2차원 배열로 각 차원의 첨자는 history [이전에 낸 손][이번에 낼 손]와 같은 의미를 가진다. 이 식의 값이 클수록 과거의 확률이 높다는 의미이다.
-  - study 메소드는 nextHand 메소드에서 반환한 손의 승패를 기초로 history 필드의 내용을 갱신한다.
+### 4) ProbStrategy 클래스
+또 하나의 구체적인 '전략'이다. 이것은 다음 손은 언제나 난수로 결정하지만, 과거 승패의 이력을 사용해서 각각의 손을 낼 확률을 바꾸고 있다.
+
+history 필드는 과거의 승패를 반영한 확률계산을 위한 표를 만든다. history는 int의 2차원 배열로 각 차원의 첨자는 history [이전에 낸 손][이번에 낼 손]와 같은 의미를 가진다. 이 식의 값이 클수록 과거의 확률이 높다는 의미이다.
+
+study 메소드는 nextHand 메소드에서 반환한 손의 승패를 기초로 history 필드의 내용을 갱신한다.
 
 ```java
 import java.util.Random;
@@ -163,10 +171,12 @@ public class ProbStrategy implements Strategy {
 }
 ```
 
-* Player 클래스
-  - 가위바위보를 하는 사람을 표현한 클래스이다. Player 클래스는 '이름'과 '전략'이 할당되어 인스턴스를 만든다. nextHand 메소드는 다음의 손을 위한 것이지만, 실제로 다음의 손을 결정하는 것은 자신의 '전략'이다. 전략의 nextHand 메소드의 반환값이 그대로 Player의 nextHand 메소드의 반환값이 된다. nextHand 메소드는 자신이 해야 할 처리를 Strategy에게 맡기고 있는 즉, '위임'을 하고 있다.
-  - 이기거나(win), 지거나(lose), 비기거나(even) 한 승부의 결과를 다음 승부에 활용하기 위해서 Player 클래스는 strategy 필드를 통해서 study 메소드를 호출한다.
-  - study 메소드를 사용해서 전략의 내부 상태를 변화시킨다. wincount, losecount, gamecount는 플레이어의 승부를 기록한다.
+### 5) Player 클래스
+가위바위보를 하는 사람을 표현한 클래스이다. Player 클래스는 '이름'과 '전략'이 할당되어 인스턴스를 만든다. nextHand 메소드는 다음의 손을 위한 것이지만, 실제로 다음의 손을 결정하는 것은 자신의 '전략'이다. 전략의 nextHand 메소드의 반환값이 그대로 Player의 nextHand 메소드의 반환값이 된다. nextHand 메소드는 자신이 해야 할 처리를 Strategy에게 맡기고 있는 즉, '위임'을 하고 있다.
+
+이기거나(win), 지거나(lose), 비기거나(even) 한 승부의 결과를 다음 승부에 활용하기 위해서 Player 클래스는 strategy 필드를 통해서 study 메소드를 호출한다.
+
+study 메소드를 사용해서 전략의 내부 상태를 변화시킨다. wincount, losecount, gamecount는 플레이어의 승부를 기록한다.
 
 ```java
 public class Player {
@@ -201,7 +211,7 @@ public class Player {
 }
 ```
 
-* Main 클래스
+### 6) Main 클래스
 앞의 클래스를 이용해서 실제로 컴퓨터에서 가위바위보를 실행하기 위한 클래스이다. 여기에서는 두 명의 플레이어를 대전시키고 있다.
 
 ```java
