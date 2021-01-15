@@ -1,4 +1,4 @@
---- 
+---
 title: Singleton Pattern
 author: Hyosik
 date: 2021-01-04 09:30:00 +0900
