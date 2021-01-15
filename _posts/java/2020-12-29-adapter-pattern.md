@@ -1,4 +1,4 @@
---- 
+---
 title: Adapter Pattern
 author: Hyosik
 date: 2020-12-29 09:30:00 +0900
