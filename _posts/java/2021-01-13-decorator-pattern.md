@@ -1,4 +1,4 @@
---- 
+---
 title: Decorator Pattern
 author: Hyosik
 date: 2021-01-13 11:00:00 +0900
