@@ -1,4 +1,4 @@
---- 
+---
 title: Iterator Pattern
 author: Hyosik
 date: 2020-12-28 09:10:00 +0900
