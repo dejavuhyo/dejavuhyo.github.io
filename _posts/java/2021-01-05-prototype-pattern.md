@@ -1,4 +1,4 @@
---- 
+---
 title: Prototype Pattern
 author: Hyosik
 date: 2021-01-05 09:30:00 +0900
