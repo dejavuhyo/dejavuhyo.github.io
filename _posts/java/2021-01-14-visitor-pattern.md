@@ -1,4 +1,4 @@
---- 
+---
 title: Visitor Pattern
 author: Hyosik
 date: 2021-01-14 10:40:00 +0900
