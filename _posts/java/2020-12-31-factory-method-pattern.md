@@ -1,4 +1,4 @@
---- 
+---
 title: Factory Method Pattern
 author: Hyosik
 date: 2020-12-31 09:30:00 +0900
