@@ -1,4 +1,4 @@
---- 
+---
 title: Template Method Pattern
 author: Hyosik
 date: 2020-12-30 09:30:00 +0900
