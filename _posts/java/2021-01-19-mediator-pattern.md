@@ -7,7 +7,6 @@ tags: [mediator-pattern, mediator, design-pattern, 중재자-패턴, 디자인-�
 ---
 
 ## 1. Mediator 패턴이란
-
 mediator는 '조정자', '중개자'라는 의미이지만, 의지할 수 있는 '중개인'을 상상하는 편이 이해하기 쉬울 것이다. 곤란한 일이 생기거나 모임 전체에 영향을 미칠만한 일이 발생하면 중개인에게 알리고, 중개인의 지시대로 실행한다. 모임의 각 회원이 멋대로 다른 회원과 대화해서 판단하는 것이 아니라, 언제나 중개인을 통해서 행동을 하도록 한다. 한편, 중개인은 모임의 회원으로부터 올라온 보고를 기초로 대국적인 판단을 해서 각 회원에게 지시를 내린다. 이와 같은 디자인 패턴을 _**Mediator 패턴**_ 이라고 한다.
 
 ## 2. 객체
@@ -44,7 +43,6 @@ public interface Mediator {
 
 ### 2) Colleague 인터페이스
 중개인에게 상담을 의뢰하는 회원을 나타내는 인터페이스이다. 구체적인 회원(ColleagueButton, ColleagueTextField, ColleagueCheckbox)은 이 인터페이스를 구현한다.
-
 
 ```java
 public interface Colleague {
