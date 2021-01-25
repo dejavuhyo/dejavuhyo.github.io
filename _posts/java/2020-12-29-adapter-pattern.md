@@ -2,7 +2,7 @@
 title: Adapter Pattern
 author: Hyosik
 date: 2020-12-29 09:30:00 +0900
-categories: [Language, Java]
+categories: [Language, DesignPattern]
 tags: [adapter-pattern, adapter, design-pattern, 어댑터-패턴, 디자인-패턴]
 ---
 
