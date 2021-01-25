@@ -2,7 +2,7 @@
 title: Observer Pattern
 author: Hyosik
 date: 2021-01-20 10:00:00 +0900
-categories: [Language, Java]
+categories: [Language, DesignPattern]
 tags: [observer-pattern, observer, design-pattern, 옵서버-패턴, 디자인-패턴]
 ---
 
