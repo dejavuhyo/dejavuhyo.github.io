@@ -2,7 +2,7 @@
 title: State Pattern
 author: Hyosik
 date: 2021-01-22 11:00:00 +0900
-categories: [Language, Java]
+categories: [Language, DesignPattern]
 tags: [state-pattern, state, design-pattern, 상태-패턴, 디자인-패턴]
 ---
 
