@@ -2,7 +2,7 @@
 title: Abstract Factory Pattern
 author: Hyosik
 date: 2021-01-07 10:50:00 +0900
-categories: [Language, Java]
+categories: [Language, DesignPattern]
 tags: [abstract-factory-pattern, abstract-factory, design-pattern, 추상-팩토리-패턴, 디자인-패턴]
 ---
 
