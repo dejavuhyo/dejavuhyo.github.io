@@ -2,7 +2,7 @@
 title: Chain of Responsibility Pattern
 author: Hyosik
 date: 2021-01-14 10:40:00 +0900
-categories: [Language, Java]
+categories: [Language, DesignPattern]
 tags: [chain-of-responsibility-pattern, chain-of-responsibility, design-pattern, 책임-연쇄-패턴, 디자인-패턴]
 ---
 
