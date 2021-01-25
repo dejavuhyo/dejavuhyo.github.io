@@ -2,7 +2,7 @@
 title: Template Method Pattern
 author: Hyosik
 date: 2020-12-30 09:30:00 +0900
-categories: [Language, Java]
+categories: [Language, DesignPattern]
 tags: [template-method-pattern, template-method, design-pattern, 템플릿-메소드-패턴, 디자인-패턴]
 ---
 
