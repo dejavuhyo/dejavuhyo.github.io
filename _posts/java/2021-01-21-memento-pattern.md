@@ -2,7 +2,7 @@
 title: Memento Pattern
 author: Hyosik
 date: 2021-01-21 11:30:00 +0900
-categories: [Language, Java]
+categories: [Language, DesignPattern]
 tags: [memento-pattern, memento, design-pattern, 메멘토-패턴, 디자인-패턴]
 ---
 
