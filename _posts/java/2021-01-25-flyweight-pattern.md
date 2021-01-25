@@ -2,7 +2,7 @@
 title: Flyweight Pattern
 author: Hyosik
 date: 2021-01-25 11:20:00 +0900
-categories: [Language, Java]
+categories: [Language, DesignPattern]
 tags: [flyweight-pattern, flyweight, design-pattern, 플라이웨이트-패턴, 디자인-패턴]
 ---
 
