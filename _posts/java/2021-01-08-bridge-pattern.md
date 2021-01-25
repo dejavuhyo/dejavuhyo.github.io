@@ -2,7 +2,7 @@
 title: Bridge Pattern
 author: Hyosik
 date: 2021-01-08 10:30:00 +0900
-categories: [Language, Java]
+categories: [Language, DesignPattern]
 tags: [bridge-pattern, bridge, design-pattern, 브리지-패턴, 디자인-패턴]
 ---
 
