@@ -2,7 +2,7 @@
 title: Factory Method Pattern
 author: Hyosik
 date: 2020-12-31 09:30:00 +0900
-categories: [Language, Java]
+categories: [Language, DesignPattern]
 tags: [factory-method-pattern, factory-method, design-pattern, 팩토리-메서드-패턴, 디자인-패턴]
 ---
 
