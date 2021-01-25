@@ -2,7 +2,7 @@
 title: Iterator Pattern
 author: Hyosik
 date: 2020-12-28 09:10:00 +0900
-categories: [Language, Java]
+categories: [Language, DesignPattern]
 tags: [iterator-pattern, iterator, design-pattern, 반복자-패턴, 디자인-패턴]
 ---
 
