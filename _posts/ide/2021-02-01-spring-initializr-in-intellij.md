@@ -3,7 +3,7 @@ title: IntelliJ에서 Spring Initializr
 author: Hyosik
 date: 2021-02-01 16:30:00 +0900
 categories: [Tools, IDE]
-tags: [intellij-spring-initializr, spring-initializr, intellij, intellij-springboot, 인텔리제이-스프링부트]
+tags: [intellij-spring-initializr, spring-initializr, intellij, intellij-springboot, spring-quickstart, 인텔리제이-스프링부트]
 ---
 
 ## 1. Spring Initializr
