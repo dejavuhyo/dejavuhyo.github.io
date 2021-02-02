@@ -19,7 +19,7 @@ description: >-                        # used by seo meta and the atom feed
 # fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
 url: 'https://dejavuhyo.github.io'
 
-author: Hyosik                  # change to your full name
+author: dejavuhyo                  # change to your full name
 
 avatar: /assets/img/favicons/me.png   # support internet resources
 
@@ -30,7 +30,7 @@ twitter:
   username: twitter_username            # change to your twitter username
 
 social:
-  name: Hyosik                  # it will shows as the copyright owner in Footer
+  name: dejavuhyo                  # it will shows as the copyright owner in Footer
   email: dejavuhyo@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -67,31 +67,29 @@ disqus:
   shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 
-# Prefer color scheme setting, available values:
+# Prefer color scheme setting.
 #
-#     dual   - Follow the system prefer color by default, and a toggle will display
-#              in the left bottom of Sidebar, which used for switch the theme between dark and light.
+# Note: Keep empty will follow the system prefer color by default,
+# and there will be a toggle to switch the theme between dark and light
+# on the bottom left of the sidebar.
+#
+# Available options:
 #
 #     light  - Use the light color scheme
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode: dual
+theme_mode:   # <light|dark>
 
 # boolean type, the global switch for ToC in posts.
 toc: true
 
 paginate: 10
 
-markdown: kramdown
-
-highlighter: rouge
-
 kramdown:
-  input: GFM
   syntax_highlighter: rouge
-  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
-    css_class: 'highlight'
+  syntax_highlighter_opts:   # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: highlight
     # default_lang: console
     span:
       line_numbers: false
@@ -179,7 +177,7 @@ compress_html:
   profile: false
   blanklines: false
   ignore:
-    envs: []
+    envs: [development]
 
 exclude:
   - vendor
@@ -196,5 +194,5 @@ jekyll-archives:
     category: category
     tag: tag
   permalinks:
-    tag: '/tags/:name/'
-    category: '/categories/:name/'
+    tag: /tags/:name/
+    category: /categories/:name/
