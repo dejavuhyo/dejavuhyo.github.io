@@ -2,7 +2,7 @@
 title: REST, REST API, RESTful 개념
 author: Hyosik
 date: 2020-11-12 11:30:00 +0900
-categories: [Application, Microservices]
+categories: [Application, Architecture]
 tags: [rest, rest-api, restful]
 ---
 
