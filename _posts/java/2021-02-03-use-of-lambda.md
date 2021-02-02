@@ -15,7 +15,7 @@ List<Apple> greenApples = filter(inventory, (Apple a) -> GREEN.equals(a.getColor
 람다는 함수형 인터페이스라는 문맥에서 람다 표현식을 사용할 수 있다. 위 예제에서는 함수형 인터페이스 ```Predicate<T>``` 를 기대하는 filter 메서드의 두 번째 인수로 람다 표현식을 전달했다.
 
 ## 2. 함수형 인터페이스
-```Predicate<T>``` 인터페이스로 필터 메서드를 파라미터화할 수 있었다. 바로 ```Predicate<T>``` 가 함수형 인터페이스다. ```Predicate<T>```는 오직 하나의 추상 메서드만 지정한다.
+```Predicate<T>``` 인터페이스로 필터 메서드를 파라미터화할 수 있었다. 바로 ```Predicate<T>``` 가 함수형 인터페이스다. ```Predicate<T>``` 는 오직 하나의 추상 메서드만 지정한다.
 
 ```java
 public interface Predicate<T> {
@@ -105,7 +105,7 @@ process(() -> { System.out.println("This is awesome"); });
 
 > '왜 함수형 인터페이스를 인수로 받는 메서드에만 람다 표현식을 사용할 수 있을까?'라는 의문이 생길 수 있다. 언어 설계자들은 자바에 함수 형식(람다 표현식을 표현하는 데 사용한 시그니처와 같은 특별한 표기법)을 추가하는 방법도 대안으로 고려했다. 하지만 언어 설계자들은 언어를 더 복잡하게 만들지 않는 현재 방법을 선택했다. 또한 대부분의 자바 프로그래머가 하나의 추상 메서드를 갖는 인터페이스(예를 들면 이벤트 처리 인터페이스)에 이미 익숙하다는 점도 고려했다.
 
-### @FunctionalInterface는 무엇인가
+### 2) @FunctionalInterface는 무엇인가
 새로운 자바 API를 살펴보면 함수형 인터페이스 @FunctionalInterface 어노테이션이 추가되어 있다. @FunctionalInterface는 함수형 인터페이스임을 가리키는 어노테이션이다. @FunctionalInterface로 인터페이스를 선언했지만 실제로 함수형 인터페이스가 아니면 컴파일러가 에러를 발생시킨다.
 
 예를 들어 추상 메서드가 한 개 이상이라면 "Multiple nonoverriding abstract methods found in interface Foo(인터페이스 Foo에 오버라이드 하지 않은 여러 추상 메서드가 있음)"같은 에러가 발생할 수 있다.
