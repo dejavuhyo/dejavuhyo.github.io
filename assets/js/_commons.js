@@ -18,6 +18,4 @@
 
 {% include_relative _commons/copy-link.js %}
 
-{% include_relative _commons/checkbox.js %}
-
 {% include_relative _utils/tooltip-loader.js %}
