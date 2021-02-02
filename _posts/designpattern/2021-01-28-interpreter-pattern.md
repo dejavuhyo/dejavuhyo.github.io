@@ -1,6 +1,6 @@
 ---
 title: Interpreter Pattern
-author: Hyosik
+author: dejavuhyo
 date: 2021-01-28 10:20:00 +0900
 categories: [Language, DesignPattern]
 tags: [interpreter-pattern, interpreter, design-pattern, 

@@ -1,6 +1,6 @@
 ---
 title: Spring Annotation 개념 및 정리
-author: Hyosik
+author: dejavuhyo
 date: 2020-12-01 11:25:00 +0900
 categories: [Application, Architecture]
 tags: [spring-annotation, annotation, 스프링-어노테이션, 어노테이션]

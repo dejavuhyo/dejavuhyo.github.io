@@ -1,6 +1,6 @@
 ---
 title: 현재시간, 날짜 구하기
-author: Hyosik
+author: dejavuhyo
 date: 2020-11-30 13:00:00 +0900
 categories: [Language, Java]
 tags: [current-date-time, date-time, date, time, 현재-시간-날짜, 시간-날짜]

@@ -1,6 +1,6 @@
 ---
 title: XML 파싱시 text 처리
-author: Hyosik
+author: dejavuhyo
 date: 2020-07-07 11:00:00 +0900
 categories: [Language, Java]
 tags: [xml-text, xml-parsing, xml-파싱-text-처리, xml-파싱]

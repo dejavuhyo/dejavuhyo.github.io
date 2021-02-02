@@ -1,6 +1,6 @@
 --- 
 title: IntelliJ에서 svn 연동 방법
-author: Hyosik
+author: dejavuhyo
 date: 2020-11-10 10:00:00 +0900
 categories: [Tools, IDE]
 tags: [intellij-svn, intellij, svn]

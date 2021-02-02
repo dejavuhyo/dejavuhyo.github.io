@@ -1,6 +1,6 @@
 ---
 title: 람다 표현식
-author: Hyosik
+author: dejavuhyo
 date: 2021-01-29 13:45:00 +0900
 categories: [Language, Java]
 tags: [lambda-expressions, lambda, 람다-표현식, 람다]

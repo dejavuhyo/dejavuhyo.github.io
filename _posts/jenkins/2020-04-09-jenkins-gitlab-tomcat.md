@@ -1,6 +1,6 @@
 ---
 title: Jenkins와 GitLab 연동 및 Tomcat 배포
-author: Hyosik
+author: dejavuhyo
 date: 2020-04-09 18:00:00 +0900
 categories: [Tools, Jenkins]
 tags: [jenkins-gitlab-tomcat, jenkins-gitlab, jenkins-tomcat, jenkins-tomcat-deploy, jenkins-deploy, 젠킨스-톰켓-배포, 젠킨스-깃랩, 젠킨스-배포]

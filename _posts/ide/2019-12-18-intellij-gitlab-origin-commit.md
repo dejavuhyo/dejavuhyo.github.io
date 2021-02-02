@@ -1,6 +1,6 @@
 ---
 title: IntelliJ에서 GitLab 최초 Commit
-author: Hyosik
+author: dejavuhyo
 date: 2019-12-18 11:30:00 +0900
 categories: [Tools, IDE]
 tags: [git-lab-commit, git-lab-origin-commit, intellij-git-lab-commit, 깃랩-커밋, 깃랩-origin-커밋, 인텔리제이-깃랩-커밋]

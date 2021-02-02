@@ -1,6 +1,6 @@
 ---
 title: Mosquitto Publisher, Subscriber
-author: Hyosik
+author: dejavuhyo
 date: 2020-11-20 10:30:00 +0900
 categories: [Tools, MQTT]
 tags: [mosquitto-publisher, mosquitto-subscriber, mosquitto-pub, mosquitto-sub, matt-publisher, mqtt-subscriber, mqtt-pub, mqtt-sub, mqtt-broker, mqtt]

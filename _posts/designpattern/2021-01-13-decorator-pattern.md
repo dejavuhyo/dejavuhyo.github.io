@@ -1,6 +1,6 @@
 ---
 title: Decorator Pattern
-author: Hyosik
+author: dejavuhyo
 date: 2021-01-13 11:00:00 +0900
 categories: [Language, DesignPattern]
 tags: [decorator-pattern, decorator, design-pattern, 데코레이터-패턴, 디자인-패턴]

@@ -1,6 +1,6 @@
 ---
 title: Eclipse rdf4j 설치 및 실행
-author: Hyosik
+author: dejavuhyo
 date: 2020-01-22 17:00:00 +0900
 categories: [Database, GraphDatabase]
 tags: [rdf4j, eclipse-rdf4j, rdf4j-install, rdf4j-setting, rdf4j-설치, rdf4j-설정, triple-store, triple-repository]

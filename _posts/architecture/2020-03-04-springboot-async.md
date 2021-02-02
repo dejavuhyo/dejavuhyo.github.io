@@ -1,6 +1,6 @@
 ---
 title: SpringBoot에서 비동기 처리 및 적용
-author: Hyosik
+author: dejavuhyo
 date: 2020-03-04 13:10:00 +0900
 categories: [Application, Architecture]
 tags: [springboot-async, async, 스프링부트-비동기, 비동기]

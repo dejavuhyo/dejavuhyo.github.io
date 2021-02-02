@@ -1,6 +1,6 @@
 ---
 title: Docker Image 다운로드
-author: Hyosik
+author: dejavuhyo
 date: 2020-12-21 11:10:00 +0900
 categories: [Tools, Docker]
 tags: [docker-image, docker-image-download, docker, 도커-이미지, 도커-이미지-다운로드, 도커]

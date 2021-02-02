@@ -1,6 +1,6 @@
 ---
 title: Windows에서 Tomcat 콘솔 로그 한글깨짐 해결
-author: Hyosik
+author: dejavuhyo
 date: 2020-05-21 15:00:00 +0900
 categories: [Application, Architecture]
 tags: [tomcat-encoding, tomcat-windows-encoding, 톰캣-인코딩, 톰캣-윈도우-인코딩, 톰캣-윈도우-한글깨짐]

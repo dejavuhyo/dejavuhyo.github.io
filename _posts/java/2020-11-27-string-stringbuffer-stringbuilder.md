@@ -1,6 +1,6 @@
 ---
 title: String, StringBuffer, StringBuilder 차이 및 장단점
-author: Hyosik
+author: dejavuhyo
 date: 2020-11-27 11:05:00 +0900
 categories: [Language, Java]
 tags: [string, stringbuffer, stringbuilder]

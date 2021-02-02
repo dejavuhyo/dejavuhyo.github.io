@@ -1,6 +1,6 @@
 ---
 title: Maven이란
-author: Hyosik
+author: dejavuhyo
 date: 2020-11-06 14:50:00 +0900
 categories: [Tools, Maven]
 tags: [maven, apache-maven, 메이븐, 아파치-메이븐]

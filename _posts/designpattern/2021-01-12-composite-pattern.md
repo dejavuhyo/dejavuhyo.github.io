@@ -1,6 +1,6 @@
 ---
 title: Composite Pattern
-author: Hyosik
+author: dejavuhyo
 date: 2021-01-12 10:30:00 +0900
 categories: [Language, DesignPattern]
 tags: [composite-pattern, composite, design-pattern, 컴포지트-패턴, 디자인-패턴]

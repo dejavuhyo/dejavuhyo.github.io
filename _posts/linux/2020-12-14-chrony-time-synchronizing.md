@@ -1,6 +1,6 @@
 --- 
 title: Chrony를 이용한 시간 동기화
-author: Hyosik
+author: dejavuhyo
 date: 2020-12-14 10:00:00 +0900
 categories: [OS, Linux]
 tags: [chrony, ntp, chrony-time-synchronizing, time-synchronizing, 시간-동기화, chrony-시간-동기화]

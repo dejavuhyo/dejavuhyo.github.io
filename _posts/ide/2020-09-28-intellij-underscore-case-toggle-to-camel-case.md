@@ -1,6 +1,6 @@
 ---
 title: IntelliJ에서 Underscore를 Camel Case로 변환
-author: Hyosik
+author: dejavuhyo
 date: 2020-09-28 13:00:00 +0900
 categories: [Tools, IDE]
 tags: [intellij-camelcase, underscore, camelcase, underscore-camelcase]

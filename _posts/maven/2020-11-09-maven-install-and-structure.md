@@ -1,6 +1,6 @@
 --- 
 title: Maven 설치 및 구조
-author: Hyosik
+author: dejavuhyo
 date: 2020-11-09 10:00:00 +0900
 categories: [Tools, Maven]
 tags: [maven, maven-structure, 메이븐, 메이븐-구조]

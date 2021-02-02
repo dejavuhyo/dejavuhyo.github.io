@@ -1,6 +1,6 @@
 ---
 title: Eclipse rdf4j Repository 생성 및 Schema 추가
-author: Hyosik
+author: dejavuhyo
 date: 2020-10-20 13:30:00 +0900
 categories: [Database, GraphDatabase]
 tags: [rdf4j, eclipse-rdf4j, rdf4j-new-repository, triple-repository, rdf4j-add-schema, rdf4j-add-rdf, rdf4j-add-triple]

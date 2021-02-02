@@ -1,6 +1,6 @@
 --- 
 title: Linux 프로세스
-author: Hyosik
+author: dejavuhyo
 date: 2020-11-17 11:30:00 +0900
 categories: [OS, Linux]
 tags: [process, process-id, process-kill, linux-process, 리눅스-프로세스]

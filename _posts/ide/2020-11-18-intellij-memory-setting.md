@@ -1,6 +1,6 @@
 --- 
 title: IntelliJ 메모리 설정
-author: Hyosik
+author: dejavuhyo
 date: 2020-11-18 09:30:00 +0900
 categories: [Tools, IDE]
 tags: [intellij-memory, intellij-jvm, intellij, memory]

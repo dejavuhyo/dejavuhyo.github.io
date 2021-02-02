@@ -1,6 +1,6 @@
 ---
 title: Command Pattern
-author: Hyosik
+author: dejavuhyo
 date: 2021-01-27 10:40:00 +0900
 categories: [Language, DesignPattern]
 tags: [command-pattern, command, design-pattern, 커맨드-패턴, 디자인-패턴]

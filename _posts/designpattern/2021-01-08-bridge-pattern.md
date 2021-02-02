@@ -1,6 +1,6 @@
 ---
 title: Bridge Pattern
-author: Hyosik
+author: dejavuhyo
 date: 2021-01-08 10:30:00 +0900
 categories: [Language, DesignPattern]
 tags: [bridge-pattern, bridge, design-pattern, 브리지-패턴, 디자인-패턴]

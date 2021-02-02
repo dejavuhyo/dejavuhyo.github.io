@@ -1,6 +1,6 @@
 ---
 title: Gson 사용하여 Json 생성 및 파싱
-author: Hyosik
+author: dejavuhyo
 date: 2020-07-30 11:00:00 +0900
 categories: [Language, Java]
 tags: [gson, json-parsing, json-make, json-object, gson-사용, json-파싱, json-생성, json-객체]

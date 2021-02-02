@@ -1,6 +1,6 @@
 --- 
 title: Linux 권한 설정
-author: Hyosik
+author: dejavuhyo
 date: 2020-11-26 09:30:00 +0900
 categories: [OS, Linux]
 tags: [linux-permission, permission, chmod, chown, 리눅스-권한, 권한]

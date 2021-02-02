@@ -1,6 +1,6 @@
 ---
 title: Facade Pattern
-author: Hyosik
+author: dejavuhyo
 date: 2021-01-18 11:20:00 +0900
 categories: [Language, DesignPattern]
 tags: [facade-pattern, facade, design-pattern, 퍼사드-패턴, 디자인-패턴]

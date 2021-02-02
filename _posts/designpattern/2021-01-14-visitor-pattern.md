@@ -1,6 +1,6 @@
 ---
 title: Visitor Pattern
-author: Hyosik
+author: dejavuhyo
 date: 2021-01-14 10:40:00 +0900
 categories: [Language, DesignPattern]
 tags: [visitor-pattern, visitor, design-pattern, 비지터-패턴, 디자인-패턴]

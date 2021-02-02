@@ -1,6 +1,6 @@
 ---
 title: Prototype Pattern
-author: Hyosik
+author: dejavuhyo
 date: 2021-01-05 09:30:00 +0900
 categories: [Language, DesignPattern]
 tags: [prototype-pattern, prototype, design-pattern, 프로토타입-패턴, 디자인-패턴]

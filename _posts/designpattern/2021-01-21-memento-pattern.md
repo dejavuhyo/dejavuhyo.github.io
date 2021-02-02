@@ -1,6 +1,6 @@
 ---
 title: Memento Pattern
-author: Hyosik
+author: dejavuhyo
 date: 2021-01-21 11:30:00 +0900
 categories: [Language, DesignPattern]
 tags: [memento-pattern, memento, design-pattern, 메멘토-패턴, 디자인-패턴]

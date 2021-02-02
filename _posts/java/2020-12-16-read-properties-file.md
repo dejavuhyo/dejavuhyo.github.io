@@ -1,6 +1,6 @@
 ---
 title: Properties 파일 읽기
-author: Hyosik
+author: dejavuhyo
 date: 2020-12-16 09:30:00 +0900
 categories: [Language, Java]
 tags: [properties, read-properties, properties, properties-읽기, 파일-읽기]

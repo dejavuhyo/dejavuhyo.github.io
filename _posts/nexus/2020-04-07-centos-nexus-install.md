@@ -1,6 +1,6 @@
 ---
 title: CentOS Nexus 설치
-author: Hyosik
+author: dejavuhyo
 date: 2020-04-07 09:30:00 +0900
 categories: [Tools, Nexus]
 tags: [centos-nexus, centos-nexus-install, nexus-repository, nexus, sonatype-nexus, centos-nexus-설치, nexus-레파지토리, 넥서스]

@@ -1,6 +1,6 @@
 ---
 title: GitLab Webhooks로 Jenkins 빌드 유발 설정
-author: Hyosik
+author: dejavuhyo
 date: 2020-04-10 14:30:00 +0900
 categories: [Tools, Jenkins]
 tags: [jenkins-build-trigger, jenkins-build, gitlab-webhooks, webhooks, 젠킨스-빌드-유발, 젠킨스-빌드, 깃랩-웹-후크]

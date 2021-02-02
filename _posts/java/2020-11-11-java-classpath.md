@@ -1,6 +1,6 @@
 ---
 title: Java 환경변수 설정
-author: Hyosik
+author: dejavuhyo
 date: 2020-11-11 11:47:00 +0900
 categories: [Language, Java]
 tags: [java-home, java-classpath, classpath, 자바-홈, 자바-클래스패스, 클래스패스, 자바-환경변수, 환경변수]

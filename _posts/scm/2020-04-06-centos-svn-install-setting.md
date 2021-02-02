@@ -1,6 +1,6 @@
 ---
 title: CentOS SVN 설치 및 설정
-author: Hyosik
+author: dejavuhyo
 date: 2020-04-06 15:00:00 +0900
 categories: [Tools, SCM]
 tags: [centos-svn, centos-svn-install-setting, centos-svn-install, centos-svn-setting, svn-설치, svn-설정]

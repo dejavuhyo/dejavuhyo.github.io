@@ -1,6 +1,6 @@
 ---
 title: CentOS Jenkins 설치
-author: Hyosik
+author: dejavuhyo
 date: 2019-11-29 12:00:00 +0900
 categories: [Tools, Jenkins]
 tags: [centos-jenkins, centos-jenkins-install, jenkins-install, jenkins-설치, 젠킨스, 젠킨스-설치]

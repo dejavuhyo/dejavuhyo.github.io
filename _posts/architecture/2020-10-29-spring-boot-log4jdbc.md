@@ -1,6 +1,6 @@
 ---
 title: Spring Boot Log4jdbc 설정
-author: Hyosik
+author: dejavuhyo
 date: 2020-10-29 14:30:00 +0900
 categories: [Application, Architecture]
 tags: [log4jdbc, springboot-log4jdbc, log, database-log, 스프링부트-데이터베이스-로그, 데이터베이스-로그, 스프링부트-로그, 로그]

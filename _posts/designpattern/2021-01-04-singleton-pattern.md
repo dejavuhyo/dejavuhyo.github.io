@@ -1,6 +1,6 @@
 ---
 title: Singleton Pattern
-author: Hyosik
+author: dejavuhyo
 date: 2021-01-04 09:30:00 +0900
 categories: [Language, DesignPattern]
 tags: [singleton-pattern, singleton, design-pattern, 싱글턴-패턴, 디자인-패턴]

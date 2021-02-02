@@ -1,6 +1,6 @@
 ---
 title: Proxy Pattern
-author: Hyosik
+author: dejavuhyo
 date: 2021-01-26 14:00:00 +0900
 categories: [Language, DesignPattern]
 tags: [proxy-pattern, proxy, design-pattern, 프록시-패턴, 디자인-패턴]

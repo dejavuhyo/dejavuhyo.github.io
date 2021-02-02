@@ -1,6 +1,6 @@
 --- 
 title: PostgreSQL 페이징
-author: Hyosik
+author: dejavuhyo
 date: 2020-12-17 09:15:00 +0900
 categories: [Database, PostgreSQL]
 tags: [pagination, paging, postgresql-pagination, limit-offset, postgresql-페이징]

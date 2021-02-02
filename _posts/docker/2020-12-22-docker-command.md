@@ -1,6 +1,6 @@
 ---
 title: Docker 명령어
-author: Hyosik
+author: dejavuhyo
 date: 2020-12-22 11:20:00 +0900
 categories: [Tools, Docker]
 tags: [docker-command, command, docker, 도커-명령어, 명령어, 도커]

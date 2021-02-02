@@ -1,6 +1,6 @@
 --- 
 title: Linux 시작, 종료 Shell Script
-author: Hyosik
+author: dejavuhyo
 date: 2020-11-25 09:45:00 +0900
 categories: [OS, Linux]
 tags: [linux-shellscript, start-shellscript, stop-shellscript, 시작-쉘스크립트, 종료-쉘스크립트]

@@ -1,6 +1,6 @@
 ---
 title: Gson 파싱시 Underscore를 CamelCase로 변환
-author: Hyosik
+author: dejavuhyo
 date: 2020-08-04 15:00:00 +0900
 categories: [Language, Java]
 tags: [gson-underscore-to-camelcase, gson-camelcase, gson-underscore, json-object, json-parsing, gson-parsing, json-파싱, gson-파싱]

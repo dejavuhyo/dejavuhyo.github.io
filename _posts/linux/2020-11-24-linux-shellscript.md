@@ -1,6 +1,6 @@
 --- 
 title: Linux Shell Script
-author: Hyosik
+author: dejavuhyo
 date: 2020-11-24 10:00:00 +0900
 categories: [OS, Linux]
 tags: [linux-shellscript, shellscript, 리눅스-쉘스크립트, 쉘스크립트]

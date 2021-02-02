@@ -1,6 +1,6 @@
 ---
 title: Docker Engine 설치
-author: Hyosik
+author: dejavuhyo
 date: 2020-12-08 16:50:00 +0900
 categories: [Tools, Docker]
 tags: [docker-install, docker-engine-install, cnetos-docker-install, centos-docker, docker, docker-설치, 도커-설치, 도커-엔진-설치]

@@ -1,6 +1,6 @@
 ---
 title: 자바 멀티스레드
-author: Hyosik
+author: dejavuhyo
 date: 2020-12-24 09:30:00 +0900
 categories: [Language, Java]
 tags: [multi-thread, thread, java-multi-thread, java-thread, 멀티-스레드, 스레드, 자바-스레드, 자바-멀티-스레드]

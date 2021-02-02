@@ -1,6 +1,6 @@
 ---
 title: Strategy Pattern
-author: Hyosik
+author: dejavuhyo
 date: 2021-01-11 11:40:00 +0900
 categories: [Language, DesignPattern]
 tags: [strategy-pattern, strategy, design-pattern, 전략-패턴, 디자인-패턴]

@@ -1,6 +1,6 @@
 ---
 title: Mediator Pattern
-author: Hyosik
+author: dejavuhyo
 date: 2021-01-19 11:10:00 +0900
 categories: [Language, DesignPattern]
 tags: [mediator-pattern, mediator, design-pattern, 중재자-패턴, 디자인-패턴]

@@ -1,6 +1,6 @@
 ---
 title: Linux에 Mosquitto 설치
-author: Hyosik
+author: dejavuhyo
 date: 2020-11-23 10:00:00 +0900
 categories: [Tools, MQTT]
 tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
