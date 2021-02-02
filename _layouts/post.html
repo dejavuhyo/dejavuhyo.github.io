@@ -1,6 +1,10 @@
 ---
 layout: default
 # The posts' layout
+# v2.0
+# https://github.com/cotes2020/jekyll-theme-chirpy
+# © 2017-2019 Cotes Chung
+# MIT Licensed
 ---
 
 <div class="row">
@@ -43,13 +47,21 @@ layout: default
       </div> <!-- .post-meta -->
 
       <div class="post-content">
+        {%- capture img_placehodler -%}
+          data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7
+        {%- endcapture -%}
 
         {% if page.image %}
-          <img src="{{ page.image }}" class="preview-img" alt="Preview Image">
+          <img src="{{ img_placehodler }}" data-src="{{ page.image }}" class="preview-img">
         {% endif %}
 
-        {{ content }}
-
+        <!-- Using lozad. See: <https://github.com/ApoorvSaxena/lozad.js#usage> -->
+        {% if content contains '<img src=' %}
+          {% assign replacement = '<img src="' | append: img_placehodler | append: '" data-src=' %}
+          {{ content | replace: '<img src=', replacement }}
+        {% else %}
+          {{ content }}
+        {% endif %}
       </div>
 
       <div class="post-tail-wrapper text-muted">
@@ -128,3 +140,5 @@ layout: default
   </div> <!-- .col-* -->
 
 </div> <!-- .row -->
+
+{% include lozad.html %}

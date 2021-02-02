@@ -1,4 +1,9 @@
-# The Site Configuration
+# The Site Settings
+# v2.0
+# https://github.com/cotes2020/jekyll-theme-chirpy
+# © 2017-2019 Cotes Chung
+# MIT licensed
+
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
@@ -14,7 +19,9 @@ description: >-                        # used by seo meta and the atom feed
 # fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
 url: 'https://dejavuhyo.github.io'
 
-author: Hyosik                  # change to your full name
+author: dejavuhyo                  # change to your full name
+
+avatar: /assets/img/favicons/me.png   # support internet resources
 
 github:
   username: dejavuhyo             # change to your github username
@@ -23,7 +30,7 @@ twitter:
   username: twitter_username            # change to your twitter username
 
 social:
-  name: Hyosik                  # it will shows as the copyright owner in Footer
+  name: dejavuhyo                  # it will shows as the copyright owner in Footer
   email: dejavuhyo@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -72,17 +79,7 @@ disqus:
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
-
-# The CDN endpoint for images.
-# Notice that once it is assigned, the CDN url
-# will be added to all image (site avatar & posts' images) paths starting with '/'
-#
-# e.g. 'https://cdn.com'
-img_cdn: ''
-
-# the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/favicons/me.png
+theme_mode:   # <light|dark>
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -170,6 +167,7 @@ defaults:
           url: /
 
 sass:
+  sass_dir: /assets/css
   style: compressed
 
 compress_html:
@@ -189,10 +187,6 @@ exclude:
   - docs
   - README.md
   - LICENSE
-  - gulpfile.js
-  - node_modules
-  - package.json
-  - package-lock.json
 
 jekyll-archives:
   enabled: [categories, tags]
