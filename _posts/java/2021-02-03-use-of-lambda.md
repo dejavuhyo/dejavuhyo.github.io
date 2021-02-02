@@ -63,7 +63,7 @@ Runnable r2 = new Runnable() { // 익명 클래스 사용
 };
 
 public static void process(Runnable r) {
-    r.run()'
+    r.run();
 }
 process(r1); // 'Hello Wrold 1' 출력
 process(r2); // 'Hello Wrold 2' 출력
