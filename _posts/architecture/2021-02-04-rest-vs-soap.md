@@ -1,7 +1,7 @@
 ---
 title: REST와 SOAP 비교
 author: dejavuhyo
-date: 2021-02-03 10:15:00 +0900
+date: 2021-02-04 06:00:00 +0900
 categories: [Application, Architecture]
 tags: [rest-vs-soap, rest, soap]
 ---
