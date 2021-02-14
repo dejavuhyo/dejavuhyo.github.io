@@ -2,7 +2,7 @@
 title: 클라우드와 가상화의 차이
 author: dejavuhyo
 date: 2021-02-09 20:30:00 +0900
-categories: [Language, Architecture]
+categories: [Application, Architecture]
 tags: [cloud-vs-virtualization, cloud-virtualization, 클라우드-가상화-차이, 클라우드-가상화]
 ---
 
