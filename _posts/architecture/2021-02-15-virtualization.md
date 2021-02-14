@@ -2,7 +2,7 @@
 title: 가상화
 author: dejavuhyo
 date: 2021-02-15 06:30:00 +0900
-categories: [Language, Architecture]
+categories: [Application, Architecture]
 tags: [virtualization, 가상화]
 ---
 
