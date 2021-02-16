@@ -13,15 +13,10 @@ ROWNUM의 값은 ROW에 영구적으로 할당되지 않는다. 테이블의 ROW
 
 ROWNUM 값이 할당되는 방법은 쿼리의 조건절이 처리되고 난 이후, 그리고 sort, aggregation 이 수행되기 이전에 할당된다. ROWNUM 값은 할당된 이후에만 증가(increment) 된다.
 
-```sql
-SELECT (row_numver() over()) AS rownum, id, title FROM board;
-
-```
-
 ## 2. 활용
 
 ```sql
-sql> SELECT id, str FROM str_table;
+sql> SELECT (row_numver() over()) AS rownum, id, title FROM board;
 
 +--------+----+-------+
 | rownum | id | title |
