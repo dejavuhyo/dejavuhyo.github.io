@@ -196,9 +196,9 @@ System clock synchronized: yes
 ## 5. 시작 및 자동 실행 설정
 
 ```shell
-[root@localhost ~]# sudo systemctl start chronyd
-[root@localhost ~]# sudo systemctl enable chronyd
-[root@localhost ~]# sudo systemctl restart chronyd
+[root@localhost ~]# systemctl start chronyd
+[root@localhost ~]# systemctl enable chronyd
+[root@localhost ~]# systemctl restart chronyd
 ```
 
 ## [출처 및 참고]
