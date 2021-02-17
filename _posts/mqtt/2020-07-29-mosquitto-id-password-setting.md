@@ -2,7 +2,7 @@
 title: Mosquitto ID, Password 설정
 author: dejavuhyo
 date: 2020-07-29 17:00:00 +0900
-categories: [Tools, MQTT]
+categories: [DevOps, MQTT]
 tags: [mosquitto-id-password, mosquitto-conf, mosquitto-access-control, mosquitto-authentication]
 ---
 
