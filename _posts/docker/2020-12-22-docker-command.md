@@ -11,7 +11,7 @@ tags: [docker-command, command, docker, 도커-명령어, 명령어, 도커]
 ### 1) 이미지 목록 보기
 
 ```shell
-[root@localhost ~]# sudo docker images
+[root@localhost ~]# docker images
 ```
 
 * Images Help
@@ -35,7 +35,7 @@ Options:
 ### 2) 이미지 검색
 
 ```shell
-[root@localhost ~]# sudo docker search [이미지 이름]
+[root@localhost ~]# docker search [이미지 이름]
 ```
 
 * Search Help
@@ -57,7 +57,7 @@ Options:
 ### 3) 이미지 받기
 
 ```shell
-[root@localhost ~]# sudo docker pull [이미지 이름]:[버전]
+[root@localhost ~]# docker pull [이미지 이름]:[버전]
 ```
 
 * Pull Help
@@ -79,7 +79,7 @@ Options:
 ### 4) 이미지 삭제
 
 ```shell
-[root@localhost ~]# sudo docker rmi [이미지 ID]
+[root@localhost ~]# docker rmi [이미지 ID]
 ```
 
 * Rmi Help
@@ -99,7 +99,7 @@ Options:
 * 컨테이너까지 삭제
 
 ```shell
-[root@localhost ~]# sudo docker rmi -f [이미지 ID]
+[root@localhost ~]# docker rmi -f [이미지 ID]
 ```
 
 ## 2. 컨테이너 관련 명령어
@@ -107,7 +107,7 @@ Options:
 ### 1) 컨테이너 목록 보기
 
 ```shell
-[root@localhost ~]# sudo docker ps
+[root@localhost ~]# docker ps
 ```
 
 * Ps Help
@@ -133,13 +133,13 @@ Options:
 * 모든 컨테이너 목록 보기
 
 ```shell
-[root@localhost ~]# sudo docker ps -a
+[root@localhost ~]# docker ps -a
 ```
 
 ### 2) 컨테이너 실행
 
 ```shell
-[root@localhost ~]# sudo docker run [options] image[:TAG|@DIGEST] [COMMAND] [ARG...]
+[root@localhost ~]# docker run [options] image[:TAG|@DIGEST] [COMMAND] [ARG...]
 ```
 
 | 옵션 | 설명 |
@@ -269,7 +269,7 @@ Options:
 ### 3) 컨테이너 시작
 
 ```shell
-[root@localhost ~]# sudo docker start [컨테이너 ID 또는 NAME]
+[root@localhost ~]# docker start [컨테이너 ID 또는 NAME]
 ```
 
 * Start Help
@@ -290,7 +290,7 @@ Options:
 ### 4) 컨테이너 재시작
 
 ```shell
-[root@localhost ~]# sudo docker restart [컨테이너 ID 또는 NAME]
+[root@localhost ~]# docker restart [컨테이너 ID 또는 NAME]
 ```
 
 * Restart Help
@@ -309,7 +309,7 @@ Options:
 ### 5) 컨테이너 접속
 
 ```shell
-[root@localhost ~]# sudo docker attach [컨테이너 ID 또는 NAME]
+[root@localhost ~]# docker attach [컨테이너 ID 또는 NAME]
 ```
 
 * Attach Help
@@ -330,7 +330,7 @@ Options:
 ### 6) 컨테이너 정지
 
 ```shell
-[root@localhost ~]# sudo docker stop [컨테이너 ID 또는 NAME]
+[root@localhost ~]# docker stop [컨테이너 ID 또는 NAME]
 ```
 
 > Bash Shell에서 exit 또는 Ctrl + D를 입력하면 컨테이너가 정지된다.
@@ -353,13 +353,13 @@ Options:
 ### 7) 삭제
 
 ```shell
-[root@localhost ~]# sudo docker rm [컨테이너 ID 또는 NAME]
+[root@localhost ~]# docker rm [컨테이너 ID 또는 NAME]
 ```
 
 * 모든 컨테이너 삭제
 
 ```shell
-[root@localhost ~]# sudo docker rm `docker ps -a -q`
+[root@localhost ~]# docker rm `docker ps -a -q`
 ```
 
 * Rm Help
