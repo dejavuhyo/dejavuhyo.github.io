@@ -70,9 +70,9 @@ server 3.asia.pool.ntp.org
 ## 5. 시작 및 자동 실행 설정
 
 ```shell
-[root@localhost ~]# sudo systemctl start ntpd
-[root@localhost ~]# sudo systemctl enable ntpd
-[root@localhost ~]# sudo systemctl restart ntpd
+[root@localhost ~]# systemctl start ntpd
+[root@localhost ~]# systemctl enable ntpd
+[root@localhost ~]# systemctl restart ntpd
 ```
 
 ## 6. 동기화 확인
