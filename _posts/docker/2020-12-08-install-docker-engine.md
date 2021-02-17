@@ -10,14 +10,14 @@ tags: [docker-install, docker-engine-install, cnetos-docker-install, centos-dock
 이전 버전의 docker 또는 docker-engine이 설치되어있는 경우 관련 종속성과 함께 제거한다.
 
 ```shell
-[root@localhost ~]# sudo yum remove docker
-[root@localhost ~]# sudo yum remove docker-client
-[root@localhost ~]# sudo yum remove docker-client-latest
-[root@localhost ~]# sudo yum remove docker-common
-[root@localhost ~]# sudo yum remove docker-latest
-[root@localhost ~]# sudo yum remove docker-latest-logrotate
-[root@localhost ~]# sudo yum remove docker-logrotate
-[root@localhost ~]# sudo yum remove docker-engine
+[root@localhost ~]# yum remove docker
+[root@localhost ~]# yum remove docker-client
+[root@localhost ~]# yum remove docker-client-latest
+[root@localhost ~]# yum remove docker-common
+[root@localhost ~]# yum remove docker-latest
+[root@localhost ~]# yum remove docker-latest-logrotate
+[root@localhost ~]# yum remove docker-logrotate
+[root@localhost ~]# yum remove docker-engine
 ```
 
 > /var/lib/docker/에 images, containers, volumes, and networks를 포함한 컨텐츠는 보존된다.
@@ -36,19 +36,19 @@ RPM 패키지를 다운로드하여 수동으로 설치하고 업그레이드를
 ### 1) yum 패키지 업데이트
 
 ```shell
-[root@localhost ~]# sudo yum update
+[root@localhost ~]# yum update
 ```
 
 ### 2) 유틸리티 패키지 설치
 
 ```shell
-[root@localhost ~]# sudo yum install -y yum-utils
+[root@localhost ~]# yum install -y yum-utils
 ```
 
 ### 3) yum-config-manager 설정
 
 ```shell
-[root@localhost ~]# sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+[root@localhost ~]# yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 Loaded plugins: fastestmirror, langpacks
 adding repo from: https://download.docker.com/linux/centos/docker-ce.repo
 grabbing file https://download.docker.com/linux/centos/docker-ce.repo to /etc/yum.repos.d/docker-ce.repo
@@ -60,7 +60,7 @@ repo saved to /etc/yum.repos.d/docker-ce.repo
 * 최신 버전 Docker Engine 및 containerd 설치
 
 ```shell
-[root@localhost ~]# sudo yum install docker-ce docker-ce-cli containerd.io
+[root@localhost ~]# yum install docker-ce docker-ce-cli containerd.io
 ```
 
 > GPG 키를 수락하라는 메시지가 표시되면 지문이 일치하는지 확인하고, 060A 61C5 1B55 8A7F 742B 77AA C52F EB6B 621E 9F35 일치하는 경우 수락한다.
@@ -124,7 +124,7 @@ Available Packages
 * 특정 버전 설치
 
 ```shell
-[root@localhost ~]# sudo yum install docker-ce-<VERSION_STRING> docker-ce-cli-<VERSION_STRING> containerd.io
+[root@localhost ~]# yum install docker-ce-<VERSION_STRING> docker-ce-cli-<VERSION_STRING> containerd.io
 ```
 
 ## 4. 패키지에서 설치
@@ -142,7 +142,7 @@ Docker의 저장소를 사용하여 Docker를 설치할 수 없는 경우 .rpm �
 ### 2) 설치
 
 ```shell
-[root@localhost ~]# sudo yum install docker-ce-19.03.9-3.el7.x86_64.rpm
+[root@localhost ~]# yum install docker-ce-19.03.9-3.el7.x86_64.rpm
 ```
 
 ## 5. 실행 및 확인
@@ -150,8 +150,8 @@ Docker의 저장소를 사용하여 Docker를 설치할 수 없는 경우 .rpm �
 ### 1) 실행 및 등록
 
 ```shell
-[root@localhost ~]# sudo systemctl start docker
-[root@localhost ~]# sudo systemctl enable docker
+[root@localhost ~]# systemctl start docker
+[root@localhost ~]# systemctl enable docker
 Created symlink from /etc/systemd/system/multi-user.target.wants/docker.service to /usr/lib/systemd/system/docker.service.
 ```
 
@@ -165,7 +165,7 @@ Docker version 19.03.14, build 5eb3275d40
 ### 3) 정상 설치 확인
 
 ```shell
-[root@localhost ~]# sudo docker run hello-world
+[root@localhost ~]# docker run hello-world
 Unable to find image 'hello-world:latest' locally
 latest: Pulling from library/hello-world
 0e03bdcc26d7: Pull complete 
