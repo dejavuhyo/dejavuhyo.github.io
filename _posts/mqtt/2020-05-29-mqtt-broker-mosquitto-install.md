@@ -2,7 +2,7 @@
 title: MQTT Broker Mosquitto 설치 및 테스트
 author: dejavuhyo
 date: 2020-05-29 11:00:00 +0900
-categories: [Tools, MQTT]
+categories: [DevOps, MQTT]
 tags: [mqtt-broker, mqtt-mosquitto, mosquitto-install, mosquitto-setup, mosquitto-subscriber, mosquitto-publisher, mosquitto-message, mqtt-브로커, mosquitto-설치, mosquitto-설정, mosquitto-메시지]
 ---
 
