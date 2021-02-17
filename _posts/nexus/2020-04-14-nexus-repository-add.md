@@ -2,7 +2,7 @@
 title: Nexus Repository 추가
 author: dejavuhyo
 date: 2020-04-14 10:30:00 +0900
-categories: [Tools, Nexus]
+categories: [DevOps, Nexus]
 tags: [nexus-maven-repository, nexus-repository, maven-repository, nexus-repository-add, 넥서스-메이븐-레파지토리, 넥서스-레파지토리, 메이븐-레파지토리, 넥서스-레파지토리-추가]
 ---
 
