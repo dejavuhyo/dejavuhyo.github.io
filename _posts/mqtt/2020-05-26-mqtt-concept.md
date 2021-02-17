@@ -2,7 +2,7 @@
 title: MQTT 개념 및 특징
 author: dejavuhyo
 date: 2020-05-26 17:00:00 +0900
-categories: [Tools, MQTT]
+categories: [DevOps, MQTT]
 tags: [mqtt, mqtt-concept, mqtt-개념, mqtt-특징]
 ---
 
