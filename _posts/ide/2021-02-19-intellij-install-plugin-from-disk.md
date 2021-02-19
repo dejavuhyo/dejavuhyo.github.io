@@ -8,7 +8,7 @@ tags: [intellij-plugin, install-plugin, install-plugin-disk, intellij-plugin-dis
 
 ## 1. IntelliJ Plugin 사이트
 
-[Explore plugins for JetBrains Products](https://plugins.jetbrains.com/)
+* [Explore plugins for JetBrains Products](https://plugins.jetbrains.com/)
 
 ![plugin-site](/assets/img/2021-02-19-intellij-install-plugin-from-disk/plugin-site.png)
 
