@@ -1,9 +1,9 @@
 ---
 title: CentOS GitLab 설치
 author: dejavuhyo
-date: 2021-02-03 06:05:00 +0900
+date: 2021-02-23 06:05:00 +0900
 categories: [DevOps, Git]
-tags: [centos-gitlab, centos-gitlab-install, gitlab-install, gitlab-설치]
+tags: [centos-gitlab, centos-gitlab-install, gitlab-install, centos-gitlab-설치, gitlab-설치]
 ---
 
 ## 1. CentOS 8 패키지 업데이트
