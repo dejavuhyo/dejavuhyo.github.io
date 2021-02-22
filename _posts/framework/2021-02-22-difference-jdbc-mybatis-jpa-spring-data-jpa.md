@@ -1,9 +1,9 @@
 ---
-title: JDBC, Mybatis, JPA, Spring Data JPA 차이
+title: JDBC, Mybatis, JPA, Spring Data JPA 차이점
 author: dejavuhyo
 date: 2021-02-22 06:00:00 +0900
 categories: [Application, Framework]
-tags: [jdbc, jpa-hibernate, mybatis, sql-mapper, orm]
+tags: [jdbc, mybatis, jpa-hibernate, spring-data-jpa]
 ---
 
 ## 1. JDBC(Java Database Connectivity)
@@ -23,7 +23,7 @@ JDBC 데이터 소스의 구현은 애플리케이션 서버, OSS 라이브러�
 | Apache Tomcat 8.5 | [Apache Tomcat 8.5 User Guide (The Tomcat JDBC Connection Pool)](http://tomcat.apache.org/tomcat-8.5-doc/jdbc-pool.html), [Apache Tomcat 8.5 User Guide (JNDI Datasource HOW-TO)](http://tomcat.apache.org/tomcat-8.5-doc/jndi-datasource-examples-howto.html) | 
 | Apache Tomcat 7 | [Apache Tomcat 7 User Guide (The Tomcat JDBC Connection Pool)](http://tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html), [Apache Tomcat 7 User Guide (JNDI Datasource HOW-TO)](http://tomcat.apache.org/tomcat-7.0-doc/jndi-datasource-examples-howto.html) |
 | Oracle WebLogic Server 12c | [Oracle WebLogic Server 12.2.1.4 Documentation](https://docs.oracle.com/en/middleware/fusion-middleware/weblogic-server/12.2.1.4/intro/jdbc.html#GUID-9FD5F552-B2E4-4FEC-8C10-503A08764B52) |
-| IBM WebSphere Application Server Version 9.0 | [	WebSphere Application Server Online information center](https://www.ibm.com/support/knowledgecenter/ko/SSEQTP_9.0.5/com.ibm.websphere.wlp.doc/ae/twlp_dep_configuring_ds.html) |
+| IBM WebSphere Application Server Version 9.0 | [ WebSphere Application Server Online information center](https://www.ibm.com/support/knowledgecenter/ko/SSEQTP_9.0.5/com.ibm.websphere.wlp.doc/ae/twlp_dep_configuring_ds.html) |
 | JBoss Enterprise Application Platform 7.2 | [JBoss Enterprise Application Platform 7.2 Product Documentation](https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.2/html/configuration_guide/datasource_management) |
 
 ### 2) OSS/Third-Party 라이브러리 제공 JDBC 데이터 소스
@@ -53,7 +53,7 @@ Spring Framework는 JDBC 데이터 소스 구현 클래스와 JDBC 데이터 소
   - [베타 제어 참고](https://terasolunaorg.github.io/guideline/5.6.1.RELEASE/ja/ArchitectureInDetail/DataAccessDetail/ExclusionControl.html)
 
 * 예외 처리
-  - Spring Framework는 JDBC Exception(java.sql.SQLException)이나 O/R Mapper 특정 예외를 Spring Framework에서 제공하는 데이터 액세스 Exception(org.springframework.dao.DataAccessException 서브)으로 변환하는 기능이있다.
+  - Spring Framework는 JDBC Exception(java.sql.SQLException)이나 O/R Mapper 특정 예외를 Spring Framework에서 제공하는 데이터 액세스 Exception(org.springframework.dao.DataAccessException 서브)으로 변환하는 기능이 있다.
   - [Spring Framework에서 제공되는 데이터 액세스 Exception 변환 클래스 참고](https://terasolunaorg.github.io/guideline/5.6.1.RELEASE/ja/ArchitectureInDetail/DataAccessDetail/DataAccessCommon.html#appendix-dataaccessexception-converter-class-label)
 
 변환된 데이터 접근 예외는 기본적으로 애플리케이션 코드에서 처리할 필요는 없지만, 일부 오류(고유 제약 조건 위반, 독점적 오류 등) 내용은 요구 사항에 따라 처리 할 필요가 있다.
@@ -68,20 +68,17 @@ Spring Framework는 JDBC 데이터 소스 구현 클래스와 JDBC 데이터 소
 | org.springframework.dao.OptimisticLockingFailureException | 낙관적 잠금에 성공하지 못한 경우에 발생하는 예외. 다른 프로세스에서 동일한 데이터가 업데이트된 경우에 발생한다. 이 예외는 O/R Mapper로 JPA를 사용하는 경우 발생하는 예외이다. MyBatis는 낙관적 lock을 하는 기능이 없기 때문에 O/R Mapper 본체에서 본 예외가 발생하는 것은 아니다. |
 | org.springframework.dao.PessimisticLockingFailureException | 비관적 잠금에 성공하지 못한 경우에 발생하는 예외. 다른 처리에 동일한 데이터가 잠겨 있고 잠금 해제 대기 제한 시간을 초과해도 잠금이 해제되지 않는 경우에 발생한다. |
 
-## 2. MyBatis 
+## 2. MyBatis
 MyBatis3는 O/R Mapper로 데이터베이스에서 저장된 레코드와 오브젝트를 매핑 하는 개념이 아니라, SQL과 오브젝트를 매핑으로 개발된 O/R Mapper이다.
 
-MyBatis3로 부터 추가된 Mapper 인터페이스를 사용하여 Entity의 CRUD 조작을 실시한다. Mapper 인터페이스의 자세한 내용은 [Mapper 인터페이스 구조](https://mybatis.org/mybatis-3/ko/index.html) 를 참조하기 바란다.
+MyBatis3로 부터 추가된 Mapper 인터페이스를 사용하여 Entity의 CRUD 조작을 실시한다. Mapper 인터페이스의 자세한 내용은 [Mapper 인터페이스 구조](https://mybatis.org/mybatis-3/ko/index.html) 참조
 
 * MyBatis3 Scope
 
 ![mybatis3-scope](/assets/img/2021-02-22-difference-jdbc-mybatis-jpa-spring-data-jpa/mybatis3-scope.png)
 
 ### 1) MyBatis3 구성 요소
-
-My Batis 설정 파일을 읽고, Sql Session Factory 를 생성하기 위한 component.
-
-Spring과 연계하여 사용하는 경우 애플리케이션 클래스에서 본 컴포넌트를 직접 취급하지 않는다.
+My Batis 설정 파일을 읽고, Sql Session Factory 를 생성하기 위한 component. Spring과 연계하여 사용하는 경우 애플리케이션 클래스에서 본 컴포넌트를 직접 취급하지 않는다.
 
 | 구성 요소 및 설정 파일 | 설명 |
 |:---:|:---:|
@@ -189,7 +186,6 @@ MyBatis-Spring은 다음 구성 요소를 연계하는 것으로, MyBatis3와 Sp
 ⑪ MyBatis3 표준 SqlSession은 매핑 파일에서 실행할 SQL을 취득하여 SQL을 실행한다.
 
 ## 3. JPA(Java Persistent API)
-
 JPA를 사용해 데이터베이스에 접속하는 방법에 대해 설명한다. JPA 프로바이더로서 Hibernate를 JPA의 래퍼로서 Spring Data JPA를 사용하는 것을 전제로 하고 있다.
 
 * JPA
@@ -201,7 +197,7 @@ JPA (Java Persistence API)는 관계형 데이터베이스에서 관리되는 �
 
 JPA는 사양을 정의하고 있을 뿐 구현은 제공하고 있지 않다. JPA 구현은 Hibernate와 같은 O/R Mapper를 개발하는 벤더에 의해 참조 구현으로 제공되고 있다. 따라서 O/R Mapper를 개발하고 있는 벤더에 의해 구현된 참조 구현을 JPA 공급자라고 부른다.
 
-### 1) JPA의 O/R 매핑
+### 2) JPA의 O/R 매핑
 JPA 사용 시 관계형 데이터베이스에서 관리되고 있는 레코드와 Java 오브젝트는 다음과 같다.
 
 * O/R 매핑
@@ -209,10 +205,11 @@ JPA 사용 시 관계형 데이터베이스에서 관리되고 있는 레코드�
 ![jpa-mapping](/assets/img/2021-02-22-difference-jdbc-mybatis-jpa-spring-data-jpa/jpa-mapping.png)
 
 JPA에서는 '관리 상태'라고 불리는 상태의 Entity가 저장된 값을 변경(setter 메소드를 호출해 값을 변경) 했을 경우 변경 내용을 관계형 데이타베이스에 반영되는 메커니즘이 있다.
+
 이 메커니즘은 편집 기능이 있는 테이블 뷰어와 같은 클라이언트 소프트웨어와 매우 유사하다.
 테이블 뷰어 같은 클라이언트 소프트웨어에서는 뷰어값이 변경되면 데이터베이스에 반영되지만 JPA에서는 'Entity'라는 Java 객체(Java Bean)의 값이 변경되면 데이터베이스에 반영된다.
 
-### 2) JPA 기본 용어
+### 3) JPA 기본 용어
 
 | 용어 | 설명 |
 |:---:|:---:|
@@ -221,15 +218,13 @@ JPA에서는 '관리 상태'라고 불리는 상태의 Entity가 저장된 값�
 | TypedQuery | Entity를 검색하기 위한 API를 제공하는 인터페이스. 애플리케이션은 javax.persistence.TypedQuery 메소드를 사용하여 ID 이외의 조건에 일치하는 Entity를 검색한다. Spring Data JPA를 사용하는 경우에는 직접 사용하지 않지만, Spring Data JPA 구조에서는 표현할 수 없는 Query를 발행해야 할 경우에는 이 인터페이스를 사용하여 Entity를 검색하게 된다. 조건에 일치하는 영속 계층(DB)의 Entity를 직접 조작(업데이트 또는 삭제)하기 위한 메소드도 이 인터페이스에 포함되어 있다. |
 | PersistenceContext | Entity를 관리하는 영역이다. EntityManager를 통해 취득 또는 생성된 Entity는 이 영역에 포함되어 라이프사이클 관리된다. 이 영역에서 관리되는 Entity 일을 '관리 상태의 Entity'라고 부른다. 이 영역은 응용 애플리케이션에서 직접 액세스할 수 없다. Entity의 상태는 '관리 상태' 이 외에, '작성 상태', '삭제 상태', '분리 상태'가 존재한다. |
 | find method | 관리 상태의 Entity를 취득하기 위한 메소드. ID에 해당하는 Entity가 PersistenceContext에 존재하지 않는 경우는 관계형 데이터베이스에 저장되어있는 레코드를 검색(SELECT)하고 관리 상태의 Entity를 생성한다. |
-| persist method | 애플리케이션으로 만든 상태의 Entity를 관리 상태의 Entity로 하기 위한 메소드.
-EntityManager 메소드로 제공되며 관계형 데이터베이스에 레코드 INSERT를 실행하는 작업이 PersistenceContext에 축적된다. |
-| merge method | PersistenceContext에서 관리되지 않는 분리 상태의 Entity를 관리 상태의 Entity로 만들기 위한 메소드. EntityManager 메소드로 제공되며 기본적으로는 관계형 데이터베이스에 저장되어있는 레코드에 대해 UPDATE를 실행하기 위한 작업이 PersistenceContext에 축적된다.
-그러나 관계형 데이터베이스에 ID와 일치하는 레코드가 존재하지 않는 경우는 UPDATE 대신 INSERT가 실행된다. |
+| persist method | 애플리케이션으로 만든 상태의 Entity를 관리 상태의 Entity로 하기 위한 메소드. EntityManager 메소드로 제공되며 관계형 데이터베이스에 레코드 INSERT를 실행하는 작업이 PersistenceContext에 축적된다. |
+| merge method | PersistenceContext에서 관리되지 않는 분리 상태의 Entity를 관리 상태의 Entity로 만들기 위한 메소드. EntityManager 메소드로 제공되며 기본적으로는 관계형 데이터베이스에 저장되어있는 레코드에 대해 UPDATE를 실행하기 위한 작업이 PersistenceContext에 축적된다. 그러나 관계형 데이터베이스에 ID와 일치하는 레코드가 존재하지 않는 경우는 UPDATE 대신 INSERT가 실행된다. |
 | remove method | 관리 상태의 Entity를 삭제 상태의 Entity로 만들기 위한 메소드. EntityManager 메소드로 제공되며 관계형 데이터베이스에 저장되어있는 레코드에 대해 DELETE를 실행하기 위한 작업이 PersistenceContext에 축적된다. |
 | flush method | PersistenceContext에서 관리되는 Entity에 대해 수행된 작업을 관계형 데이터베이스에 강제로 적용하는 방법. EntityManager 메소드로 제공되고 있으며 축적된 미반영 작업을 관계형 데이터베이스에 대해 실행한다. 일반적으로 관계형 데이터베이스에 반영은 트랜잭션 커밋시에 행해지지만 커밋 이전에 반영할 필요가 있는 경우 이 방법을 사용한다. |
 
 
-### 3) Entity 라이프 사이클 관리
+### 4) Entity 라이프 사이클 관리
 엔티티의 수명 주기는 다음과 같이 관리된다.
 
 * JPA 수명 주기
