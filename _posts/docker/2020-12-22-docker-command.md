@@ -10,13 +10,13 @@ tags: [docker-command, command, docker, 도커-명령어, 명령어, 도커]
 
 ### 1) 이미지 목록 보기
 
-```shell
+```bash
 [root@localhost ~]# docker images
 ```
 
 * Images Help
 
-```shell
+```bash
 [root@localhost ~]# docker images --help
 
 Usage:  docker images [OPTIONS] [REPOSITORY[:TAG]]
@@ -34,13 +34,13 @@ Options:
 
 ### 2) 이미지 검색
 
-```shell
+```bash
 [root@localhost ~]# docker search [이미지 이름]
 ```
 
 * Search Help
 
-```shell
+```bash
 [root@localhost ~]# docker search --help
 
 Usage:  docker search [OPTIONS] TERM
@@ -56,13 +56,13 @@ Options:
 
 ### 3) 이미지 받기
 
-```shell
+```bash
 [root@localhost ~]# docker pull [이미지 이름]:[버전]
 ```
 
 * Pull Help
 
-```shell
+```bash
 [root@localhost ~]# docker pull --help
 
 Usage:  docker pull [OPTIONS] NAME[:TAG|@DIGEST]
@@ -78,13 +78,13 @@ Options:
 
 ### 4) 이미지 삭제
 
-```shell
+```bash
 [root@localhost ~]# docker rmi [이미지 ID]
 ```
 
 * Rmi Help
 
-```shell
+```bash
 [root@localhost ~]# docker rmi --help
 
 Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
@@ -98,7 +98,7 @@ Options:
 
 * 컨테이너까지 삭제
 
-```shell
+```bash
 [root@localhost ~]# docker rmi -f [이미지 ID]
 ```
 
@@ -106,13 +106,13 @@ Options:
 
 ### 1) 컨테이너 목록 보기
 
-```shell
+```bash
 [root@localhost ~]# docker ps
 ```
 
 * Ps Help
 
-```shell
+```bash
 [root@localhost ~]# docker ps --help
 
 Usage:  docker ps [OPTIONS]
@@ -132,13 +132,13 @@ Options:
 
 * 모든 컨테이너 목록 보기
 
-```shell
+```bash
 [root@localhost ~]# docker ps -a
 ```
 
 ### 2) 컨테이너 실행
 
-```shell
+```bash
 [root@localhost ~]# docker run [options] image[:TAG|@DIGEST] [COMMAND] [ARG...]
 ```
 
@@ -155,7 +155,7 @@ Options:
 
 * Run Help
 
-```shell
+```bash
 [root@localhost ~]# docker run --help
 
 Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
@@ -268,13 +268,13 @@ Options:
 
 ### 3) 컨테이너 시작
 
-```shell
+```bash
 [root@localhost ~]# docker start [컨테이너 ID 또는 NAME]
 ```
 
 * Start Help
 
-```shell
+```bash
 [root@localhost ~]# docker start --help
 
 Usage:  docker start [OPTIONS] CONTAINER [CONTAINER...]
@@ -289,13 +289,13 @@ Options:
 
 ### 4) 컨테이너 재시작
 
-```shell
+```bash
 [root@localhost ~]# docker restart [컨테이너 ID 또는 NAME]
 ```
 
 * Restart Help
 
-```shell
+```bash
 [root@localhost ~]# docker restart --help
 
 Usage:  docker restart [OPTIONS] CONTAINER [CONTAINER...]
@@ -308,13 +308,13 @@ Options:
 
 ### 5) 컨테이너 접속
 
-```shell
+```bash
 [root@localhost ~]# docker attach [컨테이너 ID 또는 NAME]
 ```
 
 * Attach Help
 
-```shell
+```bash
 [root@localhost ~]# docker attach --help
 
 Usage:  docker attach [OPTIONS] CONTAINER
@@ -329,7 +329,7 @@ Options:
 
 ### 6) 컨테이너 정지
 
-```shell
+```bash
 [root@localhost ~]# docker stop [컨테이너 ID 또는 NAME]
 ```
 
@@ -339,7 +339,7 @@ Options:
 
 * Stop Help
 
-```shell
+```bash
 [root@localhost ~]# docker stop --help
 
 Usage:  docker stop [OPTIONS] CONTAINER [CONTAINER...]
@@ -352,19 +352,19 @@ Options:
 
 ### 7) 삭제
 
-```shell
+```bash
 [root@localhost ~]# docker rm [컨테이너 ID 또는 NAME]
 ```
 
 * 모든 컨테이너 삭제
 
-```shell
+```bash
 [root@localhost ~]# docker rm `docker ps -a -q`
 ```
 
 * Rm Help
 
-```shell
+```bash
 [root@localhost ~]# docker rm --help
 
 Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...]
