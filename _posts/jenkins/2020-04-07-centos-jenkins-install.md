@@ -8,7 +8,7 @@ tags: [centos-jenkins, centos-jenkins-install, jenkins-install, jenkins-설치, 
 
 ## 1. Jenkins 설치 확인
 
-```shell
+```bash
 [root@localhost ~]# yum list installed jenkins
 Loaded plugins: fastestmirror, langpacks
 Loading mirror speeds from cached hostfile
@@ -23,7 +23,7 @@ Error: No matching Packages to list
 
 * /etc/yum.repos.d/jenkins.repo 경로 다운로드
 
-```shell
+```bash
 [root@localhost ~]# wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 --2020-04-07 10:31:42--  https://pkg.jenkins.io/redhat-stable/jenkins.repo
 Resolving pkg.jenkins.io (pkg.jenkins.io)... 52.202.51.185
@@ -41,14 +41,14 @@ Saving to: ‘/etc/yum.repos.d/jenkins.repo’
 
 ## 3. Key Import
 
-```shell
+```bash
 [root@localhost ~]# rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 [root@localhost ~]#
 ```
 
 ## 4. 설치
 
-```shell
+```bash
 [root@localhost ~]# yum install jenkins
 Loaded plugins: fastestmirror, langpacks
 Loading mirror speeds from cached hostfile
@@ -67,7 +67,7 @@ Jenkins는 기본 포트 8080으로 설정되어 있어 Tomcat과 충돌하기 �
 
 * 편집
 
-```shell
+```bash
 [root@localhost ~]# vi /etc/sysconfig/jenkins
 ```
 
@@ -80,7 +80,7 @@ JENKINS_PORT="9090"
 ## 6. 서비스 시작 및 종료
 * 시작
 
-```shell
+```bash
 [root@localhost ~]# service jenkins start
 Starting jenkins (via systemctl):                          [  OK  ]
 [root@localhost ~]#
@@ -88,7 +88,7 @@ Starting jenkins (via systemctl):                          [  OK  ]
 
 * 종료
 
-```shell
+```bash
 [root@localhost ~]# service jenkins stop
 Stopping jenkins (via systemctl):                          [  OK  ]
 [root@localhost ~]#
@@ -97,7 +97,7 @@ Stopping jenkins (via systemctl):                          [  OK  ]
 ## 7. 방화벽 설정
 설정한 포트 9090을 열어준다.
 
-```shell
+```bash
 [root@localhost ~]# firewall-cmd --zone=public --permanent --add-port=9090/tcp
 success
 [root@localhost ~]# firewall-cmd --reload
@@ -109,7 +109,7 @@ success
 * **접속 주소:** http://서버주소:9090
 * **초기 비밀번호:**  /var/lib/jenkins/secrets/initialAdminPassword에 있음
 
-```shell
+```bash
 [root@localhost ~]# vi /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
