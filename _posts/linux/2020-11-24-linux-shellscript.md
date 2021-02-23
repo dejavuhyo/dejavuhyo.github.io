@@ -34,7 +34,7 @@ tags: [linux-shellscript, shellscript, 리눅스-쉘스크립트, 쉘스크립�
 
 * 예
 
-```shell
+```bash
 #!/bin/sh
 echo "This Script Executable File : $0"
 echo "Argument Count : $#"
@@ -85,7 +85,7 @@ Argument 4 : a4
 
 * 예
 
-```shell
+```bash
 #!/bin/sh
 
 p="/usr/X11R6/bin/startx"
@@ -401,7 +401,7 @@ done
 
 다음 예를 보자. 이 예는 지정한 유저가 로그인하면 알려준다.
 
-```shell
+```bash
 #!/bin/sh
 
 until who | grep "$1" > /dev/null
@@ -417,7 +417,7 @@ select문은 원하는 리스트를 출력하고 그 중 선택된 것을 돌려
 
 * 예
 
-```shell
+```bash
 #!/bin/sh
 
 echo "다음중 스크립트언어 프로그래밍에 속하는 것은 ?"
@@ -461,7 +461,7 @@ done
 
 * 예
 
-```shell
+```bash
 #!/bin/sh
 		
 func()
@@ -598,7 +598,7 @@ printf "Format String" arg1 arg2 arg3 ...
 
 * 예
 
-```shell
+```bash
 #!/bin/sh
 
 echo $#
@@ -620,7 +620,7 @@ echo $#
 
 * 예
 
-```shell
+```bash
 #!/bin/sh
 
 echo $1
@@ -677,7 +677,7 @@ x = $(명령)
 
 * 예
 
-```shell
+```bash
 #!/bin/sh
 
 mail $1 << myscript
