@@ -19,7 +19,7 @@ Stratum 0은 primary reference clock 이라고 부르며, NTP protocol과는 상
 
 > Cent 8/RHEL 8 버전부터는 NTP가 사라지고 Chrony를 제공하고 있다.
 
-```shell
+```bash
 [root@localhost ~]# dnf install ntp
 CentOS-8 - AppStream                                                                                0.0  B/s |   0  B     00:00    
 Errors during downloading metadata for repository 'AppStream':
@@ -32,7 +32,7 @@ Chrony는 NTP와 동일하게 Time service를 하지 않고 서버의 시간 동
 
 ### 1) NTP Package 삭제
 
-```shell
+```bash
 [root@localhost ~]# dnf remove ntp
 No match for argument: ntp
 제거 할 수있는 패키지가 없습니다.
@@ -43,7 +43,7 @@ Dependencies resolved.
 
 ### 2) Chrony 설치
 
-```shell
+```bash
 [root@localhost ~]# dnf install chrony
 CentOS-8 - AppStream                                                                              6.4 MB/s | 6.2 MB     00:00    
 CentOS-8 - Base                                                                                   4.0 MB/s | 2.3 MB     00:00    
@@ -59,7 +59,7 @@ Dependencies resolved.
 ### 1) 타임서버 설정
 기본으로 설정이 되어 있는 CentOS NTP pool의 time server가 아니라, 다른 Time server에서 동기화를 하고 싶다면 /etc/chrony.conf 에서 server 지시자에 원하는 Time server를 등록하면 된다.
 
-```shell
+```bash
 [root@localhost ~]# vi /etc/chrony.conf
 ```
 
@@ -83,7 +83,7 @@ server 3.asia.pool.ntp.org
 
 * 상태 확인
 
-```shell
+```bash
 [root@localhost ~]# timedatectl status
                Local time: 일 2020-12-13 21:55:32 EST
            Universal time: 월 2020-12-14 02:55:32 UTC
@@ -96,7 +96,7 @@ System clock synchronized: yes
 
 * System clock synchronized: no 일경우
 
-```shell
+```bash
 [root@localhost ~]# timedatectl set-ntp yes
 ```
 
@@ -104,19 +104,19 @@ System clock synchronized: yes
 
 * 동기화 실행
 
-```shell
+```bash
 [root@localhost ~]# timedatectl set-ntp true
 ```
 
 * 시간대 설정
 
-```shell
+```bash
 [root@localhost ~]# timedatectl set-timezone Asia/Seoul
 ```
 
 * 지역별 시간대 확인
 
-```shell
+```bash
 [root@localhost ~]# tzselect
 Please identify a location so that time zone rules can be set correctly.
 Please select a continent, ocean, "coord", or "TZ".
@@ -175,7 +175,7 @@ Asia/Seoul
 
 * 최종 상태 확인
 
-```shell
+```bash
 [root@localhost ~]# timedatectl status
                Local time: 월 2020-12-14 12:00:47 KST
            Universal time: 월 2020-12-14 03:00:47 UTC
@@ -188,14 +188,14 @@ System clock synchronized: yes
 
 ## 4. 방화벽 등록
 
-```shell
+```bash
 [root@localhost ~]# firewall-cmd --add-service=ntp --permanent
 [root@localhost ~]# firewall-cmd l--reload
 ```
 
 ## 5. 시작 및 자동 실행 설정
 
-```shell
+```bash
 [root@localhost ~]# systemctl start chronyd
 [root@localhost ~]# systemctl enable chronyd
 [root@localhost ~]# systemctl restart chronyd
