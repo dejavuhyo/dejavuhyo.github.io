@@ -13,7 +13,7 @@ tags: [linux-permission, permission, chmod, chown, 리눅스-권한, 권한]
 
 ### 1) chmod 도움말
 
-```shell
+```bash
 [root@localhost ~]# chmod --help
 사용법: chmod [옵션]... MODE[,MODE]... FILE...
   또는: chmod [옵션]... 8진수-MODE FILE...
@@ -79,7 +79,7 @@ For complete documentation, run: info coreutils 'chmod invocation'
 
 * 예: test.txt 파일명의 소유자 권한은 [읽기, 쓰기, 실행], 그룹 권한은 [읽기, 쓰기], 일반사용자 [읽기, 쓰기]로 변경
 
-```shell
+```bash
 [root@localhost ~]# chmod 766 test.txt
 ```
 
@@ -88,7 +88,7 @@ For complete documentation, run: info coreutils 'chmod invocation'
 
 ### 1) chown 도움말
 
-```shell
+```bash
 [root@localhost ~]# chown --help
 Usage: chown [OPTION]... [OWNER][:[GROUP]] FILE...
   or:  chown [OPTION]... --reference=RFILE FILE...
@@ -151,7 +151,7 @@ For complete documentation, run: info coreutils 'chown invocation'
 
 * 예: text.txt 파일명의 소유권자를 [aaa]로 하고, 그룹식별자를 [bbb]로 변경
 
-```shell
+```bash
 [root@localhost ~]# chmod aaa:bbb text.txt
 ```
 
