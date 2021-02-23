@@ -17,7 +17,7 @@ Default Repository가 아닌 EPEL(Extra Package for Enterprise Linux), REMI 등 
 
 * yum repolist
 
-```shell
+```bash
 [root@localhost ~]# yum repolist
 Loaded plugins: fastestmirror, langpacks
 Loading mirror speeds from cached hostfile
@@ -35,7 +35,7 @@ repolist: 11,293
 
 * /etc/yum.repos.d
 
-```shell
+```bash
 [root@localhost ~]# cd /etc/yum.repos.d/
 [root@localhost yum.repos.d]# ls -al
 합계 52
@@ -66,7 +66,7 @@ gpgkey=서명키 사용 시 서명키 주소
 
 * CentOS-Base.repo의 내용
 
-```shell
+```bash
 [root@localhost yum.repos.d]# vi CentOS-Base.repo
 ```
 
@@ -124,13 +124,13 @@ EPEL 저장소는 확장된 패키지의 저장소로 기본 저장소에는 없
 
 * 설치
 
-```shell
+```bash
 [root@localhost ~]# yum install epel-release
 ```
 
 * 확인
 
-```shell
+```bash
 [root@localhost ~]# yum repolist
 Loaded plugins: fastestmirror, langpacks
 Loading mirror speeds from cached hostfile
@@ -163,7 +163,7 @@ Yum 저장소에는 REMI 저장소 패키지가 없기 때문에 rpm 파일을 �
 
 * 설치
 
-```shell
+```bash
 [root@localhost ~]# rpm -ivh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
 http://rpms.famillecollet.com/enterprise/remi-release-7.rpm(을)를 복구합니다
 경고: /var/tmp/rpm-tmp.YfjNjp: Header V4 DSA/SHA1 Signature, key ID 00f97f56: NOKEY
@@ -174,14 +174,14 @@ Updating / installing...
 
 서명키를 통과하지 못해 "warning: /var/tmp/rpm-tmp.ronYwh: Header V3 DSA/SHA1 Signature" 에러가 나지만 설치된 목록을 조회해보면 설치되어있다고 나온다.
 
-```shell
+```bash
 [root@localhost ~]# rpm -qa | grep remi-release
 remi-release-7.8-1.el7.remi.noarch
 ```
 
 저장소 디렉토리에도 EPEL, REMI 저장소 파일들이 생성되어있다.
 
-```shell
+```bash
 [root@localhost ~]# ls -al /etc/yum.repos.d/
 합계 120
 drwxr-xr-x.   2 root root 4096 12월  3 11:57 .
@@ -216,7 +216,7 @@ EPEL 저장소 하나밖에 등록되지 않는 것을 볼 수 있다. 저장소
 
 REMI 저장소를 새로 설치하면 활성화되지 않은 채 설치된다. 이 경우 REMI 저장소 파일에서 활성화시켜주면 된다.
 
-```shell
+```bash
 [root@localhost ~]# vi /etc/yum.repos.d/remi.repo
 ```
 
@@ -239,7 +239,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi
 
 * 확인
 
-```shell
+```bash
 [root@localhost ~]# yum repolist
 Loaded plugins: fastestmirror, langpacks
 Loading mirror speeds from cached hostfile
@@ -266,13 +266,13 @@ rm -rf [레파지토리 파일] 명령어로 삭제 한다. base.repo 파일은 
 
 * 삭제
 
-```shell
+```bash
 [root@localhost yum.repos.d]# rm -rf remi.* remi-*
 ```
 
 * Cache 파일 삭제
 
-```shell
+```bash
 [root@localhost yum.repos.d]# cd /var/cache/yum/
 [root@localhost yum]# ls 
 x86_64
@@ -281,7 +281,7 @@ x86_64
 
 * Yum headers, packages, metadata 삭제
 
-```shell
+```bash
 [root@localhost yum]# yum clean headers
 Loaded plugins: fastestmirror, langpacks
 Cleaning repos: base epel extras updates
