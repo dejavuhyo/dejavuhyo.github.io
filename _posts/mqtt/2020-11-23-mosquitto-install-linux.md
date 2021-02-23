@@ -8,14 +8,14 @@ tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
 
 ## 1. 계정 추가
 
-```shell
+```bash
 [root@localhost ~]# useradd mosquitto
 [root@localhost ~]# groupadd mosquitto
 ```
 
 ## 2. 의존성 패키지 설치
 
-```shell
+```bash
 [root@localhost openssl]# make
 [root@localhost openssl]# make install
 [root@localhost openssl]# make clean
@@ -27,7 +27,7 @@ tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
 
 ### 1) 다운로드
 
-```shell
+```bash
 [root@localhost ~]# wget http://www.openssl.org/source/openssl-1.1.1g.tar.gz
 [root@localhost ~]# tar -zxvf openssl-1.1.1g.tar.gz
 [root@localhost ~]# cp -Rf openssl-1.1.1g /usr/local/openssl
@@ -41,7 +41,7 @@ tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
 
 ### 2) 설치
 
-```shell
+```bash
 [root@localhost openssl]# make
 [root@localhost openssl]# make install
 [root@localhost openssl]# make clean
@@ -53,7 +53,7 @@ tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
 
 * 편집
 
-```shell
+```bash
 [root@localhost ~]# vi /etc/ld.so.conf
 ```
 
@@ -65,13 +65,13 @@ tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
 
 * 적용
 
-```shell
+```bash
 [root@localhost ~]# /sbin/ldconfig
 ```
 
 ### 4) 설치 확인
 
-```shell
+```bash
 [root@localhost ~]# openssl version
 ```
 
@@ -79,7 +79,7 @@ tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
 
 ### 1) 다운로드
 
-```shell
+```bash
 [root@localhost ~]# wget http://mosquitto.org/files/source/mosquitto-1.6.12.tar.gz
 [root@localhost ~]# tar -zxvf mosquitto-1.6.12.tar.gz
 [root@localhost ~]# cp -Rf mosquitto-1.6.12 /usr/local/mosquitto
@@ -88,7 +88,7 @@ tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
 
 ### 2) 설치
 
-```shell
+```bash
 [root@localhost mosquitto]# make
 [root@localhost mosquitto]# make install
 ```
@@ -97,7 +97,7 @@ tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
 
 * 편집
 
-```shell
+```bash
 [root@localhost ~]# vi /etc/ld.so.conf
 ```
 
@@ -107,7 +107,7 @@ tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
 
 * 적용
 
-```shell
+```bash
 [root@localhost ~]# /sbin/ldconfig
 ```
 
@@ -125,7 +125,7 @@ tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
 
 ### 4) 심볼릭 링크 생성
 
-```shell
+```bash
 [root@localhost ~]# ln -s /usr/local/mosquitto/lib/libmosquitto.so.1 /usr/lib/libmosquitto.so.1
 ```
 
@@ -133,7 +133,7 @@ tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
 
 * 편집
 
-```shell
+```bash
 [root@localhost ~]# vi /etc/profile
 ```
 
@@ -149,13 +149,13 @@ tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
 
 * 적용
 
-```shell
+```bash
 [root@localhost ~]# source /etc/profile
 ```
 
 ### 6) Port 열기
 
-```shell
+```bash
 [root@localhost ~]# iptables -I INPUT -m tcp -p tcp --dport 1883 -j ACCEPT
 [root@localhost ~]# /sbin/service iptables save
 [root@localhost ~]# /sbin/service iptables restart
@@ -163,7 +163,7 @@ tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
 
 ### 7) Broker 실행
 
-```shell
+```bash
 [root@localhost mosquitto]# mosquitto
 # OR
 [root@localhost mosquitto]# mosquitto -c ./mosquitto.conf -v
