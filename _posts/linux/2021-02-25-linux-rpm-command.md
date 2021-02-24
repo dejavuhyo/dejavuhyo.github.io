@@ -54,7 +54,7 @@ tags: [rpm, linux-rpm, rpm-command, rpm-명령어, 리눅스-rpm, 리눅스-rpm-
 ### 3) rpm 내부 파일목록 보기(list)
 
 ```bash
-[root@localhost ~]# rpm -ql 설치된패키지명
+[root@localhost ~]# rpm -ql 설치된패 키지명
 ```
 
 ```bash
