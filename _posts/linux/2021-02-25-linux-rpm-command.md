@@ -84,11 +84,11 @@ tags: [rpm, linux-rpm, rpm-command, rpm-명령어, 리눅스-rpm, 리눅스-rpm-
 ### 6) rpm 내부 스크립트 확인
 
 ```bash
-rpm -q --scripts 설치된패키지명
+[root@localhost ~]# rpm -q --scripts 설치된 패키지명
 ```
 
 ```bash
-rpm -qp --scripts 파일명.rpm
+[root@localhost ~]# rpm -qp --scripts 파일명.rpm
 ```
 
 ## [출처 및 참고]
