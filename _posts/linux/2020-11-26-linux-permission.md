@@ -1,4 +1,4 @@
---- 
+---
 title: Linux 권한 설정
 author: dejavuhyo
 date: 2020-11-26 09:30:00 +0900
