@@ -1,4 +1,4 @@
---- 
+---
 title: IntelliJ 디스크에서 플러그인 설치
 author: dejavuhyo
 date: 2021-02-19 10:30:00 +0900
