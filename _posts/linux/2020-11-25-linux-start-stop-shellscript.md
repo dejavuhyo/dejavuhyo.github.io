@@ -1,4 +1,4 @@
---- 
+---
 title: Linux 시작, 종료 Shell Script
 author: dejavuhyo
 date: 2020-11-25 09:45:00 +0900
