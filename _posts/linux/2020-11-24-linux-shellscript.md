@@ -1,4 +1,4 @@
---- 
+---
 title: Linux Shell Script
 author: dejavuhyo
 date: 2020-11-24 10:00:00 +0900
