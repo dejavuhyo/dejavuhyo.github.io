@@ -1,4 +1,4 @@
---- 
+---
 title: Linux 명령어
 author: dejavuhyo
 date: 2020-11-19 14:15:00 +0900
