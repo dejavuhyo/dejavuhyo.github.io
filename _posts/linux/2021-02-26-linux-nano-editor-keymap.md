@@ -1,4 +1,4 @@
---- 
+---
 title: Linux Nano 에디터 단축키
 author: dejavuhyo
 date: 2021-02-26 06:10:00 +0900
