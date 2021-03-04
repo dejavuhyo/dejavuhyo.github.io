@@ -38,16 +38,17 @@ tags: [docker-jenkins-install, jenkins-install, docker-jenkins, 도커-젠킨스
 
 * <http://127.0.0.1:9080>
 
-## 6. 오류
-퍼미션 문제로 파일을 생성할 수 없다.
+## 6. Permission denied 오류
 
-* 오류 내용
+* 에러 메시지
+
 ```text
 touch: cannot touch '/var/jenkins_home/copy_reference_file.log': Permission denied
 Can not write to /var/jenkins_home/copy_reference_file.log. Wrong volume permissions?
 ```
 
 * 해결 방법
+
 ```bash
 [root@localhost /]# chown -R 1000:1000 /var/jenkins_home/
 ```
