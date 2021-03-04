@@ -71,20 +71,29 @@ root@127:/# gitlab-ctl reconfigure
 
 * <http://127.0.0.1:8929>
 
-## 6. 참고: Error
+## 6. 에러 종류
 
 ### 1) gitlab 이름의 container가 있음
+
+* 에러 메시지
 
 ```text
 docker: Error response from daemon: Conflict. The container name "/gitlab" is already in use by container "7cc5f742bee7b7fd1abfb7bda954e02fd82f8cd87eeddb327e891a2e46446e98". You have to remove (or rename) that container to be able to reuse that name.
 See 'docker run --help'.
 ```
 
+* 해결 방법: gitlab 이름의 컨테이너가 실행 중인지 확인
+
+
 ### 2) 22번 포트 사용중
+
+* 에러 메시지
 
 ```text
 docker: Error response from daemon: driver failed programming external connectivity on endpoint gitlab (4e9c2e29d9490c79ed30a40a5d1593ace6584c488000b2185e63990f11f3b504): Error starting userland proxy: listen tcp4 0.0.0.0:22: bind: address already in use.
 ```
+
+* 해결 방법: 포트 변경
 
 ## [출처 및 참고]
 * <https://docs.gitlab.com/omnibus/docker/>
