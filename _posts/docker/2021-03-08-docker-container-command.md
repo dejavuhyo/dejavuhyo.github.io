@@ -7,7 +7,7 @@ tags: [docker-dontainer-command, dontainer-command, docker-dontainer, 도커-컨
 ---
 
 ## 1. docker exec 설명
-실행 중인 Container에 명령 실행
+실행 중인 Docker Container에 명령 실행
 
 ![docker](/assets/img/2021-03-08-docker-container-command/docker.png)
 
