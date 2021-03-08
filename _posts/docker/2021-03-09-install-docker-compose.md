@@ -7,7 +7,7 @@ tags: [docker-compose-install, docker-compose, compose-install, 도커-compose]
 ---
 
 ## 1. 설치
-Docker Composite는 작업을 위해 Docker Engine을 사용하므로 로컬 또는 원격에 Docker Engine을 설치해야 한다.
+Docker Compose는 작업을 위해 Docker Engine을 사용하므로 로컬 또는 원격에 Docker Engine이 설치되어 있어야 한다.
 
 ![docker-compose](/assets/img/2021-03-09-install-docker-compose/docker-compose.png)
 
