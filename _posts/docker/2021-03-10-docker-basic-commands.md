@@ -33,7 +33,7 @@ Docker CLI의 기본 명령
 | [docker import](https://docs.docker.com/engine/reference/commandline/import/) | tarball에서 콘텐츠를 가져와 파일 시스템 이미지 생성 |
 | [docker info](https://docs.docker.com/engine/reference/commandline/info/) | 시스템 전체 정보 표시 |
 | [docker inspect](https://docs.docker.com/engine/reference/commandline/inspect/) | 도커 개체에 대한 하위 수준의 정보 반환 |
-| [docker kill](https://docs.docker.com/engine/reference/commandline/kill/) | 하나 이상의 실행중인 컨테이너 Kill |
+| [docker kill](https://docs.docker.com/engine/reference/commandline/kill/) | 하나 이상의 실행중인 컨테이너 kill |
 | [docker load](https://docs.docker.com/engine/reference/commandline/load/) | tar 아카이브 또는 STDIN에서 이미지 로드 |
 | [docker login](https://docs.docker.com/engine/reference/commandline/login/) | 도커 레지스트리에 로그인 |
 | [docker logout](https://docs.docker.com/engine/reference/commandline/logout/) | 도커 레지스트리에서 로그아웃 |
@@ -62,7 +62,7 @@ Docker CLI의 기본 명령
 | [docker stop](https://docs.docker.com/engine/reference/commandline/stop/) | 하나 이상의 실행 중인 컨테이너 중지 |
 | [docker swarm](https://docs.docker.com/engine/reference/commandline/swarm/) | Swarm 관리 |
 | [docker system](https://docs.docker.com/engine/reference/commandline/system/) | 도커 관리 |
-| [docker tag](https://docs.docker.com/engine/reference/commandline/tag/) | Source_IMAGE를 참조하는 Target_IMAGE 태그를 생성 |
+| [docker tag](https://docs.docker.com/engine/reference/commandline/tag/) | SOURCE_IMAGE를 참조하는 TARGET_IMAGE 태그를 생성 |
 | [docker top](https://docs.docker.com/engine/reference/commandline/top/) | 컨테이너의 실행 프로세스 표시 |
 | [docker trust](https://docs.docker.com/engine/reference/commandline/trust/) | Docker 이미지에 대한 신뢰 관리 |
 | [docker unpause](https://docs.docker.com/engine/reference/commandline/unpause/) | 하나 이상의 컨테이너 내의 모든 프로세스 일시 중지 해제 |
