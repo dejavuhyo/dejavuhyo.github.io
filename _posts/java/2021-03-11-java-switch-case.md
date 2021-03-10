@@ -11,7 +11,7 @@ switch/case 문은 if 문과 비슷하지만 좀 더 정형화된 모습의 제�
 
 * switch/case 문의 구조
 
-```java
+```text
 switch(입력변수) {
     case 입력값1: ...
          break;
