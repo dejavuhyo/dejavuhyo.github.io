@@ -8,42 +8,42 @@ tags: [gitlab-commit, gitlab-origin-commit, intellij-gitlab-commit, 깃랩-커�
 
 ## 1.GibLab 프로젝트 생성
 
-![img001](/assets/img/2021-03-16-intellij-v2020-3-gitlab-origin-commit/img001.png)
+![img001](/assets/img/2021-03-16-intellij-gitlab-origin-commit/img001.png)
 
 ## 2. Local Git Repository 생성
 
 * VCS → Create Git Repository
 
-![img002](/assets/img/2021-03-16-intellij-v2020-3-gitlab-origin-commit/img002.png)
+![img002](/assets/img/2021-03-16-intellij-gitlab-origin-commit/img002.png)
 
-![img003](/assets/img/2021-03-16-intellij-v2020-3-gitlab-origin-commit/img003.png)
+![img003](/assets/img/2021-03-16-intellij-gitlab-origin-commit/img003.png)
 
 ## 3. Local Git Repository Commit
 
 * Project(Right Click) → Git → Commit Directory
 
-![img004](/assets/img/2021-03-16-intellij-v2020-3-gitlab-origin-commit/img004.png)
+![img004](/assets/img/2021-03-16-intellij-gitlab-origin-commit/img004.png)
 
 * Commit to master
 
-![img005](/assets/img/2021-03-16-intellij-v2020-3-gitlab-origin-commit/img005.png)
+![img005](/assets/img/2021-03-16-intellij-gitlab-origin-commit/img005.png)
 
 ## 4. GitLab Repository 설정
 
 * Define remote 선택
 
-![img006](/assets/img/2021-03-16-intellij-v2020-3-gitlab-origin-commit/img006.png)
+![img006](/assets/img/2021-03-16-intellij-gitlab-origin-commit/img006.png)
 
 * URL 입력 및 사용자 정보 입력
 
-![img007](/assets/img/2021-03-16-intellij-v2020-3-gitlab-origin-commit/img007.png)
+![img007](/assets/img/2021-03-16-intellij-gitlab-origin-commit/img007.png)
 
-![img008](/assets/img/2021-03-16-intellij-v2020-3-gitlab-origin-commit/img008.png)
+![img008](/assets/img/2021-03-16-intellij-gitlab-origin-commit/img008.png)
 
 ## 5. Push
 
-![img009](/assets/img/2021-03-16-intellij-v2020-3-gitlab-origin-commit/img009.png)
+![img009](/assets/img/2021-03-16-intellij-gitlab-origin-commit/img009.png)
 
 ## 6. GitLab Repository 확인
 
-![img010](/assets/img/2021-03-16-intellij-v2020-3-gitlab-origin-commit/img010.png)
+![img010](/assets/img/2021-03-16-intellij-gitlab-origin-commit/img010.png)
