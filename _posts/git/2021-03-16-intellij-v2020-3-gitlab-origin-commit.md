@@ -1,5 +1,5 @@
 ---
-title: IntelliJ v2020.3 GitLab 최초 Commit
+title: IntelliJ v2020-3 GitLab 최초 Commit
 author: dejavuhyo
 date: 2021-03-16 06:00:00 +0900
 categories: [DevOps, Git]
