@@ -1,9 +1,9 @@
 ---
-title: Oracle MERGE INTO
+title: Oracle MERGE
 author: dejavuhyo
-date: 2021-02-17 06:10:00 +0900
+date: 2021-03-17 06:10:00 +0900
 categories: [Database, Oracle]
-tags: [oracle-merge-into, merge-into, merge, update-insert]
+tags: [oracle-merge, oracle-merge-into, merge-into, merge, update-insert]
 ---
 
 ## 1. MERGE란
@@ -33,7 +33,7 @@ MERGE [ hint ]
     [ error_logging_clause ]
 ```
 
-### 2) merge_update_clause
+### 2) MERGE UPDATE CLAUSE
 
 ![merge-update-clause](/assets/img/2021-03-17-oracle-merge-into/merge-update-clause.gif)
 
@@ -45,7 +45,7 @@ UPDATE SET column = { expr | DEFAULT }
 [ DELETE where_clause ]
 ```
 
-### 3) merge_insert_clause
+### 3) MERGE INSERT CLAUSE
 
 ![merge-insert-clause](/assets/img/2021-03-17-oracle-merge-into/merge-insert-clause.gif)
 
@@ -56,7 +56,7 @@ VALUES ({ expr [, expr ]... | DEFAULT })
 [ where_clause ]
 ```
 
-### 4) where_clause
+### 4) WHERE CLAUSE
 
 ![where-clause](/assets/img/2021-03-17-oracle-merge-into/where-clause.gif)
 
@@ -64,7 +64,18 @@ VALUES ({ expr [, expr ]... | DEFAULT })
 WHERE condition
 ```
 
-## 3. MERGE INTO 활용
+### 5) ERROR LOGGING CLAUSE
+
+![error-logging-clause](/assets/img/2021-03-17-oracle-merge-into/error-logging-clause.gif)
+
+```sql
+LOG ERRORS 
+    [ INTO [schema.] table ]
+    [ (simple_expression) ]
+    [ REJECT LIMIT { integer | UNLIMITED } ]
+```
+
+## 3. 활용
 
 ### 1) 동일한 테이블 구조
 동일한 테이블 구조로 되어 있는 TMP_SCORE 테이블로부터 데이터를 옮기는 예이다.
@@ -80,41 +91,37 @@ MERGE INTO TB_SCORE S
         VALUES (T.COURSE_ID, T.STUDENT_ID, T.SCORE)
 ```
 
+### 2) SELECT 이용
+
 ```sql
 MERGE INTO CUSTOMER C
     USING (
-        SELECT
-            USERNO
-            , USERNAME
-            , ADDRESS
-            , PHONE
-        FROM
-            NEW_JOIN
-        WHERE
-            INPUT_DATE = '20210317'
-    ) N
+        SELECT USERNO, USERNAME, ADDRESS, PHONE FROM NEW_JOIN
+        WHERE INPUT_DATE = '20170724') N
     ON (C.USERNO = N.USERNO)
     WHEN MATCHED THEN
-        UPDATE SET
-            C.USERNAME = N.USERNAME
-            , C.ADDRESS = N.ADDRESS
-            , C.PHONE = N.PHONE
+        UPDATE SET C.USERNAME = N.USERNAME, C.ADDRESS = N.ADDRESS, C.PHONE = N.PHONE
     WHEN NOT MATCHED THEN
-        INSERT (
-            USERNO
-            , USERNAME
-            , ADDRESS
-            , PHONE
-        )
-        VALUES (
-            N.USERNO
-            , N.USERNAME
-            , N.ADDRESS
-            , N.PHONE
-        )
+        INSERT (USERNO, USERNAME, ADDRESS, PHONE)
+        VALUES (N.USERNO, N.USERNAME, N.ADDRESS, N.PHONE)
+ ```
+
+```sql
+MERGE INTO bonuses D
+    USING (
+        SELECT employee_id, salary, department_id FROM employees
+        WHERE department_id = 80) S
+    ON (D.employee_id = S.employee_id)
+    WHEN MATCHED THEN
+        UPDATE SET D.bonus = D.bonus + S.salary*.01
+        DELETE WHERE (S.salary > 8000)
+    WHEN NOT MATCHED THEN
+        INSERT (D.employee_id, D.bonus)
+        VALUES (S.employee_id, S.salary*.01)
+        WHERE (S.salary <= 8000)
 ```
 
-### 2) 직접 값을 입력
+### 3) 직접 값을 입력
 다른 테이블에서 데이터를 비교하여 가져오는 것이 아니라, 직접 값을 입력한다면 DUAL을 사용한다.
 
 ```sql
@@ -128,7 +135,7 @@ MERGE INTO TB_SCORE S
         VALUES ('C1', 'S1', 20)
 ```
 
-### 3) UPDATE 혹은 INSERT 하나만 수행
+### 4) UPDATE 혹은 INSERT 하나만 수행
 
 ```sql
 MERGE INTO TB_SCORE S
