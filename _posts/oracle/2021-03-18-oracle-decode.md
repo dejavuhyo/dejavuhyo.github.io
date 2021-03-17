@@ -3,7 +3,7 @@ title: Oracle DECODE
 author: dejavuhyo
 date: 2021-03-18 06:05:00 +0900
 categories: [Database, Oracle]
-tags: [oracle-decode, decode]
+tags: [oracle-decode, decode, 오라클-decode]
 ---
 
 ## 1. DECODE 목적
@@ -43,11 +43,13 @@ DECODE(expr, search, result
 부서번호가 10이면 ACCOUNTING, 20이면 RESEARCH, 30이면 SALES 나머지는 OPERATIONS를 출력
 
 ```sql
-SELECT deptno, DECODE(deptno, 10, 'ACCOUNTING'
-                            , 20, 'RESEARCH'
-                            , 30, 'SALES'
-                            , 'OPERATIONS') name
-FROM dept
+SELECT
+    deptno, DECODE(deptno, 10, 'ACCOUNTING'
+                        , 20, 'RESEARCH'
+                        , 30, 'SALES'
+                        , 'OPERATIONS') name
+FROM
+    dept
 ```
 
 ```sql
@@ -63,11 +65,14 @@ DEPTNO NAME
 10부서는 급여합계를, 20부서는 최대값을, 30부서는 최소값을 출력
 
 ```sql
-SELECT deptno, DECODE(deptno, 10, SUM(sal)
-                            , 20, MAX(sal)
-                            , 30, MIN(sal)) sal
-FROM emp
-GROUP BY deptno
+SELECT
+    deptno, DECODE(deptno, 10, SUM(sal)
+                        , 20, MAX(sal)
+                        , 30, MIN(sal)) sal
+FROM
+    emp
+GROUP BY
+    deptno
 ```
 
 ```sql
@@ -75,19 +80,22 @@ DEPTNO    SAL
 ------ ------
     30    950
     20   3000
-    10   8750 
+    10   8750
 ```
 
 ### 3) 집계함수와 함께 통계 데이터를 추출
 부서별로 급여 합계를 출력
 
 ```sql
-SELECT deptno, NVL(SUM(DECODE(deptno, 10, sal)),0) deptno10
-                , NVL(SUM(DECODE(deptno, 20, sal)),0) deptno20
-                , NVL(SUM(DECODE(deptno, 30, sal)),0) deptno30
-                , NVL(SUM(DECODE(deptno, 40, sal)),0) deptno40
-FROM emp
-GROUP BY deptno
+SELECT
+    deptno, NVL(SUM(DECODE(deptno, 10, sal)),0) deptno10
+        , NVL(SUM(DECODE(deptno, 20, sal)),0) deptno20
+        , NVL(SUM(DECODE(deptno, 30, sal)),0) deptno30
+        , NVL(SUM(DECODE(deptno, 40, sal)),0) deptno40
+FROM
+    emp
+GROUPB Y
+    deptno
 ```
 
 ```sql
