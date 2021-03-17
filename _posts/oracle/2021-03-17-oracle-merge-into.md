@@ -3,7 +3,7 @@ title: Oracle MERGE
 author: dejavuhyo
 date: 2021-03-17 06:10:00 +0900
 categories: [Database, Oracle]
-tags: [oracle-merge, oracle-merge-into, merge-into, merge, update-insert]
+tags: [oracle-merge, oracle-merge-into, merge-into, merge, update-insert, 오라클-merge, 오라클-merge-into]
 ---
 
 ## 1. MERGE란
