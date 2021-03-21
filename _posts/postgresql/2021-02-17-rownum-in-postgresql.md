@@ -29,6 +29,6 @@ sql> SELECT (row_numver() over()) AS rownum, id, title FROM board;
 +--------+----+-------+
 ```
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://kdata.or.kr/info/info_04_view.html?field=&keyword=&type=techreport&page=247&dbnum=127365&mode=detail&type=techreport>
 * <http://www.devkuma.com/books/pages/860>
