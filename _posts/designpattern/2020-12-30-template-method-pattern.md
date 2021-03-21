@@ -129,6 +129,6 @@ Template Method 패턴에서는 상위 클래스와 하위 클래스가 긴밀�
 ### 3) 하위 클래스를 상위 클래스와 동일시한다.
 "상위 클래스형의 변수에 하위 클래스의 어떠한 인스턴스를 대입해도 제대로 작동할 수 있도록 한다"는 원칙은 The Liskov Substitution Principle(LSP)이라고 불린다. LSP는 Template Method 패턴에 국한되지 않는 상속의 일반적인 원칙이다.
 
-## [출처 및 참고]
+## 출처 및 참고
 * Java 언어로 배우는 디자인 패턴 입문
 * <https://mrhook.co.kr/222>
