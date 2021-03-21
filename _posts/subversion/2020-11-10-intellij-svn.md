@@ -33,6 +33,6 @@ tags: [intellij-svn, intellij, svn]
 
 ![img002](/assets/img/2020-11-10-intellij-svn/img002.png)
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://goddaehee.tistory.com/196>
 * <https://www.visualsvn.com/downloads/>
