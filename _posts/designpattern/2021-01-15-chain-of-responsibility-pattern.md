@@ -202,6 +202,6 @@ Chain of Responsibility 패턴을 사용하지 않을 경우에는 '위대한 �
 ### 4) 떠넘기기로 인한 처리 지연 문제
 Chain of Responsibility 패넡을 사용해 떠넘기기를 수행하면 틀림없이 유연성은 높을지 모르지만 처리가 지연된다. 누가 요구를 처리할 것인지 미리 정해져 있고 그 상대가 바로 처리하는 경우와 비교하면 Chain of Responsibility 패턴을 적용한 처리는 지연될 것이다. 그러나 이것은 트레이트 오프의 문제이다. 요구와 처리자의 관계가 고정적이고 처리 속도가 상당히 중요한 경우에는 Chain of Responsibility 패턴을 사용하지 않는 편이 유효한 경우도 있다.
 
-## [출처 및 참고]
+## 출처 및 참고
 * Java 언어로 배우는 디자인 패턴 입문
 * <https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern>
