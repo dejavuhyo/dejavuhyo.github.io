@@ -49,6 +49,6 @@ StringBuffer는 각 메서드별로 Synchronized Keyword가 존재하여, 멀티
   - 스레드에 안전한지 여부가 전혀 관계 없는 프로그램을 개발할 경우
   - 문자열 연산이 많고 단일스레드이거나 동기화를 고려하지 않아도 되는 경우
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://12bme.tistory.com/42>
 * <https://ifuwanna.tistory.com/221>
