@@ -99,5 +99,5 @@ Comparator<Apple> byWeight = (Apple a1, Apple a2) -> a1.getWeight().compareTo(a2
 | 두 값을 조합 | ```(int a, int b) -> a * b``` |
 | 두 객체 비교 | ```(Apple a1, Apple a2) -> a.getWeight().compareTo(a2.getWeight())``` |
 
-## [출처 및 참고]
+## 출처 및 참고
 * Modern Java in Action(모던 자바 인 액션)
