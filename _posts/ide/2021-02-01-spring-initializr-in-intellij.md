@@ -37,7 +37,7 @@ Spring Initializr를 선택하고 Project SDK를 설정
 
 ![img005](/assets/img/2021-02-01-spring-initializr-in-intellij/img005.png)
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://spring.io/quickstart>
 * <https://start.spring.io/>
 * <https://jongmin92.github.io/2018/02/04/Spring/springboot-start/>
