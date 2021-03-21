@@ -78,6 +78,6 @@ tags: [nano-editor, linux-nano, nano-keymap, linux-nano-keymap, 나노-에디터
 | Ctrl + d | Delete |
 | Ctrl + m | Return |
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://ko.wikipedia.org/wiki/GNU_%EB%82%98%EB%85%B8>
 * <https://www.thewordcracker.com/miscellaneous/%EB%A6%AC%EB%88%85%EC%8A%A4%EC%9D%98-nano-%EC%97%90%EB%94%94%ED%84%B0-%EB%8B%A8%EC%B6%95%ED%82%A4/>
