@@ -200,7 +200,7 @@ Spring Boot 구동 시 자동으로 logback-spring.xml 파일이 있는지 탐�
 </configuration>
 ```
 
-## [출처 및 참고]
+## 출처 및 참고
 * <http://logback.qos.ch/manual/index.html>
 * <https://kchanguk.tistory.com/48>
 * <https://goddaehee.tistory.com/206>
