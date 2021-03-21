@@ -58,5 +58,5 @@ Pull request는 저장소 소유자를 노크하고 "일부 변경을 수행했�
 
 ![pull-request](/assets/img/2021-03-15-difference-between-git-clone-and-git-fork/pull-request.png)
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://www.toolsqa.com/git/difference-between-git-clone-and-git-fork/>
