@@ -170,5 +170,5 @@ download *file*
 ### 6) wget -c file
 continue a stopped download
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://fosswire.com/post/2007/08/unixlinux-command-cheat-sheet/>
