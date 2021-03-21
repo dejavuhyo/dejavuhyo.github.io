@@ -56,5 +56,5 @@ sql> SELECT str, COUNT(*) FROM str_table GROUP BY str HAVING COUNT(*) > 1;
 +-----+----------+
 ```
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://zetawiki.com/wiki/DB_%EC%A4%91%EB%B3%B5_%EA%B0%9C%EC%88%98_%ED%99%95%EC%9D%B8>
