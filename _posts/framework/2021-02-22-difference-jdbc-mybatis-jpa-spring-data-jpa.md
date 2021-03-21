@@ -276,7 +276,7 @@ Spring Data JPA를 사용하여 Repository를 만들 때 JPA API를 직접 호�
 
 ![jpa-hibernate-spring-data-jpa-concept](/assets/img/2021-02-22-difference-jdbc-mybatis-jpa-spring-data-jpa/jpa-hibernate-spring-data-jpa-concept.png)
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://terasolunaorg.github.io/guideline/5.6.1.RELEASE/ja/ArchitectureInDetail/DataAccessDetail/DataAccessCommon.html>
 * <https://terasolunaorg.github.io/guideline/5.6.1.RELEASE/ja/ArchitectureInDetail/DataAccessDetail/DataAccessMyBatis3.html>
 * <https://terasolunaorg.github.io/guideline/5.6.1.RELEASE/ja/ArchitectureInDetail/DataAccessDetail/DataAccessJpa.html>
