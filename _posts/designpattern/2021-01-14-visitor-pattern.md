@@ -277,7 +277,7 @@ Visitor 패턴에서는 데이터 구조의 요소에 대한 처리를 따로 �
 
 방문자는 데이터 구조에서 필요한 정보를 취득해서 동작한다. 필요한 정보를 얻을 수 없으면 방문자는 제대로 일할 수 없다. 반면에 공개할 필요 없는 정보까지 공개하면 미래의 데이터 구조를 개량하기 어렵게 된다.
 
-## [출처 및 참고]
+## 출처 및 참고
 * Java 언어로 배우는 디자인 패턴 입문
 * <https://en.wikipedia.org/wiki/Visitor_pattern>
 * <https://www.slideserve.com/tana-weeks/visitor-pattern>
