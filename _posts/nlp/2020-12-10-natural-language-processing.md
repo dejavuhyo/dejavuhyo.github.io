@@ -55,6 +55,6 @@ Morpheme 형태론의 관점에 대한 처리가 형태소 분석(morphological 
 ### 4) 화용 분석(Pragmatic Analysis)
 대명사가 지시하는 대용어(anaphora)가 무엇인지 찾아내고, 화자가 원하는 행위(speech act)가 무엇인지를 분석한다. 실세계 지식과 상식의 표현이 요구된다.
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://ko.wikipedia.org/wiki/%EC%9E%90%EC%97%B0%EC%96%B4_%EC%B2%98%EB%A6%AC>
 * <https://happygrammer.github.io/nlp/intro-nlp-2/>
