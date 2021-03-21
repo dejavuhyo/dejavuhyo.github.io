@@ -83,6 +83,6 @@ unzip [파일명.zip]
 | -A | tar 파일에 선택한 파일 추가 |
 | -p | 파일 권한 저장 |
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://brownbears.tistory.com/161>
 * <https://recipes4dev.tistory.com/146>
