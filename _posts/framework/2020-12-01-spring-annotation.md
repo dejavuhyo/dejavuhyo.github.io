@@ -71,7 +71,7 @@ Annotation은 Java5부터 새롭게 추가된 문법요소로, 사전적 의미�
 | @Enumerated | enum과 관련되어 있으며, EnumType.ORDINAL, STRING의 속성 |
 | @Transient | 데이터베이스에서 실제 사용하지 않는 것을 지정, 임시값으로 활용 |
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://chunjyu.tistory.com/23>
 * <https://palyoung.tistory.com/72>
 * <https://helloworld-88.tistory.com/147>
