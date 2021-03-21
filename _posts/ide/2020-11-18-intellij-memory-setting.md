@@ -73,6 +73,6 @@ The IDE is running low on memory and this  mightaffect performance. please consi
 
 ![img006](/assets/img/2020-11-18-intellij-memory-setting/img006.png)
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://www.jetbrains.com/help/idea/tuning-the-ide.html#configure-jvm-options>
 * <https://www.jetbrains.com/help/idea/2016.2/increasing-memory-heap.html>
