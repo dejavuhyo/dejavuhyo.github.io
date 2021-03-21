@@ -189,6 +189,6 @@ public class Main {
 
 긴밀하게 결합해야 하는 클래스 이름이 소스안에 사용되는 것은 당연하고 문제가 없지만, 부품으로서 독립시켜야 하는 클래스 이름이 소스 안에 사용되는 것이 문제가 된다.
 
-## [출처 및 참고]
+## 출처 및 참고
 * Java 언어로 배우는 디자인 패턴 입문
 * <https://commons.wikimedia.org/wiki/Prototype_(design_pattern)>
