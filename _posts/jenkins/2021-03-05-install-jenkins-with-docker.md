@@ -53,6 +53,6 @@ Can not write to /var/jenkins_home/copy_reference_file.log. Wrong volume permiss
 [root@localhost /]# chown -R 1000:1000 /var/jenkins_home/
 ```
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://www.jenkins.io/doc/book/installing/docker/>
 * <https://github.com/jenkinsci/docker/issues/493>
