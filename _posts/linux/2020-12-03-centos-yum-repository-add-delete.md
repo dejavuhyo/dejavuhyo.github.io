@@ -298,6 +298,6 @@ Cleaning repos: base epel extras updates
 0 metadata files removed
 ```
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://conory.com/blog/42596>
 * <https://ossian.tistory.com/80>
