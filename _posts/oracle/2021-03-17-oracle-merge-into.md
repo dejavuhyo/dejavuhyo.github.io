@@ -146,7 +146,7 @@ MERGE INTO TB_SCORE S
         VALUES ('C1', 'S1', 20)
 ```
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://offbyone.tistory.com/253>
 * <https://docs.oracle.com/cd/B28359_01/server.111/b28286/statements_9016.htm#SQLRF01606>
 * <https://hello-nanam.tistory.com/30>
