@@ -52,5 +52,5 @@ Docker Compose를 제거
 [root@localhost ~]# rm /usr/local/bin/docker-compose
 ```
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://docs.docker.com/compose/install/>
