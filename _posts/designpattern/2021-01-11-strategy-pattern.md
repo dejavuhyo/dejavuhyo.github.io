@@ -262,6 +262,6 @@ Strategy 패턴을 사용하면 프로그램의 동작 중에 concreteStrategy �
 
 한쪽의 알고리즘을 다른 쪽 알고리즘의 '검산'에 이용할 수도 있다. 예를 들어, 표 계산 소프트웨어의 디버그 판에서 복잡한 계산을 실행한다고 가정한다. 이때, '버그가 있을지도 모르는 고속의 알고리즘'과 '저속이지만 확실한 계산을 실행하는 알고리즘'을 준비해서 전자의 검산을 후자로 실행시키는 것이다.
 
-## [출처 및 참고]
+## 출처 및 참고
 * Java 언어로 배우는 디자인 패턴 입문
 * <https://www.researchgate.net/figure/The-structure-of-the-Strategy-pattern-It-provides-broadcast-communication-A-subject_fig3_257482232>
