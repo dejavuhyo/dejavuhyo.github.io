@@ -76,6 +76,6 @@ spring.datasource.password=password
 
 ![img001](/assets/img/2020-10-29-spring-boot-log4jdbc/img001.png)
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://kutar37.tistory.com/entry/log4jdbc-%EC%A0%81%EC%9A%A9>
 * <https://4coops.tistory.com/entry/Spring-Boot-MyBatis-%EC%97%90%EC%84%9C-SQL-Result-%EB%A1%9C%EA%B7%B8%EC%B0%8D%EA%B8%B0>
