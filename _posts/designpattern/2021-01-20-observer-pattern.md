@@ -184,6 +184,6 @@ update 메소드에서는 인수로 관찰되는 대상(Subject 역할)으로서
 
 'Java에는 Observer 패턴이 있으니까 이것을 사용하면 되겠구나'라고 생각할 수도 있지만, java.util.Observer 인터페이스와 java.util.Observable 클래스는 사용하기 쉽지 않다. 그 이유는 java.util.Observer 인터페이스에서 전달하는 Subject 역할에는 java.util.Observable 클래스(또는 그 하위 클래스)를 사용할 필요가 있기 때문이다. Java의 클래스는 단일 속성인 점을 기억해야 한다. Subject 역할로 만들려는 클래스(즉, 관찰대상이 되는 클래스)가 이미 무엇인가의 하위 클래스로 되어 있는 경우에는 java.util.Observable 클래스의 하위 클래스로 할 수 없다.
 
-## [출처 및 참고]
+## 출처 및 참고
 * Java 언어로 배우는 디자인 패턴 입문
 * <https://stackoverflow.com/questions/46627299/observer-pattern-does-observable-needs-to-be-always-abstract>
