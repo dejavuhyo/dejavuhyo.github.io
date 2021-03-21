@@ -732,5 +732,5 @@ done
 @str
 ```
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://wiki.kldp.org/wiki.php/ShellProgrammingTutorial>
