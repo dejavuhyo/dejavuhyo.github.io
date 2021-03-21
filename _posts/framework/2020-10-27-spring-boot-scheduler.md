@@ -109,7 +109,7 @@ public class Schedule {
 ### Fixed Delay Run 5 Seconds : 2020-10-27 15:55:47
 ```
 
-## [출처 및 참고]
+## 출처 및 참고
 * <https://jeong-pro.tistory.com/186>
 * <http://jmlim.github.io/spring/2018/11/27/spring-boot-schedule/>
 * <http://www.cronmaker.com/>
