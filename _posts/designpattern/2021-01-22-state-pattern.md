@@ -272,6 +272,6 @@ addActionListener 메소드에 전달될 때, 이 인스턴스는 'ActionListene
 
 doUse 메소드에 전달될 때, 동일한 인스턴스가 Context 인터페이스를 구현하고 있는 클래스의 인스턴스로 취급된다. 이것은 doUse 메소드의 인수가 Context 형이기 때문이다. doUse 메소드 안에서는 'Context 인터페이스에서 잔달된 메소드의 범위'에서 인수가 이용된다.
 
-## [출처 및 참고]
+## 출처 및 참고
 * Java 언어로 배우는 디자인 패턴 입문
 * <https://en.wikipedia.org/wiki/State_pattern>
