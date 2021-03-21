@@ -135,6 +135,6 @@ public class Main {
 * 에러를 이용한다.
   - 디폴트의 구현 내용을 에러로 처리해 두면, 하위 클래스에서 구현하지 않았을 경우에는 실행할 때 에러가 발생한다.(에러가 발생해서 구현되고 있지 않은 것을 알려준다.)
 
-## [출처 및 참고]
+## 출처 및 참고
 * Java 언어로 배우는 디자인 패턴 입문
 * <https://commons.wikimedia.org/wiki/File:Factory_Method_UML_class_diagram.svg>
