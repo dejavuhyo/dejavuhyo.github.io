@@ -97,6 +97,6 @@ server 3.asia.pool.ntp.org
 
 * blank: 접속 불가능
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://webdir.tistory.com/120>
 * <https://www.manualfactory.net/10147>
