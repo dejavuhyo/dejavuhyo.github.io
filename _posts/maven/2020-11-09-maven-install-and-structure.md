@@ -530,5 +530,5 @@ mvn javadoc:test-aggregate-jar
 </plugin>
 ```
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://wikidocs.net/book/1910>
