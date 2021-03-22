@@ -137,6 +137,6 @@ Kubernetes는 어디서나 사용할 수 있도록 구축되어 있으므로 온
 ### 3) 효율적인 서비스 실행
 Kubernetes는 서비스 실행에 필요한 클러스터의 크기를 자동으로 조정할 수 있다. 덕분에 수요에 따라 자동으로 애플리케이션을 확장 및 축소하여 효율적으로 실행할 수 있다.
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://kubernetes.io/ko/docs/home/>
 * <https://cloud.google.com/learn/what-is-kubernetes?hl=ko>
