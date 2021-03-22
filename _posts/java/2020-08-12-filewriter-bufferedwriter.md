@@ -74,5 +74,5 @@ public class FileWriterTest {
 }
 ```
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://fruitdev.tistory.com/54>
