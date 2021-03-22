@@ -276,5 +276,5 @@ _dnf reinstall nano_ 명령은 이미 설치된 패키지 (예: nano)를 다시 
 
 ![img026](/assets/img/2020-11-03-dnf-commands-for-rpm-package-management/img026.gif)
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://www.tecmint.com/dnf-commands-for-fedora-rpm-package-management/>
