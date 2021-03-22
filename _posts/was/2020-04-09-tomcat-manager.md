@@ -64,5 +64,5 @@ Jenkins에서 war 파일 배포를 위해 manager 접속이 필요하다. manage
 
 ![img001](/assets/img/2020-04-09-tomcat-manager/img001.png)
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://cpdev.tistory.com/110>
