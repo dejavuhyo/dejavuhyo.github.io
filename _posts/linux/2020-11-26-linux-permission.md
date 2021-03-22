@@ -155,6 +155,6 @@ For complete documentation, run: info coreutils 'chown invocation'
 [root@localhost ~]# chmod aaa:bbb text.txt
 ```
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://eunguru.tistory.com/93>
 * <https://jhnyang.tistory.com/11>
