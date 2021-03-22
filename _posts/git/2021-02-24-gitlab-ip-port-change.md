@@ -77,5 +77,5 @@ unicorn['port'] = 8001
 [root@localhost ~]# systemctl restart firewalld
 ```
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://uxgjs.tistory.com/161>
