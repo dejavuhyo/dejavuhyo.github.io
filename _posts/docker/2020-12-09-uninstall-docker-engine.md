@@ -21,5 +21,5 @@ tags: [docker-uninstall, docker-engine-uninstall, cnetos-docker-uninstall, cento
 [root@localhost ~]# rm -rf /var/lib/docker
 ```
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://docs.docker.com/engine/install/centos/>
