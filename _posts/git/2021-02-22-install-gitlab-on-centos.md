@@ -70,6 +70,6 @@ https:// URL의 경우 GitLab이 암호화를 사용하여 인증서를 자동�
 ## 4. 로그인
 처음 방문하면 비밀번호 재설정 화면으로 리디렉션된다. 초기 관리자 계정의 암호를 제공하면 로그인 화면으로 다시 리디렉션된다. 기본 계정의 사용자 이름 root을 사용하여 로그인한다.
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://about.gitlab.com/install/?version=ce#centos-8>
 * <https://www.centos.org/>
