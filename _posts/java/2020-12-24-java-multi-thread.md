@@ -325,6 +325,6 @@ public class ThreadSafeSynchronized {
 
 synchronized를 통해서 해당 인수(unsafeDateFormat)에 락을 걸어서 스레드끼리 동시에 사용하지 못하게 막은 것이다. 다른 스레드에서 unsafeDateFormat 객체를 사용하려고 할 때, 현재 사용 중인지를 확인한다. 사용 중일 경우 기다리는 시간이 있기 때문에 기존의 멀티스레드 방법보다 속도는 느리지만 정확하게 실행된다.
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://coding-factory.tistory.com/279>
 * <https://jeong-pro.tistory.com/71>
