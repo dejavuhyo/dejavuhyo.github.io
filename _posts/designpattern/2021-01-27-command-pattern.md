@@ -263,6 +263,6 @@ MouseMotionListener 클래스를 예로 들면, 이 클래스는 MouseMotionList
 
 특히, Java의 익명 내부 클래스(anonymous inner class)라는 기구와 조합해서 어탭터를 사용하면 더욱 깔끔한 프로그램을 기술할 수 있다.
 
-## 출처 및 참고
+## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
 * <https://itnext.io/easy-patterns-command-15733a2b56f0>
