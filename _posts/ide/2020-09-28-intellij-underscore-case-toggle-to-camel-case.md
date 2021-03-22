@@ -20,5 +20,5 @@ tags: [intellij-camelcase, underscore, camelcase, underscore-camelcase]
 
 > anExampleWord → an_example_word → an example word → an-example-word → AN_EXAMPLE_WORD → AnExampleWord → anExampleWord
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://plugins.jetbrains.com/plugin/11968-underscore-case-toggle-to-camel-case>
