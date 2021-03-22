@@ -142,6 +142,6 @@ public class StringSwitchCaseExample {
 }
 ```
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://wikidocs.net/263>
 * <http://blog.naver.com/PostView.nhn?blogId=kki2406&logNo=80041410085>
