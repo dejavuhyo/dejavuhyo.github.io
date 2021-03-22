@@ -141,5 +141,5 @@ success
 
 ![img001](/assets/img/2020-04-07-centos-nexus-install/img001.png)
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://zetawiki.com/wiki/CentOS_Nexus_%EC%84%A4%EC%B9%98>
