@@ -42,5 +42,5 @@ public static void main(String[] args) {
 }
 ```
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://github.com/google/gson>
