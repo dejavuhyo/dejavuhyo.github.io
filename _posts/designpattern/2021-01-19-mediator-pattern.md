@@ -267,6 +267,6 @@ ConcreteColleague 역할은 재이용하기 쉽지만 ConcreteMediator 역할은
 
 코드 가운데 어플리케이션에 대한 의존성이 높은 부분은 ConcreteMediator 역할인 LoginFrame 클래스 안에 갇혀 있다. 어플리케이션에 대한 의존도가 높다는 것은 재이용성이 낮다는 것이다. LoginFrame 클래스를 그대로 다른 다이얼로그에 재이용하는 것은 어렵다.
 
-## 출처 및 참고
+## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
 * <https://mertarauh.com/tutorials/typescript-design-patterns/mediator-pattern/>
