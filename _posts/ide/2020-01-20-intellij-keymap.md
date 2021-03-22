@@ -95,5 +95,5 @@ IntelliJ IDEA에서 대부분의 자동화된 리팩토링은 자체적인 단�
 
 ![img015](/assets/img/2020-01-20-intellij-keymap/img015.gif)
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://blog.jetbrains.com/kr/2020/03/top-15-intellij-idea-shortcuts_ko/>
