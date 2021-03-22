@@ -308,7 +308,7 @@ ribbon.ConnectTimeout=30000
 ribbon.ReadTimeout=30000
 ```
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://github.com/Netflix/zuul/wiki>
 * <https://netflixtechblog.com/announcing-zuul-edge-service-in-the-cloud-ab3af5be08ee>
 * <http://woowabros.github.io/r&d/2017/06/13/apigateway.html>
