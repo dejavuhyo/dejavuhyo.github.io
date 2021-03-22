@@ -110,5 +110,5 @@ process(() -> { System.out.println("This is awesome"); });
 
 예를 들어 추상 메서드가 한 개 이상이라면 "Multiple nonoverriding abstract methods found in interface Foo(인터페이스 Foo에 오버라이드 하지 않은 여러 추상 메서드가 있음)"같은 에러가 발생할 수 있다.
 
-## 출처 및 참고
+## [출처 및 참고]
 * Modern Java in Action(모던 자바 인 액션)
