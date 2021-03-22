@@ -121,5 +121,5 @@ host all all 192.168.18.0/24 md5
 [root@localhost ~]# systemctl restart postgresql-13
 ```
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://computingforgeeks.com/install-postgresql-13-on-centos-rhel/>
