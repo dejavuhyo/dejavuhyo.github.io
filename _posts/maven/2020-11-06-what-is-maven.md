@@ -88,7 +88,7 @@ Build Lifecycle의 각각의 단계를 Phase라고 한다. Phase는 의존관계
 ### 3) Goal
 특정 작업, 최소한의 실행 단위(task)로 하나의 플러그인에서는 여러 작업을 수행할 수 있도록 지원하며, 플러그인에서 실행할 수 있는 각각의 기능(명령)을 Goal이라고 한다. (각각의 Phase에 연계된 Goal을 실행하는 과정을 Build라고 한다.)
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://maven.apache.org/what-is-maven.html>
 * <https://sjh836.tistory.com/131>
 * <https://goddaehee.tistory.com/199>
