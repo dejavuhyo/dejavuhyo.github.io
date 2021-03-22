@@ -228,6 +228,6 @@ Memento를 파일로서 지속적으로 저장할 경우에는 Memento의 '유�
 ### 4) Caretacker 역할과 Originator 역할을 분리하는 이유
 Caretacker 역할은 어느 시점에서 스냅샷을 찍을지 결정하고, 언제 undo할지를 결정하는 Memento 역할을 저장한다. 한편, Originator 역할은 Memento 역할을 만드는 일과 제공된 Memento 역할을 사용해서 자신의 상태를 원래 상태로 돌리는 일을 수행한다. Caretacker 역할과 Originator 역할은 앞에서와 같이 역할분담을 수행하고 있다. 이와 같이 역할분담을 해두면 '여러 단계의 undo를 실행하도록 변경하고 싶다', 'undo 기능뿐만이 아니라 현재의 상태를 파일에 저장하고 싶다'라는 수정을 할 때에도 Originator 역할을 변경할 필요가 전혀 없다.
 
-## 출처 및 참고
+## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
 * <https://subscription.packtpub.com/book/application_development/9781786463593/3/ch03lvl1sec31/the-memento-pattern>
