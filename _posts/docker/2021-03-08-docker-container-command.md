@@ -37,5 +37,5 @@ tags: [docker-dontainer-command, dontainer-command, docker-dontainer, 도커-컨
 | --user , -u | 사용자 이름 또는 UID (형식: ```<name|uid>[:<group|gid>])``` |
 | --workdir , -w | 컨테이너 내부의 작업 디렉터리 |
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://docs.docker.com/engine/reference/commandline/exec/>
