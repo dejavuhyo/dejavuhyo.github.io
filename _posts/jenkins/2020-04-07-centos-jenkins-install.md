@@ -115,5 +115,5 @@ success
 
 ![img001](/assets/img/2020-04-07-centos-jenkins-install/img001.png)
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://cornswrold.tistory.com/330>
