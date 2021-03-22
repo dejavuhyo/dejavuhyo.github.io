@@ -90,6 +90,6 @@ If you are using Apache Tomcat as a Windows Service you should use the Windows S
 
 One easy way to find out what the directory is in a running instance of the Rdf4j Server, is to go to `http://localhost:8080/rdf4j-server/home/overview.view` in your browser and click on ‘System’ in the navigation menu on the left. The data directory will be listed as one of the configuration settings of the current server.
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://rdf4j.org>
 * <https://en.wikipedia.org/wiki/RDF4J>
