@@ -60,6 +60,6 @@ TLS 클라이언트 require_certificate 및 use_identity_as_username로 대체 �
 password_file password.txt
 ```
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://mosquitto.org/documentation/>
 * <https://m.blog.naver.com/PostView.nhn?blogId=phkaa&logNo=220937990534&proxyReferer=https:%2F%2Fwww.google.com%2F>
