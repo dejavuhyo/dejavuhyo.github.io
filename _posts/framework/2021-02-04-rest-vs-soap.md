@@ -62,6 +62,6 @@ SOAP는 다른 언어로 다른 플랫폼에서 빌드된 애플리케이션이 
 
 REST API는 경량화되어 있기 때문에 사물 인터넷(IoT), 모바일 애플리케이션 개발, 서버리스(servreless) 컴퓨팅과 같이 보다 새로운 컨텍스트에 이상적이다. SOAP 웹 서비스는 많은 기업에서 필요로 하는 기본 보안과 트랜잭션 컴플라이언스를 제공하지만, 이로 인해 좀 더 무거운 경향이 있다. 또한 Google Maps API와 같은 대부분의 퍼블릭 API는 REST 가이드라인을 따른다.
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://www.redhat.com/ko/topics/integration/whats-the-difference-between-soap-rest>
 * <https://ettrends.etri.re.kr/ettrends/122/0905001533/25-2_112_120.pdf>
