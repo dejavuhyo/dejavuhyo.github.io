@@ -68,5 +68,5 @@ url 부분을 Nexus의 Public Repositories의 Repository Path로 설정
 </pluginRepositories>
 ```
 
-## 출처 및 참고
+## [출처 및 참고]
 * <http://blog.naver.com/PostView.nhn?blogId=pky0706&logNo=140146609820>
