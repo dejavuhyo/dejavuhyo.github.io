@@ -51,5 +51,5 @@ tags: [background-process-run, background-process, nohup, 백그라운드-프로
 [root@localhost ~]# kill -9 {PID}
 ```
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://dptablo.tistory.com/236>
