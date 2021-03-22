@@ -247,5 +247,5 @@ public class Subscriber {
 }
 ```
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://iot.knu.ac.kr/tech/CPL-TR-16-02-MQTT.pdf>
