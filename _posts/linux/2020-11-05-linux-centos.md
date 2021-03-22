@@ -119,5 +119,5 @@ fedora 도 훌륭한 배포본이지만 위과 같은 이유로 안정성이 우
 
 fedora 를 설치하고 사용하면서 버그 리포팅을 하는 것은 Linux 공동체에 기여하는 좋은 방법이지만 이는 Desktop 이나 개인적인 컴퓨팅 환경에 사용하고 기업에서 Linux 를 서버로 도입한다면 RHEL 이나 이의 파생 배포본을 기반으로 진행하는 방안을 권장한다.
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://www.lesstif.com/linux-infra-book/red-hat-linux-centos-20775405.html>
