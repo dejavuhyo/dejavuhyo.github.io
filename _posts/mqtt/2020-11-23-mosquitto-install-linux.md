@@ -169,5 +169,5 @@ tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
 [root@localhost mosquitto]# mosquitto -c ./mosquitto.conf -v
 ```
 
-## 출처 및 참고
+## [출처 및 참고]
 * <http://cheonbrave.blogspot.com/2016/11/mqtt-mosquitto-broker.html>
