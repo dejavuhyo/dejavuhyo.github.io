@@ -74,6 +74,6 @@ public class TestTable {
 [testId=3, testValue=piyo]
 ```
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://mybatis.org/mybatis-3/ko/configuration.html#settings>
 * <http://www.devkuma.com/books/pages/744>
