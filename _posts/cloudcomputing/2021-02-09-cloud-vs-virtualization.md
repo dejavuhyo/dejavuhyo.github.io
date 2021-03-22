@@ -54,5 +54,5 @@ tags: [cloud-vs-virtualization, cloud-virtualization, 클라우드-가상화-차
 | 워크로드 | 스테이트풀(Stateful) | 스테이트리스(Stateless) |
 | 테넌시 | 싱글 테넌트 | 멀티플 테넌트 |
 
-## 출처 및 참고
+## [출처 및 참고]
 * <https://www.redhat.com/ko/topics/cloud-computing/cloud-vs-virtualization>
