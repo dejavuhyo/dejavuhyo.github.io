@@ -174,6 +174,6 @@ Proxy 패턴에는 다양한 종류가 있다.
 * Access Proxy
   - RealSubject 역할의 기능에 대해서 액세스 제한을 설정한 것이다. 정해진 사용자이면 메소드 호출을 허가하지만, 그외에는 에러로 처리하는 Proxy이다.
 
-## 출처 및 참고
+## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
 * <https://en.wikipedia.org/wiki/Proxy_pattern>
