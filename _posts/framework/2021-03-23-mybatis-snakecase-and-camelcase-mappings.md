@@ -1,7 +1,7 @@
 ---
 title: MyBatis snake_case와 CamelCase 매핑 자동화
 author: dejavuhyo
-date: 2021-02-23 06:00:00 +0900
+date: 2021-03-23 06:00:00 +0900
 categories: [Application, Framework]
 tags: [mybatis-snakecase, mybatis-camelcase, snakecase-camelcase, camelcase-from-snakecase, snakecase-camelcase-매핑]
 ---
