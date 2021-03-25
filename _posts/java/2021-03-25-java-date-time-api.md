@@ -3,7 +3,7 @@ title: Java 날짜와 시간 API
 author: dejavuhyo
 date: 2021-03-25 06:10:00 +0900
 categories: [Language, Java]
-tags: [java-date, java-time, java-date-time, sr-310, joda-time]
+tags: [java-date, java-time, java-date-time, sr-310, joda-time, java-날짜, java-시간, java-날짜-시간]
 ---
 
 ## 1. 날짜와 시간 API
