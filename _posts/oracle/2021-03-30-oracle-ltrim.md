@@ -73,7 +73,7 @@ FROM
 
 ![products-table](/assets/img/2021-03-30-oracle-ltrim/products-table.png)
 
-```text
+```sql
 SELECT
     product_name
 FROM
