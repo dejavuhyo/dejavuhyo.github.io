@@ -31,7 +31,7 @@ FROM
 START WITH
     last_name = 'Kochhar'
 CONNECT BY PRIOR
-    employee_id = manager_id;
+    employee_id = manager_id
 ```
 
 * 결과
@@ -60,8 +60,7 @@ CONNECT BY PRIOR
 | 10 |  | 1 | 구매일반 |
 | 1010 | 10 | 2 | 구매처 |
 | 101001 | 1010 | 3 | 구매 |
-| 10100101 | 101001 | 4 | 원재료 |
-| 1010010101 | 10100101 | 5 | 주재료 |
+| 10100101 | 101001 | 4 | 구매업체 |
 | 20 |  | 1 | 판매일반 |
 | 2010 | 20 | 2 | 판매처 |
 | 201001 | 2010 | 3 | 판매 |
@@ -80,15 +79,14 @@ CREATE TABLE sample_table (
 INSERT INTO sample_table (CLASS_CODE, UP_CLASS_CODE, CLASS_LEVEL, CLASS_NAME) VALUES ('10', '', '1', '구매일반');
 INSERT INTO sample_table (CLASS_CODE, UP_CLASS_CODE, CLASS_LEVEL, CLASS_NAME) VALUES ('1010', '10', '2', '구매처');
 INSERT INTO sample_table (CLASS_CODE, UP_CLASS_CODE, CLASS_LEVEL, CLASS_NAME) VALUES ('101001', '1010', '3', '구매');
-INSERT INTO sample_table (CLASS_CODE, UP_CLASS_CODE, CLASS_LEVEL, CLASS_NAME) VALUES ('10100101', '101001', '4', '원재료');
-INSERT INTO sample_table (CLASS_CODE, UP_CLASS_CODE, CLASS_LEVEL, CLASS_NAME) VALUES ('1010010101', '10100101', '5', '주재료');
+INSERT INTO sample_table (CLASS_CODE, UP_CLASS_CODE, CLASS_LEVEL, CLASS_NAME) VALUES ('10100101', '101001', '4', '구매업체');
 INSERT INTO sample_table (CLASS_CODE, UP_CLASS_CODE, CLASS_LEVEL, CLASS_NAME) VALUES ('20', '', '1', '판매일반');
 INSERT INTO sample_table (CLASS_CODE, UP_CLASS_CODE, CLASS_LEVEL, CLASS_NAME) VALUES ('2010', '20', '2', '판매처');
 INSERT INTO sample_table (CLASS_CODE, UP_CLASS_CODE, CLASS_LEVEL, CLASS_NAME) VALUES ('201001', '2010', '3', '판매');
 INSERT INTO sample_table (CLASS_CODE, UP_CLASS_CODE, CLASS_LEVEL, CLASS_NAME) VALUES ('20100101', '201001', '4', '판매업체');
 ```
 
-* SQL
+* Query
 
 ```sql
 SELECT
