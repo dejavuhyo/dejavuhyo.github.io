@@ -80,6 +80,8 @@ LOG ERRORS
 ### 1) 동일한 테이블 구조
 동일한 테이블 구조로 되어 있는 TMP_SCORE 테이블로부터 데이터를 옮기는 예이다.
 
+* Query
+
 ```sql
 MERGE INTO TB_SCORE S
     USING TMP_SCORE T
@@ -93,6 +95,8 @@ MERGE INTO TB_SCORE S
 
 ### 2) SELECT 이용
 
+* Query
+
 ```sql
 MERGE INTO CUSTOMER C
     USING (
@@ -105,6 +109,8 @@ MERGE INTO CUSTOMER C
         INSERT (USERNO, USERNAME, ADDRESS, PHONE)
         VALUES (N.USERNO, N.USERNAME, N.ADDRESS, N.PHONE)
  ```
+
+* Query
 
 ```sql
 MERGE INTO bonuses D
@@ -124,6 +130,8 @@ MERGE INTO bonuses D
 ### 3) 직접 값을 입력
 다른 테이블에서 데이터를 비교하여 가져오는 것이 아니라, 직접 값을 입력한다면 DUAL을 사용한다.
 
+* Query
+
 ```sql
 MERGE INTO TB_SCORE S
     USING DUAL
@@ -136,6 +144,8 @@ MERGE INTO TB_SCORE S
 ```
 
 ### 4) UPDATE 혹은 INSERT 하나만 수행
+
+* Query
 
 ```sql
 MERGE INTO TB_SCORE S
