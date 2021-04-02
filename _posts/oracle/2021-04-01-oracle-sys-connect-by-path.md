@@ -23,6 +23,8 @@ column과 char는 모두 CHAR, VARCAR2, NCHAR 또는 NVARCAR2 데이터 유형 �
 
 ### 1) 직원 이름의 경로 반환
 
+* Query
+
 ```sql
 SELECT
     LPAD(' ', 2*level-1)||SYS_CONNECT_BY_PATH(last_name, '/') "Path"
