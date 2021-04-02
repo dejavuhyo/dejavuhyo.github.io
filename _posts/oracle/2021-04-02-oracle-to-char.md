@@ -109,7 +109,8 @@ TO_CHAR() 함수를 사용하여 간격을 형식화한다.
 ```sql
 SELECT 
     TO_CHAR(INTERVAL '600' SECOND, 'HH24:MM') result
-FROM 
+FROM
+    DUAL
 ```
 
 * 결과
