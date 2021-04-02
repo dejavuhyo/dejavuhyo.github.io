@@ -50,6 +50,8 @@ trim_source가 문자 데이터 유형인 경우 결과 문자열의 데이터 �
 
 ### 1) 'ABC' 문자열에서 선행 및 후행 공백을 모두 제거
 
+* Query
+
 ```sql
 SELECT
     TRIM( '  ABC  ' )
@@ -64,6 +66,8 @@ FROM
 ```
 
 ### 2) 'ABC' 문자열에서 선행 공백을 제거
+
+* Query
 
 ```sql
 SELECT
@@ -80,6 +84,8 @@ FROM
 
 ### 3) 'ABC' 문자열에서 후행 공백을 제거
 
+* Query
+
 ```sql
 SELECT
     TRIM( TRAILING ' ' FROM  '  ABC  ' )
@@ -94,6 +100,8 @@ FROM
 ```
 
 ### 4) 숫자 문자열에서 선행 0을 제거
+
+* Query
 
 ```sql
 SELECT
