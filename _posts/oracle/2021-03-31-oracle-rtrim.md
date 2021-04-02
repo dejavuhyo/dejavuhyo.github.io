@@ -36,6 +36,8 @@ RTRIM() 함수는 문자열의 오른쪽 끝에서 집합에 나타나는 모든
 
 ### 1) 문자열 'ABC'의 오른쪽 끝에 있는 모든 공백을 제거
 
+* Query
+
 ```sql
 SELECT
     RTRIM( 'ABC  ' )
@@ -50,6 +52,8 @@ FROM
 ```
 
 ### 2) 모든 문자열 '345' 제거
+
+* Query
 
 ```sql
 SELECT
@@ -72,6 +76,8 @@ ABC12
 
 ![products-table](/assets/img/2021-03-31-oracle-rtrim/products-table.png)
 
+* Query
+
 ```sql
 SELECT
     product_name
@@ -88,6 +94,8 @@ ORDER BY
 ![rtrim-product-names](/assets/img/2021-03-31-oracle-rtrim/rtrim-product-names.png)
 
 ### 4) 제품 이름에서 버전(예: V1, V2 등)을 제거
+
+* Query
 
 ```sql
 SELECT
