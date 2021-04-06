@@ -42,7 +42,7 @@ DECODE(expr, search, result
 ### 1) 일반적인 예제
 부서번호가 10이면 ACCOUNTING, 20이면 RESEARCH, 30이면 SALES 나머지는 OPERATIONS를 출력
 
-* Query
+* SQL
 
 ```sql
 SELECT
@@ -68,7 +68,7 @@ DEPTNO NAME
 ### 2) DECODE 함수에서 집계 함수를 사용
 10부서는 급여합계를, 20부서는 최대값을, 30부서는 최소값을 출력
 
-* Query
+* SQL
 
 ```sql
 SELECT
@@ -94,7 +94,7 @@ DEPTNO    SAL
 ### 3) 집계함수와 함께 통계 데이터를 추출
 부서별로 급여 합계를 출력
 
-* Query
+* SQL
 
 ```sql
 SELECT
@@ -122,7 +122,7 @@ DEPTNO  DEPTNO10  DEPTNO20  DEPTNO30  DEPTNO40
 ### 4) 행으로 합계 조회
 부서별로 급여 합계를 행으로 출력
 
-* Query
+* SQL
 
 ```sql
 SELECT
@@ -149,7 +149,7 @@ DEPTNO      SAL
 ### 5) DECODE와 MAX함수를 사용하여 열로 합계 조회
 부서별로 급여 합계를 열로 출력
 
-* Query
+* SQL
 
 ```sql
 SELECT
