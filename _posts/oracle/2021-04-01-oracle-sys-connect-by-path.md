@@ -23,7 +23,7 @@ column과 char는 모두 CHAR, VARCAR2, NCHAR 또는 NVARCAR2 데이터 유형 �
 
 ### 1) 직원 이름의 경로 반환
 
-* Query
+* SQL
 
 ```sql
 SELECT
@@ -88,7 +88,7 @@ INSERT INTO sample_table (CLASS_CODE, UP_CLASS_CODE, CLASS_LEVEL, CLASS_NAME) VA
 INSERT INTO sample_table (CLASS_CODE, UP_CLASS_CODE, CLASS_LEVEL, CLASS_NAME) VALUES ('20100101', '201001', '4', '판매업체');
 ```
 
-* Query
+* SQL
 
 ```sql
 SELECT
