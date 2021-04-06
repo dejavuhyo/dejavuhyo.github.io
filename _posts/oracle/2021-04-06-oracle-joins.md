@@ -66,7 +66,7 @@ VALUES (4, 'Brown');
 ## 3. Oracle inner join
 색상 열의 값을 사용하여 왼쪽 테이블을 오른쪽 테이블로 결합한다.
 
-* Query
+* SQL
 
 ```sql
 SELECT
@@ -93,7 +93,7 @@ inner join은 오른쪽 테이블의 행과 일치하는 왼쪽 테이블의 행
 ## 4. Oracle left join
 left join(또는 left outer join)을 사용하여 왼쪽 테이블을 오른쪽 테이블과 결합한다.
 
-* Query
+* SQL
 
 ```sql
 SELECT
@@ -121,7 +121,7 @@ left join에서는 오른쪽 테이블에서 사용할 수 있는 경우 일치�
 
 다음 SQL은 palette_a에서만 사용할 수 있고 palette_b에서는 사용할 수 없는 색상이 표시된다.
 
-* Query
+* SQL
 
 ```sql
 SELECT
@@ -150,7 +150,7 @@ right join 또는 right outer join은 left join의 역 버전이다. right join�
 
 right join을 사용하여 왼쪽 테이블을 오른쪽 테이블로 조인한다.
 
-* Query
+* SQL
 
 ```sql
 SELECT
@@ -174,7 +174,7 @@ ON a.color = b.color
 
 WHERE 절을 추가하여 오른쪽 테이블에서만 행을 가져올 수 있지만 왼쪽 테이블에서는 가져올 수 없다.
 
-* Query
+* SQL
 
 ```sql
 SELECT
@@ -203,7 +203,7 @@ full outer join 또는 full join은 왼쪽 및 오른쪽 테이블의 모든 행
 
 왼쪽 및 오른쪽 테이블의 전체 외부 조인을 보여준다.
 
-* Query
+* SQL
 
 ```sql
 SELECT
@@ -229,7 +229,7 @@ OUTER 키워드는 선택 사항이다.
 
 왼쪽 및 오른쪽 테이블로부터 고유한 행 집합을 가져오려면 동일한 full join을 수행 후 WHERE 절을 사용하여 양쪽에서 원하지 않는 행을 제외한다.
 
-* Query
+* SQL
 
 ```sql
 SELECT
