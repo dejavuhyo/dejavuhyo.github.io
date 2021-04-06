@@ -50,7 +50,7 @@ Oracle TO_CHAR() 함수는 지정된 형식으로 DATE 또는 Interval 값을 �
 ### 1) 현재 시스템 날짜 변환
 현재 시스템 날짜를 YYYY-MM-DD 형식의 문자열로 변환
 
-* Query
+* SQL
 
 ```sql
 SELECT
@@ -67,7 +67,7 @@ FROM
 
 ### 2) 현재 시스템 날짜를 긴 날짜 문자열로 변환하려면 DL 날짜 형식을 사용
 
-* Query
+* SQL
 
 ```sql
 SELECT
@@ -84,7 +84,7 @@ Friday, April 02, 2021
 
 ### 3) 다른 언어로 일 및 달의 이름을 표시하려면 nlsparam 인수를 사용
 
-* Query
+* SQL
 
 ```sql
 SELECT
@@ -104,7 +104,7 @@ FROM
 ### 4) 간격 형식 지정
 TO_CHAR() 함수를 사용하여 간격을 형식화한다.
 
-* Query
+* SQL
 
 ```sql
 SELECT 
@@ -127,7 +127,7 @@ FROM
 
 TO_CHAR() 기능을 사용하여 2016년에 입사한 분기를 반환
 
-* Query
+* SQL
 
 ```sql
 SELECT
