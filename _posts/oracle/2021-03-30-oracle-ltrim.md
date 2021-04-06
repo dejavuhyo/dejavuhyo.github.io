@@ -37,7 +37,7 @@ source_string이 문자 값이면 결과 문자열에는 VARCAR2 데이터 유�
 
 ### 1) 문자열 '  XYZ'의 왼쪽 끝에서 모든 공백을 제거
 
-* Query
+* SQL
 
 ```sql
 SELECT
@@ -56,7 +56,7 @@ FROM
 
 ### 2) 문자열 'XYZ123456'의 왼쪽 끝에서 (1,2,3) 집합의 문자를 제거
 
-* Query
+* SQL
 
 ```sql
 SELECT
@@ -77,7 +77,7 @@ FROM
 
 ![products-table](/assets/img/2021-03-30-oracle-ltrim/products-table.png)
 
-* Query
+* SQL
 
 ```sql
 SELECT
@@ -96,7 +96,7 @@ ORDER BY
 
 LTRIM() 기능을 사용하여 제품 이름에서 'ASRock' 문자열을 제거하여 다음과 같이 짧게 할 수 있다.
 
-* Query
+* SQL
 
 ```sql
 SELECT
