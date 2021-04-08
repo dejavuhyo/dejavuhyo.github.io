@@ -31,7 +31,7 @@ END IF;
 ## 2. IF THEN statement example
 판매 수익이 100,000보다 크기 때문에 THEN과 END IF 사이의 문이 실행된다.
 
-```
+```sql
 DECLARE n_sales NUMBER := 2000000;
 BEGIN
     IF n_sales > 100000 THEN
