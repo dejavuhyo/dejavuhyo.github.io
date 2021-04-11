@@ -120,9 +120,7 @@ ELSIF condition_2 THEN
 [ ELSIF condition_3 THEN
     statements_3
 ]
-
 ...
-
 [ ELSE
     else_statements
 ]
