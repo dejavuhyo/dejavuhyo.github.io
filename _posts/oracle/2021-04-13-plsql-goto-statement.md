@@ -12,7 +12,7 @@ GOTO 문을 사용하면 레이블이 지정된 블록 또는 문으로 컨트�
 ```sql
 GOTO label_name;
 ```
-label_name은 대상 문을 식별하는 레이블의 이름이다. 프로그램에서는 아래와 같이 라벨 이름을 이중으로 둘러싸는 angle brackets으로 둘러쌉니다.
+label_name은 대상 문을 식별하는 레이블의 이름이다. 프로그램에서는 아래와 같이 라벨 이름을 이중으로 둘러싸는 angle brackets으로 둘러싼다.
 
 ```text
 <<label_name>>;
@@ -51,11 +51,11 @@ and good Bye...
 
 블록의 순서를 자세히 설명한다.
 
-* 먼저 GOTO second_message 문이 발생하므로 컨트롤은 second_message label 뒤에 있는 문으로 전달된다.
+* __첫째:__ GOTO second_message 문이 발생하므로 컨트롤은 second_message label 뒤에 있는 문으로 전달된다.
 
-* 둘째, GOTO first_message가 발생하므로 컨트롤은 first_message label 다음에 문으로 전송된다.
+* __둘째:__ GOTO first_message가 발생하므로 컨트롤은 first_message label 다음에 문으로 전송된다.
 
-* 셋째, GOTO the_end에 도달하여 the_end 라벨 뒤에 있는 문으로 컨트롤이 전달된다.
+* __셋째:__ GOTO the_end에 도달하여 the_end 라벨 뒤에 있는 문으로 컨트롤이 전달된다.
 
 그림은 시퀀스를 보여준다.
 
