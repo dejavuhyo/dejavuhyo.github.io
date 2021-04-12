@@ -12,6 +12,7 @@ GOTO 문을 사용하면 레이블이 지정된 블록 또는 문으로 컨트�
 ```sql
 GOTO label_name;
 ```
+
 label_name은 대상 문을 식별하는 레이블의 이름이다. 프로그램에서는 아래와 같이 라벨 이름을 이중으로 둘러싸는 angle brackets으로 둘러싼다.
 
 ```text
