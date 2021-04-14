@@ -12,20 +12,6 @@ Language: [English](https://github.com/cotes2020/jekyll-theme-chirpy#readme) | �
 
 [![Devices Mockup](https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/devices-mockup.png)](https://chirpy.cotes.info)
 
-> :bulb: 中文版文档存在更新不及时的风险（开源文档以英文为主，请见谅）。如果发现中、英文内容不匹配的情况，一切以英文版内容为准。如果您愿意的话，可提交 issue 提醒作者更新中文版 README，谢谢。
-
-## 目录
-
-- [功能一览](#功能一览)
-- [前提要求](#前提要求)
-- [安装](#安装)
-- [使用](#使用)
-- [文档](#文档)
-- [参与贡献](#参与贡献)
-- [鸣谢](#鸣谢)
-- [赞助](#赞助)
-- [许可证书](#许可证书)
-
 ## 功能一览
 
 - 文章置顶
@@ -210,15 +196,13 @@ $ docker run -it --rm \
 
 还有，感谢 [JetBrains][jb] 提供开源 License！
 
-[![JB-logo](https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/jetbrains.svg)][jb]
-
 ## 赞助
 
 如果您喜欢这个主题或者它对您有帮助，请考虑打赏作者，您的支持将会极大地鼓励作者，并帮助作者更好地维护项目！
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-orange?logo=buy-me-a-coffee&logoColor=white)](https://www.buymeacoffee.com/coteschung)
-[![Wechat Pay](https://img.shields.io/badge/WeChat%20Pay-brightgreen?logo=wechat&logoColor=white)][cn-donation]
-[![Alipay](https://img.shields.io/badge/Alipay-blue?logo=alipay&logoColor=white)][cn-donation]
+[![Buy Me a Coffee](https://img.shields.io/badge/-请作者喝杯咖啡-ff813f?logo=buy-me-a-coffee&logoColor=white)](https://www.buymeacoffee.com/coteschung)
+[![Wechat Pay](https://img.shields.io/badge/-微信打赏作者-brightgreen?logo=wechat&logoColor=white)][cn-donation]
+[![Alipay](https://img.shields.io/badge/-支付宝打赏作者-blue?logo=alipay&logoColor=white)][cn-donation]
 
 ## 许可证书
 
