@@ -1,7 +1,7 @@
 ---
 title: Oracle INTERSECT
 author: dejavuhyo
-date: 2021-04-222 07:00:00 +0900
+date: 2021-04-22 07:00:00 +0900
 categories: [Database, Oracle]
 tags: [oracle-intersect, intersect, 오라클-인터섹트, 인터섹트, 교차]
 ---
