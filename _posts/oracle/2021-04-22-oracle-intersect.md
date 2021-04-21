@@ -69,7 +69,7 @@ ORDER BY
 
 ![intersect-example](/assets/img/2021-04-22-oracle-intersect/intersect-example.png)
 
-우리는 마지막 쿼리에 ORDER BY 절을 배치하여 INTERSECT 연산자가 반환한 결과 집합을 정렬한다는 점에 유의한다.
+쿼리 마지막에 ORDER BY 절을 배치하여 INTERSECT 연산자가 반환한 결과 집합을 정렬한다는 점에 유의한다.
 
 ## [출처 및 참고]
 * <https://www.oracletutorial.com/oracle-basics/oracle-intersect/>
