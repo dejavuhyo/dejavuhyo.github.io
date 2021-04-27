@@ -7,7 +7,7 @@ tags: [oracle-rollup, rollup, 오라클-rollup, 오라클-합계, 합계]
 ---
 
 ## 1. Oracle ROLLUP
-샘플 데이터베이스에서 orders 및 order_items 테이블을 고려한다.
+샘플 데이터베이스에서 orders 및 order_items 테이블을 참고한다.
 
 ![orders-order-items-tables](/assets/img/2021-04-27-oracle-rollup/orders-order-items-tables.png)
 
