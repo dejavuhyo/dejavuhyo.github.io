@@ -94,7 +94,7 @@ WHERE
 
 ![invalid-view](/assets/img/2021-04-29-oracle-drop-view/invalid-view.png)
 
-보시다시피 salesman_contacts view의 상태가 INVALID 되었다.
+salesman_contacts view의 상태가 INVALID 되었다.
 
 ```sql
 DROP VIEW salesman_contacts;
