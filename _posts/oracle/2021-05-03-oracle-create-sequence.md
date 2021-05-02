@@ -9,7 +9,7 @@ tags: [oracle-create-sequence, create-sequence, 오라클-create-sequence, 오�
 ## 1. CREATE SEQUENCE 문 소개
 CREATE SEQUENCE 문을 사용하여 데이터베이스에 새 시퀀스를 작성할 수 있다.
 
-다음은 CREATE SEQUENCE 문의 기본 구문입니다.
+다음은 CREATE SEQUENCE 문의 기본 구문이다.
 
 ```sql
 CREATE SEQUENCE schema_name.sequence_name
