@@ -36,7 +36,7 @@ CREATE SEQUENCE schema_name.sequence_name
 
 ALTER SEQUENCE 문은 미래의 시퀀스 번호에만 적용된다.
 
-## 2. ALTER SEQUENCE 에제
+## 2. ALTER SEQUENCE 예제
 다음 명령문은 CREATE SEQUENCE 문을 사용하여 invoice_seq라는 새 시퀀스를 생성한다.
 
 ```sql
