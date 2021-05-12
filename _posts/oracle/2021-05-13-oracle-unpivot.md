@@ -1,7 +1,7 @@
 ---
 title: Oracle UNPIVOT
 author: dejavuhyo
-date: 2021-05-13 06:3 0:00 +0900
+date: 2021-05-13 06:00:00 +0900
 categories: [Database, Oracle]
 tags: [oracle-unpivot, unpivot, 오라클-unpivot, 오라클-언피벗]
 ---
@@ -190,7 +190,7 @@ UNPIVOT (
 
 ![unpivot-multiple-columns-example](/assets/img/2021-05-13-oracle-unpivot/unpivot-multiple-columns-example.png)
 
-이 그림은 전치 과정을 보여준다.
+다음 그림은 전치 과정을 보여준다.
 
 ![unpivot-multiple-columns](/assets/img/2021-05-13-oracle-unpivot/unpivot-multiple-columns.png)
 
