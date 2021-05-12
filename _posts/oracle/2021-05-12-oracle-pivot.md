@@ -272,7 +272,7 @@ SQL Developer의 출력 그리드에서 XML을 보려면 다음 단계를 수행
 
 ![sql-developer-preferences](/assets/img/2021-05-12-oracle-pivot/sql-developer-preferences.png)
 
-② Database > Advanced에서 Display XML Value in Grid 옵션을 선택한다.
+② Database → Advanced에서 Display XML Value in Grid 옵션을 선택한다.
 
 ![sql-developer-display-xml-in-grid](/assets/img/2021-05-12-oracle-pivot/sql-developer-display-xml-in-grid.png)
 
