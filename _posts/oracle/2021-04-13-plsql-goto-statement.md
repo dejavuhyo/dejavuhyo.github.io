@@ -3,7 +3,7 @@ title: PL/SQL GOTO Statement
 author: dejavuhyo
 date: 2021-04-13 06:10:00 +0900
 categories: [Database, Oracle]
-tags: [goto-statement, goto, pssql-goto]
+tags: [goto-statement, goto, plsql-goto]
 ---
 
 ## 1. Introduction
