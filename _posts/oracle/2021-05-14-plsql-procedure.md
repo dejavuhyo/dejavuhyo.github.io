@@ -117,11 +117,11 @@ Elisha Lloyd<elisha.lloyd@verizon.com>
 
 * 프로시저 이름을 마우스 오른쪽 버튼으로 클릭하고 Run... 메뉴 항목을 선택한다.
 
-![procedure-execute-step-1](/assets/img/2021-05-14-plsql-procedure/procedure-execute-1.png)
+![procedure-execute-1](/assets/img/2021-05-14-plsql-procedure/procedure-execute-1.png)
 
 * in_customer_id 매개 변수의 값을 입력하고 OK 버튼을 클릭한다.
 
-![procedure-execute-step-2](/assets/img/2021-05-14-plsql-procedure/procedure-execute-2.png)
+![procedure-execute-2](/assets/img/2021-05-14-plsql-procedure/procedure-execute-2.png)
 
 * 다음은 결과를 보여준다.
 
