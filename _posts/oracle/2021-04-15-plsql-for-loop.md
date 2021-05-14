@@ -3,7 +3,7 @@ title: PL/SQL FOR LOOP
 author: dejavuhyo
 date: 2021-04-15 06:10:00 +0900
 categories: [Database, Oracle]
-tags: [for-loop, pssql-for-loop, for-루프, plsql-for-루프]
+tags: [for-loop, plsql-for-loop, for-루프, plsql-for-루프]
 ---
 
 ## 1. Introduction
