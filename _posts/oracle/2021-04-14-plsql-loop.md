@@ -3,7 +3,7 @@ title: PL/SQL LOOP
 author: dejavuhyo
 date: 2021-04-14 06:10:00 +0900
 categories: [Database, Oracle]
-tags: [loop, pssql-loop, 반복문, plsql-반복문]
+tags: [loop, plsql-loop, 반복문, plsql-반복문]
 ---
 
 ## 1. LOOP syntax
