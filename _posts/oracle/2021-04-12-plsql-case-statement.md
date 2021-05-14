@@ -3,7 +3,7 @@ title: PL/SQL CASE Statement
 author: dejavuhyo
 date: 2021-04-12 06:10:00 +0900
 categories: [Database, Oracle]
-tags: [case-statement, case, pssql-case]
+tags: [case-statement, case, plsql-case]
 ---
 
 ## 1. Overview
