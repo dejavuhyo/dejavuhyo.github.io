@@ -3,7 +3,7 @@ title: PL/SQL WHILE LOOP
 author: dejavuhyo
 date: 2021-04-16 06:05:00 +0900
 categories: [Database, Oracle]
-tags: [while-loop, pssql-while-loop, while-루프, plsql-while-루프]
+tags: [while-loop, plsql-while-loop, while-루프, plsql-while-루프]
 ---
 
 ## 1. Syntax
