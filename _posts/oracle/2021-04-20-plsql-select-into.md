@@ -3,7 +3,7 @@ title: PL/SQL SELECT INTO
 author: dejavuhyo
 date: 2021-04-20 06:30:00 +0900
 categories: [Database, Oracle]
-tags: [select-into, pssql-select-into]
+tags: [select-into, plsql-select-into]
 ---
 
 ## 1. SELECT INTO statement
