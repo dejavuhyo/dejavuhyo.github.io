@@ -3,7 +3,7 @@ title: PL/SQL CONTINUE
 author: dejavuhyo
 date: 2021-04-19 06:30:00 +0900
 categories: [Database, Oracle]
-tags: [continue, pssql-continue, continue-when, plsql-continue-when]
+tags: [continue, plsql-continue, continue-when, plsql-continue-when]
 ---
 
 ## 1. CONTINUE statement
