@@ -29,7 +29,7 @@ git add 명령 실행 시 위 조건에 맞는 파일들은 자동으로 제외�
 
 > 이미 추가되어 버전 관리 중인 파일에는 영향을 미치지 않으며 새로 add 할 경우에만 적용된다.
 
-만약 ignore 목록에 있어도 추가해야 할 경우 -f(force) 옵션을 사용해서 추가한다.
+ignore 목록에 있어도 추가해야 할 경우 -f(force) 옵션을 사용해서 추가한다.
 
 ```bash
 [root@localhost ~]# git add -f jdbc.properties
@@ -47,7 +47,7 @@ gitignore에 설정한 정보는 하위 폴더에도 적용된다. 만약 특정
 
 위의 의미는 config의 모든 파일을 무시하지만, 예외 케이스로 jdbc.properties는 버전  관리하겠다는 의미이며 '!'는 이전 패턴을 무효 하는 특별한 의미의 문자열이다.
 
-만약 파일명에 '!'가 들어갈 경우 escape 문자인 '\'를 '!'앞에 붙여주면 된다.
+파일명에 '!'가 들어갈 경우 escape 문자인 '\'를 '!'앞에 붙여주면 된다.
 
 ## 4. gitignore.io
 사용하는 언어나 프레임워크 IDE마다 추가해야 할 패턴들이 있으며 이를 일일이 기억하는 것은 매우 귀찮은 일이다.
@@ -58,4 +58,5 @@ gitignore에 설정한 정보는 하위 폴더에도 적용된다. 만약 특정
 
 ## [출처 및 참고]
 * <https://www.lesstif.com/gitbook/git-ignore-gitignore-54952369.html>
+* <https://www.lesstif.com/gitbook/gitignore-gitignore-io-18220154.html>
 * <https://www.toptal.com/developers/gitignore>
