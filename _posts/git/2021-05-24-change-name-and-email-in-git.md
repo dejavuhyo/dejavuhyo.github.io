@@ -1,5 +1,5 @@
 ---
-title: Git에서 name과 email 변경
+title: Git에서 계정 name과 email 변경
 date: 2021-05-24 06:00:00 +0900
 categories: [DevOps, Git]
 tags: [git-change-name, git-change-email, git-config, 깃-계정-이름-변경, 깃-계정-이메일-변경, 깃-설정]
