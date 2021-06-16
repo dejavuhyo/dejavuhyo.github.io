@@ -20,7 +20,7 @@ Maven dependency 추가 및 JSP 페이지 상단에 JSTL core 선언
 
 * JSP
 
-```jsp
+```text
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 ```
 
@@ -42,7 +42,23 @@ Maven dependency 추가 및 JSP 페이지 상단에 JSTL core 선언
 
 ### 2) varStatus 활용
 
-```jsp
+* __current:__ 현재 번호
+
+* __index:__ 순서 0부터
+
+* __count:__ 순서 1부터
+
+* __first:__ 첫 번째 여부
+
+* __last:__ 마지막 여부
+
+* __begin:__ 시작 번호
+
+* __end:__ 마지막 번호
+
+* __step:__ 증가 값
+
+```text
 <c:forEach var="item" items="${resultList}" varStatus="status">
     ${status.current}
     ${status.index}
