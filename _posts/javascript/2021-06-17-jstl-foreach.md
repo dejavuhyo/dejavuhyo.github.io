@@ -44,14 +44,14 @@ Maven dependency 추가 및 JSP 페이지 상단에 JSTL core 선언
 
 ```jsp
 <c:forEach var="item" items="${resultList}" varStatus="status">
-    ${status.current} <!– 현재 번호 –>
-    ${status.index} <!– 순서 0부터 –>
-    ${status.count} <!– 순서 1부터 –>
-    ${status.first} <!– 첫 번째 여부 –>
-    ${status.last} <!– 마지막 여부 –>
-    ${status.begin} <!– 시작 번호 –>
-    ${status.end} <!– 마지막 번호 –>
-    ${status.step} <!– 증가 값 –>
+    ${status.current}
+    ${status.index}
+    ${status.count}
+    ${status.first}
+    ${status.last}
+    ${status.begin}
+    ${status.end}
+    ${status.step}
 </c:forEach>
 ```
 
