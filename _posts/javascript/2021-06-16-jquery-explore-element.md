@@ -1,5 +1,5 @@
 ---
-title: Jquery 요소 탐색
+title: jQuery 요소 탐색
 date: 2021-06-16 06:00:00 +0900
 categories: [Language, JavaScript]
 tags: [jquery-explore-element, explore-element, jquery-요소-탐색, jquery-탐색, jquery-노드-탐색]
