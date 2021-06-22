@@ -1,5 +1,5 @@
 ---
-title: Jquery 엔터키 이벤트
+title: jQuery 엔터키 이벤트
 date: 2021-06-11 06:00:00 +0900
 categories: [Language, JavaScript]
 tags: [jquery-enter-key-event, enter-key-event, jquery-엔터키-이벤트, 엔터키-이벤트]
