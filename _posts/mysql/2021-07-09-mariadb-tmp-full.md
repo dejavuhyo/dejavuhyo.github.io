@@ -2,7 +2,7 @@
 title: MariaDB tmp full 해결방법
 date: 2021-07-09 05:00:00 +0900
 categories: [Database, MySQL]
-tags: [mariadb-tmp-full, tmp-full, errcode-28, mariadb-errcode-28, ]
+tags: [mariadb-tmp-full, tmp-full, errcode-28, mariadb-errcode-28]
 ---
 
 ## 1. tmp란
@@ -67,7 +67,7 @@ tmpdir=/temp001/masvc01/OLDDB:/data001/masvc01/OLDDB
 ```
 
 ### 3) temp 파일 시스템 증설
-DB에서 사용 중인 temp 영역을 OS에서 증설한다.
+DB에서 사용 중인 temp 영역을 OS의 해당 경로에서 temp 영역을 증설한다.
 
 * 사용중인 temp 조회
 
