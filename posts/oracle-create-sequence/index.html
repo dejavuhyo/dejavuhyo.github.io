@@ -1,0 +1,179 @@
+<!DOCTYPE html><html lang="en-US" mode="dark" ><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="generator" content="Jekyll v4.2.0" /><meta property="og:title" content="Oracle CREATE SEQUENCE" /><meta name="author" content="dejavuhyo" /><meta property="og:locale" content="en_US" /><meta name="description" content="1. CREATE SEQUENCE 문 소개 CREATE SEQUENCE 문을 사용하여 데이터베이스에 새 시퀀스를 작성할 수 있다." /><meta property="og:description" content="1. CREATE SEQUENCE 문 소개 CREATE SEQUENCE 문을 사용하여 데이터베이스에 새 시퀀스를 작성할 수 있다." /><link rel="canonical" href="https://dejavuhyo.github.io/posts/oracle-create-sequence/" /><meta property="og:url" content="https://dejavuhyo.github.io/posts/oracle-create-sequence/" /><meta property="og:site_name" content="밥줄과 취미 사이 ːː 못 먹어도 고!" /><meta property="og:type" content="article" /><meta property="article:published_time" content="2021-05-03T06:20:00+09:00" /><meta name="twitter:card" content="summary" /><meta property="twitter:title" content="Oracle CREATE SEQUENCE" /><meta name="twitter:site" content="@twitter_username" /><meta name="twitter:creator" content="@dejavuhyo" /><meta name="google-site-verification" content="google_meta_tag_verification" /> <script type="application/ld+json"> {"author":{"@type":"Person","name":"dejavuhyo"},"description":"1. CREATE SEQUENCE 문 소개 CREATE SEQUENCE 문을 사용하여 데이터베이스에 새 시퀀스를 작성할 수 있다.","url":"https://dejavuhyo.github.io/posts/oracle-create-sequence/","headline":"Oracle CREATE SEQUENCE","dateModified":"2021-05-03T07:26:54+09:00","datePublished":"2021-05-03T06:20:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://dejavuhyo.github.io/posts/oracle-create-sequence/"},"@type":"BlogPosting","@context":"https://schema.org"}</script><title>Oracle CREATE SEQUENCE | 밥줄과 취미 사이 ːː 못 먹어도 고!</title><link rel="shortcut icon" href="/assets/img/favicons/favicon.ico" type="image/x-icon"><link rel="icon" href="/assets/img/favicons/favicon.ico" type="image/x-icon"><link rel="apple-touch-icon" href="/assets/img/favicons/apple-icon.png"><link rel="apple-touch-icon" href="/assets/img/favicons/apple-icon-precomposed.png"><link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicons/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicons/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicons/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicons/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicons/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicons/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicons/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicons/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicons/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicons/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png"><link rel="manifest" href="/assets/img/favicons/manifest.json"><meta name='msapplication-config' content='/assets/img/favicons/browserconfig.xml'><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-TileImage" content="/assets/img/favicons/ms-icon-144x144.png"><meta name="theme-color" content="#ffffff"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"><link rel="dns-prefetch" href="https://fonts.gstatic.com"><link rel="preconnect" href="https://www.google-analytics.com" crossorigin="use-credentials"><link rel="dns-prefetch" href="https://www.google-analytics.com"><link rel="preconnect" href="https://www.googletagmanager.com" crossorigin="anonymous"><link rel="dns-prefetch" href="https://www.googletagmanager.com"><link rel="preconnect" href="cdn.jsdelivr.net"><link rel="dns-prefetch" href="cdn.jsdelivr.net"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha256-LA89z+k9fjgMKQ/kq4OO2Mrf8VltYml/VES+Rg0fh20=" crossorigin="anonymous"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/style.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.css"> <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script> <script defer src="https://cdn.jsdelivr.net/combine/npm/popper.js@1.15.0,npm/bootstrap@4/dist/js/bootstrap.min.js"></script> <script defer src="/assets/js/dist/post.min.js"></script> <script defer src="/app.js"></script> <script defer src="https://www.googletagmanager.com/gtag/js?id="></script> <script> document.addEventListener("DOMContentLoaded", function(event) { window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', ''); }); </script><body data-spy="scroll" data-target="#toc"><div id="sidebar" class="d-flex flex-column align-items-end"><div class="profile-wrapper text-center"><div id="avatar"> <a href="/" alt="avatar" class="mx-auto"> <img src="/assets/img/favicons/me.png" alt="avatar" onerror="this.style.display='none'"> </a></div><div class="site-title mt-3"> <a href="/">밥줄과 취미 사이 ːː 못 먹어도 고!</a></div><div class="site-subtitle font-italic">https://dejavuhyo.github.io https://blog.naver.com/dejavuhyo</div></div><ul class="w-100"><li class="nav-item"> <a href="/" class="nav-link"> <i class="fa-fw fas fa-home ml-xl-3 mr-xl-3 unloaded"></i> <span>HOME</span> </a><li class="nav-item"> <a href="/categories/" class="nav-link"> <i class="fa-fw fas fa-stream ml-xl-3 mr-xl-3 unloaded"></i> <span>CATEGORIES</span> </a><li class="nav-item"> <a href="/tags/" class="nav-link"> <i class="fa-fw fas fa-tags ml-xl-3 mr-xl-3 unloaded"></i> <span>TAGS</span> </a><li class="nav-item"> <a href="/archives/" class="nav-link"> <i class="fa-fw fas fa-archive ml-xl-3 mr-xl-3 unloaded"></i> <span>ARCHIVES</span> </a><li class="nav-item"> <a href="/about/" class="nav-link"> <i class="fa-fw fas fa-info ml-xl-3 mr-xl-3 unloaded"></i> <span>ABOUT</span> </a></ul><div class="sidebar-bottom mt-auto d-flex flex-wrap justify-content-center"> <a href="https://github.com/dejavuhyo" aria-label="github" target="_blank" rel="noopener"> <i class="fab fa-github-alt"></i> </a> <a href="https://twitter.com/twitter_username" aria-label="twitter" target="_blank" rel="noopener"> <i class="fab fa-twitter"></i> </a> <a href=" javascript:location.href = 'mailto:' + ['dejavuhyo','gmail.com'].join('@')" aria-label="email" > <i class="fas fa-envelope"></i> </a> <a href="/feed.xml" aria-label="rss" > <i class="fas fa-rss"></i> </a></div></div><div id="topbar-wrapper" class="row justify-content-center topbar-down"><div id="topbar" class="col-11 d-flex h-100 align-items-center justify-content-between"> <span id="breadcrumb"> <span> <a href="/"> Posts </a> </span> <span>Oracle CREATE SEQUENCE</span> </span> <i id="sidebar-trigger" class="fas fa-bars fa-fw"></i><div id="topbar-title"> Post</div><i id="search-trigger" class="fas fa-search fa-fw"></i> <span id="search-wrapper" class="align-items-center"> <i class="fas fa-search fa-fw"></i> <input class="form-control" id="search-input" type="search" aria-label="search" placeholder="Search..."> <i class="fa fa-times-circle fa-fw" id="search-cleaner"></i> </span> <span id="search-cancel" >Cancel</span></div></div><div id="main-wrapper"><div id="main"><div class="row"><div id="post-wrapper" class="col-12 col-lg-11 col-xl-8"><div class="post pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4"><h1 data-toc-skip>Oracle CREATE SEQUENCE</h1><div class="post-meta text-muted d-flex flex-column"><div> <span class="semi-bold"> dejavuhyo </span> <span class="timeago " data-toggle="tooltip" data-placement="bottom" title="Mon, May 3, 2021, 6:20 AM +0900" prep="on" > May 3 <i class="unloaded">2021-05-03T06:20:00+09:00</i> </span></div><div> <span> <span class="timeago lastmod" data-toggle="tooltip" data-placement="bottom" title="Mon, May 3, 2021, 7:26 AM +0900" prefix="Updated " > May 3 <i class="unloaded">2021-05-03T07:26:54+09:00</i> </span> </span> <span class="readtime" data-toggle="tooltip" data-placement="bottom" title="1728 words">9 min</span></div></div><div class="post-content"><h2 id="1-create-sequence-문-소개">1. CREATE SEQUENCE 문 소개</h2><p>CREATE SEQUENCE 문을 사용하여 데이터베이스에 새 시퀀스를 작성할 수 있다.</p><p>다음은 CREATE SEQUENCE 문의 기본 구문이다.</p><div class="language-sql highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre><td class="rouge-code"><pre><span class="k">CREATE</span> <span class="n">SEQUENCE</span> <span class="k">schema_name</span><span class="p">.</span><span class="n">sequence_name</span>
+<span class="p">[</span><span class="k">INCREMENT</span> <span class="k">BY</span> <span class="n">interval</span><span class="p">]</span>
+<span class="p">[</span><span class="k">START</span> <span class="k">WITH</span> <span class="n">first_number</span><span class="p">]</span>
+<span class="p">[</span><span class="k">MAXVALUE</span> <span class="n">max_value</span> <span class="o">|</span> <span class="n">NOMAXVALUE</span><span class="p">]</span>
+<span class="p">[</span><span class="k">MINVALUE</span> <span class="n">min_value</span> <span class="o">|</span> <span class="n">NOMINVALUE</span><span class="p">]</span>
+<span class="p">[</span><span class="k">CYCLE</span> <span class="o">|</span> <span class="n">NOCYCLE</span><span class="p">]</span>
+<span class="p">[</span><span class="k">CACHE</span> <span class="n">cache_size</span> <span class="o">|</span> <span class="n">NOCACHE</span><span class="p">]</span>
+<span class="p">[</span><span class="k">ORDER</span> <span class="o">|</span> <span class="n">NOORDER</span><span class="p">];</span>
+</pre></table></code></div></div><h3 id="1-create-sequence">1) CREATE SEQUENCE</h3><p>CREATE SEQUENCE 키워드 뒤에 시퀀스 이름을 지정한다. 특정 스키마에서 시퀀스를 만들려면 스키마 이름과 시퀀스 이름을 함께 지정할 수 있다.</p><h3 id="2-increment-by">2) INCREMENT BY</h3><p>INCREMENT BY 키워드 뒤에 시퀀스 번호 간격을 지정한다.</p><p>interval은 28자리 미만이어야 한다. 또한 MAXVALUE - MINVALUE보다 작아야 한다.</p><p>interval이 양수인 경우 순서는 오름차순이다(예: 1, 2, 3, …).</p><p>interval이 음수인 경우 시퀀스는 내림차순이다(예: -1, -2, -3 …).</p><p>interval 기본값은 1이다.</p><h3 id="3-start-with">3) START WITH</h3><p>시퀀스의 첫 번째 숫자를 지정한다.</p><p>첫 번째 숫자의 기본값은 오름차순의 최소값과 내림차순의 최대값이다.</p><h3 id="4-maxvalue">4) MAXVALUE</h3><p>시퀀스의 최대값을 지정한다.</p><p>max_value는 START WITH 키워드 뒤에 지정한 first_number보다 크거나 같아야 한다.</p><h3 id="5-nomaxvalue">5) NOMAXVALUE</h3><p>NOMAXVALUE를 사용하여 오름차순의 경우 최대 값 10^27을 나타내고 내림차순의 경우 -1을 나타낸다. Oracle은 이 옵션을 기본값으로 사용한다.</p><h3 id="6-minvalue">6) MINVALUE</h3><p>시퀀스의 최소값을 지정힌다.</p><p>min_value는 first_number보다 작거나 같아야 하며 max_value보다 작아야 한다.</p><h3 id="7-nominvalue">7) NOMINVALUE</h3><p>NOMINVALUE를 사용하여 오름차순의 경우 최소값 1을 나타내고 내림차순의 경우 -10^26을 나타낸다. 이것이 기본값이다.</p><h3 id="8-cycle">8) CYCLE</h3><p>CYCLE을 사용하여 한계값에 도달한 후 시퀀스가 값을 생성하고, 하강 시퀀스의 최소값 및 상승 시퀀스의 최대값을 생성할 수 있다.</p><p>오름차순 시퀀스가 최대값까지 도달하면 최소값이 생성된다.</p><p>반면에 하강 시퀀스가 최소값에 도달하면 최대값을 생성한다.</p><h3 id="9-nocycle">9) NOCYCLE</h3><p>다음 값이 한계에 도달할 때 시퀀스가 다음 값 생성을 중지하도록 하려면 NOCYCLE을 사용한다. 이것이 기본값이다.</p><h3 id="10-cache">10) CACHE</h3><p>Oracle이 더 빠른 액세스를 위해 미리 할당하고 메모리에 보관할 시퀀스 값의 수를 지정한다.</p><p>캐시 최소 크기는 2이다. 캐시 크기의 최대값은 다음 공식을 기반으로 한다.</p><div class="language-text highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre><td class="rouge-code"><pre>(CEIL (MAXVALUE - MINVALUE)) / ABS (INCREMENT)
+</pre></table></code></div></div><p>시스템 오류 이벤트가 발생하면, 커밋된 SQL 문에 사용되지 않은 모든 캐시된 시퀀스 값이 손실된다.</p><h3 id="11-order">11) ORDER</h3><p>ORDER를 사용하여 Oracle이 요청 순서대로 시퀀스 번호를 생성하는지 확인한다.</p><p>이 옵션은 Oracle Real Application Cluster를 사용하는 경우에 유용하다. 독점 모드를 사용하는 경우 Oracle은 항상 순서대로 시퀀스 번호를 생성한다.</p><h3 id="12-noorder">12) NOORDER</h3><p>Oracle에서 요청 순서대로 시퀀스 번호를 생성하지 않으려면 NOORDER를 사용한다. 이 옵션이 기본값이다.</p><h2 id="2-create-sequence-문-예제">2. CREATE SEQUENCE 문 예제</h2><p>시퀀스를 사용하는 예제이다.</p><h3 id="1-기본-oracle-시퀀스-예제">1) 기본 Oracle 시퀀스 예제</h3><p>다음 명령문은 id_seq라는 오름차순을 생성하는데, 10에서 시작하여 10, 최소값 10, 최대값 100까지 증가시킨다. CYCLE 옵션 때문에 100에 도달하면 10을 반환한다.</p><div class="language-sql highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre><td class="rouge-code"><pre><span class="k">CREATE</span> <span class="n">SEQUENCE</span> <span class="n">id_seq</span>
+    <span class="k">INCREMENT</span> <span class="k">BY</span> <span class="mi">10</span>
+    <span class="k">START</span> <span class="k">WITH</span> <span class="mi">10</span>
+    <span class="k">MINVALUE</span> <span class="mi">10</span>
+    <span class="k">MAXVALUE</span> <span class="mi">100</span>
+    <span class="k">CYCLE</span>
+    <span class="k">CACHE</span> <span class="mi">2</span><span class="p">;</span>
+</pre></table></code></div></div><p>시퀀스의 다음 값을 가져오려면 NEXTVAL pseudo-column을 사용한다.</p><div class="language-sql highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre><td class="rouge-code"><pre><span class="k">SELECT</span>
+    <span class="n">id_seq</span><span class="p">.</span><span class="n">NEXTVAL</span>
+<span class="k">FROM</span>
+    <span class="n">dual</span><span class="p">;</span>
+</pre></table></code></div></div><p>결과이다.</p><div class="language-text highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre><td class="rouge-code"><pre>NEXTVAL
+-------
+     10
+</pre></table></code></div></div><p>시퀀스의 현재 값을 가져오려면 CURRVAL pseudo-column을 사용한다.</p><div class="language-sql highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre><td class="rouge-code"><pre><span class="k">SELECT</span>
+    <span class="n">id_seq</span><span class="p">.</span><span class="n">CURRVAL</span>
+<span class="k">FROM</span>
+    <span class="n">dual</span><span class="p">;</span>
+</pre></table></code></div></div><p>현재 값은 10이다.</p><div class="language-text highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre><td class="rouge-code"><pre>CURRVAL
+-------
+     10
+</pre></table></code></div></div><p>이 SELECT 문은 id_seq.NEXTVAL을 반복으로 사용한다.</p><div class="language-sql highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre><td class="rouge-code"><pre><span class="k">SELECT</span>
+    <span class="n">id_seq</span><span class="p">.</span><span class="n">NEXTVAL</span>
+<span class="k">FROM</span> 
+    <span class="n">dual</span>
+<span class="k">CONNECT</span> <span class="k">BY</span> <span class="k">level</span> <span class="o">&lt;=</span> <span class="mi">9</span><span class="p">;</span>
+</pre></table></code></div></div><p>결과이다.</p><div class="language-text highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre><td class="rouge-code"><pre>NEXTVAL
+------
+    20
+    30
+    40
+    50
+    60
+    70
+    80
+    90
+   100
+
+9 rows selected
+</pre></table></code></div></div><p>id_seq 시퀀스에 대한 CYCLE 옵션을 설정하기 때문에, id_seq의 다음 값은 10이 된다.</p><div class="language-sql highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre><td class="rouge-code"><pre><span class="k">SELECT</span> <span class="n">id_seq</span><span class="p">.</span><span class="n">NEXTVAL</span> <span class="k">FROM</span> <span class="n">dual</span><span class="p">;</span>
+</pre></table></code></div></div><p>결과이다.</p><div class="language-text highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre><td class="rouge-code"><pre>NEXTVAL
+-------
+     10
+</pre></table></code></div></div><h3 id="2-테이블-컬럼의-시퀀스-사용-예제">2) 테이블 컬럼의 시퀀스 사용 예제</h3><p>Oracle 12c 이전에서는 삽입 시간에만 테이블 컬럼에 시퀀스를 간접적으로 연결할 수 있다.</p><p>다음 예를 참조한다.</p><ul><li><strong>첫째:</strong> 태스크라는 새 테이블을 생성한다.</ul><div class="language-sql highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre><td class="rouge-code"><pre><span class="k">CREATE</span> <span class="k">TABLE</span> <span class="n">tasks</span><span class="p">(</span>
+    <span class="n">id</span> <span class="n">NUMBER</span> <span class="k">PRIMARY</span> <span class="k">KEY</span><span class="p">,</span>
+    <span class="n">title</span> <span class="n">VARCHAR2</span><span class="p">(</span><span class="mi">255</span><span class="p">)</span> <span class="k">NOT</span> <span class="k">NULL</span>
+<span class="p">);</span>
+</pre></table></code></div></div><ul><li><strong>둘째:</strong> 태스크 테이블의 ID 컬럼에 대한 시퀀스를 생성한다.</ul><div class="language-sql highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre><td class="rouge-code"><pre><span class="k">CREATE</span> <span class="n">SEQUENCE</span> <span class="n">task_id_seq</span><span class="p">;</span>
+</pre></table></code></div></div><ul><li><strong>셋째:</strong> 작업 테이블에 데이터를 삽입한다.</ul><div class="language-sql highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre><td class="rouge-code"><pre><span class="k">INSERT</span> <span class="k">INTO</span> <span class="n">tasks</span><span class="p">(</span><span class="n">id</span><span class="p">,</span> <span class="n">title</span><span class="p">)</span>
+<span class="k">VALUES</span><span class="p">(</span><span class="n">task_id_seq</span><span class="p">.</span><span class="n">NEXTVAL</span><span class="p">,</span> <span class="s1">'Create Sequence in Oracle'</span><span class="p">);</span>
+
+<span class="k">INSERT</span> <span class="k">INTO</span> <span class="n">tasks</span><span class="p">(</span><span class="n">id</span><span class="p">,</span> <span class="n">title</span><span class="p">)</span>
+<span class="k">VALUES</span><span class="p">(</span><span class="n">task_id_seq</span><span class="p">.</span><span class="n">NEXTVAL</span><span class="p">,</span> <span class="s1">'Examine Sequence Values'</span><span class="p">);</span>
+</pre></table></code></div></div><ul><li><strong>넷째:</strong> 작업 테이블에서 데이터를 조회한다.</ul><div class="language-sql highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre><td class="rouge-code"><pre><span class="k">SELECT</span>
+    <span class="n">id</span><span class="p">,</span> <span class="n">title</span>
+<span class="k">FROM</span>
+    <span class="n">tasks</span><span class="p">;</span>
+</pre></table></code></div></div><p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/assets/img/2021-05-03-oracle-create-sequence/create-sequence-example.png" alt="create-sequence-example" /></p><p>이 예에서 tasks 테이블은 task_id_seq 순서와 직접 연결되지 않는다.</p><h3 id="3-id-컬럼-예제를-통해-시퀀스-사용">3) ID 컬럼 예제를 통해 시퀀스 사용</h3><p>오라클 12c에서는 ID 컬럼을 통해 시퀀스를 테이블 컬럼에 연결할 수 있다.</p><ul><li><strong>첫째:</strong> 태스크 테이블을 삭제한다.</ul><div class="language-sql highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre><td class="rouge-code"><pre><span class="k">DROP</span> <span class="k">TABLE</span> <span class="n">tasks</span><span class="p">;</span>
+</pre></table></code></div></div><ul><li><strong>둘째:</strong> ID 컬럼에 대한 ID 컬럼을 사용하여 태스크 테이블을 재생성한다.</ul><div class="language-sql highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre><td class="rouge-code"><pre><span class="k">CREATE</span> <span class="k">TABLE</span> <span class="n">tasks</span><span class="p">(</span>
+    <span class="n">id</span> <span class="n">NUMBER</span> <span class="k">GENERATED</span> <span class="n">ALWAYS</span> <span class="k">AS</span> <span class="k">IDENTITY</span> <span class="k">PRIMARY</span> <span class="k">KEY</span><span class="p">,</span>
+    <span class="n">title</span> <span class="n">VARCHAR2</span><span class="p">(</span><span class="mi">255</span><span class="p">)</span> <span class="k">NOT</span> <span class="k">NULL</span>
+<span class="p">);</span>
+</pre></table></code></div></div><p>뒤에서 Oracle은 tasks 테이블의 id 컬럼과 연결되는 시퀀스를 생성한다.</p><p>Oracle이 id 컬럼에 대해 시퀀스를 자동으로 생성했기 때문에 Oracle 인스턴스에서 시퀀스 이름이 다를 수 있습니다.</p><p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/assets/img/2021-05-03-oracle-create-sequence/identity-column.png" alt="identity-column" /></p><p>Oracle은 sys.idnseq$를 사용하여 테이블과 시퀀스 사이의 링크를 저장한다.</p><p>이 쿼리는 tasks 테이블과 ISEQ$$_74366 시퀀스의 연결을 반환한다.</p><div class="language-sql highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre><td class="rouge-code"><pre><span class="k">SELECT</span>
+    <span class="n">a</span><span class="p">.</span><span class="n">name</span> <span class="k">AS</span> <span class="k">table_name</span><span class="p">,</span>
+    <span class="n">b</span><span class="p">.</span><span class="n">name</span> <span class="k">AS</span> <span class="n">sequence_name</span>
+<span class="k">FROM</span>
+    <span class="n">sys</span><span class="p">.</span><span class="n">idnseq</span><span class="err">$</span> <span class="k">c</span>
+    <span class="k">JOIN</span> <span class="n">obj</span><span class="err">$</span> <span class="n">a</span> <span class="k">ON</span> <span class="k">c</span><span class="p">.</span><span class="n">obj</span><span class="o">#</span> <span class="o">=</span> <span class="n">a</span><span class="p">.</span><span class="n">obj</span><span class="o">#</span>
+    <span class="k">JOIN</span> <span class="n">obj</span><span class="err">$</span> <span class="n">b</span> <span class="k">ON</span> <span class="k">c</span><span class="p">.</span><span class="n">seqobj</span><span class="o">#</span> <span class="o">=</span> <span class="n">b</span><span class="p">.</span><span class="n">obj</span><span class="o">#</span>
+<span class="k">WHERE</span>
+    <span class="n">a</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">'TASKS'</span><span class="p">;</span>
+</pre></table></code></div></div><ul><li><strong>셋째:</strong> 작업 테이블에 일부 행을 삽입한다.</ul><div class="language-sql highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre><td class="rouge-code"><pre><span class="k">INSERT</span> <span class="k">INTO</span> <span class="n">tasks</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
+<span class="k">VALUES</span><span class="p">(</span><span class="s1">'Learn Oracle identity column in 12c'</span><span class="p">);</span>
+
+<span class="k">INSERT</span> <span class="k">INTO</span> <span class="n">tasks</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
+<span class="k">VALUES</span><span class="p">(</span><span class="s1">'Verify contents of the tasks table'</span><span class="p">);</span>
+</pre></table></code></div></div><ul><li><strong>넷째:</strong> 작업 테이블에서 데이터를 조회한다.</ul><div class="language-sql highlighter-rouge"><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre><td class="rouge-code"><pre><span class="k">SELECT</span>
+    <span class="n">id</span><span class="p">,</span> <span class="n">title</span>
+<span class="k">FROM</span>
+    <span class="n">tasks</span><span class="p">;</span>
+</pre></table></code></div></div><p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/assets/img/2021-05-03-oracle-create-sequence/oracle-identity-column-example.png" alt="oracle-identity-column-example" /></p><h2 id="출처-및-참고">[출처 및 참고]</h2><ul><li><a href="https://www.oracletutorial.com/oracle-sequence/oracle-create-sequence/">https://www.oracletutorial.com/oracle-sequence/oracle-create-sequence/</a></ul></div><div class="post-tail-wrapper text-muted"><div class="post-meta mb-3"> <i class="far fa-folder-open fa-fw mr-1"></i> <a href='/categories/database/'>Database</a>, <a href='/categories/oracle/'>Oracle</a></div><div class="post-tags"> <i class="fa fa-tags fa-fw mr-1"></i> <a href="/tags/oracle-create-sequence/" class="post-tag no-text-decoration" >oracle-create-sequence</a> <a href="/tags/create-sequence/" class="post-tag no-text-decoration" >create-sequence</a> <a href="/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-create-sequence/" class="post-tag no-text-decoration" >오라클-create-sequence</a> <a href="/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%EC%8B%9C%ED%80%80%EC%8A%A4-%EC%83%9D%EC%84%B1/" class="post-tag no-text-decoration" >오라클-시퀀스-생성</a></div><div class="post-tail-bottom d-flex justify-content-between align-items-center mt-3 pt-5 pb-2"><div class="license-wrapper"> This post is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> by the author.</div><div class="share-wrapper"> <span class="share-label text-muted mr-1">Share</span> <span class="share-icons"> <a href="https://twitter.com/intent/tweet?text=Oracle CREATE SEQUENCE - 밥줄과 취미 사이 ːː 못 먹어도 고!&url=https://dejavuhyo.github.io/posts/oracle-create-sequence/" data-toggle="tooltip" data-placement="top" title="Twitter" target="_blank" rel="noopener" aria-label="Twitter"> <i class="fa-fw fab fa-twitter"></i> </a> <a href="https://www.facebook.com/sharer/sharer.php?title=Oracle CREATE SEQUENCE - 밥줄과 취미 사이 ːː 못 먹어도 고!&u=https://dejavuhyo.github.io/posts/oracle-create-sequence/" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank" rel="noopener" aria-label="Facebook"> <i class="fa-fw fab fa-facebook-square"></i> </a> <a href="https://telegram.me/share?text=Oracle CREATE SEQUENCE - 밥줄과 취미 사이 ːː 못 먹어도 고!&url=https://dejavuhyo.github.io/posts/oracle-create-sequence/" data-toggle="tooltip" data-placement="top" title="Telegram" target="_blank" rel="noopener" aria-label="Telegram"> <i class="fa-fw fab fa-telegram"></i> </a> <i class="fa-fw fas fa-link small" onclick="copyLink()" data-toggle="tooltip" data-placement="top" title="Copy link"></i> </span></div></div></div></div></div><div id="panel-wrapper" class="col-xl-3 pl-2 text-muted topbar-down"><div class="access"><div id="access-lastmod" class="post"> <span>Recent Update</span><ul class="post-content pl-0 pb-1 ml-1 mt-2"><li><a href="/posts/mariadb-tmp-full/">MariaDB tmp full 해결방법</a><li><a href="/posts/jquery-explore-element/">jQuery 요소 탐색</a><li><a href="/posts/jquery-find-similar-id/">jQuery 비슷한 ID 찾기</a><li><a href="/posts/jquery-enter-key-event/">jQuery 엔터키 이벤트</a><li><a href="/posts/mariadb-decimal-function/">MariaDB 소수점 함수</a></ul></div><div id="access-tags"> <span>Trending Tags</span><div class="d-flex flex-wrap mt-3 mb-1 mr-3"> <a class="post-tag" href="/tags/design-pattern/">design-pattern</a> <a class="post-tag" href="/tags/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4/">디자인-패턴</a> <a class="post-tag" href="/tags/docker/">docker</a> <a class="post-tag" href="/tags/intellij/">intellij</a> <a class="post-tag" href="/tags/%EB%8F%84%EC%BB%A4/">도커</a> <a class="post-tag" href="/tags/nexus-repository/">nexus-repository</a> <a class="post-tag" href="/tags/add-external-library/">add-external-library</a> <a class="post-tag" href="/tags/branch-workflow/">branch-workflow</a> <a class="post-tag" href="/tags/centos-docker/">centos-docker</a> <a class="post-tag" href="/tags/chrony-time-synchronizing/">chrony-time-synchronizing</a></div></div></div><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.js"></script><div id="toc-wrapper" class="pl-0 pr-4 mb-5"> <span class="pl-3 pt-2 mb-2">Contents</span><nav id="toc" data-toggle="toc"></nav></div></div></div><div class="row"><div class="col-12 col-lg-11 col-xl-8"><div id="post-extend-wrapper" class="pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4"><div id="related-posts" class="mt-5 mb-2 mb-sm-4"><h3 class="pt-2 mt-1 mb-4 ml-1" data-toc-skip>Further Reading</h3><div class="card-deck mb-4"><div class="card"> <a href="/posts/oracle-merge-into/"><div class="card-body"> <span class="timeago small" > Mar 17 <i class="unloaded">2021-03-17T06:10:00+09:00</i> </span><h3 class="pt-0 mt-1 mb-3" data-toc-skip>Oracle MERGE</h3><div class="text-muted small"><p> 1. MERGE란 MERGE 명령문을 사용하여 하나 이상의 소스에서 행을 선택하여 업데이트하거나 테이블 또는 뷰에 삽입한다. 조건을 지정하여 대상 테이블 또는 뷰에 업데이트하거나 삽입할지 여부를 결정할 수 있다. 이 문은 여러 작업을 결합하는 편리한 방법이다. 여러 개의 INSERT, UPDATE 및 DELETE DML 문을 방지할 수 있다. ME...</p></div></div></a></div><div class="card"> <a href="/posts/oracle-decode/"><div class="card-body"> <span class="timeago small" > Mar 18 <i class="unloaded">2021-03-18T06:05:00+09:00</i> </span><h3 class="pt-0 mt-1 mb-3" data-toc-skip>Oracle DECODE</h3><div class="text-muted small"><p> 1. DECODE 목적 DECODE는 expr을 각 검색 값과 하나씩 비교한다. expr이 검색과 동일하면 Oracle Database는 해당 결과를 반환한다. 일치하는 항목이 없으면 Oracle은 기본값을 반환한다. 기본값이 생략되면 Oracle은 null을 반환한다. 변수는 숫자 유형(NUMBER, BINIAN_FLOAT 또는 BINIAN_DUB...</p></div></div></a></div><div class="card"> <a href="/posts/oracle-trim/"><div class="card-body"> <span class="timeago small" > Mar 29 <i class="unloaded">2021-03-29T06:05:00+09:00</i> </span><h3 class="pt-0 mt-1 mb-3" data-toc-skip>Oracle TRIM</h3><div class="text-muted small"><p> 1. TRIM이란 Oracle TRIM() 기능은 문자열의 시작, 끝 또는 양쪽 끝에서 공백 또는 지정된 문자를 제거한다. 2. Syntax TRIM( [ [ LEADING | TRAILING | BOTH ] trim_character FROM ] trim_source) 3. Arguments Oracle TRIM() 함수는 다음 세 가지 ...</p></div></div></a></div></div></div><div class="post-navigation d-flex justify-content-between"> <a href="/posts/oracle-sequence/" class="btn btn-outline-primary" prompt="Older"><p>Oracle Sequence</p></a> <a href="/posts/oracle-alter-sequence/" class="btn btn-outline-primary" prompt="Newer"><p>Oracle ALTER SEQUENCE</p></a></div></div></div></div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script> <script type="text/javascript"> const imgs = document.querySelectorAll('.post-content img'); const observer = lozad(imgs); observer.observe(); </script><footer class="d-flex w-100 justify-content-center"><div class="d-flex justify-content-between align-items-center"><div class="footer-left"><p class="mb-0"> © 2021 <a href="https://github.com/dejavuhyo">dejavuhyo</a>. <span data-toggle="tooltip" data-placement="top" title="Except where otherwise noted, the blog posts on this site are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.">Some rights reserved.</span></p></div><div class="footer-right"><p class="mb-0"> Powered by <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> with <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener">Chirpy</a> theme.</p></div></div></footer></div><div id="search-result-wrapper" class="d-flex justify-content-center unloaded"><div class="col-12 col-sm-11 post-content"><div id="search-hints"><h4 class="text-muted mb-4">Trending Tags</h4><a class="post-tag" href="/tags/design-pattern/">design pattern</a> <a class="post-tag" href="/tags/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4/">디자인 패턴</a> <a class="post-tag" href="/tags/docker/">docker</a> <a class="post-tag" href="/tags/intellij/">intellij</a> <a class="post-tag" href="/tags/%EB%8F%84%EC%BB%A4/">도커</a> <a class="post-tag" href="/tags/nexus-repository/">nexus repository</a> <a class="post-tag" href="/tags/add-external-library/">add external library</a> <a class="post-tag" href="/tags/branch-workflow/">branch workflow</a> <a class="post-tag" href="/tags/centos-docker/">centos docker</a> <a class="post-tag" href="/tags/chrony-time-synchronizing/">chrony time synchronizing</a></div><div id="search-results" class="d-flex flex-wrap justify-content-center text-muted mt-3"></div></div></div></div><div id="mask"></div><a id="back-to-top" href="#" aria-label="back-to-top" class="btn btn-lg btn-box-shadow" role="button"> <i class="fas fa-angle-up"></i> </a> <script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.7.3/dest/simple-jekyll-search.min.js"></script> <script> SimpleJekyllSearch({ searchInput: document.getElementById('search-input'), resultsContainer: document.getElementById('search-results'), json: '/assets/js/data/search.json', searchResultTemplate: '<div class="pl-1 pr-1 pl-sm-2 pr-sm-2 pl-lg-4 pr-lg-4 pl-xl-0 pr-xl-0"> <a href="https://dejavuhyo.github.io{url}">{title}</a><div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1"> {categories} {tags}</div><p>{snippet}</p></div>', noResultsText: '<p class="mt-5">Oops! No result founds.</p>', templateMiddleware: function(prop, value, template) { if (prop === 'categories') { if (value === '') { return `${value}`; } else { return `<div class="mr-sm-4"><i class="far fa-folder fa-fw"></i>${value}</div>`; } } if (prop === 'tags') { if (value === '') { return `${value}`; } else { return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`; } } } }); </script>
