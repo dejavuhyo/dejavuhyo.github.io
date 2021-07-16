@@ -1,7 +1,7 @@
 ---
 title: Spring Boot 인터셉터 적용
 date: 2021-07-14 05:00:00 +0900
-categories: [Application, Architecture]
+categories: [Application, Framework]
 tags: [spring-boot-interceptor, interceptor, 스프링부트-인터셉터, 인터셉터]
 ---
 

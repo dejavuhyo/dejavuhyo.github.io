@@ -2,7 +2,7 @@
 title: Spring Boot Json 응답
 author: dejavuhyo
 date: 2020-12-18 09:20:00 +0900
-categories: [Application, Architecture]
+categories: [Application, Framework]
 tags: [spring-boot-json, spring-json, json-response, spring-json-response, 스프링-부트-json, 스프링-json-응답, json-응답]
 ---
 

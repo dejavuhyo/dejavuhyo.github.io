@@ -2,7 +2,7 @@
 title: IntelliJ 디스크에서 플러그인 설치
 author: dejavuhyo
 date: 2021-02-19 10:30:00 +0900
-categories: [DevOps, IDE]
+categories: [Application, IDE]
 tags: [intellij-plugin, install-plugin, install-plugin-disk, intellij-plugin-disk, 인텔리제이-플러그인-설치, 인텔리제이-플러그인, 플러그인-설치, 플러그인-디스크-설치]
 ---
 

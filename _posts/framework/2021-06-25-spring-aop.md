@@ -1,7 +1,7 @@
 ---
 title: Spring AOP
 date: 2021-06-25 06:00:00 +0900
-categories: [Application, Architecture]
+categories: [Application, Framework]
 tags: [spring-aop, aop, aspect-oriented-programming, 관점-지향-프로그래밍]
 ---
 

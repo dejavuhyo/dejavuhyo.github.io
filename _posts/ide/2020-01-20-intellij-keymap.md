@@ -2,7 +2,7 @@
 title: 가장 많이 사용되는 IntelliJ IDEA 단축키
 author: dejavuhyo
 date: 2020-01-20 17:00:00 +0900
-categories: [DevOps, IDE]
+categories: [Application, IDE]
 tags: [intellij-keymap, 인텔리제이-단축키, 인텔리제이-키맵]
 ---
 

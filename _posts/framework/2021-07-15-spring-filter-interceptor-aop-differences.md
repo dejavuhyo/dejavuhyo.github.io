@@ -1,7 +1,7 @@
 ---
 title: Spring Filter, Interceptor, AOP 차이
 date: 2021-07-15 03:00:00 +0900
-categories: [Application, Architecture]
+categories: [Application, Framework]
 tags: [spring-filter, spring-interceptor, spring-aop, filter, interceptor, aop, filter-interceptor-aop, 스프링-필터, 스프링-인터셉터, 스프링-aop, 필터, 인터셉터, 필터-인터셉터-aop]
 ---
 

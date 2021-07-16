@@ -2,7 +2,7 @@
 title: Spring Boot Scheduler 설정
 author: dejavuhyo
 date: 2020-10-27 15:40:00 +0900
-categories: [Application, Architecture]
+categories: [Application, Framework]
 tags: [scheduler, spring-boot-scheduler, 스프링부트-스케쥴러, 스케쥴러]
 ---
 

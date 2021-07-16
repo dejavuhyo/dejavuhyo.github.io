@@ -2,7 +2,7 @@
 title: Spring Boot에서 비동기 처리 및 적용
 author: dejavuhyo
 date: 2020-03-04 13:10:00 +0900
-categories: [Application, Architecture]
+categories: [Application, Framework]
 tags: [spring-boot-async, async, 스프링부트-비동기, 비동기]
 ---
 

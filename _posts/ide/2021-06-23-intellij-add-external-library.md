@@ -1,7 +1,7 @@
 ---
 title: IntelliJ 외부 라이브러리 추가
 date: 2021-06-23 06:00:00 +0900
-categories: [DevOps, IDE]
+categories: [Application, IDE]
 tags: [intellij-add-external-library, intellij-external-library, add-external-library, 인텔리제이-외부-라이브러리-추가, 인텔리제이-외부-라이브러리, intellij-외부-라이브러리-추가, intellij-외부-라이브러리]
 ---
 

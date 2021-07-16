@@ -2,7 +2,7 @@
 title: Spring Boot GetMapping, PostMapping
 author: dejavuhyo
 date: 2021-03-26 06:00:00 +0900
-categories: [Application, Architecture]
+categories: [Application, Framework]
 tags: [get, post, spring-boot-get, spring-boot-post, getmapping, postmapping, get-http, post-body]
 ---
 

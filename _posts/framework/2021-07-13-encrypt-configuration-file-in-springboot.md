@@ -1,7 +1,7 @@
 ---
 title: Spring Boot 설정파일 암호화
 date: 2021-07-13 05:00:00 +0900
-categories: [Application, Architecture]
+categories: [Application, Framework]
 tags: [spring-boot-properties-encrypt, spring-boot-yml-encrypt, properties-encrypt, yml-encrypt, jasypt, java-simplified-encryption, spring-boot-설정파일-암호화, 설정파일-암호화]
 ---
 

@@ -2,7 +2,7 @@
 title: Spring Boot Logback 설정
 author: dejavuhyo
 date: 2020-10-28 13:30:00 +0900
-categories: [Application, Architecture]
+categories: [Application, Framework]
 tags: [logback, spring-boot-logback, log, 로그백, 스프링부트-로그백, 스프링부트-로그, 로그]
 ---
 

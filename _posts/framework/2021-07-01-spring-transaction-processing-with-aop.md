@@ -1,7 +1,7 @@
 ---
 title: Spring AOP를 이용한 Transaction 처리
 date: 2021-07-01 06:00:00 +0900
-categories: [Application, Architecture]
+categories: [Application, Framework]
 tags: [spring-aop-transaction, aop-transaction, spring-transaction, spring-aop, 스프링-트랜잭션, 스프링-aop, aop-트랜잭션]
 ---
 

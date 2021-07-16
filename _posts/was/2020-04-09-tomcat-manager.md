@@ -2,7 +2,7 @@
 title: Tomcat Manager 설정 (403 Access Denied)
 author: dejavuhyo
 date: 2020-04-09 13:00:00 +0900
-categories: [Application, WAS]
+categories: [DevOps, WAS]
 tags: [tomcat-manager, tomcat-403, tomcat-access-denied, tomcat-403-error]
 ---
 
