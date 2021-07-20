@@ -1,7 +1,7 @@
 ---
 title: 무중단 배포 아키텍처
 date: 2021-07-20 06:00:00 +0900
-categories: [DevOps, Architecture]
+categories: [Application, Architecture]
 tags: [zero-downtime-deployment, rolling-deployment, blue-green-deployment, canary-deployment, 무중단-배포, 롤링-배포, 블루-그린-배포, 카나리-배포]
 ---
 
