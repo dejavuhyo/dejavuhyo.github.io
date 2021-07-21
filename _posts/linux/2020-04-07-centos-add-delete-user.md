@@ -2,7 +2,7 @@
 title: CentOS 계정 생성 및 삭제
 author: dejavuhyo
 date: 2020-04-07 13:00:00 +0900
-categories: [OS, Linux]
+categories: [DevOps, Linux]
 tags: [centos-add-user, centos-delete-user, centos-계정-추가, centos-계정-삭제]
 ---
 

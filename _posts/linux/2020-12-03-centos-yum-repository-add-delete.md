@@ -2,7 +2,7 @@
 title: CentOS Yum Repository 추가 및 삭제
 author: dejavuhyo
 date: 2020-12-03 10:33:00 +0900
-categories: [OS, Linux]
+categories: [DevOps, Linux]
 tags: [yum-repository, yum-repository-add, yum-repository-delete, centos-yum, centos-yum-repository, yum-repository-추가, yum-repository-삭제]
 ---
 

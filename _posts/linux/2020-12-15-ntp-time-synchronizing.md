@@ -2,7 +2,7 @@
 title: NTP를 이용한 시간 동기화
 author: dejavuhyo
 date: 2020-12-15 09:10:00 +0900
-categories: [OS, Linux]
+categories: [DevOps, Linux]
 tags: [ntp, chrony-time-synchronizing, time-synchronizing, 시간-동기화, ntp-시간-동기화]
 ---
 

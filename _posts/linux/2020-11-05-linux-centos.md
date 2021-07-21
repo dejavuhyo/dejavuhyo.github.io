@@ -2,7 +2,7 @@
 title: Red Hat Linux와 CentOS
 author: dejavuhyo
 date: 2020-11-05 11:30:00 +0900
-categories: [OS, Linux]
+categories: [DevOps, Linux]
 tags: [red-hat-linux, rhel, linux, centos, linux-centos]
 ---
 

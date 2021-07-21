@@ -2,7 +2,7 @@
 title: CentOS 방화벽(firewall) 설정
 author: dejavuhyo
 date: 2020-04-13 11:00:00 +0900
-categories: [OS, Linux]
+categories: [DevOps, Linux]
 tags: [centos-firewall, firewall-setting, firewall, centos-방화벽, 방화벽-설정]
 ---
 

@@ -2,7 +2,7 @@
 title: Linux Nano 에디터 단축키
 author: dejavuhyo
 date: 2021-02-26 06:10:00 +0900
-categories: [OS, Linux]
+categories: [DevOps, Linux]
 tags: [nano-editor, linux-nano, nano-keymap, linux-nano-keymap, 나노-에디터, 리눅스-나노, 나노-키캡, 리눅스-나노-키맵]
 ---
 

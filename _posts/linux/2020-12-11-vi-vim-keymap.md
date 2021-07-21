@@ -2,7 +2,7 @@
 title: vi, vim 편집기 명령어
 author: dejavuhyo
 date: 2020-12-11 09:30:00 +0900
-categories: [OS, Linux]
+categories: [DevOps, Linux]
 tags: [vi-keymap, vim-keymap, visual-editor, keymap, vi-단축키, vim-단축키]
 ---
 

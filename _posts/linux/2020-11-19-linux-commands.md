@@ -2,7 +2,7 @@
 title: Linux 명령어
 author: dejavuhyo
 date: 2020-11-19 14:15:00 +0900
-categories: [OS, Linux]
+categories: [DevOps, Linux]
 tags: [linux-commands, commands, 리눅스-명령어, 명령어]
 ---
 

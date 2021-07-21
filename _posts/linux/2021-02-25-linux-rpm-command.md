@@ -2,7 +2,7 @@
 title: Linux rpm 명령어
 author: dejavuhyo
 date: 2021-02-25 06:10:00 +0900
-categories: [OS, Linux]
+categories: [DevOps, Linux]
 tags: [rpm, linux-rpm, rpm-command, rpm-명령어, 리눅스-rpm, 리눅스-rpm-명령어]
 ---
 

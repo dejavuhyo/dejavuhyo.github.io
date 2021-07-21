@@ -1,7 +1,7 @@
 ---
 title: CentOS Linux 대안
 date: 2021-07-19 06:00:00 +0900
-categories: [OS, Linux]
+categories: [DevOps, Linux]
 tags: [centos-linux-alternative, centos-alternative, centos-linux-대안, centos-대안]
 ---
 
