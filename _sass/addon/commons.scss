@@ -107,6 +107,7 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 blockquote {
@@ -229,7 +230,7 @@ footer {
 
     @extend %no-bottom-border;
 
-    color: #6c757d;
+    color: inherit;
   }
 
 }
@@ -357,16 +358,13 @@ footer {
 }
 
 .post-content {
+  font-size: 1.08rem;
   line-height: 1.8;
   margin-top: 2rem;
   overflow-wrap: break-word;
   word-wrap: break-word;
 
-  img[data-src] {
-    margin: 0.5rem 0;
-  }
-
-  @mixin img-caption {
+  @mixin caption {
     + em {
       display: block;
       text-align: center;
@@ -377,24 +375,34 @@ footer {
     }
   }
 
-  @mixin img($caption: false) {
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
 
-    > img[data-src] {
-      @if $caption {
-        @include img-caption;
-      }
+  img[data-src] {
+    margin: 0.5rem 0;
 
-      &.left {
-        float: left;
-        margin: 0.75rem 1rem 1rem 0;
-      }
-
-      &.right {
-        float: right;
-        margin: 0.75rem 0 1rem 1rem;
-      }
-
+    &[data-loaded=true] {
+      animation: fade-in linear .5s;
     }
+
+    &.left {
+      float: left;
+      margin: 0.75rem 1rem 1rem 0;
+    }
+
+    &.right {
+      float: right;
+      margin: 0.75rem 0 1rem 1rem;
+    }
+
+    &.shadow {
+      filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.08));
+    }
+
+    @include caption;
+
   }
 
   a {
@@ -402,7 +410,7 @@ footer {
       color: var(--link-color);
     }
 
-    &:not(.img-hyperlink) {
+    &:not(.img-link) {
       @extend %link-color;
       @extend %link-underline;
       &:hover {
@@ -410,23 +418,19 @@ footer {
       }
     }
 
-    &.img-hyperlink {
-      @include img;
-      @include img-caption;
+    &.popup { // created by `_includes/img-extra.html`
+      cursor: zoom-in;
+
+      > img[data-src]:not(.normal):not(.left):not(.right) {
+        @include align-center;
+      }
     }
-  }
 
-  > p {
-    > img[data-src]:not(.normal):not(.left):not(.right) {
-      @include align-center;
+    &.img-link {
+      @include caption;
     }
-  }
 
-  p {
-    @include img(true);
-
-    font-size: 1.08rem;
-  }
+  } // a
 
   ul {
     // attribute 'hide-bullet' was added by liquid
@@ -585,9 +589,21 @@ footer {
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
-/* --- sidebar layout --- */
+/* --- Overriding --- */
 
-$tab-count: 5 !default;
+// magnific-popup
+figure .mfp-title {
+  text-align: center;
+  padding-right: 0;
+  margin-top: 0.5rem;
+}
+
+// mermaid
+.mermaid {
+  text-align: center;
+}
+
+/* --- sidebar layout --- */
 
 $sidebar-display: "sidebar-display";
 
@@ -599,9 +615,18 @@ $sidebar-display: "sidebar-display";
   left: 0;
   height: 100%;
   overflow-y: auto;
-  width: $sidebar-width-medium;
+  width: $sidebar-width;
   z-index: 99;
   background: var(--sidebar-bg);
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 
   a {
     @include sidebar-links;
@@ -699,7 +724,6 @@ $sidebar-display: "sidebar-display";
       width: 100%;
 
       &:last-child {
-        $cursor-width: 3px;
 
         a {
           position: relative;
@@ -729,12 +753,12 @@ $sidebar-display: "sidebar-display";
 
     @for $i from 1 through $tab-count {
       $offset: $tab-count - $i;
-      $top: -$offset * $tab-height + $tab-cursor-height / 2;
+      $top: -$offset * $tab-height + ($tab-height - $tab-cursor-height) / 2;
 
       @if $i < $tab-count {
         > li.active:nth-child(#{$i}),
         > li.nav-item:nth-child(#{$i}):hover {
-          ~li:last-child::after {
+          ~ li:last-child::after {
             @include fix-cursor($top);
           }
         }
@@ -828,7 +852,7 @@ $sidebar-display: "sidebar-display";
   height: $topbar-height;
   position: fixed;
   top: 0;
-  left: 260px; /* same as sidebar width */
+  left: $sidebar-width; /* same as sidebar width */
   right: 0;
   transition: top 0.2s ease-in-out;
   z-index: 50;
@@ -869,7 +893,7 @@ $sidebar-display: "sidebar-display";
 
 #search-wrapper {
   display: flex;
-  width: 95%;
+  width: 85%;
   border-radius: 1rem;
   border: 1px solid var(--search-wrapper-bg);
   background: var(--search-wrapper-bg);
@@ -896,7 +920,6 @@ $sidebar-display: "sidebar-display";
   border-radius: 0;
   padding: 0.18rem 0.3rem;
   color: var(--text-color);
-  font-size: 95%;
 
   &:focus {
     box-shadow: none;
@@ -1062,11 +1085,18 @@ $sidebar-display: "sidebar-display";
   -webkit-transform: translate3d(0, -5px, 0);
 }
 
-/* --- Responsive Design --- */
+/*
+  Responsive Design:
+
+ {sidebar, content, panel} >= 1120px screen width
+ {sidebar, content} >= 850px screen width
+ {content} <= 849px screen width
+
+*/
 
 @media all and (max-width: 576px) {
 
-  $footer-height: 6rem; // overwrite
+  $footer-height: $footer-height-mobile; // overwrite
 
   #main > div.row:first-child > div:first-child {
     min-height: calc(100vh - #{$topbar-height} - #{$footer-height});
@@ -1112,8 +1142,8 @@ $sidebar-display: "sidebar-display";
 
 }
 
-/* Hide Sidebar and TOC */
-@media all and (max-width: 830px) {
+/* hide sidebar and panel */
+@media all and (max-width: 849px) {
   %slide {
     -webkit-transition: transform 0.4s ease;
     transition: transform 0.4s ease;
@@ -1140,7 +1170,7 @@ $sidebar-display: "sidebar-display";
 
     #topbar-wrapper,
     #main-wrapper {
-      transform: translateX(#{$sidebar-width-medium});
+      transform: translateX(#{$sidebar-width});
     }
 
   }
@@ -1148,8 +1178,8 @@ $sidebar-display: "sidebar-display";
   #sidebar {
     @extend %slide;
 
-    transform: translateX(-#{$sidebar-width-medium}); // hide
-    -webkit-transform: translateX(-#{$sidebar-width-medium});
+    transform: translateX(-#{$sidebar-width}); // hide
+    -webkit-transform: translateX(-#{$sidebar-width});
 
     .cursor {
       -webkit-transition: none;
@@ -1230,23 +1260,24 @@ $sidebar-display: "sidebar-display";
     }
   }
 
-}
+} // max-width: 849px
 
+/* Phone & Pad */
 @media all and (min-width: 577px) and (max-width: 1199px) {
   footer > .d-flex > div {
     width: 312px;
   }
 }
 
-/* Sidebar visible */
-@media all and (min-width: 831px) {
+/* Sidebar is visible */
+@media all and (min-width: 850px) {
   /* Solved jumping scrollbar */
   html {
     overflow-y: scroll;
   }
 
   #main-wrapper {
-    margin-left: $sidebar-width-medium;
+    margin-left: $sidebar-width;
   }
 
   .profile-wrapper {
@@ -1286,9 +1317,9 @@ $sidebar-display: "sidebar-display";
 
 }
 
-/* iPad 9.7" horizontal */
-@media all and (min-width: 992px) and (max-width: 1024px) {
-  #main-wrapper .col-lg-11 {
+/* Pad horizontal */
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  #main .col-lg-11 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 96%;
     flex: 0 0 96%;
@@ -1296,11 +1327,17 @@ $sidebar-display: "sidebar-display";
   }
 }
 
-/* Compact icons in sidebar & TOC hidden */
-@media all and (min-width: 832px) and (max-width: 1199px) {
+/* Compact icons in sidebar & panel hidden */
+@media all and (min-width: 850px) and (max-width: 1199px) {
 
   #sidebar {
     width: $sidebar-width-small;
+
+    .site-subtitle {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+
     .sidebar-bottom {
       a,
       span {
@@ -1345,7 +1382,7 @@ $sidebar-display: "sidebar-display";
 
 }
 
-/* Pannel hidden */
+/* panel hidden */
 @media all and (max-width: 1199px) {
   #panel-wrapper {
     display: none;
@@ -1407,7 +1444,7 @@ $sidebar-display: "sidebar-display";
     }
   }
 
-  .post-content p {
+  .post-content {
     font-size: 1.03rem;
   }
 
@@ -1600,7 +1637,7 @@ $sidebar-display: "sidebar-display";
   } // #sidebar
 
   footer > div.d-flex {
-    width: 87%;
+    width: 92%;
     max-width: 1140px;
   }
 

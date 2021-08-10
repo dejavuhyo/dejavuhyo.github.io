@@ -11,7 +11,7 @@ layout: compress
   {% endif %}
 {% endcapture %}
 
-<html lang="{{ site.lang | default: "en-US" }}" {{ prefer_mode }}>
+<html lang="{{ site.lang | default: 'en' }}" {{ prefer_mode }}>
 
   {% include head.html %}
 
@@ -45,6 +45,8 @@ layout: compress
     </a>
 
     {% include search-loader.html %}
+
+    {% include js-selector.html %}
 
   </body>
 

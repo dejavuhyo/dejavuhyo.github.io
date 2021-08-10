@@ -23,23 +23,11 @@
   padding-right: $pr;
 }
 
-.timeago::before {
-  content: attr(prefix);
-}
-
 #post-wrapper .post-meta {
   > div:nth-child(2) {
     > span:not(:first-child)::before {
       @include dot;
     }
-  }
-
-  #pv::after {
-    content: " views";
-  }
-
-  .readtime::after {
-    content: " read";
   }
 }
 
@@ -155,6 +143,10 @@
   line-height: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+
+  &.nav-link:not(.active) {
+    color: inherit;
+  }
 }
 
 /* --- Related Posts --- */
