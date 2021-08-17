@@ -24,7 +24,7 @@ order: 4
 
 ## Skill
 
-#### Language
+#### ▶ Language
 
 <div align="left">
     <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
@@ -34,7 +34,7 @@ order: 4
     <img src="https://img.shields.io/badge/AutoHotkey-334455?style=for-the-badge&logo=autohotkey&logoColor=white"/>
 </div>
 
-#### OS
+#### ▶ OS
 
 <div align="left">
     <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=white"/>
@@ -42,7 +42,7 @@ order: 4
     <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
 </div>
 
-#### Framework
+#### ▶ Framework
 
 <div align="left">
     <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
@@ -51,7 +51,7 @@ order: 4
     <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white"/>
 </div>
 
-#### Database
+#### ▶ Database
 
 <div align="left">
     <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
@@ -60,19 +60,18 @@ order: 4
     <img src="https://img.shields.io/badge/KnowledgeBase-3E8DCC?style=for-the-badge&logo=knowledgebase&logoColor=white"/>
 </div>
 
-#### Applicaions
+#### ▶ Applications
 
 <div align="left">
     <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
     <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
     <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white"/>
     <img src="https://img.shields.io/badge/Eclipse%20Mosquitto-3C5280?style=for-the-badge&logo=eclipsemosquitto&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Semantic%20Web-005A9C?style=for-the-badge&logo=semanticweb&logoColor=white"/>
-    <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white"/>
     <img src="https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Semantic%20Web-005A9C?style=for-the-badge&logo=semanticweb&logoColor=white"/>
 </div>
 
-#### SCM
+#### ▶ SCM
 
 <div align="left">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
@@ -80,7 +79,7 @@ order: 4
     <img src="https://img.shields.io/badge/Subversion-809CC9?style=for-the-badge&logo=subversion&logoColor=white"/>
 </div>
 
-#### IDE
+#### ▶ IDE
 
 <div align="left">
     <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white"/>
