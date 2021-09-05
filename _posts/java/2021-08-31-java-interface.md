@@ -1,6 +1,6 @@
 ---
 title: Java 인터페이스
-date: 2021-08-30 06:00:00 +0900
+date: 2021-08-31 06:00:00 +0900
 categories: [Language, Java]
 tags: [java-interface, interface, 자바-인터페이스, 인터페이스]
 ---
