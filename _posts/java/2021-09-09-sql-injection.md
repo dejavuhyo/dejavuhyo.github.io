@@ -48,7 +48,6 @@ try {
     stmt.setString(1, tableName);
     stmt.setString(2, name);
     rs = stmt.executeQuery();
-    ... ...
 } catch (SQLException sqle) {
 } finally {
 }
