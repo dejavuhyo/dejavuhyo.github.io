@@ -16,7 +16,7 @@ ROWNUM 값이 할당되는 방법은 쿼리의 조건절이 처리되고 난 이
 ## 2. 활용
 
 ```sql
-sql> SELECT (row_numver() over()) AS rownum, id, title FROM board;
+sql> SELECT (row_number() over()) AS rownum, id, title FROM board;
 
 +--------+----+-------+
 | rownum | id | title |
