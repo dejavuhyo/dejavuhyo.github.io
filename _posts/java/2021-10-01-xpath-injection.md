@@ -8,7 +8,7 @@ tags: [xpath-injection, xpath-삽입]
 ## 1. 정의
 외부 입력값을 적절한 검사과정 없이 XPath 쿼리문 생성을 위한 문자열로 사용하면, 공격자는 프로그래머가 의도하지 않았던 문자열을 전달하여 쿼리문의 의미를 왜곡시키거나 그 구조를 변경하고 임의의 쿼리를 샐행하여 인가되지 않은 데이터를 열람할 수 있다.
 
-![xpath](/assets/img/2021-10-01-xpath-injection/xpath.png)
+![xpath-injection](/assets/img/2021-10-01-xpath-injection/xpath-injection.png)
 
 ## 2. 안전한 코딩 기법
 
