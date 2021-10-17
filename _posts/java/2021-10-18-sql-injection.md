@@ -59,16 +59,16 @@ public class ContactItem implements ContactDAO {
             String fileName = "contacts.txt";
             FileInputStream in = new FileInputStream(fileName);
             props.load(in);
-            // 􁹦􁕮􁁊􀀁􁕮􂤞􀀁􁽳􁀓􁼲􀀁􁐉􀪂􀫒.
+            // 외부 입력값을 받는다.
             name = props.getProperty("name");
-            // 􁽳􁀓􀐀􁼲􀀁􁿾􀑮􂵊􀫒.
+            // 입력값을 검사한다.
             if (name == null || "".equals(name)) return null;
             query += " where name = ?";
         }
         catch (IOException e) {}
 
         javax.jdo.Query q = pm.newQuery(query);
-        // Query API􁽆􀀁􁽦􁽾􁁊􀀁􁢚􁺗􂵊􀫒.
+        // Query 문을 작성한다.
         return (List<Contact>) q.execute(name);
     }
 }
