@@ -36,7 +36,7 @@ Caused by: javax.net.ssl.SSLHandshakeException: No appropriate protocol (protoco
 ## 2. 해결 방법
 TLSv1.2를 추가 한다.
 
-### 1) Java
+### 1) Java 설정 사용시
 
 ```java
 Properties props = System.getProperties();
@@ -47,7 +47,7 @@ props.put("mail.smtp.port", "587");
 props.put("mail.smtp.ssl.protocols", "TLSv1.2");
 ```
 
-### 2) XML
+### 2) XML 설정 사용시
 
 ```xml
 <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
