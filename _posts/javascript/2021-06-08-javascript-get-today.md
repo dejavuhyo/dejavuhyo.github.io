@@ -1,5 +1,6 @@
 ---
 title: JavaScript 날짜, 시간, 요일 구하기
+author: dejavuhyo
 date: 2021-06-08 06:00:00 +0900
 categories: [Language, JavaScript]
 tags: [javascript-today, javascript-오늘, javascript-오늘-날짜]
