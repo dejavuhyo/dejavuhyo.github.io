@@ -1,5 +1,6 @@
 ---
 title: HTTP 응답 분할
+author: dejavuhyo
 date: 2021-10-12 06:00:00 +0900
 categories: [Language, Java]
 tags: [http-response-splitting, http-응답-분할]
