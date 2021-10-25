@@ -1,5 +1,6 @@
 ---
 title: Java StringBuffer 초기화 방법
+author: dejavuhyo
 date: 2021-07-28 06:00:00 +0900
 categories: [Language, Java]
 tags: [java-stringbuffer-clear, stringbuffer-clear, 자바-stringbuffer-초기화, stringbuffer-초기화, stringbuffer-비우기]
