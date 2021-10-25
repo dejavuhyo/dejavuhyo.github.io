@@ -1,5 +1,6 @@
 ---
 title: MariaDB 소수점 함수
+author: dejavuhyo
 date: 2021-06-18 06:00:00 +0900
 categories: [Database, MySQL]
 tags: [mariadb-decimal-function, decimal-function, mariadb-ceiling, mariadb-floor, mariadb-round, mariadb-truncate, mariadb-소수점-함수, 소수점-함수, mariadb-절대값, mariadb-올림, mariadb-버림, mariadb-반올림]
