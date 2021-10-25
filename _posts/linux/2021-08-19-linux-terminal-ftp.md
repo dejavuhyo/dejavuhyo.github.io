@@ -1,5 +1,6 @@
 ---
 title: Linux 터미널 FTP
+author: dejavuhyo
 date: 2021-08-19 06:00:00 +0900
 categories: [DevOps, Linux]
 tags: [linux-terminal-ftp, linux-ftp, terminal-ftp, 리눅스-터미널-ftp, 터미널-ftp, 리눅스-ftp]
