@@ -1,5 +1,6 @@
 ---
 title: Java Thread Join
+author: dejavuhyo
 date: 2021-07-07 06:00:00 +0900
 categories: [Language, Java]
 tags: [thread-join, java-thread-join, 스레드-조인, 자바-스레드-조인, 스레드-상태제어]
