@@ -1,5 +1,6 @@
 ---
 title: Java Garbage Collection
+author: dejavuhyo
 date: 2021-07-30 06:00:00 +0900
 categories: [Language, Java]
 tags: [java-garbage-collection, garbage-collection, garbage-collectors, 자바-가비지-컬렉션, 가비지-컬렉션, 가비지-수집, 가비지-수집기]
