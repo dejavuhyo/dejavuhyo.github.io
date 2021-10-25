@@ -1,5 +1,6 @@
 ---
 title: MyBatis Like 검색 구문
+author: dejavuhyo
 date: 2021-06-15 06:30:00 +0900
 categories: [DevOps, MyBatis]
 tags: [mybatis-like-syntax, mybatis-like, mybatis-like-검색, mybatis-like-검색-구문]
