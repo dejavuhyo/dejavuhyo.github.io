@@ -1,5 +1,6 @@
 ---
 title: Java Client IP 가져오기
+author: dejavuhyo
 date: 2021-08-24 06:00:00 +0900
 categories: [Language, Java]
 tags: [java-client-ip, client-ip, user-ip, 클라이언트-ip, 사용자-ip, 접속자-ip]
