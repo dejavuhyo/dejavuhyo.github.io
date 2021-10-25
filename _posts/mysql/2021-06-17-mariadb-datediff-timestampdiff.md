@@ -1,5 +1,6 @@
 ---
 title: MariaDB 날짜 및 시간 차이 계산
+author: dejavuhyo
 date: 2021-06-17 06:00:00 +0900
 categories: [Database, MySQL]
 tags: [datediff, timestampdiff, datediff-timestampdiff, 날짜-차이, 시간-차이, 날짜-시간-차이]
