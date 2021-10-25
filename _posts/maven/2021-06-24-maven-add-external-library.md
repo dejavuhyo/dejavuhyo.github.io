@@ -1,5 +1,6 @@
 ---
 title: Maven 외부 라이브러리 추가
+author: dejavuhyo
 date: 2021-06-24 06:00:00 +0900
 categories: [DevOps, Maven]
 tags: [maven-add-external-library, maven-external-library, add-external-library, 메이븐-외부-라이브러리-추가, 메이븐-외부-라이브러리, maven-외부-라이브러리-추가, maven-외부-라이브러리]
