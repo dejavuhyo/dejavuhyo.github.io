@@ -1,5 +1,6 @@
 ---
 title: 시큐어 셸
+author: dejavuhyo
 date: 2021-10-19 06:00:00 +0900
 categories: [DevOps, Linux]
 tags: [secure-shell, ssh, 시큐어-셜]
