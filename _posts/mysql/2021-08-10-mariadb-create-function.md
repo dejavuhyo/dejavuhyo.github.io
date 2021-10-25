@@ -1,5 +1,6 @@
 ---
 title: MariaDB 함수 생성
+author: dejavuhyo
 date: 2021-08-10 05:30:00 +0900
 categories: [Database, MySQL]
 tags: [mariadb-create-function, create-function, mariadb-함수-생성, 함수-생성]
