@@ -1,5 +1,6 @@
 ---
 title: Git 토픽 브랜치와 통합 브랜치 작업 흐름
+author: dejavuhyo
 date: 2021-05-31 06:00:00 +0900
 categories: [DevOps, Git]
 tags: [git-branch-workflow, branch-workflow, branch-workflow, git-브랜치-작업-흐름, 깃-브랜치-작업-흐름, 브랜치-작업-흐름]
