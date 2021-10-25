@@ -1,5 +1,6 @@
 ---
 title: MariaDB 이전행, 다음행 조회
+author: dejavuhyo
 date: 2021-08-04 05:00:00 +0900
 categories: [Database, MySQL]
 tags: [mariadb-lag-lead, lag-lead, mariadb-leg, mariadb-lead, mariadb-이전행-다음행, mariadb-이전행, mariadb-다음행]
