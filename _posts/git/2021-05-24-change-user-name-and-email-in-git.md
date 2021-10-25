@@ -1,5 +1,6 @@
 ---
 title: Git 사용자 name과 email 변경
+author: dejavuhyo
 date: 2021-05-24 06:00:00 +0900
 categories: [DevOps, Git]
 tags: [git-user-change-name, git-user-change-email, git-config, 깃-사용자-이름-변경, 깃-사용자-이메일-변경, 깃-설정]
