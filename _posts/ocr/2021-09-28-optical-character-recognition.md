@@ -1,5 +1,6 @@
 ---
 title: 광학 문자 인식
+author: dejavuhyo
 date: 2021-09-28 06:00:00 +0900
 categories: [DevOps, OCR]
 tags: [ocr, optical-character-recognition, 광학-문자-인식, 문자-인식]
