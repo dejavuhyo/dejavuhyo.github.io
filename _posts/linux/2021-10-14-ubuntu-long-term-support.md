@@ -1,5 +1,6 @@
 ---
 title: 우분투 장기 지원 버전
+author: dejavuhyo
 date: 2021-10-14 06:00:00 +0900
 categories: [DevOps, Linux]
 tags: [lts, long-term-support, ubuntu-lts, 장기-지원-버전, 우분투-lts]
