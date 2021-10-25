@@ -1,5 +1,6 @@
 ---
 title: XPath 삽입
+author: dejavuhyo
 date: 2021-10-01 06:00:00 +0900
 categories: [Language, Java]
 tags: [xpath-injection, xpath-삽입]
