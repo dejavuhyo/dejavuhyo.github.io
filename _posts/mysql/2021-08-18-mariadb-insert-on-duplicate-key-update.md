@@ -1,5 +1,6 @@
 ---
 title: MariaDB INSERT 데이터 중복 시 UPDATE
+author: dejavuhyo
 date: 2021-08-18 06:00:00 +0900
 categories: [Database, MySQL]
 tags: [mariadb-insert-on-duplicate-key-update, insert-on-duplicate-key-update, mariadb-insert-update, insert-update, mariadb-insert-데이터-중복-update, insert-데이터-중복-update]
