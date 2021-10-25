@@ -1,5 +1,6 @@
 ---
 title: Java Thread
+author: dejavuhyo
 date: 2021-07-06 06:00:00 +0900
 categories: [Language, Java]
 tags: [thread, java-thread, 스레드, 자바-스레드]
