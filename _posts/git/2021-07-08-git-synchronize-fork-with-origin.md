@@ -1,5 +1,6 @@
 ---
 title: Git 포크 저장소와 원본 저장소 동기화
+author: dejavuhyo
 date: 2021-07-08 05:00:00 +0900
 categories: [DevOps, Git]
 tags: [git-sync, git-synchronize-fork-with-origin, synchronize-fork-with-origin, git-fork-origin, 포크-저장소-원본 저장소-동기화, git-동기화]
