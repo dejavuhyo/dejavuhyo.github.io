@@ -1,5 +1,6 @@
 ---
 title: Linux 네트워크 상태 확인
+author: dejavuhyo
 date: 2021-08-26 06:00:00 +0900
 categories: [DevOps, Linux]
 tags: [linus-netstat, netstat, 리눅스-netstat, 리눅스-네트워크-상태, 네트워크-상태]
