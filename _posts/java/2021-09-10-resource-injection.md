@@ -1,5 +1,6 @@
 ---
 title: 자원 삽입
+author: dejavuhyo
 date: 2021-09-10 06:00:00 +0900
 categories: [Language, Java]
 tags: [resource-injection, 자원-삽입]
