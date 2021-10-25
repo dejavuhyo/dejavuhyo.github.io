@@ -1,5 +1,6 @@
 ---
 title: Git 브랜치
+author: dejavuhyo
 date: 2021-05-25 06:00:00 +0900
 categories: [DevOps, Git]
 tags: [git-branch, branch, git-브랜치, 깃-브랜치, 브랜치]
