@@ -1,5 +1,6 @@
 ---
 title: CentOS 7 Nginx 설치
+author: dejavuhyo
 date: 2021-08-25 06:00:00 +0900
 categories: [DevOps, WAS]
 tags: [centos-nginx-install, nginx-install, centos-nginx, nginx-설치, centos-nginx-설치]
