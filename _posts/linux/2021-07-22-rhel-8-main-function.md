@@ -1,5 +1,6 @@
 ---
 title: Red Hat Enterprise Linux 8 주요 기능
+author: dejavuhyo
 date: 2021-07-22 06:00:00 +0900
 categories: [DevOps, Linux]
 tags: [red-hat-enterprise-linux-8-main-function, rhel-8-main-function, rhel-8-function, red-hat-enterprise-linux-8-주요-기능, rhel-8-주요-기능, rhel-8-기능]
