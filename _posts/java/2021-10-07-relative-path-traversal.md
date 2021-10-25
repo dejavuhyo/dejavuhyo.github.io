@@ -1,5 +1,6 @@
 ---
 title: 상대 디렉터리 경로 조작
+author: dejavuhyo
 date: 2021-10-07 08:30:00 +0900
 categories: [Language, Java]
 tags: [relative-path-traversal, path-traversal, 상대-디렉터리-경로-조작, 디렉터리-경로-조작]
