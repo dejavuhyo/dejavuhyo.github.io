@@ -1,5 +1,6 @@
 ---
 title: Spring IoC
+author: dejavuhyo
 date: 2021-06-28 06:00:00 +0900
 categories: [Application, Framework]
 tags: [inversion-of-control, ioc, spring-ioc, 제어의-역전, spring-제어의-역전]
