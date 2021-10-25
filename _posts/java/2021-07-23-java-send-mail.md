@@ -1,5 +1,6 @@
 ---
 title: Java 메일 발송
+author: dejavuhyo
 date: 2021-07-23 06:00:00 +0900
 categories: [Language, Java]
 tags: [java-send-mail, java-mail, java-smtp, smtp, 자바-메일-발송, 자바-메일, 자바-smtp]
