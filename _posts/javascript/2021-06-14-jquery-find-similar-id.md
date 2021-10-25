@@ -1,5 +1,6 @@
 ---
 title: jQuery 비슷한 ID 찾기
+author: dejavuhyo
 date: 2021-06-14 06:00:00 +0900
 categories: [Language, JavaScript]
 tags: [jquery-find-similar-id, find-similar-id, jquery-비슷한-id-찾기, 비슷한-id-찾기]
