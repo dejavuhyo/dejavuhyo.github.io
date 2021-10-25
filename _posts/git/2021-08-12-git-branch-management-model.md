@@ -1,5 +1,6 @@
 ---
 title: Git branch 관리 Model
+author: dejavuhyo
 date: 2021-08-12 06:00:00 +0900
 categories: [DevOps, Git]
 tags: [git-branch, git-branch-management, git-branch, git-branch-관리-model, git-branch-관리, git-branch-관리-모델, git-branch-관리, git-branch-규칙]
