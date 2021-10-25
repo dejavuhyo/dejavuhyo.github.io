@@ -1,5 +1,6 @@
 ---
 title: Java 메일 발송 TLS 오류
+author: dejavuhyo
 date: 2021-10-21 06:00:00 +0900
 categories: [Language, Java]
 tags: [java-send-mail-error, java-mail-error, could-not-convert-socket-to-tls, tsl-error, java-메일-발송-오류, tls-오류]
