@@ -1,5 +1,6 @@
 ---
 title: Oracle Data Pump
+author: dejavuhyo
 date: 2021-08-20 06:00:00 +0900
 categories: [Database, Oracle]
 tags: [oracle-data-pump, data-pump, oracle-pump, oracle-expdp, oracle-impdb, expdp, impdb, 오라클-데이터-펌프, 오라클-펌프, 데이터-펌프]
