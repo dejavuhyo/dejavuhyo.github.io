@@ -1,5 +1,6 @@
 ---
 title: Spring Bean
+author: dejavuhyo
 date: 2021-08-06 06:00:00 +0900
 categories: [Application, Framework]
 tags: [spring-bean, bean, 스프링-bean, 스프링-빈]
