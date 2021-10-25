@@ -1,5 +1,6 @@
 ---
 title: JavaScript 날짜 더하기, 빼기
+author: dejavuhyo
 date: 2021-06-09 06:00:00 +0900
 categories: [Language, JavaScript]
 tags: [javascript-date-add-minus, javascript-date-add, javascript-date-minus, 자바스크립트-날짜-더하기-빼기, 자바스크립트-날짜-더하기, 자바스크립트-날짜-빼기]
