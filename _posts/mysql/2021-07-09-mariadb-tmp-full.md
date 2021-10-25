@@ -1,5 +1,6 @@
 ---
 title: MariaDB tmp full 해결방법
+author: dejavuhyo
 date: 2021-07-09 05:00:00 +0900
 categories: [Database, MySQL]
 tags: [mariadb-tmp-full, tmp-full, errcode-28, mariadb-errcode-28]
