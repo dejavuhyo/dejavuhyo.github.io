@@ -1,5 +1,6 @@
 ---
 title: SQL 삽입공격
+author: dejavuhyo
 date: 2021-10-18 06:00:00 +0900
 categories: [Language, Java]
 tags: [sql-injection, java-data-objects, sql-삽입공격]
