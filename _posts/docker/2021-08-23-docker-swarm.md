@@ -1,5 +1,6 @@
 ---
 title: Docker Swarm
+author: dejavuhyo
 date: 2021-08-23 06:00:00 +0900
 categories: [DevOps, Docker]
 tags: [docker-swarm, docker-swarm-mode, swarm, 도커-스웜, 도커-스웜-모드, 스웜]
