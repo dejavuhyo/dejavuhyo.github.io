@@ -1,5 +1,6 @@
 ---
 title: Spring JNDI
+author: dejavuhyo
 date: 2021-07-02 06:00:00 +0900
 categories: [Application, Framework]
 tags: [spring-jndi, jndi, java-naming-and-directory-interface, tomcat-datasource, 스프링-jndi]
