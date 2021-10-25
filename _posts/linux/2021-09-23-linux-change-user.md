@@ -1,5 +1,6 @@
 ---
 title: 리눅스 사용자 변경
+author: dejavuhyo
 date: 2021-09-23 06:00:00 +0900
 categories: [DevOps, Linux]
 tags: [linux-change-user, change-user, 리눅스-사용자-변경, 사용자-변경]
