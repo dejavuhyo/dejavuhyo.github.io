@@ -1,5 +1,6 @@
 ---
 title: 위험한 형식 파일 업로드
+author: dejavuhyo
 date: 2021-09-16 06:00:00 +0900
 categories: [Language, Java]
 tags: [upload-dangerous-type-file, 위험한-형식-파일-업로드]
