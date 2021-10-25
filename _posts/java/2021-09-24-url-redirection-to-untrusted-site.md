@@ -1,5 +1,6 @@
 ---
 title: 신뢰되지 않은 URL 주소로 자동 접속 연결
+author: dejavuhyo
 date: 2021-09-24 06:00:00 +0900
 categories: [Language, Java]
 tags: [untrusted-url-redirection, open-redirect, 신뢰되지-않은-url-연결]
