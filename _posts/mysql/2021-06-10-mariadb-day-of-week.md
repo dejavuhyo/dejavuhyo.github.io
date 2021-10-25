@@ -1,5 +1,6 @@
 ---
 title: MariaDB 날짜로 요일 구하기
+author: dejavuhyo
 date: 2021-06-10 06:00:00 +0900
 categories: [Database, MySQL]
 tags: [mariadb-day-of-week, mariadb-week-day, sql-day-of-week, sql-week-day, mariadb-요일, sql-요일]
