@@ -1,5 +1,6 @@
 ---
 title: Linux 배포판
+author: dejavuhyo
 date: 2021-07-21 06:00:00 +0900
 categories: [DevOps, Linux]
 tags: [linux-distribution, 리눅스-배포판]
