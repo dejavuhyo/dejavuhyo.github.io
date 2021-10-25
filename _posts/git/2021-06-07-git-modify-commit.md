@@ -1,5 +1,6 @@
 ---
 title: Git 커밋 수정
+author: dejavuhyo
 date: 2021-06-07 06:20:00 +0900
 categories: [DevOps, Git]
 tags: [git-modify-commit, modify-commit, git-커밋-수정, 커밋-수정]
