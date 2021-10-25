@@ -1,5 +1,6 @@
 ---
 title: Podman 설치
+author: dejavuhyo
 date: 2021-08-09 06:00:00 +0900
 categories: [DevOps, Podman]
 tags: [podman-install, podman, 포드맨-설치, 포드맨]
