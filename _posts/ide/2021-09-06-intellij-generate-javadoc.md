@@ -1,5 +1,6 @@
 ---
 title: IntelliJ Javadoc 생성
+author: dejavuhyo
 date: 2021-09-06 06:00:00 +0900
 categories: [Application, IDE]
 tags: [intellij-javadoc, intellij-generate-javadoc, generate-javadoc, intellij-javadoc-생성, javadoc-생성]
