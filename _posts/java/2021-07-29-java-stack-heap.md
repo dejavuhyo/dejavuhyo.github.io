@@ -1,5 +1,6 @@
 ---
 title: Java Stack Memory와 Heap Space
+author: dejavuhyo
 date: 2021-07-29 06:00:00 +0900
 categories: [Language, Java]
 tags: [java-stack-memory-heap-space, stack-memory-heap-space, stack-heap, stack, heap]
