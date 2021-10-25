@@ -1,5 +1,6 @@
 ---
 title: MyBatis selectKey 컬럼 여러개
+author: dejavuhyo
 date: 2021-08-11 06:00:00 +0900
 categories: [DevOps, MyBatis]
 tags: [mybatis-multiple-selectkey, multiple-selectkey, selectkey, mybatis-selectkey-컬럼-여러개, selectkey-컬럼-여러개]
