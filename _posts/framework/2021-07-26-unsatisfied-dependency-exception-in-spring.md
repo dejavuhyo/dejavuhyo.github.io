@@ -1,5 +1,6 @@
 ---
 title: Spring에서 properties 사용시 UnsatisfiedDependencyException 해결 방법
+author: dejavuhyo
 date: 2021-07-26 06:00:00 +0900
 categories: [Application, Framework]
 tags: [unsatisfied-dependency-exception, bean-creation-exception, spring-properties, properties-exception, 스프링-properties-에러]
