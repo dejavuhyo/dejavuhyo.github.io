@@ -1,5 +1,6 @@
 ---
 title: 운영체제 명령어 삽입
+author: dejavuhyo
 date: 2021-09-15 06:00:00 +0900
 categories: [Language, Java]
 tags: [os-command-injection, 운영체제-명령어-삽입]
