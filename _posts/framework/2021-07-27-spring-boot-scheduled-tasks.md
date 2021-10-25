@@ -1,5 +1,6 @@
 ---
 title: Spring Boot 스케줄 작업
+author: dejavuhyo
 date: 2021-07-27 06:00:00 +0900
 categories: [Application, Framework]
 tags: [spring-boot-scheduled-tasks, spring-boot-scheduled, scheduled-tasks, spring-scheduled-tasks spring-boot-스케줄-작업, spring-boot-스케줄, 스케줄-작업]
