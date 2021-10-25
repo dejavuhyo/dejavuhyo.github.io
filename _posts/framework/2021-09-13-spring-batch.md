@@ -1,5 +1,6 @@
 ---
 title: Spring Batch란
+author: dejavuhyo
 date: 2021-09-13 06:00:00 +0900
 categories: [Application, Framework]
 tags: [spring-batch, 스프링-배치]
