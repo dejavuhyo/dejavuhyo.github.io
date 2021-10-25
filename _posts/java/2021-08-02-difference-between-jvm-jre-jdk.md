@@ -1,5 +1,6 @@
 ---
 title: JVM, JRE 및 JDK의 차이점
+author: dejavuhyo
 date: 2021-08-02 06:00:00 +0900
 categories: [Language, Java]
 tags: [difference-jvm-jre-jdk, jvm-jre-jdk, jvm, jre, jdk, jvm-jre-jdk-차이점]
