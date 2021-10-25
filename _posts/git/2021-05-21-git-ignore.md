@@ -1,5 +1,6 @@
 ---
 title: Git 버전 관리 무시 목록 설정
+author: dejavuhyo
 date: 2021-05-21 06:20:00 +0900
 categories: [DevOps, Git]
 tags: [git, git-ignore, ignore, 깃, 깃-무시]
