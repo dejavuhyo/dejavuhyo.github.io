@@ -1,5 +1,6 @@
 ---
 title: Git 브랜치 생성
+author: dejavuhyo
 date: 2021-05-26 06:00:00 +0900
 categories: [DevOps, Git]
 tags: [git-branch-create, branch-create, git-브랜치-생성, 깃-브랜치-생성, 브랜치-생성]
