@@ -1,5 +1,6 @@
 ---
 title: MySQL Too Many Connections 에러
+author: dejavuhyo
 date: 2021-08-03 06:00:00 +0900
 categories: [Database, MySQL]
 tags: [mysql-too-many-connections, too-many-connections, mysql-max-connections, mysql-connections, max-connections, connections]
