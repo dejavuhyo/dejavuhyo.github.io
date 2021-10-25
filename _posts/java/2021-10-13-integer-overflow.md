@@ -1,5 +1,6 @@
 ---
 title: 정수 오버플로우
+author: dejavuhyo
 date: 2021-10-13 06:00:00 +0900
 categories: [Language, Java]
 tags: [integer-overflow, wraparound, 정수-오버플로우]
