@@ -1,5 +1,6 @@
 ---
 title: Java 날짜로 요일 구하기
+author: dejavuhyo
 date: 2021-06-21 06:00:00 +0900
 categories: [Language, Java]
 tags: [java-get-day-of-week, get-day-of-week, day-of-week, 자바-요일-구하기, 요일-구하기, 요일]
