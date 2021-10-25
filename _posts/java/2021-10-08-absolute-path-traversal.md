@@ -1,5 +1,6 @@
 ---
 title: 절대 디렉터리 경로 조작
+author: dejavuhyo
 date: 2021-10-08 09:00:00 +0900
 categories: [Language, Java]
 tags: [absolute-path-traversal, path-traversal, 절대-디렉터리-경로-조작, 디렉터리-경로-조작]
