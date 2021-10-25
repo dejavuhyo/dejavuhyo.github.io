@@ -1,5 +1,6 @@
 ---
 title: Mybatis if 문에서 Integer 공백 체크
+author: dejavuhyo
 date: 2021-07-16 05:00:00 +0900
 categories: [DevOps, MyBatis]
 tags: [mybatis-if-integer-space, mybatis-if-space, mybatis-space, mybatis-integer-space, integer-space, mybatis-if문-공백, mybatis-공백, mybatis-integer-공백]
