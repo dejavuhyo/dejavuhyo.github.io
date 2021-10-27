@@ -11,7 +11,7 @@ tags: [message-data-modeling, message-modeling, message-erd, 메시지-데이터
 
 * 문서함 ERD
 
-![message-erd](/assets/img/2021-10-27-interaction-message-data-modeling/message-erd.png)
+![message-erd](/assets/img/2021-10-27-message-data-modeling/message-erd.png)
 
 > 인덱스: 사용자ID_발신, 수발신구분코드, 발신일시
 
