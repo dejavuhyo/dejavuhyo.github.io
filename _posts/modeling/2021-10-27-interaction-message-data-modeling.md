@@ -1,7 +1,7 @@
 ---
 title: 상호작용 메시지 데이터 모델링
 author: dejavuhyo
-date: 2021-10-27 09:10:00 +0900
+date: 2021-10-27 06:00:00 +0900
 categories: [Application, Modeling]
 tags: [interaction-message-modeling, interaction-message, message-modeling, message-erd, 상호작용-메시지-모델링, 상호작용-메시지, 메시지-모델링, 메시지-erd]
 ---
