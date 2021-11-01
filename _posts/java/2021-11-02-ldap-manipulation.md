@@ -21,7 +21,7 @@ LDAP 질의문이나 결과로 외부 입력이 부분적으로 적절한 처리
 ```java
 try {
     // 외부로 부터 입력을 받는다.
-    String name = props.getProperty(“ldap.properties");
+    String name = props.getProperty("ldap.properties");
     // 입력값에 대한 BasicAttribute를 생성한다.
     BasicAttribute attr = new BasicAttribute("name", name);
     // 외부 입력값이 LDAP search의 인자로 사용이 된다.
