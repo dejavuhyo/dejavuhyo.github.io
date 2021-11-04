@@ -36,7 +36,7 @@ JProfiler의 인터페이스는 다음과 같다.
 
 할당 호출 트리의 경우 라이브 개체, 가비지 수집 개체 또는 둘 다의 호출 트리를 볼 수 있다. 또한 이 할당 트리가 특정 클래스용인지, 패키지용인지, 아니면 모든 클래스용인지 결정할 수 있다.
 
-아래 화면은 인스턴스 수가 있는 모든 개체의 라이브 메모리 사용량을 보여줍니다.
+아래 화면은 인스턴스 수가 있는 모든 개체의 라이브 메모리 사용량을 보여준다.
 
 ![jprofiler-live-memory](/assets/img/2021-11-04-java-profilers/jprofiler-live-memory.png)
 
@@ -74,7 +74,7 @@ Java VisualVM의 한 가지 흥미로운 장점은 플러그인으로 새로운 
 
 Java VisualVM은 로컬 및 원격 프로파일링뿐만 아니라 메모리 및 CPU 프로파일링을 지원한다. 원격 응용 프로그램에 연결하려면 자격 증명(필요한 경우 hostname/IP 및 password)을 제공해야 하지만 ssh 터널링을 지원하지 않는다. 또한 인스턴트 업데이트를 통해 실시간 프로파일링을 사용하도록 선택할 수도 있다(일반적으로 매 2초마다).
 
-아래에서는 Java VisualVM을 사용하여 프로파일링된 Java 애플리케이션의 메모리 전망을 볼 수 있습니다.
+아래에서는 Java VisualVM을 사용하여 프로파일링된 Java 애플리케이션의 메모리 전망을 볼 수 있다.
 
 ![visualvm-sample-memory](/assets/img/2021-11-04-java-profilers/visualvm-sample-memory.png)
 
