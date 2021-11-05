@@ -57,7 +57,15 @@ $ git fetch upstream master
 $ git merge upstream/master
 ```
 
-### 4) 포크한 저장소를 Git 서버에 적용
+### 4) commit 메시지 작성
+
+* commit 메시지 작성
+
+```bash
+$ git commit -am 'commit 메시지'
+```
+
+### 5) 포크한 저장소를 Git 서버에 적용
 
 * 포크 저장소 Git 서버에 적용
 
