@@ -1,7 +1,7 @@
 ---
 title: 가비지 컬렉터 루트
 author: dejavuhyo
-date: 2021-11-08 06:00:00 +0900
+date: 2021-11-09 06:00:00 +0900
 categories: [Language, Java]
 tags: [java-gc-roots, garbage-collector-roots, garbage-collector, gc-roots, 가비지-컬렉터-루트, 가비지-컬렉터, 자바-가비지-컬렉터-루트]
 ---
