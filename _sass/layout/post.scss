@@ -139,13 +139,20 @@
   }
 }
 
-#toc li > a {
-  line-height: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+#toc li a {
+  font-size: 0.8rem;
 
   &.nav-link:not(.active) {
     color: inherit;
+  }
+
+}
+
+nav[data-toggle=toc] {
+  .nav {
+    .nav > li > a.active {
+      font-weight: 600 !important;
+    }
   }
 }
 
@@ -209,9 +216,12 @@
 
 #post-extend-wrapper {
   min-height: 2rem;
+
   #disqus_thread {
+    min-height: 7.5rem;
     margin-bottom: 2rem;
   }
+
 }
 
 .post-tail-bottom a {
@@ -240,7 +250,11 @@
       }
     }
     > i {
-      padding-top: 0.35rem;
+      position: relative;
+      bottom: 1px;
+
+      @extend %cursor-pointer;
+
       &:hover {
         @extend %btn-share-hovor;
       }
@@ -299,16 +313,6 @@
       margin-top: 1rem;
     }
   }
-
-  .post-content > div[class^='language-'] {
-    @include ml-mr(-1.25rem);
-
-    border-radius: 0;
-    &::before { // the lang badge
-      right: 1rem;
-    }
-  }
-
 }
 
 @media all and (max-width: 768px) {

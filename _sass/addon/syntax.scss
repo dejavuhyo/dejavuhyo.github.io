@@ -27,16 +27,18 @@ html[mode=dark] {
 
 /* -- Codes Snippet -- */
 
+$code-radius: 6px;
+
 %code-snippet-bg {
   background: var(--highlight-bg-color);
 }
 
 %code-snippet-radius {
-  border-radius: 6px;
+  border-radius: $code-radius;
 }
 
 %code-snippet-padding {
-  padding: 1.5rem;
+  padding: 1.2rem;
 }
 
 div > pre {
@@ -86,12 +88,10 @@ div > pre {
   }
 
   .lineno {
-    margin-left: 0.2rem;
     padding-right: 0.5rem;
     min-width: 2.2rem;
     text-align: right;
     color: var(--highlight-lineno-color);
-    border-right: 1px solid var(--highlight-lineno-border-color);
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -135,7 +135,7 @@ code {
 }
 
 td.rouge-code {
-  padding: 1.5rem 1.5rem 1.5rem 1rem;
+  padding: 1.2rem 1.5rem 1.2rem 1rem;
 
   // Prevent some browser extends from
   // changing the URL string of code block.
@@ -152,7 +152,8 @@ div {
   &[class^='highlighter-rouge'],
   &.language-plaintext.highlighter-rouge,
   &.language-console.highlighter-rouge,
-  &.language-terminal.highlighter-rouge {
+  &.language-terminal.highlighter-rouge,
+  &.nolineno {
     pre.lineno {
       display: none;
     }
@@ -162,25 +163,100 @@ div {
   }
 }
 
-div[class^='language-']::before {
-  content: attr(lang);
-  position: absolute;
-  right: 2rem;
-  margin-top: 3px;
-  font-size: 0.7rem;
-  font-weight: 600;
-  color: var(--highlight-lineno-color);
-  text-transform: uppercase;
-}
+.code-header {
+  background: var(--code-header-bg);
+  border-top-left-radius: $code-radius;
+  border-top-right-radius: $code-radius;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.85rem;
 
-@media (min-width: 768px) {
-  div[class^='language-']::before {
-    right: 3.1rem;
+  // icons
+  i {
+    font-size: 1rem;
+    color: var(--lang-badge-muted-color);
+
+    &.small {
+      font-size: 70%;
+    }
   }
+
+  // the label block
+  span {
+    padding-left: 0.35rem;
+
+    &::after {
+      content: attr(text-data);
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--lang-badge-color);
+    }
+
+    i {
+      margin: 0 0.5rem;
+    }
+
+    @at-root [file] #{&} > i {
+      position: relative;
+      top: 1px; // center the file icon
+      margin-left: 0.25rem;
+    }
+
+  }
+
+  // clipboard
+  button {
+    border: 1px solid var(--code-header-bg);
+    border-radius: $code-radius;
+    padding: 0;
+    width: 1.95rem;
+    background-color: inherit;
+
+    @extend %cursor-pointer;
+
+    &[timeout] {
+      &:hover {
+        border-color: var(--clipboard-checked-color);
+      }
+
+      i {
+        color: var(--clipboard-checked-color);
+      }
+    }
+
+    &:not([timeout]):hover {
+      background-color: rgba(128, 128, 128, 0.37);
+
+      i {
+        color: white;
+      }
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+  }
+
 }
 
-@media (min-width: 1650px) {
-  div[class^='language-']::before {
-    right: 3.5rem;
+@media all and (max-width: 576px) {
+  .post-content {
+    > div[class^='language-'] {
+      @include ml-mr(-1.25rem);
+
+      border-radius: 0;
+
+      .highlight {
+        padding-left: 0.25rem;
+      }
+
+      .code-header {
+        border-radius: 0;
+        padding-left: 0.4rem;
+        padding-right: 0.5rem;
+      }
+    }
   }
 }
