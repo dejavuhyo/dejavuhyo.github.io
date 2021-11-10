@@ -49,7 +49,7 @@ echo "Argument 4 : $4"
 
 * 실행
 
-```text
+```bash
 $chmod 755 test1
 $./test1 a1 a2 a3 a4
 This Script Executable File : ./test1
