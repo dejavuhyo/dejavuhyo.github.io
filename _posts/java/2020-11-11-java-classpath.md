@@ -20,7 +20,7 @@ tags: [java-home, java-classpath, classpath, 자바-홈, 자바-클래스패스,
 
 * 시스템 변수 → 새로 만들기
   - 변수 이름: JAVA_HOME
-  - 변수 값: C:\Program Files\Java\zulu8.50.0.21
+  - 변수 값: C:\java-11-openjdk-11.0.12.7-1
 
 ![img003](/assets/img/2020-11-11-java-classpath/img003.png)
 
