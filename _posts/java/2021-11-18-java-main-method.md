@@ -1,5 +1,5 @@
 ---
-title: Java main() 메서드
+title: Java 메인 메서드
 author: dejavuhyo
 date: 2021-11-18 09:30:00 +0900
 categories: [Language, Java]
