@@ -1,7 +1,7 @@
 ---
 title: OWL의 클래스
 author: dejavuhyo
-date: 2015-02-24 01:33:00 +0900
+date: 2015-02-24 00:33:00 +0900
 categories: [Language, Ontology]
 tags: [owl, 클래스, owl-class, owl-thing, owl-nothing, 클래스-표현, 클래스-공리]
 ---
