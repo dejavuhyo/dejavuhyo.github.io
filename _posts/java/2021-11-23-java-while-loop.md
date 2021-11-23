@@ -3,7 +3,7 @@ title: Java While Loop
 author: dejavuhyo
 date: 2021-11-23 09:30:00 +0900
 categories: [Language, Java]
-tags: [java-while-loop, while-loop, java-while, java-loop, 자바-while-loop]
+tags: [java-while-loop, while-loop, java-while, java-loop, 자바-while-loop, while-루프]
 ---
 
 ## 1. while 루프
