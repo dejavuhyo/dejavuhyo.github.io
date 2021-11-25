@@ -1,7 +1,7 @@
 ---
 title: IntelliJ SVN 계정 초기화
 author: dejavuhyo
-date: 2021-09-25 09:03:00 +0900
+date: 2021-11-25 09:30:00 +0900
 categories: [Application, IDE]
 tags: [intellij-svn-account, intellij-svn-reset, svn-reset, svn-account, reset-svn-account, intellij-svn, intellij-svn-계정-초기화, svn-계정-초기화]
 ---
