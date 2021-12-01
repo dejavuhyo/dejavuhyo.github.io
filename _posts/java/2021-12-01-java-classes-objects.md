@@ -3,7 +3,7 @@ title: Java 클래스와 객체
 author: dejavuhyo
 date: 2021-12-01 09:30:00 +0900
 categories: [Language, Java]
-tags: [java-classes-objects, classes-objects, 자바-클래스-객체, 클래스-객체]
+tags: [java-classes-objects, classes-objects, java-class, java-object, 자바-클래스-객체, 클래스-객체, 자바-클래스, 자바-객체]
 ---
 
 ## 1. 클래스와 객체
