@@ -3,7 +3,7 @@ title: Java 객체 생성 가이드
 author: dejavuhyo
 date: 2021-12-03 09:30:00 +0900
 categories: [Language, Java]
-tags: [java-initialization, initialization, 자바-객체-생성, 객체-생성, 자바-선언, 자바-선언-초기화]
+tags: [java-initialization, initialization, 자바-객체-생성, 객체-생성, 자바-선언, 자바-선언-초기화, 객체-초기화]
 ---
 
 ## 1. 선언과 초기화
