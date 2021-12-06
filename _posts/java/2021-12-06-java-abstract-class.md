@@ -3,7 +3,7 @@ title: Java Abstract 클래스
 author: dejavuhyo
 date: 2021-12-06 09:00:00 +0900
 categories: [Language, Java]
-tags: [java-abstract-class, abstract-class, 자바-추상-클래스, 추상-클래스]
+tags: [java-abstract-class, abstract-class, 자바-추상-클래스, 추상-클래스, 서브-클래스]
 ---
 
 ## 1. 추상 클래스의 핵심 개념
