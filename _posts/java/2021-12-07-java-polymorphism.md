@@ -3,7 +3,7 @@ title: Java 다형성
 author: dejavuhyo
 date: 2021-12-07 10:00:00 +0900
 categories: [Language, Java]
-tags: [java-polymorphism, Polymorphism, 자바-다형성, 다형성]
+tags: [java-polymorphism, polymorphism, 자바-다형성, 다형성]
 ---
 
 ## 1. 다형성이란
