@@ -3,7 +3,7 @@ title: Java 상속
 author: dejavuhyo
 date: 2021-12-08 10:00:00 +0900
 categories: [Language, Java]
-tags: [java-inheritance, inheritance, 자바-상속, 상속]
+tags: [java-inheritance, inheritance, 자바-상속, 상속, 클래스-상속, 다중-상속]
 ---
 
 ## 1. 상속이란
