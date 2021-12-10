@@ -14,7 +14,7 @@ tags: [mybatis-like-syntax, mybatis-like, mybatis-like-검색, mybatis-like-검�
 column like '%' || #{keyword} || '%'
 ```
 
-### 2) MySQL
+### 2) PostgreSQL, MySQL
 
 ```text
 column like CONCAT('%', #{keyword}, '%')
