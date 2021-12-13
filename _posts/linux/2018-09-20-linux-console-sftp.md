@@ -3,7 +3,7 @@ title: 리눅스 콘솔 sftp
 author: dejavuhyo
 date: 2018-09-20 11:18:00 +0900
 categories: [DevOps, Linux]
-tags: [install-jdk-linux, install-java-linux, linux-jdk, linux-java, 리눅스-jdk-설치, 리눅스-java-설치, jdk-설치, java-설치]
+tags: [linux-console-sftp, console-sftp, linux-sftp, 리눅스-콘솔-sftp, 콘솔-sftp, 리눅스-sftp]
 ---
 
 ## 1. 접속
