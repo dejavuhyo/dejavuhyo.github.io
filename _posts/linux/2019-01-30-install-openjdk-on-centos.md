@@ -10,6 +10,8 @@ tags: [centos-openjdk-install, openjdk-install, centos-java-home, centos-openjdk
 
 * CentOS 7 (VMWare)
 
+* OpenJDK 1.8
+
 ## 2. 설치된 JDK 확인
 
 ```bash
