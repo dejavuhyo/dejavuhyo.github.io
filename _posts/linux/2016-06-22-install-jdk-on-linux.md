@@ -11,7 +11,7 @@ tags: [install-jdk-linux, install-java-linux, linux-jdk, linux-java, 리눅스-j
 * jdk-6u45-linux-x64.bin
 
 ## 2. JDK 다운로드
-<http://www.oracle.com/technetwork/java/javase/archive-139210.html>
+* <http://www.oracle.com/technetwork/java/javase/archive-139210.html>
 
 ## 3. 압축 풀기
 
@@ -20,7 +20,7 @@ $ sh jdk-6u45-linux-x64.bin
 ```
 
 ## 4. 환경변수 설정
-root 계정 필요하고, 환경변수 설정은 /etc/profile 파일에 작성 한다.
+root 계정 필요하고, 환경변수 설정은 ```/etc/profile``` 파일에 작성 한다.
 
 ### 1) vi를 통해 profile 열기
 
