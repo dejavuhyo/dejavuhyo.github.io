@@ -46,7 +46,7 @@ Cannot find a valid baseurl for repo: base/7/x86_64
 ```
 
 ## 2. 해결 방법
-ONBOOT=no를 yes로 변경 후 저장
+```ONBOOT=no```를 yes로 변경 후 저장
 
 ```bash
 [root@localhost ~]# vi /etc/sysconfig/network-scripts/ifcfg-ens33
