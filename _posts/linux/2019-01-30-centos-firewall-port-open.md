@@ -8,7 +8,7 @@ tags: [centos-firewall-open, firewall-open, port-open, centos-방화벽-열기, 
 
 ## 1. 포트 열기
 
-* 예) 8080포트 열기
+* 예시: 8080포트 열기
 
 ```bash
 [root@localhost ~]# firewall-cmd --permanent --zone=public --add-port=8080/tcp
