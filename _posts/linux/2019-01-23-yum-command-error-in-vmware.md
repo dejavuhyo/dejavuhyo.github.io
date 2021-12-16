@@ -1,5 +1,5 @@
 ---
-title: VMWare에서 yum 명령어 에러 (Could not retrieve mirrorlist)
+title: VMWare에서 yum 명령어 에러
 author: dejavuhyo
 date: 2019-01-23 18:05:00 +0900
 categories: [DevOps, Linux]
@@ -7,6 +7,7 @@ tags: [yum-command-error, vmware-yum-error, could-not-retrieve-mirrorlist, vmwar
 ---
 
 ## 1. 에러 메시지
+Could not retrieve mirrorlist
 
 ```bash
 [root@localhost ~]# yum list java*jdk-devel
