@@ -3,7 +3,7 @@ title: Java Multiline String
 author: dejavuhyo
 date: 2021-12-20 12:20:00 +0900
 categories: [Language, Java]
-tags: [java-multiline-string, multiline-string, java-string, java-여러-줄-문자열, 여러-줄-문자열, java-문자열]
+tags: [java-multiline-string, multiline-string, java-string, text-blocks, java-여러-줄-문자열, 여러-줄-문자열, java-문자열, 텍스트-블록]
 ---
 
 ## 1. 여러 줄 문자열
