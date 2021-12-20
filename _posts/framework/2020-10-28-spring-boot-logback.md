@@ -70,11 +70,13 @@ Log4j를 만든 개발자 Ceki Gülcü가 Log4j를 기반으로 더 빠른 속�
 * **TRACE:** 추적 레벨은 Debug보다 훨씬 상세한 정보를 나타낸다.
 
 ## 3. 적용
-Spring Boot 구동 시 자동으로 logback-spring.xml 파일이 있는지 탐색하고 logback 설정을 적용한다.
+spring-boot-starter-web 안에 spring-boot-starter-logging에 구현체가 있다.
 
-* **경로:** src/main/resources/logback-spring.xml
+Spring Boot 구동 시 자동으로 ```logback.xml``` 파일이 있는지 탐색하고 logback 설정을 적용한다.
 
-* logback-spring.xml
+* **경로:** src/main/resources/logback.xml
+
+* logback.xml
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
