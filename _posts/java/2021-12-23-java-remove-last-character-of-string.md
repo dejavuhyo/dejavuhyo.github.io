@@ -3,7 +3,7 @@ title: 문자열의 마지막 문자 제거
 author: dejavuhyo
 date: 2021-12-23 09:30:00 +0900
 categories: [Language, Java]
-tags: [java-remove-character, remove-last-character, java-string, java-substring, java-chop, java-replaceall, 자바-문자-제거, 문자-제거]
+tags: [java-remove-character, remove-last-character, remove-character, java-string, java-substring, java-chop, java-replaceall, 자바-문자-제거, 문자-제거]
 ---
 
 ## 1. String.substring() 사용
