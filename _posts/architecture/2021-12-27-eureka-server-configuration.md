@@ -49,7 +49,7 @@ public class EurekaApplication {
 ```
 
 ### 2) WebSecurityConfig.java 추가
-보안을 위해 WebSecurityConfig 파일을 추가한다.
+보안을 위해 WebSecurityConfig.java 파일을 추가한다.
 
 ```java
 package com.example.eureka;
