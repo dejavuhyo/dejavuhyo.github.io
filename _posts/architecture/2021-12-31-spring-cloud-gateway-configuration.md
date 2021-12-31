@@ -3,7 +3,7 @@ title: Spring Cloud Gateway 구성
 author: dejavuhyo
 date: 2021-12-31 09:30:00 +0900
 categories: [Application, Architecture]
-tags: [spring-cloud-gateway-configuration, spring-cloud-gateway, gateway-configuration, api-gateway, gateway, scg, spring-cloud, 게이트웨이, api-게이트웨이, api-게이트웨이-구성]
+tags: [spring-cloud-gateway-configuration, spring-cloud-gateway, gateway-configuration, api-gateway, gateway, scg, spring-cloud, 게이트웨이, api-게이트웨이, api-게이트웨이-구성, 게이트웨이-구성]
 ---
 
 ## 1. 프로젝트 생성
@@ -197,7 +197,7 @@ IntelliJ 기준으로 Eureka, Gateway, Board 모듈을 import 하고, 각 모듈
 
 ![modules](/assets/img/2021-12-31-spring-cloud-gateway-configuration/modules.png)
 
-<http://localhost:8080/board> 서비스를 호출한다.
+<http://localhost:8080/board> board 서비스를 호출한다.
 
 ![service](/assets/img/2021-12-31-spring-cloud-gateway-configuration/service.png)
 
