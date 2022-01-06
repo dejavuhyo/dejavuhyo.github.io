@@ -141,7 +141,7 @@ Generated 10000000 strings in 854 ms.
 Created string of length 488895 in 5130 ms.
 ```
 
-마찬가지로, -XX:-CompactStrings 옵션을 사용하여 Compact Strings를 비활성화하여 실행 하면 출력은 다음과 같다.
+마찬가지로, ```-XX:-CompactStrings``` 옵션을 사용하여 Compact Strings를 비활성화하여 실행 하면 출력은 다음과 같다.
 
 ```text
 Generated 10000000 strings in 936 ms.
