@@ -10,11 +10,11 @@ tags: [mqtt-broker, mqtt-mosquitto, mosquitto-install, mosquitto-setup, mosquitt
 
 ### 1) 설치 환경
 
-> Windows 10 x64
->
-> Mosquitto v1.6.9: mosquitto-1.6.9-install-windows-x64.exe
->
-> OpenSSL v1.0.2u Light: Win64OpenSSL_Light-1_0_2u.exe
+* Windows 10 x64
+
+* Mosquitto v1.6.9: mosquitto-1.6.9-install-windows-x64.exe
+
+* OpenSSL v1.0.2u Light: Win64OpenSSL_Light-1_0_2u.exe
 
 ### 2) Mosquitto
 
