@@ -59,9 +59,10 @@ tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
 
 * 추가
 
-> include ld.so.conf.d/*.conf
->
-> include /usr/local/openssl/lib
+```text
+include ld.so.conf.d/*.conf
+include /usr/local/openssl/lib
+```
 
 * 적용
 
@@ -103,7 +104,9 @@ tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
 
 * 추가
 
-> include /usr/local/mosquitto/lib
+```text
+include /usr/local/mosquitto/lib
+```
 
 * 적용
 
@@ -113,15 +116,13 @@ tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
 
 * ld.so.conf 내용
 
-> include ld.so.conf.d/*.conf
->
-> include /usr/local/openssl/lib
->
-> include /usr/local/mosquitto/lib
->
-> /usr/lib
->
-> /usr/local/lib
+```text
+include ld.so.conf.d/*.conf
+include /usr/local/openssl/lib
+include /usr/local/mosquitto/lib
+/usr/lib
+/usr/local/lib
+```
 
 ### 4) 심볼릭 링크 생성
 
@@ -139,13 +140,12 @@ tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
 
 * 추가
 
-> MOSQUITTO_HOME=/usr/local/mosquitto
->
-> export MOSQUITTO_HOME
->
-> PATH=$PATH:$MOSQUITTO_HOME/src
->
-> export PATH
+```text
+MOSQUITTO_HOME=/usr/local/mosquitto
+export MOSQUITTO_HOME
+PATH=$PATH:$MOSQUITTO_HOME/src
+export PATH
+```
 
 * 적용
 
