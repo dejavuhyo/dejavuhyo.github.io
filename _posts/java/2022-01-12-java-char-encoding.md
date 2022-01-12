@@ -109,13 +109,13 @@ assertEquals(convertToBinary("T", "US-ASCII"), "01010100");
 
 BIG5 및 SHIFT-JIS는 더 넓은 문자 집합을 나타내기 위해 1바이트와 2바이트를 사용하기 시작한 다중 바이트 문자 인코딩 체계의 예이다. 이들 중 대부분은 문자 수가 훨씬 더 많은 중국어 및 유사한 스크립트를 나타내기 위해 만들어졌다.
 
-convertToBinary 메소드를 한자 "語" 인코딩을 "Big5"로 한다.
+convertToBinary 메소드를 한자 ```語``` 인코딩을 "Big5"로 한다.
 
 ```java
 assertEquals(convertToBinary("語", "Big5"), "10111011 01111001");
 ```
 
-위의 출력은 Big5 인코딩이 2바이트를 사용하여 '語' 문자를 나타냄을 보여준다.
+위의 출력은 Big5 인코딩이 2바이트를 사용하여 ```語``` 문자를 나타냄을 보여준다.
 
 별칭과 함께 문자 인코딩의 포괄적인 목록은 국제 번호 기관에서 관리한다.
 
@@ -154,13 +154,13 @@ assertEquals(convertToBinary("T", "UTF-8"), "01010100");
 
 출력은 단일 바이트를 사용하는 ASCII와 정확히 유사하다. 사실, UTF-8은 ASCII와 완전히 역호환된다.
 
-입력이 '語'이고 인코딩이 "UTF-8"인 convertToBinary 메서드를 다시 호출한다.
+입력이 ```語```이고 인코딩이 "UTF-8"인 convertToBinary 메서드를 다시 호출한다.
 
 ```java
 assertEquals(convertToBinary("語", "UTF-8"), "11101000 10101010 10011110");
 ```
 
-여기에서 볼 수 있듯이 UTF-8은 3바이트를 사용하여 '語' 문자를 나타낸다. 이를 가변 너비 인코딩이라고 한다.
+여기에서 볼 수 있듯이 UTF-8은 3바이트를 사용하여 ```語``` 문자를 나타낸다. 이를 가변 너비 인코딩이라고 한다.
 
 UTF-8은 공간 효율성으로 인해 웹에서 가장 많이 사용되는 인코딩이다.
 
@@ -311,7 +311,7 @@ Assertions.assertEquals(
     CodingErrorAction.IGNORE));
 ```
 
-두 번째 테스트에서는 잘못된 문자 대신 '�'을 넣는 CodingErrorAction.REPLACE를 사용한다.
+두 번째 테스트에서는 잘못된 문자 대신 ```�```을 넣는 CodingErrorAction.REPLACE를 사용한다.
 
 ```java
 Assertions.assertEquals(
