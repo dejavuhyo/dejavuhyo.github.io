@@ -1,5 +1,5 @@
 ---
-title: Java URL Encoding/Decoding
+title: Java URL 인코딩/디코딩
 author: dejavuhyo
 date: 2022-01-13 10:10:00 +0900
 categories: [Language, Java]
