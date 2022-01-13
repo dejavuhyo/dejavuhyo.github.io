@@ -3,7 +3,7 @@ title: Java URL Encoding/Decoding
 author: dejavuhyo
 date: 2022-01-13 10:10:00 +0900
 categories: [Language, Java]
-tags: [java-url-encoding-decoding, java-url-encoding, java-url-decoding, url-encoding-decoding, url-encoding, url-decoding, encoding, decoding 자바-url-인코딩-디코딩, 자바-인코딩-디코딩, 인코딩, 디코딩, url-인코딩, url-디코딩]
+tags: [java-url-encoding-decoding, java-url-encoding, java-url-decoding, url-encoding-decoding, encoding-decoding, url-encoding, url-decoding, encoding, decoding, 자바-url-인코딩-디코딩, 자바-인코딩-디코딩, 인코딩, 디코딩, url-인코딩, url-디코딩, 인코딩-디코딩]
 ---
 
 ## 1. URL 인코딩/디코딩
