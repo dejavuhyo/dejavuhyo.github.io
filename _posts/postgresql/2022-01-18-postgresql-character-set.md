@@ -3,7 +3,7 @@ title: PostgreSQL 인코딩 확인
 author: dejavuhyo
 date: 2022-01-18 09:20:00 +0900
 categories: [Database, PostgreSQL]
-tags: [postgresql-character-set, character-set, postgresql-인코딩, 인코딩]
+tags: [postgresql-character-set, character-set, client-character-set, server-character-set, postgresql-인코딩, 인코딩, 클라이언트-인코딩, 서버-인코딩, db-인코딩]
 ---
 
 ## 1. 클라이언트 인코딩 확인
