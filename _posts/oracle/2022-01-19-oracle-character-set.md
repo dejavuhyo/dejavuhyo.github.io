@@ -12,7 +12,7 @@ tags: [oracle-character-set, character-set, oracle-인코딩, 인코딩]
 select * from v$nls_parameters;
 ```
 
-![oracle-character-set](/assets/img/2022-01-18-postgresql-character-set/oracle-character-set.png)
+![oracle-character-set](/assets/img/2022-01-19-oracle-character-set/oracle-character-set.png)
 
 ## [출처 및 참고]
 * <https://minorabanggu.tistory.com/11>
