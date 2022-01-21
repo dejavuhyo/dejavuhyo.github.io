@@ -3,7 +3,7 @@ title: 한국어 토큰화의 어려움
 author: dejavuhyo
 date: 2022-01-21 09:40:00 +0900
 categories: [Language, NLP]
-tags: [korean-tokenization, tokenization, nlp, 토큰화, 한국어-토큰화, 한국어-토큰화-어려움, 자연어-처리, 자연어]
+tags: [korean-tokenization, tokenization, difficulty-korean-tokenization, nlp, 토큰화, 한국어-토큰화, 한국어-토큰화-어려움, 자연어-처리, 자연어]
 ---
 
 ## 1. 한국어에서의 토큰화의 어려움
