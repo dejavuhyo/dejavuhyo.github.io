@@ -8,13 +8,13 @@ tags: [linux-terminal-ftp, linux-ftp, terminal-ftp, 리눅스-터미널-ftp, 터
 
 ## 1. FTP 접속방법
 
-```bash
+```shell
 [root@localhost ~]# ftp IP PORT
 ```
 
 예시
 
-```bash
+```shell
 [root@localhost ~]# ftp 192.168.0.1 21
 ```
 
