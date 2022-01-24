@@ -9,7 +9,7 @@ tags: [yum-command-error, vmware-yum-error, could-not-retrieve-mirrorlist, vmwar
 ## 1. 에러 메시지
 Could not retrieve mirrorlist
 
-```bash
+```shell
 [root@localhost ~]# yum list java*jdk-devel
 Loaded plugins: fastestmirror, langpacks
 Determining fastest mirrors
@@ -49,7 +49,7 @@ Cannot find a valid baseurl for repo: base/7/x86_64
 ## 2. 해결 방법
 ```ONBOOT=no```를 yes로 변경 후 저장
 
-```bash
+```shell
 [root@localhost ~]# vi /etc/sysconfig/network-scripts/ifcfg-ens33
 ```
 
