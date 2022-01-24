@@ -18,13 +18,13 @@ tags: [git-user-change-name, git-user-change-email, git-config, 깃-사용자-�
 
 * name
 
-```bash
+```shell
 $ git config --system user.name
 ```
 
 * email
 
-```bash
+```shell
 $ git config --system user.email
 ```
 
@@ -32,13 +32,13 @@ $ git config --system user.email
 
 * name
 
-```bash
+```shell
 $ git config --global user.name
 ```
 
 * email
 
-```bash
+```shell
 $ git config --global user.email
 ```
 
@@ -46,13 +46,13 @@ $ git config --global user.email
 
 * name
 
-```bash
+```shell
 $ git config --local user.name
 ```
 
 * email
 
-```bash
+```shell
 $ git config --local user.email
 ```
 
@@ -62,13 +62,13 @@ $ git config --local user.email
 
 * name
 
-```bash
+```shell
 $ git config --system user.name 계정명
 ```
 
 * email
 
-```bash
+```shell
 $ git config --system user.email 이메일
 ```
 
@@ -76,13 +76,13 @@ $ git config --system user.email 이메일
 
 * name
 
-```bash
+```shell
 $ git config --global user.name 계정명
 ```
 
 * email
 
-```bash
+```shell
 $ git config --global user.email 이메일
 ```
 
@@ -90,13 +90,13 @@ $ git config --global user.email 이메일
 
 * name
 
-```bash
+```shell
 $ git config --local user.name 계정명
 ```
 
 * email
 
-```bash
+```shell
 $ git config --local user.email 이메일
 ```
 
