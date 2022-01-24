@@ -8,7 +8,7 @@ tags: [ip-check, linux-ip, linux-ip-check, 리눅스-ip, ip-확인, 리눅스-ip
 
 ## 1. ip
 
-```bash
+```shell
 [root@localhost ~]# ip addr
 ```
 
@@ -16,7 +16,7 @@ tags: [ip-check, linux-ip, linux-ip-check, 리눅스-ip, ip-확인, 리눅스-ip
 
 ## 2. ifconfig
 
-```bash
+```shell
 [root@localhost ~]# ifconfig
 ```
 
@@ -24,7 +24,7 @@ tags: [ip-check, linux-ip, linux-ip-check, 리눅스-ip, ip-확인, 리눅스-ip
 
 ## 3. hostname
 
-```bash
+```shell
 [root@localhost ~]# hostname -I
 ```
 
