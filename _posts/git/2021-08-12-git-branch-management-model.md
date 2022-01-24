@@ -79,7 +79,7 @@ Feature branches는 일반적으로 원본이 아닌 개발자 리포지토리�
 
 #### (1) Feature branch 작성
 
-```bash
+```shell
 $ git checkout -b myfeature develop
 Switched to a new branch "myfeature"
 ```
@@ -87,7 +87,7 @@ Switched to a new branch "myfeature"
 #### (2) 개발 완료 기능 통합
 완료된 기능을 개발 분기에 병합하여 다음 릴리스에 추가할 수 있다.
 
-````bash
+````shell
 $ git checkout develop
 Switched to branch 'develop'
 
@@ -128,7 +128,7 @@ $ git push origin develop
 #### (1) Release branch 작성
 Release branches는 develop branch에서 생성된다. 예를 들어 버전 1.1.5가 현재 생산 릴리즈이고 곧 큰 릴리즈가 있을 예정이다. 개발 상태는 '다음 릴리스'로 준비되었으며, 버전 1.2(1.1.6 또는 2.0이 아님)가 될 것으로 결정했다. 따라서 분기하여 릴리스 지점에 새 버전 번호를 반영하는 이름을 지정한다.
 
-```bash
+```shell
 $ git checkout -b release-1.2 develop
 Switched to a new branch "release-1.2"
 
@@ -155,7 +155,7 @@ $ git commit -a -m "Bumped version number to 1.2"
 
 Git의 처음 두 단계
 
-```bash
+```shell
 $ git checkout master
 Switched to branch 'master'
 
@@ -172,7 +172,7 @@ $ git tag -a 1.2
 
 출시 지점의 변경 사항을 유지하려면 다시 병합하여 개발해야 한다.
 
-```bash
+```shell
 $ git checkout develop
 Switched to branch 'develop'
 
@@ -185,7 +185,7 @@ Merge made by recursive.
 
 이제 정말 완료되었고 릴리스 지점이 제거될 수도 있다. 더 이상 필요하지 않기 때문이다.
 
-```bash
+```shell
 $ git branch -d release-1.2
 Deleted branch release-1.2 (was ff452fe).
 ```
@@ -209,7 +209,7 @@ Hotfix branches는 계획되지 않았지만 새로운 프로덕션 릴리즈를
 #### (1) Hotfix branch 생성
 Hotfix branch는 마스터 분기에서 생성된다. 예를 들어 버전 1.2가 현재 실행 중인 프로덕션 릴리스이며 심각한 버그로 인해 문제를 일으킨다고 가정해 보겠다. 그러나 개발상의 변화는 아직 불안정하다. 그런 다음 핫픽스 지점을 분리하여 문제 해결을 시작할 수 있다.
 
-```bash
+```shell
 $ git checkout -b hotfix-1.2.1 master
 Switched to a new branch "hotfix-1.2.1"
 
@@ -225,7 +225,7 @@ $ git commit -a -m "Bumped version number to 1.2.1"
 
 그런 다음 버그를 수정하고 하나 이상의 개별 커밋에서 수정 사항을 커밋한다.
 
-```bash
+```shell
 $ git commit -m "Fixed severe production problem"
 [hotfix-1.2.1 abbe5d6] Fixed severe production problem
 5 files changed, 32 insertions(+), 17 deletions(-)
@@ -236,7 +236,7 @@ $ git commit -m "Fixed severe production problem"
 
 먼저 마스터를 업데이트하고 릴리스에 태그를 지정한다.
 
-```bash
+```shell
 $ git checkout master
 Switched to branch 'master'
 
@@ -251,7 +251,7 @@ $ git tag -a 1.2.1
 
 다음으로, 개발 중인 버그 픽스도 포함한다.
 
-```bash
+```shell
 $ git checkout develop
 Switched to branch 'develop'
 
@@ -266,7 +266,7 @@ Merge made by recursive.
 
 마지막으로 임시 분기를 제거한다.
 
-```bash
+```shell
 $ git branch -d hotfix-1.2.1
 Deleted branch hotfix-1.2.1 (was abbe5d6).
 ```
