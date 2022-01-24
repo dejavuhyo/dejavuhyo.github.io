@@ -15,7 +15,7 @@ tags: [docker-image, docker-image-download, docker, 도커-이미지, 도커-이
 
 ### 1) Docker Search Help
 
-```bash
+```shell
 [root@localhost ~]# docker search --help
 
 Usage:  docker search [OPTIONS] TERM
@@ -32,7 +32,7 @@ Options:
 ### 2) OPTIONS 없이 검색
 아무런 옵션 없이 검색했을 때 대부분 인기도(Stars)가 가장 높은 공식 이미지(Official Image)가 상위에 정렬된다.
 
-```bash
+```shell
 [root@localhost ~]# docker search postgres
 NAME                                    DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED
 postgres                                The PostgreSQL object-relational database sy…   8702      [OK]       
@@ -66,7 +66,7 @@ cfcommunity/postgresql                  https://github.com/cloudfoundry-communit
 
 ### 1) Docker Pull Help
 
-```bash
+```shell
 [root@localhost ~]# docker pull --help
 
 Usage:  docker pull [OPTIONS] NAME[:TAG|@DIGEST]
@@ -85,7 +85,7 @@ Options:
 
 * 옵션 생략
 
-```bash
+```shell
 [root@localhost ~]# docker pull postgres
 Using default tag: latest
 latest: Pulling from library/postgres
@@ -110,7 +110,7 @@ docker.io/library/postgres:latest
 
 * 특정 버전 받기
 
-```bash
+```shell
 [root@localhost ~]# docker pull postgres:12.5
 12.5: Pulling from library/postgres
 6ec7b7d162b2: Already exists 
@@ -136,7 +136,7 @@ docker.io/library/postgres:12.5
 
 * 다운받은 이미지 목록
 
-```bash
+```shell
 [root@localhost ~]# docker images
 REPOSITORY          TAG       IMAGE ID       CREATED      SIZE
 eclipse-mosquitto   latest    131df074d5c8   3 days ago   9.54MB
