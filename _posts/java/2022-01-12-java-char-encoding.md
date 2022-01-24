@@ -239,7 +239,7 @@ Java에서 기본 문자 집합을 결정하면 두 가지 시스템 속성이 �
 
 이제 명령줄 인수를 통해 이러한 시스템 속성을 재정의하는 것이 직관적이다.
 
-```bash
+```shell
 -Dfile.encoding="UTF-8"
 -Dsun.jnu.encoding="UTF-8"
 ```
