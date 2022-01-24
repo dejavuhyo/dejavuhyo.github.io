@@ -11,7 +11,7 @@ tags: [tar, gz, zip, tar-gz, 압축, 압축-해제]
 ### 1) tar 압축
 tar -cvf [파일명.tar] [폴더명]
 
-```bash
+```shell
 # abc 폴더를 abc.tar로 압축
 [root@localhost ~]# tar -cvf abc.tar abc
 ```
@@ -19,7 +19,7 @@ tar -cvf [파일명.tar] [폴더명]
 ### 2) tar.gz 압축
 tar -zcvf [파일명.tar.gz] [폴더명]
 
-```bash
+```shell
 # abc 폴더를 abc.tar.gz로 압축
 [root@localhost ~]# tar -zcvf abc.tar abc
 ```
@@ -27,7 +27,7 @@ tar -zcvf [파일명.tar.gz] [폴더명]
 ### 3) zip 압축
 zip [파일명.zip] [폴더명]
 
-```bash
+```shell
 # 해당 폴더로 이동한 후 압축 권장
 
 # 현재 폴더 전체를 abc.zip으로 압축
@@ -42,7 +42,7 @@ zip [파일명.zip] [폴더명]
 ### 1) tar 압축 해제
 tar -xcf [파일명.tar]
 
-```bash
+```shell
 # abc.tar 파일 압축 해제
 [root@localhost ~]# tar -xvf abc.tar
 ```
@@ -50,7 +50,7 @@ tar -xcf [파일명.tar]
 ### 2) tar.gz 압축 해제
 tar -zxvf [파일명.tar.gz]
 
-```bash
+```shell
 # abc.tar.gz 파일 압축 해제
 [root@localhost ~]# tar -zxvf abc.tar.gz
 ```
@@ -58,7 +58,7 @@ tar -zxvf [파일명.tar.gz]
 ### 3) zip 압축 해제
 unzip [파일명.zip]
 
-```bash
+```shell
 # abc.zip 파일 압축 해제
 [root@localhost ~]# unzip abc.zip
 
