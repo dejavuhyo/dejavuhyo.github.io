@@ -37,7 +37,7 @@ tags: [javadoc-tag, javadoc-태그]
 
 다음과 같이 실행한다.
 
-```bash
+```shell
 $ javadoc -d doc -author FileName.java
 ```
 
@@ -68,7 +68,7 @@ $ javadoc -d doc -author FileName.java
 
 다음과 같이 실행한다.
 
-```bash
+```shell
 $ javadoc -d doc -version FileName.java
 ```
 
@@ -174,7 +174,7 @@ package.class#member 형식으로 지정한 다른 메소드에 대한 링크를
 
 다음과 같이 실행한다.
 
-```bash
+```shell
 $ javadoc -d doc FileName.java
 ```
 
@@ -211,7 +211,7 @@ $ javadoc -d doc FileName.java
 
 다음과 같이 실행한다.
 
-```bash
+```shell
 $ javadoc -d doc FileName.java
 ```
 
@@ -241,7 +241,7 @@ $ javadoc -d doc FileName.java
 
 다음과 같이 실행한다.
 
-```bash
+```shell
 $ javadoc -d doc FileName.java
 ```
 
@@ -284,7 +284,7 @@ $ javadoc -d doc FileName.java
 
 다음과 같이 실행한다.
 
-```bash
+```shell
 $ javadoc -d doc FileName.java
 ```
 
@@ -312,7 +312,7 @@ $ javadoc -d doc FileName.java
 
 다음과 같이 실행한다.
 
-```bash
+```shell
 $ javadoc -d doc FileName.java
 ```
 
@@ -355,7 +355,7 @@ $ javadoc -d doc FileName.java
 
 다음과 같이 실행한다.
 
-```bash
+```shell
 $ javadoc -d doc FileName.java
 ```
 
@@ -384,7 +384,7 @@ $ javadoc -d doc FileName.java
 
 다음과 같이 실행한다.
 
-```bash
+```shell
 $ javadoc -d doc FileName.java
 ```
 
@@ -419,7 +419,7 @@ $ javadoc -d doc FileName.java
 
 다음과 같이 실행한다.
 
-```bash
+```shell
 $ javadoc -d doc FileName.java
 ```
 
