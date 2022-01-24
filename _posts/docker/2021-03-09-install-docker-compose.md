@@ -13,25 +13,25 @@ Docker Compose는 작업을 위해 Docker Engine을 사용하므로 로컬 또�
 
 ### 1) Docker Compose 다운로드
 
-```bash
+```shell
 [root@localhost ~]# sudo curl -L "https://github.com/docker/compose/releases/download/1.28.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 
 ### 2) 실행 권한 적용
 
-```bash
+```shell
 [root@localhost ~]# chmod +x /usr/local/bin/docker-compose
 ```
 
 ### 3) 심볼릭 링크 설정
 
-```bash
+```shell
 [root@localhost ~]# ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ```
 
 ### 4) 설치 확인
 
-```bash
+```shell
 [root@localhost ~]# docker-compose --version
 docker-compose version 1.28.5, build c4eb3a1f
 ```
@@ -41,14 +41,14 @@ Composite 1.2 이전 버전에서 업그레이드하는 경우 Composite를 업�
 
 Composite가 레이블 없이 생성된 컨테이너를 탐지하면 실행을 거부하여 두 세트의 레이블이 생성되지 않는다. 기존 컨테이너를 계속 사용하려면(보존하려는 데이터 볼륨이 있기 때문) Composite 1.5.x를 사용하여 다음 명령을 사용하여 컨테이너를 마이그레이션 할 수 있다.
 
-```bash
+```shell
 [root@localhost ~]# docker-compose migrate-to-labels
 ```
 
 ## 3. 제거 
 Docker Compose를 제거
 
-```bash
+```shell
 [root@localhost ~]# rm /usr/local/bin/docker-compose
 ```
 
