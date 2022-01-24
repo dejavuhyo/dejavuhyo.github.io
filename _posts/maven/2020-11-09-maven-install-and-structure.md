@@ -54,7 +54,7 @@ tags: [maven, maven-structure, 메이븐, 메이븐-구조]
 
 ### 4) 설치 확인
 
-```bash
+```shell
 [root@localhost ~]# java -version
 [root@localhost ~]# mvn --version
 ```
@@ -261,7 +261,7 @@ deploy goal을 실행했을 시 배포되는 위치를 기술하고 url 항목�
 ## 5. Goal
 Maven이 행할수 있는 여러가지 동작을 수행하는 명령을 Goal이라고하며, 실행 방식, 체인 형태로 실행가능
 
-```bash
+```shell
 [root@localhost ~]# mvn [goal명령어] [goal명령어] [goal명령어] 
 ```
 
