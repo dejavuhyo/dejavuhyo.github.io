@@ -149,7 +149,7 @@ TodoList 클래스가 의존 하기 때문에 먼저 TodoItem 클래스를 컴�
 
 이제 com.baeldung.packages.domain.TodoItem 클래스를 컴파일한다.
 
-```bash
+```shell
 > javac com/baeldung/packages/domain/TodoItem.java
 ```
 
@@ -159,7 +159,7 @@ TodoList 클래스가 의존 하기 때문에 먼저 TodoItem 클래스를 컴�
 
 이제 TodoItem 클래스가 컴파일 되었으므로 TodoList 및 TodoApp 클래스를 컴파일할 수 있다.
 
-```bash
+```shell
 > javac -classpath . com/baeldung/packages/*.java
 ```
 
@@ -167,7 +167,7 @@ TodoList 클래스가 의존 하기 때문에 먼저 TodoItem 클래스를 컴�
 
 TodoApp 클래스의 정규화된 이름을 사용하여 애플리케이션을 실행한다.
 
-```bash
+```shell
 > java com.baeldung.packages.TodoApp
 ```
 
