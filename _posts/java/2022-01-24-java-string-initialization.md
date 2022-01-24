@@ -3,7 +3,7 @@ title: Java 문자열 초기화
 author: dejavuhyo
 date: 2022-01-24 09:30:00 +0900
 categories: [Language, Java]
-tags: [java-string-initialization, string-initialization, initialization, 자바-문자열-초기화, 문자열-초기화, 초기화]
+tags: [java-string-initialization, string-initialization, initialization, 자바-문자열-초기화, 문자열-초기화, 초기화, 자바-문자열]
 ---
 
 ## 1. Creation
