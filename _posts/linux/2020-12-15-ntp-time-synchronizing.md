@@ -28,13 +28,13 @@ NTP는 Time Service를 하지 않고 서버의 시간 동기화를 하기만 하
 
 ### 1) Chrony Package 삭제
 
-```bash
+```shell
 [root@localhost ~]# yum remove chrony
 ```
 
 ### 2) NTP 설치
 
-```bash
+```shell
 [root@localhost ~]# yum install ntp
 ```
 
@@ -42,7 +42,7 @@ NTP는 Time Service를 하지 않고 서버의 시간 동기화를 하기만 하
 
 ### 1) 타임서버 설정
 
-```bash
+```shell
 [root@localhost ~]# vi /etc/ntp.conf
 ```
 
@@ -62,14 +62,14 @@ server 3.asia.pool.ntp.org
 
 ## 4. 방화벽 등록
 
-```bash
+```shell
 [root@localhost ~]# firewall-cmd --add-service=ntp --permanent
 [root@localhost ~]# firewall-cmd --reload
 ```
 
 ## 5. 시작 및 자동 실행 설정
 
-```bash
+```shell
 [root@localhost ~]# systemctl start ntpd
 [root@localhost ~]# systemctl enable ntpd
 [root@localhost ~]# systemctl restart ntpd
@@ -79,7 +79,7 @@ server 3.asia.pool.ntp.org
 
 * 동기화까지 약15분 정도 시간이 소요된다.
 
-```bash
+```shell
 [root@localhost ~]# ntpq -p
      remote           refid      st t when poll reach   delay   offset  jitter
 ==============================================================================
