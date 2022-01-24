@@ -195,19 +195,19 @@ Java 프로그램의 소스 코드는 확장자가 ```.java```인 파일에 저�
 
 위의 예에서 소스 코드를 SimpleAddition.java라는 파일로 저장하고 파일을 저장한 디렉토리에서 이 명령을 실행한다.
 
-```bash
+```shell
 $ javac SimpleAddition.java
 ```
 
 프로그램을 실행하기 위해 다음을 실행한다.
 
-```bash
+```shell
 $ java SimpleAddition
 ```
 
 위에 표시된 것과 동일한 출력이 콘솔에 생성된다.
 
-```bash
+```shell
 10 + 5 = 15.0
 ```
 
