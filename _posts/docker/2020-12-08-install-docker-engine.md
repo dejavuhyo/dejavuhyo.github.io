@@ -9,7 +9,7 @@ tags: [docker-install, docker-engine-install, cnetos-docker-install, centos-dock
 ## 1. 이전 버전 제거
 이전 버전의 docker 또는 docker-engine이 설치되어있는 경우 관련 종속성과 함께 제거한다.
 
-```bash
+```shell
 [root@localhost ~]# yum remove docker
 [root@localhost ~]# yum remove docker-client
 [root@localhost ~]# yum remove docker-client-latest
@@ -35,19 +35,19 @@ RPM 패키지를 다운로드하여 수동으로 설치하고 업그레이드를
 
 ### 1) yum 패키지 업데이트
 
-```bash
+```shell
 [root@localhost ~]# yum update
 ```
 
 ### 2) 유틸리티 패키지 설치
 
-```bash
+```shell
 [root@localhost ~]# yum install -y yum-utils
 ```
 
 ### 3) yum-config-manager 설정
 
-```bash
+```shell
 [root@localhost ~]# yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 Loaded plugins: fastestmirror, langpacks
 adding repo from: https://download.docker.com/linux/centos/docker-ce.repo
@@ -59,7 +59,7 @@ repo saved to /etc/yum.repos.d/docker-ce.repo
 
 * 최신 버전 Docker Engine 및 containerd 설치
 
-```bash
+```shell
 [root@localhost ~]# yum install docker-ce docker-ce-cli containerd.io
 ```
 
@@ -67,7 +67,7 @@ repo saved to /etc/yum.repos.d/docker-ce.repo
 
 * 특정 버전의 Docker Engine 설치
 
-```bash
+```shell
 [root@localhost ~]# yum list docker-ce --showduplicates | sort -r
 docker-ce.x86_64            3:19.03.9-3.el7                    docker-ce-stable 
 docker-ce.x86_64            3:19.03.8-3.el7                    docker-ce-stable 
@@ -123,7 +123,7 @@ Available Packages
 
 * 특정 버전 설치
 
-```bash
+```shell
 [root@localhost ~]# yum install docker-ce-<VERSION_STRING> docker-ce-cli-<VERSION_STRING> containerd.io
 ```
 
@@ -133,7 +133,7 @@ Docker의 저장소를 사용하여 Docker를 설치할 수 없는 경우 .rpm �
 ### 1) .rpm 파일 다운로드
 <https://download.docker.com/linux/centos/> CentOS 버전을 선택하고, 설치하려는 Docker 버전 x86_64/stable/Packages/ 경로의 .rpm 파일을 다운로드 한다.
 
-```bash
+```shell
 [root@localhost ~]# wget https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.3.9-3.1.el7.x86_64.rpm
 [root@localhost ~]# wget https://download.docker.com/linux/centos/7/x86_64/stable/Packages/docker-ce-19.03.9-3.el7.x86_64.rpm
 [root@localhost ~]# wget https://download.docker.com/linux/centos/7/x86_64/stable/Packages/docker-ce-cli-19.03.9-3.el7.x86_64.rpm
@@ -141,7 +141,7 @@ Docker의 저장소를 사용하여 Docker를 설치할 수 없는 경우 .rpm �
 
 ### 2) 설치
 
-```bash
+```shell
 [root@localhost ~]# yum install docker-ce-19.03.9-3.el7.x86_64.rpm
 ```
 
@@ -149,7 +149,7 @@ Docker의 저장소를 사용하여 Docker를 설치할 수 없는 경우 .rpm �
 
 ### 1) 실행 및 등록
 
-```bash
+```shell
 [root@localhost ~]# systemctl start docker
 [root@localhost ~]# systemctl enable docker
 Created symlink from /etc/systemd/system/multi-user.target.wants/docker.service to /usr/lib/systemd/system/docker.service.
@@ -157,14 +157,14 @@ Created symlink from /etc/systemd/system/multi-user.target.wants/docker.service 
 
 ### 2) 버전 확인
 
-```bash
+```shell
 [root@localhost ~]# docker --version
 Docker version 19.03.14, build 5eb3275d40
 ```
 
 ### 3) 정상 설치 확인
 
-```bash
+```shell
 [root@localhost ~]# docker run hello-world
 Unable to find image 'hello-world:latest' locally
 latest: Pulling from library/hello-world
