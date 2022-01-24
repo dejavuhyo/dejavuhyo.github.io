@@ -11,7 +11,7 @@ tags: [linus-netstat, netstat, 리눅스-netstat, 리눅스-네트워크-상태,
 
 ## 2. 사용방법
 
-```bash
+```shell
 $ netstat [옵션] [| grep 포트 번호 or 서비스 명]
 ```
 
@@ -34,19 +34,19 @@ $ netstat [옵션] [| grep 포트 번호 or 서비스 명]
 
 * 연결을 기다리는 목록과 프로그램 보기
 
-```bash
+```shell
 $ netstat -nap
 ```
 
 * 특정 포트가 사용 중인지 확인
 
-```bash
+```shell
 $ netstat -an | grep 포트번호
 ```
 
 * TCP listening 상태의 포트와 프로그램 보기
 
-```bash
+```shell
 $ netstat -nlpt
 ```
 
