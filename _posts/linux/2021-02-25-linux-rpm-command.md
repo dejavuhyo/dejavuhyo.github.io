@@ -10,26 +10,26 @@ tags: [rpm, linux-rpm, rpm-command, rpm-명령어, 리눅스-rpm, 리눅스-rpm-
 
 ### 1) 설치
 
-```bash
+```shell
 [root@localhost ~]# rpm -ivh 패키지명
 ```
 
 ### 2) 확인
 
-```bash
+```shell
 [root@localhost ~]# rpm -qa | grep 패키지명
 ```
 
 ### 3) 제거
 
-```bash
+```shell
 [root@localhost ~]# rpm -ev 패키지명
 ```
 
 ### 4) 업그레이드
 업그레이드 명령어이지만 기존에 설치된 것이 없을 경우 설치된다.
 
-```bash
+```shell
 [root@localhost ~]# rpm -Uvh 패키지명
 ```
 
@@ -37,57 +37,57 @@ tags: [rpm, linux-rpm, rpm-command, rpm-명령어, 리눅스-rpm, 리눅스-rpm-
 
 ### 1) 파일이 속한 패키지 찾기
 
-```bash
+```shell
 [root@localhost ~]# rpm -qf 파일
 ```
 
 ### 2) rpm 패키지 정보 보기(info)
 
-```bash
+```shell
 [root@localhost ~]# rpm -qi 설치된 패키지명
 ```
 
-```bash
+```shell
 [root@localhost ~]# rpm -qip 파일명.rpm
 ```
 
 ### 3) rpm 내부 파일목록 보기(list)
 
-```bash
+```shell
 [root@localhost ~]# rpm -ql 설치된패 키지명
 ```
 
-```bash
+```shell
 [root@localhost ~]# rpm -qlp 파일명.rpm
 ```
 
 ### 4) rpm 내부 설정파일 확인
 
-```bash
+```shell
 [root@localhost ~]# rpm -qc 설치된 패키지명
 ```
 
-```bash
+```shell
 [root@localhost ~]# rpm -qcp 파일명.rpm
 ```
 
 ### 5) rpm 내부 문서파일 확인
 
-```bash
+```shell
 [root@localhost ~]# rpm -qd 설치된 패키지명
 ```
 
-```bash
+```shell
 [root@localhost ~]# rpm -qdp 파일명.rpm
 ```
 
 ### 6) rpm 내부 스크립트 확인
 
-```bash
+```shell
 [root@localhost ~]# rpm -q --scripts 설치된 패키지명
 ```
 
-```bash
+```shell
 [root@localhost ~]# rpm -qp --scripts 파일명.rpm
 ```
 
