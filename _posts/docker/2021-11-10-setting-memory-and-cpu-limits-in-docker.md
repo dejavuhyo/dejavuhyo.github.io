@@ -12,26 +12,26 @@ docker run 명령을 사용하여 리소스 제한을 직접 설정할 수 있�
 ### 1) 메모리
 예를 들어 컨테이너가 사용할 수 있는 메모리를 512MB로 제한해 보겠다. 메모리를 제한하려면 m 매개변수를 사용해야 한다.
 
-```bash
+```shell
 $ docker run -m 512m nginx
 ```
 
 예약이라는 소프트 한도를 설정할 수도 있다. docker가 호스트 시스템에서 메모리 부족을 감지하면 활성화된다.
 
-```bash
+```shell
 $ docker run -m 512m --memory-reservation=256m nginx
 ```
 
 ### 2) CPU
 기본적으로 호스트 시스템의 컴퓨팅 성능에 대한 액세스는 무제한이다. cpus 매개변수를 사용하여 CPU 제한을 설정할 수 있다. 예를 들어 컨테이너가 최대 2개의 CPU를 사용하도록 제한해 보겠다.
 
-```bash
+```shell
 $ docker run --cpus=2 nginx
 ```
 
 CPU 할당의 우선순위를 지정할 수도 있다. 기본값은 1024이며 숫자가 높을수록 우선순위가 높다.
 
-```bash
+```shell
 $ docker run --cpus=2 --cpu-shares=2000 nginx
 ```
 
@@ -59,7 +59,7 @@ services:
 
 docker-compose 파일의 배포 세그먼트를 활용하려면 docker stack 명령을 사용해야 한다. 스택을 스웜에 배포하기 위해 배포 명령을 실행한다.
 
-```bash
+```shell
 $ docker stack deploy --compose-file docker-compose.yml bael_stack
 ```
 
@@ -78,14 +78,14 @@ service:
 
 구성된 컨테이너를 생성하려면 docker-compose 명령을 실행해야 한다.
 
-```bash
+```shell
 $ docker-compose up
 ```
 
 ## 3. 리소스 사용 확인
 제한을 설정한 후 docker stats 명령을 사용하여 제한을 확인할 수 있다.
 
-```bash
+```shell
 $ docker stats
 CONTAINER ID        NAME                                             CPU %               MEM USAGE / LIMIT   MEM %               NET I/O             BLOCK I/O           PIDS
 8ad2f2c17078        bael_stack_service.1.jz2ks49finy61kiq1r12da73k   0.00%               2.578MiB / 512MiB   0.50%               936B / 0B           0B / 0B             2
