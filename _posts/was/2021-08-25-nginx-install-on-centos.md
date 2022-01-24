@@ -9,7 +9,7 @@ tags: [centos-nginx-install, nginx-install, centos-nginx, nginx-설치, centos-n
 ## 1. 외부 저장소 추가
 yum 저장소에는 nginx가 없기 때문에 외부 저장소를 추가 한다.
 
-```bash
+```shell
 [root@localhost ~]# vi /etc/yum.repos.d/nginx.repo
 ```
 
@@ -50,14 +50,14 @@ enabled=1
 ## 2. yum install
 yum install 명령어를 사용하여 nginx를 설치한다.
 
-```bash
+```shell
 [root@localhost ~]# yum install -y nginx
 ```
 
 ## 3. 방화벽 포트 개방
 포트 개방, 방화벽 재시작, 개방된 포트 목록 확인이다. 8089번 포트를 개방하고 nginx에서 사용 예정이다.
 
-```bash
+```shell
 [root@localhost ~]# firewall-cmd --permanent --zone=public --add-port=8089/tcp
 [root@localhost ~]# firewall-cmd --reload
 [root@localhost ~]# firewall-cmd --list-ports
@@ -66,14 +66,14 @@ yum install 명령어를 사용하여 nginx를 설치한다.
 ## 4. Nginx 포트 설정
 nginx 설정 파일의 Listen 포트 80을 8089로 변경한다.
 
-```bash
+```shell
 [root@localhost ~]# vi /etc/nginx/conf.d/default.conf
 ```
 
 ## 5. Nginx 실행
 서버 부팅 시 자동으로 nginx 서비스를 구동하기 위해서 systemctl enable 명령어를 실행한다.
 
-```bash
+```shell
 [root@localhost ~]# systemctl start nginx
 [root@localhost ~]# systemctl enable nginx
 ```
@@ -87,7 +87,7 @@ Job for nginx.service failed because the control process exited with error code.
 
 오류 상세 정보를 확인한다.
 
-```bash
+```shell
 [root@localhost ~]# journalctl -xe
 ```
 
@@ -95,7 +95,7 @@ Job for nginx.service failed because the control process exited with error code.
 
 semanage로 포트를 등록한다.
 
-```bash
+```shell
 [root@localhost ~]# semanage port -a -t http_port_t -p tcp 8089
 ```
 
