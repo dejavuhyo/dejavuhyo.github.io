@@ -8,43 +8,43 @@ tags: [linux-system-check, system-check, 리눅스-시스템-확인, 시스템-�
 
 ## 1. 운영체제 버전 확인
 
-```bash
+```shell
 [root@localhost ~]# cat /etc/*release*
 ```
 
 ## 2. 커널 버전 확인
 
-```bash
+```shell
 [root@localhost ~]# cat /proc/version
 ```
 
 ## 3. 시스템 비트 확인
 
-```bash
+```shell
 [root@localhost ~]# arch
 ```
 
 ## 4. CPU 정보
 
-```bash
+```shell
 [root@localhost ~]# cat /proc/cpuinfo
 ```
 
 ## 5. 메모리 정보
 
-```bash
+```shell
 [root@localhost ~]# cat /proc/meminfo
 ```
 
 ## 6. 파티션 정보
 
-```bash
+```shell
 [root@localhost ~]# cat /proc/partitions
 ```
 
 ## 7. 호스트 네임
 
-```bash
+```shell
 [root@localhost ~]# hostname
 ```
 
