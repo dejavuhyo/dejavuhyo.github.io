@@ -13,13 +13,13 @@ tags: [docker-dontainer-command, dontainer-command, docker-dontainer, 도커-컨
 
 ## 2. 실행 중인 docker 이미지 확인
 
-```bash
+```shell
 [root@localhost ~]# docker ps -a
 ```
 
 ## 3. Container 접속
 
-```bash
+```shell
 [root@localhost ~]# docker exec -it [CONTAINER_ID or NAMES] /bin/bash
 ```
 
