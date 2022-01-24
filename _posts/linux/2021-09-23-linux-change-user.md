@@ -18,13 +18,13 @@ su(substitute user)는 유닉스 명령을 로그아웃하지 않고 다른 사�
 ## 2. 사용법
 명령 줄에서 실행하였을 때, su는 일반적으로 목적 사용자의 비밀번호를 묻고, 제대로 입력되었다면, 해당 계정과 연관된 모든 파일에 대한 사용자 접근 권한을 부여한다.
 
-```bash
+```shell
 su [option] [사용자명]
 ```
 
 * 예제
 
-```bash
+```shell
 [john@localhost:~]$ su
 Password:
 [root@localhost:/home/john#] exit
@@ -34,7 +34,7 @@ logout
 
 또한, super 사용자가 아닌 다른 사용자로 전환할 수 있다. 예를 들어 su jane.
 
-```bash
+```shell
 [john@localhost:~$] su jane
 Password:
 [jane@localhost:/home/john$] exit
@@ -44,7 +44,7 @@ logout
 
 일반적으로 관리자들은 하이픈을 붙여서 사용하는데, 이는 로그인 shell을 시작하는 데 사용할 수 있다. 이렇게 하여 사용자가 목적 사용자의 사용자 환경을 얻을 수 있다.
 
-```bash
+```shell
 [john@localhost:~$] su - jane
 Password:
 [jane@localhost:~]$
