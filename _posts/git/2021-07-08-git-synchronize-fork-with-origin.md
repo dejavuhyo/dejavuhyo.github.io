@@ -19,7 +19,7 @@ tags: [git-sync, git-synchronize-fork-with-origin, synchronize-fork-with-origin,
 
 * 등록된 저장소 확인
 
-```bash
+```shell
 $ git remote -v
 origin https://github.com/dejavuhyo/jekyll-theme-chirpy.git (fetch)
 origin https://github.com/dejavuhyo/jekyll-theme-chirpy.git (push)
@@ -27,13 +27,13 @@ origin https://github.com/dejavuhyo/jekyll-theme-chirpy.git (push)
 
 * 원격 저장소 upstream 등록
 
-```bash
+```shell
 $ git remote add upstream https://github.com/cotes2020/jekyll-theme-chirpy.git
 ```
 
 * 원본 저장소 upstream 등록 확인
 
-```bash
+```shell
 $ git remote -v
 origin https://github.com/dejavuhyo/jekyll-theme-chirpy.git (fetch)
 origin https://github.com/dejavuhyo/jekyll-theme-chirpy.git (push)
@@ -45,7 +45,7 @@ upstream https://github.com/cotes2020/jekyll-theme-chirpy.git (push)
 
 * 원본 저장소 변경 파일 로컬로 가져오기
 
-```bash
+```shell
 $ git fetch upstream master
 ```
 
@@ -53,7 +53,7 @@ $ git fetch upstream master
 
 * 변경내용 병합
 
-```bash
+```shell
 $ git merge upstream/master
 ```
 
@@ -61,7 +61,7 @@ $ git merge upstream/master
 
 * commit 메시지 작성
 
-```bash
+```shell
 $ git commit -am 'commit 메시지'
 ```
 
@@ -69,7 +69,7 @@ $ git commit -am 'commit 메시지'
 
 * 포크 저장소 Git 서버에 적용
 
-```bash
+```shell
 $ git push origin master
 ```
 
