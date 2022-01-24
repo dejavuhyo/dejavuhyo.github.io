@@ -15,7 +15,7 @@ tags: [install-jdk-linux, install-java-linux, linux-jdk, linux-java, 리눅스-j
 
 ## 3. 압축 풀기
 
-```bash
+```shell
 $ sh jdk-6u45-linux-x64.bin
 ```
 
@@ -24,7 +24,7 @@ root 계정 필요하고, 환경변수 설정은 ```/etc/profile``` 파일에 �
 
 ### 1) vi를 통해 profile 열기
 
-```bash
+```shell
 $ vi /etc/profile
 ```
 
