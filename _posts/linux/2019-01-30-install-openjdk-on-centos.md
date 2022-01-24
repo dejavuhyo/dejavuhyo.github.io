@@ -14,35 +14,35 @@ tags: [centos-openjdk-install, openjdk-install, centos-java-home, centos-openjdk
 
 ## 2. 설치된 JDK 확인
 
-```bash
+```shell
 [root@localhost ~]# rpm -qa | grep jdk
 ```
 
 ## 3. 설치된 JDK 삭제
 
-```bash
+```shell
 [root@localhost ~]# yum remove java*
 ```
 
 ## 4. 설치 가능한 JDK 버전 확인
 
-```bash
+```shell
 [root@localhost ~]# yum list java*jdk-devel
 ```
 
 ## 5. 설치
 
-```bash
+```shell
 [root@localhost ~]# yum install java-1.8.0-openjdk-devel.x86_64
 ```
 
 ## 6. 설치 확인
 
-```bash
+```shell
 [root@localhost ~]# javac -version
 ```
 
-```bash
+```shell
 [root@localhost ~]# rpm -qa java*jdk-devel
 ```
 
@@ -50,7 +50,7 @@ tags: [centos-openjdk-install, openjdk-install, centos-java-home, centos-openjdk
 
 * 설정되어 있지 않음
 
-```bash
+```shell
 [root@localhost ~]# echo $JAVA_HOME
 ```
 
@@ -58,14 +58,14 @@ tags: [centos-openjdk-install, openjdk-install, centos-java-home, centos-openjdk
 
 ### 1) javac 명령어의 위치 확인
 
-```bash
+```shell
 [root@localhost ~]# which javac
 ```
 
 ## 2) 원본 파일 위치 확인
 ```/usr/bin/javac```는 심볼릭 링크 이므로, 원본 파일 위치 확인
 
-```bash
+```shell
 [root@localhost ~]# readlink -f /usr/bin/javac
 /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-1.el7_6.x86_64/bin/javac
 ```
@@ -75,14 +75,14 @@ tags: [centos-openjdk-install, openjdk-install, centos-java-home, centos-openjdk
 ### 1) 환경변수 등록
 javac의 원본파일 경로를 이용하여 ```JAVA_HOME``` 환경변수 등록
 
-```bash
+```shell
 [root@localhost ~]# vi /etc/profile
 ```
 
 ### 2) profile 파일 편집
 환경변수를 설정하는 profile 파일 편집
 
-```bash
+```shell
 [root@localhost ~]# vi /etc/profile
 ```
 
@@ -94,18 +94,18 @@ export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-1.el7_6.x86_64
 
 ### 3) profile 적용
 
-```bash
+```shell
 [root@localhost ~]# source /etc/profile
 ```
 
 ## 10. JAVA_HOME 확인
 
-```bash
+```shell
 [root@localhost ~]# echo $JAVA_HOME
 /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-1.el7_6.x86_64
 ```
 
-```bash
+```shell
 [root@localhost ~]# $JAVA_HOME/bin/javac -version
 javac 1.8.0_191
 ```
