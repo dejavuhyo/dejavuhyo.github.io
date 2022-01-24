@@ -50,25 +50,25 @@ services:
 
 ### 1) 서비스 실행
 
-```bash
+```shell
 [root@localhost ~]# docker-compose up
 ```
 
 ### 2) 백그라운드 실행
 
-```bash
+```shell
 [root@localhost ~]# docker-compose up -d
 ```
 
 ### 3) 실행중인 항목 확인
 
-```bash
+```shell
 [root@localhost ~]# docker-compose ps
 ```
 
 ### 4) 컨테이너 중지
 
-```bash
+```shell
 [root@localhost ~]# docker-compose stop
 ```
 
