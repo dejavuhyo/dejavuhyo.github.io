@@ -8,7 +8,7 @@ tags: [linux-console-sftp, console-sftp, linux-sftp, 리눅스-콘솔-sftp, 콘�
 
 ## 1. 접속
 
-```bash
+```shell
 $ sftp [ID]@[접속 도메인]
 ```
 
@@ -16,36 +16,36 @@ $ sftp [ID]@[접속 도메인]
 
 * 폴더 이동
 
-```bash
+```shell
 $ cd [폴더명]
 ```
 
 * 폴더 조회
 
-```bash
+```shell
 $ ls
 ```
 
 * 파일 다운로드
 
-```bash
+```shell
 $ get [파일명]
 ```
 
 * 파일 업로드
 
-```bash
+```shell
 $ put [파일명]
 ```
 
 * 전체 파일 다운로드
 
-```bash
+```shell
 $ mget *
 ```
 
 * 전체 파일 업로드
 
-```bash
+```shell
 $ mput *
 ```
