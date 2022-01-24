@@ -12,12 +12,12 @@ tags: [centos-gitlab, centos-gitlab-install, gitlab-install, centos-gitlab-설�
 
 ### 1) CentOS 8 소프트웨어 패키지 업데이트
 
-```bash
+```shell
 [root@localhost ~]# dnf update
 ```
 ### 2) 운영 체제 버전 확인
 
-```bash
+```shell
 [root@localhost ~]# cat /etc/redhat-release 
 CentOS Linux release 8.3.2011
 ```
@@ -29,7 +29,7 @@ CentOS Linux release 8.3.2011
 ### 1) 종속성 설치
 OpenSSH 패키지 및 Postfix를 포함하여 GitLab에 필요한 패키지 종속성을 설치한다.
 
-```bash
+```shell
 [root@localhost ~]# dnf install -y curl policycoreutils openssh-server perl
 [root@localhost ~]# systemctl enable sshd
 [root@localhost ~]# systemctl start sshd
@@ -43,7 +43,7 @@ OpenSSH 패키지 및 Postfix를 포함하여 GitLab에 필요한 패키지 종�
 ### 2) 이메일 알림 설정
 Postfix를 설치하여 알림 이메일을 보낸다. 다른 솔루션을 사용하여 이메일을 보내려면 이 단계를 건너 뛰고 GitLab을 설치한 후 외부 SMTP 서버를 구성해야 한다.
 
-```bash
+```shell
 [root@localhost ~]# dnf install postfix
 [root@localhost ~]# systemctl enable postfix
 [root@localhost ~]# systemctl start postfix
@@ -54,7 +54,7 @@ GitLab 패키지 저장소를 추가하고 패키지를 설치한다.
 
 ### 1) 저장소 추가
 
-```bash
+```shell
 [root@localhost ~]# curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
 ```
 
@@ -63,7 +63,7 @@ DNS를 올바르게 설정했는지 확인하고 '도메인 혹은 IP'를 GitLab
 
 https:// URL의 경우 GitLab이 암호화를 사용하여 인증서를 자동으로 요청하므로 인바운드 HTTP 액세스와 유효한 호스트 이름이 필요하다. 사용자 자신의 인증서를 사용하거나 http://를 사용할 수도 있다.
 
-```bash
+```shell
 [root@localhost ~]# EXTERNAL_URL="도메인 혹은 IP" dnf install -y gitlab-ce
 ```
 
