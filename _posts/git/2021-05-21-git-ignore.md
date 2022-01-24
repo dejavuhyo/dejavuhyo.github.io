@@ -32,7 +32,7 @@ git add 명령 실행 시 위 조건에 맞는 파일들은 자동으로 제외�
 
 ignore 목록에 있어도 추가해야 할 경우 -f(force) 옵션을 사용해서 추가한다.
 
-```bash
+```shell
 [root@localhost ~]# git add -f jdbc.properties
 ```
 
