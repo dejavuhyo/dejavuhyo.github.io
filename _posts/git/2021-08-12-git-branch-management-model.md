@@ -67,7 +67,7 @@ develop branches의 소스 코드가 안정적인 지점에 도달하여 릴리�
 
 * 다음에 다시 병합: develop
 
-* 분기 이름 지정 규칙: anything except master, develop, ```release-*```, or ```hotfix-*```
+* 분기 이름 지정 규칙: anything except master, develop, `release-*`, or `hotfix-*`
 
 ![feature-branches](/assets/img/2021-08-12-git-branch-management-model/feature-branches.png)
 
@@ -87,7 +87,7 @@ Switched to a new branch "myfeature"
 #### (2) 개발 완료 기능 통합
 완료된 기능을 개발 분기에 병합하여 다음 릴리스에 추가할 수 있다.
 
-````shell
+```shell
 $ git checkout develop
 Switched to branch 'develop'
 
@@ -99,13 +99,13 @@ $ git branch -d myfeature
 Deleted branch myfeature (was 05e9557).
 
 $ git push origin develop
-````
+```
 
-```--no-off``` 플래그를 사용하면 병합을 빠른 회송으로 수행할 수 있더라도 병합에서 항상 새 커밋 개체를 만들 수 있다. 이렇게 하면 피쳐 분기의 과거 존재에 대한 정보가 손실되는 것을 방지하고 피쳐를 추가한 모든 커밋을 함께 그룹화한다.
+`--no-off` 플래그를 사용하면 병합을 빠른 회송으로 수행할 수 있더라도 병합에서 항상 새 커밋 개체를 만들 수 있다. 이렇게 하면 피쳐 분기의 과거 존재에 대한 정보가 손실되는 것을 방지하고 피쳐를 추가한 모든 커밋을 함께 그룹화한다.
 
 ![merge-without-ff](/assets/img/2021-08-12-git-branch-management-model/merge-without-ff.png)
 
-후자의 경우 Git 기록에서 기능을 함께 구현한 커밋 개체를 확인할 수 없다. 모든 로그 메시지를 수동으로 읽어야 한다. ```--no-off``` 플래그를 사용한 경우 쉽게 수행되는 반면, 전체 기능(즉, 커밋 그룹)을 되돌리는 것은 후자의 경우 진정한 골칫거리이다.
+후자의 경우 Git 기록에서 기능을 함께 구현한 커밋 개체를 확인할 수 없다. 모든 로그 메시지를 수동으로 읽어야 한다. `--no-off` 플래그를 사용한 경우 쉽게 수행되는 반면, 전체 기능(즉, 커밋 그룹)을 되돌리는 것은 후자의 경우 진정한 골칫거리이다.
 
 ### 2) 출시 분기(Release branches)
 
@@ -113,7 +113,7 @@ $ git push origin develop
 
 * 다음에 다시 병합: develop and master
 
-* 분기 이름 지정 규칙: ```release-*```
+* 분기 이름 지정 규칙: `release-*`
 
 릴리스 지점에서는 새로운 프로덕션 릴리스 준비를 지원합니다. 마지막 순간에 i를 찍고 t를 교차할 수 있게 해준다. 또한 사소한 버그 수정과 릴리스용 메타 데이터(버전 번호, 빌드 날짜 등)를 준비할 수 있다.
 
@@ -168,7 +168,7 @@ $ git tag -a 1.2
 
 이제 릴리스가 완료되었으며 나중에 참조할 수 있도록 태그가 지정되었다.
 
-> ```-s``` 또는 ```-u <key>``` 플래그를 사용하여 암호화된 방식으로 태그에 서명하는 것이 좋다.
+> `-s` 또는 `-u <key>` 플래그를 사용하여 암호화된 방식으로 태그에 서명하는 것이 좋다.
 
 출시 지점의 변경 사항을 유지하려면 다시 병합하여 개발해야 한다.
 
@@ -196,7 +196,7 @@ Deleted branch release-1.2 (was ff452fe).
 
 * 다음에 다시 병합: develop and master
 
-* 분기 이름 지정 규칙: ```hotfix-*```
+* 분기 이름 지정 규칙: `hotfix-*`
 
 ![hotfix-branches](/assets/img/2021-08-12-git-branch-management-model/hotfix-branches.png)
 
@@ -247,7 +247,7 @@ Merge made by recursive.
 $ git tag -a 1.2.1
 ```
 
-> ```-s``` 또는 ```-u <key>``` 플래그를 사용하여 암호화된 방식으로 태그에 서명하는 것이 좋다.
+> `-s` 또는 `-u <key>` 플래그를 사용하여 암호화된 방식으로 태그에 서명하는 것이 좋다.
 
 다음으로, 개발 중인 버그 픽스도 포함한다.
 
