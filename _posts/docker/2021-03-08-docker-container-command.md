@@ -34,7 +34,7 @@ tags: [docker-dontainer-command, dontainer-command, docker-dontainer, 도커-컨
 | --interactive , -i | 부착되지 않은 경우에도 SDDIN을 열어 둔다 |
 | --privileged | 명령에 확장 권한 부여 |
 | --tty , -t | pseudo-TTY 할당 |
-| --user , -u | 사용자 이름 또는 UID (형식: ```<name|uid>[:<group|gid>])``` |
+| --user , -u | 사용자 이름 또는 UID (형식: `<name|uid>[:<group|gid>])` |
 | --workdir , -w | 컨테이너 내부의 작업 디렉터리 |
 
 ## [출처 및 참고]
