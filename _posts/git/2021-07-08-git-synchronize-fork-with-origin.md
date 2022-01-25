@@ -62,7 +62,7 @@ $ git merge upstream/master
 * commit 메시지 작성
 
 ```shell
-$ git commit -am 'commit 메시지'
+$ git commit -am commit 메시지
 ```
 
 ### 5) 포크한 저장소를 Git 서버에 적용
