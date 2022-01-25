@@ -27,7 +27,7 @@ tags: [spring-cloud-gateway-configuration, spring-cloud-gateway, gateway-configu
 ## 3. 설정
 
 ### 1) GatewayApplication.java 설정
-```@EnableEurekaClient``` 어노테이션을 추가한다.
+`@EnableEurekaClient` 어노테이션을 추가한다.
 
 ```java
 package com.example.gateway;
