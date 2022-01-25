@@ -36,7 +36,7 @@ Singleton 클래스의 생성자는 private로 되어 있다. 이것은 Singleto
 ```java
 public class Singleton {
     private static Singleton singleton = new Singleton();
-    private Singleton() {                                 
+    private Singleton() {
         System.out.println("인스턴스를 생성했습니다.");
     }
     public static Singleton getInstance() {
