@@ -82,7 +82,7 @@ public class IDCard extends Product {
 ```
 
 ### 4) IDCardFactory 클래스
-  - createProduct와 registerProduct의 두 가지 메소드를 구현하고 있다. createProduct에서는 IDCard의 인스턴스를 생성해서 '제품을 만드는'일을 실현하고 있다. registerProduct에서는 IDCard의 owner(소유자)를 owners 필드에 추가해서 '등록'이라는 기능을 실현하고 있다.
+createProduct와 registerProduct의 두 가지 메소드를 구현하고 있다. createProduct에서는 IDCard의 인스턴스를 생성해서 '제품을 만드는'일을 실현하고 있다. registerProduct에서는 IDCard의 owner(소유자)를 owners 필드에 추가해서 '등록'이라는 기능을 실현하고 있다.
 
 ```java
 package idcard;
