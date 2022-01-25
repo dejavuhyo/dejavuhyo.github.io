@@ -92,12 +92,12 @@ Comparator<Apple> byWeight = (Apple a1, Apple a2) -> a1.getWeight().compareTo(a2
 
 | 사용 사례 | 람다 예제 |
 |:---:|:---:|
-| 불리언 표현식 |  ```(List<String>) -> list.isEmpty()``` |
-| 객체 생성 | ```() -> new Apple(10)``` |
-| 객체에서 소비 | ```(Apple a) -> { System.out.println(a.getWeight());``` |
-| 객체에서 선택/추출 | ```(String s) -> s.length()``` |
-| 두 값을 조합 | ```(int a, int b) -> a * b``` |
-| 두 객체 비교 | ```(Apple a1, Apple a2) -> a.getWeight().compareTo(a2.getWeight())``` |
+| 불리언 표현식 |  `(List<String>) -> list.isEmpty()` |
+| 객체 생성 | `() -> new Apple(10)` |
+| 객체에서 소비 | `(Apple a) -> { System.out.println(a.getWeight());` |
+| 객체에서 선택/추출 | `(String s) -> s.length()` |
+| 두 값을 조합 | `(int a, int b) -> a * b` |
+| 두 객체 비교 | `(Apple a1, Apple a2) -> a.getWeight().compareTo(a2.getWeight())` |
 
 ## [출처 및 참고]
 * Modern Java in Action(모던 자바 인 액션)
