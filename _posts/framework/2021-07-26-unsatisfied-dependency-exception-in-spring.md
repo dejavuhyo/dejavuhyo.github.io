@@ -7,7 +7,7 @@ tags: [unsatisfied-dependency-exception, bean-creation-exception, spring-propert
 ---
 
 ## 1. Exception 발생
-DB 연동을 위해 DataSource를 정보를 properties 파일에 정의해두고, ```@Value``` 어노테이션을 통해 값을 주입하였다.
+DB 연동을 위해 DataSource를 정보를 properties 파일에 정의해두고, `@Value` 어노테이션을 통해 값을 주입하였다.
 
 프로그램 실행 중 UnsatisfiedDependencyException과 BeanCreationException이 발생하였다. BeanCreationException은 스프링 Bean 객체 생성 중에 예외가 발생하여 Bean 생성이 되지 못하는 예외이다.
 
