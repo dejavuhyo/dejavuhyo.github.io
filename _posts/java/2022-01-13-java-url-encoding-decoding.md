@@ -72,7 +72,7 @@ public void givenRequestParam_whenUTF8Scheme_thenEncode() throws Exception {
 
 이 인코딩 방법은 문자열을 [application/x-www-form-urlencoded](https://www.w3.org/TR/html401/interact/forms.html#h-17.13.4.1) 형식으로 변환한다.
 
-인코딩 체계는 특수 문자를 ```%xy``` 형식으로 표시되는 8비트의 2자리 16진수 표현으로 변환한다. 경로 매개변수를 처리하거나 동적 매개변수를 추가할 때 데이터를 인코딩한 다음 서버로 보낸다.
+인코딩 체계는 특수 문자를 `%xy` 형식으로 표시되는 8비트의 2자리 16진수 표현으로 변환한다. 경로 매개변수를 처리하거나 동적 매개변수를 추가할 때 데이터를 인코딩한 다음 서버로 보낸다.
 
 __참고:__ World Wide Web Consortium 권장 사항은 UTF-8을 사용해야 한다고 명시하고 있다. 그렇지 않으면 비호환성이 발생할 수 있다. (https://docs.oracle.com/javase/7/docs/api/java/net/URLEncoder.html)
 
@@ -111,9 +111,9 @@ public void givenRequestParam_whenUTF8Scheme_thenDecodeRequestParams() {
 분석보다 디코딩하는 경우 URL 부분이 올바르게 구문 분석되지 않을 수 있다. 다른 인코딩 체계를 사용하여 데이터를 디코딩하면 가비지 데이터가 생성된다.
 
 ## 5. 경로 세그먼트 인코딩
-URLEncoder는 URL의 경로 세그먼트를 인코딩하는데 사용할 수 없다. 경로 구성 요소는 디렉토리 경로를 나타내는 계층 구조를 참조하거나 ```/```로 구분된 리소스를 찾는 역할을 한다.
+URLEncoder는 URL의 경로 세그먼트를 인코딩하는데 사용할 수 없다. 경로 구성 요소는 디렉토리 경로를 나타내는 계층 구조를 참조하거나 `/`로 구분된 리소스를 찾는 역할을 한다.
 
-경로 세그먼트의 예약 문자가 쿼리 매개변수 값과 다르다. 예를 들어 ```+``` 기호는 경로 세그먼트에서 유효한 문자이므로 인코딩해서는 안된다.
+경로 세그먼트의 예약 문자가 쿼리 매개변수 값과 다르다. 예를 들어 `+` 기호는 경로 세그먼트에서 유효한 문자이므로 인코딩해서는 안된다.
 
 경로 세그먼트를 인코딩하기 위해 대신 Spring Framework에서 UriUtils 클래스를 사용한다. UriUtils 클래스는 각각 경로 및 경로 세그먼트를 인코딩하기 위한 encodePath 및 encodePathSegment 메소드를 제공한다.
 
@@ -143,7 +143,7 @@ public void givenPathSegment_thenEncodeDecode()
 }
 ```
 
-위의 코드 스니펫에서 우리가 encodePathSegment 메소드를 사용할 때 인코딩된 값을 반환했고 ```+```는 경로 구성 요소의 값 문자이기 때문에 인코딩되지 않는다는 것을 알 수 있다.
+위의 코드 스니펫에서 우리가 encodePathSegment 메소드를 사용할 때 인코딩된 값을 반환했고 `+`는 경로 구성 요소의 값 문자이기 때문에 인코딩되지 않는다는 것을 알 수 있다.
 
 테스트 URL에 경로 변수를 추가해 본다.
 
