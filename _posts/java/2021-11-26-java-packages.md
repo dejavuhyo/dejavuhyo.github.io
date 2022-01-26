@@ -150,7 +150,7 @@ TodoList 클래스가 의존 하기 때문에 먼저 TodoItem 클래스를 컴�
 이제 com.baeldung.packages.domain.TodoItem 클래스를 컴파일한다.
 
 ```shell
-> javac com/baeldung/packages/domain/TodoItem.java
+$ javac com/baeldung/packages/domain/TodoItem.java
 ```
 
 클래스가 정상적으로 컴파일되면 오류 메시지가 표시되지 않고 TodoItem.class 파일이 com/beldung/packages/domain 디렉토리에 나타납니다.
@@ -160,7 +160,7 @@ TodoList 클래스가 의존 하기 때문에 먼저 TodoItem 클래스를 컴�
 이제 TodoItem 클래스가 컴파일 되었으므로 TodoList 및 TodoApp 클래스를 컴파일할 수 있다.
 
 ```shell
-> javac -classpath . com/baeldung/packages/*.java
+$ javac -classpath . com/baeldung/packages/*.java
 ```
 
 오류 메시지가 표시되지 않아야 하며 com/baeldung/packages 디렉토리에서 두 개의 클래스 파일을 찾아야 한다.
