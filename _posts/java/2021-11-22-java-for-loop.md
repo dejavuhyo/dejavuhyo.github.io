@@ -79,7 +79,7 @@ for (int num : intArr) {
 
 이를 사용하여 다양한 Java 데이터 구조를 반복할 수 있다.
 
-```List<String>``` 목록 개체가 주어지면 반복할 수 있다.
+`List<String>` 목록 개체가 주어지면 반복할 수 있다.
 
 ```java
 for (String item : list) {
@@ -87,7 +87,7 @@ for (String item : list) {
 }
 ```
 
-```Set<String>``` set에 대해서도 유사하게 반복할 수 있다.
+`Set<String>` set에 대해서도 유사하게 반복할 수 있다.
 
 ```java
 for (String item : set) {
@@ -95,7 +95,7 @@ for (String item : set) {
 }
 ```
 
-```Map<String, Integer>``` 맵이 주어지면 이를 반복할 수도 있다.
+`Map<String, Integer>` 맵이 주어지면 이를 반복할 수도 있다.
 
 ```java
 for (Entry<String, Integer> entry : map.entrySet()) {
