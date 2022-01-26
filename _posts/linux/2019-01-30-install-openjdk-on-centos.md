@@ -63,7 +63,7 @@ tags: [centos-openjdk-install, openjdk-install, centos-java-home, centos-openjdk
 ```
 
 ## 2) 원본 파일 위치 확인
-```/usr/bin/javac```는 심볼릭 링크 이므로, 원본 파일 위치 확인
+`/usr/bin/javac`는 심볼릭 링크 이므로, 원본 파일 위치 확인
 
 ```shell
 [root@localhost ~]# readlink -f /usr/bin/javac
@@ -73,7 +73,7 @@ tags: [centos-openjdk-install, openjdk-install, centos-java-home, centos-openjdk
 ## 9. JAVA_HOME 설정
 
 ### 1) 환경변수 등록
-javac의 원본파일 경로를 이용하여 ```JAVA_HOME``` 환경변수 등록
+javac의 원본파일 경로를 이용하여 `JAVA_HOME` 환경변수 등록
 
 ```shell
 [root@localhost ~]# vi /etc/profile
