@@ -60,13 +60,13 @@ JVM의 기본 GC이며, 처리량 수집기라고도 한다. Serial Garbage Coll
 
 이 GC를 사용하면 최대 가비지 수집 스레드를 지정하고 일시 중지 시간, 처리량 및 설치 공간(힙 크기)을 지정할 수 있다.
 
-가비지 수집기 스레드 수는 명령줄 옵션 ```XX:ParallelGCThreads=<N>```로 제어할 수 있다.
+가비지 수집기 스레드 수는 명령줄 옵션 `XX:ParallelGCThreads=<N>`로 제어할 수 있다.
 
-최대 일시 중지 시간 목표(두 GC 사이의 간격 [밀리초])는 명령줄 옵션 ```-XX:MaxGCPauseMillis=<N>```로 지정한다.
+최대 일시 중지 시간 목표(두 GC 사이의 간격 [밀리초])는 명령줄 옵션 `-XX:MaxGCPauseMillis=<N>`로 지정한다.
 
-가비지 수집에 소요된 시간과 가비지 수집 외부에서 소요된 시간을 최대 처리량 목표라고 하며 명령줄 옵션 ```-XX:GCTimeRatio=<N>```로 지정한다.
+가비지 수집에 소요된 시간과 가비지 수집 외부에서 소요된 시간을 최대 처리량 목표라고 하며 명령줄 옵션 `-XX:GCTimeRatio=<N>`로 지정한다.
 
-최대 힙 공간(프로그램 실행 중에 필요한 힙 메모리 양)은 ```-Xmx<N>``` 옵션을 사용하여 지정한다.
+최대 힙 공간(프로그램 실행 중에 필요한 힙 메모리 양)은 `-Xmx<N>` 옵션을 사용하여 지정한다.
 
 Parallel Garbage Collector를 활성화하려면 다음 인수를 사용한다.
 
@@ -81,7 +81,7 @@ Concurrent Mark Sweep(CMS) 구현은 가비지 수집에 여러 가비지 수집
 
 여기서 주목할 점은 이 GC가 동시이므로 동시 프로세스가 작동하는 동안 System.gc()를 사용하는 것과 같은 명시적 가비지 수집을 호출하면 Concurrent Mode Failure/Interruption이 발생한다는 것이다.
 
-총 시간의 98% 이상이 CMS 가비지 수집에 소요되고 힙의 2% 미만이 복구되면 CMS 수집기에 의해 OutOfMemoryError가 발생한다. 필요한 경우 명령줄에 ```-XX:-UseGCOverheadLimit``` 옵션을 추가하여 이 기능을 사용하지 않도록 설정할 수 있다.
+총 시간의 98% 이상이 CMS 가비지 수집에 소요되고 힙의 2% 미만이 복구되면 CMS 수집기에 의해 OutOfMemoryError가 발생한다. 필요한 경우 명령줄에 `-XX:-UseGCOverheadLimit` 옵션을 추가하여 이 기능을 사용하지 않도록 설정할 수 있다.
 
 이 수집기에는 Java SE 8에서 더 이상 사용되지 않고 향후 주요 릴리스에서 제거될 수 있는 증분 모드로 알려진 모드도 있다.
 
@@ -127,7 +127,7 @@ java -XX:+UseG1GC -jar Application.java
 ### 5) Java 8 변경 사항
 Java 8u20은 동일한 문자열의 인스턴스를 너무 많이 생성하여 불필요한 메모리 사용을 줄이기 위해 JVM 매개변수를 하나 더 도입했다. 이것은 중복 문자열 값을 전역 단일 char[] 배열로 제거하여 힙 메모리를 최적화한다.
 
-이 매개변수는 ```-XX:+UseStringDeduplication```을 JVM 매개변수로 추가하여 활성화할 수 있다.
+이 매개변수는 `-XX:+UseStringDeduplication`을 JVM 매개변수로 추가하여 활성화할 수 있다.
 
 ### 6) Z Garbage Collector
 ZGC(Z Garbage Collector)는 Linux의 실험 옵션으로 Java 11에서 첫 선을 보인 확장 가능한 대기 시간이 짧은 가비지 수집기이다. JDK 14는 Windows 및 macOS 운영 체제에서 ZGC를 도입했다. ZGC는 Java 15 프로덕션 상태를 얻었다.
