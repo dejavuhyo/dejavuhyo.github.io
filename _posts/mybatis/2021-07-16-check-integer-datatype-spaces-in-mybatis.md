@@ -18,7 +18,7 @@ SELECT * FROM dual
 </where>
 ```
 
-num 변수의 데이터형이 Integer일 때, num 값이 0이라면 ```num != ''```로 인식해서 원하는 조건 검색이 실행되지 않는다.
+num 변수의 데이터형이 Integer일 때, num 값이 0이라면 `num != ''`로 인식해서 원하는 조건 검색이 실행되지 않는다.
 
 ## 2. 해결 방법
 
@@ -26,7 +26,7 @@ num 변수의 데이터형이 Integer일 때, num 값이 0이라면 ```num != ''
 num을 String Type으로 전송 받는다.
 
 ### 2) equals 사용
-```num != ''```대신 ```num.equals('')```를 사용한다.
+`num != ''`대신 `num.equals('')`를 사용한다.
 
 ### 3) 커스텀 함수 사용
 
