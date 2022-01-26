@@ -57,7 +57,7 @@ Dependencies resolved.
 ## 3. 설정
 
 ### 1) 타임서버 설정
-기본으로 설정이 되어 있는 CentOS NTP pool의 time server가 아니라, 다른 Time server에서 동기화를 하고 싶다면 /etc/chrony.conf 에서 server 지시자에 원하는 Time server를 등록하면 된다.
+기본으로 설정이 되어 있는 CentOS NTP pool의 time server가 아니라, 다른 Time server에서 동기화를 하고 싶다면 `/etc/chrony.conf`에서 server 지시자에 원하는 Time server를 등록하면 된다.
 
 ```shell
 [root@localhost ~]# vi /etc/chrony.conf
