@@ -47,7 +47,7 @@ StringUtils를 포함하려면 pom.xml 파일을 업데이트해야 한다.
 </dependency>
 ```
 
-```StringUtils.substring()```에는 주어진 문자열, 첫 번째 문자의 인덱스(이 경우 항상 0이 됨) 및 끝에서 두 번째 문자의 인덱스라는 세 가지 매개변수가 필요하다. 단순히 length() 메서드를 사용하여 1을 뺄 수 있다.
+`StringUtils.substring()`에는 주어진 문자열, 첫 번째 문자의 인덱스(이 경우 항상 0이 됨) 및 끝에서 두 번째 문자의 인덱스라는 세 가지 매개변수가 필요하다. 단순히 length() 메서드를 사용하여 1을 뺄 수 있다.
 
 ```java
 String TEST_STRING = "abcdef";
