@@ -171,7 +171,7 @@ GenericFile file = imageFile;
 ImageFile imageFile = (ImageFile) file;
 ```
 
-후기 바인딩 전략은 컴파일러가 업캐스팅 후 트리거할 메서드를 결정하는 데 도움이 된다. 위의 예에서 ```imageFile#getInfo``` 대 ```file#getInfo```의 경우 컴파일러는 ImageFile의 getInfo 메서드에 대한 참조를 유지한다.
+후기 바인딩 전략은 컴파일러가 업캐스팅 후 트리거할 메서드를 결정하는 데 도움이 된다. 위의 예에서 `imageFile#getInfo` 대 `file#getInfo`의 경우 컴파일러는 ImageFile의 getInfo 메서드에 대한 참조를 유지한다.
 
 ## 5. 다형성의 문제
 제대로 확인하지 않으면 런타임 오류로 이어질 수 있는 다형성의 몇 가지 모호성을 살펴본다.
