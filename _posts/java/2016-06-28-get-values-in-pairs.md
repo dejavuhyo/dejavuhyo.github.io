@@ -7,7 +7,7 @@ tags: [get-values-pairs, values-pairs, get-parameter-values, 값을-쌍으로-�
 ---
 
 ## 1. value를 넘길때
-```<c:foreach>```로 뿌려진 값을 id, value를 넘길때 타입 name 설정한다.
+`<c:foreach>`로 뿌려진 값을 id, value를 넘길때 타입 name 설정한다.
 
 * a.jsp
 
