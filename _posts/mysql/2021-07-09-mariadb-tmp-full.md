@@ -9,7 +9,7 @@ tags: [mariadb-tmp-full, tmp-full, errcode-28, mariadb-errcode-28]
 ## 1. tmp란
 스토리지 엔진으로부터 받아온 레코드를 order by, group by 혹은 alter table 명령어 수행을 위해 내부적인 임시 테이블을 사용한다.
 
-일반적으로 임시 테이블은 처음엔 메모리에 생성됐다가 설정값 (max_heap_table_size 혹은 tmp_table_size 값)을 초과하는 경우 디스크로 옮겨진다.
+일반적으로 임시 테이블은 처음엔 메모리에 생성됐다가 설정값 (`max_heap_table_size` 혹은 `tmp_table_size` 값)을 초과하는 경우 디스크로 옮겨진다.
 
 이와 같은 내부적인 임시 테이블은 쿼리 수행이 완료되면 자동으로 삭제된다.
 
@@ -46,12 +46,12 @@ show processlist;
 kill 프로세스ID;
 ```
 
-* __copying to tmp table:__ 정렬하는 데이터 크기가 tmp_table_size, max_heap_table_size보다 작아서 memory 내에 tmp 임시테이블 생성
+* __copying to tmp table:__ 정렬하는 데이터 크기가 `tmp_table_size`, `max_heap_table_size`보다 작아서 memory 내에 tmp 임시테이블 생성
 
-* __copying to tmp disk:__ 정렬하는 데이터 크기가 tmp_table_size, max_heap_table_size 보다 커져서 memory가 아닌 디스크에 tmp 임시 테이블 생성
+* __copying to tmp disk:__ 정렬하는 데이터 크기가 `tmp_table_size`, `max_heap_table_size` 보다 커져서 memory가 아닌 디스크에 tmp 임시 테이블 생성
 
 ### 2) temp 영역 여러개 지정
-tmpdir 설정에 ':'로 구분하여 복수로 지정할 수 있다. 지정된 tmpdir를 round-robin 방식으로 사용하게 된다.
+tmpdir 설정에 `:`로 구분하여 복수로 지정할 수 있다. 지정된 tmpdir를 round-robin 방식으로 사용하게 된다.
 
 * my.cnf
 
