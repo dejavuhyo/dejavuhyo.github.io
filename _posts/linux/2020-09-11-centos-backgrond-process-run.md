@@ -23,7 +23,7 @@ tags: [background-process-run, background-process, nohup, 백그라운드-프로
 ```
 
 ## 3. 로그 출력
-프로세스가 실행되면 console에 출력되는 내용은 기본적으로 nohup.out 이라는 파일로 출력 된다.
+프로세스가 실행되면 console에 출력되는 내용은 기본적으로 `nohup.out` 이라는 파일로 출력 된다.
 
 ### 1) 다른 파일명으로 출력
 
