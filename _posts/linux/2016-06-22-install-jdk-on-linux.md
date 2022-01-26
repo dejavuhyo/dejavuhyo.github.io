@@ -20,7 +20,7 @@ $ sh jdk-6u45-linux-x64.bin
 ```
 
 ## 4. 환경변수 설정
-root 계정 필요하고, 환경변수 설정은 ```/etc/profile``` 파일에 작성 한다.
+root 계정 필요하고, 환경변수 설정은 `/etc/profile` 파일에 작성 한다.
 
 ### 1) vi를 통해 profile 열기
 
