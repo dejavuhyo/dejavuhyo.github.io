@@ -40,7 +40,7 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE( 'and good bye...' );
 
 END;
-````
+```
 
 결과는 다음과 같다.
 
