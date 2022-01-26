@@ -77,7 +77,7 @@ public void whenBigDecimalCreatedUsingValueOf_thenValueMatches() {
 ## 2. BigDecimal 연산
 다른 Number 클래스(Integer, Long, Double 등)와 마찬가지로 BigDecimal은 산술 및 비교 연산을 위한 연산을 제공한다. 또한 스케일 조작, 반올림 및 형식 변환을 위한 작업도 제공한다.
 
-산술(```+, -, /, *```) 또는 논리(```>, <``` 등) 연산자를 오버로드하지 않는다. 대신 더하기, 빼기, 곱하기, 나누기 및 compareTo와 같은 해당 메서드를 사용한다.
+산술(`+`, `-`, `/`, `*`) 또는 논리(`>`, `<` 등) 연산자를 오버로드하지 않는다. 대신 더하기, 빼기, 곱하기, 나누기 및 compareTo와 같은 해당 메서드를 사용한다.
 
 BigDecimal에는 정밀도, 스케일 및 부호와 같은 다양한 속성을 추출하는 메소드가 있다.
 
@@ -142,7 +142,7 @@ public void whenPerformingArithmetic_thenExpectedResult() {
     assertTrue(quotient.compareTo(new BigDecimal("2.0")) == 0);
     assertTrue(product.compareTo(new BigDecimal("8.0")) == 0);
 }
-````
+```
 
 이후 의 BigDecimal은 불변이며, 이러한 작업은 기존 개체를 수정하지 않는다. 오히려 새 객체를 반환한다.
 
