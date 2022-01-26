@@ -103,7 +103,7 @@ JVM이 애플리케이션의 진입점으로 실행해야 하는 기본 메소�
 Main-Class: mypackage.ClassWithMainMethod
 ```
 
-이것은 실행 가능한 ```.jar``` 파일을 생성할 때 주로 사용된다. ```META-INF/MANIFEST.MF``` (UTF-8로 인코딩됨)에 있는 매니페스트 파일을 통해 실행을 시작하는 기본 메서드가 있는 클래스를 나타낸다.
+이것은 실행 가능한 `.jar` 파일을 생성할 때 주로 사용된다. `META-INF/MANIFEST.MF` (UTF-8로 인코딩됨)에 있는 매니페스트 파일을 통해 실행을 시작하는 기본 메서드가 있는 클래스를 나타낸다.
 
 ## [출처 및 참고]
 * <https://www.baeldung.com/java-main-method>
