@@ -21,7 +21,7 @@ tags: [nexus-repository-upload, nexus-bulk-upload, library-upload, library-bulk-
 
 nexus-버전 폴더는 Nexus Repository 실행에 관련된 폴더이며, sonatype-work 폴더는 Repository 관리 폴더이다.
 
-```/sonatype-work/nexus/storage``` 경로에 Repository 목록이 나온다.
+`/sonatype-work/nexus/storage` 경로에 Repository 목록이 나온다.
 
 ![repository-list](/assets/img/2021-10-22-nexus-repository-library-bulk-upload/repository-list.png)
 
@@ -32,7 +32,7 @@ nexus-버전 폴더는 Nexus Repository 실행에 관련된 폴더이며, sonaty
 ### 2) Shell Script
 로컬 레파지토리 최상단에서 해당 파일을 생성하고 수행하면 경로에 따라 파일 목록을 텍스트 형태로 생성하고 Nexus REST API를 통해 업로드 하는 형태이다.
 
-* nexus_bulk_upload.sh
+* `nexus_bulk_upload.sh`
 
 ```shell
 #!/bin/bash
@@ -53,7 +53,7 @@ done <$files
 
 > username과 password는 넥서스 로그인 아이디와 패스워드이다.
 
-로컬 메이븐 Repository 디렉터리로 이동하여 Git Bash를 열고, nexus_bulk_upload.sh 파일을 실행한다.
+로컬 메이븐 Repository 디렉터리로 이동하여 Git Bash를 열고, `nexus_bulk_upload.sh` 파일을 실행한다.
 
 ## [출처 및 참고]
 * <https://sound10000w.tistory.com/181>
