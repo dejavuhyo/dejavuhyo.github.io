@@ -31,10 +31,10 @@ END CASE;
 ### 1) selector
 selector는 한 번 평가하는 식이다.
 
-셀렉터의 결과는 selector_value_1 및 selector_value_2와 같은 몇 가지 대안 중 하나를 선택하는 데 사용된다.
+셀렉터의 결과는 `selector_value_1` 및 `selector_value_2`와 같은 몇 가지 대안 중 하나를 선택하는 데 사용된다.
 
 ### 2) WHEN selector_value THEN statements
-selector 값, 즉 selector_value_1, selector_value_2 등을 순차적으로 평가한다. selector 값의 결과가 selector 결과와 같다면, 관련된 문장 시퀀스가 실행되고 CASE 문이 종료된다. 또한 후속 selector 값은 평가되지 않는다.
+selector 값, 즉 `selector_value_1`, `selector_value_2` 등을 순차적으로 평가한다. selector 값의 결과가 selector 결과와 같다면, 관련된 문장 시퀀스가 실행되고 CASE 문이 종료된다. 또한 후속 selector 값은 평가되지 않는다.
 
 ### 3) ELSE else_statements
 WHERE 절의 값이 CASE 절의 selector의 결과와 일치하지 않는 경우, ELSE 절의 문장 시퀀스가 실행된다.
@@ -45,7 +45,7 @@ ELSE
     RAISE CASE_NOT_FOUND;
 ```
 
-즉, 사용자가 ELSE 절을 지정하지 않고 CASE 식의 결과가 WHEN 절의 값과 일치하지 않으면 PL/SQL은 CASE_NOT_FOUND 오류를 발생시킨다.
+즉, 사용자가 ELSE 절을 지정하지 않고 CASE 식의 결과가 WHEN 절의 값과 일치하지 않으면 PL/SQL은 `CASE_NOT_FOUND` 오류를 발생시킨다.
 
 CASE 문의 동작은 IF THEN 문과 다르다. IF THEN 문에 ELSE 절이 없고 조건이 충족되지 않으면 PL/SQL은 오류를 발생시키는 대신 아무 작업도 하지 않는다.
 
