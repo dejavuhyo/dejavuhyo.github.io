@@ -7,9 +7,9 @@ tags: [interval-between-dates, interval-dates, 날짜-간격, mysql-날짜-간�
 ---
 
 ## 1. 날짜간 간격
-MySQL에서 날짜간의 간격을 구하기 위해서 TO_DAYS 함수를 사용하면 된다.
+MySQL에서 날짜간의 간격을 구하기 위해서 `TO_DAYS` 함수를 사용하면 된다.
 
-TO_DAY 함수는 TO_SECONDS 함수처럼 지원하는 버전대가 없기 때문에 MySQL 버젼 몇이든 상관 없이 사용할 수 있다.
+`TO_DAY` 함수는 `TO_SECONDS` 함수처럼 지원하는 버전대가 없기 때문에 MySQL 버젼 몇이든 상관 없이 사용할 수 있다.
 
 ### 1) 형식
 
