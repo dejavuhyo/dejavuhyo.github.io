@@ -47,7 +47,7 @@ private static int countOccurences(
 }
 ```
 
-다음과 같은 방법으로 이 재귀적 메서드를 호출할 수 있다. ```useRecursionToCountChars("elephant", 'e', 0)```
+다음과 같은 방법으로 이 재귀적 메서드를 호출할 수 있다. `useRecursionToCountChars("elephant", 'e', 0)`
 
 ### 3) 정규식 사용
 또 다른 방법은 정규식을 사용하는 것이다.
