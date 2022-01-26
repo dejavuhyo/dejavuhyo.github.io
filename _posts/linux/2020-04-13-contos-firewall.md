@@ -17,10 +17,10 @@ tags: [centos-firewall, firewall-setting, firewall, centos-방화벽, 방화벽-
 ## 2. 설정
 
 ### 1) 기본 설정
-/usr/lib/firewalld/ 에 있으며, 미리 설정된 zone과 zone 별 허용하는 서비스등은 이 폴더를 보면 확인 할 수 있다.
+`/usr/lib/firewalld/`에 있으며, 미리 설정된 zone과 zone 별 허용하는 서비스등은 이 폴더를 보면 확인 할 수 있다.
 
 ### 2) 시스템 개별 설정
-/etc/firewalld/ 에 있으며 default zone 등 firewall 의 동작은 /etc/firewalld/firewalld.conf 에서 지정할 수 있으며, 예로 default zone을 dmz로 변경하려면 아래와 같이 설정하고 firewalld 를 재시작하면 된다.
+`/etc/firewalld/`에 있으며 default zone 등 firewall 의 동작은 `/etc/firewalld/firewalld.conf` 에서 지정할 수 있으며, 예로 default zone을 dmz로 변경하려면 아래와 같이 설정하고 firewalld 를 재시작하면 된다.
 
 * 편집
 
@@ -38,7 +38,7 @@ DefaultZone=dmz
 ```
 
 ### 3)  커스터마이징 zone 설정
-/etc/firewalld/zones/[ZONE].xml 에서 확인할 수 있으며, 예로 public zone은 /etc/firewalld/zones/public.xml 에 설정 한다.
+`/etc/firewalld/zones/[ZONE].xml`에서 확인할 수 있으며, 예로 public zone은 `/etc/firewalld/zones/public.xml`에 설정 한다.
 
 * 편집
 
@@ -64,7 +64,7 @@ DefaultZone=dmz
 ```
 
 ## 3. 재시작
-서비스 재구동시 firewall-cmd 명령어 사용
+서비스 재구동시 `firewall-cmd` 명령어 사용
 
 ```shell
 [root@localhost ~]# firewall-cmd --reload
@@ -78,7 +78,7 @@ DefaultZone=dmz
 [root@localhost ~]# firewall-cmd --permanent --zone=public --add-port=8080/tcp
 ```
 
-포트를 범위로 지정하려면 - 구분자를 넣어서 설정 (4000 ~ 4100 포트 오픈)
+포트를 범위로 지정하려면 `-` 구분자를 넣어서 설정 (4000 ~ 4100 포트 오픈)
 
 ```shell
 [root@localhost ~]# firewall-cmd --permanent --zone=public --add-port=4000-4100/tcp
