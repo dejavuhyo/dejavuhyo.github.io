@@ -20,7 +20,7 @@ tags: [untrusted-url-redirection, open-redirect, 신뢰되지-않은-url-연결]
 ## 3. 예제
 다음과 같은 코드가 서버에 존재할 경우 공격자는 다음과 같은 링크를 희생자가 접근하도록 함으로써 희생자가 피싱 사이트 등으로 접근하도록 할 수 있다.
 
-```<a href="http://bank.example.com/redirect?url=http://attacker.example.net">Click</a>```
+`<a href="http://bank.example.com/redirect?url=http://attacker.example.net">Click</a>`
 
 * 안전하지 않은 코드의 예
 
