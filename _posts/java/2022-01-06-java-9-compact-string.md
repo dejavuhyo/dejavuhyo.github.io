@@ -7,7 +7,7 @@ tags: [java-9-compact-string, java-compact-string, compact-string, Java-9-압축
 ---
 
 ## 1. 압축 문자열
-Java의 문자열은 내부적으로 String의 문자를 포함 하는 char[]로 표현된다. 그리고 Java는 내부적으로 UTF-16을 사용 하기 때문에 모든 문자는 2바이트로 구성 된다.
+Java의 문자열은 내부적으로 String의 문자를 포함 하는 `char[]`로 표현된다. 그리고 Java는 내부적으로 UTF-16을 사용 하기 때문에 모든 문자는 2바이트로 구성 된다.
 
 예를들어 문자열에 영어 단어가 포함된 경우 ASCII 문자는 단일 바이트를 사용하여 표시될 수 있으므로 선행 8비트는 모든 char에 대해 모두 0이다.
 
@@ -24,7 +24,7 @@ JDK 6 update 21 성능 릴리스에는 새로운 VM 옵션이 도입되었다.
 -XX:+UseCompressedStrings
 ```
 
-이 옵션이 활성화되면 문자열은 char[] 대신 byte[]로 저장되므로 많은 메모리가 절약된다. 그러나 이 옵션은 주로 의도하지 않은 성능 결과를 초래했기 때문에 JDK 7에서 결국 제거되었다.
+이 옵션이 활성화되면 문자열은 `char[]` 대신 `byte[]`로 저장되므로 많은 메모리가 절약된다. 그러나 이 옵션은 주로 의도하지 않은 성능 결과를 초래했기 때문에 JDK 7에서 결국 제거되었다.
 
 ## 3. Compact String - Java 9
 자바 9은 컴팩트 스트링의 개념을 되살렸다.
@@ -38,13 +38,13 @@ JDK 6 update 21 성능 릴리스에는 새로운 VM 옵션이 도입되었다.
 문제는 모든 String 작업이 어떻게 작동하느냐 하는 것이다. LATIN-1과 UTF-16 표현을 구별을 해결하기 위해 스트링의 내부 구현에 또 다른 변화가 있다. 이 정보를 보존하는 final field coder가 있다.
 
 ### 1) Java 9의 문자열 구현
-지금까지 문자열은 char[]로 저장되었다.
+지금까지 문자열은 `char[]`로 저장되었다.
 
 ```java
 private final char[] value;
 ```
 
-이제부터 byte[]가 된다.
+이제부터 `byte[]`가 된다.
 
 ```java
 private final byte[] value;
@@ -99,7 +99,7 @@ public int length() {
 Compact String에 대한 모든 변경사항은 String 클래스의 내부 구현에 있으며 String을 사용하는 개발자에게 완전히 투명하다.
 
 ## 4. Compact Strings vs. Compressed Strings
-JDK 6 압축 문자열의 경우 직면한 주요 문제는 문자열 생성자가 인수로 char[]만 허용 한다는 것이다. 이 외에도 많은 문자열 작업은 바이트 배열이 아닌 char[] 표현에 의존했다. 이로 인해 많은 압축을 풀어야 했고, 이는 성능에 영향을 미쳤다.
+JDK 6 압축 문자열의 경우 직면한 주요 문제는 문자열 생성자가 인수로 `char[]`만 허용 한다는 것이다. 이 외에도 많은 문자열 작업은 바이트 배열이 아닌 `char[]` 표현에 의존했다. 이로 인해 많은 압축을 풀어야 했고, 이는 성능에 영향을 미쳤다.
 
 반면 Compact String의 경우 추가 필드 "coder"를 유지하는 것도 오버헤드를 증가시킬 수 있다. 코더 비용을 줄이고 byte를 char로 압축 해제 하기 위해 (UTF-16 표현의 경우) 일부 메서드가 내장 되어 있고 JIT 컴파일러에서 생성된 ASM 코드도 개선되었다.
 
@@ -141,7 +141,7 @@ Generated 10000000 strings in 854 ms.
 Created string of length 488895 in 5130 ms.
 ```
 
-마찬가지로, ```-XX:-CompactStrings``` 옵션을 사용하여 Compact Strings를 비활성화하여 실행 하면 출력은 다음과 같다.
+마찬가지로, `-XX:-CompactStrings` 옵션을 사용하여 Compact Strings를 비활성화하여 실행 하면 출력은 다음과 같다.
 
 ```text
 Generated 10000000 strings in 936 ms.
