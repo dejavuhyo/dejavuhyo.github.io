@@ -124,7 +124,7 @@ public void println(Object x) {
 }
 ```
 
-그리고 ```String#valueOf```를 보면 다음과 같은 답을 얻을 수 있다.
+그리고 `String#valueOf`를 보면 다음과 같은 답을 얻을 수 있다.
 
 ```java
 public static String valueOf(Object obj) {
