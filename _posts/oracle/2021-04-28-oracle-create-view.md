@@ -62,7 +62,7 @@ FROM
     employees;
 ```
 
-full_name은 ```first_name || ' |' || last_name```그리고 yos는 ```FLOOR( months_between( CURRENT_DATE, hire_date )/ 12 )```를 사용하기 때문에 view에 대한 column 이름을 정의하지 않았다.
+full_name은 `first_name || ' |' || last_name`그리고 yos는 `FLOOR( months_between( CURRENT_DATE, hire_date )/ 12 )`를 사용하기 때문에 view에 대한 column 이름을 정의하지 않았다.
 
 쿼리에 column aliases를 사용하지 않으려면 CREATE VIEW 절에서 해당 별칭을 정의해야 한다.
 
