@@ -26,7 +26,7 @@ sql> SELECT id, str FROM str_table;
 ```
 
 ## 2. 모든 레코드 개수
-SELECT 컬럼명, COUNT(*) FROM 테이블명 GROUP BY 컬럼명;
+`SELECT 컬럼명, COUNT(*) FROM 테이블명 GROUP BY 컬럼명;`
 
 ```sql
 sql> SELECT str, COUNT(*) FROM str_table GROUP BY str;
@@ -43,7 +43,7 @@ sql> SELECT str, COUNT(*) FROM str_table GROUP BY str;
 ```
 
 ## 3. 중복 레코드 개수
-SELECT 컬럼명, COUNT(*) FROM 테이블명 GROUP BY 컬럼명 HAVING COUNT(*) > 1;
+`SELECT 컬럼명, COUNT(*) FROM 테이블명 GROUP BY 컬럼명 HAVING COUNT(*) > 1;`
 
 ```sql
 sql> SELECT str, COUNT(*) FROM str_table GROUP BY str HAVING COUNT(*) > 1;
