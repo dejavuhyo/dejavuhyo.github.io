@@ -42,17 +42,17 @@ array는 참조된 엘리먼트를 메모리에 같은 크기로 연속적인 �
 | break | 반복문 또는 Switch 문을 벗어나거나 멈출 때 사용 |
 | byte | 데이터 정수형 타입 1byte=8bit 정수형:byte<short<int<long |
 | case | switch 조건문에서 사용함. case 문에서는 리터럴과 상수만 허용 |
-| catch | ```try~catch~finally``` 문에서 사용, 예외처리 할 때 사용 |
+| catch | `try~catch~finally` 문에서 사용, 예외처리 할 때 사용 |
 | char | 데이터 문자형 타입 2byte |
 | class | 클래스 |
 | continue | 반복문, 루프를 돌 때 현재 루프를 끝낸 뒤에 내용을 무시하고 다시 앞으로 돌아감. |
 | default | 접근제어자 및 switch 문에서 쓰임. 접근제어자는 클래스, 메소드, 멤버변수 앞에 아무것도 선언을 안하면 default. switch 문에서 default는 case 문을 돌다가 해당하는 case가 없으면 default로 실행. |
-| do | ```do~while``` 문에서 쓰임 |
+| do | `do~while` 문에서 쓰임 |
 | double | 데이터 실수형(변수) 타입 8byte |
-| else | ```if~else``` 문에서 쓰임 |
+| else | `if~else` 문에서 쓰임 |
 | extends | 클래스 상속에 쓰임 |
 | false | 거짓이라는 뜻으로 쓰이며 0과 같음 |
-| finally | ```try~catch~finally``` 예외처리에 쓰임 |
+| finally | `try~catch~finally` 예외처리에 쓰임 |
 | float | 데이터 실수형 타입 4byte |
 | for | 반복문 중 하나로 초기값과 조건식 증가값이 들어감 |
 | if | 일반적으로 사용되는 조건문 |
@@ -78,7 +78,7 @@ array는 참조된 엘리먼트를 메모리에 같은 크기로 연속적인 �
 | this | 인스턴스가 본인을 가리킬 때 사용 |
 | throw/throws | 예외처리에 사용 |
 | true | 참이라는 뜻으로 1과 같다. |
-| try | ```try~catch~finally``` 문에서 사용 |
+| try | `try~catch~finally` 문에서 사용 |
 | void | 리턴값이 없다. |
 | while | 반복문 중 하나. |
 
