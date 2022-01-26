@@ -57,7 +57,7 @@ dnf 명령을 사용하는 _repolist_ 옵션은 시스템에서 활성화된 모
 ![img002](/assets/img/2020-11-03-dnf-commands-for-rpm-package-management/img002.gif)
 
 ### 3) 활성화 및 비활성화된 모든 DNF 저장소 나열
-_repolist all_ 옵션 은 시스템에서 활성화/비활성화된 모든 저장소를 나열
+_repolist all_ 옵션은 시스템에서 활성화/비활성화된 모든 저장소를 나열
 
 ```shell
 [root@localhost ~]# dnf repolist all
