@@ -20,7 +20,7 @@ SQL 삽입(Improper Neutralization of Special Elements used in an SQL Command, S
 * preparedStatement 클래스를 사용할 수 없는 환경이라면, 입력값을 필터링 처리한 후 사용한다. 필터링 기준은 SQL 구문 제한, 특수문자 제한, 길이 제한을 복합적으로 사용한다.
 
 ## 3. 예제
-다음은 안전하지 않은 코드의 예를 나타낸 것으로, 외부로부터 tableName과 name의 값을 받아서 SQL 쿼리를 생성하고 있으며, name의 값으로 ```name' OR 'a'='a```를 입력하면 조작된 쿼리를 생성하는 문자열 전달이 가능하다.
+다음은 안전하지 않은 코드의 예를 나타낸 것으로, 외부로부터 tableName과 name의 값을 받아서 SQL 쿼리를 생성하고 있으며, name의 값으로 `name' OR 'a'='a`를 입력하면 조작된 쿼리를 생성하는 문자열 전달이 가능하다.
 
 * 안전하지 않은 코드의 예
 
