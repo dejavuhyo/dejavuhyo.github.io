@@ -14,9 +14,11 @@ XQuery를 사용하여 XML 데이터에 대한 동적 쿼리문을 생성할 때
 * XQuery에 사용되는 외부 입력데이터에 대하여 특수문자 및 쿼리 예약어를 필터링하고, XQuery를 사용한 쿼리문은 스트링을 연결하는 형태로 구성하지 않고 인자(파라메터)화된 쿼리문을 사용한다.
 
 ## 3. 예제
-다음의 예제는 외부의 입력(name)값을 executeQuery를 사용한 질의생성의 문자열 인자 생성에 사용하고 있다. 만일 다음과 ```something' or '='1```을 name의 값으로 전달하면 다음과 같은 질의문을 수행할 수 있으며, 이를 통해 파일 내의 모든 값을 출력할 수 있게 된다.
+다음의 예제는 외부의 입력(name)값을 executeQuery를 사용한 질의생성의 문자열 인자 생성에 사용하고 있다. 만일 다음과 `something' or '='1`을 name의 값으로 전달하면 다음과 같은 질의문을 수행할 수 있으며, 이를 통해 파일 내의 모든 값을 출력할 수 있게 된다.
 
-```doc('users.xml')/userlist/user[uname='something' or '='```
+```text
+doc('users.xml')/userlist/user[uname='something' or '='
+```
 
 * 안전하지 않은 코드의 예
 
