@@ -38,9 +38,9 @@ String myString = "The " + "quick " + "brown " + "fox...";
 assertEquals("The quick brown fox...", myString);
 ```
 
-언뜻보기에 이것은 StringBuilder 옵션 보다 훨씬 간결해 보일 수 있다. 그러나 소스 코드가 컴파일될 때 ```+``` 기호는 StringBuilder.append() 호출 체인으로 변환된다. 이 때문에 StringBuilder와 ```+``` 연결 방법을 혼합하는 것은 나쁜 습관으로 간주된다.
+언뜻보기에 이것은 StringBuilder 옵션 보다 훨씬 간결해 보일 수 있다. 그러나 소스 코드가 컴파일될 때 `+` 기호는 StringBuilder.append() 호출 체인으로 변환된다. 이 때문에 StringBuilder와 `+` 연결 방법을 혼합하는 것은 나쁜 습관으로 간주된다.
 
-또한 루프 내에서 ```+``` 연산자를 사용하는 문자열 연결은 피해야 한다. 문자열 객체가 불변이기 때문에, 연결을 호출할 때마다 새로운 문자열 오브젝트가 생성된다.
+또한 루프 내에서 `+` 연산자를 사용하는 문자열 연결은 피해야 한다. 문자열 객체가 불변이기 때문에, 연결을 호출할 때마다 새로운 문자열 오브젝트가 생성된다.
 
 ## 3. String 메서드
 문자열 클래스 자체는 문자열을 연결하기 위한 전체 메소드 호스트를 제공한다.
@@ -64,7 +64,7 @@ assertEquals("Both fickle dwarves jinx my pig quiz", myString);
 ### 2) String.format
 문자열 템플릿에 다양한 Java Objects를 삽입할 수 있다.
 
-String.format 메서드 시그니처는 템플릿을 나타내는 단일 문자열을 사용한다. 이 템플릿에는 다양한 개체가 배치되어야 하는 위치를 나타내는 ```%``` 문자가 포함되어 있다.
+String.format 메서드 시그니처는 템플릿을 나타내는 단일 문자열을 사용한다. 이 템플릿에는 다양한 개체가 배치되어야 하는 위치를 나타내는 `%` 문자가 포함되어 있다.
 
 템플릿이 선언되면 템플릿에 주입되는 varargs Object 배열이 필요하다.
 
