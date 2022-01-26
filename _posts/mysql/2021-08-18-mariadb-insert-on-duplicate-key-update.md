@@ -40,13 +40,13 @@ INSERT [LOW_PRIORITY | HIGH_PRIORITY] [IGNORE]
 ```
 
 ## 2. 설명
-INSERT ... ON DUPLICATE KEY UPDATE는 고유한 키 또는 기본 키가 중복된 경우 대신 업데이트를 수행하는 INSERT 문의 MariaDB/MySQL 확장자이다.
+`INSERT ... ON DUPLICATE KEY UPDATE`는 고유한 키 또는 기본 키가 중복된 경우 대신 업데이트를 수행하는 INSERT 문의 MariaDB/MySQL 확장자이다.
 
-API의 CLIENT_FOUND_ROWS 플래그가 설정되지 않은 한 행이 삽입되면 row/s 영향 값은 1로 보고되고 행이 업데이트되면 row 2로 보고된다.
+API의 `CLIENT_FOUND_ROWS` 플래그가 설정되지 않은 한 행이 삽입되면 row/s 영향 값은 1로 보고되고 행이 업데이트되면 row 2로 보고된다.
 
 둘 이상의 고유 인덱스가 일치하면 첫 번째 인덱스만 업데이트된다. 둘 이상의 고유 인덱스가 있는 테이블에서는 이 문을 사용하지 않는 것이 좋다.
 
-테이블에 AUTO_INCREMENT 기본 키가 있고 문이 행을 삽입하거나 업데이트하는 경우 LAST_INSERT_ID() 함수는 해당 AUTO_INCREMENT 값을 반환한다.
+테이블에 `AUTO_INCREMENT` 기본 키가 있고 문이 행을 삽입하거나 업데이트하는 경우 `LAST_INSERT_ID()` 함수는 해당 `AUTO_INCREMENT` 값을 반환한다.
 
 VALUES() 함수는 ON DUPLICATE KEY UPDATE 절에서만 사용할 수 있으며 다른 컨텍스트에서는 의미가 없다. 문의 INSERT 부분에서 열 값을 반환한다. 이 함수는 특히 다중 행 삽입에 유용하다.
 
