@@ -74,7 +74,7 @@ This is a demo of REGEXP_REPLACE function
 
 이 쿼리는 데이터 정리 작업 프로세스에서 유용하다.
 
-그림은 정규식 ```[^a-z_A-Z]```의 의미를 설명한다.
+그림은 정규식 `[^a-z_A-Z]`의 의미를 설명한다.
 
 ![regular-expression-1](/assets/img/2021-04-08-oracle-regexp-replace/regular-expression-1.png)
 
@@ -98,7 +98,7 @@ FROM
 402**********8590
 ```
 
-그림은 정규식 ```(^\d{3})(.*)(\d{4}$)```의 의미를 설명한다.
+그림은 정규식 `(^\d{3})(.*)(\d{4}$)`의 의미를 설명한다.
 
 ![regular-expression-2](/assets/img/2021-04-08-oracle-regexp-replace/regular-expression-2.png)
 
@@ -120,7 +120,7 @@ FROM
 This line contains more than one spacing between words
 ```
 
-그림은 정규식 ```( ){2,}```의 의미를 설명한다.
+그림은 정규식 `( ){2,}`의 의미를 설명한다.
 
 ![regular-expression-3](/assets/img/2021-04-08-oracle-regexp-replace/regular-expression-3.png)
 
@@ -149,7 +149,7 @@ ORDER BY
 
 ![function-example](/assets/img/2021-04-08-oracle-regexp-replace/function-example.png)
 
-그림은 정규식 ```([[:digit:]]{3})\.([[:digit:]]{3})\.([[:digit:]]{4})```의 의미를 설명한다.
+그림은 정규식 `([[:digit:]]{3})\.([[:digit:]]{3})\.([[:digit:]]{4})`의 의미를 설명한다.
 
 ![regular-expression-4](/assets/img/2021-04-08-oracle-regexp-replace/regular-expression-4.png)
 
