@@ -16,7 +16,7 @@ Java의 경우 whitespaces는 spaces, 탭 등과 같은 문자이다.
 ## 2. Empty Strings
 
 ### 1) Java 6 이상 사용
-최소한 Java 6을 사용 중이라면 빈 문자열을 확인하는 가장 간단한 방법은 ```String#isEmpty```이다.
+최소한 Java 6을 사용 중이라면 빈 문자열을 확인하는 가장 간단한 방법은 `String#isEmpty`이다.
 
 ```java
 boolean isEmptyString(String string) {
@@ -33,7 +33,7 @@ boolean isEmptyString(String string) {
 ```
 
 ### 2) Java 5 이하
-```String#isEmpty```는 Java 6과 함께 도입되었다. Java 5 이하에서는 ```String#length```를 대신 사용할 수 있다.
+`String#isEmpty`는 Java 6과 함께 도입되었다. Java 5 이하에서는 `String#length`를 대신 사용할 수 있다.
 
 ```java
 boolean isEmptyString(String string) {
@@ -41,12 +41,12 @@ boolean isEmptyString(String string) {
 }
 ```
 
-사실 ```String#isEmpty```는 ```String#length```의 바로 가기일 뿐이다.
+사실 `String#isEmpty`는 `String#length`의 바로 가기일 뿐이다.
 
 ## 3. Blank Strings
-```String#isEmpty``` 및 ```String#length``` 모두 빈 문자열을 확인하는데 사용할 수 있다.
+`String#isEmpty` 및 `String#length` 모두 빈 문자열을 확인하는데 사용할 수 있다.
 
-빈 문자열도 감지 하려면 ```String#trim```을 사용하여 이를 수행할 수 있다. 검사를 수행하기 전에 모든 선행 및 후행 공백을 제거한다.
+빈 문자열도 감지 하려면 `String#trim`을 사용하여 이를 수행할 수 있다. 검사를 수행하기 전에 모든 선행 및 후행 공백을 제거한다.
 
 ```java
 boolean isBlankString(String string) {
@@ -54,7 +54,7 @@ boolean isBlankString(String string) {
 }
 ```
 
-정확히 말하면, ```String#trim```은 ```U+0020``` 이하의 유니코드 코드를 가진 모든 선행 및 후행 문자를 제거한다.
+정확히 말하면, `String#trim`은 `U+0020` 이하의 유니코드 코드를 가진 모든 선행 및 후행 문자를 제거한다.
 
 또한 String은 변경할 수 없으므로 trim을 호출해도 실제로 기본 문자열이 변경되지는 않는다.
 
@@ -66,7 +66,7 @@ boolean isBlankString(String string) {
 }
 ```
 
-```isBlank()``` 메소드는 힙(heap)에 새로운 문자열을 생성하지 않으므로 조금 더 효율적이다. 그렇기 때문에 Java 11 이상을 사용하는 경우 이 방법이 선호된다.
+`isBlank()` 메소드는 힙(heap)에 새로운 문자열을 생성하지 않으므로 조금 더 효율적이다. 그렇기 때문에 Java 11 이상을 사용하는 경우 이 방법이 선호된다.
 
 ## 4. Bean Validation
 빈 문자열을 확인하는 또 다른 방법은 정규식이다. 예를 들어 Java Bean Validation을 사용하면 다음과 같은 이점이 있다.
@@ -122,7 +122,7 @@ Strings.isNullOrEmpty(string)
 
 지정된 문자열이 null인지 empty인지는 확인하지만 whitespace-only 문자열은 확인하지 않는다.
 
-> 가장 편리한 방법은 StringUtils.isBlank와 같은 도우미를 제공하는 Apache Commons Lang을 사용하는 것이다. 일반 Java를 고수하고 싶다면 ```String#trim```과 ```String#isEmpty``` 또는 ```String#length``` 조합을 사용할 수 있다. Bean 유효성 검사의 경우 정규식을 대신 사용할 수 있다.
+> 가장 편리한 방법은 StringUtils.isBlank와 같은 도우미를 제공하는 Apache Commons Lang을 사용하는 것이다. 일반 Java를 고수하고 싶다면 `String#trim`과 `String#isEmpty` 또는 `String#length` 조합을 사용할 수 있다. Bean 유효성 검사의 경우 정규식을 대신 사용할 수 있다.
 
 ## [출처 및 참고]
 * <https://www.baeldung.com/java-blank-empty-strings>
