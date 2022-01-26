@@ -30,7 +30,7 @@ String name = request.getParameter("name");
 document.write("name:" + <%=name%> );
 ```
 
-외부의 입력(name)으로부터 ```<```와 ```>``` 같이 HTML에서 스크립트 생성에 사용되는 모든 문자열을 ```&lt; &gt; &amp; &quot;```와 같은 형태로 변경한다.
+외부의 입력(name)으로부터 `<`와 `>` 같이 HTML에서 스크립트 생성에 사용되는 모든 문자열을 `&lt; &gt; &amp; &quot;`와 같은 형태로 변경한다.
 
 * 안전한 코드의 예
 
