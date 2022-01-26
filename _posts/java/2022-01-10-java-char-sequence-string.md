@@ -23,7 +23,7 @@ CharSequence charSequence = new StringBuilder("baeldung");
 ```
 
 ## 2. String
-String은 Java에서 일련의 문자이다. 이는 변경할 수 없는 클래스이며 Java에서 가장 자주 사용되는 유형 중 하나이다. 이 클래스는 ```CharSequence```, ```Serializable``` 및 ```Comparable<String>``` 인터페이스를 구현한다.
+String은 Java에서 일련의 문자이다. 이는 변경할 수 없는 클래스이며 Java에서 가장 자주 사용되는 유형 중 하나이다. 이 클래스는 `CharSequence`, `Serializable` 및 `Comparable<String>` 인터페이스를 구현한다.
 
 두 인스턴스화 아래에서 동일한 내용을 가진 문자열을 만든다. 그러나 서로 같지 않다.
 
@@ -69,7 +69,7 @@ public void givenStringBuilder_whenAppended_thenModified() {
 }
 ```
 
-또 다른 차이점은 인터페이스가 내장된 비교 전략을 의미하지 않는 반면 String 클래스는 ```Comparable<String>``` 인터페이스를 구현한다는 것 이다.
+또 다른 차이점은 인터페이스가 내장된 비교 전략을 의미하지 않는 반면 String 클래스는 `Comparable<String>` 인터페이스를 구현한다는 것 이다.
 
 두 개의 CharSequence를 비교하려면 String으로 캐스팅 한 다음 나중에 비교할 수 있다.
 
