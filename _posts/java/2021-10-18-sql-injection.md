@@ -14,9 +14,11 @@ tags: [sql-injection, java-data-objects, sql-삽입공격]
 * JDO 질의문의 생성 시에는 상수 문자열만을 사용하고 Query.execute() 실행 시에는 인자 값을 전달하는 방법(Parameterize Query)을 사용한다.
 
 ## 3. 예제
-공격자가 외부의 입력(name)값을 ```name'; DROP MYTABLE; -```로 주게 되면, 다음과 같은 질의문이 수행되어 테이블이 삭제된다.
+공격자가 외부의 입력(name)값을 `name'; DROP MYTABLE; -`로 주게 되면, 다음과 같은 질의문이 수행되어 테이블이 삭제된다.
 
-```SELECT col1 FROM MYTABLE WHERE name = 'name'; DROP MYTABLE; -'```
+```sql
+SELECT col1 FROM MYTABLE WHERE name = 'name'; DROP MYTABLE; -'
+```
 
 * 안전하지 않은 코드의 예
 
@@ -45,7 +47,7 @@ public class ContactItem implements ContactDAO {
 }
 ```
 
-외부 입력 부분을 ```?```로 설정하고(Parameterize Query), 실행 시에 해당 인자값이 전달되도록 수정함으로써 외부의 입력(name)이 질문의 구조를 변경시키는 것을 방지할 수 있다.
+외부 입력 부분을 `?`로 설정하고(Parameterize Query), 실행 시에 해당 인자값이 전달되도록 수정함으로써 외부의 입력(name)이 질문의 구조를 변경시키는 것을 방지할 수 있다.
 
 * 안전한 코드의 예
 
