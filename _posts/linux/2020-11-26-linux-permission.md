@@ -75,9 +75,9 @@ For complete documentation, run: info coreutils 'chmod invocation'
 
 ### 4) 사용방법
 
-* chmod [소유자 권한][그룹 권한][일반사용자 권한] 파일명
+* chmod `[소유자 권한]``[그룹 권한]``[일반사용자 권한]` 파일명
 
-* 예: test.txt 파일명의 소유자 권한은 [읽기, 쓰기, 실행], 그룹 권한은 [읽기, 쓰기], 일반사용자 [읽기, 쓰기]로 변경
+* 예: test.txt 파일명의 소유자 권한은 `[읽기, 쓰기, 실행]`, 그룹 권한은 `[읽기, 쓰기]`, 일반사용자 `[읽기, 쓰기]`로 변경
 
 ```shell
 [root@localhost ~]# chmod 766 test.txt
@@ -147,9 +147,9 @@ For complete documentation, run: info coreutils 'chown invocation'
 
 ### 2) 사용방법
 
-* chown [소유권자]:[그룹식별자] [소유권을 변경하고 싶은 파일명]
+* chown `[소유권자]:[그룹식별자] [소유권을 변경하고 싶은 파일명]`
 
-* 예: text.txt 파일명의 소유권자를 [aaa]로 하고, 그룹식별자를 [bbb]로 변경
+* 예: text.txt 파일명의 소유권자를 `[aaa]`로 하고, 그룹식별자를 `[bbb]`로 변경
 
 ```shell
 [root@localhost ~]# chmod aaa:bbb text.txt
