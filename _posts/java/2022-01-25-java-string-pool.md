@@ -65,7 +65,7 @@ String fourth = new String("Baeldung");
 System.out.println(third == fourth); // False
 ```
 
-마찬가지로 String 리터럴을 ```==``` 연산자를 사용하여 new() 연산자를 사용하여 생성된 String 객체와 비교하면 false를 반환한다.
+마찬가지로 String 리터럴을 `==` 연산자를 사용하여 new() 연산자를 사용하여 생성된 String 객체와 비교하면 false를 반환한다.
 
 ```java
 String fifth = "Baeldung";
@@ -129,9 +129,9 @@ Java 7u40 이전에는 기본 풀 크기가 1009 버킷이었지만 이 값은 �
 풀 크기를 늘리면 더 많은 메모리를 소비하지만 테이블에 문자열을 삽입하는데 필요한 시간을 줄이는 이점이 있다.
 
 ## 8. 자바 9에 대한 참고 사항
-Java 8까지 문자열은 내부적으로 UTF-16으로 인코딩된 ```char[]``` 문자 배열로 표현되어 모든 문자가 2바이트의 메모리를 사용한다.
+Java 8까지 문자열은 내부적으로 UTF-16으로 인코딩된 `char[]` 문자 배열로 표현되어 모든 문자가 2바이트의 메모리를 사용한다.
 
-Java 9에서는 Compact Strings라는 새로운 표현이 제공된다. 이 새로운 형식은 저장된 내용에 따라 ```char[]```와 ```byte[]``` 사이에서 적절한 인코딩을 선택한다.
+Java 9에서는 Compact Strings라는 새로운 표현이 제공된다. 이 새로운 형식은 저장된 내용에 따라 `char[]`와 `byte[]` 사이에서 적절한 인코딩을 선택한다.
 
 새로운 String 표현은 필요할 때만 UTF-16 인코딩을 사용하기 때문에 힙 메모리의 양이 상당히 줄어들고 JVM 에서 Garbage Collector 오버헤드가 줄어든다.
 
