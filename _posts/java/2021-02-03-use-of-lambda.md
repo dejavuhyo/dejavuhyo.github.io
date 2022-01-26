@@ -12,10 +12,10 @@ tags: [lambda-use, lambda, 람다-사용, 람다]
 List<Apple> greenApples = filter(inventory, (Apple a) -> GREEN.equals(a.getColor()));
 ```
 
-람다는 함수형 인터페이스라는 문맥에서 람다 표현식을 사용할 수 있다. 위 예제에서는 함수형 인터페이스 ```Predicate<T>``` 를 기대하는 filter 메서드의 두 번째 인수로 람다 표현식을 전달했다.
+람다는 함수형 인터페이스라는 문맥에서 람다 표현식을 사용할 수 있다. 위 예제에서는 함수형 인터페이스 `Predicate<T>` 를 기대하는 filter 메서드의 두 번째 인수로 람다 표현식을 전달했다.
 
 ## 2. 함수형 인터페이스
-```Predicate<T>``` 인터페이스로 필터 메서드를 파라미터화할 수 있었다. 바로 ```Predicate<T>``` 가 함수형 인터페이스다. ```Predicate<T>``` 는 오직 하나의 추상 메서드만 지정한다.
+`Predicate<T>` 인터페이스로 필터 메서드를 파라미터화할 수 있었다. 바로 `Predicate<T>` 가 함수형 인터페이스다. `Predicate<T>` 는 오직 하나의 추상 메서드만 지정한다.
 
 ```java
 public interface Predicate<T> {
