@@ -33,7 +33,7 @@ repolist: 11,293
 
 ### 2) Yum Repository 위치
 
-* /etc/yum.repos.d
+* `/etc/yum.repos.d`
 
 ```shell
 [root@localhost ~]# cd /etc/yum.repos.d/
@@ -54,7 +54,7 @@ drwxr-xr-x. 139 root root 8192 12월  3 10:42 ..
 ## 3. Yum Repository 추가
 Yum Repository는 수동으로 입력하여 추가하는 방법과 RPM을 이용하여 설치하는 방법이 있다.
 
-/etc/yum.repos.d/[레파지토리 이름].repo 형태로 파일을 생성한다.
+`/etc/yum.repos.d/[레파지토리 이름].repo` 형태로 파일을 생성한다.
 
 ```text
 name=저장소 표시 이름
@@ -172,7 +172,7 @@ Updating / installing...
    1:remi-release-7.8-1.el7.remi      ################################# [100%]
 ```
 
-서명키를 통과하지 못해 "warning: /var/tmp/rpm-tmp.ronYwh: Header V3 DSA/SHA1 Signature" 에러가 나지만 설치된 목록을 조회해보면 설치되어있다고 나온다.
+서명키를 통과하지 못해 `warning: /var/tmp/rpm-tmp.ronYwh: Header V3 DSA/SHA1 Signature` 에러가 나지만 설치된 목록을 조회해보면 설치되어있다고 나온다.
 
 ```shell
 [root@localhost ~]# rpm -qa | grep remi-release
@@ -262,7 +262,7 @@ repolist: 35,273
 ```
 
 ## 5. Yum Repository 삭제
-rm -rf [레파지토리 파일] 명령어로 삭제 한다. base.repo 파일은 삭제하면 안된다.
+`rm -rf [레파지토리 파일]` 명령어로 삭제 한다. base.repo 파일은 삭제하면 안된다.
 
 * 삭제
 
