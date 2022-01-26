@@ -101,15 +101,15 @@ int lengthOfNumbersArray = numbers.length;
 ### 1) 산술 연산자
 Java는 수학적 계산 논리를 작성하는데 사용할 수 있는 다음과 같은 산술 연산자를 지원한다.
 
-* ```+``` (plus 또는 addition 문자열 연결에도 사용됨)
+* `+` (plus 또는 addition 문자열 연결에도 사용됨)
 
-* ```–``` (minus 또는 subtraction)
+* `–` (minus 또는 subtraction)
 
-* ```*``` (multiplication)
+* `*` (multiplication)
 
-* ```/``` (division)
+* `/` (division)
 
-* ```%``` (modulus 또는 remainder)
+* `%` (modulus 또는 remainder)
 
 이전 코드 예제에서 더하기(+) 연산자를 사용하여 두 변수를 더했다. 다른 산술 연산자도 비슷하게 사용된다.
 
@@ -122,11 +122,11 @@ String output =  a + " + " + b + " = " + c;
 ### 2) 논리 연산자
 산술 연산자 외에도 Java는 부울 표현식을 평가하기 위해 다음과 같은 논리 연산자를 지원한다.
 
-* ```&&``` (AND)
+* `&&` (AND)
 
-* ```||``` (OR)
+* `||` (OR)
 
-* ```!``` (NOT)
+* `!` (NOT)
 
 논리적 AND 및 OR 연산자를 보여주는 다음 코드 조각에 대해 살펴본다. 첫 번째 예제에서는 숫자 변수가 2와 3으로 둘 다 나눌 수 있을 때 실행되는 print문을 보여 준다.
 
@@ -136,7 +136,7 @@ int number = 6;
 if (number % 2 == 0 && number % 3 == 0) {
     System.out.println(number + " is divisible by 2 AND 3");
 }
-````
+```
 
 실행되는 동안 숫자 2 또는 5로 나눌 수 있을 때이다.
 
@@ -149,12 +149,12 @@ if (number % 2 == 0 || number % 5 == 0) {
 ### 3) 비교 연산자
 한 변수의 값을 다른 변수의 값과 비교할 필요가 있을 때 Java의 비교 연산자를 사용할 수 있다.
 
-* ```<``` (less than)
-* ```<=``` (less than or equal to)
-* ```>``` (greater than)
-* ```>=``` (greater than or equal to)
-* ```==``` (equal to)
-* ```!=``` (NOT equal to)
+* `<` (less than)
+* `<=` (less than or equal to)
+* `>` (greater than)
+* `>=` (greater than or equal to)
+* `==` (equal to)
+* `!=` (NOT equal to)
 
 예를 들어 비교 연산자를 사용하여 유권자의 자격을 결정할 수 있다.
 
@@ -188,10 +188,10 @@ public class SimpleAddition {
 
 클래스의 이름은 SimpleAddition이며, 클래스 안에는 우리의 논리를 수용하는 주요 방법이 있다. 중괄호 열기 및 닫기 사이의 코드 세그먼트를 코드 블록이라고 한다.
 
-Java 프로그램의 소스 코드는 확장자가 ```.java```인 파일에 저장된다.
+Java 프로그램의 소스 코드는 확장자가 `.java`인 파일에 저장된다.
 
 ## 8. 프로그램 컴파일 및 실행
-소스 코드를 실행하려면 먼저 컴파일해야 한다. 이 프로세스는 ```.class``` 파일 확장자를 가진 이진 파일을 생성한다. Java Runtime Environment(JRE)가 설치된 모든 컴퓨터에서 이진 파일을 실행할 수 있다.
+소스 코드를 실행하려면 먼저 컴파일해야 한다. 이 프로세스는 `.class` 파일 확장자를 가진 이진 파일을 생성한다. Java Runtime Environment(JRE)가 설치된 모든 컴퓨터에서 이진 파일을 실행할 수 있다.
 
 위의 예에서 소스 코드를 SimpleAddition.java라는 파일로 저장하고 파일을 저장한 디렉토리에서 이 명령을 실행한다.
 
