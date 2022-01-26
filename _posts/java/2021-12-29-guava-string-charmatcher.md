@@ -143,7 +143,7 @@ public void whenReplaceFromString_thenReplaced() {
 ## 8. 문자 발생 횟수 계산
 CharMatcher를 사용하여 문자 발생 횟수를 계산하는 방법이다.
 
-다음 예에서는 ```'a':'h'``` 사이의 쉼표와 문자를 계산한다.
+다음 예에서는 `'a':'h'` 사이의 쉼표와 문자를 계산한다.
 
 ```java
 @Test
