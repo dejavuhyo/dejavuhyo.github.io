@@ -11,7 +11,7 @@ tags: [tomcat-encoding, encoding, tomcat-인코딩, 인코딩]
 ![nslookup](/assets/img/2021-09-01-tomcat-encoding/tomcat.png)
 
 ### 1) sever.xml 수정
-apache-tomcat-9.0.52\conf\server.xml에서 URIEncding="UTF-8" 속성을 추가한다.
+`apache-tomcat-9.0.52\conf\server.xml`에서 `URIEncding="UTF-8"` 속성을 추가한다.
 
 ```xml
 <Connector port="8080" protocol="HTTP/1.1"
@@ -29,7 +29,7 @@ apache-tomcat-9.0.52\conf\server.xml에서 URIEncding="UTF-8" 속성을 추가�
 ```
 
 ### 2) web.xml 수정
-apache-tomcat-9.0.52\conf\web.xml에서 encoding 필터를 추가한다.
+`apache-tomcat-9.0.52\conf\web.xml`에서 encoding 필터를 추가한다.
 
 ```xml
 <filter>
