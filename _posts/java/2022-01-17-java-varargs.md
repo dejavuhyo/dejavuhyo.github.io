@@ -86,7 +86,7 @@ varargs 사용은 다음과 같은 경우에만 안전합니다.
 
 * 생성된 배열에 대한 참조가 메서드를 탈출하지 못하게 한다.
 
-메소드 자체가 varargs를 안전하게 사용한다고 확신하는 경우 ```@SafeVarargs```를 사용 하여 경고를 억제 할 수 있다.
+메소드 자체가 varargs를 안전하게 사용한다고 확신하는 경우 `@SafeVarargs`를 사용 하여 경고를 억제 할 수 있다.
 
 간단히 말해서 varargs 사용은 호출자에서 메서드로 변수 수의 인수를 전송하는데 사용하는 경우 안전하다.
 
@@ -119,11 +119,11 @@ String[] args = returnAsIs("One", "Two");
 
 * a와 b를 toArray 메서드에 전달하려면 Java가 배열을 만들어야 한다.
 
-* ```Object[]```가 어떤 종류의 항목이라도 보유할 수 있기 때문에 컴파일러는 하나를 만든다.
+* `Object[]`가 어떤 종류의 항목이라도 보유할 수 있기 때문에 컴파일러는 하나를 만든다.
 
-* toArray 메서드는 지정된 ```Object[]```를 호출자에게 반환한다.
+* toArray 메서드는 지정된 `Object[]`를 호출자에게 반환한다.
 
-* 호출 사이트가 ```String[]```을 예상하기 때문에 컴파일러는``` Object[]```를 예상하고 ```String[]```로 캐스트하려고 시도하므로 ClassCastException이 발생한다.
+* 호출 사이트가 `String[]`을 예상하기 때문에 컴파일러는`Object[]`를 예상하고 `String[]`로 캐스트하려고 시도하므로 ClassCastException이 발생한다.
 
 > heap pollution에 대한 더 자세한 논의는 Joshua Bloch의 [Effective Java](https://www.oreilly.com/library/view/effective-java/9780134686097/) 항목 32를 읽는 것이 좋다.
 
