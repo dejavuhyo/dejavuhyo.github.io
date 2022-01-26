@@ -13,12 +13,14 @@ tags: [xpath-injection, xpath-삽입]
 
 ## 2. 안전한 코딩 기법
 
-* XPath 쿼리에 사용되는 외부 입력 데이터에 대하여 특수문자(```", [, ], /, =, @ 등 ```) 및 쿼리 예약어 필터링을 수행하고 인자화된 쿼리문을 지원하는 XQuery를 사용한다.
+* XPath 쿼리에 사용되는 외부 입력 데이터에 대하여 특수문자(`", [, ], /, =, @ 등 `) 및 쿼리 예약어 필터링을 수행하고 인자화된 쿼리문을 지원하는 XQuery를 사용한다.
 
 ## 3. 예제
-다음의 예제에서 name의 값으로 user1, passwd의 값으로 ```'or ''='```을 전달하면 다음과 같은 질의문이 생성되어 인증과정을 거치지 않고 로그인할 수 있다.
+다음의 예제에서 name의 값으로 user1, passwd의 값으로 `'or ''='`을 전달하면 다음과 같은 질의문이 생성되어 인증과정을 거치지 않고 로그인할 수 있다.
 
-```//users/user[login/text()=‘user1' or ''='' and password/text() = “ or ”=“]/home_dir/text()```
+```text
+//users/user[login/text()=‘user1' or ''='' and password/text() = “ or ”=“]/home_dir/text()
+```
 
 * 안전하지 않은 코드의 예
 
