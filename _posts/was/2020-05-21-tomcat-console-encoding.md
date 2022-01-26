@@ -31,7 +31,7 @@ Tomcat의 logging.properties 파일에 인코딩 설정이 추가된 버전 (버
 ![img003](/assets/img/2020-05-21-tomcat-console-encoding/img003.png)
 
 ## 4. 해결방법
-apache-tomcat-9.0.33\conf\logging.properties 파일의 인코딩 설정을 UTF-8에서 EUC-KR로 변경
+`apache-tomcat-9.0.33\conf\logging.properties` 파일의 인코딩 설정을 UTF-8에서 EUC-KR로 변경
 
 ```properties
 ############################################################
