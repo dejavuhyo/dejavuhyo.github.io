@@ -32,7 +32,7 @@ UNPIVOT [INCLUDE | EXCLUDE NULLS] (
 
 * unpivot_in_clause에는 피벗되지 않을 피벗된 열이 포함되어 있다.
 
-* INCLUDE ```|``` EXCLUDE NULLS 절에서는 null-valued 행을 포함하거나 제외할 수 있다.
+* INCLUDE `|` EXCLUDE NULLS 절에서는 null-valued 행을 포함하거나 제외할 수 있다.
 
 * INCLUDE NULLS 절은 Oracle에 null 값 행을 포함하도록 지시한다.
 
