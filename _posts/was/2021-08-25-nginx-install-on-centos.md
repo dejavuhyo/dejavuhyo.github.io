@@ -13,7 +13,7 @@ yum 저장소에는 nginx가 없기 때문에 외부 저장소를 추가 한다.
 [root@localhost ~]# vi /etc/yum.repos.d/nginx.repo
 ```
 
-```/etc/yum.repos.d``` 경로에 nginx.repo 파일을 추가하고 아래와 같이 작성한다.
+`/etc/yum.repos.d` 경로에 nginx.repo 파일을 추가하고 아래와 같이 작성한다.
 
 * CentOS 7
 
@@ -45,7 +45,7 @@ gpgcheck=0
 enabled=1
 ```
 
-> CentOS, RHEL 및 Scientific Linux가 $releasever 변수를 채우는 방법 간의 차이로 인해 OS 버전에 따라 $releasever를 수동으로 5(5.x의 경우) 또는 6(6.x의 경우)으로 교체해야 한다.
+> CentOS, RHEL 및 Scientific Linux가 `$releasever` 변수를 채우는 방법 간의 차이로 인해 OS 버전에 따라 `$releasever`를 수동으로 5(5.x의 경우) 또는 6(6.x의 경우)으로 교체해야 한다.
 
 ## 2. yum install
 yum install 명령어를 사용하여 nginx를 설치한다.
