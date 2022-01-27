@@ -12,6 +12,7 @@ Gemfile.lock
 
 # rubygem
 *.gem
+.jekyll-cache
 
 # npm dependencies
 node_modules
