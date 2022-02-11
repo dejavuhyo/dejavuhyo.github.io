@@ -1,7 +1,7 @@
 ---
 title: 리눅스 journalctl
 author: dejavuhyo
-date: 2022-02-10 09:30:00 +0900
+date: 2022-02-11 09:30:00 +0900
 categories: [DevOps, Linux]
 tags: [linux-journalctl, journalctl, 리눅스-journalctl]
 ---
