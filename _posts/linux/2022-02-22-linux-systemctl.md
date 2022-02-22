@@ -63,21 +63,21 @@ $ systemctl is-active zookeeper
 $ systemctl disable zookeeper
 
 # 서비스 등록 파일 삭제
-sudo rm /etc/systemd/system/zookeeper.service
+$ sudo rm /etc/systemd/system/zookeeper.service
 
 # 서비스 제거
-systemctl daemon-reload
-systemctl reset-failed
+$ systemctl daemon-reload
+$ systemctl reset-failed
 ```
 
 ### 5) 서비스 목록 확인
 
 ```shell
 # 등록한 서비스 목록을 확인
-systemctl list-units --type service --all
+$ systemctl list-units --type service --all
 
 # 상태가 not-found 인 서비스 목록 확인
-systemctl --state=not-found --all
+$ systemctl --state=not-found --all
 ```
 
 ## 3. 서비스 옵션
