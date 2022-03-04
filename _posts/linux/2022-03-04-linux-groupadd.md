@@ -32,7 +32,7 @@ groupa:x:10001:usera,userb
 
 ```shell
 # 그룹 groupa 추가
-groupadd groupa
+$ groupadd groupa
 ```
 
 ### 2) 사용자 그룹 확인
