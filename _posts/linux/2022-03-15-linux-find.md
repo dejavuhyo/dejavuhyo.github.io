@@ -36,13 +36,13 @@ tags: [linux-find, find, 리눅스-find]
 
 ```shell
 # txt로 끝나는 파일 검색 
-find ./ -name "*.txt"
+$ find ./ -name "*.txt"
 
 # logs 폴더 아래에서 txt로 끝나는 파일 검색 
-find ./logs -name "*.txt"
+$ find ./logs -name "*.txt"
 
 # 현재 폴더에서 com으로 시작하는 파일(f)만 검색 
-find ./ -name "com*" -type f
+$ find ./ -name "com*" -type f
 ```
 
 ### 2) 검색후 추가 작업
