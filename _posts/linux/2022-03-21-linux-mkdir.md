@@ -1,7 +1,7 @@
 ---
 title: 리눅스 mkdir
 author: dejavuhyo
-date: 2022-03-18 10:30:00 +0900
+date: 2022-03-21 10:30:00 +0900
 categories: [DevOps, Linux]
 tags: [linux-mkdir, mkdir, 리눅스-mkdir]
 ---
