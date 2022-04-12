@@ -3,7 +3,7 @@ title: macOS에 Redis 설치
 author: dejavuhyo
 date: 2022-04-11 18:30:00 +0900
 categories: [Database, Redis]
-tags: [install-redis-on-mac-os, install-redis, linux-redis-설치, redis-설치, macOS-레디스-설치, 레디스-설치]
+tags: [install-redis-on-mac-os, install-redis, mac-os-redis-설치, redis-설치, mac-os-레디스-설치, 레디스-설치]
 ---
 
 ## 1. macOS에 Redis 설치
