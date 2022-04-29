@@ -42,11 +42,11 @@ spring.datasource.password=password
 
 ## 3. 적용
 
-### 1) logback-spring.xml 추가
+### 1) logback.xml 추가
 
-* **경로:** src/main/resources/logback-spring.xml
+* **경로:** src/main/resources/logback.xml
 
-* **logback-spring.xml 상세 설정:** <https://dejavuhyo.github.io/posts/spring-boot-logback/>
+* **logback.xml 상세 설정:** <https://dejavuhyo.github.io/posts/spring-boot-logback/>
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
