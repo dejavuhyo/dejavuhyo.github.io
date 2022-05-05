@@ -12,7 +12,7 @@ DB에 세팅된 인코딩 방식이 ojdbc8.jar에서 지원하지 않는 인코�
 ![orai18n-error](/assets/img/2022-05-04-oracle-unsupported-character-set/orai18n-error.png)
 
 ## 2. 해결 방법
-직접 [orai18n.jar](https://www.oracle.com/database/technologies/appdev/jdbc-downloads.html) 파일을 다운받아서 추가하거나, dependency에 의존성을 추가한다.
+직접 [orai18n.jar](https://www.oracle.com/database/technologies/appdev/jdbc-downloads.html) 파일을 다운받아서 추가하거나, dependency를 추가한다.
 
 ```xml
 <dependency>
