@@ -1,7 +1,7 @@
 ---
 title: Spring에서 RestTemplate, HttpClient 사용 시 SSL 유효성 검사 안 함 방법
 author: dejavuhyo
-date: 2022-05-12 21:40:00 +0900
+date: 2022-05-18 21:40:00 +0900
 categories: [Application, Framework]
 tags: [spring-resttemplate-ssl-ignore, spring-httpclient-ssl-ignore, ssl-ignore, resttemplate-ssl-ignore, httpclient-ssl-ignore, ssl-유효성-검사-무시, 유효성-검사-무시]
 ---
