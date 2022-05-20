@@ -35,7 +35,7 @@ WHERE rn = 1
 ORDER BY job
 ```
 
-![order-by-group](/assets/img/2021-05-28-integration-git-branch/order-by-group.png)
+![order-by-group](/assets/img/2022-05-19-remove-with-only-one-duplicatedata-in-oracle/order-by-group.png)
 
 ## 3. 그룹별로 MAX에 해당하는 행만 추출
 두 번째 방법이다. 아래 예제는 직군(job)별로 최근 입사 일자(hiredate)를 조회하여 해당 직군의 가장 최근 입사 일자에 해당하는 사원만 조회하는 방법이다. 직군별로 최근 입사 일자가 동일한 사원이 존재한다면 2명 이상이 조회될 수 있다.
@@ -54,7 +54,7 @@ WHERE a.hiredate = (SELECT MAX(aa.hiredate)
 ORDER BY a.job
 ```
 
-![order-by-max](/assets/img/2021-05-28-integration-git-branch/order-by-max.png)
+![order-by-max](/assets/img/2022-05-19-remove-with-only-one-duplicatedata-in-oracle/order-by-max.png)
 
 ## [출처 및 참고]
 * <https://gent.tistory.com/478>
