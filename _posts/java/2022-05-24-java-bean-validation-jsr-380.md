@@ -112,7 +112,7 @@ JSR에서 찾을 수 있는 몇 가지 추가 주석이다.
 
 * __`@NotEmpty`__: 속성이 null 또는 비어 있지 않은지 확인한다. String, Collection, Map 또는 Array 값에 적용할 수 있다.
 
-* __`@NotBlan`k__: 텍스트 값에만 적용할 수 있으며 속성이 null 또는 공백이 아닌지 확인한다.
+* __`@NotBlank`__: 텍스트 값에만 적용할 수 있으며 속성이 null 또는 공백이 아닌지 확인한다.
 
 * __`@Positive`, `@PositiveOrZero`__: 숫자 값에 적용되고 완전히 양수인지 또는 0을 포함한 양수인지 검증한다.
 
