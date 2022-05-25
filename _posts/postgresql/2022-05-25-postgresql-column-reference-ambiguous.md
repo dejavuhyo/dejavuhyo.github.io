@@ -1,5 +1,5 @@
 ---
-title: PostgreSQL column reference "column_name" is ambiguous 해결 방법
+title: PostgreSQL Column reference is ambiguous 해결 방법
 author: dejavuhyo
 date: 2022-05-25 13:05:00 +0900
 categories: [Database, PostgreSQL]
