@@ -3,7 +3,7 @@ title: Java JAR와 WAR의 차이점
 author: dejavuhyo
 date: 2022-05-26 16:40:00 +0900
 categories: [Language, Java]
-tags: [java-jar-vs-war, jar-vs-war, java-jar-war, jar-war, ]
+tags: [java-jar-vs-war, jar-vs-war, java-jar-war, jar-war, jar-war-차이점]
 ---
 
 ## 1. 개념
