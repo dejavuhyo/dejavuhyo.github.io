@@ -99,3 +99,4 @@ JVM에 대한 다음과 같은 변경 내용은 성능에 직접적인 영향을
 
 ## [출처 및 참고]
 * <https://docs.microsoft.com/ko-kr/java/openjdk/reasons-to-move-to-java-11>
+* <https://okky.kr/article/784365>
