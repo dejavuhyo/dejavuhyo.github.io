@@ -3,7 +3,7 @@ title: Spring Boot 세션 쿠키 이름 변경
 author: dejavuhyo
 date: 2022-06-08 15:40:00 +0900
 categories: [Application, Framework]
-tags: [rename-session-cookies, rename-session, session-cookies, rename-cookies, 세션-쿠키-이름-변경, 세션-이름-변경, 쿠키-이름-변경, 세션-쿠키]
+tags: [rename-session-cookies, rename-session, session-cookies, rename-cookies, 세션-쿠키-이름-변경, 세션-이름-변경, 쿠키-이름-변경, 세션-쿠키, 세션, 쿠키]
 ---
 
 ## 1. 세션 쿠키 이름 변경
