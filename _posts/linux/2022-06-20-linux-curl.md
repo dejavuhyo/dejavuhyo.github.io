@@ -59,7 +59,6 @@ Connection: close
 Date: Wed, 18 Sep 2019 04:13:18 GMT
 Server: EC2ws
 
-
 # H 옵션으로 헤더 전달
 $ curl -H "Content-Type: application/json" http://127.0.0.1/latest/dynamic/instance-identity/document
 
@@ -84,14 +83,14 @@ $ curl -x proxy_host:proxy_port http://target-url
 ```
 
 ### 2) HTTP 인증
-특정 사이트에서 로그인 정보를 필요로 하는 경우 `-u`, `--user`옵션을 이용해서 로그인 할 수 있다.
+특정 사이트에서 로그인 정보를 필요로 하는 경우 `-u`, `--user` 옵션을 이용해서 로그인 할 수 있다.
 
 ```shell
 $ curl -X POST --user "user:password" http://airflow/api/v1/dags/sample/dagRuns
 ```
 
 ### 3) Kerberos 인증 사용
-Kerberos 인증을 `curl` 명령으로 사용하는 경우에는 `--negotiate`옵션을 이용한다.
+Kerberos 인증을 `curl` 명령으로 사용하는 경우에는 `--negotiate` 옵션을 이용한다.
 
 ```shell
 # --negotiate 옵션을 사용하기 전에 kinit으로 Kerberos 인증을 해야 함
