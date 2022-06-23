@@ -15,7 +15,7 @@ tags: [linux-netstat, netstat, 리눅스-netstat, 리눅스]
 |:---:|:---:|
 | `-a` | 경로테이블을 함께 출력한다. |
 | `-n` | 네트워크 주소를 숫자(IP 정보)로 출력한다. |
-| `-i` | 네트워크 접속 상태를 출력힌다. |
+| `-i` | 네트워크 접속 상태를 출력한다. |
 | `-o` | 타이머 정보를 출력한다. |
 | `-l` | LISTENING 상태의 정보만 출력한다. |
 | `-p` | 프로세스 정보를 출력한다. |
@@ -38,12 +38,12 @@ tags: [linux-netstat, netstat, 리눅스-netstat, 리눅스]
 | ESTABLISHED | 소켓이 연결되었음 |
 | SYN_SENT | 소켓이 연결을 시도 중임 |
 | SYN_RECV | 네트워크에서 연결 요청을 받았음 |
-| FIN_WAIT1 | 소켓이 종료되고, 커넥션을 종료 중 |
-| FIN_WAIT2 | 커넥션이 종료되고, 소켓이 원격지의 연결 종료를 대기 중 |
-| TIME_WAIT | 소켓은 네트워크에 여전히 남아있는 패킷을 처리하기 위해 대기 중 |
-| CLOSED | 소켓이 사용되지 않는 중 |
+| FIN_WAIT1 | 소켓이 종료되고, 커넥션을 종료중 |
+| FIN_WAIT2 | 커넥션이 종료되고, 소켓이 원격지의 연결 종료를 대기중 |
+| TIME_WAIT | 소켓은 네트워크에 여전히 남아있는 패킷을 처리하기 위해 대기중 |
+| CLOSED | 소켓이 사용되지 않는중 |
 | CLOSE_WAIT | 원격지의 연결이 종료되고, 소켓이 닫히는 것을 대기중 |
-| LAST_ACK | 원격지 연결이 종료되고, 소켓이 닫혔음. 승인 대기 중 |
+| LAST_ACK | 원격지 연결이 종료되고, 소켓이 닫혔음. 승인 대기중 |
 | LISTEN | 소켓이 연결을 수신하고 있음. `-l`, `-a` 옵션이 없으면 출력되지 않음 |
 | CLOSING | 소켓이 종료되었지만, 데이터가 전송중임 |
 | UNKNOWN | 상태를 알 수 없음 |
@@ -54,8 +54,8 @@ tags: [linux-netstat, netstat, 리눅스-netstat, 리눅스]
 # 네트워크 연결상태, 소켓정보 출력
 $ netstat
 Active Internet connections (w/o servers)
-Proto Recv-Q Send-Q Local Address               Foreign Address             State      
-tcp        0      0 ip--.ap-no:20022            ip--.ap-nort:43464 ESTABLISHED 
+Proto Recv-Q Send-Q Local Address               Foreign Address             State
+tcp        0      0 ip--.ap-no:20022            ip--.ap-nort:43464 ESTABLISHED
 Active UNIX domain sockets (w/o servers)
 Proto RefCnt Flags       Type       State         I-Node Path
 unix  2      [ ]         DGRAM                    7150   @/org/kernel/udev/udevd
@@ -63,8 +63,8 @@ unix  2      [ ]         DGRAM                    7150   @/org/kernel/udev/udevd
 # 네트워크 정보를 숫자로 표현
 $ netstat -n
 Active Internet connections (w/o servers)
-Proto Recv-Q Send-Q Local Address               Foreign Address             State      
-tcp        0      0 192.168.0.1:20022           192.168.0.2:43464            ESTABLISHED 
+Proto Recv-Q Send-Q Local Address               Foreign Address             State
+tcp        0      0 192.168.0.1:20022           192.168.0.2:43464            ESTABLISHED
 ctive UNIX domain sockets (w/o servers)
 Proto RefCnt Flags       Type       State         I-Node Path
 unix  2      [ ]         DGRAM                    7150   @/org/kernel/udev/udevd
@@ -81,7 +81,7 @@ lo        65536   0     6830      0      0      0     6830      0      0      0 
 # 모든 상태를 IP 숫자로 표현
 $ netstat -an
 
-# state가 ESTABLISHED, TIME_WAIT 인 것 만 출력 
+# state가 ESTABLISHED, TIME_WAIT 인 것 만 출력
 $ netstat -an | egrep "ESTABLISHED|TIME_WAIT"
 ```
 
