@@ -12,7 +12,7 @@ Lombok은 Java 기반 애플리케이션에서 VO, DTO, Entity 등을 더욱 쉽
 그러나 특정 Annotation의 무분별한 사용은 오히려 문제가 될 수 있다.
 
 ## 2. 사용법
-[Lombok 다운로드](https://projectlombok.org/download) Lombok을 설치 하고 의존선을 주입한다.
+[Lombok 다운로드](https://projectlombok.org/download) Lombok을 설치 하고 의존성을 주입한다.
 
 ```xml
 <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
@@ -64,7 +64,6 @@ public class User {
 ## 4. @NonNull
 변수나 파라미터에 선언하게 되면, 해당 값에 null이 올 수 없다. Lombok에서 null-check 로직을 자동으로 생성해준다. Setter에 null값이 들어오면 NullPointException 예외를 일으킨다.
 
-
 변수에 `@NonNull`이 달려있으면 해당 변수에 값을 설정하는 메소드들에도 null-check 코드를 생성시킨다. null값이 들어왔을 때 exception이 기본은 NullPointerException이 발생하지만 `lombok.nonNull.exceptionType` 설정값을 IllegalArgumentException으로 변경할 수 있다.
 
 ### 1) 주의할 점
@@ -106,7 +105,7 @@ public class User{
 }
 ```
 
-## 6. @AllArgsConstructor와 @RequiredArgsConstructor (사용 지양)
+## 6. @AllArgsConstructor와 @RequiredArgsConstructor
 `@AllArgsConstructor`는 모든 변수를 parameter로 받는 생성자를 생성해준다. `@RequiredArgsConstructor`는 final 혹은 `@NonNull`인 변수만 parameter로 받는 생성자를 생성해준다.
 
 ### 1) 속성
