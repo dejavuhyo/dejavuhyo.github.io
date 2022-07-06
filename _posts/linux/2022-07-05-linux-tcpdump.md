@@ -1,13 +1,13 @@
 ---
-title: 리눅스 tcpdump
+title: 리눅스 `tcpdump`
 author: dejavuhyo
 date: 2022-07-05 13:00:00 +0900
 categories: [DevOps, Linux]
-tags: [linux-tcpdump, , 리눅스-tcpdump, 리눅스]
+tags: [linux-`tcpdump`, `tcpdump`, 리눅스-`tcpdump`, 리눅스]
 ---
 
 ## 1. tcpdump
-tcpdump는 인바운드, 아웃바운드 트래픽 현황을 모니터링 한다.
+`tcpdump`는 인바운드, 아웃바운드 트래픽 현황을 모니터링 한다.
 
 ## 2. 주요 옵션
 
