@@ -24,7 +24,7 @@ openjdk version "1.8.0_292"
 OpenJDK Runtime Environment (build 1.8.0_292-b10)
 ```
 
-그런 다음 JVM의 초기 힙 크기를 50%로 설정해 본다.
+그런 다음 JVM의 초기 힙 크기를 50%로 설정한다.
 
 ```shell
 $ docker run -m 1GB openjdk:8 java -XX:InitialRAMPercentage=50.0 -XX:+PrintFlagsFinal -version | grep -E "InitialRAMPercentage"
@@ -79,7 +79,7 @@ OpenJDK Runtime Environment (build 1.8.0_292-b10)
 ## 4. -XX:MaxRAMPercentage
 MaxRAMPercentage 매개변수를 사용하면 많은 양의 메모리 (200MB 초과)로 실행되는 JVM의 최대 힙 크기를 설정할 수 있다.
 
-먼저 MaxRAMPercentage의 기본값을 살펴본다 .
+먼저 MaxRAMPercentage의 기본값을 살펴본다.
 
 ```shell
 $ docker run openjdk:8 java -XX:+PrintFlagsFinal -version | grep -E "MaxRAMPercentage"
