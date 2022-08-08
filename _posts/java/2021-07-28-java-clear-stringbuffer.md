@@ -119,4 +119,3 @@ Updated StringBuffer:
 ## [출처 및 참고]
 * <https://www.programiz.com/java-programming/examples/clear-stringbuffer>
 * <https://needjarvis.tistory.com/674>
-* <https://www.scaler.com/topics/java/stringbuffer-in-java/>
