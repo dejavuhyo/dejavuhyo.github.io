@@ -21,7 +21,7 @@ String originalInput = "test input";
 String encodedString = Base64.getEncoder().encodeToString(originalInput.getBytes());
 ```
 
-간단한 getEncoder() 유틸리티 메소드를 통해 전체 Encoder API를 검색하는 방법에 유의한다.
+간단한 `getEncoder()` 유틸리티 메소드를 통해 전체 Encoder API를 검색하는 방법에 유의한다.
 
 이제 해당 문자열을 원래 형식으로 다시 디코딩한다.
 
