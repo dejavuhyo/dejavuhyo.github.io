@@ -1,7 +1,7 @@
 ---
 title: 리눅스 쉘스크립트 작성 Tip
 author: dejavuhyo
-date: 2022-08-10 11:00:00 +0900
+date: 2022-08-16 15:00:00 +0900
 categories: [DevOps, Linux]
 tags: [linux-shell-script, shell-script, shell-script-tips, shell-script-writing, shell-script, 리눅스-쉘스크립트, 쉘스크립트-작성, 쉘스크립트-팁, 쉘스크립트]
 ---
@@ -17,7 +17,7 @@ tags: [linux-shell-script, shell-script, shell-script-tips, shell-script-writing
 set -e
 
 echo "hello"
-aaa  # set -e 옵션이 설정되면 이 시점에 스크립트 종료 
+aaa  # set -e 옵션이 설정되면 이 시점에 스크립트 종료
 echo "world"
 ```
 
