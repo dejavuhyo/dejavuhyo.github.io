@@ -3,7 +3,7 @@ title: 리눅스 명령어 실행결과를 변수에 할당
 author: dejavuhyo
 date: 2022-08-17 10:20:00 +0900
 categories: [DevOps, Linux]
-tags: [linux-if, if-statement-test-command, if-test-command, 리눅스-if, 리눅스-if문-테스트, if문-테스트]
+tags: [linux-command, command-execution-results, assign-command-results-variables, 리눅스-명령어, 리눅스-변수-할당, 실행결과-변수할당, 리눅스-실행결과-변수할당]
 ---
 
 ## 1. 명령어 실행결과를 변수에 할당
