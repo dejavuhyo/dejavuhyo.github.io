@@ -17,7 +17,9 @@ tags: [java-wrapper-classes, wrapper-classes, autoboxing, unboxing, 자바-래�
 
 기본적으로 제네릭 클래스는 객체에서만 작동하며 기본 요소를 지원하지 않는다. 결과적으로 우리가 그것들로 작업하고 싶다면 원시 값을 래퍼 객체로 변환해야 한다.
 
-예를 들어, Java Collection Framework는 객체와 독점적으로 작동한다. 오래전(Java 5 이전)에는 오토박싱이 없었고, 예를 들어 `Integers` 컬렉션에 대해 단순히 `add(5)`를 호출할 수 없었다. 그 당시에는 이러한 원시 값을 해당 래퍼 클래스로 수동으로 변환하고 컬렉션에 저장해야 했다.
+예를 들어, Java Collection Framework는 객체와 독점적으로 작동한다. 오래전(Java 5 이전)에는 오토박싱이 없었고, 예를 들어 `Integers` 컬렉션에 대해 단순히 `add(5)`를 호출할 수 없었다.
+
+그 당시에는 이러한 원시 값을 해당 래퍼 클래스로 수동으로 변환하고 컬렉션에 저장해야 했다.
 
 현재 autoboxing을 사용하면 `ArrayList.add(101)` 를 쉽게 수행할 수 있지만 내부적으로 Java는 `valueOf()` 메서드를 사용하여 ArrayList에 저장하기 전에 기본 값을 Integer로 변환한다.
 
