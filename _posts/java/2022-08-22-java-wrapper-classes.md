@@ -17,7 +17,7 @@ tags: [java-wrapper-classes, wrapper-classes, autoboxing, unboxing, 자바-래�
 
 기본적으로 제네릭 클래스는 객체에서만 작동하며 기본 요소를 지원하지 않는다. 결과적으로 우리가 그것들로 작업하고 싶다면 원시 값을 래퍼 객체로 변환해야 한다.
 
-예를 들어, Java Collection Framework는 객체와 독점적으로 작동한다. 아주 오래전(Java 5 이전)에는 오토박싱이 없었고 예를 들어 Integers 컬렉션에 대해 단순히 `add(5)`를 호출할 수 없었다.
+예를 들어, Java Collection Framework는 객체와 독점적으로 작동한다. 오래전(Java 5 이전)에는 오토박싱이 없었고, 예를 들어 `Integers` 컬렉션에 대해 단순히 `add(5)`를 호출할 수 없었다.
 
 그 당시에는 이러한 원시 값을 해당 래퍼 클래스로 수동으로 변환하고 컬렉션에 저장해야 했다.
 
@@ -42,7 +42,7 @@ Integer anotherObject = Integer.valueOf(1);
 
 `valueOf()` 메서드는 지정된 int 값을 나타내는 인스턴스를 반환한다.
 
-효율적으로 만드는 캐시된 값을 반환한다. 항상 -128에서 127 사이의 값을 캐시하지만 이 범위 밖의 다른 값도 캐시할 수 있다.
+효율적으로 만드는 캐시된 값을 반환한다. 항상 `-128`에서 `127` 사이의 값을 캐시하지만 이 범위 밖의 다른 값도 캐시할 수 있다.
 
 마찬가지로 `boolean`을 `Boolean`으로, `byte`를 `Byte`로, `char`를 `Character`로, `long`을 `Long`으로, `float`를 `Float`로, `double`을 `Double`로 변환할 수도 있다. `String`을 `Integer`로 변환 해야 하는 경우 String이 래퍼 클래스가 아니기 때문에 `parseInt()` 메서드를 사용해야 한다.
 
