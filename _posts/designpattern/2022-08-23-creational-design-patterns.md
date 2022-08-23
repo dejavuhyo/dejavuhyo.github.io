@@ -3,7 +3,7 @@ title: 창조적인 디자인 패턴
 author: dejavuhyo
 date: 2022-08-23 10:50:00 +0900
 categories: [Language, DesignPattern]
-tags: [priority-queue, queue, queue-pattern, design-pattern, 큐-패턴, 디자인-패턴, 큐]
+tags: [creational-design-patterns, design-patterns, singleton, factory-method, abstract-factory, builder, 싱글톤, 팩토리-메소드, 추상-팩토리, 빌더, 디자인-패턴, 창조적인-디자인-패턴]
 ---
 
 ## 1. 창조적인 디자인 패턴
@@ -189,9 +189,8 @@ public class AnimalFactory implements AbstractFactory<Animal> {
 
         return null;
     }
-
 }
-````
+```
 
 마찬가지로 동일한 디자인 패턴을 사용하여 Color 인터페이스에 대한 팩토리를 구현할 수 있다.
 
