@@ -12,7 +12,6 @@ tags: [queries-order-execution, select-queries, queries-order-execution, queries
 > `FROM and JOIN` → `WHERE` → `GROUP BY` → `HAVING` → `SELECT` → `ORDER BY` → `LIMIT / OFFSET`
 
 ```sql
-Complete SELECT query
 SELECT DISTINCT column, AGG_FUNC(column_or_expression), ...
 FROM mytable
     JOIN another_table
