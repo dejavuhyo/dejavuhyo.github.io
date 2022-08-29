@@ -21,6 +21,28 @@ tags: [java-arithmetic-operator, arithmetic-operator, operator, 자바-산술-�
 | `/` | 왼쪽의 피연산자를 오른쪽의 피연산자로 나눔 |
 | `%` | 왼쪽의 피연산자를 오른쪽의 피연산자로 나눈 후, 그 나머지를 반환함 |
 
+* 예제
+
+```java
+int num1 = 8, num2 = 4;
+
+System.out.println("+ 연산자에 의한 결과 : "+ (num1 + num2));
+System.out.println("- 연산자에 의한 결과 : "+ (num1 - num2));
+System.out.println("* 연산자에 의한 결과 : "+ (num1 * num2));
+System.out.println("/ 연산자에 의한 결과 : "+ (num1 / num2));
+System.out.println("% 연산자에 의한 결과 : "+ (num1 % num2));
+```
+
+* 실행 결과
+
+```text
++ 연산자에 의한 결과 : 12
+- 연산자에 의한 결과 : 4
+* 연산자에 의한 결과 : 32
+/ 연산자에 의한 결과 : 2
+% 연산자에 의한 결과 : 0
+```
+
 ## 2. 연산자의 우선순위(operator precedence)와 결합 방향(associativity)
 연산자의 우선순위는 수식 내에 여러 연산자가 함께 등장할 때, 어느 연산자가 먼저 처리될 것인가를 결정한다.
 
