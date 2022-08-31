@@ -44,7 +44,7 @@ public class RetailController {
             retailDataList.add(retailDTO);
 
             // 1000건씩 자른다.
-            if (insCount == 1000 || selSize - 1 == count) {
+            if (insCount == 1000 || selSize == count) {
                 // 1000건씩 insert
                 retailService.insertRetailList(retailDataList);
                 retailDataList = new ArrayList<RetailDTO>();
