@@ -20,7 +20,7 @@ tags: [mybatis-selectkey, selectkey, 키값-리턴]
 ### 2) 엘리먼트 속성
 
 | 속성 | 설명 |
-|:---:|:---:|
+|-----|-----|
 | keyProperty | selectKey 구문의 결과가 세팅될 대상 프로퍼티 |
 | keyColumn | 반환되는 결과 셋의 컬럼 명은 프로퍼티에 일치. 여러 개의 컬럼을 사용한다면 컬럼 명의 목록은 콤마를 사용해서 구분 |
 | resultType | 결과의 타입. MyBatis는 이 기능을 제거할 수 있지만 추가하는 것이 문제가 되지 않음. MyBatis는 String을 포함하여 키로 사용될 수 있는 간단한 타입을 허용 |

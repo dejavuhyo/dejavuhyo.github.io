@@ -29,7 +29,7 @@ MVCC는 포인트-인-타임 일관성(point-in-time consistent) 뷰를 제공�
 * __Step 3:__ 트랜잭션2에서 a는 30으로 데이터가 조회된다.
 
 | 단계 | 트랜잭션1 | 트랜잭션2 |
-|:---:|:---:|:---:|
+|-----|-----|-----|
 | Step 1 | a = 30 |  |
 | Step 2 | begin tran |  |
 | Step 3 | update a = 50 |  |
@@ -63,7 +63,7 @@ Oracle, MySQL DB에 해당하는 방식이다. 최신 버전의 데이터만 데
 ## 4. MVCC 관리 방법
 
 |  | PostgreSQL | Oracle | SQL Server |
-|:---:|:---:|:---:|:---:|
+|-----|-----|-----|-----|
 | 오래된 버전 저장공간 | Heap/Index 영역 | Undo 영역 | tempdb 영역 |
 | 정리 방법 | Vacuum | System Monitor Process | Ghost Cleanup Task |
 

@@ -33,7 +33,7 @@ tags: [markdown-code-blocks, code-blocks, code-blocks-language, 코드블록, �
 * 언어 종류
 
 | 언어 | 입력어 |
-|:---:|:---:|
+|-----|-----|
 | HTML | html |
 | C | c |
 | C++ | c++ |

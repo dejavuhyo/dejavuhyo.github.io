@@ -8,7 +8,7 @@ order: 4
 
 ## 공대베짱이
 
-* Software Engineer
+* Software Developer
 
 ## Link
 

@@ -103,7 +103,7 @@ COUNT() 기능은 범주별 주문 수와 주문 상태를 반환한다. 쿼리�
 일반적으로 Oracle은 다음과 같은 규칙을 사용하여 별칭을 기반으로 피벗 열의 이름을 지정한다.
 
 | Pivot Column Aliased? | Pivot In-Value Aliased? | Pivot Column Name |
-|:---:|:---:|:---:|
+|-----|-----|-----|
 | No | No | pivot_in_clause value |
 | Yes | Yes | pivot_in_clause alias `|| '_' ||` pivot_clause alias |
 | No | Yes | pivot_in_clause alias |
