@@ -47,7 +47,7 @@ Comparator<Apple> byWeight = (Apple a1, Apple a2) -> a1.getWeight().compareTo(a2
 * 람다의 표현식은 파라미터, 화살표, 바디로 이루어진다.
 
 | 람다 파라미터 | 화살표 | 람다 바디 |
-|:---:|:---:|:---:|
+|-----|-----|-----|
 | (Apple a1, Apple a2) | -> | a1.getWeight().compareTo(a2.getWeight()); |
 
 * 파라미터 리스트
@@ -91,7 +91,7 @@ Comparator<Apple> byWeight = (Apple a1, Apple a2) -> a1.getWeight().compareTo(a2
 * 람다 예제
 
 | 사용 사례 | 람다 예제 |
-|:---:|:---:|
+|-----|-----|
 | 불리언 표현식 |  `(List<String>) -> list.isEmpty()` |
 | 객체 생성 | `() -> new Apple(10)` |
 | 객체에서 소비 | `(Apple a) -> { System.out.println(a.getWeight());` |

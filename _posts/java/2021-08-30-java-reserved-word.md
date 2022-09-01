@@ -23,7 +23,7 @@ user-defined typers은 개발자가 클래스, 인터페이스, 열거형 및 �
 array는 참조된 엘리먼트를 메모리에 같은 크기로 연속적인 슬롯에 값을 저장하는 특별한 참조형이다. 이 자료형은 차원의 개수를 나타내는 하나 이상의 대괄호 쌍과 엘리먼트형으로 구성된다. 대괄호가 한 쌍이면 일차원, 두 쌍이면 이차원, 세 쌍 이상이면 이차원 배열의 일차원 배열이 된다.
 
 | 타입 | 예약어 |
-|:---:|:---:|
+|-----|-----|
 | 기본 데이터 타입 | boolean, byte, char, short, int, long, float, double |
 | 접근 지정자 | private, protected, public |
 | 클래스 관련 | class, abstract, interface, extends, implements, enum |
@@ -36,7 +36,7 @@ array는 참조된 엘리먼트를 메모리에 같은 크기로 연속적인 �
 ## 3. 특징
 
 | 자바 예약어 | 내용 |
-|:---:|:---:|
+|-----|-----|
 | abstract | 추상클래스 또는 추상메소드에 사용함 |
 | boolean | 논리형 참(true)와 거짓(false) 디폴트값은 false |
 | break | 반복문 또는 Switch 문을 벗어나거나 멈출 때 사용 |

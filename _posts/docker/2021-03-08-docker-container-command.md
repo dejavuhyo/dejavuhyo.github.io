@@ -26,7 +26,7 @@ tags: [docker-dontainer-command, dontainer-command, docker-dontainer, 도커-컨
 ## 4. 옵션
 
 | 옵션 | 설명 |
-|:---:|:---:|
+|-----|-----|
 | --detach , -d | 분리 모드: 백그라운드에서 명령 실행 |
 | --detach-keys | 컨테이너를 분리하기 위한 키 시퀀스 재정의 |
 | --env , -e | 환경 변수 설정 |

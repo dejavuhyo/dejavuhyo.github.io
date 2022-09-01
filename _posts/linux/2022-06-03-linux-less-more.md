@@ -14,7 +14,7 @@ tags: [linux-less-more, linux-less, linux-more, less-more, 리눅스-less-more, 
 ## 2. 주요 옵션
 
 | 옵션 | 설명 |
-|:---:|:---:|
+|-----|-----|
 | `-N` | 라인번호를 표시 |
 
 ## 3. 사용예제

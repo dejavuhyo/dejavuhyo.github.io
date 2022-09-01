@@ -18,7 +18,7 @@ JDBC 데이터 소스의 구현은 애플리케이션 서버, OSS 라이브러�
 ### 1) Application Server에서 제공하는 JDBC 데이터 소스 
 
 | 애플리케이션 서버 | 참조 페이지 |
-|:---:|:---:|
+|-----|-----|
 | Apache Tomcat 9.0 | [Apache Tomcat 9.0 User Guide (The Tomcat JDBC Connection Pool)](http://tomcat.apache.org/tomcat-9.0-doc/jdbc-pool.html), [Apache Tomcat 9.0 User Guide (JNDI Datasource HOW-TO)](http://tomcat.apache.org/tomcat-9.0-doc/jndi-datasource-examples-howto.html) |
 | Apache Tomcat 8.5 | [Apache Tomcat 8.5 User Guide (The Tomcat JDBC Connection Pool)](http://tomcat.apache.org/tomcat-8.5-doc/jdbc-pool.html), [Apache Tomcat 8.5 User Guide (JNDI Datasource HOW-TO)](http://tomcat.apache.org/tomcat-8.5-doc/jndi-datasource-examples-howto.html) | 
 | Apache Tomcat 7 | [Apache Tomcat 7 User Guide (The Tomcat JDBC Connection Pool)](http://tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html), [Apache Tomcat 7 User Guide (JNDI Datasource HOW-TO)](http://tomcat.apache.org/tomcat-7.0-doc/jndi-datasource-examples-howto.html) |
@@ -32,7 +32,7 @@ JDBC 데이터 소스의 구현은 애플리케이션 서버, OSS 라이브러�
 * OSS/Third-Party 라이브러리에서 제공되는 JDBC 데이터 소스
 
 | 애플리케이션 서버 | 참조 페이지 |
-|:---:|:---:|
+|-----|-----|
 | Apache Commons DBCP | [Apache Commons DBCP](http://commons.apache.org/proper/commons-dbcp/index.html) |
 
 ### 3) Spring Framework에서 제공하는 JDBC 데이터 소스
@@ -63,7 +63,7 @@ Spring Framework는 JDBC 데이터 소스 구현 클래스와 JDBC 데이터 소
 * 처리할 수 있는 DB의 액세스 Exception 서브 클래스
 
 | 클래스 이름 | 설명 |
-|:---:|:---:|
+|-----|-----|
 | org.springframework.dao.DuplicateKeyException | 고유 제약 조건 위반이 발생했을 경우에 발생하는 예외 |
 | org.springframework.dao.OptimisticLockingFailureException | 낙관적 잠금에 성공하지 못한 경우에 발생하는 예외. 다른 프로세스에서 동일한 데이터가 업데이트된 경우에 발생한다. 이 예외는 O/R Mapper로 JPA를 사용하는 경우 발생하는 예외이다. MyBatis는 낙관적 lock을 하는 기능이 없기 때문에 O/R Mapper 본체에서 본 예외가 발생하는 것은 아니다. |
 | org.springframework.dao.PessimisticLockingFailureException | 비관적 잠금에 성공하지 못한 경우에 발생하는 예외. 다른 처리에 동일한 데이터가 잠겨 있고 잠금 해제 대기 제한 시간을 초과해도 잠금이 해제되지 않는 경우에 발생한다. |
@@ -81,7 +81,7 @@ MyBatis3로 부터 추가된 Mapper 인터페이스를 사용하여 Entity의 CR
 My Batis 설정 파일을 읽고, Sql Session Factory 를 생성하기 위한 component. Spring과 연계하여 사용하는 경우 애플리케이션 클래스에서 본 컴포넌트를 직접 취급하지 않는다.
 
 | 구성 요소 및 설정 파일 | 설명 |
-|:---:|:---:|
+|-----|-----|
 | MyBatis configuration file | MyBatis3의 동작 설정을 설명하는 XML 파일이다. 데이터베이스 접속 대상, 매핑 파일 경로, MyBatis 동작 설정 등 세부 사항을 설명하는 파일이다. Spring과 통합하여 사용 시 데이터베이스의 연결 대상 및 매핑 파일 경로 설정을 구성 파일에 지정할 필요가 없기 때문에 MyBatis3의 기본 작업을 변경하거나 확장할 때 설정이 수행된다. |
 | org.apache.ibatis.session.SqlSessionFactoryBuilder | MyBatis 설정 파일을 읽고 SqlSessionFactory를 생성하기 위한 component. 이 컴포넌트는 Spring과 통합하여 사용할 때 애플리케이션 클래스에 의해 직접 처리되지 않는다. |
 | org.apache.ibatis.session.SqlSessionFactory | SqlSession을 생성하기 위한 컴포넌트. 이 컴포넌트는 Spring과 통합하여 사용할 때 애플리케이션 클래스에 의해 직접 처리되지 않는다. |
@@ -146,7 +146,7 @@ MyBatis-Spring을 사용하면
 MyBatis-Spring은 다음 구성 요소를 연계하는 것으로, MyBatis3와 Spring의 통합을 실현하고있다.
 
 | 구성 요소 및 설정 파일 | 설명 |
-|:---:|:---:|
+|-----|-----|
 | org.mybatis.spring.SqlSessionFactoryBean | SqlSessionFactory 를 구축하고, Spring의 DI 컨테이너에 객체를 저장하기 위한 구성 요소. MyBatis3 표준은 MyBatis 설정 파일에 정의되어있는 정보를 바탕으로 SqlSessionFactory를 구축하는데, SqlSessionFactoryBean를 사용하면 MyBatis 설정 파일이 없이도 SqlSessionFactory을 구축할 수 있다. 물론 병용하는 것도 가능하다. |
 | org.mybatis.spring.mapper.MapperFactoryBean | 싱글 톤의 Mapper 오브젝트를 구축하고 Spring의 DI 컨테이너에 객체를 저장하기 위한 컴포넌트. MyBatis3 표준 구조에서 생성되는 Mapper 객체는 스레드로부터 안전하지 않기 때문에 스레드마다 인스턴스를 할당해야 한다. MyBatis-Spring 컴포넌트로 만들어진 Mapper 오브젝트는 스레드 세이프 한 Mapper 오브젝트를 생성할 수 있기 때문에 Service 등의 싱글 톤 컴포넌트에 DI 할 수 있게 된다. |
 | org.mybatis.spring.SqlSessionTemplate | SqlSession인터페이스를 구현한 싱글 톤 버전의 SqlSession 구성 요소. MyBatis3 표준 구조에서 생성되는 SqlSession 개체는 스레드로부터 안전하지 않기 때문에 스레드마다 인스턴스를 할당할 필요가 있었다. MyBatis-Spring 컴포넌트에서 생성된 SqlSession 객체는 스레드 세이프한 SqlSession 오브젝트가 생성되므로 Service 등의 싱글 톤 컴포넌트에 DI 할 수 있게 된다. |
@@ -212,7 +212,7 @@ JPA에서는 '관리 상태'라고 불리는 상태의 Entity가 저장된 값�
 ### 3) JPA 기본 용어
 
 | 용어 | 설명 |
-|:---:|:---:|
+|-----|-----|
 | Entity class | 관계형 데이터베이스에서 관리되고 있는 레코드를 표현하는 Java 클래스. @javax.persistence.Entity 어노테이션이 부여된 클래스가 Entity 클래스가 된다. |
 | EntityManager | Entity의 라이프사이클을 관리하기 위해 필요한 API를 제공하는 인터페이스. 애플리케이션은 javax.persistence.EntityManager의 메소드를 사용하여 관계형 데이타베이스로 관리되고 있는 레코드를 Java 오브젝트로 조작한다. Spring Data JPA를 사용하는 경우에는 직접 사용하지 않지만 Spring Data JPA 구조로는 표현할 수 없는 Query를 발행해야 할 경우 이 인터페이스를 통해 Entity를 취득하게 된다. |
 | TypedQuery | Entity를 검색하기 위한 API를 제공하는 인터페이스. 애플리케이션은 javax.persistence.TypedQuery 메소드를 사용하여 ID 이외의 조건에 일치하는 Entity를 검색한다. Spring Data JPA를 사용하는 경우에는 직접 사용하지 않지만, Spring Data JPA 구조에서는 표현할 수 없는 Query를 발행해야 할 경우에는 이 인터페이스를 사용하여 Entity를 검색하게 된다. 조건에 일치하는 영속 계층(DB)의 Entity를 직접 조작(업데이트 또는 삭제)하기 위한 메소드도 이 인터페이스에 포함되어 있다. |

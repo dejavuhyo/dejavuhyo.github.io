@@ -165,7 +165,7 @@ public class PrimitiveCommandNode extends Node {
 * Context 클래스가 제공하는 메소드
 
 | 이름 | 해설 |
-|:---:|:---:|
+|-----|-----|
 | nextToken | 다음의 토큰을 얻는다(다음 토큰으로 진행) |
 | currentToken | 현재의 토큰을 얻는다(다음 토큰으로는 진행하지 않는다) |
 | skipToken | 현재의 토큰을 검사한 후, 다음 토큰을 얻는다(다음 토큰으로 진행) |
@@ -176,7 +176,7 @@ public class PrimitiveCommandNode extends Node {
 * Context 클래스를 이용하고 있는 java.util.StringTokenizer의 메소드
 
 | 이름 | 해설 |
-|:---:|:---:|
+|-----|-----|
 | nextToken | 다음 토큰을 얻는다(다음 토큰으로 진행한다) |
 | hasMoreTokens | 다음 토큰이 있는지, 없는지를 조사한다 |
 
