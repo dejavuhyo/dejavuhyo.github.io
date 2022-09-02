@@ -146,7 +146,7 @@ Instance가 하나만 생성되기 때문에 동일한 것을 참조, 기본적�
 구체적으로 Application 구동 시 JVM 안에서 스프링이 Bean마다 하나의 객체를 생성하는 것을 의미한다. Spring을 통해서 Bean을 주입 받으면 언제나 주입받은 Bean은 동일한 객체라고 가정하고 개발한다.
 
 | Scope | Description |
-|-----|-----|
+|:-----:|:-----:|
 | singleton | 하나의 Bean 정의에 대해서 Spring IoC Container 내에 단 하나의 객체만 존재한다. |
 | prototype | 하나의 Bean 정의에 대해서 다수의 객체가 존재할 수 있다. |
 | request | 하나의 Bean 정의에 대해서 하나의 HTTP request의 생명주기 안에 단 하나의 객체만 존재한다. 즉, 각각의 HTTP request는 자신만의 객체를 가진다. Web-aware Spring ApplicationContext 안에서만 유효하다. |

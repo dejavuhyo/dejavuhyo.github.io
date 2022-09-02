@@ -15,7 +15,7 @@ tags: [spring-boot-interceptor, interceptor, 스프링부트-인터셉터, 인�
 HandlerInterceptorAdapterr를 상속받아 구현하며 preHandle, postHandle, afterCompletion, afterConcurrentHandlingStarted 네 개의 메소드를 포함하고 있다.
 
 | 메소드 | 설명 |
-|-----|-----|
+|:-----:|:-----:|
 | preHandle | 컨트롤러 실행 전 수행한다. 반환 값이 true일 경우 컨트롤러로 진입하고 false일 경우 진입하지 않는다. Object handler는 진입하려는 컨트롤러의 클래스 객체가 담겨있다. |
 | postHandle | 컨트롤러 실행 후 View가 랜더링 되기 전에 수행한다. |
 | afterCompletion | 컨트롤러 실행되고 view가 랜더링 된 후에 실행된다. |

@@ -9,7 +9,7 @@ tags: [spring-boot-batch-properties, spring-batch-properties, batch-properties]
 ## 1. Batch 프로퍼티 통합 속성
 
 | 이름 | 설명 | 기본값 |
-|-----|-----|-----|
+|:-----:|:-----:|:-----:|
 | spring.batch.jdbc.initialize-schema | 데이터베이스 스키마 초기화 모드 | embedded |
 | spring.batch.jdbc.isolation-level-for-create | 새 작업에 대한 작업 메타데이터를 생성할 때 사용할 트랜잭션 격리 수준이다. JPA 사용 여부에 따라 자동 감지된다. |  |
 | spring.batch.jdbc.platform | `@@platform@@` 자리 표시 자가 사용되는 경우 초기화 스크립트에서 사용할 플랫폼이다. 기본적으로 자동 감지된다. |  |

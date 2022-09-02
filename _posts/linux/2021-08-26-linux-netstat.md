@@ -53,7 +53,7 @@ $ netstat -nlpt
 ## 4. netstat 상태값
 
 | State | Description |
-|-----|-----|
+|:-----:|:-----:|
 | CLOSED | 완전히 연결이 종료된 상태 |
 | CLOSING | 흔하지 않으나 주로 확인 메시지가 전송 도중 유실된 상태 |
 | CLOSE_WAIT | TCP 연결이 상위 응용프로그램 레벨로부터 연결 종료를 기다리는 상태 |
