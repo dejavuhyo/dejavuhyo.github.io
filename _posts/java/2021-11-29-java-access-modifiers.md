@@ -115,7 +115,7 @@ public class AnotherSubClass extends SuperPublic {
 아래 표에는 사용 가능한 액세스 수정자가 요약되어 있다. 사용된 액세스 한정자와 상관없이 클래스는 항상 해당 멤버에 액세스할 수 있음을 알 수 있다.
 
 | Modifier | Class | Package | Subclass | World |
-|-----|-----|-----|-----|-----|
+|:-----:|:-----:|:-----:|:-----:|:-----:|
 | public | Y | Y | Y | Y |
 | protected | Y | Y | Y | N |
 | default | Y | Y | N | N |

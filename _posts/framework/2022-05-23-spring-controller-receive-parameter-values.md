@@ -22,7 +22,7 @@ public String main(HttpServletRequest request) {
 `@RequestParam` 어노테이션을 이용하여 파라미터값을 받는 방법이다.
 
 | 이름 | 타입 | 설명 |
-|-----|-----|-----|
+|:-----:|:-----:|:-----:|
 | name, value (Alias for name) | String | 파라미터 이름 |
 | required | bollean | 해당 파라미터의 필수 여부, 기본값 true |
 | defaultValue | String | 해당 파라미터 기본값 |

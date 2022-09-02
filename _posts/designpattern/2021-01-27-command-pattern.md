@@ -255,7 +255,7 @@ DrawCommand가 '이벤트가 발생한 시간(타임 스탬프)'이라는 정보
 * 인터페이스와 어댑터
 
 | 인터페이스 | 어탭터 |
-|-----|-----|
+|:-----:|:-----:|
 | MouseMotionListener 인터페이스 | MouseMotionAdapter 클래스 |
 | WindowListener 인터페이스 | WindowAdapter 클래스 |
 

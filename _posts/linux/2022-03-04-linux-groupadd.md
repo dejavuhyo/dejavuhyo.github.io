@@ -12,7 +12,7 @@ tags: [linux-groupadd, groupadd, 리눅스-groupadd]
 ## 2. 주요 옵션
 
 | 옵션 | 내용 |
-|-----|-----|
+|:-----:|:-----:|
 | -g | gid 할당 |
 
 ## 3. /etc/group

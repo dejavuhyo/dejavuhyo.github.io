@@ -12,7 +12,7 @@ Docker CLI의 기본 명령
 ![docker-commands-diagram](/assets/img/2021-03-10-docker-basic-commands/docker-commands-diagram.png)
 
 | 명령 | 설명 |
-|-----|-----|
+|:-----:|:-----:|
 | [docker attach](https://docs.docker.com/engine/reference/commandline/attach/) | 실행 중인 컨테이너에 로컬 표준 입력, 출력 및 오류 스트림 연결 |
 | [docker build](https://docs.docker.com/engine/reference/commandline/build/) | 도커 파일에서 이미지 빌드 |
 | [docker builder](https://docs.docker.com/engine/reference/commandline/builder/) | 빌드 관리 |
