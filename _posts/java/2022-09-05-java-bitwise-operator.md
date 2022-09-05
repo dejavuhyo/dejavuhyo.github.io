@@ -21,7 +21,7 @@ tags: [java-bitwise-operator, bitwise-operator, operator, 자바-비트-연산�
 | `>>` | 부호를 유지하면서 지정한 수만큼 비트를 전부 오른쪽으로 이동시킴 (right shift 연산) |
 | `>>>` | 지정한 수만큼 비트를 전부 오른쪽으로 이동시키며, 새로운 비트는 전부 0이 됨 |
 
-다음 그림은 비트 AND 연산자(&)의 동작을 나타낸다.
+다음 그림은 비트 AND 연산자(`&`)의 동작을 나타낸다.
 
 이처럼 비트 AND 연산자는 대응되는 두 비트가 모두 1일 때만 1을 반환하며, 다른 경우는 모두 0을 반환한다.
 
@@ -39,7 +39,7 @@ tags: [java-bitwise-operator, bitwise-operator, operator, 자바-비트-연산�
 
 ![bitwise-xor](/assets/img/2022-09-05-java-bitwise-operator/bitwise-xor.png)
 
-다음 그림은 비트 NOT 연산자(~)의 동작을 나타낸다.
+다음 그림은 비트 NOT 연산자(`~`)의 동작을 나타낸다.
 
 이처럼 비트 NOT 연산자는 해당 비트가 1이면 0을 반환하고, 0이면 1을 반환한다.
 
@@ -57,7 +57,7 @@ int num1 = 8, num2 = -8;
 ⑤ System.out.println(">>> 연산자에 의한 결과 : "+ (num2 >>> 2));
 ```
 
-# 실행 결과
+* 실행 결과
 
 ```text
 ~ 연산자에 의한 결과 : -9
