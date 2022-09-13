@@ -1,9 +1,9 @@
 ---
 title: Java 스트림 생성
 author: dejavuhyo
-date: 2022-09-13 09:00:00 +0900
+date: 2022-09-13 09:30:00 +0900
 categories: [Language, Java]
-tags: [java-stream-creation, stream-creation, 자바-스트림-생성, 스트림-생성]
+tags: [java-stream-creation, java-stream, stream-creation, stream, 자바-스트림-생성, 스트림-생성, 자바-스트림, 스트림]
 ---
 
 ## 1. 스트림의 생성
