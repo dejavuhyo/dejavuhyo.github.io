@@ -41,8 +41,7 @@ h1 + .post-meta {
 }
 
 img.preview-img {
-  margin-top: 3.75rem;
-  margin-bottom: 0;
+  margin: 0;
   border-radius: 6px;
 
   &.bg[data-loaded=true] {
@@ -55,7 +54,7 @@ img.preview-img {
   border-bottom: 1px double var(--main-border-color);
   font-size: 0.85rem;
 
-  .post-meta a {
+  .post-meta a:not(:hover) {
     @extend %link-underline;
   }
 }
@@ -173,6 +172,8 @@ nav[data-toggle=toc] {
 
   em {
     @extend %normal-font-style;
+
+    color: var(--relate-post-date);
   }
 
   .card {
@@ -192,10 +193,6 @@ nav[data-toggle=toc] {
       transform: translate3d(0, -3px, 0);
       box-shadow: 0 10px 15px -4px rgba(0, 0, 0, 0.15);
     }
-  }
-
-  .timeago {
-    color: var(--relate-post-date);
   }
 
   p {
@@ -294,6 +291,10 @@ nav[data-toggle=toc] {
 
       &.fa-telegram {
         @include btn-sharing-color(rgb(39, 159, 217));
+      }
+
+      &.fa-linkedin {
+        @include btn-sharing-color(rgb(0, 119, 181));
       }
 
       &.fa-weibo {

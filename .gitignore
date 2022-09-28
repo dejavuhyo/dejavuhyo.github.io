@@ -4,6 +4,9 @@
 !.editorconfig
 !.nojekyll
 !.travis.yml
+!.husky
+!.commitlintrc.json
+!.versionrc.json
 
 # bundler cache
 _site
@@ -12,7 +15,6 @@ Gemfile.lock
 
 # rubygem
 *.gem
-.jekyll-cache
 
 # npm dependencies
 node_modules

@@ -4,9 +4,6 @@ source "https://rubygems.org"
 
 gemspec
 
-# Liquid-C
-gem "liquid-c"
-
 group :test do
   gem "html-proofer", "~> 3.18"
 end
