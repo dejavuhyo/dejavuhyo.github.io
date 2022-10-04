@@ -127,8 +127,7 @@ stream3.skip(3).limit(5).forEach(n -> System.out.print(n + " "));
 ```
 
 ## 5. 스트림 정렬
-`sorted()` 메소드는 해당 스트림을 주어진 비교자(comparator)를 이용하여 정렬한다.
-이때 비교자를 전달하지 않으면 기본적으로 사전 편찬 순(natural order)으로 정렬하게 된다.
+`sorted()` 메소드는 해당 스트림을 주어진 비교자(comparator)를 이용하여 정렬한다. 이때 비교자를 전달하지 않으면 기본적으로 사전 편찬 순(natural order)으로 정렬하게 된다.
 
 * 예제
 
