@@ -3,7 +3,7 @@ title: Java 스트림 Optional 클래스
 author: dejavuhyo
 date: 2022-10-06 09:40:00 +0900
 categories: [Language, Java]
-tags: [java-stream-terminal, terminal-operation, java-stream, stream-terminal, stream-terminal-operation, stream, 자바-스트림-최종-연산, 스트림-최종-연산, 최종-연산, 자바-스트림, 스트림]
+tags: [java-stream-optional, optional-class, java-stream, stream-optional-class, stream, 자바-스트림-optional, 스트림-optional-클래스, optional-클래스, 자바-스트림, 스트림]
 ---
 
 ## 1. java.util.Optional<T> 클래스
