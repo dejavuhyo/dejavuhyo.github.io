@@ -218,7 +218,7 @@ sorted() 실행 후 : 5
 | `Stream<T> limit(long maxSize)` | 해당 스트림에서 전달된 개수만큼의 요소만으로 이루어진 새로운 스트림을 반환함 |
 | `Stream<T> peek(Consumer<? super T> action)` | 결과 스트림으로부터 각 요소를 소모하여 추가로 명시된 동작(action)을 수행하여 새로운 스트림을 생성하여 반환함 |
 | `Stream<T> skip(long n)` | 해당 스트림의 첫 번째 요소부터 전달된 개수만큼의 요소를 제외한 나머지 요소만으로 이루어진 새로운 스트림을 반환함 |
-| `Stream<T> sorted()` `Stream<T> sorted(Comparator<? super T> comparator)` | 해당 스트림을 주어진 비교자(comparator)를 이용하여 정렬함. 비교자를 전달하지 않으면 영문사전 순(natural order)으로 정렬함 |
+| `Stream<T> sorted()`, `Stream<T> sorted(Comparator<? super T> comparator)` | 해당 스트림을 주어진 비교자(comparator)를 이용하여 정렬함. 비교자를 전달하지 않으면 영문사전 순(natural order)으로 정렬함 |
 
 ## [출처 및 참고]
 * <http://www.tcpschool.com/java/java_stream_intermediate>
