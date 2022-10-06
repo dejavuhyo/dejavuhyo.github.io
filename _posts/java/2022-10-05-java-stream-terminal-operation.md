@@ -240,7 +240,7 @@ System.out.println(evenLengthList);
 |:-----:|:-----:|
 | `void forEach(Consumer<? super T> action)` | 스트림의 각 요소에 대해 해당 요소를 소모하여 명시된 동작을 수행함 |
 | `Optional<T> reduce(BinaryOperator<T> accumulator)` `T reduce(T identity, BinaryOperator<T> accumulator)` | 처음 두 요소를 가지고 연산을 수행한 뒤, 그 결과와 다음 요소를 가지고 또다시 연산을 수행함. 이런 식으로 해당 스트림의 모든 요소를 소모하여 연산을 수행하고, 그 결과를 반환함 |
-| `Optional<T> findFirst()` `Optional<T> findAny()` | 해당 스트림에서 첫 번째 요소를 참조하는 Optional 객체를 반환함. (`findAny()` 메소드는 병렬 스트림일 때 사용함) |
+| `Optional<T> findFirst()`, `Optional<T> findAny()` | 해당 스트림에서 첫 번째 요소를 참조하는 Optional 객체를 반환함. (`findAny()` 메소드는 병렬 스트림일 때 사용함) |
 | `boolean anyMatch(Predicate<? super T> predicate)` | 해당 스트림의 일부 요소가 특정 조건을 만족할 경우에 true를 반환함 |
 | `boolean allMatch(Predicate<? super T> predicate)` | 해당 스트림의 모든 요소가 특정 조건을 만족할 경우에 true를 반환함 |
 | `boolean noneMatch(Predicate<? super T> predicate)` | 해당 스트림의 모든 요소가 특정 조건을 만족하지 않을 경우에 true를 반환함 |

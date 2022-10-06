@@ -6,12 +6,7 @@
 #   url: {homepage_of_author}
 # -------------------------------------
 
-cotes:
+dejavuhyo:
   name: dejavuhyo
-  twitter: 
+#  twitter: 
   url: https://github.com/dejavuhyo
-
-sille_bille:
-  name: Dinesh Prasanth Moluguwan Krishnamoorthy
-  twitter: dinesh_MKD
-  url: https://github.com/SilleBille/
