@@ -3,7 +3,7 @@ title: Java 스트림 Optional 클래스
 author: dejavuhyo
 date: 2022-10-06 09:40:00 +0900
 categories: [Language, Java]
-tags: [java-stream-optional, optional-class, java-stream, stream-optional-class, stream, 자바-스트림-optional, 스트림-optional-클래스, optional-클래스, 자바-스트림, 스트림]
+tags: [java-stream-optional, optional-class, java-stream, stream-optional, stream-optional-class, stream, 자바-스트림-optional, 스트림-optional, 스트림-optional-클래스, optional-클래스, 자바-스트림, 스트림]
 ---
 
 ## 1. java.util.Optional<T> 클래스
