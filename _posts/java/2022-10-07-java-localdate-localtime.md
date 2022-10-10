@@ -129,7 +129,6 @@ ChronoField 열거체에 정의된 대표적인 열거체 상수는 다음과 �
 LocalTime present = LocalTime.now();
 String ampm;
 
-
 if(present.get(ChronoField.AMPM_OF_DAY) == 0) {
     ampm = "오전";
 } else {
