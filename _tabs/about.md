@@ -9,6 +9,7 @@ order: 4
 ## 공대베짱이
 
 * Software Developer
+* Application Architecture
 
 ## Link
 
