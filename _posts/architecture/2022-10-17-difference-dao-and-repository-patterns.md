@@ -3,7 +3,7 @@ title: DAO와 Repository Patterns의 차이점
 author: dejavuhyo
 date: 2022-10-17 11:25:00 +0900
 categories: [Application, Architecture]
-tags: [dao-repository-patterns, dao-vs-repository, difference-dao-repository, dao-repository-차이점]
+tags: [dao-repository-patterns, dao-vs-repository, difference-dao-repository, dao-repository-차이점, dao-패턴, repository-패턴]
 ---
 
 ## 1. DAO 패턴
