@@ -3,7 +3,7 @@ title: 더 나은 git 커밋 메시지 작성 패턴
 author: dejavuhyo
 date: 2022-10-19 10:15:00 +0900
 categories: [DevOps, Git]
-tags: [git, git-commit, git-commit-message, commitlint, lint-commit-messages, 깃, 깃-커밋, 깃-커밋-메시지, 커밋-메시지]
+tags: [git, git-commit, git-commit-message, git-commitlint, commitlint, lint-commit-message, commit-message, 깃, 깃-커밋, 깃-커밋-메시지, 커밋-메시지]
 ---
 
 ## 1. 좋은 커밋
