@@ -3,7 +3,7 @@ title: Java 무한대
 author: dejavuhyo
 date: 2022-10-24 09:30:00 +0900
 categories: [Language, Java]
-tags: [java-infinity, infinity, java-numbers, positive-infinity, negative-infinity, infinity-operations, , 자바-무한대, 무한대, 자바-숫자, 양수-무한대, 음수-무한대, 무한대-연산]
+tags: [java-infinity, infinity, java-numbers, positive-infinity, negative-infinity, infinity-operations, 자바-무한대, 무한대, 자바-숫자, 양수-무한대, 음수-무한대, 무한대-연산]
 ---
 
 ## 1. 자바의 숫자
