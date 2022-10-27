@@ -3,7 +3,7 @@ title: Java parseInt()와 valueOf()의 차이점
 author: dejavuhyo
 date: 2022-10-27 16:00:00 +0900
 categories: [Language, Java]
-tags: [java-parseint, java-valueof, java-parseint-valueof, parseint-valueof-차이점, 자바-parseint, 자바-valueof,]
+tags: [java-parseint, java-valueof, java-parseint-valueof, parseint-valueof-차이점, 자바-parseint, 자바-valueof]
 ---
 
 ## 1. parseInt() 메서드
@@ -163,10 +163,10 @@ public void whenValidNumericStringWithRadixIsPassed_thenShouldConvertToInetger()
 
 | `Integer.valueOf()` | `Integer.parseInt()` |
 |:-----:|:-----:|
-| Integer 객체 를 반환 합니다. | 원시 int 를 반환합니다. |
-| 이 메서드는 String과 int를 매개변수로 받아들인다. | 이 메서드는 문자열 만 매개변수로 받아들인다. |
+| Integer 객체를 반환한다. | 원시 int를 반환한다. |
+| 이 메서드는 String과 int를 매개변수로 받아들인다. | 이 메서드는 문자열만 매개변수로 받아들인다. |
 | 메서드 구현에서 `Integer.parseInt()`를 사용 한다. | 문자열을 정수로 구문 분석하는 데 도우미 메서드를 사용하지 않는다. |
-| 이 메서드는 문자를 매개 변수로 받아들이고 해당 유니코드 값을 반환한다. | 이 메소드는 문자를 매개변수로 전달할 때 호환되지 않는 유형 오류를 생성한다. |
+| 이 메서드는 문자를 매개 변수로 받아들이고 해당 유니코드 값을 반환한다. | 이 메소드는 문자를 매개 변수로 전달할 때 호환되지 않는 유형 오류를 생성한다. |
 
 ## [출처 및 참고]
 * <https://www.baeldung.com/java-integer-parseint-vs-valueof>
