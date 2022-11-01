@@ -3,7 +3,7 @@ title: 스택 (Stack), 큐 (Queue), 덱 (Deque)
 author: dejavuhyo
 date: 2022-11-01 09:00:00 +0900
 categories: [Language, Java]
-tags: [stack, queue, deque, stack-queue-deque, linear-queue, circular-queue]
+tags: [stack, queue, deque, stack-queue-deque, linear-queue, circular-queue, 스택, 큐, 덱, 스택-큐-덱, 선형-큐, 원형-큐]
 ---
 
 ## 1. 스택 (Stack)
@@ -68,7 +68,6 @@ front, rear는 증가만 하는 방식으로, 실제로는 front 앞쪽에 공�
 선형 큐의 단점을 보완하였다. front는 맨 첫 번째 요소 바로 앞을 가리키고 rear는 마지막 요소를 가리킨다.
 
 큐 empty 상태는 `front == rear`이고, 큐 full 상태는 `front == (rear+1) % MAX_QUEUE_SIZE`이다. 공백 상태와 포화 상태를 구분하기 위해 하나의 공간을 비워둔다.
-
 
 ### 3) 시간 복잡도
 큐 또한 front, rear의 위치로 데이터 삽입 삭제가 바로 이루어지기 때문에 원소 삽입, 삭제의 시간 복잡도는 O(1)이다.
