@@ -74,7 +74,7 @@ public void givenRequestParam_whenUTF8Scheme_thenEncode() throws Exception {
 
 인코딩 체계는 특수 문자를 `%xy` 형식으로 표시되는 8비트의 2자리 16진수 표현으로 변환한다. 경로 매개변수를 처리하거나 동적 매개변수를 추가할 때 데이터를 인코딩한 다음 서버로 보낸다.
 
-__참고:__ World Wide Web Consortium 권장 사항은 UTF-8을 사용해야 한다고 명시하고 있다. 그렇지 않으면 비호환성이 발생할 수 있다. (https://docs.oracle.com/javase/7/docs/api/java/net/URLEncoder.html)
+**참고:** World Wide Web Consortium 권장 사항은 UTF-8을 사용해야 한다고 명시하고 있다. 그렇지 않으면 비호환성이 발생할 수 있다. (https://docs.oracle.com/javase/7/docs/api/java/net/URLEncoder.html)
 
 ## 4. URL 디코딩
 이제 URLDecoder의 디코드 메서드를 사용하여 이전 URL을 디코딩 한다.

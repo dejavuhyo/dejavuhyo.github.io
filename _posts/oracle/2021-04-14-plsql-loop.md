@@ -74,11 +74,11 @@ After loop: 4
 
 다음은 코드의 논리를 설명한다.
 
-* __첫째:__ l_counter 변수를 0으로 선언하고 초기화한다.
+* **첫째:** l_counter 변수를 0으로 선언하고 초기화한다.
 
-* __둘째:__ 루프 내에서 l_counter를 1만큼 증가시키고 l_counter가 3보다 크면 루프를 종료한다. l_counter가 3보다 작거나 같으면 l_counter 값을 표시한다. l_counter의 초기값이 0이기 때문에, 루프의 본문에 있는 코드는 종료되기 전에 3번 실행된다.
+* **둘째:** 루프 내에서 l_counter를 1만큼 증가시키고 l_counter가 3보다 크면 루프를 종료한다. l_counter가 3보다 작거나 같으면 l_counter 값을 표시한다. l_counter의 초기값이 0이기 때문에, 루프의 본문에 있는 코드는 종료되기 전에 3번 실행된다.
 
-* __셋째:__ 루프 뒤에 l_counter 값을 표시한다.
+* **셋째:** 루프 뒤에 l_counter 값을 표시한다.
 
 ## 3. EXIT WHEN statement
 EXIT WITH 문에는 다음과 같은 구문이 있다.

@@ -42,7 +42,7 @@ UNPIVOT [INCLUDE | EXCLUDE NULLS] (
 
 ## 2. 샘플 테이블 설정
 
-* __첫째:__ sale_stats라는 새 테이블을 만든다.
+* **첫째:** sale_stats라는 새 테이블을 만든다.
 
 ```sql
 CREATE TABLE sale_stats(
@@ -54,7 +54,7 @@ CREATE TABLE sale_stats(
 );
 ```
 
-* __둘째:__ sale_stats 테이블에 일부 행을 삽입한다.
+* **둘째:** sale_stats 테이블에 일부 행을 삽입한다.
 
 ```sql
 INSERT INTO sale_stats(id, fiscal_year, product_a, product_b, product_c)
@@ -67,7 +67,7 @@ INSERT INTO sale_stats(id, fiscal_year, product_a, product_b, product_c)
 VALUES(3,2019, 150, 220, NULL);
 ```
 
-* __셋째:__ sale_stats 테이블에서 데이터를 조회한다.
+* **셋째:** sale_stats 테이블에서 데이터를 조회한다.
 
 ```sql
 SELECT * FROM sale_stats;
@@ -139,7 +139,7 @@ UNPIVOT INCLUDE NULLS(
 ## 4. 여러 열 UNPIVOT
 여러 열의 포장을 해제하는 예를 살펴본다.
 
-* __첫째:__ sale_stats 테이블을 삭제하고 다시 만든다.
+* **첫째:** sale_stats 테이블을 삭제하고 다시 만든다.
 
 ```sql
 DROP TABLE sale_stats;
@@ -154,7 +154,7 @@ CREATE TABLE sale_stats (
 );
 ```
 
-* __둘째:__ sale_stats 테이블에 행을 삽입한다.
+* **둘째:** sale_stats 테이블에 행을 삽입한다.
 
 ```sql
 INSERT INTO sale_stats(id, fiscal_year, a_qty, a_value, b_qty, b_value)
@@ -164,7 +164,7 @@ INSERT INTO sale_stats(id, fiscal_year, a_qty, a_value, b_qty, b_value)
 VALUES(2, 2019, 150, 1500, 2500, 5000);
 ```
 
-* __셋째:__ sale_stats 테이블에서 데이터를 조회한다.
+* **셋째:** sale_stats 테이블에서 데이터를 조회한다.
 
 ```sql
 SELECT * FROM sale_stats;
@@ -172,7 +172,7 @@ SELECT * FROM sale_stats;
 
 ![unpivot-sample-table](/assets/img/2021-05-13-oracle-unpivot/unpivot-sample-table.png)
 
-* __넷째:__ UNPIVOT 절을 사용하여 a_qty, a_value, b_qty 및 b_value 열의 값을 행으로 바꾼다.
+* **넷째:** UNPIVOT 절을 사용하여 a_qty, a_value, b_qty 및 b_value 열의 값을 행으로 바꾼다.
 
 ```sql
 SELECT * FROM sale_stats

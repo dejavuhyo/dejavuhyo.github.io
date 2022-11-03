@@ -52,11 +52,11 @@ and good Bye...
 
 블록의 순서를 자세히 설명한다.
 
-* __첫째:__ GOTO second_message 문이 발생하므로 컨트롤은 second_message label 뒤에 있는 문으로 전달된다.
+* **첫째:** GOTO second_message 문이 발생하므로 컨트롤은 second_message label 뒤에 있는 문으로 전달된다.
 
-* __둘째:__ GOTO first_message가 발생하므로 컨트롤은 first_message label 다음에 문으로 전송된다.
+* **둘째:** GOTO first_message가 발생하므로 컨트롤은 first_message label 다음에 문으로 전송된다.
 
-* __셋째:__ GOTO the_end에 도달하여 the_end 라벨 뒤에 있는 문으로 컨트롤이 전달된다.
+* **셋째:** GOTO the_end에 도달하여 the_end 라벨 뒤에 있는 문으로 컨트롤이 전달된다.
 
 그림은 시퀀스를 보여준다.
 
@@ -65,7 +65,7 @@ and good Bye...
 ## 3. GOTO statement restrictions
 GOTO 문에는 다음과 같은 제한이 적용된다.
 
-* __첫째:__ GOTO 문을 사용하여 컨트롤을 IF, CASE 또는 LOOP 문으로 전송할 수 없다.
+* **첫째:** GOTO 문을 사용하여 컨트롤을 IF, CASE 또는 LOOP 문으로 전송할 수 없다.
 
 다음 예에서는 GOTO 문을 사용하여 IF 문으로 컨트롤을 전송하려고 한다.
 
@@ -88,7 +88,7 @@ Oracle에서 다음 오류를 발생시켰다.
 PLS-00375: illegal GOTO statement; this GOTO cannot branch to label 'INSIDE_IF_STATEMENT'
 ```
 
-* __둘째:__ GOTO 문을 사용하여 IF 문의 한 절에서 다른 절로 제어권을 전송할 수 없는데, 예를 들어 IF 문에서 ELSIF 또는 ELSE 절로, 또는 CASE에서 WHEN 절이다.
+* **둘째:** GOTO 문을 사용하여 IF 문의 한 절에서 다른 절로 제어권을 전송할 수 없는데, 예를 들어 IF 문에서 ELSIF 또는 ELSE 절로, 또는 CASE에서 WHEN 절이다.
 
 다음 예에서는 IF 문의 절에 컨트롤을 전달하려고 한다.
 
@@ -118,9 +118,9 @@ Oracle에서 다음 오류를 발생시켰다.
 PLS-00375: illegal GOTO statement; this GOTO cannot branch to label 'ZERO_COMMISSION'
 ```
 
-* __셋째:__ GOTO 문을 사용하여 하위 프로그램이나 예외 처리로 제어 권한을 전송할 수 없다.
+* **셋째:** GOTO 문을 사용하여 하위 프로그램이나 예외 처리로 제어 권한을 전송할 수 없다.
 
-* __넷째:__ GOTO 문을 사용하여 예외 처리에서 현재 블록으로 다시 제어 권한을 전송할 수 없다.
+* **넷째:** GOTO 문을 사용하여 예외 처리에서 현재 블록으로 다시 제어 권한을 전송할 수 없다.
 
 ## [출처 및 참고]
 * <https://www.oracletutorial.com/plsql-tutorial/plsql-goto/>

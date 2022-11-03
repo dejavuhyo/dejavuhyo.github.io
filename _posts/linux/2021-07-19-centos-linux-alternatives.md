@@ -33,7 +33,7 @@ Rocky Linux는 커뮤니티에 의해 집중적으로 개발되고 있다. Rocky
 
 릴리즈에 대한 ETA는 없다. Rocky Linux에 대한 자세한 내용은 [GitHub](https://github.com/rocky-linux) 페이지에서 확인할 수 있다.
 
-> __참고:__ [Migrate CentOS 8 Operating System to Rocky Linux](https://www.centlinux.com/2021/07/migrate-centos-8-operating-system-rocky-linux.html)
+> **참고:** [Migrate CentOS 8 Operating System to Rocky Linux](https://www.centlinux.com/2021/07/migrate-centos-8-operating-system-rocky-linux.html)
 
 ## 3. AlmaLinux
 
@@ -47,7 +47,7 @@ AlmaLinux는 엔터프라이즈급 서버 OS로, 긴 지원 윈도우와 함께 
 
 AlmaLinux의 첫 베타 버전은 2021년 1월 28일에 이미 출시되었다. AlmaLinux 웹사이트에서 다운로드할 수 있습니다.
 
-> __참고:__ [How to Migrate CentOS 8 Operating System to AlmaLinux](https://www.centlinux.com/2021/07/migrate-centos-8-operating-system-to-almalinux.html)
+> **참고:** [How to Migrate CentOS 8 Operating System to AlmaLinux](https://www.centlinux.com/2021/07/migrate-centos-8-operating-system-to-almalinux.html)
 
 ## 4. Oracle Linux
 
@@ -57,7 +57,7 @@ AlmaLinux의 첫 베타 버전은 2021년 1월 28일에 이미 출시되었다. 
 
 2006년부터 Oracle Linux는 완전히 자유롭게 다운로드하고 사용할 수 있게 되었다. 사용 가능한 소스 코드, 이진 파일 및 업데이트 자유롭게 재배포 가능하다. 프로덕션용으로 무료이다.
 
-> __참고:__ [How to Migrate CentOS 8 Operating System to Oracle Linux](https://www.centlinux.com/2021/07/migrate-centos-8-operating-system-to-oracle-linux.html)
+> **참고:** [How to Migrate CentOS 8 Operating System to Oracle Linux](https://www.centlinux.com/2021/07/migrate-centos-8-operating-system-to-oracle-linux.html)
 
 ## 5. Red Hat Enterprise Linux
 
@@ -67,7 +67,7 @@ AlmaLinux의 첫 베타 버전은 2021년 1월 28일에 이미 출시되었다. 
 
 Red Hat Enterprise Linux는 세계 최고의 오픈 소스 운영 체제이다. 내장된 보안 및 관리 편의성으로 제어 기능을 제공하므로 안정적인 고성능 플랫폼에서 중요 워크로드를 자신 있게 실행할 수 있다. 애플리케이션 배포, 데이터 센터 인프라 또는 가상 및 클라우드 환경에 무료로 Red Hat Enterprise Linux를 평가할 수 있다.
 
-> __참고:__ [How to Migrate CentOS 8 Operating System to RHEL](https://www.centlinux.com/2021/02/migrate-centos-linux-to-rhel-8-operating-system.html)
+> **참고:** [How to Migrate CentOS 8 Operating System to RHEL](https://www.centlinux.com/2021/02/migrate-centos-linux-to-rhel-8-operating-system.html)
 
 ## 6. Springdale Linux
 
@@ -79,7 +79,7 @@ Springdale은 잘 알려져 있지 않지만, 개발자들은 CentOS가 Springda
 
 사실 8의 DVD ISO는 사용할 수 없지만, Springdale Linux 8.3의 Boot/PXE ISO는 다운로드할 수 있다.
 
-> __참고:__ [How to Migrate CentOS 8 Operating System to Springdale Linux](https://www.centlinux.com/2021/07/migrate-centos-8-operating-system-springdale-linux.html)
+> **참고:** [How to Migrate CentOS 8 Operating System to Springdale Linux](https://www.centlinux.com/2021/07/migrate-centos-8-operating-system-springdale-linux.html)
 
 ## [출처 및 참고]
 * <https://www.centlinux.com/2021/02/centos-linux-is-dead-what-are-alternatives.html>

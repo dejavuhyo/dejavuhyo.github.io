@@ -49,11 +49,11 @@ END;
 
 이 예에서는 다음을 수행한다.
 
-* __첫째:__ 데이터 유형이 고객 테이블의 이름 열에 고정되는 l_customer_name 변수를 선언한다. 이 변수는 고객 이름을 유지한다.
+* **첫째:** 데이터 유형이 고객 테이블의 이름 열에 고정되는 l_customer_name 변수를 선언한다. 이 변수는 고객 이름을 유지한다.
 
-* __둘째:__ SELECT INTO 문을 사용하여 이름 열에서 값을 선택하고 l_customer_name 변수에 할당한다.
+* **둘째:** SELECT INTO 문을 사용하여 이름 열에서 값을 선택하고 l_customer_name 변수에 할당한다.
 
-* __셋째:__ dbms_output.put_line 절차에 따라 고객 이름을 보여준다.
+* **셋째:** dbms_output.put_line 절차에 따라 고객 이름을 보여준다.
 
 고객 테이블에 고객 ID가 100인 행이 하나만 있기 때문에 코드 블록에 고객 이름이 표시된다.
 
@@ -87,11 +87,11 @@ Verizon, website: http://www.verizon.com
 
 이 예에서는 다음을 수행한다.
 
-* __첫째:__ customers 테이블의 행을 기준으로 레코드를 선언한다. 이 레코드는 customers 테이블의 전체 행을 유지한다.
+* **첫째:** customers 테이블의 행을 기준으로 레코드를 선언한다. 이 레코드는 customers 테이블의 전체 행을 유지한다.
 
-* __둘째:__ r_customer 레코드에 id가 100인 고객을 선택한다.
+* **둘째:** r_customer 레코드에 id가 100인 고객을 선택한다.
 
-* __셋째:__ 고객의 이름과 웹 사이트를 표시한다.
+* **셋째:** 고객의 이름과 웹 사이트를 표시한다.
 
 ### 3) 다중 변수에 데이터 선택 예제
 다음 예에서는 특정 고객 ID에 대한 고객 이름 및 연락처 테이블을 가져온다.
@@ -131,11 +131,11 @@ Verizon, Contact Person: Elisha Lloyd
 
 이 예에서는 다음을 수행한다.
 
-* __첫째:__ l_customer_name, l_contact_first_name, l_contact_last_name 변수를 선언하여 고객과 연락처의 이름을 유지한다.
+* **첫째:** l_customer_name, l_contact_first_name, l_contact_last_name 변수를 선언하여 고객과 연락처의 이름을 유지한다.
 
-* __둘째:__ SELECT INTO 문을 사용하여 고객 ID 100의 고객 및 연락처 이름을 customers과 contacts 테이블에서 해당 변수 l_customer_name, l_contact_first_name, l_contact_last_name으로 가져온다.
+* **둘째:** SELECT INTO 문을 사용하여 고객 ID 100의 고객 및 연락처 이름을 customers과 contacts 테이블에서 해당 변수 l_customer_name, l_contact_first_name, l_contact_last_name으로 가져온다.
 
-* __셋째:__ 고객 및 연락처 이름을 표시한다.
+* **셋째:** 고객 및 연락처 이름을 표시한다.
 
 ## 3. SELECT INTO common errors
 SELECT 절의 열 및 식 수가 INTO 절의 변수 수보다 클 경우 Oracle은 다음 오류를 발생시킨다.

@@ -37,11 +37,11 @@ Java의 힙 공간은 런타임 시 Java 객체 및 JRE 클래스에 대한 동�
 
 이 메모리 모델은 세대라고 하는 더 작은 부분으로 더 세분화 된다.
 
-* __Young Generation:__ 모든 새로운 객체가 할당되고 에이징되는 곳이다. 이것이 가득 차면 사소한 가비지 수집이 발생한다.
+* **Young Generation:** 모든 새로운 객체가 할당되고 에이징되는 곳이다. 이것이 가득 차면 사소한 가비지 수집이 발생한다.
 
-* __Old or Tenured Generation:__ 오래 살아남은 개체가 저장되는 곳이다. 객체가 Young Generation에 저장되면 객체의 연령에 대한 임계 값이 설정되고 해당 임계 값에 도달하면 객체가 이전 세대로 이동한다.
+* **Old or Tenured Generation:** 오래 살아남은 개체가 저장되는 곳이다. 객체가 Young Generation에 저장되면 객체의 연령에 대한 임계 값이 설정되고 해당 임계 값에 도달하면 객체가 이전 세대로 이동한다.
 
-* __Permanent Generation:__ 런타임 클래스 및 애플리케이션 메소드에 대한 JVM 메타데이터로 구성된다.
+* **Permanent Generation:** 런타임 클래스 및 애플리케이션 메소드에 대한 JVM 메타데이터로 구성된다.
 
 ### 1) Heap Memory 주요 기능
  

@@ -183,7 +183,7 @@ Oracle 12c 이전에서는 삽입 시간에만 테이블 컬럼에 시퀀스를 
 
 다음 예를 참조한다.
 
-* __첫째:__ 태스크라는 새 테이블을 생성한다.
+* **첫째:** 태스크라는 새 테이블을 생성한다.
 
 ```sql
 CREATE TABLE tasks(
@@ -192,13 +192,13 @@ CREATE TABLE tasks(
 );
 ```
 
-* __둘째:__ 태스크 테이블의 ID 컬럼에 대한 시퀀스를 생성한다.
+* **둘째:** 태스크 테이블의 ID 컬럼에 대한 시퀀스를 생성한다.
 
 ```sql
 CREATE SEQUENCE task_id_seq;
 ```
 
-* __셋째:__ 작업 테이블에 데이터를 삽입한다.
+* **셋째:** 작업 테이블에 데이터를 삽입한다.
 
 ```sql
 INSERT INTO tasks(id, title)
@@ -208,7 +208,7 @@ INSERT INTO tasks(id, title)
 VALUES(task_id_seq.NEXTVAL, 'Examine Sequence Values');
 ```
 
-* __넷째:__ 작업 테이블에서 데이터를 조회한다.
+* **넷째:** 작업 테이블에서 데이터를 조회한다.
 
 ```sql
 SELECT
@@ -224,13 +224,13 @@ FROM
 ### 3) ID 컬럼 예제를 통해 시퀀스 사용
 오라클 12c에서는 ID 컬럼을 통해 시퀀스를 테이블 컬럼에 연결할 수 있다.
 
-* __첫째:__ 태스크 테이블을 삭제한다.
+* **첫째:** 태스크 테이블을 삭제한다.
 
 ```sql
 DROP TABLE tasks;
 ```
 
-* __둘째:__ ID 컬럼에 대한 ID 컬럼을 사용하여 태스크 테이블을 재생성한다.
+* **둘째:** ID 컬럼에 대한 ID 컬럼을 사용하여 태스크 테이블을 재생성한다.
 
 ```sql
 CREATE TABLE tasks(
@@ -261,7 +261,7 @@ WHERE
     a.name = 'TASKS';
 ```
 
-* __셋째:__ 작업 테이블에 일부 행을 삽입한다.
+* **셋째:** 작업 테이블에 일부 행을 삽입한다.
 
 ```sql
 INSERT INTO tasks(title)
@@ -271,7 +271,7 @@ INSERT INTO tasks(title)
 VALUES('Verify contents of the tasks table');
 ```
 
-* __넷째:__ 작업 테이블에서 데이터를 조회한다.
+* **넷째:** 작업 테이블에서 데이터를 조회한다.
 
 ```sql
 SELECT

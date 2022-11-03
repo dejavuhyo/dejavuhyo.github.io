@@ -9,9 +9,9 @@ tags: [java-bigdecimal-biginteger, java-bigdecimal, java-biginteger, bigdecimal-
 ## 1. BigDecimal
 BigDecimal은 변경할 수 없는 임의 정밀도 부호 있는 십진수를 나타낸다. 두 부분으로 구성된다.
 
-* __스케일되지 않은 값:__ 임의의 정밀도 정수
+* **스케일되지 않은 값:** 임의의 정밀도 정수
 
-* __스케일:__ 소수점 오른쪽의 자릿수를 나타내는 32비트 정수
+* **스케일:** 소수점 오른쪽의 자릿수를 나타내는 32비트 정수
 
 예를 들어, BigDecimal 3.14는 스케일 되지 않은 값이 314이고 스케일이 2이다.
 
@@ -155,33 +155,33 @@ public void whenPerformingArithmetic_thenExpectedResult() {
 
 RoundingMode는 여덟개 반올림 모드를 제공한다.
 
-* __CEILING:__ 양의 무한대로 반올림
+* **CEILING:** 양의 무한대로 반올림
 
-* __FLOOR:__ 음의 무한대로 반올림
+* **FLOOR:** 음의 무한대로 반올림
 
-* __UP:__ 0에서 반올림
+* **UP:** 0에서 반올림
 
-* __DOWN:__ 0으로 반올림
+* **DOWN:** 0으로 반올림
 
-* __HALF_UP:__ 두 이웃이 등거리가 아닌 경우 "가장 가까운 이웃"으로 반올림한다. 이 경우 반올림한다.
+* **HALF_UP:** 두 이웃이 등거리가 아닌 경우 "가장 가까운 이웃"으로 반올림한다. 이 경우 반올림한다.
 
-* __HALF_DOWN:__ 두 이웃이 등거리가 아닌 경우 "가장 가까운 이웃"으로 반올림한다. 이 경우 내림한다.
+* **HALF_DOWN:** 두 이웃이 등거리가 아닌 경우 "가장 가까운 이웃"으로 반올림한다. 이 경우 내림한다.
 
-* __HALF_EVEN:__ 두 이웃이 등거리가 아닌 경우 "가장 가까운 이웃"으로 반올림한다. 이 경우에는 짝수 이웃으로 반올림한다.
+* **HALF_EVEN:** 두 이웃이 등거리가 아닌 경우 "가장 가까운 이웃"으로 반올림한다. 이 경우에는 짝수 이웃으로 반올림한다.
 
-* __UNNECESSARY:__ 반올림이 필요 하지 않으며 정확한 결과가 가능하지 않으면 ArithmeticException이 발생한다.
+* **UNNECESSARY:** 반올림이 필요 하지 않으며 정확한 결과가 가능하지 않으면 ArithmeticException이 발생한다.
 
 HALF_EVEN 반올림 모드는 반올림 작업으로 인한 편향을 최소화한다. 자주 사용된다. 은행가의 반올림 이라고도 한다.
 
 MathContex는 정밀도와 반올림 모드를 모두 캡슐화한다. 미리 정의된 MathContext는 거의 없다.
 
-* __DECIMAL32:__ 7자리 정밀도 및 HALF_EVEN의 반올림 모드
+* **DECIMAL32:** 7자리 정밀도 및 HALF_EVEN의 반올림 모드
 
-* __DECIMAL64:__ 16자리 정밀도 및 HALF_EVEN의 반올림 모드
+* **DECIMAL64:** 16자리 정밀도 및 HALF_EVEN의 반올림 모드
 
-* __DECIMAL128:__ 34자리 정밀도 및 HALF_EVEN의 반올림 모드
+* **DECIMAL128:** 34자리 정밀도 및 HALF_EVEN의 반올림 모드
 
-* __UNLIMITED:__ 무제한 정밀 산술
+* **UNLIMITED:** 무제한 정밀 산술
 
 이 클래스를 사용하여 지정된 정밀도 및 반올림 동작을 사용하여 BigDecimal 숫자를 반올림할 수 있다.
 

@@ -19,17 +19,17 @@ INSERT INTO [TABLE] (COLUMN1, COLUMN2, ...)
      [DO UPDATE SET column1 = value1, ...]
 ```
 
-* __ON CONFLICT column_name:__ 특정 컬럼명을 기준으로 체크를하며 PK기준 컬럼을 여러개 넣을수 있다.
+* **ON CONFLICT column_name:** 특정 컬럼명을 기준으로 체크를하며 PK기준 컬럼을 여러개 넣을수 있다.
 
-* __ON CONFLICT ON CONSTRAINT ~:__ 테이블 생성시 만든 constraint명을 기준으로 체크한다.
+* **ON CONFLICT ON CONSTRAINT ~:** 테이블 생성시 만든 constraint명을 기준으로 체크한다.
 
-* __ON CONFLICT WHERE predicate:__ UNIQUE INDEX 생성 시 사용한다.
+* **ON CONFLICT WHERE predicate:** UNIQUE INDEX 생성 시 사용한다.
 
 ON CONFLICT 사용시 옵션이다.
 
-* __DO NOTHING:__ 아무런 동작을 안하도록 설정한다.
+* **DO NOTHING:** 아무런 동작을 안하도록 설정한다.
 
-* __DO UPDATE SET ~:__ UPDATE의 역할이 가능하다.
+* **DO UPDATE SET ~:** UPDATE의 역할이 가능하다.
 
 ## 3. 활용
 

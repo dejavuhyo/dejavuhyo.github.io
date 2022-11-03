@@ -53,15 +53,15 @@ Rollback 시에는 해당 트랜잭션을 재시작하거나 폐기한다.
 
 ## 5. 트랜잭션 상태
 
-* __활동(Active):__ 트랜잭션이 실행 중인 상태
+* **활동(Active):** 트랜잭션이 실행 중인 상태
 
-* __실패(Failed):__ 트랜잭션 실행에 오류가 발생하여 중단된 상태
+* **실패(Failed):** 트랜잭션 실행에 오류가 발생하여 중단된 상태
 
-* __철회(Aborted):__ 트랜잭션이 비정상적으로 종료되어 Rollback 연산을 수행한 상태
+* **철회(Aborted):** 트랜잭션이 비정상적으로 종료되어 Rollback 연산을 수행한 상태
 
-* __부분 완료(Partially Committed):__ 트랜잭션의 마지막 연산까지 실행했지만, Commit 연산이 실행되기 직전의 상태
+* **부분 완료(Partially Committed):** 트랜잭션의 마지막 연산까지 실행했지만, Commit 연산이 실행되기 직전의 상태
 
-* __완료(Committed):__ 트랜잭션이 성공적으로 종료되어 Commit 연산을 실행한 후의 상태
+* **완료(Committed):** 트랜잭션이 성공적으로 종료되어 Commit 연산을 실행한 후의 상태
 
 ## [출처 및 참고]
 * <https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4_%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98>

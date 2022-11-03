@@ -20,11 +20,11 @@ Bean은 Spring IoC Container가 관리하는 자바 객체, Spring Bean Containe
 
 Spring에서 Bean은 보통 Singleton으로 존재한다.
 
-> __Singleton:__ 어떤 Class가 최초 한번만 메모리를 할당하고(Static) 그 메모리에 객체를 만들어 사용하는 디자인 패턴
+> **Singleton:** 어떤 Class가 최초 한번만 메모리를 할당하고(Static) 그 메모리에 객체를 만들어 사용하는 디자인 패턴
 
 Spring에서 POJO(Plain Old Java Object)를 Beans라고 부른다.
 
-> __POJO:__ 본래 자바의 장점을 살리는 특정 '기술'에 종속되어 동작하는 것이 아닌 '오래된' 방식의 '순수한' 자바 객체
+> **POJO:** 본래 자바의 장점을 살리는 특정 '기술'에 종속되어 동작하는 것이 아닌 '오래된' 방식의 '순수한' 자바 객체
 
 Beans는 Application의 핵심을 이루는 객체이며, 대부분 Container에 공급하는 설정 메타 데이터(XML 파일)에 의해 생성된다.
 
@@ -41,7 +41,7 @@ Spring IoC Container가 IoC Container를 만들고 그 안에 Bean을 등록할 
 
 Life Cycle Callback 중에는 @Component이 붙어있는 모든 Class의 Instance를 생성해 Bean으로 등록하는 작업을 수행하는 Annotation Processor가 등록되어있다.
 
-> __Instance:__ 일반적으로 실행 중인 임의의 프로세스, 해당 클래스의 구조로 컴퓨터 저장공간에서 할당되어 현재 생성된 Object를 의미.
+> **Instance:** 일반적으로 실행 중인 임의의 프로세스, 해당 클래스의 구조로 컴퓨터 저장공간에서 할당되어 현재 생성된 Object를 의미.
 
 이때, @ComonentScan Annotation이 붙어있는 Class가 이에 해당한다. 즉, @ComponentScan, @Component Anotation을 사용해서 Bean을 등록하는 방법이다.
 

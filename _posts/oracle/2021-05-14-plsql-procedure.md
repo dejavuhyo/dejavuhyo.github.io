@@ -135,11 +135,11 @@ Disconnecting from the database Local.
 ## 6. 프로시저 편집
 기존 프로시저의 코드를 변경하려면 다음 단계를 수행한다.
 
-* __1단계:__ Procedures 노드 아래에서 프로시저 이름을 클릭한다.
+* **1단계:** Procedures 노드 아래에서 프로시저 이름을 클릭한다.
 
-* __2단계:__ 프로시저 코드를 편집합니다.
+* **2단계:** 프로시저 코드를 편집합니다.
 
-* __3단계:__ 컴파일 메뉴 옵션을 클릭하여 프로시저를 다시 컴파일한다.
+* **3단계:** 컴파일 메뉴 옵션을 클릭하여 프로시저를 다시 컴파일한다.
 
 ![procedure-editing-and-compiling](/assets/img/2021-05-14-plsql-procedure/procedure-editing-and-compiling.png)
 
@@ -158,11 +158,11 @@ DROP PROCEDURE print_contact;
 
 다음은 SQL Developer를 사용하여 프로시저를 삭제하는 단계를 보여준다.
 
-* __1단계:__ 삭제할 프로시저 이름을 마우스 오른쪽 버튼으로 누른다.
+* **1단계:** 삭제할 프로시저 이름을 마우스 오른쪽 버튼으로 누른다.
 
-* __2단계:__ 메뉴 옵션 Drop… 선택한다.
+* **2단계:** 메뉴 옵션 Drop… 선택한다.
 
-* __3단계:__ 프롬프트 대화 상자에서 Apply 버튼을 클릭하여 프로시저를 제거한다.
+* **3단계:** 프롬프트 대화 상자에서 Apply 버튼을 클릭하여 프로시저를 제거한다.
 
 ![procedure-drop](/assets/img/2021-05-14-plsql-procedure/procedure-drop.png)
 

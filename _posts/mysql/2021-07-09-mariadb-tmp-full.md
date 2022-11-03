@@ -46,9 +46,9 @@ show processlist;
 kill 프로세스ID;
 ```
 
-* __copying to tmp table:__ 정렬하는 데이터 크기가 `tmp_table_size`, `max_heap_table_size`보다 작아서 memory 내에 tmp 임시테이블 생성
+* **copying to tmp table:** 정렬하는 데이터 크기가 `tmp_table_size`, `max_heap_table_size`보다 작아서 memory 내에 tmp 임시테이블 생성
 
-* __copying to tmp disk:__ 정렬하는 데이터 크기가 `tmp_table_size`, `max_heap_table_size` 보다 커져서 memory가 아닌 디스크에 tmp 임시 테이블 생성
+* **copying to tmp disk:** 정렬하는 데이터 크기가 `tmp_table_size`, `max_heap_table_size` 보다 커져서 memory가 아닌 디스크에 tmp 임시 테이블 생성
 
 ### 2) temp 영역 여러개 지정
 tmpdir 설정에 `:`로 구분하여 복수로 지정할 수 있다. 지정된 tmpdir를 round-robin 방식으로 사용하게 된다.

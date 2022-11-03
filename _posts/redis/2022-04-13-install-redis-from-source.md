@@ -29,9 +29,9 @@ $ make
 
 컴파일이 성공하면 src 디렉터리에서 다음을 포함한 여러 Redis 바이너리를 찾을 수 있다.
 
-* __redis-server:__ Redis 서버 자체
+* **redis-server:** Redis 서버 자체
 
-* __redis-cli:__ Redis와 통신하기 위한 명령줄 인터페이스 유틸리티
+* **redis-cli:** Redis와 통신하기 위한 명령줄 인터페이스 유틸리티
 
 이 바이너리를 `/usr/local/bin`에 설치하려면 다음을 실행한다.
 

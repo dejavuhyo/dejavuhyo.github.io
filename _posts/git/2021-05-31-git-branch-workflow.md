@@ -51,9 +51,9 @@ tags: [git-branch-workflow, branch-workflow, branch-workflow, git-브랜치-작�
 ### 1) 메인 브랜치(Main branch)
 'master' 브랜치와 'develop' 브랜치, 이 두 종류의 브랜치를 보통 메인 브랜치로 사용한다.
 
-* __master:__ 'master' 브랜치에서는, 배포 가능한 상태만을 관리한다. 커밋할 때에는 태그를 사용하여 배포 번호를 기록한다.
+* **master:** 'master' 브랜치에서는, 배포 가능한 상태만을 관리한다. 커밋할 때에는 태그를 사용하여 배포 번호를 기록한다.
 
-* __develop:__ 'develop' 브랜치는 앞서 설명한 통합 브랜치의 역할을 하며, 평소에는 이 브랜치를 기반으로 개발을 진행한다.
+* **develop:** 'develop' 브랜치는 앞서 설명한 통합 브랜치의 역할을 하며, 평소에는 이 브랜치를 기반으로 개발을 진행한다.
 
 ### 2) 피처 브랜치(Feature branch)
 피처 브랜치는, 토픽 브랜치 역할을 담당한다.

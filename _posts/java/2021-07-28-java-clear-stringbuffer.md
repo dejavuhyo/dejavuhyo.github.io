@@ -41,7 +41,7 @@ Updated StringBuffer:
 
 위의 예에서는 StringBuffer 클래스의 delete() 메서드를 사용하여 문자열 버퍼를 지웠다. 여기서 delete() 메서드는 지정된 인덱스 번호 내의 모든 문자를 제거한다.
 
-> __참고:__ delete() 메서드는 이전 데이터를 메모리에 저장하지 않고 삭제하므로 garbage collected 되지 않는다. 가비지 컬렉션(Garbage Collection)을 호출하지 않기 때문에 속도가 중요한 경우 효율적이다.
+> **참고:** delete() 메서드는 이전 데이터를 메모리에 저장하지 않고 삭제하므로 garbage collected 되지 않는다. 가비지 컬렉션(Garbage Collection)을 호출하지 않기 때문에 속도가 중요한 경우 효율적이다.
 
 ### 2) setLength()
 
@@ -78,7 +78,7 @@ Updated StringBuffer
 
 따라서 이전 문자 시퀀스는 *garbage collected* 된다.
 
-> __참고:__ setLength() 메서드는 문자열 버퍼에 있는 문자 시퀀스를 완전히 무시한다. 그러나 delete() 메서드는 문자 시퀀스에 액세스하여 삭제한다. 따라서 setLength()가 delete()보다 빠르다.
+> **참고:** setLength() 메서드는 문자열 버퍼에 있는 문자 시퀀스를 완전히 무시한다. 그러나 delete() 메서드는 문자 시퀀스에 액세스하여 삭제한다. 따라서 setLength()가 delete()보다 빠르다.
 
 ### 3) Creating a new object
 

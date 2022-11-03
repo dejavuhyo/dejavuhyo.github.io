@@ -11,11 +11,11 @@ Spring Cloud Gateway(SCG)란 MSA 환경에서 사용하는 API Gateway중 하나
 
 ## 2. 용어
 
-* __Route:__ 게이트웨이의 기본 빌딩 블록이다. ID, 대상 URI, 술어 모음 및 필터 모음으로 정의된다. 집계 조건자가 true이면 경로가 일치한다.
+* **Route:** 게이트웨이의 기본 빌딩 블록이다. ID, 대상 URI, 술어 모음 및 필터 모음으로 정의된다. 집계 조건자가 true이면 경로가 일치한다.
 
-* __Predicate:__ 이것은 Java 8 기능 술어 이다. 입력 유형은 [Spring Framework ServerWebExchange](https://docs.spring.io/spring-framework/docs/5.0.x/javadoc-api/org/springframework/web/server/ServerWebExchange.html) 이다. 이를 통해 헤더 또는 매개변수와 같은 HTTP 요청의 모든 항목과 일치시킬 수 있다.
+* **Predicate:** 이것은 Java 8 기능 술어 이다. 입력 유형은 [Spring Framework ServerWebExchange](https://docs.spring.io/spring-framework/docs/5.0.x/javadoc-api/org/springframework/web/server/ServerWebExchange.html) 이다. 이를 통해 헤더 또는 매개변수와 같은 HTTP 요청의 모든 항목과 일치시킬 수 있다.
 
-* __Filter:__ 특정 팩토리로 구축된 Spring Framework의 GatewayFilter 인스턴스이다. 여기에서 다운스트림 요청을 보내기 전이나 후에 요청과 응답을 수정할 수 있다.
+* **Filter:** 특정 팩토리로 구축된 Spring Framework의 GatewayFilter 인스턴스이다. 여기에서 다운스트림 요청을 보내기 전이나 후에 요청과 응답을 수정할 수 있다.
 
 ## 3. 작동 원리
 다음 다이어그램은 Spring Cloud Gateway 작동 방식에 대한 상위 수준 개요를 제공한다.

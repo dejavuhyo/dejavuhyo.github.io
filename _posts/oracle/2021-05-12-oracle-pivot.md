@@ -141,7 +141,7 @@ pivot_clause에서 둘 이상의 집계 함수를 사용하는 경우 하나 이
 ## 4. 여러 열 PIVOT
 이전 예에서는 pivot_clause에서 aggregate 함수 하나를 사용했다. 다음 예에서는 두 개의 aggregate 함수를 사용한다.
 
-* __첫째:__ order_stats 보기를 변경하여 order 값 열을 포함한다.
+* **첫째:** order_stats 보기를 변경하여 order 값 열을 포함한다.
 
 ```sql
 CREATE OR REPLACE VIEW order_stats AS
@@ -161,7 +161,7 @@ GROUP BY
     category_name;
 ```
 
-* __둘째:__ 새 order_stats view에서 데이터를 조회한다.
+* **둘째:** 새 order_stats view에서 데이터를 조회한다.
 
 ```sql
 SELECT * FROM order_stats;
@@ -169,7 +169,7 @@ SELECT * FROM order_stats;
 
 ![sample-view](/assets/img/2021-05-12-oracle-pivot/sample-view.png)
 
-* __셋째:__ PIVOT 절을 사용하여 제품 범주 및 주문 상태별 주문 수와 주문 값을 반환한다.
+* **셋째:** PIVOT 절을 사용하여 제품 범주 및 주문 상태별 주문 수와 주문 값을 반환한다.
 
 ```sql
 SELECT * FROM order_stats

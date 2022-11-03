@@ -18,7 +18,7 @@ Linux GUI 요소들은 배포판 간의 차이보다는 데스크톱 환경의 �
 
 매우 다양한 데스크톱 환경을 지원하는 배포판(Ubuntu, Arch Linux 등)도 있는 반면 하나의 데스크톱 환경을 전문적으로 지원하는 배포판(elementary OS, Deepin 등)도 있다. Linux 배포판들은 주로 패키지 관리자와 저장소를 기준으로 묶인다.
 
-> __참고:__ [Linux 배포판 계보도](https://upload.wikimedia.org/wikipedia/commons/8/8c/Linux_Distribution_Timeline_Dec._2020.svg)
+> **참고:** [Linux 배포판 계보도](https://upload.wikimedia.org/wikipedia/commons/8/8c/Linux_Distribution_Timeline_Dec._2020.svg)
 
 ## 2. Linux 배포판 솔루션 업체
 
