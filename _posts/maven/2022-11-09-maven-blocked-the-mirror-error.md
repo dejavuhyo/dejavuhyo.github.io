@@ -1,7 +1,7 @@
 ---
 title: Maven Blocked the mirror 에러
 author: dejavuhyo
-date: 2022-11-08 21:20:00 +0900
+date: 2022-11-09 21:20:00 +0900
 categories: [DevOps, Maven]
 tags: [maven-blocked-mirror, maven-blocked, blocked-mirror, maven-http-repositories, http-repositories-blocking, maven-381-version, maven-default-http-blocker, http-blocker, maven-blocked-mirror-에러, maven-에러]
 ---
