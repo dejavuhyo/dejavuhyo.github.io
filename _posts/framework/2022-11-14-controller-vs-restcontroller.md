@@ -1,5 +1,5 @@
 ---
-title: @Controller와 @RestController의 차이점
+title: Controller와 RestController의 차이점
 author: dejavuhyo
 date: 2022-11-14 19:40:00 +0900
 categories: [Application, Framework]
