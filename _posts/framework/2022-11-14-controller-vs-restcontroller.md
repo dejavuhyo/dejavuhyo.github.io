@@ -1,7 +1,7 @@
 ---
 title: @Controller와 @RestController의 차이점
 author: dejavuhyo
-date: 2022-11-14 20:00:00 +0900
+date: 2022-11-14 19:40:00 +0900
 categories: [Application, Framework]
 tags: [controller-restcontroller, controller, restcontroller, controller-view, controller-data, restcontroller-data, controller-return, restcontroller-return, controller-restcontroller-차이점, 컨트롤러-차이점]
 ---
