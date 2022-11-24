@@ -2,7 +2,7 @@
 title: 아파치 톰캣 모든 버전 다운로드
 author: dejavuhyo
 date: 2022-04-20 14:20:00 +0900
-categories: [DevOps, WAS]
+categories: [DevOps, Tomcat]
 tags: [apache-tomcat-all-versions, apache-tomcat, tomcat, tomcat-download, tomcat-all-versions, 아파치-톰캣, 아파치-톰캣-다운로드, 아파치-톰캣-모든-버전, 톰캣-다운로드]
 ---
 

@@ -2,7 +2,7 @@
 title: 윈도우에 Nginx 설치
 author: dejavuhyo
 date: 2022-11-07 20:50:00 +0900
-categories: [DevOps, WAS]
+categories: [DevOps, Nginx]
 tags: [install-nginx, nginx, windows-nginx, 윈도우-nginx-설치, nginx-설치, 윈도우-nginx]
 ---
 
