@@ -2,7 +2,7 @@
 title: Nginx 명령어
 author: dejavuhyo
 date: 2022-11-08 20:20:00 +0900
-categories: [DevOps, WAS]
+categories: [DevOps, Nginx]
 tags: [start-nginx, stop-nginx, restart-nginx, nginx, nginx-command-line, command-line-parameters, nginx-parameters, nginx-명령어, nginx-매개-변수, 명령줄-매개-변수]
 ---
 

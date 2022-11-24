@@ -2,7 +2,7 @@
 title: Tomcat 인코딩
 author: dejavuhyo
 date: 2021-09-01 06:00:00 +0900
-categories: [DevOps, WAS]
+categories: [DevOps, Tomcat]
 tags: [tomcat-encoding, encoding, tomcat-인코딩, 인코딩]
 ---
 
