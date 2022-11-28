@@ -1,5 +1,5 @@
 ---
-title: 배치의 도메인 언어
+title: Spring Batch 도메인 언어
 author: dejavuhyo
 date: 2022-06-15 17:20:00 +0900
 categories: [Application, Framework]
