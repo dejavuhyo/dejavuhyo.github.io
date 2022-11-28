@@ -2,7 +2,7 @@
 title: Spring Cloud Gateway 구성
 author: dejavuhyo
 date: 2021-12-31 09:30:00 +0900
-categories: [Application, Architecture]
+categories: [DevOps, MSA]
 tags: [spring-cloud-gateway-configuration, spring-cloud-gateway, gateway-configuration, api-gateway, gateway, scg, spring-cloud, 게이트웨이, api-게이트웨이, api-게이트웨이-구성, 게이트웨이-구성]
 ---
 

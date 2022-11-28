@@ -2,8 +2,8 @@
 title: REST, REST API, RESTful 개념
 author: dejavuhyo
 date: 2020-11-12 11:30:00 +0900
-categories: [Application, Architecture]
-tags: [rest, rest-api, restful]
+categories: [DevOps, MSA]
+tags: [rest, rest-api, restful, uri, rest-구성, rest-api-설계, restful-목적]
 ---
 
 ## 1. REST란

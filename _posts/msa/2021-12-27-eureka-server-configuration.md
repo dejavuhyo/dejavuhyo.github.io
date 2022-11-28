@@ -2,7 +2,7 @@
 title: Eureka 서버 구성
 author: dejavuhyo
 date: 2021-12-27 09:30:00 +0900
-categories: [Application, Architecture]
+categories: [DevOps, MSA]
 tags: [eureka-server-configuration, eureka-server, eureka, eureka-서버-구성, eureka-서버, spring-cloud, spring-cloud-netflix]
 ---
 

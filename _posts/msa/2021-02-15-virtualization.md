@@ -2,8 +2,8 @@
 title: 가상화
 author: dejavuhyo
 date: 2021-02-15 06:30:00 +0900
-categories: [Application, Architecture]
-tags: [virtualization, 가상화]
+categories: [DevOps, MSA]
+tags: [virtualization, 가상화, 가상화-기술, 서버-가상화, 가상화-종류, 운영체제-가상화, 데스크탑-가상화, 네트워크-가상화, 데이터-가상화]
 ---
 
 ## 1. 가상화(Virtualization)란

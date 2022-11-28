@@ -2,8 +2,8 @@
 title: REST와 SOAP 비교
 author: dejavuhyo
 date: 2021-02-04 06:00:00 +0900
-categories: [Application, Architecture]
-tags: [rest-vs-soap, rest, soap]
+categories: [DevOps, MSA]
+tags: [rest-vs-soap, rest, soap, 데이터-전송, 데이터-전송-방식]
 ---
 
 ## 1. 데이터 전송 방식
