@@ -2,7 +2,7 @@
 title: API 개념, 기능, 장점
 author: dejavuhyo
 date: 2021-02-05 06:00:00 +0900
-categories: [Application, Architecture]
+categories: [DevOps, MSA]
 tags: [api, api-concept, api-function, api-advantages, api-개념, api-기능, api-장점]
 ---
 

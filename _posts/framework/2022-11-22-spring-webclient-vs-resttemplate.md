@@ -2,7 +2,7 @@
 title: Spring WebClient vs RestTemplate
 author: dejavuhyo
 date: 2022-11-22 19:40:00 +0900
-categories: [Language, Framework]
+categories: [Application, Framework]
 tags: [spring-webclient, spring-resttemplate, webclient, resttemplate, webclient-vs-resttemplate, webclient-resttemplate-비교]
 ---
 

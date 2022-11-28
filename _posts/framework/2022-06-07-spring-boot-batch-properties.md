@@ -1,5 +1,5 @@
 ---
-title: Spring Boot Batch 속성
+title: Spring Batch 속성
 author: dejavuhyo
 date: 2022-06-07 12:10:00 +0900
 categories: [Application, Framework]

@@ -2,7 +2,7 @@
 title: Transaction
 author: dejavuhyo
 date: 2021-06-30 06:00:00 +0900
-categories: [Application, Architecture]
+categories: [Application, Framework]
 tags: [transaction, database-transaction, acid, 트랜잭션, 데이터베이스-트랜잭션]
 ---
 

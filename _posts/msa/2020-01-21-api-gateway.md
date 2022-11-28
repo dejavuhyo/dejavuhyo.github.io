@@ -2,7 +2,7 @@
 title: API Gateway
 author: dejavuhyo
 date: 2020-01-21 10:00:00 +0900
-categories: [Application, Architecture]
+categories: [DevOps, MSA]
 tags: [api-gateway, zuul, zuul-filter, prefilter, routefilter, postfilter, errorfilter, netflix-zuul]
 ---
 

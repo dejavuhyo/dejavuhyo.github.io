@@ -1,5 +1,5 @@
 ---
-title: Spring RequestBody, ResponseBody Annotations
+title: Spring RequestBody와 ResponseBody Annotations
 author: dejavuhyo
 date: 2022-11-23 20:00:00 +0900
 categories: [Application, Framework]
