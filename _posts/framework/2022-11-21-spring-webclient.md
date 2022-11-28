@@ -1,7 +1,7 @@
 ---
 title: Spring WebClient
 author: dejavuhyo
-date: 2022-12-21 21:00:00 +0900
+date: 2022-11-21 21:00:00 +0900
 categories: [Application, Framework]
 tags: [spring-webclient, webclient, rest-api, http-get, http-post, http-delete, http-put, webclient-특징, webclient-사용]
 ---
