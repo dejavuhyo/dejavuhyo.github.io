@@ -1,9 +1,9 @@
 ---
-title: Spring Boot에서 Redis를 session storage로 사용
+title: Spring Boot에서 Redis Session Storage 사용
 author: dejavuhyo
 date: 2022-05-12 17:15:00 +0900
 categories: [Application, Framework]
-tags: [spring-session-storage, spring-boot-redis-session, redis-session, spring-redis-session, spring-boot-session, 레디스-세션, 스프링-레디스-세션, 스프링-부트-레디스, 스프링-부트-레디스-세션]
+tags: [spring-session-storage, redis, spring-boot-redis, spring-redis, spring-boot-redis-session, redis-session, spring-redis-session, spring-boot-session, 레디스-세션, 스프링-레디스-세션, 스프링-부트-레디스, 스프링-부트-레디스-세션]
 ---
 
 ## 1. Spring Boot에서 Redis 설정
