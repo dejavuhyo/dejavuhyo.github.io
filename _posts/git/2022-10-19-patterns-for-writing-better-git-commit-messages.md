@@ -1,5 +1,5 @@
 ---
-title: 더 나은 git 커밋 메시지 작성 패턴
+title: 더 나은 Git 커밋 메시지 작성 패턴
 author: dejavuhyo
 date: 2022-10-19 10:15:00 +0900
 categories: [DevOps, Git]
