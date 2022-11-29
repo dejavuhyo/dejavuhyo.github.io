@@ -1,5 +1,5 @@
 ---
-title: 리눅스 파일 생성 대기
+title: Linux 파일 생성 대기
 author: dejavuhyo
 date: 2022-08-02 13:30:00 +0900
 categories: [DevOps, Linux]

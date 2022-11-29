@@ -1,5 +1,5 @@
 ---
-title: 리눅스 telnet
+title: Linux telnet
 author: dejavuhyo
 date: 2022-07-06 11:30:00 +0900
 categories: [DevOps, Linux]

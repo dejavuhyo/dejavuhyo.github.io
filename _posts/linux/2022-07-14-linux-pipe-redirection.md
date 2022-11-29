@@ -1,5 +1,5 @@
 ---
-title: 리눅스 파이프(Pipe), 리다이렉션(Redirection)
+title: Linux 파이프(Pipe), 리다이렉션(Redirection)
 author: dejavuhyo
 date: 2022-07-14 10:30:00 +0900
 categories: [DevOps, Linux]

@@ -1,5 +1,5 @@
 ---
-title: 상대 디렉터리 경로 조작
+title: Java 상대 디렉터리 경로 조작 코딩 기법
 author: dejavuhyo
 date: 2021-10-07 08:30:00 +0900
 categories: [Language, Java]

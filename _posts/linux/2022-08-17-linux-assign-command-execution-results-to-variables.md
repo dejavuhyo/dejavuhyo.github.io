@@ -1,5 +1,5 @@
 ---
-title: 리눅스 명령어 실행결과 변수 할당
+title: Linux 명령어 실행결과 변수 할당
 author: dejavuhyo
 date: 2022-08-17 10:20:00 +0900
 categories: [DevOps, Linux]

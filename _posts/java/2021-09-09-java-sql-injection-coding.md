@@ -1,5 +1,5 @@
 ---
-title: SQL 삽입
+title: Java SQL 삽입 코딩 기법
 author: dejavuhyo
 date: 2021-09-09 06:00:00 +0900
 categories: [Language, Java]

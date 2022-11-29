@@ -1,5 +1,5 @@
 ---
-title: 리눅스 쉘스크립트 작성 Tip
+title: Linux 쉘스크립트 작성 Tip
 author: dejavuhyo
 date: 2022-08-16 15:00:00 +0900
 categories: [DevOps, Linux]

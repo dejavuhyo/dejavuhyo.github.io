@@ -1,5 +1,5 @@
 ---
-title: 리눅스 gzip, gunzip, zcat
+title: Linux gzip, gunzip, zcat
 author: dejavuhyo
 date: 2022-03-24 12:00:00 +0900
 categories: [DevOps, Linux]

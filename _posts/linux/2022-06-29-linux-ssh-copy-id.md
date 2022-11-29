@@ -1,5 +1,5 @@
 ---
-title: 리눅스 ssh-copy-id
+title: Linux ssh-copy-id
 author: dejavuhyo
 date: 2022-06-29 14:30:00 +0900
 categories: [DevOps, Linux]

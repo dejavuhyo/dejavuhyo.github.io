@@ -1,5 +1,5 @@
 ---
-title: 리눅스 tail
+title: Linux tail
 author: dejavuhyo
 date: 2022-06-16 13:30:00 +0900
 categories: [DevOps, Linux]

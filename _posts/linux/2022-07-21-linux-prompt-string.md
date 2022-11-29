@@ -1,5 +1,5 @@
 ---
-title: 리눅스 프롬프트 스트링
+title: Linux 프롬프트 스트링
 author: dejavuhyo
 date: 2022-07-21 10:40:00 +0900
 categories: [DevOps, Linux]

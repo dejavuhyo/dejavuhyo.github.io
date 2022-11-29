@@ -1,5 +1,5 @@
 ---
-title: 리눅스 xmllint
+title: Linux xmllint
 author: dejavuhyo
 date: 2022-07-13 16:30:00 +0900
 categories: [DevOps, Linux]

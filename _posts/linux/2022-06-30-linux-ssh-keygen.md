@@ -1,5 +1,5 @@
 ---
-title: 리눅스 ssh-keygen
+title: Linux ssh-keygen
 author: dejavuhyo
 date: 2022-06-30 21:50:00 +0900
 categories: [DevOps, Linux]

@@ -1,5 +1,5 @@
 ---
-title: 리눅스 diff
+title: Linux diff
 author: dejavuhyo
 date: 2022-04-01 15:50:00 +0900
 categories: [DevOps, Linux]

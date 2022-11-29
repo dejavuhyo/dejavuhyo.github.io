@@ -1,5 +1,5 @@
 ---
-title: 리눅스 head
+title: Linux head
 author: dejavuhyo
 date: 2022-06-02 21:30:00 +0900
 categories: [DevOps, Linux]

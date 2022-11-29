@@ -1,5 +1,5 @@
 ---
-title: 크로스사이트 요청 위조
+title: Java 크로스사이트 요청 위조 코딩 기법
 author: dejavuhyo
 date: 2021-10-06 09:00:00 +0900
 categories: [Language, Java]

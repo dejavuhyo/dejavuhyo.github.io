@@ -1,5 +1,5 @@
 ---
-title: 리눅스 free
+title: Linux free
 author: dejavuhyo
 date: 2022-01-28 09:30:00 +0900
 categories: [DevOps, Linux]

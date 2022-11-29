@@ -1,12 +1,12 @@
 ---
-title: YAML
+title: Spring YML, YAML
 author: dejavuhyo
 date: 2021-11-15 06:00:00 +0900
 categories: [Application, Framework]
-tags: [yaml, yaml-syntax, 야믈, 야믈-문법, 야믈-사용법]
+tags: [yaml, yaml-syntax, spring-yml, yml, spring-yaml, yml-syntax, spring-yaml, 야믈, 야믈-문법, 야믈-사용법]
 ---
 
-## 1. YAML이란
+## 1. YML, YAML이란
 YAML은 XML, C, 파이썬, 펄, RFC2822에서 정의된 e-mail 양식에서 개념을 얻어 만들어진 '사람이 쉽게 읽을 수 있는' 데이터 직렬화 양식이다. 2001년에 클라크 에반스가 고안했고, Ingy dot Net 및 Oren Ben-Kiki와 함께 디자인했다.
 
 YAML이라는 이름은 "YAML은 마크업 언어가 아니다 (YAML Ain't Markup Language)" 라는 재귀적인 이름에서 유래되었다. 원래 YAML의 뜻은 "또 다른 마크업 언어 (Yet Another Markup Language)"였으나, YAML의 핵심은 문서 마크업이 아닌 데이터 중심에 있다는 것을 보여주기 위해 이름을 바꾸었다. 오늘날 XML과 JSON이 데이터 직렬화에 주로 쓰이기 시작하면서, 많은 사람들이 YAML을 '가벼운 마크업 언어'로 사용하려 하고 있다.
@@ -45,7 +45,7 @@ YAML은 모든 데이터를 리스트, 해쉬, 스칼라 데이터의 조합으�
 
 * 2칸 들여쓰기 (추천)
 
-```yaml
+```yml
 person:
   name: Chungsub Kim
   job: Developer
@@ -56,7 +56,7 @@ person:
 
 * 4칸 들여쓰기
 
-```yaml
+```yml
 person:
     name: Chungsub Kim
     job: Developer
@@ -68,7 +68,7 @@ person:
 ### 2) 데이터 정의 (map)
 데이터는 `key: value` 형식으로 정의한다.
 
-```yaml
+```yml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -80,7 +80,7 @@ metadata:
 ### 3) 배열 정의 (array)
 배열은 `-`로 표시한다.
 
-```yaml
+```yml
 person:
   name: Chungsub Kim
   job: Developer
@@ -92,7 +92,7 @@ person:
 ### 4) 주석 (comment)
 주석은 `#`으로 표시한다.
 
-```yaml
+```yml
 # comment
 person:
   name: Chungsub Kim
@@ -107,7 +107,7 @@ person:
 
 * 참/거짓
 
-```yaml
+```yml
 study_hard: yes
 give_up: no
 hello: True
@@ -117,7 +117,7 @@ manual: false
 
 * 숫자
 
-```yaml
+```yml
 # number
 version: 1.2
 
@@ -130,7 +130,7 @@ version: "1.2"
 
 * `|` 지시어는 마지막 줄바꿈이 포함
 
-```yaml
+```yml
 newlines_sample: |
             number one line
 
@@ -141,7 +141,7 @@ newlines_sample: |
 
 * `|-` 지시어는 마지막 줄바꿈을 제외
 
-```yaml
+```yml
 newlines_sample: |-
             number one line
 
@@ -152,7 +152,7 @@ newlines_sample: |-
 
 * `>` 지시어는 중간에 들어간 빈줄을 제외
 
-```yaml
+```yml
 newlines_sample: >
             number one line
 
@@ -166,7 +166,7 @@ newlines_sample: >
 ### 1) 띄어쓰기
 key와 value 사이에는 반드시 빈칸이 필요하다.
 
-```yaml
+```yml
 # error (not key-value, string)
 key:value
 
@@ -177,7 +177,7 @@ key: value
 ### 2) 문자열 따옴표
 대부분의 문자열을 따옴표 없이 사용할 수 있지만 `:`가 들어간 경우는 반드시 따옴표가 필요하다.
 
-```yaml
+```yml
 # error
 windows_drive: c:
 

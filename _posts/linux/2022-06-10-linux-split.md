@@ -1,5 +1,5 @@
 ---
-title: 리눅스 split
+title: Linux split
 author: dejavuhyo
 date: 2022-06-10 12:30:00 +0900
 categories: [DevOps, Linux]

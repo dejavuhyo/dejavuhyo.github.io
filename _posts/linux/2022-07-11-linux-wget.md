@@ -1,5 +1,5 @@
 ---
-title: 리눅스 wget
+title: Linux wget
 author: dejavuhyo
 date: 2022-07-11 14:30:00 +0900
 categories: [DevOps, Linux]

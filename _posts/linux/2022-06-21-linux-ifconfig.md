@@ -1,5 +1,5 @@
 ---
-title: 리눅스 ifconfig
+title: Linux ifconfig
 author: dejavuhyo
 date: 2022-06-21 14:10:00 +0900
 categories: [DevOps, Linux]

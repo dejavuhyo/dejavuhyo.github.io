@@ -1,5 +1,5 @@
 ---
-title: 리눅스 mkdir
+title: Linux mkdir
 author: dejavuhyo
 date: 2022-03-21 10:30:00 +0900
 categories: [DevOps, Linux]

@@ -1,5 +1,5 @@
 ---
-title: XQuery 삽입
+title: Java XQuery 삽입 코딩 기법
 author: dejavuhyo
 date: 2021-09-30 06:00:00 +0900
 categories: [Language, Java]

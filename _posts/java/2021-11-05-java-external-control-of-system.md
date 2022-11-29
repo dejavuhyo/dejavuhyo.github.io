@@ -1,5 +1,5 @@
 ---
-title: 시스템 또는 구성 설정의 외부 제어
+title: Java 시스템 또는 구성 설정의 외부 제어
 author: dejavuhyo
 date: 2021-11-05 06:00:00 +0900
 categories: [Language, Java]

@@ -1,5 +1,5 @@
 ---
-title: 리눅스 tcpdump
+title: Linux tcpdump
 author: dejavuhyo
 date: 2022-07-05 13:00:00 +0900
 categories: [DevOps, Linux]

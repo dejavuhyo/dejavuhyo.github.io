@@ -1,5 +1,5 @@
 ---
-title: 리눅스 nslookup
+title: Linux nslookup
 author: dejavuhyo
 date: 2022-06-24 13:00:00 +0900
 categories: [DevOps, Linux]

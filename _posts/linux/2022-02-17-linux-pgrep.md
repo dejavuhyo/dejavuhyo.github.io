@@ -1,5 +1,5 @@
 ---
-title: 리눅스 pgrep
+title: Linux pgrep
 author: dejavuhyo
 date: 2022-02-17 10:00:00 +0900
 categories: [DevOps, Linux]

@@ -1,5 +1,5 @@
 ---
-title: 리눅스 wait
+title: Linux wait
 author: dejavuhyo
 date: 2022-02-28 16:30:00 +0900
 categories: [DevOps, Linux]

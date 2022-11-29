@@ -1,5 +1,5 @@
 ---
-title: 도메인 정보 확인
+title: Linux 도메인 정보 확인
 author: dejavuhyo
 date: 2021-08-27 06:00:00 +0900
 categories: [DevOps, Linux]

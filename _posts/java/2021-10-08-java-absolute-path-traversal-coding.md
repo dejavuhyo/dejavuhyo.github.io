@@ -1,5 +1,5 @@
 ---
-title: 절대 디렉터리 경로 조작
+title: Java 절대 디렉터리 경로 조작 코딩 기법
 author: dejavuhyo
 date: 2021-10-08 09:00:00 +0900
 categories: [Language, Java]

@@ -1,5 +1,5 @@
 ---
-title: 리눅스 curl
+title: Linux curl
 author: dejavuhyo
 date: 2022-06-20 11:40:00 +0900
 categories: [DevOps, Linux]

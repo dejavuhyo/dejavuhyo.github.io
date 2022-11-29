@@ -1,5 +1,5 @@
 ---
-title: Chrony를 이용한 시간 동기화
+title: Linux Chrony를 이용한 시간 동기화
 author: dejavuhyo
 date: 2020-12-14 10:00:00 +0900
 categories: [DevOps, Linux]

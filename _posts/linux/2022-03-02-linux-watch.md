@@ -1,5 +1,5 @@
 ---
-title: 리눅스 watch
+title: Linux watch
 author: dejavuhyo
 date: 2022-03-02 10:00:00 +0900
 categories: [DevOps, Linux]

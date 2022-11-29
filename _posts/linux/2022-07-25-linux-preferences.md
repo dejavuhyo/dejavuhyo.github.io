@@ -1,5 +1,5 @@
 ---
-title: 리눅스 환경설정
+title: Linux 환경설정
 author: dejavuhyo
 date: 2022-07-25 09:20:00 +0900
 categories: [DevOps, Linux]

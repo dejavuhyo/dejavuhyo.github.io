@@ -1,5 +1,5 @@
 ---
-title: 리눅스 nohup
+title: Linux nohup
 author: dejavuhyo
 date: 2022-02-16 09:30:00 +0900
 categories: [DevOps, Linux]

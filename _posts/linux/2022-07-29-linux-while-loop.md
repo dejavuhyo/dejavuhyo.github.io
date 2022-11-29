@@ -1,5 +1,5 @@
 ---
-title: 리눅스 while 루프
+title: Linux while 루프
 author: dejavuhyo
 date: 2022-07-29 10:30:00 +0900
 categories: [DevOps, Linux]

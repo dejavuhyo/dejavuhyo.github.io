@@ -1,5 +1,5 @@
 ---
-title: 리눅스 환경변수 env, set, export
+title: Linux 환경변수 env, set, export
 author: dejavuhyo
 date: 2022-07-18 09:00:00 +0900
 categories: [DevOps, Linux]

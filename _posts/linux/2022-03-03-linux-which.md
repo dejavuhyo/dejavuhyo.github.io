@@ -1,5 +1,5 @@
 ---
-title: 리눅스 which
+title: Linux which
 author: dejavuhyo
 date: 2022-03-03 08:00:00 +0900
 categories: [DevOps, Linux]

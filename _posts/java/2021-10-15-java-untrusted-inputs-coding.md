@@ -1,5 +1,5 @@
 ---
-title: 보호 메커니즘을 우회할 수 있는 입력값 변조
+title: 자바 보호 메커니즘을 우회할 수 있는 입력값 변조 코딩 기법
 author: dejavuhyo
 date: 2021-10-15 06:00:00 +0900
 categories: [Language, Java]
