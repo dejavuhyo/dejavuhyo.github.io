@@ -1,5 +1,5 @@
 ---
-title: LDAP 처리
+title: Java LDAP 처리 코딩 기법
 author: dejavuhyo
 date: 2021-11-02 06:00:00 +0900
 categories: [Language, Java]

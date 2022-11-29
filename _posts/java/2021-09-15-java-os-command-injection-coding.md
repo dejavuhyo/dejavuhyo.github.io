@@ -1,5 +1,5 @@
 ---
-title: 운영체제 명령어 삽입
+title: Java 운영체제 명령어 삽입 코딩 기법
 author: dejavuhyo
 date: 2021-09-15 06:00:00 +0900
 categories: [Language, Java]

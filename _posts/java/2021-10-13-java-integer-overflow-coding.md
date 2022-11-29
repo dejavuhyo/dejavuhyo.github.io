@@ -1,5 +1,5 @@
 ---
-title: 정수 오버플로우
+title: Java 정수 오버플로우 코딩 기법
 author: dejavuhyo
 date: 2021-10-13 06:00:00 +0900
 categories: [Language, Java]

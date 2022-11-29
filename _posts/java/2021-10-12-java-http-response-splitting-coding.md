@@ -1,5 +1,5 @@
 ---
-title: HTTP 응답 분할
+title: Java HTTP 응답 분할 코딩 기법
 author: dejavuhyo
 date: 2021-10-12 06:00:00 +0900
 categories: [Language, Java]

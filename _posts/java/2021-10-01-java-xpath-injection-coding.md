@@ -1,5 +1,5 @@
 ---
-title: XPath 삽입
+title: Java XPath 삽입 코딩 기법
 author: dejavuhyo
 date: 2021-10-01 06:00:00 +0900
 categories: [Language, Java]

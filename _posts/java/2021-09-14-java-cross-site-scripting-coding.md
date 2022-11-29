@@ -1,5 +1,5 @@
 ---
-title: 크로스 사이트 스크립트
+title: Java 크로스 사이트 스크립트 코딩 기법
 author: dejavuhyo
 date: 2021-09-14 06:00:00 +0900
 categories: [Language, Java]
