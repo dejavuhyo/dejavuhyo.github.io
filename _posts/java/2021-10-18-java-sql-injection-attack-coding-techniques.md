@@ -1,5 +1,5 @@
 ---
-title: SQL 삽입공격
+title: Java SQL 삽입 공격 코딩 기법
 author: dejavuhyo
 date: 2021-10-18 06:00:00 +0900
 categories: [Language, Java]
