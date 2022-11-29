@@ -1,5 +1,5 @@
 ---
-title: Linux에서 RPM 패키지 관리를 위한 DNF 명령
+title: Linux RPM 패키지 관리를 위한 DNF 명령
 author: dejavuhyo
 date: 2020-11-03 17:10:00 +0900
 categories: [DevOps, Linux]

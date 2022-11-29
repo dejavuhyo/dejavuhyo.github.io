@@ -1,5 +1,5 @@
 ---
-title: 리눅스 systemctl
+title: Linux systemctl
 author: dejavuhyo
 date: 2022-02-22 09:30:00 +0900
 categories: [DevOps, Linux]

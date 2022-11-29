@@ -1,5 +1,5 @@
 ---
-title: 리눅스 jobs
+title: Linux jobs
 author: dejavuhyo
 date: 2022-02-10 10:15:00 +0900
 categories: [DevOps, Linux]

@@ -1,5 +1,5 @@
 ---
-title: 리눅스 콘솔 sftp
+title: Linux 콘솔 sftp
 author: dejavuhyo
 date: 2018-09-20 11:18:00 +0900
 categories: [DevOps, Linux]

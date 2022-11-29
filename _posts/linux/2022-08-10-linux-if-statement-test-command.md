@@ -1,5 +1,5 @@
 ---
-title: 리눅스 if문 테스트 명령
+title: Linux if문 테스트 명령
 author: dejavuhyo
 date: 2022-08-10 11:00:00 +0900
 categories: [DevOps, Linux]

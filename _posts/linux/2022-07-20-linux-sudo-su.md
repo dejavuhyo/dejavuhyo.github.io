@@ -1,5 +1,5 @@
 ---
-title: 리눅스 계정 변경 sudo, su
+title: Linux 계정 변경 sudo, su
 author: dejavuhyo
 date: 2022-07-20 23:00:00 +0900
 categories: [DevOps, Linux]

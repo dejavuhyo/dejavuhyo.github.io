@@ -1,5 +1,5 @@
 ---
-title: 리눅스 htop
+title: Linux htop
 author: dejavuhyo
 date: 2022-02-09 09:30:00 +0900
 categories: [DevOps, Linux]

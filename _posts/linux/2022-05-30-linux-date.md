@@ -1,5 +1,5 @@
 ---
-title: 리눅스 date
+title: Linux date
 author: dejavuhyo
 date: 2022-05-30 18:30:00 +0900
 categories: [DevOps, Linux]

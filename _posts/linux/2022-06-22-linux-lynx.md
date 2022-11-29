@@ -1,5 +1,5 @@
 ---
-title: 리눅스 lynx
+title: Linux lynx
 author: dejavuhyo
 date: 2022-06-22 11:00:00 +0900
 categories: [DevOps, Linux]

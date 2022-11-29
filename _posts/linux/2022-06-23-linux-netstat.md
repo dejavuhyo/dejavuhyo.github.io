@@ -1,5 +1,5 @@
 ---
-title: 리눅스 netstat
+title: Linux netstat
 author: dejavuhyo
 date: 2022-06-23 10:20:00 +0900
 categories: [DevOps, Linux]

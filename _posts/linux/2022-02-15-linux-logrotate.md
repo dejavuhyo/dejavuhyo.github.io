@@ -1,5 +1,5 @@
 ---
-title: 리눅스 logrotate
+title: Linux logrotate
 author: dejavuhyo
 date: 2022-02-15 10:00:00 +0900
 categories: [DevOps, Linux]

@@ -1,5 +1,5 @@
 ---
-title: 리눅스 lsof
+title: Linux lsof
 author: dejavuhyo
 date: 2022-03-18 08:50:00 +0900
 categories: [DevOps, Linux]

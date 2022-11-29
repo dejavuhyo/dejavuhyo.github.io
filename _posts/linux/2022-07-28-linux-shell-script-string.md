@@ -1,5 +1,5 @@
 ---
-title: 리눅스 셸 스크립트 문자열
+title: Linux 셸 스크립트 문자열
 author: dejavuhyo
 date: 2022-07-28 16:30:00 +0900
 categories: [DevOps, Linux]

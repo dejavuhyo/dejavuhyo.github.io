@@ -1,5 +1,5 @@
 ---
-title: 리눅스 grep
+title: Linux grep
 author: dejavuhyo
 date: 2022-04-06 17:00:00 +0900
 categories: [DevOps, Linux]

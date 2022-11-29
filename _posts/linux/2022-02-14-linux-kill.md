@@ -1,5 +1,5 @@
 ---
-title: 리눅스 kill
+title: Linux kill
 author: dejavuhyo
 date: 2022-02-14 10:00:00 +0900
 categories: [DevOps, Linux]

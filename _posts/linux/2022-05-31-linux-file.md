@@ -1,5 +1,5 @@
 ---
-title: 리눅스 file
+title: Linux file
 author: dejavuhyo
 date: 2022-05-31 10:40:00 +0900
 categories: [DevOps, Linux]

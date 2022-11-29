@@ -1,5 +1,5 @@
 ---
-title: vi, vim 편집기 명령어
+title: Linux vi, vim 편집기 명령어
 author: dejavuhyo
 date: 2020-12-11 09:30:00 +0900
 categories: [DevOps, Linux]

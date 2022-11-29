@@ -1,5 +1,5 @@
 ---
-title: 리눅스 특수 표현
+title: Linux 특수 표현
 author: dejavuhyo
 date: 2022-07-27 11:40:00 +0900
 categories: [DevOps, Linux]

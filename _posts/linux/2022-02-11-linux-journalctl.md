@@ -1,5 +1,5 @@
 ---
-title: 리눅스 journalctl
+title: Linux journalctl
 author: dejavuhyo
 date: 2022-02-11 09:30:00 +0900
 categories: [DevOps, Linux]

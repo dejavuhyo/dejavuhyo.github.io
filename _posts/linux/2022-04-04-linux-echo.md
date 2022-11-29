@@ -1,5 +1,5 @@
 ---
-title: 리눅스 echo
+title: Linux echo
 author: dejavuhyo
 date: 2022-04-04 19:50:00 +0900
 categories: [DevOps, Linux]

@@ -1,5 +1,5 @@
 ---
-title: 리눅스 exec
+title: Linux exec
 author: dejavuhyo
 date: 2022-01-27 09:30:00 +0900
 categories: [DevOps, Linux]

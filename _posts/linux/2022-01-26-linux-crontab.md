@@ -1,5 +1,5 @@
 ---
-title: 리눅스 crontab
+title: Linux crontab
 author: dejavuhyo
 date: 2022-01-26 09:30:00 +0900
 categories: [DevOps, Linux]

@@ -1,5 +1,5 @@
 ---
-title: 리눅스 여러 경로의 데이터 조회
+title: Linux 여러 경로의 데이터 조회
 author: dejavuhyo
 date: 2022-08-09 09:30:00 +0900
 categories: [DevOps, Linux]

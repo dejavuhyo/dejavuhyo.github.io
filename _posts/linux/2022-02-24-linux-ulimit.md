@@ -1,5 +1,5 @@
 ---
-title: 리눅스 ulimit
+title: Linux ulimit
 author: dejavuhyo
 date: 2022-02-24 13:00:00 +0900
 categories: [DevOps, Linux]

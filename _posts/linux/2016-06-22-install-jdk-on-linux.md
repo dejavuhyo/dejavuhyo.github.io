@@ -1,5 +1,5 @@
 ---
-title: 리눅스 JDK 설치
+title: Linux JDK 설치
 author: dejavuhyo
 date: 2016-06-22 18:18:00 +0900
 categories: [DevOps, Linux]

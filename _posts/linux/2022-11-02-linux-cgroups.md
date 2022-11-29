@@ -1,5 +1,5 @@
 ---
-title: 리눅스 컨트롤 그룹 (Cgroups)
+title: Linux 컨트롤 그룹 (Cgroups)
 author: dejavuhyo
 date: 2022-11-02 10:00:00 +0900
 categories: [DevOps, Linux]

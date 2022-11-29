@@ -1,5 +1,5 @@
 ---
-title: 리눅스 useradd
+title: Linux useradd
 author: dejavuhyo
 date: 2022-03-07 12:00:00 +0900
 categories: [DevOps, Linux]

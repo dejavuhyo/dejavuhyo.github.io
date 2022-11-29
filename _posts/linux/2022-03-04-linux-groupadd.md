@@ -1,5 +1,5 @@
 ---
-title: 리눅스 groupadd
+title: Linux groupadd
 author: dejavuhyo
 date: 2022-03-04 11:30:00 +0900
 categories: [DevOps, Linux]
