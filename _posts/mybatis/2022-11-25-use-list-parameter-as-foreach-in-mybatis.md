@@ -54,10 +54,11 @@ public class CenResource {
 @Getter
 @Setter
 @NoArgsConstructor
-public class Cen {
+public class InfoDTO {
+    private List<Info> custCdList;
+    
     private String compCd;
     private String custCd;
-    private List<Info> custCdList;
     private String custLoclNm;
     private String custEngNm;
     private String rprsvNm;
@@ -67,7 +68,7 @@ public class Cen {
 ## 4. SQL 설정
 
 ```xml
-<select id="selectCenBascInfo" parameterType="com.example.info.InfoDTO" resultType="com.example.info.InfoDTO">
+<select id="selectInfo" parameterType="com.example.info.InfoDTO" resultType="com.example.info.InfoDTO">
     select tmch.cust_cd
          , tmch.cust_locl_nm
          , tmch.cust_eng_nm
