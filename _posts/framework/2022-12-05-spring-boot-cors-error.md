@@ -3,7 +3,7 @@ title: Spring Boot CORS 오류
 author: dejavuhyo
 date: 2022-12-05 21:40:00 +0900
 categories: [Application, Framework]
-tags: [cors, spring-boot-cors, spring-cors, cross-origin-resource-sharing, cors-오류, 교차-출처-리소스-공유]
+tags: [cors, spring-boot-cors, spring-cors, cross-origin-resource-sharing, cors-error, cors-오류, 교차-출처-리소스-공유]
 ---
 
 ## 1. CORS란
