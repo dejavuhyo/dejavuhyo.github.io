@@ -1,7 +1,7 @@
 ---
 title: Bag Interface
 author: dejavuhyo
-date: 2022-12-01 21:15:00 +0900
+date: 2022-12-06 21:00:00 +0900
 categories: [Language, Java]
 tags: [apache-commons-collections, bag-interface, bag, apache-commons, apache-collections, apache-interface, commons-interface]
 ---
