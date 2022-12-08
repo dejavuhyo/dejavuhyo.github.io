@@ -12,6 +12,7 @@ Bag은 객체가 컬렉션에 나타나는 횟수를 카운트하는 컬렉션�
 예를 들어 Bag에 `{a, a, b, c}`가 포함되어 있으면 `getCount("a")`는 2를 반환하고 `uniqueSet()`은 고유한 값을 반환한다.
 
 ### 1) 선언
+`org.apache.commons.collections4.Bag`
 
 ```java
 public interface Bag<E> extends Collection<E>
