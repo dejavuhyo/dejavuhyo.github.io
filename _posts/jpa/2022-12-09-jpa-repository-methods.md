@@ -29,14 +29,14 @@ Repository에는 기본적으로 다음 메서드가 포함되어 있다.
 | `count(): long` | 사용 가능한 엔티티 수를 반환한다. |
 | `delete(Employee entity): void` | 엔티티를 삭제한다. |
 | `deleteAll():void` | 모든 엔티티를 삭제한다. |
-| `deleteAll(Iterable< extends Employee > entities):void` | 인수로 전달된 엔티티를 삭제한다. |
-| `deleteAll(Iterable< extends Integer > ids):void` | 인수로 전달된 ID를 사용하여 식별된 엔티티를 삭제한다. |
+| `deleteAll(Iterable<extends Employee> entities):void` | 인수로 전달된 엔티티를 삭제한다. |
+| `deleteAll(Iterable<extends Integer> ids):void` | 인수로 전달된 ID를 사용하여 식별된 엔티티를 삭제한다. |
 | `existsById(Integer id):boolean` | ID를 사용하여 엔티티가 있는지 확인한다. |
-| `findAll():Iterable< Employee >` | 모든 엔티티를 반환한다. |
-| `findAllByIds(Iterable< Integer > ids):Iterable< Employee >` | 인수로 전달된 ID를 사용하여 식별된 모든 엔티티를 반환한다. |
-| `findById(Integer id):Optional< Employee >` | ID를 사용하여 식별된 엔티티를 반환한다. |
+| `findAll():Iterable<Employee>` | 모든 엔티티를 반환한다. |
+| `findAllByIds(Iterable<Integer> ids):Iterable<Employee>` | 인수로 전달된 ID를 사용하여 식별된 모든 엔티티를 반환한다. |
+| `findById(Integer id):Optional<Employee>` | ID를 사용하여 식별된 엔티티를 반환한다. |
 | `save(Employee entity): Employee` | 엔티티를 저장하고 업데이트된 엔티티를 반환한다. |
-| `saveAll(Iterable< Employee> entities): Iterable< Employee>` | 전달된 모든 엔티티를 저장하고 업데이트된 엔티티를 반환한다. |
+| `saveAll(Iterable<Employee> entities): Iterable<Employee>` | 전달된 모든 엔티티를 저장하고 업데이트된 엔티티를 반환한다. |
 
 ## [출처 및 참고]
 * <https://www.tutorialspoint.com/spring_boot_jpa/spring_boot_jpa_repository_methods.htm>
