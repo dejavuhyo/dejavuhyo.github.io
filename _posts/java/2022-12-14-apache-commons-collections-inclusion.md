@@ -1,7 +1,7 @@
 ---
 title: Inclusion
 author: dejavuhyo
-date: 2022-12-14 21:15:00 +0900
+date: 2022-12-14 20:30:00 +0900
 categories: [Language, Java]
 tags: [apache-commons-collections, inclusion, apache-commons, apache-collections, apache-interface, commons-interface]
 ---
