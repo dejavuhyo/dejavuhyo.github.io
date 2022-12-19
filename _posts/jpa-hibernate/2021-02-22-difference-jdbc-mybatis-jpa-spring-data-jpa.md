@@ -2,7 +2,7 @@
 title: JDBC, Mybatis, JPA, Spring Data JPA 차이점
 author: dejavuhyo
 date: 2021-02-22 06:00:00 +0900
-categories: [DevOps, JPA]
+categories: [DevOps, JPA/Hibernate]
 tags: [jdbc, mybatis, jpa-hibernate, spring-data-jpa]
 ---
 
