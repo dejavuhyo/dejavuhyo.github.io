@@ -2,7 +2,7 @@
 title: JPA Repository methods
 author: dejavuhyo
 date: 2022-12-09 19:30:00 +0900
-categories: [DevOps, JPA]
+categories: [DevOps, JPA/Hibernate]
 tags: [jpa, jpa-repository, jpa-method, repository-method, jpa-repository-method, jpa-crud, spring-data-jpa, spring-jpa, jpa-레파지토리, jpa-레파지토리-메서드, jpa-메서드]
 ---
 
