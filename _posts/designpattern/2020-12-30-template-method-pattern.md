@@ -131,4 +131,4 @@ Template Method 패턴에서는 상위 클래스와 하위 클래스가 긴밀�
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://mrhook.co.kr/222>
+* [https://mrhook.co.kr/222](https://mrhook.co.kr/222)

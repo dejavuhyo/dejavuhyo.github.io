@@ -264,4 +264,4 @@ Strategy 패턴을 사용하면 프로그램의 동작 중에 concreteStrategy �
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://www.researchgate.net/figure/The-structure-of-the-Strategy-pattern-It-provides-broadcast-communication-A-subject_fig3_257482232>
+* [https://www.researchgate.net/figure/The-structure-of-the-Strategy-pattern-It-provides-broadcast-communication-A-subject_fig3_257482232](https://www.researchgate.net/figure/The-structure-of-the-Strategy-pattern-It-provides-broadcast-communication-A-subject_fig3_257482232)

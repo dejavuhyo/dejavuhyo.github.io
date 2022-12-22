@@ -182,4 +182,4 @@ BookShelf를 수정하더라도 BookShelf가 iterator 메소드를 가지고 있
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://itstory.tk/entry/Gof-%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-Iterator-%EB%B0%98%EB%B3%B5%EC%9E%90-%ED%8C%A8%ED%84%B4>
+* [https://itstory.tk/entry/Gof-%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-Iterator-%EB%B0%98%EB%B3%B5%EC%9E%90-%ED%8C%A8%ED%84%B4](https://itstory.tk/entry/Gof-%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-Iterator-%EB%B0%98%EB%B3%B5%EC%9E%90-%ED%8C%A8%ED%84%B4)

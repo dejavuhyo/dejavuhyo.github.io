@@ -265,4 +265,4 @@ MouseMotionListener 클래스를 예로 들면, 이 클래스는 MouseMotionList
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://itnext.io/easy-patterns-command-15733a2b56f0>
+* [https://itnext.io/easy-patterns-command-15733a2b56f0](https://itnext.io/easy-patterns-command-15733a2b56f0)

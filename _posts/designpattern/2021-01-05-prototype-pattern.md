@@ -191,4 +191,4 @@ public class Main {
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://commons.wikimedia.org/wiki/Prototype_(design_pattern)>
+* [https://commons.wikimedia.org/wiki/Prototype_(design_pattern)](https://commons.wikimedia.org/wiki/Prototype_(design_pattern))

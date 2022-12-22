@@ -269,4 +269,4 @@ ConcreteColleague 역할은 재이용하기 쉽지만 ConcreteMediator 역할은
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://mertarauh.com/tutorials/typescript-design-patterns/mediator-pattern/>
+* [https://mertarauh.com/tutorials/typescript-design-patterns/mediator-pattern/](https://mertarauh.com/tutorials/typescript-design-patterns/mediator-pattern/)

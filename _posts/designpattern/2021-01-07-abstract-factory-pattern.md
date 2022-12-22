@@ -403,4 +403,4 @@ Abstract Factory 패턴에 새로 부품을 추가하는 일에 대해 생각해
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://narbase.com/2020/06/07/design-patterns-abstract-factory-with-kotlin-examples/>
+* [https://narbase.com/2020/06/07/design-patterns-abstract-factory-with-kotlin-examples/](https://narbase.com/2020/06/07/design-patterns-abstract-factory-with-kotlin-examples/)

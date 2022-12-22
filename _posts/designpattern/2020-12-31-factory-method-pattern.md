@@ -137,4 +137,4 @@ public class Main {
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://commons.wikimedia.org/wiki/File:Factory_Method_UML_class_diagram.svg>
+* [https://commons.wikimedia.org/wiki/File:Factory_Method_UML_class_diagram.svg](https://commons.wikimedia.org/wiki/File:Factory_Method_UML_class_diagram.svg)

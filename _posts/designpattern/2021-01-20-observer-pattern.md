@@ -186,4 +186,4 @@ update 메소드에서는 인수로 관찰되는 대상(Subject 역할)으로서
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://stackoverflow.com/questions/46627299/observer-pattern-does-observable-needs-to-be-always-abstract>
+* [https://stackoverflow.com/questions/46627299/observer-pattern-does-observable-needs-to-be-always-abstract](https://stackoverflow.com/questions/46627299/observer-pattern-does-observable-needs-to-be-always-abstract)

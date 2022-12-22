@@ -178,4 +178,4 @@ garbage collection의 기능 덕분에 Java 프로그래머는 일단 new한 인
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://dzone.com/articles/design-patterns-flyweight>
+* [https://dzone.com/articles/design-patterns-flyweight](https://dzone.com/articles/design-patterns-flyweight)

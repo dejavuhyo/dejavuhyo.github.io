@@ -204,4 +204,4 @@ Chain of Responsibility 패넡을 사용해 떠넘기기를 수행하면 틀림�
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern>
+* [https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)

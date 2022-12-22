@@ -146,4 +146,4 @@ Adapter 패턴은 기존의 클래스를 전혀 수정하지 않고 목적한 �
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://jusungpark.tistory.com/22>
+* [https://jusungpark.tistory.com/22](https://jusungpark.tistory.com/22)

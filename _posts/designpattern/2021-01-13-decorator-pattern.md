@@ -200,4 +200,4 @@ Decorator 패턴을 사용하면 다양한 기능을 추가할 수 있다. 구�
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://en.wikipedia.org/wiki/Decorator_pattern>
+* [https://en.wikipedia.org/wiki/Decorator_pattern](https://en.wikipedia.org/wiki/Decorator_pattern)

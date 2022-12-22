@@ -279,5 +279,5 @@ Visitor 패턴에서는 데이터 구조의 요소에 대한 처리를 따로 �
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://en.wikipedia.org/wiki/Visitor_pattern>
-* <https://www.slideserve.com/tana-weeks/visitor-pattern>
+* [https://en.wikipedia.org/wiki/Visitor_pattern](https://en.wikipedia.org/wiki/Visitor_pattern)
+* [https://www.slideserve.com/tana-weeks/visitor-pattern](https://www.slideserve.com/tana-weeks/visitor-pattern)
