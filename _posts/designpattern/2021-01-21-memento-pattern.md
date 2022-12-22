@@ -230,4 +230,4 @@ Caretacker 역할은 어느 시점에서 스냅샷을 찍을지 결정하고, �
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://subscription.packtpub.com/book/application_development/9781786463593/3/ch03lvl1sec31/the-memento-pattern>
+* [https://subscription.packtpub.com/book/application_development/9781786463593/3/ch03lvl1sec31/the-memento-pattern](https://subscription.packtpub.com/book/application_development/9781786463593/3/ch03lvl1sec31/the-memento-pattern)

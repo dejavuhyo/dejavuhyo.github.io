@@ -285,4 +285,4 @@ garlic and not onions
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://itnext.io/easy-patterns-interpreter-58434c94304d>
+* [https://itnext.io/easy-patterns-interpreter-58434c94304d](https://itnext.io/easy-patterns-interpreter-58434c94304d)

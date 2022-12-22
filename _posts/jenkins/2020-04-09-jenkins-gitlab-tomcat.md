@@ -109,5 +109,5 @@ tags: [jenkins-gitlab-tomcat, jenkins-gitlab, jenkins-tomcat, jenkins-tomcat-dep
 ![img025](/assets/img/2020-04-09-jenkins-gitlab-tomcat/img025.png)
 
 ## [출처 및 참고]
-* <https://www.hanumoka.net/2019/10/23/jenkins-20191023-jenkins-connect-gitlab/>
-* <https://wikidocs.net/16281>
+* [https://www.hanumoka.net/2019/10/23/jenkins-20191023-jenkins-connect-gitlab/](https://www.hanumoka.net/2019/10/23/jenkins-20191023-jenkins-connect-gitlab/)
+* [https://wikidocs.net/16281](https://wikidocs.net/16281)

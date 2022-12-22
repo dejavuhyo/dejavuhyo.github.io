@@ -48,5 +48,5 @@ setMaxInactiveInterval() 메서드를 사용하지 않았다면 이 설정을 �
 > timeout 값을 `-1`로 지정한 경우 세션은 강제로 제거해주지 않으면 무한으로 유지된다. 그러나 메모리관리나 보안상 좋지 않으므로 자주 사용하는 설정은 아니다.
 
 ## [출처 및 참고]
-* <https://dololak.tistory.com/706>
-* <https://prinha.tistory.com/entry/JAVA-SessionTimeOut-%EC%84%A4%EC%A0%95-%EC%84%B8%EC%85%98-%EC%8B%9C%EA%B0%84-%EC%A0%9C%EC%96%B4>
+* [https://dololak.tistory.com/706](https://dololak.tistory.com/706)
+* [https://prinha.tistory.com/entry/JAVA-SessionTimeOut-%EC%84%A4%EC%A0%95-%EC%84%B8%EC%85%98-%EC%8B%9C%EA%B0%84-%EC%A0%9C%EC%96%B4](https://prinha.tistory.com/entry/JAVA-SessionTimeOut-%EC%84%A4%EC%A0%95-%EC%84%B8%EC%85%98-%EC%8B%9C%EA%B0%84-%EC%A0%9C%EC%96%B4)

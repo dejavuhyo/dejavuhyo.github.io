@@ -163,4 +163,4 @@ Facade는 복잡한 것을 단순하게 보여준다. '복잡한 것'이란 내�
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://en.wikipedia.org/wiki/Facade_pattern>
+* [https://en.wikipedia.org/wiki/Facade_pattern](https://en.wikipedia.org/wiki/Facade_pattern)

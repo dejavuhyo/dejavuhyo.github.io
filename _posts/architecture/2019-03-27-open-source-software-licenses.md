@@ -212,4 +212,4 @@ EPL로 배포되는 소프트웨어를 배포할 때 지켜야 할 의무사항�
 | 책임의 제한 | O | O | O |
 
 ## [출처 및 참고]
-* <https://www.olis.or.kr/license/licenseGuide.do>
+* [https://www.olis.or.kr/license/licenseGuide.do](https://www.olis.or.kr/license/licenseGuide.do)

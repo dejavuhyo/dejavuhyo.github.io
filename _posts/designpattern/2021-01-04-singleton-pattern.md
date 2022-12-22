@@ -72,4 +72,4 @@ Singleton 패턴에서는 인스턴스의 수를 제안하고 있다. 제한을 
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://commons.wikimedia.org/wiki/File:Singleton_UML_class_diagram.svg>
+* [https://commons.wikimedia.org/wiki/File:Singleton_UML_class_diagram.svg](https://commons.wikimedia.org/wiki/File:Singleton_UML_class_diagram.svg)

@@ -312,5 +312,5 @@ BankAccount newAccount = new BankAccount
 * 클라이언트가 생성된 객체에 대해 다른 표현을 기대하는 경우
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/creational-design-patterns>
-* <https://www.baeldung.com/java-abstract-factory-pattern>
+* [https://www.baeldung.com/creational-design-patterns](https://www.baeldung.com/creational-design-patterns)
+* [https://www.baeldung.com/java-abstract-factory-pattern](https://www.baeldung.com/java-abstract-factory-pattern)

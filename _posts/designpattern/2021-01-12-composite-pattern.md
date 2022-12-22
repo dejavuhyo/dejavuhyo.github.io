@@ -202,4 +202,4 @@ add 메소드를 실제로 사용할 수 있는 것은 Directory 클래스뿐이
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://en.wikipedia.org/wiki/Composite_pattern>
+* [https://en.wikipedia.org/wiki/Composite_pattern](https://en.wikipedia.org/wiki/Composite_pattern)

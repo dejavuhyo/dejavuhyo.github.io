@@ -274,4 +274,4 @@ doUse 메소드에 전달될 때, 동일한 인스턴스가 Context 인터페이
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://en.wikipedia.org/wiki/State_pattern>
+* [https://en.wikipedia.org/wiki/State_pattern](https://en.wikipedia.org/wiki/State_pattern)

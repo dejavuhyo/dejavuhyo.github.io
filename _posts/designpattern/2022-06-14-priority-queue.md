@@ -74,4 +74,4 @@ tags: [priority-queue, queue, queue-pattern, design-pattern, 큐-패턴, 디자�
 * 다른 사용자 또는 테넌트에는 서로 다른 우선 순위로 서비스가 제공되어야 한다.
 
 ## [출처 및 참고]
-* <https://docs.microsoft.com/ko-kr/azure/architecture/patterns/priority-queue>
+* [https://docs.microsoft.com/ko-kr/azure/architecture/patterns/priority-queue](https://docs.microsoft.com/ko-kr/azure/architecture/patterns/priority-queue)

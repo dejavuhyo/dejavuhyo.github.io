@@ -176,4 +176,4 @@ Proxy 패턴에는 다양한 종류가 있다.
 
 ## [출처 및 참고]
 * Java 언어로 배우는 디자인 패턴 입문
-* <https://en.wikipedia.org/wiki/Proxy_pattern>
+* [https://en.wikipedia.org/wiki/Proxy_pattern](https://en.wikipedia.org/wiki/Proxy_pattern)

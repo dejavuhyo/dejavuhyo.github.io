@@ -54,5 +54,5 @@ Can not write to /var/jenkins_home/copy_reference_file.log. Wrong volume permiss
 ```
 
 ## [출처 및 참고]
-* <https://www.jenkins.io/doc/book/installing/docker/>
-* <https://github.com/jenkinsci/docker/issues/493>
+* [https://www.jenkins.io/doc/book/installing/docker/](https://www.jenkins.io/doc/book/installing/docker/)
+* [https://github.com/jenkinsci/docker/issues/493](https://github.com/jenkinsci/docker/issues/493)

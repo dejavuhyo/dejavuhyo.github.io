@@ -87,6 +87,6 @@ services:
 ![gitlab](/assets/img/2021-05-20-install-application-using-docker-compose/gitlab.png)
 
 ## [출처 및 참고]
-* <https://docs.docker.com/compose/gettingstarted/>
-* <https://docs.gitlab.com/omnibus/docker/>
-* <https://docs.docker.com/compose/compose-file/compose-file-v3/>
+* [https://docs.docker.com/compose/gettingstarted/](https://docs.docker.com/compose/gettingstarted/)
+* [https://docs.gitlab.com/omnibus/docker/](https://docs.gitlab.com/omnibus/docker/)
+* [https://docs.docker.com/compose/compose-file/compose-file-v3/](https://docs.docker.com/compose/compose-file/compose-file-v3/)

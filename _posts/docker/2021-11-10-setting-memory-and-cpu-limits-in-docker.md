@@ -92,4 +92,4 @@ CONTAINER ID        NAME                                             CPU %      
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/ops/docker-memory-limit>
+* [https://www.baeldung.com/ops/docker-memory-limit](https://www.baeldung.com/ops/docker-memory-limit)
