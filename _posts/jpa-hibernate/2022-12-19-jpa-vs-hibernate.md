@@ -23,4 +23,4 @@ Hibernate는 JPA의 구현입니다. 경량 프레임워크를 제공하며 가�
 | Language | JPA는 데이터베이스 작업을 위한 객체 지향 쿼리 언어로 JPQL(Java Persistence Query Language)을 사용한다. | Hibernate는 데이터베이스 작업을 위해 HQL(Hibernate Query Language)을 객체 지향 쿼리 언어로 사용한다. |
 
 ## [출처 및 참고]
-* <https://www.tutorialspoint.com/spring_boot_jpa/spring_boot_jpa_hibernate.htm>
+* [https://www.tutorialspoint.com/spring_boot_jpa/spring_boot_jpa_hibernate.htm](https://www.tutorialspoint.com/spring_boot_jpa/spring_boot_jpa_hibernate.htm)

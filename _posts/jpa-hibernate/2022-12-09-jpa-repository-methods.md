@@ -39,4 +39,4 @@ Repository에는 기본적으로 다음 메서드가 포함되어 있다.
 | `saveAll(Iterable<Employee> entities): Iterable<Employee>` | 전달된 모든 엔티티를 저장하고 업데이트된 엔티티를 반환한다. |
 
 ## [출처 및 참고]
-* <https://www.tutorialspoint.com/spring_boot_jpa/spring_boot_jpa_repository_methods.htm>
+* [https://www.tutorialspoint.com/spring_boot_jpa/spring_boot_jpa_repository_methods.htm](https://www.tutorialspoint.com/spring_boot_jpa/spring_boot_jpa_repository_methods.htm)
