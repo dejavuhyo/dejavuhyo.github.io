@@ -97,4 +97,4 @@ tags: [tcp-udp-port, tcp-port, udp-port, tcp-포트, udp-포트]
 | 17500 | TCP | UDP | Dropbox LanSync 프로토콜, LAN 상에서 Dropbox 클라이언트끼리 파일목록을 동기화 함 | 공식 |
 
 ## [출처 및 참고]
-* <https://ko.wikipedia.org/wiki/TCP/UDP%EC%9D%98_%ED%8F%AC%ED%8A%B8_%EB%AA%A9%EB%A1%9D>
+* [https://ko.wikipedia.org/wiki/TCP/UDP%EC%9D%98_%ED%8F%AC%ED%8A%B8_%EB%AA%A9%EB%A1%9D](https://ko.wikipedia.org/wiki/TCP/UDP%EC%9D%98_%ED%8F%AC%ED%8A%B8_%EB%AA%A9%EB%A1%9D)

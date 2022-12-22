@@ -81,5 +81,5 @@ EV-SSL은 공신력 있는 인증 기관에서 더욱 엄격한 심사 기준으
 TLS는 TCP 프로토콜을 이용하므로 성능상의 불이익도 존재한다. 결국 UDP 기반의 보안 소켓인 DTLS가 이를 보완해야 한다.
 
 ## [출처 및 참고]
-* <https://namu.wiki/w/TLS>
-* <https://devdic.tistory.com/20>
+* [https://namu.wiki/w/TLS](https://namu.wiki/w/TLS)
+* [https://devdic.tistory.com/20](https://devdic.tistory.com/20)

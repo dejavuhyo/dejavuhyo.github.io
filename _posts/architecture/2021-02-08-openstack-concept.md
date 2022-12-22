@@ -67,4 +67,4 @@ OpenStack은 퍼블릭 클라우드 환경 구축을 위한 선도적인 오픈�
 OpenStack은 프라이빗 클라우드와 퍼블릭 클라우드 모두를 위한 안정적인 기반을 제공한다. 컨테이너는 애플케이션 제공 속도를 높이면서 애플리케이션의 배포와 관리를 간소화한다. OpenStack에서 컨테이너를 실행하면 사일로화된 단일 팀에서 전사적인 부서 간 운영에 이르기까지 컨테이너의 이점을 얻을 수 있다.
 
 ## [출처 및 참고]
-* <https://www.redhat.com/ko/topics/openstack>
+* [https://www.redhat.com/ko/topics/openstack](https://www.redhat.com/ko/topics/openstack)

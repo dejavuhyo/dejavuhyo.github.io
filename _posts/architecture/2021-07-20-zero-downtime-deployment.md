@@ -58,5 +58,5 @@ tags: [zero-downtime-deployment, rolling-deployment, blue-green-deployment, cana
 ![canary-deployment](/assets/img/2021-07-20-zero-downtime-deployment/canary-deployment.png)
 
 ## [출처 및 참고]
-* <https://www.samsungsds.com/kr/insights/1256264_4627.html?moreCnt=1&backTypeId=insight&category=all>
-* <https://dev.to/mostlyjason/intro-to-deployment-strategies-blue-green-canary-and-more-3a3>
+* [https://www.samsungsds.com/kr/insights/1256264_4627.html?moreCnt=1&backTypeId=insight&category=all](https://www.samsungsds.com/kr/insights/1256264_4627.html?moreCnt=1&backTypeId=insight&category=all)
+* [https://dev.to/mostlyjason/intro-to-deployment-strategies-blue-green-canary-and-more-3a3](https://dev.to/mostlyjason/intro-to-deployment-strategies-blue-green-canary-and-more-3a3)

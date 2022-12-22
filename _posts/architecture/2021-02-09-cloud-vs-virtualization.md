@@ -55,4 +55,4 @@ tags: [cloud-vs-virtualization, cloud-virtualization, 클라우드-가상화-차
 | 테넌시 | 싱글 테넌트 | 멀티플 테넌트 |
 
 ## [출처 및 참고]
-* <https://www.redhat.com/ko/topics/cloud-computing/cloud-vs-virtualization>
+* [https://www.redhat.com/ko/topics/cloud-computing/cloud-vs-virtualization](https://www.redhat.com/ko/topics/cloud-computing/cloud-vs-virtualization)
