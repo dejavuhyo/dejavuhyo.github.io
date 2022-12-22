@@ -69,6 +69,6 @@ Swarm 관리자 노드는 실행 중인 컨테이너의 각 서비스에 고유�
 원격 설치 시 서비스 업데이트를 노드에 증분 적용할 수 있다. swarm manager를 사용하면 서로 다른 노드 집합에 대한 서비스 배포 간의 지연을 제어할 수 있다. 문제가 발생하면 이전 버전의 서비스로 롤백할 수 있다.
 
 ## [출처 및 참고]
-* <https://docs.docker.com/engine/swarm/>
-* <https://www.sumologickorea.com/glossary/docker-swarm/>
-* <https://subicura.com/2017/02/25/container-orchestration-with-docker-swarm.html>
+* [https://docs.docker.com/engine/swarm/](https://docs.docker.com/engine/swarm/)
+* [https://www.sumologickorea.com/glossary/docker-swarm/](https://www.sumologickorea.com/glossary/docker-swarm/)
+* [https://subicura.com/2017/02/25/container-orchestration-with-docker-swarm.html](https://subicura.com/2017/02/25/container-orchestration-with-docker-swarm.html)

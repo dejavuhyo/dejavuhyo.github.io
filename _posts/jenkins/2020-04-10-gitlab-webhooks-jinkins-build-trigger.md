@@ -41,4 +41,4 @@ Jenkins 빌드 유발은 두 가지 방법이 있다. 첫 번째는 GitLab의 Us
 ![img009](/assets/img/2020-04-10-gitlab-webhooks-jinkins-build-trigger/img009.png)
 
 ## [출처 및 참고]
-* <https://lemontia.tistory.com/882>
+* [https://lemontia.tistory.com/882](https://lemontia.tistory.com/882)

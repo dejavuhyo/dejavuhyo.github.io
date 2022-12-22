@@ -22,4 +22,4 @@ tags: [docker-uninstall, docker-engine-uninstall, cnetos-docker-uninstall, cento
 ```
 
 ## [출처 및 참고]
-* <https://docs.docker.com/engine/install/centos/>
+* [https://docs.docker.com/engine/install/centos/](https://docs.docker.com/engine/install/centos/)
