@@ -1,12 +1,12 @@
 ---
-title: 웹의 과거, 현재, 그리고 미래
+title: 웹의 과거 현재 그리고 미래
 author: dejavuhyo
-date: 2015-02-03 23:36:00 +0900
+date: 2015-02-03 23:35:00 +0900
 categories: [Language, Ontology]
-tags: [web-past-today-future, semantics, 웹의-과거-현재-미래, 의미-네트워크, 시맨틱스, 웹]
+tags: [web-past-today-future, semantics, web, 웹-과거-현재-미래, 의미-네트워크, 시맨틱스, 웹]
 ---
 
-## 1. 웹의 과거, 현재, 그리고 미래
+## 1. 웹의 과거 현재 그리고 미래
 `WWW`(World Wide Web)는 인간이 시각적으로 관람하는데 매력적인 정보를 발신하는 방향으로 발전해 왔다. 그러나, `WWW`의 탄생기 때부터 컴퓨터의 능력을 좀 더 이용해 보려는 시도가 있었고, 이를 위해서는 컴퓨터가 인식할 수 있는 형태로 정보에 시맨틱(의미, semantic)을 부여할 필요가 있다.
 
 ## 2. WWW의 탄생과 의미네트워크(Semantic Network)
