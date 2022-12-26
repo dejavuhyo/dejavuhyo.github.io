@@ -7,7 +7,7 @@
 %heading {
   color: var(--heading-color);
   font-weight: 400;
-  font-family: Lato, "Microsoft Yahei", sans-serif;
+  font-family: 'Lato', 'Microsoft Yahei', sans-serif;
 }
 
 %section {
@@ -73,8 +73,6 @@
 }
 
 %no-cursor {
-  -webkit-user-select: none;
-  -moz-user-select: none;
   user-select: none;
 }
 
@@ -103,8 +101,6 @@
 
 %sidebar-links {
   color: rgba(117, 117, 117, 0.9);
-  -webkit-user-select: none;
-  -moz-user-select: none;
   user-select: none;
 }
 
@@ -138,6 +134,7 @@
   position: relative;
   left: 50%;
   -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
