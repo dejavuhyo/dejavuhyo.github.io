@@ -31,15 +31,11 @@
   %}
 {% endif %}
 
-<!-- Change the icon of checkbox -->
-{% if _content contains '<input type="checkbox"' %}
+<!-- Add attribute 'hide-bullet' to the checkbox list -->
+
+{% if _content contains '<li class="task-list-item"><' %}
   {% assign _content = _content
-    | replace:
-        '<input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />',
-        '<i class="fas fa-check-circle fa-fw checked"></i>'
-    | replace:
-        '<input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />',
-        '<i class="far fa-circle fa-fw"></i>'
+    | replace: '"task-list-item"><', '"task-list-item" hide-bullet><'
   %}
 {% endif %}
 
@@ -107,7 +103,13 @@
 
         <!-- Add image path -->
         {% if page.img_path %}
-          {% assign _path = page.img_path | append: '/' | replace: '//', '/' %}
+          {% assign _path = page.img_path %}
+          {% assign last_char = _path | slice: -1 %}
+
+          {% unless last_char == '/' %}
+            {% assign _path = _path | append: '/' %}
+          {% endunless %}
+
           {% assign _src_prefix = _src_prefix | append: _path %}
         {% endif %}
 
@@ -175,7 +177,7 @@
           | append: '<div class="code-header">'
           | append: _label
           | append: '<button aria-label="copy" data-title-succeed="'
-          | append: site.data.locales[site.lang].post.button.copy_code.succeed
+          | append: site.data.locales[lang].post.button.copy_code.succeed
           | append: '"><i class="far fa-clipboard"></i></button></div>'
           | append: '<div class="highlight"><code>'
       %}
