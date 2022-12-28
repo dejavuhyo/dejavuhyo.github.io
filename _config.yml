@@ -21,7 +21,7 @@ timezone: Asia/Seoul
 
 title: 밥줄과 취미 사이 ːː 못 먹어도 고!                          # the main title
 
-tagline: https://dejavuhyo.github.io   # it will display as the sub-title
+tagline: https://github.com/dejavuhyo   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
