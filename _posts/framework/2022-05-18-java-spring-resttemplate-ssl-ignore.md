@@ -57,13 +57,13 @@ public ResponseEntity data() throws KeyStoreException, NoSuchAlgorithmException,
     RestTemplate restTemplate = new RestTemplate(requestFactory);
 
     // API 기본 인증 헤드 생성
-    HttpHeaders headers = new HttpHeaders() {{
+    HttpHeaders headers = new HttpHeaders() {% raw %}{{
         String auth = "user:password";
         byte[] encodedAuth = Base64.encodeBase64(auth.getBytes(StandardCharsets.US_ASCII));
 
         String authHeader = "Basic " + new String(encodedAuth);
         set("Authorization", authHeader);
-    }};
+    }}{% endraw %};
 
     ResponseEntity<String> responseEntity = restTemplate.exchange("https://192.168.0.1:8080/data", HttpMethod.GET, new HttpEntity<>(headers), String.class);
 
