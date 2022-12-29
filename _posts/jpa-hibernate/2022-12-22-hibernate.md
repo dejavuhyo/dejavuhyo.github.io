@@ -13,8 +13,7 @@ Hibernate는 자바 클래스를 데이터베이스 테이블에 매핑하고 �
 
 Hibernate는 기존 Java 객체와 데이터베이스 서버 사이에 위치하여 적절한 O/R 메커니즘과 패턴을 기반으로 객체를 유지하는 모든 작업을 처리한다.
 
-hibernate.png
-![hibernate](/assets/img/2021-02-22-difference-jdbc-mybatis-jpa-spring-data-jpa/hibernate.png)
+![hibernate](/assets/img/2022-12-22-hibernate/hibernate.png)
 
 ## 2. Hibernate 장점
 
