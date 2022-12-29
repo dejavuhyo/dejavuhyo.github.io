@@ -28,9 +28,9 @@ HashMap<String, String> map2 = new HashMap<>(); // new에서 타입 파라미터
 HashMap<String, String> map3 = new HashMap<>(map1); // map1의 모든 값을 가진 HashMap생성
 HashMap<String, String> map4 = new HashMap<>(10); // 초기 용량(capacity)지정
 HashMap<String, String> map5 = new HashMap<>(10, 0.7f); // 초기 capacity, load factor 지정
-HashMap<String, String> map6 = new HashMap<String, String>() {{ // 초기값 지정
+HashMap<String, String> map6 = new HashMap<String, String>() {% raw %}{{ // 초기값 지정
 put("a", "b");
-}};
+}}{% endraw %};
 ```
 
 ## 3. HashMap 값 추가
@@ -47,11 +47,11 @@ map.put(3,"포도");
 HashMap에 값을 제거하려면 `remove(key)` 메소드를 사용한다. 오직 키값으로만 Map의 요소를 삭제할 수 있다. 모든 값을 제거하려면 `clear()` 메소드를 사용한다.
 
 ```java
-HashMap<Integer, String> map = new HashMap<>() {{
+HashMap<Integer, String> map = new HashMap<>() {% raw %}{{
     put(1, "사과");
     put(2, "바나나");
     put(3, "포도");
-}};
+}}{% endraw %};
 
 map.remove(1); // key값 1 제거
 map.clear(); // 모든 값 제거
@@ -67,11 +67,11 @@ HashMap을 출력하는 방법에는 다양한 방법이 있다. 그냥 print하
 그러나 key값을 이용해서 value를 찾는 과정은 시간이 많이 소모되므로, 많은 양의 데이터를 가져와야 한다면 `entrySet()`이 좋다. (약 20% ~ 200% 성능 저하가 있음)
 
 ```java
-HashMap<Integer, String> map = new HashMap<>() {{ // 초기값 지정
+HashMap<Integer, String> map = new HashMap<>() {% raw %}{{ // 초기값 지정
     put(1, "사과");
     put(2, "바나나");
     put(3, "포도");
-}};
+}}{% endraw %};
 
 System.out.println(map); // 전체 출력 : {1=사과, 2=바나나, 3=포도}
 System.out.println(map.get(1)); //key값 1의 value얻기 : 사과
@@ -97,11 +97,11 @@ for (Integer i : map.keySet()) { // 저장된 key값 확인
 HashMap의 전체출력 시 반복문을 사용하지 않고 Iterator를 사용하여도 된다. iterator로 Map안의 전체 요소를 출력하는 방법은 위와 같다.
 
 ```java
-HashMap<Integer, String> map = new HashMap<>() {{ // 초기값 지정
+HashMap<Integer, String> map = new HashMap<>() {% raw %}{{ // 초기값 지정
     put(1, "사과");
     put(2, "바나나");
     put(3, "포도");
-}};
+}}{% endraw %};
 
 // entrySet().iterator()
 Iterator<Entry<Integer, String>> entries = map.entrySet().iterator();
