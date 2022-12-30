@@ -25,7 +25,7 @@ $ java -jar file_name.jar
 
 ## 4. 압축 구조
 
-![compression-structure](/assets/img/2022-05-26-java-differences-between-jar-and-war/fetch-headcompression-structure.png)
+![compression-structure](/assets/img/2022-05-26-java-differences-between-jar-and-war/compression-structure.png)
 
 ## [출처 및 참고]
 * <https://hye0-log.tistory.com/27>
