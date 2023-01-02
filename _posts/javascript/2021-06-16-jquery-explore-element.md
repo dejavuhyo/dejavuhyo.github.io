@@ -103,4 +103,4 @@ $("li.select").siblings('.txt') // 형제 노드를 선택
 ```
 
 ## [출처 및 참고]
-* <https://tutorialpost.apptilus.com/code/posts/jquery/jq-node-traverse/>
+* [https://tutorialpost.apptilus.com/code/posts/jquery/jq-node-traverse/](https://tutorialpost.apptilus.com/code/posts/jquery/jq-node-traverse/)

@@ -89,4 +89,4 @@ type 키워드를 사용하여 유효한 타입을 명시하면, 해당 데이�
 properties 키워드를 사용하면, 해당 객체가 가지는 프로퍼티가 유효한지를 검사할 수 있다.
 
 ## [출처 및 참고]
-* <http://www.tcpschool.com/json/json_schema_schema>
+* [http://www.tcpschool.com/json/json_schema_schema](http://www.tcpschool.com/json/json_schema_schema)

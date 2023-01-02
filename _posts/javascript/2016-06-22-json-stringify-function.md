@@ -85,4 +85,4 @@ document.write(jsonText);
 ```
 
 ## [출처 및 참고]
-* <https://msdn.microsoft.com/ko-kr/library/cc836459(v=vs.94).aspx>
+* [https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)

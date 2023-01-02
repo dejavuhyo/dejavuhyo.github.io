@@ -28,4 +28,4 @@ $(document).ready(function() {
 ```
 
 ## [출처 및 참고]
-* <https://alpreah.tistory.com/101>
+* [https://alpreah.tistory.com/101](https://alpreah.tistory.com/101)

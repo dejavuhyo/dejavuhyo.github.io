@@ -100,4 +100,4 @@ JSON 배열을 그림으로 나타내면 다음과 같다.
 ![json-array](/assets/img/2022-10-12-json-structure/json-array.png)
 
 ## [출처 및 참고]
-* <http://www.tcpschool.com/json/json_basic_structure>
+* [http://www.tcpschool.com/json/json_basic_structure](http://www.tcpschool.com/json/json_basic_structure)

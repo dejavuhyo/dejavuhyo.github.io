@@ -49,4 +49,4 @@ var day = weekday[today.getDay()];
 ```
 
 ## [출처 및 참고]
-* <https://42kchoi.tistory.com/102>
+* [https://42kchoi.tistory.com/102](https://42kchoi.tistory.com/102)

@@ -29,4 +29,4 @@ console.log(name)
 ```
 
 ## [출처 및 참고]
-* <https://gurtn.tistory.com/126>
+* [https://gurtn.tistory.com/126](https://gurtn.tistory.com/126)
