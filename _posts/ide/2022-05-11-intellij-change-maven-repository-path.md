@@ -71,5 +71,5 @@ repository 경로를 변경하려면 `Local repository`에서 repository 경로�
 ![initellij-maven](/assets/img/2022-05-11-intellij-change-maven-repository-path/initellij-maven.png)
 
 ## [출처 및 참고]
-* <https://4urdev.tistory.com/75>
-* <https://maven.apache.org/settings.html>
+* [https://4urdev.tistory.com/75](https://4urdev.tistory.com/75)
+* [https://maven.apache.org/settings.html](https://maven.apache.org/settings.html)

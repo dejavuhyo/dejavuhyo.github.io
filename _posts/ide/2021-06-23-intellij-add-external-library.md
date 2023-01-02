@@ -25,4 +25,4 @@ tags: [intellij-add-external-library, intellij-external-library, add-external-li
 ![add-lib](/assets/img/2021-06-23-intellij-add-external-library/add-lib.png)
 
 ## [출처 및 참고]
-* <https://goddaehee.tistory.com/243>
+* [https://goddaehee.tistory.com/243](https://goddaehee.tistory.com/243)

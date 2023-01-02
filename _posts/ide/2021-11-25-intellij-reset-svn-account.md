@@ -13,4 +13,4 @@ tags: [intellij-svn-account, intellij-svn-reset, svn-reset, svn-account, reset-s
 ![clear-auth-cache](/assets/img/2021-11-25-intellij-reset-svn-account/clear-auth-cache.png)
 
 ## [출처 및 참고]
-* <https://amagrammer91.tistory.com/3>
+* [https://amagrammer91.tistory.com/3](https://amagrammer91.tistory.com/3)

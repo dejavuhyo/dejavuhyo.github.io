@@ -17,4 +17,4 @@ tags: [intellij-untrusted-servers-certificate, untrusted-servers-certificate, in
 ![server-certificates](/assets/img/2022-05-02-intellij-untrusted-servers-certificate/server-certificates.png)
 
 ## [출처 및 참고]
-* <https://devkingdom.tistory.com/295>
+* [https://devkingdom.tistory.com/295](https://devkingdom.tistory.com/295)

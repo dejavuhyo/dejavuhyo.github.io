@@ -31,4 +31,4 @@ tags: [intellij-plugin, install-plugin, install-plugin-disk, intellij-plugin-dis
 ![installed](/assets/img/2021-02-19-intellij-install-plugin-from-disk/installed.png)
 
 ## [출처 및 참고]
-* <https://www.jetbrains.com/help/idea/managing-plugins.html#install_plugin_from_disk>
+* [https://www.jetbrains.com/help/idea/managing-plugins.html#install_plugin_from_disk](https://www.jetbrains.com/help/idea/managing-plugins.html#install_plugin_from_disk)

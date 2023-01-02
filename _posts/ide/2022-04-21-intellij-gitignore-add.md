@@ -18,4 +18,4 @@ tags: [intellij-gitignore-add, intellij-gitignore, gitignore, gitignore-add, 인
 ![add](/assets/img/2022-04-21-intellij-gitignore-add/add.png)
 
 ## [출처 및 참고]
-* <https://steady-hello.tistory.com/44>
+* [https://steady-hello.tistory.com/44](https://steady-hello.tistory.com/44)

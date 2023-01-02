@@ -24,6 +24,6 @@ IntelliJ Maven 설정을 `Use Maven wrapper`로 변경한다.
 ![intellij-settings](/assets/img/2022-11-10-intellij-maven-blocked-the-mirror-error/intellij-settings.png)
 
 ## [출처 및 참고]
-* <https://velog.io/@rosa/maven-Blocked-the-mirror-%EC%97%90%EB%9F%AC>
-* <https://jjam89.tistory.com/201>
-* <https://stackoverflow.com/questions/67001968/how-to-disable-maven-blocking-external-http-repositories>
+* [https://velog.io/@rosa/maven-Blocked-the-mirror-%EC%97%90%EB%9F%AC](https://velog.io/@rosa/maven-Blocked-the-mirror-%EC%97%90%EB%9F%AC)
+* [https://jjam89.tistory.com/201](https://jjam89.tistory.com/201)
+* [https://stackoverflow.com/questions/67001968/how-to-disable-maven-blocking-external-http-repositories](https://stackoverflow.com/questions/67001968/how-to-disable-maven-blocking-external-http-repositories)

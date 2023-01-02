@@ -25,5 +25,5 @@ IntelliJ 에디터 창(Editor Tabs)에서 마우스 오른쪽 클릭 → Git →
 ![right-click-checkout](/assets/img/2022-05-20-intellij-change-git-branch/right-click-checkout.png)
 
 ## [출처 및 참고]
-* <https://r-o-p.tistory.com/4>
-* <https://wakestand.tistory.com/669>
+* [https://r-o-p.tistory.com/4](https://r-o-p.tistory.com/4)
+* [https://wakestand.tistory.com/669](https://wakestand.tistory.com/669)

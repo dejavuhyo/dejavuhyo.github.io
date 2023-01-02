@@ -24,5 +24,5 @@ Hard wrap at 기본값은 120이다.
 ![console-soft-wrap](/assets/img/2022-08-01-intellij-set-line-new-length/console-soft-wrap.png)
 
 ## [출처 및 참고]
-* <https://ajh322.tistory.com/201>
-* <https://itsmine.tistory.com/26>
+* [https://ajh322.tistory.com/201](https://ajh322.tistory.com/201)
+* [https://itsmine.tistory.com/26](https://itsmine.tistory.com/26)

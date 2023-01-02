@@ -79,4 +79,4 @@ JavaDoc 생성 대화상자는 JavaDoc 유틸리티를 호출한다. 대화상�
 * **Open generated documentation in browser:** 생성된 JavaDoc을 브라우저에서 자동으로 연다.
 
 ## [출처 및 참고]
-* <https://www.jetbrains.com/help/idea/working-with-code-documentation.html#view-javadocs>
+* [https://www.jetbrains.com/help/idea/working-with-code-documentation.html#view-javadocs](https://www.jetbrains.com/help/idea/working-with-code-documentation.html#view-javadocs)
