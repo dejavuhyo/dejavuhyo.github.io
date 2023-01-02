@@ -72,6 +72,6 @@ Annotation은 Java5부터 새롭게 추가된 문법요소로, 사전적 의미�
 | @Transient | 데이터베이스에서 실제 사용하지 않는 것을 지정, 임시값으로 활용 |
 
 ## [출처 및 참고]
-* <https://chunjyu.tistory.com/23>
-* <https://palyoung.tistory.com/72>
-* <https://helloworld-88.tistory.com/147>
+* [https://chunjyu.tistory.com/23](https://chunjyu.tistory.com/23)
+* [https://palyoung.tistory.com/72](https://palyoung.tistory.com/72)
+* [https://helloworld-88.tistory.com/147](https://helloworld-88.tistory.com/147)

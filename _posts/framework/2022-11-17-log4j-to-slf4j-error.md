@@ -57,5 +57,5 @@ configurations {
 ```
 
 ## [출처 및 참고]
-* <https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#howto.logging.log4j>
-* <https://stackoverflow.com/questions/59629214/caused-by-org-apache-logging-log4j-loggingexception-log4j-slf4j-impl-cannot-be>
+* [https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#howto.logging.log4j](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#howto.logging.log4j)
+* [https://stackoverflow.com/questions/59629214/caused-by-org-apache-logging-log4j-loggingexception-log4j-slf4j-impl-cannot-be](https://stackoverflow.com/questions/59629214/caused-by-org-apache-logging-log4j-loggingexception-log4j-slf4j-impl-cannot-be)

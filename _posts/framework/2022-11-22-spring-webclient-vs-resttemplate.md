@@ -38,5 +38,5 @@ Mono 또는 Flux를 반환하는 Web Client를 통해 API를 호출하면 즉시
 `Block()` 메서드를 사용하면 Web Client에서 동기 처리와 같은 RestTemplate를 얻을 수 있다.
 
 ## [출처 및 참고]
-* <https://howtodoinjava.com/spring-webflux/webclient-vs-resttemplate/>
-* <https://www.baeldung.com/spring-webclient-resttemplate>
+* [https://howtodoinjava.com/spring-webflux/webclient-vs-resttemplate/](https://howtodoinjava.com/spring-webflux/webclient-vs-resttemplate/)
+* [https://www.baeldung.com/spring-webclient-resttemplate](https://www.baeldung.com/spring-webclient-resttemplate)

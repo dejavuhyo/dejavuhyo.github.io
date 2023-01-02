@@ -51,5 +51,5 @@ spring.profiles.active=dev
 ![application-failed-to-start](/assets/img/2022-04-25-spring-boot-separating-property-files/application-failed-to-start.png)
 
 ## [출처 및 참고]
-* <https://zzang9ha.tistory.com/348>
-* <https://royleej9.tistory.com/entry/Spring-properties-%EC%84%A4%EC%A0%95-%EB%B6%84%EB%A6%AC>
+* [https://zzang9ha.tistory.com/348](https://zzang9ha.tistory.com/348)
+* [https://royleej9.tistory.com/entry/Spring-properties-%EC%84%A4%EC%A0%95-%EB%B6%84%EB%A6%AC](https://royleej9.tistory.com/entry/Spring-properties-%EC%84%A4%EC%A0%95-%EB%B6%84%EB%A6%AC)

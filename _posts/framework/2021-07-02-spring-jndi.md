@@ -84,5 +84,5 @@ public class DBConnection {
 ```
 
 ## [출처 및 참고]
-* <https://all-record.tistory.com/104>
-* <https://jieun0113.tistory.com/109>
+* [https://all-record.tistory.com/104](https://all-record.tistory.com/104)
+* [https://jieun0113.tistory.com/109](https://jieun0113.tistory.com/109)

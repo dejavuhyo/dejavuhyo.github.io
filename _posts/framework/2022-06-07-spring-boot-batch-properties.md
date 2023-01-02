@@ -19,4 +19,4 @@ tags: [spring-boot-batch-properties, spring-batch-properties, batch-properties]
 | spring.batch.job.names | 시작시 실행할 작업 이름의 쉼표로 구분된 목록이다(예: 'job1,job2'). 기본적으로 컨텍스트에서 찾은 모든 작업이 실행된다. |  |
 
 ## [출처 및 참고]
-* <https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html#appendix.application-properties.integration>
+* [https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html#appendix.application-properties.integration](https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html#appendix.application-properties.integration)

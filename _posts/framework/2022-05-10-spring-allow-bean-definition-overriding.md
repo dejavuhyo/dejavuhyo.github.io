@@ -24,4 +24,4 @@ spring.main.allow-bean-definition-overriding=true
 ```
 
 ## [출처 및 참고]
-* <https://n1tjrgns.tistory.com/172>
+* [https://n1tjrgns.tistory.com/172](https://n1tjrgns.tistory.com/172)

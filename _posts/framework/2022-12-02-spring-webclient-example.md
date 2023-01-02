@@ -165,6 +165,6 @@ public class WebServiceImpl implements WebService {
 ```
 
 ## [출처 및 참고]
-* <https://github.com/dejavuhyo/web-client>
-* <https://www.javadevjournal.com/spring/spring-webclient/>
-* <https://www.codeusingjava.com/boot/webclient>
+* [https://github.com/dejavuhyo/web-client](https://github.com/dejavuhyo/web-client)
+* [https://www.javadevjournal.com/spring/spring-webclient/](https://www.javadevjournal.com/spring/spring-webclient/)
+* [https://www.codeusingjava.com/boot/webclient](https://www.codeusingjava.com/boot/webclient)

@@ -80,5 +80,5 @@ public class DemoServiceImpl implements DemoService {
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/spring-async>
-* <https://springboot.tistory.com/38>
+* [https://www.baeldung.com/spring-async](https://www.baeldung.com/spring-async)
+* [https://springboot.tistory.com/38](https://springboot.tistory.com/38)

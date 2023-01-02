@@ -158,7 +158,7 @@ public class SessionController {
 
 ## 3. 소스 코드
 
-* <https://github.com/dejavuhyo/redis-session>
+* [https://github.com/dejavuhyo/redis-session](https://github.com/dejavuhyo/redis-session)
 
 ## [출처 및 참고]
-* <https://velog.io/@albaneo0724/Spring-Redis%EB%A5%BC-session-storage%EB%A1%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0>
+* [https://velog.io/@albaneo0724/Spring-Redis%EB%A5%BC-session-storage%EB%A1%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0](https://velog.io/@albaneo0724/Spring-Redis%EB%A5%BC-session-storage%EB%A1%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)

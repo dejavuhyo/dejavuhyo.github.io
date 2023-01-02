@@ -92,5 +92,5 @@ jdbc.password=postgres
 * **maxWait:** 풀에 사용 가능할 연결이 없을 때 대기하는 최대 시간을 밀리 초 단위로 나타낸다. 이 대기시간 후에도 사용 가능한 연결이 없으면 예외를 발생한다. -1은 무한대기를 나타내며 기본값은 -1이다.
 
 ## [출처 및 참고]
-* <https://goodncuteman.tistory.com/25>
-* <https://offbyone.tistory.com/161>
+* [https://goodncuteman.tistory.com/25](https://goodncuteman.tistory.com/25)
+* [https://offbyone.tistory.com/161](https://offbyone.tistory.com/161)

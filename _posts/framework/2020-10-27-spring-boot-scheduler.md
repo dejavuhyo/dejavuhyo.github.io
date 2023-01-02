@@ -110,6 +110,6 @@ public class Schedule {
 ```
 
 ## [출처 및 참고]
-* <https://jeong-pro.tistory.com/186>
-* <http://jmlim.github.io/spring/2018/11/27/spring-boot-schedule/>
-* <http://www.cronmaker.com/>
+* [https://jeong-pro.tistory.com/186](https://jeong-pro.tistory.com/186)
+* [http://jmlim.github.io/spring/2018/11/27/spring-boot-schedule/](http://jmlim.github.io/spring/2018/11/27/spring-boot-schedule/)
+* [http://www.cronmaker.com/](http://www.cronmaker.com/)

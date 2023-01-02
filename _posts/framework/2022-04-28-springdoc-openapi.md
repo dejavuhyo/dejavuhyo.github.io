@@ -151,5 +151,5 @@ public class OpenApiConfig {
 * <https://github.com/dejavuhyo/springdoc-openapi>
 
 ## [출처 및 참고]
-* <https://springdoc.org/>
-* <https://blog.jiniworld.me/83>
+* [https://springdoc.org/](https://springdoc.org/)
+* [https://blog.jiniworld.me/83](https://blog.jiniworld.me/83)

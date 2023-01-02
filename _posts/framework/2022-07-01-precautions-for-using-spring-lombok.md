@@ -238,5 +238,5 @@ lombok.data.flagUsage= error
 ```
 
 ## [출처 및 참고]
-* <https://dev-splin.github.io/spring/Spring-Lombok/>
-* <https://kwonnam.pe.kr/wiki/java/lombok/pitfall>
+* [https://dev-splin.github.io/spring/Spring-Lombok/](https://dev-splin.github.io/spring/Spring-Lombok/)
+* [https://kwonnam.pe.kr/wiki/java/lombok/pitfall](https://kwonnam.pe.kr/wiki/java/lombok/pitfall)

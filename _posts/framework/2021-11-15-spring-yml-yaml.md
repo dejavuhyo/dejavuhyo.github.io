@@ -202,7 +202,7 @@ windows_drive: 'c:'
 ![yaml-lint](/assets/img/2021-11-15-yaml/yaml-lint.png)
 
 ## [출처 및 참고]
-* <https://ko.wikipedia.org/wiki/YAML>
-* <https://yaml.org/>
-* <https://www.json2yaml.com/>
-* <http://www.yamllint.com/>
+* [https://ko.wikipedia.org/wiki/YAML](https://ko.wikipedia.org/wiki/YAML)
+* [https://yaml.org/](https://yaml.org/)
+* [https://www.json2yaml.com/](https://www.json2yaml.com/)
+* [http://www.yamllint.com/](http://www.yamllint.com/)

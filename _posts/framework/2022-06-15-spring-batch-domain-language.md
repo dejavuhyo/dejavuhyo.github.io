@@ -30,4 +30,4 @@ Spring Batch는 매우 복잡한 처리 요구 사항을 해결하기 위한 인
 위의 다이어그램은 Spring Batch의 도메인 언어를 구성하는 주요 개념을 강조한다. 작업에는 일대다 단계가 있으며, 각 단계는 정확히 하나의 `ItemReader`, 하나의 `ItemProcessor` 및 하나의 `ItemWriter`가 있다. 작업은 `JobLauncher`를 사용하여 시작해야 하며, 현재 실행 중인 프로세스에 대한 메타데이터를 `JobRepository`에 저장해야 한다.
 
 ## [출처 및 참고]
-* <https://docs.spring.io/spring-batch/docs/4.2.x/reference/html/index-single.html#domainLanguageOfBatch>
+* [https://docs.spring.io/spring-batch/docs/4.2.x/reference/html/index-single.html#domainLanguageOfBatch](https://docs.spring.io/spring-batch/docs/4.2.x/reference/html/index-single.html#domainLanguageOfBatch)

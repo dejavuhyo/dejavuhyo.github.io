@@ -155,5 +155,5 @@ Instance가 하나만 생성되기 때문에 동일한 것을 참조, 기본적�
 | application | 하나의 Bean 정의에 대해서 ServletContext의 라이프사이클을 지정한다. Web-aware Spring ApplicationContext 안에서만 유효하다. |
 
 ## [출처 및 참고]
-* <https://velog.io/@gillog/Spring-Bean-%EC%A0%95%EB%A6%AC>
-* <https://docs.spring.io/spring-framework/docs/4.2.5.RELEASE/spring-framework-reference/html/beans.html>
+* [https://velog.io/@gillog/Spring-Bean-%EC%A0%95%EB%A6%AC](https://velog.io/@gillog/Spring-Bean-%EC%A0%95%EB%A6%AC)
+* [https://docs.spring.io/spring-framework/docs/4.2.5.RELEASE/spring-framework-reference/html/beans.html](https://docs.spring.io/spring-framework/docs/4.2.5.RELEASE/spring-framework-reference/html/beans.html)

@@ -161,5 +161,5 @@ public class RetailDTO {
 ```
 
 ## [출처 및 참고]
-* <https://yamea-guide.tistory.com/entry/Spring-MyBatis-Batch-Transaction-%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%8C%80%EC%9A%A9%EB%9F%89-SQL%EC%9E%91%EC%97%85>
-* <https://coder-question-ko.com/cq-ko-blog/101377>
+* [https://yamea-guide.tistory.com/entry/Spring-MyBatis-Batch-Transaction-%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%8C%80%EC%9A%A9%EB%9F%89-SQL%EC%9E%91%EC%97%85](https://yamea-guide.tistory.com/entry/Spring-MyBatis-Batch-Transaction-%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%8C%80%EC%9A%A9%EB%9F%89-SQL%EC%9E%91%EC%97%85)
+* [https://coder-question-ko.com/cq-ko-blog/101377](https://coder-question-ko.com/cq-ko-blog/101377)

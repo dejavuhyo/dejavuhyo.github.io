@@ -95,4 +95,4 @@ public class DemoVO {
 ![postmapping](/assets/img/2021-03-26-get-http-post-body-in-spring-boot/postmapping.png)
 
 ## [출처 및 참고]
-* <https://mangkyu.tistory.com/17>
+* [https://mangkyu.tistory.com/17](https://mangkyu.tistory.com/17)

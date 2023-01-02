@@ -360,5 +360,5 @@ public class SearchVO {
 ```
 
 ## [출처 및 참고]
-* <https://mangkyu.tistory.com/49>
-* <https://shinsunyoung.tistory.com/47>
+* [https://mangkyu.tistory.com/49](https://mangkyu.tistory.com/49)
+* [https://shinsunyoung.tistory.com/47](https://shinsunyoung.tistory.com/47)

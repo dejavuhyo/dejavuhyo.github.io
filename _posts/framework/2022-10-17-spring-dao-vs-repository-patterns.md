@@ -215,4 +215,4 @@ public class UserRepositoryImpl implements UserRepository {
 * DAO는 저장소를 사용하여 구현할 수 없다. 그러나 Repository는 기본 저장소에 액세스하기 위해 DAO를 사용할 수 있다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-dao-vs-repository>
+* [https://www.baeldung.com/java-dao-vs-repository](https://www.baeldung.com/java-dao-vs-repository)

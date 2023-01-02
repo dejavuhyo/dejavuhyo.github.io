@@ -16,4 +16,4 @@ server.servlet.session.cookie.name=CHANGESESSION
 ```
 
 ## [출처 및 참고]
-* <https://brunch.co.kr/@springboot/114>
+* [https://brunch.co.kr/@springboot/114](https://brunch.co.kr/@springboot/114)

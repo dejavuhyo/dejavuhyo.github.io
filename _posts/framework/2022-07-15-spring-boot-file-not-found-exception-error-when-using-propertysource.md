@@ -27,4 +27,4 @@ java.io.FileNotFoundException: Could not open ServletContext resource [/properti
 ```
 
 ## [출처 및 참고]
-* <https://atoz-develop.tistory.com/entry/Spring-MVC-PropertySource-%EC%82%AC%EC%9A%A9-%EC%A4%91-FileNotFoundException-Could-not-open-ServletContext-resource-%EC%97%90%EB%9F%AC>
+* [https://atoz-develop.tistory.com/entry/Spring-MVC-PropertySource-%EC%82%AC%EC%9A%A9-%EC%A4%91-FileNotFoundException-Could-not-open-ServletContext-resource-%EC%97%90%EB%9F%AC](https://atoz-develop.tistory.com/entry/Spring-MVC-PropertySource-%EC%82%AC%EC%9A%A9-%EC%A4%91-FileNotFoundException-Could-not-open-ServletContext-resource-%EC%97%90%EB%9F%AC)

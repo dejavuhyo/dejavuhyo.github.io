@@ -43,4 +43,4 @@ public void removeCookie(HttpServletResponse response) {
 > 쿠키 정보 확인은 `HttpServletRequest`를 사용하고, 쿠키를 설정은 `HttpServletResponse`를 사용한다.
 
 ## [출처 및 참고]
-* <https://medium.com/@aaaalpooo/spring-framework-spring-boot-%EC%BF%A0%ED%82%A4-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EC%A0%9C%EA%B1%B0-5aab0bf1ab67>
+* [https://medium.com/@aaaalpooo/spring-framework-spring-boot-%EC%BF%A0%ED%82%A4-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EC%A0%9C%EA%B1%B0-5aab0bf1ab67](https://medium.com/@aaaalpooo/spring-framework-spring-boot-%EC%BF%A0%ED%82%A4-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EC%A0%9C%EA%B1%B0-5aab0bf1ab67)

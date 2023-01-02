@@ -98,5 +98,5 @@ public String main(@ModelAttribute("user") UserVO userVO) {
 ```
 
 ## [출처 및 참고]
-* <https://haenny.tistory.com/107>
-* <https://doing7.tistory.com/10>
+* [https://haenny.tistory.com/107](https://haenny.tistory.com/107)
+* [https://doing7.tistory.com/10](https://doing7.tistory.com/10)

@@ -120,4 +120,4 @@ Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
 ```
 
 ## [출처 및 참고]
-* <https://junghn.tistory.com/entry/SPRING-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95-Error-creating-bean-with-name-orgspringframeworkvalidationbeanvalidationOptionalValidatorFactoryBean0>
+* [https://junghn.tistory.com/entry/SPRING-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95-Error-creating-bean-with-name-orgspringframeworkvalidationbeanvalidationOptionalValidatorFactoryBean0](https://junghn.tistory.com/entry/SPRING-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95-Error-creating-bean-with-name-orgspringframeworkvalidationbeanvalidationOptionalValidatorFactoryBean0)

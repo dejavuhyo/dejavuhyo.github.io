@@ -46,5 +46,5 @@ Board board = new Board(2L, "content value");
 ```
 
 ## [출처 및 참고]
-* <https://goyunji.tistory.com/98>
-* <https://athena7.tistory.com/entry/Lombok-NoArgsConstructor-AllArgsConstructor-RequiredArgsConstructor>
+* [https://goyunji.tistory.com/98](https://goyunji.tistory.com/98)
+* [https://athena7.tistory.com/entry/Lombok-NoArgsConstructor-AllArgsConstructor-RequiredArgsConstructor](https://athena7.tistory.com/entry/Lombok-NoArgsConstructor-AllArgsConstructor-RequiredArgsConstructor)

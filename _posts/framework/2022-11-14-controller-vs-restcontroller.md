@@ -117,5 +117,5 @@ findUser는 User 객체를 그대로 반환하고 있다. 이러한 경우의 �
 예를 들어 어떤 객체의 생성 요청이라면 201 CREATED를 기대하지만, 객체를 그대로 반환하면 HttpStatus를 설정해줄 수 없다. 그래서 객체를 상황에 맞는 ResponseEntity로 감싸서 반환해주어야 한다.
 
 ## [출처 및 참고]
-* <https://mangkyu.tistory.com/49>
-* <https://www.genuitec.com/spring-frameworkrestcontroller-vs-controller/>
+* [https://mangkyu.tistory.com/49](https://mangkyu.tistory.com/49)
+* [https://www.genuitec.com/spring-frameworkrestcontroller-vs-controller/](https://www.genuitec.com/spring-frameworkrestcontroller-vs-controller/)

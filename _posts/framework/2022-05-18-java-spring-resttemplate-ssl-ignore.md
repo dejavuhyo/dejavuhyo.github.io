@@ -72,5 +72,5 @@ public ResponseEntity data() throws KeyStoreException, NoSuchAlgorithmException,
 ```
 
 ## [출처 및 참고]
-* <https://reference-m1.tistory.com/374>
-* <https://gist.github.com/ageofsys/08408cd6e107d665762a30d5e22df0a5>
+* [https://reference-m1.tistory.com/374](https://reference-m1.tistory.com/374)
+* [https://gist.github.com/ageofsys/08408cd6e107d665762a30d5e22df0a5](https://gist.github.com/ageofsys/08408cd6e107d665762a30d5e22df0a5)

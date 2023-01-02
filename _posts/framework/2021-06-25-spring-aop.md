@@ -296,6 +296,6 @@ deleted
 ```
 
 ## [출처 및 참고]
-* <https://ko.wikipedia.org/wiki/%EA%B4%80%EC%A0%90_%EC%A7%80%ED%96%A5_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D>
-* <https://dailyheumsi.tistory.com/202>
-* <https://engkimbs.tistory.com/746>
+* [https://ko.wikipedia.org/wiki/%EA%B4%80%EC%A0%90_%EC%A7%80%ED%96%A5_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D](https://ko.wikipedia.org/wiki/%EA%B4%80%EC%A0%90_%EC%A7%80%ED%96%A5_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
+* [https://dailyheumsi.tistory.com/202](https://dailyheumsi.tistory.com/202)
+* [https://engkimbs.tistory.com/746](https://engkimbs.tistory.com/746)

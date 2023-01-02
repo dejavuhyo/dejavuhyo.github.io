@@ -42,5 +42,5 @@ public class TomcatConfig {
 ```
 
 ## [출처 및 참고]
-* <https://inseok9068.github.io/springboot/springboot-jsp-delay/>
-* <https://dirask.com/questions/Spring-Boot-2-4-Tomcat-9-is-serving-web-page-response-content-extremely-slow-for-first-API-requests-1XrwYp>
+* [https://inseok9068.github.io/springboot/springboot-jsp-delay/](https://inseok9068.github.io/springboot/springboot-jsp-delay/)
+* [https://dirask.com/questions/Spring-Boot-2-4-Tomcat-9-is-serving-web-page-response-content-extremely-slow-for-first-API-requests-1XrwYp](https://dirask.com/questions/Spring-Boot-2-4-Tomcat-9-is-serving-web-page-response-content-extremely-slow-for-first-API-requests-1XrwYp)

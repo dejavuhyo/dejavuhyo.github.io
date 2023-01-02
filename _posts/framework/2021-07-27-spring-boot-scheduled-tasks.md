@@ -37,4 +37,4 @@ Spring Expressions를 사용하여 태스크의 구성을 외부화하고 속성
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/spring-scheduled-tasks>
+* [https://www.baeldung.com/spring-scheduled-tasks](https://www.baeldung.com/spring-scheduled-tasks)

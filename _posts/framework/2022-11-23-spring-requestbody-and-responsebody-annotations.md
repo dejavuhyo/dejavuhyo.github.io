@@ -161,4 +161,4 @@ Date: Thu, 20 Feb 2020 19:43:19 GMT
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/spring-request-response-body>
+* [https://www.baeldung.com/spring-request-response-body](https://www.baeldung.com/spring-request-response-body)

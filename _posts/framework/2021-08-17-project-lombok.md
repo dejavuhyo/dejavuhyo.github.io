@@ -329,5 +329,5 @@ class Person {
 ```
 
 ## [출처 및 참고]
-* <https://korecm.github.io/Lombok%EC%9D%B4%EB%9E%80>
-* <https://projectlombok.org/features/all>
+* [https://korecm.github.io/Lombok%EC%9D%B4%EB%9E%80](https://korecm.github.io/Lombok%EC%9D%B4%EB%9E%80)
+* [https://projectlombok.org/features/all](https://projectlombok.org/features/all)

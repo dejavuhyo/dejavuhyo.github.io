@@ -71,5 +71,5 @@ IoC 방식으로 bean을 관리한다는 의미에서 bean factory나 applicatio
 application context는 그 자체로 ApplicationContext 인터페이스를 구현한 오브젝트를 말하기도 하는데, 하나의 애플리케이션에 보통 여러 개의 ApplicationContext 객체가 만들어진다. 이를 통칭해서 spring container라고 부를 수 있다.
 
 ## [출처 및 참고]
-* <https://jongmin92.github.io/2018/02/11/Spring/spring-ioc-di/>
-* <https://gangnam-americano.tistory.com/60>
+* [https://jongmin92.github.io/2018/02/11/Spring/spring-ioc-di/](https://jongmin92.github.io/2018/02/11/Spring/spring-ioc-di/)
+* [https://gangnam-americano.tistory.com/60](https://gangnam-americano.tistory.com/60)

@@ -203,7 +203,7 @@ Spring Boot 구동 시 자동으로 `logback.xml` 파일이 있는지 탐색하�
 ```
 
 ## [출처 및 참고]
-* <http://logback.qos.ch/manual/index.html>
-* <https://kchanguk.tistory.com/48>
-* <https://goddaehee.tistory.com/206>
-* <https://bamdule.tistory.com/29>
+* [http://logback.qos.ch/manual/index.html](http://logback.qos.ch/manual/index.html)
+* [https://kchanguk.tistory.com/48](https://kchanguk.tistory.com/48)
+* [https://goddaehee.tistory.com/206](https://goddaehee.tistory.com/206)
+* [https://bamdule.tistory.com/29](https://bamdule.tistory.com/29)
