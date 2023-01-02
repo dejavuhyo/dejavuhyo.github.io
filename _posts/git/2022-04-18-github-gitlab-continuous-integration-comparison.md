@@ -105,4 +105,4 @@ tags: [github-vs-gitlab, github, gitlab, continuous-integration-comparison, ci-c
 | Helm 차트 저장소 지원 | Helm 차트 저장 및 검색을 지원한다. | Yes | Yes |
 
 ## [출처 및 참고]
-* <https://about.gitlab.com/devops-tools/github-vs-gitlab/ci-missing-github-capabilities/#github-actions-gaps>
+* [https://about.gitlab.com/devops-tools/github-vs-gitlab/ci-missing-github-capabilities/#github-actions-gaps](https://about.gitlab.com/devops-tools/github-vs-gitlab/ci-missing-github-capabilities/#github-actions-gaps)

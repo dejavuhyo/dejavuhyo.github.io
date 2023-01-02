@@ -58,6 +58,6 @@ gitignore에 설정한 정보는 하위 폴더에도 적용된다. 만약 특정
 ![gitignore-io](/assets/img/2021-05-21-git-ignore/gitignore-io.gif)
 
 ## [출처 및 참고]
-* <https://www.lesstif.com/gitbook/git-ignore-gitignore-54952369.html>
-* <https://www.lesstif.com/gitbook/gitignore-gitignore-io-18220154.html>
-* <https://www.toptal.com/developers/gitignore>
+* [https://www.lesstif.com/gitbook/git-ignore-gitignore-54952369.html](https://www.lesstif.com/gitbook/git-ignore-gitignore-54952369.html)
+* [https://www.lesstif.com/gitbook/gitignore-gitignore-io-18220154.html](https://www.lesstif.com/gitbook/gitignore-gitignore-io-18220154.html)
+* [https://www.toptal.com/developers/gitignore](https://www.toptal.com/developers/gitignore)

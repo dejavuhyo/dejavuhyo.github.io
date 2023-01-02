@@ -58,4 +58,4 @@ merge를 사용하면, 여러 개의 브랜치를 하나로 모을 수 있다.
 ![master-bugfix-fast-forward](/assets/img/2021-05-28-integration-git-branch/master-bugfix-fast-forward.png)
 
 ## [출처 및 참고]
-* <https://backlog.com/git-tutorial/kr/stepup/stepup1_4.html>
+* [https://backlog.com/git-tutorial/kr/stepup/stepup1_4.html](https://backlog.com/git-tutorial/kr/stepup/stepup1_4.html)

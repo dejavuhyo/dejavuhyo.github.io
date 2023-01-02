@@ -73,9 +73,9 @@ rebase 명령어에 'i' 옵션을 지정하면 커밋을 다시 쓰거나 다른
   - 토픽 브랜치 안의 커밋을 한꺼번에 모아서 통합 브랜치에 병합하고자 할 때
 
 ## [출처 및 참고]
-* <https://backlog.com/git-tutorial/kr/stepup/stepup6_1.html>
-* <https://backlog.com/git-tutorial/kr/stepup/stepup6_2.html>
-* <https://backlog.com/git-tutorial/kr/stepup/stepup6_3.html>
-* <https://backlog.com/git-tutorial/kr/stepup/stepup6_4.html>
-* <https://backlog.com/git-tutorial/kr/stepup/stepup6_5.html>
-* <https://backlog.com/git-tutorial/kr/stepup/stepup6_6.html>
+* [https://backlog.com/git-tutorial/kr/stepup/stepup6_1.html](https://backlog.com/git-tutorial/kr/stepup/stepup6_1.html)
+* [https://backlog.com/git-tutorial/kr/stepup/stepup6_2.html](https://backlog.com/git-tutorial/kr/stepup/stepup6_2.html)
+* [https://backlog.com/git-tutorial/kr/stepup/stepup6_3.html](https://backlog.com/git-tutorial/kr/stepup/stepup6_3.html)
+* [https://backlog.com/git-tutorial/kr/stepup/stepup6_4.html](https://backlog.com/git-tutorial/kr/stepup/stepup6_4.html)
+* [https://backlog.com/git-tutorial/kr/stepup/stepup6_5.html](https://backlog.com/git-tutorial/kr/stepup/stepup6_5.html)
+* [https://backlog.com/git-tutorial/kr/stepup/stepup6_6.html](https://backlog.com/git-tutorial/kr/stepup/stepup6_6.html)

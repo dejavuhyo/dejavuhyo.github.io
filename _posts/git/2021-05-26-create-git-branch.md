@@ -30,4 +30,4 @@ Git에서는 작업에 따라 자유롭게 브랜치를 생성할 수 있다. �
 ![create-branch](/assets/img/2021-05-26-create-git-branch/create-branch.png)
 
 ## [출처 및 참고]
-* <https://backlog.com/git-tutorial/kr/stepup/stepup1_2.html>
+* [https://backlog.com/git-tutorial/kr/stepup/stepup1_2.html](https://backlog.com/git-tutorial/kr/stepup/stepup1_2.html)

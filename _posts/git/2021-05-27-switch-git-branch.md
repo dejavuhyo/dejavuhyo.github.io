@@ -30,4 +30,4 @@ stash란, 파일의 변경 내용을 일시적으로 기록해두는 영역이�
 ![stash](/assets/img/2021-05-27-switch-git-branch/stash.png)
 
 ## [출처 및 참고]
-* <https://backlog.com/git-tutorial/kr/stepup/stepup1_3.html>
+* [https://backlog.com/git-tutorial/kr/stepup/stepup1_3.html](https://backlog.com/git-tutorial/kr/stepup/stepup1_3.html)

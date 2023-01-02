@@ -45,4 +45,4 @@ git commit -m "gitignore 다시 적용"
 ```
 
 ## [출처 및 참고]
-* <https://coding-groot.tistory.com/59>
+* [https://coding-groot.tistory.com/59](https://coding-groot.tistory.com/59)

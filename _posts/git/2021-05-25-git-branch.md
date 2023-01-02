@@ -38,4 +38,4 @@ tags: [git-branch, branch, git-브랜치, 깃-브랜치, 브랜치]
 ![master-branch](/assets/img/2021-05-25-git-branch/master-branch.png)
 
 ## [출처 및 참고]
-* <https://backlog.com/git-tutorial/kr/stepup/stepup1_1.html>
+* [https://backlog.com/git-tutorial/kr/stepup/stepup1_1.html](https://backlog.com/git-tutorial/kr/stepup/stepup1_1.html)

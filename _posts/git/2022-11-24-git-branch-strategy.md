@@ -106,6 +106,6 @@ GitLab Flow는 Git Flow처럼 복잡하지 않으면서, GitHub Flow처럼 너�
 GitLab의 CEO는 [최대한의 효울을 위해 지켜야 할 11가지 규칙](https://about.gitlab.com/topics/version-control/what-are-gitlab-flow-best-practices/)에 관해 서술해두었다. 이 11가지 규칙에 대해서 이해하고 적용한다면 최상의 GitLab Flow 전략을 가져갈 수 있을 것이다.
 
 ## [출처 및 참고]
-* <https://ujuc.github.io/2015/12/16/git-flow-github-flow-gitlab-flow/>
-* <https://tecoble.techcourse.co.kr/post/2021-07-15-git-branch/>
-* <https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-github-flow-git-flow-%F0%9F%93%88-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5>
+* [https://ujuc.github.io/2015/12/16/git-flow-github-flow-gitlab-flow/](https://ujuc.github.io/2015/12/16/git-flow-github-flow-gitlab-flow/)
+* [https://tecoble.techcourse.co.kr/post/2021-07-15-git-branch/](https://tecoble.techcourse.co.kr/post/2021-07-15-git-branch/)
+* [https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-github-flow-git-flow-%F0%9F%93%88-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5](https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-github-flow-git-flow-%F0%9F%93%88-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5)

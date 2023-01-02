@@ -74,5 +74,5 @@ $ git push origin master
 ```
 
 ## [출처 및 참고]
-* <https://ondemand.tistory.com/264>
-* <https://hyunjun19.github.io/2018/03/09/github-fork-syncing/>
+* [https://ondemand.tistory.com/264](https://ondemand.tistory.com/264)
+* [https://hyunjun19.github.io/2018/03/09/github-fork-syncing/](https://hyunjun19.github.io/2018/03/09/github-fork-syncing/)

@@ -83,5 +83,5 @@ tags: [git-branch-workflow, branch-workflow, branch-workflow, git-브랜치-작�
 이때 만든 핫픽스 브랜치에서의 변경 사항은 'develop' 브랜치에도 병합하여 문제가 되는 부분을 처리해 주어야 한다.
 
 ## [출처 및 참고]
-* <https://backlog.com/git-tutorial/kr/stepup/stepup1_5.html>
-* <https://nvie.com/posts/a-successful-git-branching-model/>
+* [https://backlog.com/git-tutorial/kr/stepup/stepup1_5.html](https://backlog.com/git-tutorial/kr/stepup/stepup1_5.html)
+* [https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/)

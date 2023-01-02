@@ -101,6 +101,6 @@ $ git config --local user.email 이메일
 ```
 
 ## [출처 및 참고]
-* <https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration>
-* <https://somjang.tistory.com/entry/Git-Git-Bash-%ED%84%B0%EB%AF%B8%EB%84%90-%EA%B3%84%EC%A0%95-%EB%B3%80%EA%B2%BD-%EB%B0%A9%EB%B2%95>
-* <https://velog.io/@hanblueblue/Git-user-%EC%A0%95%EB%B3%B4-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0>
+* [https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
+* [https://somjang.tistory.com/entry/Git-Git-Bash-%ED%84%B0%EB%AF%B8%EB%84%90-%EA%B3%84%EC%A0%95-%EB%B3%80%EA%B2%BD-%EB%B0%A9%EB%B2%95](https://somjang.tistory.com/entry/Git-Git-Bash-%ED%84%B0%EB%AF%B8%EB%84%90-%EA%B3%84%EC%A0%95-%EB%B3%80%EA%B2%BD-%EB%B0%A9%EB%B2%95)
+* [https://velog.io/@hanblueblue/Git-user-%EC%A0%95%EB%B3%B4-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0](https://velog.io/@hanblueblue/Git-user-%EC%A0%95%EB%B3%B4-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0)

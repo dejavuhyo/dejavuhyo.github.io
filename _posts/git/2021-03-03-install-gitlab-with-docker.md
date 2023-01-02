@@ -96,5 +96,5 @@ docker: Error response from daemon: driver failed programming external connectiv
 * 해결 방법: 포트 변경
 
 ## [출처 및 참고]
-* <https://docs.gitlab.com/omnibus/docker/>
-* <https://mrgamza.tistory.com/764>
+* [https://docs.gitlab.com/omnibus/docker/](https://docs.gitlab.com/omnibus/docker/)
+* [https://mrgamza.tistory.com/764](https://mrgamza.tistory.com/764)

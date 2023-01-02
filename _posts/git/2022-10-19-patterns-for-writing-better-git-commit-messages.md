@@ -88,7 +88,7 @@ tags: [git, git-commit, git-commit-message, git-commitlint, commitlint, lint-com
 ![ailbaba-fusion-commit](/assets/img/2022-10-19-patterns-for-writing-better-git-commit-messages/ailbaba-fusion-commit.png)
 
 ## [출처 및 참고]
-* <https://dev.to/helderberto/patterns-for-writing-better-git-commit-messages-4ba0>
-* <https://nohack.tistory.com/m/17>
-* <https://cocoon1787.tistory.com/m/708>
-* <https://github.com/RomuloOliveira/commit-messages-guide>
+* [https://dev.to/helderberto/patterns-for-writing-better-git-commit-messages-4ba0](https://dev.to/helderberto/patterns-for-writing-better-git-commit-messages-4ba0)
+* [https://nohack.tistory.com/m/17](https://nohack.tistory.com/m/17)
+* [https://cocoon1787.tistory.com/m/708](https://cocoon1787.tistory.com/m/708)
+* [https://github.com/RomuloOliveira/commit-messages-guide](https://github.com/RomuloOliveira/commit-messages-guide)
