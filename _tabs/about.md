@@ -2,11 +2,11 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
----
+--- 
 
 ## ✨공대베짱이✨
 
-<a href="https://github.com/dejavuhyo/dejavuhyo.github.io/blob/master/assets/img/favicons/android-chrome-192x192.png" title="me"><img src="https://github.com/dejavuhyo/dejavuhyo.github.io/blob/master/assets/img/favicons/android-chrome-192x192.png" /></a>
+<a href="https://raw.githubusercontent.com/dejavuhyo/dejavuhyo.github.io/master/assets/img/favicons/android-chrome-192x192.png" title="me"><img src="https://raw.githubusercontent.com/dejavuhyo/dejavuhyo.github.io/master/assets/img/favicons/android-chrome-192x192.png" /></a>
 
 ## ⌨️Tech Stack🖱️
 
