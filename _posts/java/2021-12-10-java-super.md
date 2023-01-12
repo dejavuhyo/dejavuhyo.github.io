@@ -90,4 +90,4 @@ public class SuperSub extends SuperBase {
 슈퍼를 사용 하여 자식 클래스에서 재정의된 메서드에 액세스 할 수 있다. 생성자의 super.printMessage()는 SuperBase에서 부모 메서드를 호출한다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-super>
+* [https://www.baeldung.com/java-super](https://www.baeldung.com/java-super)

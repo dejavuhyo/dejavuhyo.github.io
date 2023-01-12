@@ -54,4 +54,4 @@ C:\Users\user>javac
 ![img008](/assets/img/2020-11-11-java-classpath/img008.png)
 
 ## [출처 및 참고]
-* <https://hyoje420.tistory.com/7>
+* [https://hyoje420.tistory.com/7](https://hyoje420.tistory.com/7)

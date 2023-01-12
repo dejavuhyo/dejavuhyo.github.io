@@ -253,4 +253,4 @@ public class GenericFile {
 취약한 기본 클래스 문제를 해결 하기 위해 final 키워드를 사용하여 하위 클래스가 writeContent() 메서드를 재정의하는 것을 방지 할 수 있다. 적절한 문서도 도움이 될 수 있다. 그리고 마지막으로 중요한 것은 구성이 일반적으로 상속보다 우선되어야 한다는 것이다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-polymorphism>
+* [https://www.baeldung.com/java-polymorphism](https://www.baeldung.com/java-polymorphism)

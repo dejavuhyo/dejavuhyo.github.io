@@ -72,6 +72,6 @@ public class ClientIP {
 ```
 
 ## [출처 및 참고]
-* <https://developer.mozilla.org/ko/docs/Web/HTTP/Headers/X-Forwarded-For>
-* <https://linked2ev.github.io/java/2019/05/22/JAVA-1.-java-get-clientIP/>
-* <https://admm.tistory.com/80>
+* [https://developer.mozilla.org/ko/docs/Web/HTTP/Headers/X-Forwarded-For](https://developer.mozilla.org/ko/docs/Web/HTTP/Headers/X-Forwarded-For)
+* [https://linked2ev.github.io/java/2019/05/22/JAVA-1.-java-get-clientIP/](https://linked2ev.github.io/java/2019/05/22/JAVA-1.-java-get-clientIP/)
+* [https://admm.tistory.com/80](https://admm.tistory.com/80)

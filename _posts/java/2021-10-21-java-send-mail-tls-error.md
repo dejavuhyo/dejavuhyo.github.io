@@ -70,5 +70,5 @@ props.put("mail.smtp.ssl.protocols", "TLSv1.2");
 ```
 
 ## [출처 및 참고]
-* <https://bug41.tistory.com/128>
-* <https://heestory217.tistory.com/124>
+* [https://bug41.tistory.com/128](https://bug41.tistory.com/128)
+* [https://heestory217.tistory.com/124](https://heestory217.tistory.com/124)

@@ -166,4 +166,4 @@ assertEquals("Tutorials", diff2);
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/string-processing-commons-lang>
+* [https://www.baeldung.com/string-processing-commons-lang](https://www.baeldung.com/string-processing-commons-lang)

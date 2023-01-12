@@ -78,6 +78,6 @@ String str9 = String.valueOf(objnum);
 ```
 
 ## [출처 및 참고]
-* <https://blog.actorsfit.com/a?ID=01600-a77a8bae-c217-49e6-a5d5-4cca3d7fa7c2>
-* <https://reference-m1.tistory.com/247>
-* <https://nocount.tistory.com/196>
+* [https://blog.actorsfit.com/a?ID=01600-a77a8bae-c217-49e6-a5d5-4cca3d7fa7c2](https://blog.actorsfit.com/a?ID=01600-a77a8bae-c217-49e6-a5d5-4cca3d7fa7c2)
+* [https://reference-m1.tistory.com/247](https://reference-m1.tistory.com/247)
+* [https://nocount.tistory.com/196](https://nocount.tistory.com/196)

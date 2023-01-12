@@ -98,4 +98,4 @@ System.out.println("% 연산자에 의한 결과 : "+ (num1 % num2));
 또한, 같은 우선순위를 가지는 연산자가 둘 이상 있을 때에는 결합 순서에 따라 실행 순서가 결정된다.
 
 ## [출처 및 참고]
-* <http://www.tcpschool.com/java/java_operator_arithmetic>
+* [http://www.tcpschool.com/java/java_operator_arithmetic](http://www.tcpschool.com/java/java_operator_arithmetic)

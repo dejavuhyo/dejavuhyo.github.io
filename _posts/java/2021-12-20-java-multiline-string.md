@@ -138,4 +138,4 @@ public String loadFromFile() throws IOException {
 분명히 이 방법은 런타임에 문자열을 생성할 때는 작동하지 않지만 여러 줄 문자열을 얻는 빠르고 쉬운 방법이다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-multiline-string>
+* [https://www.baeldung.com/java-multiline-string](https://www.baeldung.com/java-multiline-string)

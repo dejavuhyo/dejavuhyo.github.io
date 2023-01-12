@@ -121,4 +121,4 @@ Filtered List (Odd numbers): [1, 3, 5, 7]
 ```
 
 ## [출처 및 참고]
-* <https://www.tutorialspoint.com/commons_collections/commons_collections_filtering_objects.htm>
+* [https://www.tutorialspoint.com/commons_collections/commons_collections_filtering_objects.htm](https://www.tutorialspoint.com/commons_collections/commons_collections_filtering_objects.htm)

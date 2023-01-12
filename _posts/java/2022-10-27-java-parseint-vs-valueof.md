@@ -169,4 +169,4 @@ public void whenValidNumericStringWithRadixIsPassed_thenShouldConvertToInetger()
 | 이 메서드는 문자를 매개 변수로 받아들이고 해당 유니코드 값을 반환한다. | 이 메소드는 문자를 매개 변수로 전달할 때 호환되지 않는 유형 오류를 생성한다. |
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-integer-parseint-vs-valueof>
+* [https://www.baeldung.com/java-integer-parseint-vs-valueof](https://www.baeldung.com/java-integer-parseint-vs-valueof)

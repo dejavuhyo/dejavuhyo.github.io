@@ -79,4 +79,4 @@ assertFalse(Objects.equals(chA, chB));
 `equals()` 메서드는 문자 객체가 서로 같으면 true를 반환하고 그렇지 않으면 false를 반환한다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-compare-characters>
+* [https://www.baeldung.com/java-compare-characters](https://www.baeldung.com/java-compare-characters)

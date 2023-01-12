@@ -127,4 +127,4 @@ public void givenIntegerNotNull_whenCastToObject_thenGetToStringReturnsString() 
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-string-casting-vs-tostring>
+* [https://www.baeldung.com/java-string-casting-vs-tostring](https://www.baeldung.com/java-string-casting-vs-tostring)

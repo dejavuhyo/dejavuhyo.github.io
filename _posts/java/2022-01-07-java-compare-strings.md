@@ -211,4 +211,4 @@ assertThat(StringUtils.compare(null, "abc", false))
 세 번째 부울 인수가 있는 compareIgnoreCase() 메서드는 대소문자를 무시하는 경우를 제외하고 비슷하게 작동한다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-compare-strings>
+* [https://www.baeldung.com/java-compare-strings](https://www.baeldung.com/java-compare-strings)

@@ -25,4 +25,4 @@ do {
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-do-while-loop>
+* [https://www.baeldung.com/java-do-while-loop](https://www.baeldung.com/java-do-while-loop)

@@ -35,6 +35,6 @@ tags: [java-try-catch-vs-if-else, try-catch-vs-if-else, java-try-catch, java-if-
 `try/catch` 블록의 수를 최소한으로 유지하면 성능이 약간 향상되지만, 예외가 발생하여 건너뛸 수 있는 작업을 제외하고는 작업을 이동해도 실제로 차이가 발생하지 않는다.
 
 ## [출처 및 참고]
-* <https://moltak.tistory.com/4>
-* <https://stackoverflow.com/questions/8621762/java-if-vs-try-catch-overhead>
-* <https://code-examples.net/ko/q/4151ff>
+* [https://moltak.tistory.com/4](https://moltak.tistory.com/4)
+* [https://stackoverflow.com/questions/8621762/java-if-vs-try-catch-overhead](https://stackoverflow.com/questions/8621762/java-if-vs-try-catch-overhead)
+* [https://code-examples.net/ko/q/4151ff](https://code-examples.net/ko/q/4151ff)

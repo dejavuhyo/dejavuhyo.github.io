@@ -153,6 +153,6 @@ java -XX:+UseZGC Application.java
 ZGC는 기본 가비지 컬렉터가 아니다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/jvm-garbage-collectors>
-* <https://en.wikipedia.org/wiki/Memory_leak>
-* <https://yaboong.github.io/java/2018/06/09/java-garbage-collection/>
+* [https://www.baeldung.com/jvm-garbage-collectors](https://www.baeldung.com/jvm-garbage-collectors)
+* [https://en.wikipedia.org/wiki/Memory_leak](https://en.wikipedia.org/wiki/Memory_leak)
+* [https://yaboong.github.io/java/2018/06/09/java-garbage-collection/](https://yaboong.github.io/java/2018/06/09/java-garbage-collection/)

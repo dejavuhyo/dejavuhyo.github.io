@@ -126,4 +126,4 @@ for (int i = 0; i < names.length; i++) {
 여기에서 보았듯이 break 및 continue는 반복할 때 편리할 수 있지만 return 문이나 다른 논리로 종종 다시 작성할 수 있다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-control-structures>
+* [https://www.baeldung.com/java-control-structures](https://www.baeldung.com/java-control-structures)

@@ -176,4 +176,4 @@ TodoApp 클래스의 정규화된 이름을 사용하여 애플리케이션을 �
 ![packages](/assets/img/2021-11-26-java-packages/packages.png)
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-packages>
+* [https://www.baeldung.com/java-packages](https://www.baeldung.com/java-packages)

@@ -205,4 +205,4 @@ public class Inheritance04 {
 따라서 변수 a는 40으로 초기화된다.
 
 ## [출처 및 참고]
-* <http://www.tcpschool.com/java/java_inheritance_super>
+* [http://www.tcpschool.com/java/java_inheritance_super](http://www.tcpschool.com/java/java_inheritance_super)

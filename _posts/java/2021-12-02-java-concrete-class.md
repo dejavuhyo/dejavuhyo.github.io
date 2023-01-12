@@ -101,4 +101,4 @@ FancyCar car = new FancyCar();
 간단히 말해서 추상이 아닌 모든 클래스를 구체적인 클래스라고 부를 수 있다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-concrete-class>
+* [https://www.baeldung.com/java-concrete-class](https://www.baeldung.com/java-concrete-class)

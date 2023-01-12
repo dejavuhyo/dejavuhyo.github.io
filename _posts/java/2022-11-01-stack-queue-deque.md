@@ -122,5 +122,5 @@ Deque는 Double - Ended Queue의 줄임말이다. 한쪽에서만 삽입, 다른
 * 스택, 큐에 비해 비교적 구현이 어렵다.
 
 ## [출처 및 참고]
-* <https://velog.io/@gibeom98/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%8A%A4%ED%83%9D-STACK-%ED%81%90QUEUE>
-* <https://velog.io/@nnnyeong/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%8A%A4%ED%83%9D-Stack-%ED%81%90-Queue-%EB%8D%B1-Deque>
+* [https://velog.io/@gibeom98/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%8A%A4%ED%83%9D-STACK-%ED%81%90QUEUE](https://velog.io/@gibeom98/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%8A%A4%ED%83%9D-STACK-%ED%81%90QUEUE)
+* [https://velog.io/@nnnyeong/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%8A%A4%ED%83%9D-Stack-%ED%81%90-Queue-%EB%8D%B1-Deque](https://velog.io/@nnnyeong/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%8A%A4%ED%83%9D-Stack-%ED%81%90-Queue-%EB%8D%B1-Deque)

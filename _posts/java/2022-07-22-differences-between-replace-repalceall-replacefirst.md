@@ -63,5 +63,5 @@ public class AllTest {
 ```
 
 ## [출처 및 참고]
-* <https://mine-it-record.tistory.com/127>
-* <https://veneas.tistory.com/entry/Java-%EB%AC%B8%EC%9E%90%EC%97%B4-%EB%8C%80%EC%B9%98%ED%95%98%EA%B8%B0replace-replaceAll-replaceFirst>
+* [https://mine-it-record.tistory.com/127](https://mine-it-record.tistory.com/127)
+* [https://veneas.tistory.com/entry/Java-%EB%AC%B8%EC%9E%90%EC%97%B4-%EB%8C%80%EC%B9%98%ED%95%98%EA%B8%B0replace-replaceAll-replaceFirst](https://veneas.tistory.com/entry/Java-%EB%AC%B8%EC%9E%90%EC%97%B4-%EB%8C%80%EC%B9%98%ED%95%98%EA%B8%B0replace-replaceAll-replaceFirst)

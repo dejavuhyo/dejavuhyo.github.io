@@ -104,4 +104,4 @@ int num1 = 8, num2 = -8;
 따라서 이 시프트 연산자는 10진수의 연산보다는 2진수의 연산에서만 주로 사용된다.
 
 ## [출처 및 참고]
-* <http://www.tcpschool.com/java/java_operator_bitwise>
+* [http://www.tcpschool.com/java/java_operator_bitwise](http://www.tcpschool.com/java/java_operator_bitwise)

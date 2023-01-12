@@ -394,4 +394,4 @@ public void givenBigIntegers_whenPrimeOperations_thenExpectedResult() {
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-bigdecimal-biginteger>
+* [https://www.baeldung.com/java-bigdecimal-biginteger](https://www.baeldung.com/java-bigdecimal-biginteger)

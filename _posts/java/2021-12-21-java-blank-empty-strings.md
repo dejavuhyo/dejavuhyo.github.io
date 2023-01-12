@@ -125,4 +125,4 @@ Strings.isNullOrEmpty(string)
 > 가장 편리한 방법은 StringUtils.isBlank와 같은 도우미를 제공하는 Apache Commons Lang을 사용하는 것이다. 일반 Java를 고수하고 싶다면 `String#trim`과 `String#isEmpty` 또는 `String#length` 조합을 사용할 수 있다. Bean 유효성 검사의 경우 정규식을 대신 사용할 수 있다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-blank-empty-strings>
+* [https://www.baeldung.com/java-blank-empty-strings](https://www.baeldung.com/java-blank-empty-strings)

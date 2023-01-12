@@ -148,4 +148,4 @@ public void givenLowercaseFileReaderInstance_whenCalledreadFile_thenCorrect() th
 대상 파일은 src/main/resources/files 폴더 아래에 있다. 따라서 예제 파일의 경로를 가져오기 위해 응용 프로그램 클래스 로더를 사용했다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-abstract-class>
+* [https://www.baeldung.com/java-abstract-class](https://www.baeldung.com/java-abstract-class)

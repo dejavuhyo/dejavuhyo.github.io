@@ -78,4 +78,4 @@ public void givenStringBuilder_whenAppended_thenModified() {
 > [CharSequence](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/CharSequence.html) 및 [String](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html)에 대한 자세한 정보는 JavaDocs에서 찾을 수 있다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-char-sequence-string>
+* [https://www.baeldung.com/java-char-sequence-string](https://www.baeldung.com/java-char-sequence-string)

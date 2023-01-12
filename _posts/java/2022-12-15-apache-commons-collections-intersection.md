@@ -56,4 +56,4 @@ Commons Objects of List 1 and List 2: [A, A, B, B]
 ```
 
 ## [출처 및 참고]
-* <https://www.tutorialspoint.com/commons_collections/commons_collections_intersection.htm>
+* [https://www.tutorialspoint.com/commons_collections/commons_collections_intersection.htm](https://www.tutorialspoint.com/commons_collections/commons_collections_intersection.htm)

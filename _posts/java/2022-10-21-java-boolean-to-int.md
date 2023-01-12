@@ -97,4 +97,4 @@ public static int booleanUtilsToInt(Boolean foo) {
 예제 메서드 booleanPrimitiveToIntTernary와 마찬가지로 내부적으로 toInteger 메서드는 변환을 위해 동일한 삼항 연산자를 수행한다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-boolean-to-int>
+* [https://www.baeldung.com/java-boolean-to-int](https://www.baeldung.com/java-boolean-to-int)

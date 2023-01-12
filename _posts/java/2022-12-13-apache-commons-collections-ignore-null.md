@@ -64,4 +64,4 @@ Null value is not present
 ```
 
 ## [출처 및 참고]
-* <https://www.tutorialspoint.com/commons_collections/commons_collections_ignore_null.htm>
+* [https://www.tutorialspoint.com/commons_collections/commons_collections_ignore_null.htm](https://www.tutorialspoint.com/commons_collections/commons_collections_ignore_null.htm)

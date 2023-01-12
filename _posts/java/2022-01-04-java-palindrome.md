@@ -111,4 +111,4 @@ private boolean recursivePalindrome(String text, int forward, int backward) {
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-palindrome>
+* [https://www.baeldung.com/java-palindrome](https://www.baeldung.com/java-palindrome)

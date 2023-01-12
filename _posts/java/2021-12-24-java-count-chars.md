@@ -139,4 +139,4 @@ assertEquals(2, count);
 > StringUtils, Guava 또는 Spring의 기존 유틸리티를 사용하는 것이 좋다. 그러나 일반 Java만 사용하는 것이 선호되는 경우 Java 8로 이를 수행할 수 있는 몇 가지 가능성을 제공한다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-count-chars>
+* [https://www.baeldung.com/java-count-chars](https://www.baeldung.com/java-count-chars)

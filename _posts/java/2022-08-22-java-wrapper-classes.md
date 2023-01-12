@@ -95,4 +95,4 @@ public static int getSquareValue(int i) {
 기본적으로 기본 값이나 래퍼 객체를 허용하는 메서드를 작성하면 두 값을 모두 전달할 수 있다. Java는 컨텍스트에 따라 프리미티브 또는 래퍼와 같은 올바른 유형을 전달한다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-wrapper-classes>
+* [https://www.baeldung.com/java-wrapper-classes](https://www.baeldung.com/java-wrapper-classes)

@@ -279,4 +279,4 @@ OOP의 핵심 원칙은 LSP(Liskov Substitution Principle)와 밀접하게 관�
 이 검사는 런타임에 발생하므로 메서드 재정의는 동적 바인딩의 일반적인 예이다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-method-overload-override>
+* [https://www.baeldung.com/java-method-overload-override](https://www.baeldung.com/java-method-overload-override)

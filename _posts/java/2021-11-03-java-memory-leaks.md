@@ -299,4 +299,4 @@ JDK 1.5 이상의 프로젝트에서 Eclipse는 명백한 메모리 누수 사�
 어떤 경우에는 이 사소해 보이는 방법도 몇 가지 일반적인 메모리 누수 문제를 제거하는 데 도움이 될 수 있다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-memory-leaks>
+* [https://www.baeldung.com/java-memory-leaks](https://www.baeldung.com/java-memory-leaks)

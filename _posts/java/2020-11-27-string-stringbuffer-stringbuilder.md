@@ -50,5 +50,5 @@ StringBuffer는 각 메서드별로 Synchronized Keyword가 존재하여, 멀티
   - 문자열 연산이 많고 단일스레드이거나 동기화를 고려하지 않아도 되는 경우
 
 ## [출처 및 참고]
-* <https://12bme.tistory.com/42>
-* <https://ifuwanna.tistory.com/221>
+* [https://12bme.tistory.com/42](https://12bme.tistory.com/42)
+* [https://ifuwanna.tistory.com/221](https://ifuwanna.tistory.com/221)

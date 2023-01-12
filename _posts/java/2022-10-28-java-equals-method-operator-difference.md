@@ -169,4 +169,4 @@ assertFalse(e != null && e.equals(a));
 또한 인스턴스 화 된 객체에 대해서만 `equals()` 메서드를 호출 한다. 그렇지 않으면 예외가 발생한다. 이를 방지하기 위해 null 값이 의심되는 경우 `==` 연산자로 값을 확인해야 한다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-equals-method-operator-difference>
+* [https://www.baeldung.com/java-equals-method-operator-difference](https://www.baeldung.com/java-equals-method-operator-difference)

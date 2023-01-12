@@ -93,4 +93,4 @@ public Customer(String firstName, String middleName, String lastName, int age, S
 다른 한편으로, **생성자 연결을 사용할 때 객체를 생성하는 더 많은 방법을 노출한다.** 이것은 일부 프로젝트에서 중요한 단점이 될 수 있다. 이러한 경우 여러 생성자를 숨기기 위해 팩토리 또는 빌더 패턴을 찾아야 한다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-chain-constructors>
+* [https://www.baeldung.com/java-chain-constructors](https://www.baeldung.com/java-chain-constructors)

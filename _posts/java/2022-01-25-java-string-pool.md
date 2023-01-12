@@ -136,4 +136,4 @@ Java 9에서는 Compact Strings라는 새로운 표현이 제공된다. 이 새�
 새로운 String 표현은 필요할 때만 UTF-16 인코딩을 사용하기 때문에 힙 메모리의 양이 상당히 줄어들고 JVM 에서 Garbage Collector 오버헤드가 줄어든다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-string-pool>
+* [https://www.baeldung.com/java-string-pool](https://www.baeldung.com/java-string-pool)

@@ -208,4 +208,4 @@ public class Singleton {
 * Java 프로그래밍 사양에서는 최상위 클래스를 정적으로 선언할 수 없다. 클래스 내의 클래스(중첩 클래스)만 static으로 만들 수 있다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-static>
+* [https://www.baeldung.com/java-static](https://www.baeldung.com/java-static)

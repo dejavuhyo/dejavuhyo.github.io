@@ -150,4 +150,4 @@ Java에서 매개변수 전달은 항상 값에 의한 전달이다. 그러나 �
 * 개체 유형의 경우 개체 참조는 값으로 전달된다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-pass-by-value-or-pass-by-reference>
+* [https://www.baeldung.com/java-pass-by-value-or-pass-by-reference](https://www.baeldung.com/java-pass-by-value-or-pass-by-reference)
