@@ -424,4 +424,4 @@ $ javadoc -d doc FileName.java
 ```
 
 ## [출처 및 참고]
-* <http://www.devkuma.com/books/pages/1239>
+* [http://www.devkuma.com/books/pages/1239](http://www.devkuma.com/books/pages/1239)

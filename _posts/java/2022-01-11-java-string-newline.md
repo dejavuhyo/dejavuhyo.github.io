@@ -117,4 +117,4 @@ Java 응용 프로그램을 작성할 때 응용 프로그램이 실행되는 �
 가장 안전하고 상호 호환되는 옵션은 System.lineSeparator()를 사용하는 것이다. 이렇게 하면 운영 체제를 고려할 필요가 없다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-string-newline>
+* [https://www.baeldung.com/java-string-newline](https://www.baeldung.com/java-string-newline)

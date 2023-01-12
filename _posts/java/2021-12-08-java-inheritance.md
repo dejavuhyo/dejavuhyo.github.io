@@ -292,4 +292,4 @@ ArmoredCar second = new ArmoredCar();
 앞의 코드에서 first.msg()는 "Car"를 출력 하고 second.msg()는 "ArmoredCar"를 출력한다. 호출되는 정적 메시지는 ArmoredCar 인스턴스를 참조하는데 사용되는 변수의 유형에 따라 다르다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-inheritance>
+* [https://www.baeldung.com/java-inheritance](https://www.baeldung.com/java-inheritance)

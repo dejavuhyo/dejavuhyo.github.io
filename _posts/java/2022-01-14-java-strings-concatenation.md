@@ -138,4 +138,4 @@ assertEquals("Shark, Panda, Armadillo", animalString);
 스트림을 사용하면 필터링, 매핑, 반복 등과 같은 Java 8 Stream API 와 관련된 모든 기능이 잠금 해제된다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-strings-concatenation>
+* [https://www.baeldung.com/java-strings-concatenation](https://www.baeldung.com/java-strings-concatenation)

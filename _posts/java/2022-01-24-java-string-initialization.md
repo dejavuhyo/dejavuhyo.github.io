@@ -135,4 +135,4 @@ public static String valueOf(Object obj) {
 이것이 "null"의 이유이다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-varargs>
+* [https://www.baeldung.com/java-varargs](https://www.baeldung.com/java-varargs)

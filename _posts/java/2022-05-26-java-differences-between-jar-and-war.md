@@ -28,6 +28,6 @@ $ java -jar file_name.jar
 ![compression-structure](/assets/img/2022-05-26-java-differences-between-jar-and-war/compression-structure.png)
 
 ## [출처 및 참고]
-* <https://hye0-log.tistory.com/27>
-* <https://docs.spring.io/spring-boot/docs/3.0.x/reference/htmlsingle/>
-* <https://programmer93.tistory.com/40>
+* [https://hye0-log.tistory.com/27](https://hye0-log.tistory.com/27)
+* [https://docs.spring.io/spring-boot/docs/3.0.x/reference/htmlsingle/](https://docs.spring.io/spring-boot/docs/3.0.x/reference/htmlsingle/)
+* [https://programmer93.tistory.com/40](https://programmer93.tistory.com/40)

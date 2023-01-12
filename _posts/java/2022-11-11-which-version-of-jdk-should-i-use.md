@@ -247,4 +247,4 @@ GraalVM은 Oracle에서 개발했다. OpenJDK를 기반으로 하지만 새로�
 * Docker Images: <https://github.com/graalvm/container/pkgs/container/graalvm-ce>
 
 ## [출처 및 참고]
-* <https://whichjdk.com/>
+* [https://whichjdk.com/](https://whichjdk.com/)

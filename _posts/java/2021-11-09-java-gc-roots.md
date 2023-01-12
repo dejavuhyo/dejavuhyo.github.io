@@ -39,4 +39,4 @@ GC 루트의 주요 유형이다.
 GC는 루트에서 그래프 탐색을 시작하고 그래프에서 방문한 모든 개체를 활성 상태로 표시한다. 프로세스는 애플리케이션에 정의된 모든 GC 루트에 대해 실행된다. 또한, 모든 GC 루트에서 시작하여 모든 그래프를 처리한다. 그런 다음 방문한 모든 개체를 활성 상태로 표시한다. 그 후 방문하지 않은 모든 개체는 가비지 수집된다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-gc-roots>
+* [https://www.baeldung.com/java-gc-roots](https://www.baeldung.com/java-gc-roots)

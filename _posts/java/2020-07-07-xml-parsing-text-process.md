@@ -118,4 +118,4 @@ public class Parsing {
 ![img002](/assets/img/2020-07-07-xml-parsing-text-process/img002.png)
 
 ## [출처 및 참고]
-* <https://artisticbit.tistory.com/entry/java-dom-%ED%8C%8C%EC%84%9C%EB%A1%9C-xml-%ED%8C%8C%EC%8B%B1-%EC%A4%91-text-%EC%B2%98%EB%A6%AC>
+* [https://artisticbit.tistory.com/entry/java-dom-%ED%8C%8C%EC%84%9C%EB%A1%9C-xml-%ED%8C%8C%EC%8B%B1-%EC%A4%91-text-%EC%B2%98%EB%A6%AC](https://artisticbit.tistory.com/entry/java-dom-%ED%8C%8C%EC%84%9C%EB%A1%9C-xml-%ED%8C%8C%EC%8B%B1-%EC%A4%91-text-%EC%B2%98%EB%A6%AC)

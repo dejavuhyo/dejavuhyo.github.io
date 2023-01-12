@@ -169,5 +169,5 @@ public class JsonVO {
 ```
 
 ## [출처 및 참고]
-* <https://github.com/google/gson>
-* <https://yookeun.github.io/java/2017/05/27/java-gson/>
+* [https://github.com/google/gson](https://github.com/google/gson)
+* [https://yookeun.github.io/java/2017/05/27/java-gson/](https://yookeun.github.io/java/2017/05/27/java-gson/)

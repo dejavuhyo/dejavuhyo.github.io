@@ -252,4 +252,4 @@ System.out.println(evenLengthList);
 | `<R,A> R collect(Collector<? super T,A,R> collector)` | 인수로 전달되는 Collectors 객체에 구현된 방법대로 스트림의 요소를 수집함 |
 
 ## [출처 및 참고]
-* <http://www.tcpschool.com/java/java_stream_terminal>
+* [http://www.tcpschool.com/java/java_stream_terminal](http://www.tcpschool.com/java/java_stream_terminal)

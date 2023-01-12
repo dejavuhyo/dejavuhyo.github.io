@@ -35,4 +35,4 @@ OpenJDK 64-Bit Server VM Zulu11.31+11-CA (build 11.0.3+7-LTS, mixed mode)
 ```
 
 ## [출처 및 참고]
-* <https://velog.io/@miz/Java-Default-GC811>
+* [https://velog.io/@miz/Java-Default-GC811](https://velog.io/@miz/Java-Default-GC811)

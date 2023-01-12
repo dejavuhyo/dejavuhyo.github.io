@@ -160,6 +160,5 @@ public class MutilThread implements Runnable {
 ```
 
 ## [출처 및 참고]
-* <https://ko.wikipedia.org/wiki/%EC%8A%A4%EB%A0%88%EB%93%9C_(%EC%BB%B4%ED%93%A8%ED%8C%85)>
-* <https://wikidocs.net/230>
-* <https://coding-factory.tistory.com/279>
+* [https://wikidocs.net/230](https://wikidocs.net/230)
+* [https://coding-factory.tistory.com/279](https://coding-factory.tistory.com/279)

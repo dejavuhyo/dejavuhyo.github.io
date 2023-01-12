@@ -91,4 +91,4 @@ public class JsonVO {
 ```
 
 ## [출처 및 참고]
-* <https://stackoverflow.com/questions/2370745/convert-json-style-properties-names-to-java-camelcase-names-with-gson>
+* [https://stackoverflow.com/questions/2370745/convert-json-style-properties-names-to-java-camelcase-names-with-gson](https://stackoverflow.com/questions/2370745/convert-json-style-properties-names-to-java-camelcase-names-with-gson)

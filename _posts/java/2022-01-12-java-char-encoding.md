@@ -356,4 +356,4 @@ Oracle 및 MySQL과 같은 대부분의 인기 있는 데이터베이스는 데�
 대부분의 웹 응용 프로그램에서 텍스트를 만들고 브라우저와 같은 사용자 인터페이스에서 볼 의도로 텍스트를 다른 계층에 전달한다. 여기에서도 문자를 적절하게 표시할 수 있는 올바른 문자 인코딩을 선택하는 것이 필수적이다. Chrome, Edge와 같은 가장 널리 사용되는 브라우저에서는 설정을 통해 문자 인코딩을 선택할 수 있다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-char-encoding>
+* [https://www.baeldung.com/java-char-encoding](https://www.baeldung.com/java-char-encoding)

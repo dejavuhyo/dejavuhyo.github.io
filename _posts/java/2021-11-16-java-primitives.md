@@ -189,4 +189,4 @@ Integer i = 1;
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-primitives>
+* [https://www.baeldung.com/java-primitives](https://www.baeldung.com/java-primitives)

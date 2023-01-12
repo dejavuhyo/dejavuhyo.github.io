@@ -115,4 +115,4 @@ public class PersonBuilder {
 | Allocation/Deallocation | 이 메모리는 각각 메소드가 호출되고 반환될 때 자동으로 할당 및 할당 해제된다. | 힙 공간은 Gargabe Collector에 의해 더 이상 참조되지 않을 때 새 개체가 생성되고 할당 해제될 때 할당된다. |
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-stack-heap>
+* [https://www.baeldung.com/java-stack-heap](https://www.baeldung.com/java-stack-heap)

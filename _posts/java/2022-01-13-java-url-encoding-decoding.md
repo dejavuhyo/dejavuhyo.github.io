@@ -162,4 +162,4 @@ assertThat(testUrl, CoreMatchers.is(encodedURL));
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-char-encoding>
+* [https://www.baeldung.com/java-char-encoding](https://www.baeldung.com/java-char-encoding)

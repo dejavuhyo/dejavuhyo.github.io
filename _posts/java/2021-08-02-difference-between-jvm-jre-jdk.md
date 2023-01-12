@@ -291,4 +291,4 @@ JVM 성능과 리소스 소비를 모니터링하는 데 사용할 수 있는 �
 * jstack: 주어진 Java 프로세스에 대한 Java 스레드의 Java 스택 추적을 인쇄한다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/jvm-vs-jre-vs-jdk>
+* [https://www.baeldung.com/jvm-vs-jre-vs-jdk](https://www.baeldung.com/jvm-vs-jre-vs-jdk)

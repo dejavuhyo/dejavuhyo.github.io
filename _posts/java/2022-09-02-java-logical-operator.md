@@ -53,4 +53,4 @@ System.out.println("! 연산자에 의한 결과 : "+ !result2);
 위의 예제처럼 자바에서는 char형 문자끼리도 크기를 서로 비교할 수 있다.
 
 ## [출처 및 참고]
-* <http://www.tcpschool.com/java/java_operator_logic>
+* [http://www.tcpschool.com/java/java_operator_logic](http://www.tcpschool.com/java/java_operator_logic)

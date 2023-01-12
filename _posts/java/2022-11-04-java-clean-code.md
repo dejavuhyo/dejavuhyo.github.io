@@ -320,4 +320,4 @@ Java 생태계에서 사용할 수 있는 몇 가지 도구가 있다. 이 도�
 * 정적 분석 도구: SonarQube, Checkstyle, PMD 및 SpotBugs를 포함하여 Java용 정적 코드 분석 도구가 몇 가지 있다. 그대로 사용하거나 특정 프로젝트에 맞게 사용자 지정할 수 있는 풍부한 규칙 집합이 있다. 명명 규칙 위반 및 리소스 누출과 같은 많은 코드 냄새를 감지하는 데 탁월하다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-clean-code>
+* [https://www.baeldung.com/java-clean-code](https://www.baeldung.com/java-clean-code)

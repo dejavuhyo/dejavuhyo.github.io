@@ -29,4 +29,4 @@ while (i < 5) {
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-while-loop>
+* [https://www.baeldung.com/java-while-loop](https://www.baeldung.com/java-while-loop)

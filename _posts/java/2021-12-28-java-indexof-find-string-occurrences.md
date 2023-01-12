@@ -119,4 +119,4 @@ public List<Integer> findWordUpgrade(String textString, String word) {
 > 전체적으로 indexOf()는 하위 문자열 조작에 대한 코딩을 수행하지 않고 텍스트 문자열에 묻힌 문자 시퀀스를 찾는 편리한 방법이다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-indexof-find-string-occurrences>
+* [https://www.baeldung.com/java-indexof-find-string-occurrences](https://www.baeldung.com/java-indexof-find-string-occurrences)

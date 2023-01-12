@@ -98,4 +98,4 @@ public static String removeLastCharRegexOptional(String s) {
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-remove-last-character-of-string>
+* [https://www.baeldung.com/java-remove-last-character-of-string](https://www.baeldung.com/java-remove-last-character-of-string)

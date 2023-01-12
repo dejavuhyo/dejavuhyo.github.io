@@ -142,4 +142,4 @@ public class Car {
 즉, 액세스 제어를 사용하여 개체의 상태를 캡슐화한다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-classes-objects>
+* [https://www.baeldung.com/java-classes-objects](https://www.baeldung.com/java-classes-objects)

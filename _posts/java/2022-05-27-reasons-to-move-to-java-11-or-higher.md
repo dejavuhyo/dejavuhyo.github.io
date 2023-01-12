@@ -98,5 +98,5 @@ JVM에 대한 다음과 같은 변경 내용은 성능에 직접적인 영향을
 * JEP 321: HTTP 클라이언트(표준) - HTTP/2 및 WebSocket을 구현하고 레거시 HttpURLConnection API를 대체할 수 있는 새 HTTP 클라이언트 API를 제공한다.
 
 ## [출처 및 참고]
-* <https://docs.microsoft.com/ko-kr/java/openjdk/reasons-to-move-to-java-11>
-* <https://okky.kr/article/784365>
+* [https://docs.microsoft.com/ko-kr/java/openjdk/reasons-to-move-to-java-11](https://docs.microsoft.com/ko-kr/java/openjdk/reasons-to-move-to-java-11)
+* [https://okky.kr/article/784365](https://okky.kr/article/784365)

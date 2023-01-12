@@ -117,6 +117,6 @@ Updated StringBuffer:
 따라서 매번 이전 문자열 버퍼를 지우는 대신 새 문자열 버퍼가 생성된다. 따라서 성능 면에서 효율성이 떨어진다.
 
 ## [출처 및 참고]
-* <https://www.programiz.com/java-programming/examples/clear-stringbuffer>
-* <https://needjarvis.tistory.com/674>
-* <https://www.scaler.com/topics/java/stringbuffer-in-java/>
+* [https://www.programiz.com/java-programming/examples/clear-stringbuffer](https://www.programiz.com/java-programming/examples/clear-stringbuffer)
+* [https://needjarvis.tistory.com/674](https://needjarvis.tistory.com/674)
+* [https://www.scaler.com/topics/java/stringbuffer-in-java/](https://www.scaler.com/topics/java/stringbuffer-in-java/)

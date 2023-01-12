@@ -454,4 +454,4 @@ System.out.println(Pizza.getJsonString(pz));
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/a-guide-to-java-enums>
+* [https://www.baeldung.com/a-guide-to-java-enums](https://www.baeldung.com/a-guide-to-java-enums)

@@ -47,4 +47,4 @@ while (iterator.hasNext()) {
 | Java 9에 추가된 `asIterator()`는 Enumeration 상단에 Iterator를 제공한다. 그러나 이 특별한 경우에는 `remove()`가 UnsupportedOperationException을 발생시킨다. | Java 8에 추가된 `forEachRemaining()`은 나머지 요소에 대한 작업을 수행한다. |
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-enumeration-vs-iterator>
+* [https://www.baeldung.com/java-enumeration-vs-iterator](https://www.baeldung.com/java-enumeration-vs-iterator)

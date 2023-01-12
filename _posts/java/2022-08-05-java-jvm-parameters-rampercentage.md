@@ -116,4 +116,4 @@ OpenJDK Runtime Environment (build 1.8.0_292-b10)
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-jvm-parameters-rampercentage>
+* [https://www.baeldung.com/java-jvm-parameters-rampercentage](https://www.baeldung.com/java-jvm-parameters-rampercentage)

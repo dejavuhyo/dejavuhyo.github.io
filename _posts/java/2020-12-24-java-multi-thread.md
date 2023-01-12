@@ -28,7 +28,7 @@ tags: [multi-thread, thread, java-multi-thread, java-thread, 멀티-스레드, �
   - 서로 자원을 소모하다가 충돌이 일어날 가능성이 존재한다.
   - 코딩이 난해해져 버그 생성확률이 높아진다.
 
-## 3.  스레드의 생명 주기
+## 3. 스레드의 생명 주기
 
 ### 1) Runnable(준비상태)
 스레드가 실행되기 위한 준비단계이다. CPU를 점유하고 있지 않으며 실행(Running 상태)을 하기 위해 대기하고 있는 상태이다. 코딩 상에서 start() 메소드를 호출하면 run() 메소드에 설정된 스레드가 Runnable 상태로 진입한다. "Ready" 상태라고도 한다.
@@ -326,5 +326,5 @@ public class ThreadSafeSynchronized {
 synchronized를 통해서 해당 인수(unsafeDateFormat)에 락을 걸어서 스레드끼리 동시에 사용하지 못하게 막은 것이다. 다른 스레드에서 unsafeDateFormat 객체를 사용하려고 할 때, 현재 사용 중인지를 확인한다. 사용 중일 경우 기다리는 시간이 있기 때문에 기존의 멀티스레드 방법보다 속도는 느리지만 정확하게 실행된다.
 
 ## [출처 및 참고]
-* <https://coding-factory.tistory.com/279>
-* <https://jeong-pro.tistory.com/71>
+* [https://coding-factory.tistory.com/279](https://coding-factory.tistory.com/279)
+* [https://jeong-pro.tistory.com/71](https://jeong-pro.tistory.com/71)

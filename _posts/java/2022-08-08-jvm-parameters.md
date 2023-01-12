@@ -150,5 +150,5 @@ OS 비트는 32 또는 64 일 수 있다 . [이에 대한 자세한 정보](http
 `-XX:+OptimizeStringConcat`: 가능한 경우 문자열 연결 작업을 최적화한다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/jvm-parameters>
-* <https://www.oracle.com/java/technologies/javase/vmoptions-jsp.html>
+* [https://www.baeldung.com/jvm-parameters](https://www.baeldung.com/jvm-parameters)
+* [https://www.oracle.com/java/technologies/javase/vmoptions-jsp.html](https://www.oracle.com/java/technologies/javase/vmoptions-jsp.html)

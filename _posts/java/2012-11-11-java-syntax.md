@@ -212,4 +212,4 @@ $ java SimpleAddition
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-syntax>
+* [https://www.baeldung.com/java-syntax](https://www.baeldung.com/java-syntax)

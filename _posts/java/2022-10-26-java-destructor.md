@@ -182,4 +182,4 @@ try (Order order = new Order(cleaner)) {
 또한 `System.exit()` 동안 클리너의 동작은 구현에 따라 다르다. Java는 정리 작업이 호출되는지 여부를 보장하지 않는다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-destructor>
+* [https://www.baeldung.com/java-destructor](https://www.baeldung.com/java-destructor)

@@ -65,4 +65,4 @@ Inversed Map: {2=Two, 3=Three}
 ```
 
 ## [출처 및 참고]
-* <https://www.tutorialspoint.com/commons_collections/commons_collections_bidimap.htm>
+* [https://www.tutorialspoint.com/commons_collections/commons_collections_bidimap.htm](https://www.tutorialspoint.com/commons_collections/commons_collections_bidimap.htm)

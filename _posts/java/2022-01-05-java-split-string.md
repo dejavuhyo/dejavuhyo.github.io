@@ -84,4 +84,4 @@ String[] splitted = Arrays.stream(input.split(","))
 > 일반적으로 String.split()이면 충분하다. 그러나 더 복잡한 경우에는 Apache의 commons-lang 기반 StringUtils 클래스 또는 깔끔하고 유연한 Guava API를 사용할 수 있다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-split-string>
+* [https://www.baeldung.com/java-split-string](https://www.baeldung.com/java-split-string)

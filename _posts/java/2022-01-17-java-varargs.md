@@ -128,4 +128,4 @@ String[] args = returnAsIs("One", "Two");
 > heap pollution에 대한 더 자세한 논의는 Joshua Bloch의 [Effective Java](https://www.oreilly.com/library/view/effective-java/9780134686097/) 항목 32를 읽는 것이 좋다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-varargs>
+* [https://www.baeldung.com/java-varargs](https://www.baeldung.com/java-varargs)

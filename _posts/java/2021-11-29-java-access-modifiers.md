@@ -126,4 +126,4 @@ public class AnotherSubClass extends SuperPublic {
 공개 액세스 수준은 구성원이 API의 일부인 경우에만 사용해야 한다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-access-modifiers>
+* [https://www.baeldung.com/java-access-modifiers](https://www.baeldung.com/java-access-modifiers)

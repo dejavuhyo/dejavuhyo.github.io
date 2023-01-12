@@ -122,6 +122,6 @@ public class CurrentDateTime {
 | z | 타임존(RFC 822) |
 
 ## [출처 및 참고]
-* <https://coding-factory.tistory.com/259>
-* <https://ryan-han.com/post/java/java-calendar-date/>
-* <https://the-illusionist.me/41>
+* [https://coding-factory.tistory.com/259](https://coding-factory.tistory.com/259)
+* [https://ryan-han.com/post/java/java-calendar-date/](https://ryan-han.com/post/java/java-calendar-date/)
+* [https://the-illusionist.me/41](https://the-illusionist.me/41)

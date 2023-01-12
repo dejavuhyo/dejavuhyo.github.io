@@ -33,6 +33,6 @@ StringUtils.isNotBlank("  str  ") = true
 ```
 
 ## [출처 및 참고]
-* <https://javakeypoint.wordpress.com/2018/01/18/stringutils-isnotempty-vs-stringutils-isnotblank/>
-* <https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#isBlank()>
-* <https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#isEmpty()>
+* [https://javakeypoint.wordpress.com/2018/01/18/stringutils-isnotempty-vs-stringutils-isnotblank/](https://javakeypoint.wordpress.com/2018/01/18/stringutils-isnotempty-vs-stringutils-isnotblank/)
+* [https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#isBlank()](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#isBlank())
+* [https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#isEmpty()](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html#isEmpty())

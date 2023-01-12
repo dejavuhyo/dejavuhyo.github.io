@@ -134,4 +134,4 @@ names.forEach(name -> System.out.println(name));
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-for-loop>
+* [https://www.baeldung.com/java-for-loop](https://www.baeldung.com/java-for-loop)

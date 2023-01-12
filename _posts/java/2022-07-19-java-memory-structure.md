@@ -107,5 +107,5 @@ public class HeapArea {
 > Heap에 저장된 데이터가 더 이상 사용이 불필요하다면 메모리 관리를 위해 JVM(자바 가상 머신)에 의해 알아서 해제된다. 이러한 기능을 가비지컬렉션(GC, 쓰레기 수집)이라고 한다.
 
 ## [출처 및 참고]
-* <https://minhamina.tistory.com/211>
-* <https://coding-factory.tistory.com/524>
+* [https://minhamina.tistory.com/211](https://minhamina.tistory.com/211)
+* [https://coding-factory.tistory.com/524](https://coding-factory.tistory.com/524)

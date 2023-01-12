@@ -56,4 +56,4 @@ public class CollectionUtilsTester {
 ```
 
 ## [출처 및 참고]
-* <https://www.tutorialspoint.com/commons_collections/commons_collections_merge_sort.htm>
+* [https://www.tutorialspoint.com/commons_collections/commons_collections_merge_sort.htm](https://www.tutorialspoint.com/commons_collections/commons_collections_merge_sort.htm)

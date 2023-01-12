@@ -444,5 +444,5 @@ public class Jsr310Test {
 ```
 
 ## [출처 및 참고]
-* <https://d2.naver.com/helloworld/645609>
-* <https://jeong-pro.tistory.com/163>
+* [https://d2.naver.com/helloworld/645609](https://d2.naver.com/helloworld/645609)
+* [https://jeong-pro.tistory.com/163](https://jeong-pro.tistory.com/163)

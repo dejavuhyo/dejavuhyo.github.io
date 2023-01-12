@@ -174,4 +174,4 @@ assertEquals("test input", new String(result));
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-base64-encode-and-decode>
+* [https://www.baeldung.com/java-base64-encode-and-decode](https://www.baeldung.com/java-base64-encode-and-decode)

@@ -159,4 +159,4 @@ public void whenCountCharInString_thenCorrect() {
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/guava-string-charmatcher>
+* [https://www.baeldung.com/guava-string-charmatcher](https://www.baeldung.com/guava-string-charmatcher)

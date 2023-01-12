@@ -227,4 +227,4 @@ User u = (User) unsafeInstance.allocateInstance(User.class);
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-initialization>
+* [https://www.baeldung.com/java-initialization](https://www.baeldung.com/java-initialization)

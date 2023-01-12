@@ -135,4 +135,4 @@ public void givenUsingApache_whenGeneratingRandomAlphanumericString_thenCorrect(
 > 이 Java 예제에서 java.util.Random을 사용 했지만 주의할 점은 이것이 암호학적으로 안전하지 않다는 것이다. 보안에 민감한 애플리케이션 대신 java.security.SecureRandom 사용을 고려해야 한다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-random-string>
+* [https://www.baeldung.com/java-random-string](https://www.baeldung.com/java-random-string)

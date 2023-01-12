@@ -123,5 +123,5 @@ JSR에서 찾을 수 있는 몇 가지 추가 주석이다.
 * **`@Future`, `@FutureOrPresent`**: 날짜 값이 미래 또는 현재를 포함하여 미래인지 확인한다.
 
 ## [출처 및 참고]
-* <https://jcp.org/en/jsr/detail?id=380>
-* <https://www.baeldung.com/javax-validation>
+* [https://jcp.org/en/jsr/detail?id=380](https://jcp.org/en/jsr/detail?id=380)
+* [https://www.baeldung.com/javax-validation](https://www.baeldung.com/javax-validation)

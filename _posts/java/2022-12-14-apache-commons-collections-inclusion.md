@@ -56,4 +56,4 @@ Is List 2 contained in List 1: true
 ```
 
 ## [출처 및 참고]
-* <https://www.tutorialspoint.com/commons_collections/commons_collections_inclusion.htm>
+* [https://www.tutorialspoint.com/commons_collections/commons_collections_inclusion.htm](https://www.tutorialspoint.com/commons_collections/commons_collections_inclusion.htm)

@@ -108,4 +108,4 @@ assertEquals(Double.POSITIVE_INFINITY, (-d / -0.0));
 ```
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-infinity>
+* [https://www.baeldung.com/java-infinity](https://www.baeldung.com/java-infinity)

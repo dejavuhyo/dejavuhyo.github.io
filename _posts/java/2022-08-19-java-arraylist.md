@@ -97,4 +97,4 @@ System.out.println(list.indexOf(1)); // 1이 있는 index반환 없으면 -1
 ```
 
 ## [출처 및 참고]
-* <https://coding-factory.tistory.com/551>
+* [https://coding-factory.tistory.com/551](https://coding-factory.tistory.com/551)

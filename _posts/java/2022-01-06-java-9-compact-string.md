@@ -151,4 +151,4 @@ Created string of length 488895 in 9727 ms.
 분명히 이것은 표면 수준 테스트이며 대표성이 높지 않다. 이 특정 시나리오에서 성능을 향상시키기 위해 새로운 옵션이 무엇을 할 수 있는지에 대한 스냅샷일 뿐이다.
 
 ## [출처 및 참고]
-* <https://www.baeldung.com/java-9-compact-string>
+* [https://www.baeldung.com/java-9-compact-string](https://www.baeldung.com/java-9-compact-string)
