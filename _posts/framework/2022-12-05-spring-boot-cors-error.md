@@ -15,7 +15,7 @@ CORS의 사양은 원래 W3C 권고안으로 배포되었으나 해당 문서는
 
 ## 2. CORS 동작 원리
 
-cors-operation.png
+![cors-operation](/assets/img/2022-12-05-spring-boot-cors-error/cors-operation.png)
 
 ## 3. 해결 방법
 
@@ -88,5 +88,5 @@ public class Controller {
 ```
 
 ## [출처 및 참고]
-* [https://ko.wikipedia.org/wiki/%EA%B5%90%EC%B0%A8_%EC%B6%9C%EC%B2%98_%EB%A6%AC%EC%86%8C%EC%8A%A4_%EA%B3%B5%EC%9C%A0](https://ko.wikipedia.org/wiki/%EA%B5%90%EC%B0%A8_%EC%B6%9C%EC%B2%98_%EB%A6%AC%EC%86%8C%EC%8A%A4_%EA%B3%B5%EC%9C%A0)
+* [https://ko.wikipedia.org/wiki/교차_출처_리소스_공유](https://ko.wikipedia.org/wiki/교차_출처_리소스_공유)
 * [https://dev-pengun.tistory.com/entry/Spring-Boot-CORS-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0#1.%20CORS%EB%9E%80?](https://dev-pengun.tistory.com/entry/Spring-Boot-CORS-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0#1.%20CORS%EB%9E%80?)
