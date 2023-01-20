@@ -23,7 +23,7 @@ tags: [java-read-file, bufferedreader, scannerm, stream-tokenizer, data-input-st
 ## 2. 클래스패스에서 파일 읽기
 
 ### 1) 표준 자바 사용
-`src/main/resources` 아래에서 사용할 수 있는 "fileTest.txt"를 읽는다.
+`src/main/resources` 아래에서 사용할 수 있는 `fileTest.txt`를 읽는다.
 
 ```java
 @Test
