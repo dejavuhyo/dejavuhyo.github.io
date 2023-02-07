@@ -1,9 +1,9 @@
 ---
-title: Java 열거형
+title: Java Enums
 author: dejavuhyo
 date: 2021-12-16 10:20:00 +0900
 categories: [Language, Java]
-tags: [java-enums, enums, 자바-열거형, 열거형]
+tags: [java-enums, enums, enum, 자바-열거형, 열거형]
 ---
 
 ## 1. 열거형
@@ -11,7 +11,7 @@ Java 5는 처음으로 enum 키워드를 도입했다. 항상 java.lang.Enum 클
 
 이러한 방식으로 정의된 상수는 코드를 더 읽기 쉽게 만들고, 컴파일 시간 확인을 허용하고, 허용되는 값 목록을 미리 문서화하고, 잘못된 값이 전달되어 예기치 않은 동작을 방지한다.
 
-다음은 피자 주문 상태를 정의하는 열거형의 빠르고 간단한 예이다. 주문 상태는 ORDERED , READY 또는 DELIVERED 일 수 있다.
+다음은 피자 주문 상태를 정의하는 열거형의 빠르고 간단한 예이다. 주문 상태는 ORDERED, READY 또는 DELIVERED 일 수 있다.
 
 ```java
 public enum PizzaStatus {
