@@ -201,4 +201,4 @@ KSS를 통해서 문장 토큰화를 진행한다.
 출력 결과는 정상적으로 모든 문장이 분리된 결과를 보여준다.
 
 ## [출처 및 참고]
-* <https://wikidocs.net/21698>
+* [https://wikidocs.net/21698](https://wikidocs.net/21698)

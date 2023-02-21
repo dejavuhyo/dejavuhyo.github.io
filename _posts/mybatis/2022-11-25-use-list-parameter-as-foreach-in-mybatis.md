@@ -92,4 +92,4 @@ public class InfoDTO {
 ```
 
 ## [출처 및 참고]
-* <https://linked2ev.github.io/mybatis/2020/01/05/MyBatis-5-foreach-%EA%B5%AC%EB%AC%B8,-parameterType-List-Model-Map/>
+* [https://linked2ev.github.io/mybatis/2020/01/05/MyBatis-5-foreach-%EA%B5%AC%EB%AC%B8,-parameterType-List-Model-Map/](https://linked2ev.github.io/mybatis/2020/01/05/MyBatis-5-foreach-%EA%B5%AC%EB%AC%B8,-parameterType-List-Model-Map/)

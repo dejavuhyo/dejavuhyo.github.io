@@ -64,5 +64,5 @@ $ nginx -s reload
 ```
 
 ## [출처 및 참고]
-* <https://nginx.org/en/docs/beginners_guide.html>
-* <https://gongzza.github.io/linux/how-to-control-nginx/>
+* [https://nginx.org/en/docs/beginners_guide.html](https://nginx.org/en/docs/beginners_guide.html)
+* [https://gongzza.github.io/linux/how-to-control-nginx/](https://gongzza.github.io/linux/how-to-control-nginx/)

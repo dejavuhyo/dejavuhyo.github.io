@@ -42,4 +42,4 @@ SELECT TRUNCATE(15.423, 2) AS RESULT_TRUNCATE
 ```
 
 ## [출처 및 참고]
-* <https://m2seo.tistory.com/27>
+* [https://m2seo.tistory.com/27](https://m2seo.tistory.com/27)

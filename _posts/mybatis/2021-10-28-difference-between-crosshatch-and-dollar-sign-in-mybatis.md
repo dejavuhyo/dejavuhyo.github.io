@@ -54,4 +54,4 @@ SELECT name FROM user_tb WHERE user_age = 30
 ```
 
 ## [출처 및 참고]
-* <https://developing-move.tistory.com/4>
+* [https://developing-move.tistory.com/4](https://developing-move.tistory.com/4)

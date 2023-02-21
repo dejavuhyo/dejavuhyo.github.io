@@ -56,5 +56,5 @@ done <$files
 로컬 메이븐 Repository 디렉터리로 이동하여 Git Bash를 열고, `nexus_bulk_upload.sh` 파일을 실행한다.
 
 ## [출처 및 참고]
-* <https://sound10000w.tistory.com/181>
-* <https://gblee1987.tistory.com/104>
+* [https://sound10000w.tistory.com/181](https://sound10000w.tistory.com/181)
+* [https://gblee1987.tistory.com/104](https://gblee1987.tistory.com/104)

@@ -32,4 +32,4 @@ OCR의 역사는 우리의 생각보다 길다. OCR의 역사는 1928년에 독�
 OCR 챌린지인 'ICDAR Robust Reading Competition'에서 '19년 4개 분야를 석권, 정확도와 기술력을 인정받았다고 한다.
 
 ## [출처 및 참고]
-* <https://ko.wikipedia.org/wiki/%EA%B4%91%ED%95%99_%EB%AC%B8%EC%9E%90_%EC%9D%B8%EC%8B%9D>
+* [https://ko.wikipedia.org/wiki/%EA%B4%91%ED%95%99_%EB%AC%B8%EC%9E%90_%EC%9D%B8%EC%8B%9D](https://ko.wikipedia.org/wiki/%EA%B4%91%ED%95%99_%EB%AC%B8%EC%9E%90_%EC%9D%B8%EC%8B%9D)

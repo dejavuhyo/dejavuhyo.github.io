@@ -38,4 +38,4 @@ ORDER BY 발송일시 DESC
 ```
 
 ## [출처 및 참고]
-* <https://meetup.toast.com/posts/108>
+* [https://meetup.toast.com/posts/108](https://meetup.toast.com/posts/108)

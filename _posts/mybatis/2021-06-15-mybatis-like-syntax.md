@@ -27,4 +27,4 @@ title like '%' + #{keyword} + '%'
 ```
 
 ## [출처 및 참고]
-* <https://fruitdev.tistory.com/60>
+* [https://fruitdev.tistory.com/60](https://fruitdev.tistory.com/60)

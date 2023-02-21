@@ -100,5 +100,5 @@ semanage로 포트를 등록한다.
 ```
 
 ## [출처 및 참고]
-* <https://cofs.tistory.com/412>
-* <https://www.nginx.com/resources/wiki/start/topics/tutorials/install/>
+* [https://cofs.tistory.com/412](https://cofs.tistory.com/412)
+* [https://www.nginx.com/resources/wiki/start/topics/tutorials/install/](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)

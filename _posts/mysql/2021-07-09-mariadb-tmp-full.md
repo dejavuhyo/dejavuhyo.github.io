@@ -77,4 +77,4 @@ show variables like 'tmpdir';
 ```
 
 ## [출처 및 참고]
-* <https://sarc.io/index.php/mariadb/1058-mariadb-tmp-full>
+* [https://sarc.io/index.php/mariadb/1058-mariadb-tmp-full](https://sarc.io/index.php/mariadb/1058-mariadb-tmp-full)

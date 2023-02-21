@@ -137,4 +137,4 @@ CREATE TABLE Response (
 ```
 
 ## [출처 및 참고]
-* <https://qastack.kr/dba/120246/best-data-modelling-approach-to-handle-redundant-foreign-keys-in-a-database-abou>
+* [https://qastack.kr/dba/120246/best-data-modelling-approach-to-handle-redundant-foreign-keys-in-a-database-abou](https://qastack.kr/dba/120246/best-data-modelling-approach-to-handle-redundant-foreign-keys-in-a-database-abou)

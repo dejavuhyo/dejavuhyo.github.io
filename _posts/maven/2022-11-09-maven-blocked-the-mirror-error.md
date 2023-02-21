@@ -58,8 +58,8 @@ http를 무력화 시켜주는 코드를 작성한다.
 ```
 
 ## [출처 및 참고]
-* <https://jjam89.tistory.com/201>
-* <https://stackoverflow.com/questions/67001968/how-to-disable-maven-blocking-external-http-repositories>
-* <https://velog.io/@rosa/maven-Blocked-the-mirror-%EC%97%90%EB%9F%AC>
-* <https://backstage.forgerock.com/knowledge/kb/article/a15127846>
-* <https://bkjeon1614.tistory.com/700>
+* [https://jjam89.tistory.com/201](https://jjam89.tistory.com/201)
+* [https://stackoverflow.com/questions/67001968/how-to-disable-maven-blocking-external-http-repositories](https://stackoverflow.com/questions/67001968/how-to-disable-maven-blocking-external-http-repositories)
+* [https://velog.io/@rosa/maven-Blocked-the-mirror-%EC%97%90%EB%9F%AC](https://velog.io/@rosa/maven-Blocked-the-mirror-%EC%97%90%EB%9F%AC)
+* [https://backstage.forgerock.com/knowledge/kb/article/a15127846](https://backstage.forgerock.com/knowledge/kb/article/a15127846)
+* [https://bkjeon1614.tistory.com/700](https://bkjeon1614.tistory.com/700)

@@ -92,4 +92,4 @@ FROM YOUR_TABLE
 ```
 
 ## [출처 및 참고]
-* <https://mariadb.com/kb/en/create-function/>
+* [https://mariadb.com/kb/en/create-function/](https://mariadb.com/kb/en/create-function/)

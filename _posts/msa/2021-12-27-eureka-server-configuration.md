@@ -114,6 +114,6 @@ spring.security.user.password=admin
 ![spring-eureka](/assets/img/2021-12-27-eureka-server-configuration/spring-eureka.png)
 
 ## [출처 및 참고]
-* <https://dlibs.tistory.com/20>
-* <https://oingdaddy.tistory.com/156>
-* <https://sarc.io/index.php/cloud/1634-eureka>
+* [https://dlibs.tistory.com/20](https://dlibs.tistory.com/20)
+* [https://oingdaddy.tistory.com/156](https://oingdaddy.tistory.com/156)
+* [https://sarc.io/index.php/cloud/1634-eureka](https://sarc.io/index.php/cloud/1634-eureka)

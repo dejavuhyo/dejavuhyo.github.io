@@ -91,5 +91,5 @@ REST API에서 /users, /products와 같이 주요 URI도 하나의 서비스 정
 데이터베이스의 종류 자체를 다른 데이터베이스를 사용할 수 도 있지만, 같은 데이터베이스를 사용하더라도 DB를 나누는 방법을 사용한다. 이 경우, 다른 서비스 컴포넌트에 대한 의존성이 없이 서비스를 독립적으로 개발 및 배포/운영할 수 있다는 장점을 가지고 있으나, 다른 컴포넌트의 데이터를 API 통신을 통해서만 가지고 와야 하기 때문에 성능상 문제를 야기할 수 있고, 또한 이 기종 데이터베이스간의 트렌젝션을 묶을 수 없는 문제점을 가지고 있다. (이러한 데이터 분산에 의한 트렌젝션 문제는 SOA 때부터 있어 왔다.)
 
 ## [출처 및 참고]
-* <https://bcho.tistory.com/948>
-* <https://ssipflow.github.io/msa/Spring-Cloud-API-Gateway-01>
+* [https://bcho.tistory.com/948](https://bcho.tistory.com/948)
+* [https://ssipflow.github.io/msa/Spring-Cloud-API-Gateway-01](https://ssipflow.github.io/msa/Spring-Cloud-API-Gateway-01)

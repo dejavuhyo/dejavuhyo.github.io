@@ -50,7 +50,7 @@ Zuul은 Web/WAS로 Tomcat을 사용하고, SCG는 Netty를 사용한다.
 Netty는 비동기 네트워킹을 지원하는 어플리케이션 프레임워크이다.
 
 ## [출처 및 참고]
-* <https://cloud.spring.io/spring-cloud-gateway/reference/html/>
-* <https://twofootdog.tistory.com/64>
-* <https://cheese10yun.github.io/spring-cloud-gateway/>
-* <https://happycloud-lee.tistory.com/218>
+* [https://cloud.spring.io/spring-cloud-gateway/reference/html/](https://cloud.spring.io/spring-cloud-gateway/reference/html/)
+* [https://twofootdog.tistory.com/64](https://twofootdog.tistory.com/64)
+* [https://cheese10yun.github.io/spring-cloud-gateway/](https://cheese10yun.github.io/spring-cloud-gateway/)
+* [https://happycloud-lee.tistory.com/218](https://happycloud-lee.tistory.com/218)

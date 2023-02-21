@@ -110,4 +110,4 @@ SOA는 모든 면에서 모놀리식 아키텍처보다 단순하지만 구성 �
 RESTful API를 사용하면 어려운 데이터 변환 트랜잭션이나 추가 통합 계층 없이 상호 커뮤니케이션을 구현할 수 있으며, 새로운 기능과 업데이트를 더 빠르게 제공할 수 있다. 각 서비스는 개별적으로 제공되며 아키텍처의 다른 서비스에 영향을 미치지 않고 하나의 서비스를 교체하거나 강화하거나 삭제할 수 있다. 이 경량의 아키텍처는 배포된 리소스나 클라우드 리소스를 최적화하고 개별 서비스의 동적 확장성을 지원한다.
 
 ## [출처 및 참고]
-* <https://www.redhat.com/ko/topics/api/what-are-application-programming-interfaces>
+* [https://www.redhat.com/ko/topics/api/what-are-application-programming-interfaces](https://www.redhat.com/ko/topics/api/what-are-application-programming-interfaces)

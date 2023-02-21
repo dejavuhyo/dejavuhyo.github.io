@@ -145,5 +145,5 @@ FROM t1;
 ```
 
 ## [출처 및 참고]
-* <https://mariadb.com/kb/en/lag/>
-* <https://mariadb.com/kb/en/lead/>
+* [https://mariadb.com/kb/en/lag/](https://mariadb.com/kb/en/lag/)
+* [https://mariadb.com/kb/en/lead/](https://mariadb.com/kb/en/lead/)

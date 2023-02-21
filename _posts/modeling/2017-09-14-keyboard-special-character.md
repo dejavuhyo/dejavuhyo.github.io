@@ -73,4 +73,4 @@ tags: [types-of-diagrams, uml, 다이어그램-종류, 다이어그램]
 `>` Greater Than Sign(그레이터 댄 사인), Right Angle Bracket(라이트 앵글 브래킷)
 
 ## [출처 및 참고]
-* <http://2ssoosike.tistory.com/118>
+* [http://2ssoosike.tistory.com/118](http://2ssoosike.tistory.com/118)

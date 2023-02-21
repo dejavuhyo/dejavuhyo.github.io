@@ -112,5 +112,5 @@ C:\Program Files\mosquitto>mosquitto_sub -h localhost -t /testTopic
 ![img015](/assets/img/2020-05-29-mqtt-broker-mosquitto-install/img015.png)
 
 ## [출처 및 참고]
-* <https://jolog.tistory.com/12>
-* <https://dalkomit.tistory.com/119>
+* [https://jolog.tistory.com/12](https://jolog.tistory.com/12)
+* [https://dalkomit.tistory.com/119](https://dalkomit.tistory.com/119)

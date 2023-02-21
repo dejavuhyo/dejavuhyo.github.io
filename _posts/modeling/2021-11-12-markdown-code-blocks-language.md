@@ -89,5 +89,5 @@ tags: [markdown-code-blocks, code-blocks, code-blocks-language, 코드블록, �
 | TypeScript | typescript |
 
 ## [출처 및 참고]
-* <https://boxwitch.tistory.com/entry/%EB%94%94%EC%8A%A4%EC%BD%94%EB%93%9C-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EA%B8%80%EC%9E%90%EA%BE%B8%EB%AF%B8%EA%B8%B0-%EC%BD%94%EB%93%9C%EB%B8%94%EB%9F%AD-%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8-%EC%9D%B8%EC%9A%A9>
-* <https://highlightjs.org/static/demo/>
+* [https://boxwitch.tistory.com/entry/%EB%94%94%EC%8A%A4%EC%BD%94%EB%93%9C-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EA%B8%80%EC%9E%90%EA%BE%B8%EB%AF%B8%EA%B8%B0-%EC%BD%94%EB%93%9C%EB%B8%94%EB%9F%AD-%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8-%EC%9D%B8%EC%9A%A9](https://boxwitch.tistory.com/entry/%EB%94%94%EC%8A%A4%EC%BD%94%EB%93%9C-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%EA%B8%80%EC%9E%90%EA%BE%B8%EB%AF%B8%EA%B8%B0-%EC%BD%94%EB%93%9C%EB%B8%94%EB%9F%AD-%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8-%EC%9D%B8%EC%9A%A9)
+* [https://highlightjs.org/static/demo/](https://highlightjs.org/static/demo/)
