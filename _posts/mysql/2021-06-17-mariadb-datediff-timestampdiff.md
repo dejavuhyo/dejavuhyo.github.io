@@ -38,4 +38,4 @@ SELECT TIMESTAMPDIFF(minute, date_format('2021-06-17 06:00:00', '%Y-%m-%d %H:%i:
 ```
 
 ## [출처 및 참고]
-* <https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=cacung82&logNo=220688790307>
+* [https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=cacung82&logNo=220688790307](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=cacung82&logNo=220688790307)

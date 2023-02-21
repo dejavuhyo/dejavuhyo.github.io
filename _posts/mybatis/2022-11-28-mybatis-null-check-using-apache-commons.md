@@ -45,4 +45,4 @@ tags: [mybatis-null, mybatis-null-check, null-check, apache-commons, mybatis-apa
 ```
 
 ## [출처 및 참고]
-* <https://bol-bbang.tistory.com/13>
+* [https://bol-bbang.tistory.com/13](https://bol-bbang.tistory.com/13)

@@ -63,4 +63,4 @@ max_connections = 500
 ```
 
 ## [출처 및 참고]
-* <https://zetawiki.com/wiki/MySQL_max_connections_%EC%84%A4%EC%A0%95>
+* [https://zetawiki.com/wiki/MySQL_max_connections_%EC%84%A4%EC%A0%95](https://zetawiki.com/wiki/MySQL_max_connections_%EC%84%A4%EC%A0%95)

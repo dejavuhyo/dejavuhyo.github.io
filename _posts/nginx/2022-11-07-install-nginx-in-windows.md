@@ -38,4 +38,4 @@ nginx.exe 파일이 있는 위치에서 명령어를 실행시킨다.
 ![nginx-start](/assets/img/2022-11-07-install-nginx-in-windows/nginx-start.png)
 
 ## [출처 및 참고]
-* <https://harrydony.tistory.com/665>
+* [https://harrydony.tistory.com/665](https://harrydony.tistory.com/665)

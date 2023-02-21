@@ -170,4 +170,4 @@ export PATH
 ```
 
 ## [출처 및 참고]
-* <http://cheonbrave.blogspot.com/2016/11/mqtt-mosquitto-broker.html>
+* [http://cheonbrave.blogspot.com/2016/11/mqtt-mosquitto-broker.html](http://cheonbrave.blogspot.com/2016/11/mqtt-mosquitto-broker.html)

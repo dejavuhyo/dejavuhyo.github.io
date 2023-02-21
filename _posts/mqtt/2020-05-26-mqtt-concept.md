@@ -65,4 +65,4 @@ AMQP를 지원하는 메시지 큐 서버로 플러그인(Plug-in)방식으로 M
 ![img006](/assets/img/2020-05-26-mqtt-concept/img006.png)
 
 ## [출처 및 참고]
-* <https://www.joinc.co.kr/w/man/12/MQTT/Tutorial#toc>
+* [https://www.joinc.co.kr/w/man/12/MQTT/Tutorial#toc](https://www.joinc.co.kr/w/man/12/MQTT/Tutorial#toc)

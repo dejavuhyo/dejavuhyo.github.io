@@ -235,4 +235,4 @@ root     30655 28556  0 13:59 pts/0    00:00:00 grep --color=auto svnserve
 ```
 
 ## [출처 및 참고]
-* <https://sangchul.kr/645>
+* [https://sangchul.kr/645](https://sangchul.kr/645)

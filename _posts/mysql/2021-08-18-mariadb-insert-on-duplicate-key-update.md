@@ -138,4 +138,4 @@ ON DUPLICATE KEY UPDATE animal = 'Tiger', age = 12;
 ```
 
 ## [출처 및 참고]
-* <https://mariadb.com/kb/en/insert-on-duplicate-key-update/>
+* [https://mariadb.com/kb/en/insert-on-duplicate-key-update/](https://mariadb.com/kb/en/insert-on-duplicate-key-update/)

@@ -92,4 +92,4 @@ was wondering anyone out there could enlighten this car.
 전처리를 위해 정규 표현식을 사용한다. 예를 들어 위에서 길이가 짧은 단어를 제거할 때도, 정규 표현식이 유용하게 사용되었다.
 
 ## [출처 및 참고]
-* <https://wikidocs.net/21693>
+* [https://wikidocs.net/21693](https://wikidocs.net/21693)

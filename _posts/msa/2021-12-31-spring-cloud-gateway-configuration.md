@@ -202,7 +202,7 @@ IntelliJ 기준으로 Eureka, Gateway, Board 모듈을 import 하고, 각 모듈
 ![service](/assets/img/2021-12-31-spring-cloud-gateway-configuration/service.png)
 
 ## [출처 및 참고]
-* <https://cloud.spring.io/spring-cloud-gateway/reference/html/>
-* <https://twofootdog.tistory.com/64>
-* <https://cheese10yun.github.io/spring-cloud-gateway/>
-* <https://happycloud-lee.tistory.com/218>
+* [https://cloud.spring.io/spring-cloud-gateway/reference/html/](https://cloud.spring.io/spring-cloud-gateway/reference/html/)
+* [https://twofootdog.tistory.com/64](https://twofootdog.tistory.com/64)
+* [https://cheese10yun.github.io/spring-cloud-gateway/](https://cheese10yun.github.io/spring-cloud-gateway/)
+* [https://happycloud-lee.tistory.com/218](https://happycloud-lee.tistory.com/218)

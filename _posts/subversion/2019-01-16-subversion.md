@@ -140,5 +140,5 @@ tags: [subversion, svn]
 * update(up): 작업 복사본 갱신하기
 
 ## [출처 및 참고]
-* <https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B8%8C%EB%B2%84%EC%A0%84>
-* <http://euntark86.blogspot.com/2017/01/svn.html>
+* [https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B8%8C%EB%B2%84%EC%A0%84](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B8%8C%EB%B2%84%EC%A0%84)
+* [http://euntark86.blogspot.com/2017/01/svn.html](http://euntark86.blogspot.com/2017/01/svn.html)

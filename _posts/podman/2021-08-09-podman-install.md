@@ -91,5 +91,5 @@ sudo systemctl disable docker
 ```
 
 ## [출처 및 참고]
-* <https://www.lesstif.com/container/podman-98926748.html>
-* <https://podman.io/getting-started/installation#linux-distributions>
+* [https://www.lesstif.com/container/podman-98926748.html](https://www.lesstif.com/container/podman-98926748.html)
+* [https://podman.io/getting-started/installation#linux-distributions](https://podman.io/getting-started/installation#linux-distributions)

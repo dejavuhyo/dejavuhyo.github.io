@@ -73,4 +73,4 @@ tags: [virtualization, 가상화, 가상화-기술, 서버-가상화, 가상화-
 ![network-function-virtualization](/assets/img/2021-02-15-virtualization/network-function-virtualization.png)
 
 ## [출처 및 참고]
-* <https://www.redhat.com/ko/topics/virtualization/what-is-virtualization>
+* [https://www.redhat.com/ko/topics/virtualization/what-is-virtualization](https://www.redhat.com/ko/topics/virtualization/what-is-virtualization)

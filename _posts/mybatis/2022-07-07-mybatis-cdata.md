@@ -35,4 +35,4 @@ xml에서 sqlMap이나 Mapper를 사용할 경우 동적(다이나믹) 쿼리에
 동적 쿼리를 사용해야 하는 경우, 쿼리문 전체가 아닌 특수문자가 있는 코드에만 `<!CDATA[ ]]>`를 사용하면 동적 쿼리도 문제없이 사용할 수 있다.
 
 ## [출처 및 참고]
-* <https://sdevstudy.tistory.com/6>
+* [https://sdevstudy.tistory.com/6](https://sdevstudy.tistory.com/6)

@@ -189,5 +189,5 @@ RESTful은 REST를 REST답게 쓰기 위한 방법으로, 누군가가 공식적
 성능이 중요한 상황에서는 굳이 RESTful한 API를 구현할 필요는 없다.
 
 ## [출처 및 참고]
-* <https://ko.wikipedia.org/wiki/REST>
-* <https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html>
+* [https://ko.wikipedia.org/wiki/REST](https://ko.wikipedia.org/wiki/REST)
+* [https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html](https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html)

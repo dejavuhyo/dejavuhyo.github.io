@@ -171,4 +171,4 @@ Penn Treebank POG Tags에서 PRP는 인칭 대명사, VBP는 동사, RB는 부�
 앞서 사용한 Okt 형태소 분석기와 결과가 다른 것을 볼 수 있다. 각 형태소 분석기는 성능과 결과가 다르게 나오기 때문에, 형태소 분석기의 선택은 사용하고자 하는 필요 용도에 어떤 형태소 분석기가 가장 적절한지를 판단하고 사용하면 된다.
 
 ## [출처 및 참고]
-* <https://wikidocs.net/21698>
+* [https://wikidocs.net/21698](https://wikidocs.net/21698)

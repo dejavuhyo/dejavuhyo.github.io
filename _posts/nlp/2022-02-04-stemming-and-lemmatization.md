@@ -235,4 +235,4 @@ organization과 organ은 완전히 다른 단어 임에도 organization에 대�
 > **참고:** [불규칙 활용](https://namu.wiki/w/한국어/불규칙%20활용)
 
 ## [출처 및 참고]
-* <https://wikidocs.net/21707>
+* [https://wikidocs.net/21707](https://wikidocs.net/21707)
