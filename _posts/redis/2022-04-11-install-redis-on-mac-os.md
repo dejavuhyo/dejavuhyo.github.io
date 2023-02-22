@@ -91,4 +91,4 @@ OK
 ```
 
 ## [출처 및 참고]
-* <https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/>
+* [https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/](https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/)

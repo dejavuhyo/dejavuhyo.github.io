@@ -37,4 +37,4 @@ select *, pg_encoding_to_char(encoding) from pg_database;
 ![all-db](/assets/img/2022-01-18-postgresql-character-set/all-db.png)
 
 ## [출처 및 참고]
-* <https://cbwstar.tistory.com/entry/PostgreSQL-%EC%9D%B8%EC%BD%94%EB%94%A9encoding-%ED%99%95%EC%9D%B8>
+* [https://cbwstar.tistory.com/entry/PostgreSQL-%EC%9D%B8%EC%BD%94%EB%94%A9encoding-%ED%99%95%EC%9D%B8](https://cbwstar.tistory.com/entry/PostgreSQL-%EC%9D%B8%EC%BD%94%EB%94%A9encoding-%ED%99%95%EC%9D%B8)

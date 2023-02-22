@@ -166,5 +166,5 @@ tags: [http-status, http-response, http-status-response, http-상태, http-응�
   - 서버의 SSL 인증서의 유효성을 검증 할수없고 인증서가 잘못되었을때 뜬다. Cloudflare에서 주로 쓰는 비표준 응답코드
 
 ## [출처 및 참고]
-* <https://namu.wiki/w/HTTP/%EC%9D%91%EB%8B%B5%20%EC%BD%94%EB%93%9C>
-* <https://tools.ietf.org/html/rfc7231>
+* [https://namu.wiki/w/HTTP/%EC%9D%91%EB%8B%B5%20%EC%BD%94%EB%93%9C](https://namu.wiki/w/HTTP/%EC%9D%91%EB%8B%B5%20%EC%BD%94%EB%93%9C)
+* [https://tools.ietf.org/html/rfc7231](https://tools.ietf.org/html/rfc7231)

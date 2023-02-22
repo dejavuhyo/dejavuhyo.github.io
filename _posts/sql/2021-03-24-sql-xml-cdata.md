@@ -53,5 +53,5 @@ XML 파서에서 태그 문자로 처리되는 문자가 포함될 수 있다. �
 ```
 
 ## [출처 및 참고]
-* <https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions216.htm>
-* <https://docs.microsoft.com/ko-kr/sql/relational-databases/sqlxml-annotated-xsd-schemas-using/creating-cdata-sections-using-sql-use-cdata-sqlxml-4-0?view=sql-server-ver15>
+* [https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions216.htm](https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions216.htm)
+* [https://docs.microsoft.com/ko-kr/sql/relational-databases/sqlxml-annotated-xsd-schemas-using/creating-cdata-sections-using-sql-use-cdata-sqlxml-4-0?view=sql-server-ver15](https://docs.microsoft.com/ko-kr/sql/relational-databases/sqlxml-annotated-xsd-schemas-using/creating-cdata-sections-using-sql-use-cdata-sqlxml-4-0?view=sql-server-ver15)

@@ -151,4 +151,4 @@ SQL Developer를 사용하여 함수를 삭제하려는 경우 다음 단계를 
 ![function-drop-confirmation](/assets/img/2021-05-17-plsql-function/function-drop-confirmation.png)
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/plsql-tutorial/plsql-function/>
+* [https://www.oracletutorial.com/plsql-tutorial/plsql-function/](https://www.oracletutorial.com/plsql-tutorial/plsql-function/)

@@ -73,4 +73,4 @@ java.util.logging.ConsoleHandler.encoding = EUC-KR
 ![img004](/assets/img/2020-05-21-tomcat-console-encoding/img004.png)
 
 ## [출처 및 참고]
-* <https://1004lucifer.blogspot.com/2020/02/tomcat-windows.html>
+* [https://1004lucifer.blogspot.com/2020/02/tomcat-windows.html](https://1004lucifer.blogspot.com/2020/02/tomcat-windows.html)

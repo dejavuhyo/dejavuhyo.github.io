@@ -169,4 +169,4 @@ DROP PROCEDURE print_contact;
 ![procedure-drop-confirmation](/assets/img/2021-05-14-plsql-procedure/procedure-drop-confirmation.png)
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/plsql-tutorial/plsql-procedure/>
+* [https://www.oracletutorial.com/plsql-tutorial/plsql-procedure/](https://www.oracletutorial.com/plsql-tutorial/plsql-procedure/)

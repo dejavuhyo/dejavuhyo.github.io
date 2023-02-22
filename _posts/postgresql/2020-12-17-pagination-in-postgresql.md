@@ -96,5 +96,5 @@ offset (2 - 1) * 10;
 ```
 
 ## [출처 및 참고]
-* <https://levelup.gitconnected.com/creating-a-data-pagination-function-in-postgresql-2a032084af54>
-* <https://www.postgresql.org/docs/12/queries-limit.html>
+* [https://levelup.gitconnected.com/creating-a-data-pagination-function-in-postgresql-2a032084af54](https://levelup.gitconnected.com/creating-a-data-pagination-function-in-postgresql-2a032084af54)
+* [https://www.postgresql.org/docs/12/queries-limit.html](https://www.postgresql.org/docs/12/queries-limit.html)

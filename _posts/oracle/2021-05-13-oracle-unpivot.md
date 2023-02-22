@@ -195,4 +195,4 @@ UNPIVOT (
 ![unpivot-multiple-columns](/assets/img/2021-05-13-oracle-unpivot/unpivot-multiple-columns.png)
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-basics/oracle-unpivot/>
+* [https://www.oracletutorial.com/oracle-basics/oracle-unpivot/](https://www.oracletutorial.com/oracle-basics/oracle-unpivot/)

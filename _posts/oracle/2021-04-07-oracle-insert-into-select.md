@@ -183,4 +183,4 @@ FROM
 이 예는 데모를 위한 것이며, 보낸 열의 정의에 DEFAULT 0을 추가할 수 있다.
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-basics/oracle-insert-into-select/>
+* [https://www.oracletutorial.com/oracle-basics/oracle-insert-into-select/](https://www.oracletutorial.com/oracle-basics/oracle-insert-into-select/)

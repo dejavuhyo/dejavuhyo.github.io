@@ -122,4 +122,4 @@ host all all 192.168.18.0/24 md5
 ```
 
 ## [출처 및 참고]
-* <https://computingforgeeks.com/install-postgresql-13-on-centos-rhel/>
+* [https://computingforgeeks.com/install-postgresql-13-on-centos-rhel/](https://computingforgeeks.com/install-postgresql-13-on-centos-rhel/)

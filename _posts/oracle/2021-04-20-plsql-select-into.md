@@ -157,4 +157,4 @@ ORA-06502: PL/SQL: numeric or value error
 ```
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/plsql-tutorial/plsql-select-into/>
+* [https://www.oracletutorial.com/plsql-tutorial/plsql-select-into/](https://www.oracletutorial.com/plsql-tutorial/plsql-select-into/)

@@ -114,4 +114,4 @@ ORDER BY
 ![rtrim-example](/assets/img/2021-03-31-oracle-rtrim/rtrim-example.png)
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-string-functions/oracle-rtrim/>
+* [https://www.oracletutorial.com/oracle-string-functions/oracle-rtrim/](https://www.oracletutorial.com/oracle-string-functions/oracle-rtrim/)

@@ -23,4 +23,4 @@ DB에 세팅된 인코딩 방식이 ojdbc8.jar에서 지원하지 않는 인코�
 ```
 
 ## [출처 및 참고]
-* <https://sillutt.tistory.com/entry/Oracle-%EC%A7%80%EC%9B%90%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EB%AC%B8%EC%9E%90-%EC%A7%91%ED%95%A9%ED%81%B4%EB%9E%98%EC%8A%A4-%EA%B2%BD%EB%A1%9C%EC%97%90-orai18njar-%EC%B6%94%EA%B0%80-KO16MSWIN949>
+* [https://sillutt.tistory.com/entry/Oracle-%EC%A7%80%EC%9B%90%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EB%AC%B8%EC%9E%90-%EC%A7%91%ED%95%A9%ED%81%B4%EB%9E%98%EC%8A%A4-%EA%B2%BD%EB%A1%9C%EC%97%90-orai18njar-%EC%B6%94%EA%B0%80-KO16MSWIN949](https://sillutt.tistory.com/entry/Oracle-%EC%A7%80%EC%9B%90%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EB%AC%B8%EC%9E%90-%EC%A7%91%ED%95%A9%ED%81%B4%EB%9E%98%EC%8A%A4-%EA%B2%BD%EB%A1%9C%EC%97%90-orai18njar-%EC%B6%94%EA%B0%80-KO16MSWIN949)

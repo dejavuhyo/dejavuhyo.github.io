@@ -114,4 +114,4 @@ ORDER BY
 ![ltrim-funcion](/assets/img/2021-03-30-oracle-ltrim/ltrim-funcion.png)
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-string-functions/oracle-ltrim/>
+* [https://www.oracletutorial.com/oracle-string-functions/oracle-ltrim/](https://www.oracletutorial.com/oracle-string-functions/oracle-ltrim/)

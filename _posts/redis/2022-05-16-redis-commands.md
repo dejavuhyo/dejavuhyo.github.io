@@ -86,5 +86,5 @@ Redis에서 저장할 수 있는 자료구조 중에 Hash도 있다. Hash 자체
 > 모든 명령어는 [Redis Commands](https://redis.io/commands/)를 참고한다.
 
 [출처 및 참고]
-* <https://redis.io/commands/>
-* <https://bcp0109.tistory.com/327>
+* [https://redis.io/commands/](https://redis.io/commands/)
+* [https://bcp0109.tistory.com/327](https://bcp0109.tistory.com/327)

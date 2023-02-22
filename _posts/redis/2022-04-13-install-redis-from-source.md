@@ -51,4 +51,4 @@ $ redis-server
 Redis를 중지하려면 `Ctrl+C`를 입력한다.
 
 ## [출처 및 참고]
-* <https://redis.io/docs/getting-started/installation/install-redis-from-source/>
+* [https://redis.io/docs/getting-started/installation/install-redis-from-source/](https://redis.io/docs/getting-started/installation/install-redis-from-source/)

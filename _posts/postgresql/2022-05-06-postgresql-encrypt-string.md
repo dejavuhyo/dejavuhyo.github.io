@@ -33,4 +33,4 @@ SELECT convert_from(decrypt(decode('b7fdc764f1e95d5e4847e5572ee3f01c', 'hex'), '
 ```
 
 ## [출처 및 참고]
-* <https://guiyomi.tistory.com/98>
+* [https://guiyomi.tistory.com/98](https://guiyomi.tistory.com/98)

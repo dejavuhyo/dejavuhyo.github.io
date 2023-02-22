@@ -101,4 +101,4 @@ DROP VIEW salesman_contacts;
 ```
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-view/oracle-drop-view/>
+* [https://www.oracletutorial.com/oracle-view/oracle-drop-view/](https://www.oracletutorial.com/oracle-view/oracle-drop-view/)

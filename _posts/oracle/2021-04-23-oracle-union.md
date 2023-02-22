@@ -164,4 +164,4 @@ UNION은 결과 집합을 위에 배치하며, 이는 결과 집합을 수직으
 ![union-vs-inner-join](/assets/img/2021-04-23-oracle-union/union-vs-inner-join.png)
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-basics/oracle-union/>
+* [https://www.oracletutorial.com/oracle-basics/oracle-union/](https://www.oracletutorial.com/oracle-basics/oracle-union/)

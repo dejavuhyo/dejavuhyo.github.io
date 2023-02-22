@@ -283,4 +283,4 @@ FROM
 ![oracle-identity-column-example](/assets/img/2021-05-03-oracle-create-sequence/oracle-identity-column-example.png)
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-sequence/oracle-create-sequence/>
+* [https://www.oracletutorial.com/oracle-sequence/oracle-create-sequence/](https://www.oracletutorial.com/oracle-sequence/oracle-create-sequence/)

@@ -151,4 +151,4 @@ CASE 식은 조건 목록을 평가하고 가능한 여러 결과 식 중 하나
 CASE 식의 결과는 단일 값인 반면 CASE 문의 결과는 일련의 문들의 실행이다.
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/plsql-tutorial/plsql-case-statement/>
+* [https://www.oracletutorial.com/plsql-tutorial/plsql-case-statement/](https://www.oracletutorial.com/plsql-tutorial/plsql-case-statement/)

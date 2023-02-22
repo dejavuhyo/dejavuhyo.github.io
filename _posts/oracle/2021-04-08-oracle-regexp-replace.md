@@ -154,4 +154,4 @@ ORDER BY
 ![regular-expression-4](/assets/img/2021-04-08-oracle-regexp-replace/regular-expression-4.png)
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-string-functions/oracle-regexp_replace/>
+* [https://www.oracletutorial.com/oracle-string-functions/oracle-regexp_replace/](https://www.oracletutorial.com/oracle-string-functions/oracle-regexp_replace/)

@@ -124,4 +124,4 @@ WHERE row_num = 1;
 동일한 N-highest 가격의 제품을 두 개 이상 얻으려면 RANK() 또는 DENSE_RANK() 함수를 사용할 수 있다.
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-analytic-functions/oracle-row_number/>
+* [https://www.oracletutorial.com/oracle-analytic-functions/oracle-row_number/](https://www.oracletutorial.com/oracle-analytic-functions/oracle-row_number/)

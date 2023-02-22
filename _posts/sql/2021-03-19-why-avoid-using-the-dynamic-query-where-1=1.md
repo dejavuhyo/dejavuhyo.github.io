@@ -70,5 +70,5 @@ WHERE 1=1
 > null 체크는 당연히 해야되는 것이다. 그러나 사람은 실수를 하기 때문에 문제가 발생한다. 애초에 WHERE 1=1이라는 구문을 사용하지 않는 것이 잠재적인 오류를 없애는 방법일 것이다.
 
 ## [출처 및 참고]
-* <https://okky.kr/article/250963>
-* <https://jdm.kr/blog/7>
+* [https://okky.kr/article/250963](https://okky.kr/article/250963)
+* [https://jdm.kr/blog/7](https://jdm.kr/blog/7)

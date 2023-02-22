@@ -144,4 +144,4 @@ impdp scott/tiger@db10g schemas=SCOTT directory=TEST_DIR parallel=4 dumpfile=SCO
 ```
 
 ## [출처 및 참고]
-* <https://oracle-base.com/articles/10g/oracle-data-pump-10g>
+* [https://oracle-base.com/articles/10g/oracle-data-pump-10g](https://oracle-base.com/articles/10g/oracle-data-pump-10g)

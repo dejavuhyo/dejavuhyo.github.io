@@ -57,4 +57,4 @@ ORDER BY a.job
 ![order-by-max](/assets/img/2022-05-19-remove-with-only-one-duplicatedata-in-oracle/order-by-max.png)
 
 ## [출처 및 참고]
-* <https://gent.tistory.com/478>
+* [https://gent.tistory.com/478](https://gent.tistory.com/478)

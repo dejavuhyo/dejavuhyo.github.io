@@ -167,4 +167,4 @@ END IF;
 그러나 중첩 수준이 너무 많으면 코드를 읽고 유지 관리하기가 어렵기 때문에 IF 문을 중첩하지 않아야 합니다.
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/plsql-tutorial/plsql-if/>
+* [https://www.oracletutorial.com/plsql-tutorial/plsql-if/](https://www.oracletutorial.com/plsql-tutorial/plsql-if/)

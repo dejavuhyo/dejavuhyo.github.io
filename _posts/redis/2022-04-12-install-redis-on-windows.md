@@ -45,5 +45,5 @@ PONG
 ```
 
 ## [출처 및 참고]
-* <https://redis.io/docs/getting-started/installation/install-redis-on-windows/>
-* <https://sunghs.tistory.com/90>
+* [https://redis.io/docs/getting-started/installation/install-redis-on-windows/](https://redis.io/docs/getting-started/installation/install-redis-on-windows/)
+* [https://sunghs.tistory.com/90](https://sunghs.tistory.com/90)
