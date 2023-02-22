@@ -127,4 +127,4 @@ FROM
 ![to-date-function-example](/assets/img/2021-04-05-oracle-to-date/to-date-function-example.png)
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-date-functions/oracle-to_date/>
+* [https://www.oracletutorial.com/oracle-date-functions/oracle-to_date/](https://www.oracletutorial.com/oracle-date-functions/oracle-to_date/)

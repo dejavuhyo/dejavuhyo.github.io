@@ -127,4 +127,4 @@ COALESCE (e1, e2)
 그러나 COALESCE() 함수는 그 인수를 순서대로 평가하고 결과를 결정할 수 있을 때, 즉 첫 번째 non-NULL 인수를 찾을 수 있을 때 평가를 중단한다. 이 기능을 단락 평가라고 한다. 대조적으로, NVL() 함수는 결과를 결정하기 위해 모든 인수를 평가한다.
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-comparison-functions/oracle-nvl/>
+* [https://www.oracletutorial.com/oracle-comparison-functions/oracle-nvl/](https://www.oracletutorial.com/oracle-comparison-functions/oracle-nvl/)

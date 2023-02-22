@@ -72,4 +72,4 @@ ORDER BY
 쿼리 마지막에 ORDER BY 절을 배치하여 INTERSECT 연산자가 반환한 결과 집합을 정렬한다는 점에 유의한다.
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-basics/oracle-intersect/>
+* [https://www.oracletutorial.com/oracle-basics/oracle-intersect/](https://www.oracletutorial.com/oracle-basics/oracle-intersect/)

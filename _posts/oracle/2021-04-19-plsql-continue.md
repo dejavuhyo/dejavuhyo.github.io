@@ -98,4 +98,4 @@ END;
 ```
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/plsql-tutorial/plsql-continue/>
+* [https://www.oracletutorial.com/plsql-tutorial/plsql-continue/](https://www.oracletutorial.com/plsql-tutorial/plsql-continue/)

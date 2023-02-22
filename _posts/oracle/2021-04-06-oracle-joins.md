@@ -254,4 +254,4 @@ WHERE
 ![full-outer-join-with-where-venn-diagram](/assets/img/2021-04-06-oracle-joins/full-outer-join-with-where-venn-diagram.png)
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-basics/oracle-joins/>
+* [https://www.oracletutorial.com/oracle-basics/oracle-joins/](https://www.oracletutorial.com/oracle-basics/oracle-joins/)

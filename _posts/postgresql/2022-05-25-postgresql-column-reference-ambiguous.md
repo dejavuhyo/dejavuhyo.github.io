@@ -31,4 +31,4 @@ where a.id = 'A';
 ```
 
 ## [출처 및 참고]
-* <https://bono915.tistory.com/entry/Postgresql-ERROR-column-reference-columnname-is-ambiguous-%EC%98%A4%EB%A5%98-%EB%B0%8F-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95>
+* [https://bono915.tistory.com/entry/Postgresql-ERROR-column-reference-columnname-is-ambiguous-%EC%98%A4%EB%A5%98-%EB%B0%8F-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95](https://bono915.tistory.com/entry/Postgresql-ERROR-column-reference-columnname-is-ambiguous-%EC%98%A4%EB%A5%98-%EB%B0%8F-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95)

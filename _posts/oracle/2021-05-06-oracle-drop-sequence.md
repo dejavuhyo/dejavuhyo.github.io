@@ -39,4 +39,4 @@ DROP SEQUENCE no_seq;
 ```
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-sequence/oracle-alter-sequence/>
+* [https://www.oracletutorial.com/oracle-sequence/oracle-alter-sequence/](https://www.oracletutorial.com/oracle-sequence/oracle-alter-sequence/)

@@ -146,4 +146,4 @@ GROUP BY
 ```
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-view/oracle-create-view/>
+* [https://www.oracletutorial.com/oracle-view/oracle-create-view/](https://www.oracletutorial.com/oracle-view/oracle-create-view/)

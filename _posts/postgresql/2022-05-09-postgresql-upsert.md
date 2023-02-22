@@ -70,5 +70,5 @@ DO NOTHING
 > ON CONFLICT절은 PostgreSQL 9.5에서만 사용할 수 있다.
 
 ## [출처 및 참고]
-* <https://mine-it-record.tistory.com/342>
-* <https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-upsert/>
+* [https://mine-it-record.tistory.com/342](https://mine-it-record.tistory.com/342)
+* [https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-upsert/](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-upsert/)

@@ -45,4 +45,4 @@ CREATE TABLE IF NOT EXISTS mytable (
 | FOREIGN KEY | 열의 각 값이 다른 테이블의 열에 있는 다른 값과 일치하는지 확인하는 일관성 검사이다. 예를 들어, ID별로 모든 직원을 나열하는 테이블과 해당 직원의 급여 정보를 나열하는 테이블이 두 개 있는 경우, FOREIGN KEY는 급여 테이블의 모든 행이 마스터 직원 목록에 있는 유효한 직원과 일치하도록 보장할 수 있다. |
 
 ## [출처 및 참고]
-* <https://sqlbolt.com/lesson/creating_tables>
+* [https://sqlbolt.com/lesson/creating_tables](https://sqlbolt.com/lesson/creating_tables)

@@ -117,4 +117,4 @@ FROM
 ```
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-string-functions/oracle-trim/>
+* [https://www.oracletutorial.com/oracle-string-functions/oracle-trim/](https://www.oracletutorial.com/oracle-string-functions/oracle-trim/)

@@ -48,4 +48,4 @@ tags: [tomcat-encoding, encoding, tomcat-인코딩, 인코딩]
 ```
 
 ## [출처 및 참고]
-* <https://itworldyo.tistory.com/105>
+* [https://itworldyo.tistory.com/105](https://itworldyo.tistory.com/105)

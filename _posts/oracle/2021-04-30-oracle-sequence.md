@@ -170,4 +170,4 @@ TO another_user;
 ```
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-sequence/>
+* [https://www.oracletutorial.com/oracle-sequence/](https://www.oracletutorial.com/oracle-sequence/)

@@ -87,4 +87,4 @@ FROM
 ![minus-example](/assets/img/2021-04-26-oracle-minus/minus-example.png)
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-basics/oracle-minus/>
+* [https://www.oracletutorial.com/oracle-basics/oracle-minus/](https://www.oracletutorial.com/oracle-basics/oracle-minus/)

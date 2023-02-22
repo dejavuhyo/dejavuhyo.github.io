@@ -285,4 +285,4 @@ pivot_in_clause에서 하위 쿼리를 사용하면 Oracle은 하위 쿼리에�
 하위 쿼리는 고유한 값 목록을 반환해야 한다. 그렇지 않으면 Oracle에서 런타임 오류가 발생한다. 하위 쿼리가 고유 값 목록을 반환하는지 여부를 잘 모를 경우 하위 쿼리에서 DISTINCT 키워드를 사용할 수 있다.
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-basics/oracle-pivot/>
+* [https://www.oracletutorial.com/oracle-basics/oracle-pivot/](https://www.oracletutorial.com/oracle-basics/oracle-pivot/)

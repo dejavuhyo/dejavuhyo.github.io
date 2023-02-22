@@ -147,4 +147,4 @@ ORDER BY
 ![to-char-function-example](/assets/img/2021-04-02-oracle-to-char/to-char-function-example.png)
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-date-functions/oracle-to_char/>
+* [https://www.oracletutorial.com/oracle-date-functions/oracle-to_char/](https://www.oracletutorial.com/oracle-date-functions/oracle-to_char/)

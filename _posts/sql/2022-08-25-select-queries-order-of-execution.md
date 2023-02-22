@@ -58,4 +58,4 @@ FROM mytable
 마지막으로 `LIMIT` 및 `OFFSET`에서 지정한 범위를 벗어나는 행은 삭제되고 마지막 행 집합은 쿼리에서 반환된다.
 
 ## [출처 및 참고]
-* <https://sqlbolt.com/lesson/select_queries_order_of_execution>
+* [https://sqlbolt.com/lesson/select_queries_order_of_execution](https://sqlbolt.com/lesson/select_queries_order_of_execution)

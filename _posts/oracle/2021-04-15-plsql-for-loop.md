@@ -172,4 +172,4 @@ REVERSE 키워드가 없으면 결과는 다음과 같다.
 ```
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/plsql-tutorial/plsql-for-loop/>
+* [https://www.oracletutorial.com/plsql-tutorial/plsql-for-loop/](https://www.oracletutorial.com/plsql-tutorial/plsql-for-loop/)

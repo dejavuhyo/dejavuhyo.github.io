@@ -88,4 +88,4 @@ Counter : 2
 카운터가 3일 때 EXIT WHEN 절이 true로 평가되는 조건이다. 루프 본체는 종료되기 전에 두 번만 실행되었다.
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/plsql-tutorial/plsql-while-loop/>
+* [https://www.oracletutorial.com/plsql-tutorial/plsql-while-loop/](https://www.oracletutorial.com/plsql-tutorial/plsql-while-loop/)

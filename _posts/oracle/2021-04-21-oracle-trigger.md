@@ -217,4 +217,4 @@ WHERE customer_id = 10;
 결과에 새 행이 삽입되었음을 보여준다. DELETE 액션이 트리거 customer_audit_trg를 실행시켰음을 의미한다.
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/plsql-tutorial/oracle-trigger/>
+* [https://www.oracletutorial.com/plsql-tutorial/oracle-trigger/](https://www.oracletutorial.com/plsql-tutorial/oracle-trigger/)

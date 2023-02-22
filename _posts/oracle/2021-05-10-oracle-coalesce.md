@@ -273,4 +273,4 @@ FROM
 NVL() 함수가 오류를 일으키는 두 번째 식 1/0을 평가했기 때문이다.
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-comparison-functions/oracle-coalesce/>
+* [https://www.oracletutorial.com/oracle-comparison-functions/oracle-coalesce/](https://www.oracletutorial.com/oracle-comparison-functions/oracle-coalesce/)

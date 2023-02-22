@@ -108,5 +108,5 @@ CONNECT BY PRIOR CLASS_CODE = UP_CLASS_CODE
 ![sys-connect-by-path-example](/assets/img/2021-04-01-oracle-sys-connect-by-path/sys-connect-by-path-example.png)
 
 ## [출처 및 참고]
-* <https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions164.htm>
-* <http://sqlfiddle.com/>
+* [https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions164.htm](https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions164.htm)
+* [http://sqlfiddle.com/](http://sqlfiddle.com/)

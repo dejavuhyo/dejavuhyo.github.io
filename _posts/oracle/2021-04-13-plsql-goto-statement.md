@@ -123,4 +123,4 @@ PLS-00375: illegal GOTO statement; this GOTO cannot branch to label 'ZERO_COMMIS
 * **넷째:** GOTO 문을 사용하여 예외 처리에서 현재 블록으로 다시 제어 권한을 전송할 수 없다.
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/plsql-tutorial/plsql-goto/>
+* [https://www.oracletutorial.com/plsql-tutorial/plsql-goto/](https://www.oracletutorial.com/plsql-tutorial/plsql-goto/)

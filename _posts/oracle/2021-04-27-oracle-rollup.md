@@ -187,4 +187,4 @@ GROUP BY
 쿼리는 판매원과 고객의 각 조합에 대해 판매원 전체 집계에 GROUP BY 되는 ROLLUP 및 부분합을 사용하지 않고 GROUP BY 절에 의해 반환되는 정규 집계 행을 출력한다.
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/oracle-basics/oracle-rollup/>
+* [https://www.oracletutorial.com/oracle-basics/oracle-rollup/](https://www.oracletutorial.com/oracle-basics/oracle-rollup/)

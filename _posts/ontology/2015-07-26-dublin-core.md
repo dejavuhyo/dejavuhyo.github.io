@@ -51,6 +51,6 @@ DC의 목표는 데이터의 형식과 구조를 단순화하여 원문의 저�
 * **Coverage(범위):** 자원의 내용물의 수량이나 범위
 
 ## [출처 및 참고]
-* <http://dublincore.org/>
-* <http://dublincore.org/documents/dces/>
-* <https://ko.wikipedia.org/wiki/%EB%8D%94%EB%B8%94%EB%A6%B0_%EC%BD%94%EC%96%B4>
+* [http://dublincore.org/](http://dublincore.org/)
+* [http://dublincore.org/documents/dces/](http://dublincore.org/documents/dces/)
+* [https://ko.wikipedia.org/wiki/%EB%8D%94%EB%B8%94%EB%A6%B0_%EC%BD%94%EC%96%B4](https://ko.wikipedia.org/wiki/%EB%8D%94%EB%B8%94%EB%A6%B0_%EC%BD%94%EC%96%B4)

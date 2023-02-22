@@ -148,4 +148,4 @@ Outer counter 2
 ```
 
 ## [출처 및 참고]
-* <https://www.oracletutorial.com/plsql-tutorial/plsql-loop/>
+* [https://www.oracletutorial.com/plsql-tutorial/plsql-loop/](https://www.oracletutorial.com/plsql-tutorial/plsql-loop/)
