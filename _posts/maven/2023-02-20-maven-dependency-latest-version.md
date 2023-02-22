@@ -1,7 +1,7 @@
 ---
 title: Maven 종속성 최신 버전 사용
 author: dejavuhyo
-date: 2023-01-20 20:55:00 +0900
+date: 2023-02-20 20:55:00 +0900
 categories: [DevOps, Maven]
 tags: [maven-dependency, maven, dependency-latest, maven-latest-version, maven-latest, 메이븐-종속성, 메이븐-최신-버전, 종속성-최신-버전, 메이븐-종속성, 메이븐, 최신-버전]
 ---
