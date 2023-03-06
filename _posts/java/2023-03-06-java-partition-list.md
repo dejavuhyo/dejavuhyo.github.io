@@ -1,7 +1,7 @@
 ---
 title: Java List 분할
 author: dejavuhyo
-date: 2023-03-07 14:55:00 +0900
+date: 2023-03-06 14:55:00 +0900
 categories: [Language, Java]
 tags: [java-partition-list, partition-list, list-split, java-list, 자바-목록-분할, 목록-분할, 리스트-분할, 자바-리스트]
 ---
