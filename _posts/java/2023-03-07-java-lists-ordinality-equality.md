@@ -48,7 +48,7 @@ public void whenTestingForEquality_ShouldBeEqual() throws Exception {
 ```
 
 ## 4. AssertJ
-[AssertJ]((http://joel-costigliola.github.io/assertj/))를 사용하려는 경우 어설션은 다음과 같다.
+[AssertJ](http://joel-costigliola.github.io/assertj/)를 사용하려는 경우 어설션은 다음과 같다.
 
 ```java
 @Test
