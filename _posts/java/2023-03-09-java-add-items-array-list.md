@@ -1,7 +1,7 @@
 ---
 title: Java ArrayList에 여러 항목 추가
 author: dejavuhyo
-date: 2023-02-07 21:35:00 +0900
+date: 2023-03-09 11:00:00 +0900
 categories: [Language, Java]
 tags: [java-copy-list, copy-list, java-list, 자바-리스트-복사, 리스트-복사, 자바-리스트]
 ---
