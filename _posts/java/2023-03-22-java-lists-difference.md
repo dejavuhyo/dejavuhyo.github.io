@@ -1,7 +1,7 @@
 ---
 title: Java 두 List 간의 차이점
 author: dejavuhyo
-date: 2023-02-07 09:00:00 +0900
+date: 2023-03-22 10:55:00 +0900
 categories: [Language, Java]
 tags: [java-list, java-lists-difference, lists-difference, 자바-리스트, 자바-리스트-차이점, 리스트-차이점]
 ---
