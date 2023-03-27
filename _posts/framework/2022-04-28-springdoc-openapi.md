@@ -7,7 +7,7 @@ tags: [springdoc-openapi, spring-boot-openapi, springdoc, openapi, spring-openap
 ---
 
 ## 1. springdoc-openapi란
-springdoc-openapi java 라이브러리는 스프링 부트 프로젝트를 사용하여 API 문서 생성을 자동화하는 데 도움이 된다. springdoc-openapi는 스프링 구성, 클래스 구조 및 다양한 주석을 기반으로 API 의미를 추론하기 위해 런타임에 애플리케이션을 검사하여 작동한다.
+springdoc-openapi java 라이브러리는 스프링 부트 프로젝트를 사용하여 API 문서 생성을 자동화하는데 도움이 된다. springdoc-openapi는 스프링 구성, 클래스 구조 및 다양한 주석을 기반으로 API 의미를 추론하기 위해 런타임에 애플리케이션을 검사하여 작동한다.
 
 JSON/YAML 및 HTML 형식 API로 문서를 자동으로 생성한다. 이 문서는 swagger-api 주석을 사용하여 주석으로 완료할 수 있다.
 
