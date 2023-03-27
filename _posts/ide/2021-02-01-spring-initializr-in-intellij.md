@@ -7,7 +7,7 @@ tags: [intellij-spring-initializr, spring-initializr, intellij, intellij-springb
 ---
 
 ## 1. Spring Initializr
-SpringBoot 프로젝트 구조를 만드는 웹 애플리케이션이다. 기본적인 프로젝트 구조와 코드를 빌드하는 데 필요한 maven이나 gradle 빌드 명세를 만들어준다. Spring Initializr는 웹 기반 인터페이스, Spring Tool Suite(STS), IntelliJ IDE, SpringBoot CLI로 사용할 수 있다.
+SpringBoot 프로젝트 구조를 만드는 웹 애플리케이션이다. 기본적인 프로젝트 구조와 코드를 빌드하는데 필요한 maven이나 gradle 빌드 명세를 만들어준다. Spring Initializr는 웹 기반 인터페이스, Spring Tool Suite(STS), IntelliJ IDE, SpringBoot CLI로 사용할 수 있다.
 
 * [Spring Quickstart Guide](https://spring.io/quickstart)
 
