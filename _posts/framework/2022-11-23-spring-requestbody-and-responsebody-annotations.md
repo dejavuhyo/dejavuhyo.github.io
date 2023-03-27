@@ -33,7 +33,7 @@ public class LoginForm {
 }
 ```
 
-여기서 HttpRequest 본문을 나타내는 데 사용하는 개체는 LoginForm 개체에 매핑된다.
+여기서 HttpRequest 본문을 나타내는데 사용하는 개체는 LoginForm 개체에 매핑된다.
 
 CURL을 사용하여 이를 테스트한다.
 

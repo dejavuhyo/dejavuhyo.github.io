@@ -46,7 +46,7 @@ Controller가 반환한 뷰의 이름으로부터 View를 렌더링하기 위해
 
 Spring은 클라이언트의 HTTP Accept 헤더와 서버의 컨트롤러 반환 타입 정보 둘을 조합해 적합한 HttpMessageConverter를 선택하여 이를 처리한다. MessageConverter가 동작하는 시점은 HandlerAdapter와 Controller가 요청을 주고받는 시점이다.
 
-④에서는 메시지를 객체로, ⑥에서는 객체를 메시지로 변환하는 데 메시지 컨버터가 사용된다.
+④에서는 메시지를 객체로, ⑥에서는 객체를 메시지로 변환하는데 메시지 컨버터가 사용된다.
 
 * @Controller 예제
 
