@@ -7,7 +7,7 @@ tags: [spring-webclient, spring-resttemplate, webclient, resttemplate, webclient
 ---
 
 ## 1. 차단 및 비차단 클라이언트
-Spring 5 문서는 이제 WebClient가 HTTP 요청을 만드는 데 선호되는 방법임을 시사한다. WebClient는 Spring WebFlux의 일부이며 고전적인 RestTemplate를 대체하기 위한 것이다.
+Spring 5 문서는 이제 WebClient가 HTTP 요청을 만드는데 선호되는 방법임을 시사한다. WebClient는 Spring WebFlux의 일부이며 고전적인 RestTemplate를 대체하기 위한 것이다.
 
 RestTemplate에 비해 WebClient는 기능적인 느낌이 더 좋고 완전히 반응한다. Spring 5.0 이후 RestTemplate는 더 이상 사용되지 않는다. 그것은 아마도 좀 더 오래 머물 것이지만 앞으로 출시될 주요한 새로운 기능들은 추가되지 않을 것이다. 따라서 새 코드에서 RestTemplate를 사용하지 않는 것이 좋다.
 
