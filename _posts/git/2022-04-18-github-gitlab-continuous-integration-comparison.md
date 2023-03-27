@@ -51,7 +51,7 @@ tags: [github-vs-gitlab, github, gitlab, continuous-integration-comparison, ci-c
 |:-----:|:-----:|:-----:|
 | 스테이징 및 프로덕션 환경에 대해 서로 다른 워크플로를 쉽게 트리거할 수 없음 | 조건부 워크플로는 GitHub 작업 이벤트에 연결된 유형이 없기 때문에 구현 및 유지 관리하기 어렵다. 워크플로에서 일련의 if 조건을 구현해야 한다. | [GitHub 커뮤니티 토론](https://github.community/t/understanding-github-actions-and-deployments/17575) |
 | 리포지토리의 GITHUB_TOKEN을 사용하여 다른 워크플로에서 새 워크플로를 트리거할 수 없다. 옵션은 1) 봇 사용자를 만들고 개인 액세스 토큰을 사용하거나 2) github 앱을 만드는 것이다. | 코드 푸시 후 테스트를 쉽게 시작할 수 없다. 규정된 해결 방법 중 하나를 사용해야 한다. | [GitHub 커뮤니티 토론](https://github.community/t/triggering-a-new-workflow-from-another-workflow/16250) |
-| 풀 요청 메시지/댓글을 통해 작업을 트리거할 수 없습니다. | 예를 들어 사용자는 모든 pull 요청에서 실행되는 데 오랜 시간이 걸리는 일부 작업을 원하지 않는다. 대신 PR에 주석을 추가하여 특정 작업이 실행되지 않도록 한다. | [GitHub 커뮤니티 토론](https://github.community/t/trigger-action-via-pull-request-message/17630) |
+| 풀 요청 메시지/댓글을 통해 작업을 트리거할 수 없습니다. | 예를 들어 사용자는 모든 pull 요청에서 실행되는데 오랜 시간이 걸리는 일부 작업을 원하지 않는다. 대신 PR에 주석을 추가하여 특정 작업이 실행되지 않도록 한다. | [GitHub 커뮤니티 토론](https://github.community/t/trigger-action-via-pull-request-message/17630) |
 | YAML 앵커 및 별칭에 대한 지원 부족 | 코드 재사용을 방지한다. 이 제한을 극복하기 위해 사용자는 코드를 잘라내고 붙여넣어야 하며, 워크플로 크기의 5배이며 유지 관리가 어렵다. | [GitHub 커뮤니티 토론](https://github.community/t/support-for-yaml-anchors/16128) |
 
 ### 3) 기업 준비
@@ -70,7 +70,7 @@ tags: [github-vs-gitlab, github, gitlab, continuous-integration-comparison, ci-c
 | PCI 규정 준수 | GitLab은 PCI 호환을 원하는 기업에 중요한 요소인 애플리케이션 보안을 다룬다. |
 | HIPAA | 위험 및 취약성 식별 및 관리, 개발 표준 및 프로세스 정의 및 시행 |
 | GDPR | 회원 잠금, 서명되지 않은 커밋 거부, 사용자 권한, 푸시 규칙 등은 민감한 파일이 실수로 프로덕션으로 푸시되는 것을 방지한다. |
-| IEC 62304:2006, ISO 13485:2016, ISO 26262-6:2018 | 계획 및 프로세스 작성 및 문서화, 종단 간 추적성 유지 등은 이러한 규정 준수 요구 사항을 지원하는 데 도움이 된다. |
+| IEC 62304:2006, ISO 13485:2016, ISO 26262-6:2018 | 계획 및 프로세스 작성 및 문서화, 종단 간 추적성 유지 등은 이러한 규정 준수 요구 사항을 지원하는데 도움이 된다. |
 
 ## 5. GitLab과 GitHub CI 구성 비교
 
