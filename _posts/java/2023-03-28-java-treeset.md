@@ -23,7 +23,7 @@ tags: [java-treeset, treeset, treeset-guide, 자바-트리셋, 트리셋, 트리
 
 간단히 말해 자체 균형 이진 검색 트리인 이진 트리의 각 노드는 빨간색 또는 검은색 노드의 색상을 식별하는데 사용되는 추가 비트로 구성된다. 후속 삽입 및 삭제 중에 이러한 "색상" 비트는 트리가 어느 정도 균형을 유지하는데 도움이 된다.
 
-Tree Set의 인스턴스를 생성해 본다.
+Tree Set의 인스턴스를 생성한다.
 
 ```java
 Set<String> treeSet = new TreeSet<>();
