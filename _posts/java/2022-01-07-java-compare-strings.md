@@ -98,7 +98,7 @@ assertThat(duplicateBook.compareToIgnoreCase(book))
 ```
 
 ## 2. 객체 클래스와 문자열 비교
-Objects는 정적 equals() 메서드가 포함된 유틸리티 클래스로, 두 개의 문자열을 비교하는 데 유용하다.
+Objects는 정적 equals() 메서드가 포함된 유틸리티 클래스로, 두 개의 문자열을 비교하는데 유용하다.
 
 이 메서드는 "=="와 같은 주소를 사용하여 먼저 두 문자열을 비교하여 두 문자열 이 같으면 true를 반환 한다. 결과적으로 두 인수가 모두 null 이면 true를 반환 하고 정확히 하나의 인수가 null이면 false를 반환한다.
 
