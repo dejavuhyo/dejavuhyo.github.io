@@ -7,7 +7,7 @@ tags: [stringutils-isnotempty, stringutils-isnotblank, stringutils, isnotempty, 
 ---
 
 ## 1. StringUtils.isNotEmpty()
-`StringUtils.isNotEmpty()`는 String이 비어 있지 않은지 혹은 String이 길이가 0이고 null이 아닌지 찾는 데 사용된다.
+`StringUtils.isNotEmpty()`는 String이 비어 있지 않은지 혹은 String이 길이가 0이고 null이 아닌지 찾는데 사용된다.
 
 * Example
 
