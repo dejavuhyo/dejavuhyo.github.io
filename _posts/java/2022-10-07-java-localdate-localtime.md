@@ -7,7 +7,7 @@ tags: [java-localdate-localtime, localdate-localtime, java-localdate, java-local
 ---
 
 ## 1. LocalDate 클래스와 LocalTime 클래스
-LocalDate 클래스는 날짜를 표현하는 데 사용되며, LocalTime 클래스는 시간을 표현하는 데 사용된다. java.time 패키지에 포함된 대부분의 클래스들은 이 두 클래스를 확장한 것이 많다.
+LocalDate 클래스는 날짜를 표현하는데 사용되며, LocalTime 클래스는 시간을 표현하는 데 사용된다. java.time 패키지에 포함된 대부분의 클래스들은 이 두 클래스를 확장한 것이 많다.
 
 ## 2. 날짜와 시간 객체의 생성
 LocalDate와 LocalTime 클래스는 객체를 생성하기 위해서 `now()`와 `of()` 메소드라는 클래스 메소드를 제공한다.
