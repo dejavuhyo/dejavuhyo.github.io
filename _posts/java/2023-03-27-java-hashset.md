@@ -30,7 +30,7 @@ public HashSet() {
 ## 2. API
 
 ### 1) add()
-`add()` 메서드는 집합에 elements를 추가하는 데 사용할 수 있다. 메소드 계약은 elements가 세트에 아직 존재하지 않는 경우에만 elements가 추가된다고 명시한다. elements가 추가된 경우 메서드는 true를 반환하고 그렇지 않으면 false를 반환한다.
+`add()` 메서드는 집합에 elements를 추가하는데 사용할 수 있다. 메소드 계약은 elements가 세트에 아직 존재하지 않는 경우에만 elements가 추가된다고 명시한다. elements가 추가된 경우 메서드는 true를 반환하고 그렇지 않으면 false를 반환한다.
 
 다음과 같이 HashSet에 elements를 추가할 수 있다.
 
@@ -112,7 +112,7 @@ public void whenClearingHashSet_shouldClearHashSet() {
 ```
 
 ### 5) size()
-이것은 API의 기본 방법 중 하나이다. HashSet에 있는 elements의 수를 식별하는 데 도움이 되므로 많이 사용된다. 기본 구현은 단순히 계산을 HashMap의 `size()` 메서드에 위임한다.
+이것은 API의 기본 방법 중 하나이다. HashSet에 있는 elements의 수를 식별하는데 도움이 되므로 많이 사용된다. 기본 구현은 단순히 계산을 HashMap의 `size()` 메서드에 위임한다.
 
 ```java
 @Test

@@ -31,7 +31,7 @@ List results = query.list();
 ```
 
 ## 3. AS 절
-AS 절은 특히 긴 쿼리가 있는 경우 HQL 쿼리의 클래스에 별칭을 할당하는 데 사용할 수 있다.
+AS 절은 특히 긴 쿼리가 있는 경우 HQL 쿼리의 클래스에 별칭을 할당하는데 사용할 수 있다.
 
 ```java
 String hql = "FROM Employee AS E";
@@ -108,7 +108,7 @@ List results = query.list();
 ## 9. UPDATE 절
 대량 업데이트는 Hibernate 3에서 HQL에 새로 추가되었으며 Hibernate 2에서와는 다르게 Hibernate 3에서 작업을 삭제한다. 쿼리 인터페이스에는 이제 HQL UPDATE 또는 DELETE 문을 실행하기 위한 executeUpdate()라는 메서드가 포함되어 있다.
 
-UPDATE 절은 하나 이상의 개체에 대한 하나 이상의 속성을 업데이트하는 데 사용할 수 있다. 
+UPDATE 절은 하나 이상의 개체에 대한 하나 이상의 속성을 업데이트하는데 사용할 수 있다. 
 
 ```java
 String hql = "UPDATE Employee set salary = :salary "  + 

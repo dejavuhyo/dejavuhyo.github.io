@@ -102,7 +102,7 @@ public <T> Map<T, Long> countByForEachLoopWithMapMerge(List<T> inputList) {
 ## 4. Stream API Collectors.toMap()
 Java 8의 Stream API 덕분에 매우 간결한 방식으로 문제를 해결할 수 있다.
 
-`toMap()` 수집기는 입력 목록을 Map으로 변환하는 데 도움이 된다.
+`toMap()` 수집기는 입력 목록을 Map으로 변환하는데 도움이 된다.
 
 ```java
 public <T> Map<T, Long> countByStreamToMap(List<T> inputList) {
@@ -110,7 +110,7 @@ public <T> Map<T, Long> countByStreamToMap(List<T> inputList) {
 }
 ```
 
-`toMap()`은 스트림을 다른 Map 구현으로 변환하는 데 도움이 되는 편리한 수집기 이다.
+`toMap()`은 스트림을 다른 Map 구현으로 변환하는데 도움이 되는 편리한 수집기 이다.
 
 ## 5. Stream API Collectors.groupingBy()과 Collectors.counting()
 `toMap()`을 제외하고 `groupingBy()` 및 `counting()`이라는 두 개의 다른 수집기로 해결할 수 있다.

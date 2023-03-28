@@ -107,7 +107,7 @@ assertEquals(2, count);
 ```
 
 ### 2) Guava 사용
-구아바 또한 문자를 계산하는 데 도움이 될 수 있다. 종속성을 정의해야 한다.
+구아바 또한 문자를 계산하는데 도움이 될 수 있다. 종속성을 정의해야 한다.
 
 ```xml
 <dependency>
@@ -119,7 +119,7 @@ assertEquals(2, count);
 
 [Maven Central](https://search.maven.org/classic/#search%7Cga%7C1%7Cg%3A%22com.google.guava%22%20AND%20a%3A%22guava%22)에서 최신 버전을 찾을 수 있다.
 
-Guava가 문자 수를 세는 데 어떻게 빠르게 도움이 되는지 본다.
+Guava가 문자 수를 세는데 어떻게 빠르게 도움이 되는지 본다.
 
 ```java
 int count = CharMatcher.is('e').countIn("elephant");

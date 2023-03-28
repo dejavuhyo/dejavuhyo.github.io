@@ -7,7 +7,7 @@ tags: [java-jvm-parameters-rampercentage, jvm-parameters-rampercentage, java-jvm
 ---
 
 ## 1. JVM 매개변수
-Java 8에 도입된 InitialRAMPercentage, MinRAMPercentage 및 MaxRAMPercentage 매개변수는 Java 애플리케이션의 힙 크기를 구성하는 데 도움이 된다.
+Java 8에 도입된 InitialRAMPercentage, MinRAMPercentage 및 MaxRAMPercentage 매개변수는 Java 애플리케이션의 힙 크기를 구성하는데 도움이 된다.
 
 ## 2. -XX:InitialRAMPercentage
 InitialRAMPercentage JVM 매개변수를 사용하면 Java 애플리케이션의 초기 힙 크기를 구성 할 수 있다. 물리적 서버 또는 컨테이너의 총 메모리에 대한 백분율로 이중 값으로 전달된다.

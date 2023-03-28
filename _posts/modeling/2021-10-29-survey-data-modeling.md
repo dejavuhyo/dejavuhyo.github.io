@@ -25,10 +25,10 @@ tags: [survey-data-modeling, survey-modeling, survey-erd, 설문조사-데이터
 ![survey-erd](/assets/img/2021-10-29-survey-data-modeling/survey-erd.png)
 
 ### 1) PersonSurvey 관계
-PersonSurvey 관계는 Person이 주어진 Survey에 참여할 수 있도록 승인 수단을 제공하는 데 필요하다. 이러한 방식으로 특정 사람이 특정 설문조사에 등록되면 해당 설문조사를 통합하는 질문에 대한 응답을 제공할 수 있는 권한이 부여된다.
+PersonSurvey 관계는 Person이 주어진 Survey에 참여할 수 있도록 승인 수단을 제공하는데 필요하다. 이러한 방식으로 특정 사람이 특정 설문조사에 등록되면 해당 설문조사를 통합하는 질문에 대한 응답을 제공할 수 있는 권한이 부여된다.
 
 ### 2) SurveyQuestion 관계
-다이어그램에서 suvery_question.question_number라는 속성이 특정 설문조사와 관련하여 주어진 질문 인스턴스의 표시 순서를 나타내는 데 사용 된다고 가정한다. SurveyQuestion.PresentationOrder와 같은 속성을 표시했으며 둘 이상의 Question.QuestionNumber 값이 같은 SurveyQuestion 발생에서 동일한 PresentationOrder 값을 공유하는 것을 방지해야 한다.
+다이어그램에서 suvery_question.question_number라는 속성이 특정 설문조사와 관련하여 주어진 질문 인스턴스의 표시 순서를 나타내는데 사용 된다고 가정한다. SurveyQuestion.PresentationOrder와 같은 속성을 표시했으며 둘 이상의 Question.QuestionNumber 값이 같은 SurveyQuestion 발생에서 동일한 PresentationOrder 값을 공유하는 것을 방지해야 한다.
 
 이러한 요구를 표현하기 위해 속성 조합(SurveyNumber, QuestionNumber, PresentationOrder)으로 구성된 이 엔터티 유형을 나타내는 상자에 복합 ALTERNATE KEY(AK)를 포함했습니다. 잘 알고 있듯이 복합 AK는 다중 열 UNIQUE 제약 조건을 사용하여 논리적 DDL 설계에서 선언할 수 있다.
 

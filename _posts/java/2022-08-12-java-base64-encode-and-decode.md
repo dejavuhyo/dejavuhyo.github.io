@@ -49,7 +49,7 @@ String originalUrl = "https://www.google.co.nz/?gfe_rd=cr&ei=dzbFV&gws_rd=ssl#q=
 String encodedUrl = Base64.getUrlEncoder().encodeToString(originalURL.getBytes());
 ```
 
-디코딩은 거의 동일한 방식으로 발생한다. `getUrlDecoder()` 유틸리티 메소드는 `java.util.Base64.Decoder`를 리턴한다 . 따라서 URL을 디코딩하는 데 사용한다.
+디코딩은 거의 동일한 방식으로 발생한다. `getUrlDecoder()` 유틸리티 메소드는 `java.util.Base64.Decoder`를 리턴한다 . 따라서 URL을 디코딩하는데 사용한다.
 
 ```java
 byte[] decodedBytes = Base64.getUrlDecoder().decode(encodedUrl);

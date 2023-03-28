@@ -36,7 +36,7 @@ String newLine = System.getProperty("line.separator");
 ```
 
 ## 4. 문자열 연결
-문자열 연결은 여러 줄 문자열을 만드는 데 사용할 수 있는 쉬운 기본 방법이다.
+문자열 연결은 여러 줄 문자열을 만드는데 사용할 수 있는 쉬운 기본 방법이다.
 
 ```java
 public String stringConcatenation() {
@@ -78,7 +78,7 @@ public String stringJoin() {
 ```
 
 ## 6. String Builder
-StringBuilder는 문자열을 빌드하기 위한 도우미 클래스이다. StringBuilder는 StringBuffer를 대체하기 위해 자바 1.5에 도입되었다. 루프에 거대한 문자열을 구축하는 데 좋은 선택이다.
+StringBuilder는 문자열을 빌드하기 위한 도우미 클래스이다. StringBuilder는 StringBuffer를 대체하기 위해 자바 1.5에 도입되었다. 루프에 거대한 문자열을 구축하는데 좋은 선택이다.
 
 ```java
 public String stringBuilder() {
@@ -95,7 +95,7 @@ public String stringBuilder() {
 ```
 
 ## 7. String Writer
-StringWriter는 여러 줄 문자열을 만드는 데 사용할 수 있는 또 다른 방법이다. PrintWriter를 사용하기 때문에 여기서는 newLine이 필요하지 않다. println 함수는 자동으로 새 줄을 추가한다.
+StringWriter는 여러 줄 문자열을 만드는데 사용할 수 있는 또 다른 방법이다. PrintWriter를 사용하기 때문에 여기서는 newLine이 필요하지 않다. println 함수는 자동으로 새 줄을 추가한다.
 
 ```java
 public String stringWriter() {

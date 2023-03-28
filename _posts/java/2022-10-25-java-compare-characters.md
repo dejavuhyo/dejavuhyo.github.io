@@ -55,7 +55,7 @@ assertTrue(chG.compareTo(chH) < 0);
 ### 2) Object.equals() 메서드 사용
 또한 객체를 비교하는 일반적인 방법중 하나는 `equals()` 메서드를 사용하는 것이다. 두 객체가 같으면 tru를 반환하고 그렇지 않으면 false를 반환한다.
 
-문자를 비교하는 데 사용하는 방법이다.
+문자를 비교하는데 사용하는 방법이다.
 
 ```java
 Character chL = 'L';

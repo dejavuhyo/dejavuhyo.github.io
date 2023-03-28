@@ -114,7 +114,7 @@ public void whenTestingForOrderAgnosticEquality_ShouldBeEqual() {
 이 솔루션은 이전 섹션에서 설명한 것과 동일한 문제를 겪지 않으므로 명시적으로 크기를 비교할 필요가 없다.
 
 ## 5. Apache Commons 사용
-JUnit, Hamcrest 또는 AssertJ 외에 또 다른 라이브러리 또는 프레임워크는 Apache CollectionUtils 이다. 광범위한 사용 사례를 포괄하는 일반적인 작업에 대한 유틸리티 메서드를 제공하고 상용구 코드 작성을 방지하는 데 도움이 된다.
+JUnit, Hamcrest 또는 AssertJ 외에 또 다른 라이브러리 또는 프레임워크는 Apache CollectionUtils 이다. 광범위한 사용 사례를 포괄하는 일반적인 작업에 대한 유틸리티 메서드를 제공하고 상용구 코드 작성을 방지하는데 도움이 된다.
 
 Maven 프로젝트에서 사용하기 위해 `pom.xml` 파일에 `commons-collections4` 종속성을 추가한다.
 
