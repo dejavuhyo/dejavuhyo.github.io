@@ -36,12 +36,12 @@ JNDI 및 JTA를 사용하면 Hibernate를 J2EE 응용 프로그램 서버와 통
 * Class Mapping Setup: 이 구성 요소는 Java 클래스와 데이터베이스 테이블 간의 연결을 생성한다.
 
 ## 3. SessionFactory Object
-Configuration object는 SessionFactory 개체를 만드는 데 사용되며, SessionFactory 개체는 제공된 구성 파일을 사용하여 응용 프로그램의 최대 절전 모드를 구성하고 Session 개체를 인스턴스화할 수 있다. SessionFactory는 thread safe object이며 응용프로그램의 모든 스레드에서 사용된다.
+Configuration object는 SessionFactory 개체를 만드는데 사용되며, SessionFactory 개체는 제공된 구성 파일을 사용하여 응용 프로그램의 최대 절전 모드를 구성하고 Session 개체를 인스턴스화할 수 있다. SessionFactory는 thread safe object이며 응용프로그램의 모든 스레드에서 사용된다.
 
 SessionFactory는 일반적으로 응용 프로그램 시작 중에 생성되어 나중에 사용할 수 있도록 보관된다. 별도의 구성 파일을 사용하여 데이터베이스당 하나의 SessionFactory 개체가 필요하다. 따라서 여러 데이터베이스를 사용하는 경우 여러 SessionFactory 개체를 생성해야 한다.
 
 ## 4. Session Object
-세션은 데이터베이스와 물리적으로 연결하는 데 사용된다. 세션 개체는 가볍고 데이터베이스와의 상호 작용이 필요할 때마다 인스턴스화되도록 설계되었다. 영구 개체는 세션 개체를 통해 저장 및 검색된다.
+세션은 데이터베이스와 물리적으로 연결하는데 사용된다. 세션 개체는 가볍고 데이터베이스와의 상호 작용이 필요할 때마다 인스턴스화되도록 설계되었다. 영구 개체는 세션 개체를 통해 저장 및 검색된다.
 
 세션 개체는 일반적으로 스레드 세이프가 아니며 필요에 따라 생성 및 삭제해야 하므로 세션 개체를 오랫동안 열어 두면 안 된다.
 
@@ -51,10 +51,10 @@ SessionFactory는 일반적으로 응용 프로그램 시작 중에 생성되어
 이것은 선택적 개체이며 Hibernate 응용 프로그램은 자체 응용 프로그램 코드로 트랜잭션을 관리하는 대신 이 인터페이스를 사용하지 않도록 선택할 수 있다.
 
 ## 6. Query Object
-쿼리 개체는 SQL 또는 HQL(Hibernate Query Language) 문자열을 사용하여 데이터베이스에서 데이터를 검색하고 개체를 만든다. 쿼리 인스턴스는 쿼리 매개 변수를 바인딩하고 쿼리에 의해 반환되는 결과 수를 제한하며 마지막으로 쿼리를 실행하는 데 사용된다.
+쿼리 개체는 SQL 또는 HQL(Hibernate Query Language) 문자열을 사용하여 데이터베이스에서 데이터를 검색하고 개체를 만든다. 쿼리 인스턴스는 쿼리 매개 변수를 바인딩하고 쿼리에 의해 반환되는 결과 수를 제한하며 마지막으로 쿼리를 실행하는데 사용된다.
 
 ## 7. Criteria Object
-기준 개체는 개체를 검색하기 위해 개체 지향 기준 쿼리를 만들고 실행하는 데 사용된다.
+기준 개체는 개체를 검색하기 위해 개체 지향 기준 쿼리를 만들고 실행하는데 사용된다.
 
 ## [출처 및 참고]
 * [https://www.tutorialspoint.com/hibernate/hibernate_architecture.htm](https://www.tutorialspoint.com/hibernate/hibernate_architecture.htm)
