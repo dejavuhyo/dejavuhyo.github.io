@@ -7,7 +7,7 @@ tags: [apache-commons-collections, transforming-objects, apache-commons, apache-
 ---
 
 ## 1. 목록 변환 (Apache Commons Collections)
-CollectUtils의 `collect()` 메서드는 한 유형의 개체 목록을 다른 유형의 개체 목록으로 변환하는 데 사용할 수 있다.
+CollectUtils의 `collect()` 메서드는 한 유형의 개체 목록을 다른 유형의 개체 목록으로 변환하는데 사용할 수 있다.
 
 ### 1) 선언
 `org.apache.commons.collections4.CollectionUtils.collect()`
