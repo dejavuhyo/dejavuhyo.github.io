@@ -7,7 +7,7 @@ tags: [java-list, java-lists-difference, lists-difference, 자바-리스트, 자
 ---
 
 ## 1. 테스트 설정
-예제를 테스트하는 데 사용할 두 개의 목록을 정의한다.
+예제를 테스트하는데 사용할 두 개의 목록을 정의한다.
 
 ```java
 public class FindDifferencesBetweenListsUnitTest {
