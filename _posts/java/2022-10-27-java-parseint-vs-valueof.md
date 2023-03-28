@@ -165,7 +165,7 @@ public void whenValidNumericStringWithRadixIsPassed_thenShouldConvertToInetger()
 |:-----:|:-----:|
 | Integer 객체를 반환한다. | 원시 int를 반환한다. |
 | 이 메서드는 String과 int를 매개변수로 받아들인다. | 이 메서드는 문자열만 매개변수로 받아들인다. |
-| 메서드 구현에서 `Integer.parseInt()`를 사용 한다. | 문자열을 정수로 구문 분석하는 데 도우미 메서드를 사용하지 않는다. |
+| 메서드 구현에서 `Integer.parseInt()`를 사용 한다. | 문자열을 정수로 구문 분석하는데 도우미 메서드를 사용하지 않는다. |
 | 이 메서드는 문자를 매개 변수로 받아들이고 해당 유니코드 값을 반환한다. | 이 메소드는 문자를 매개 변수로 전달할 때 호환되지 않는 유형 오류를 생성한다. |
 
 ## [출처 및 참고]
