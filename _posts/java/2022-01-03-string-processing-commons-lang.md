@@ -76,7 +76,7 @@ appendIfMissing 및 appendIfMissingIgnoreCase 메서드는 각각 대소문자�
 
 마찬가지로 prependIfMissing 및 prependIfMissingIgnoreCase 메서드는 전달된 접두사로 시작하지 않으면 주어진 문자열의 시작 부분에 접두사를 추가한다.
 
-다음 예제에서 appendIfMissing 및 prependIfMissing 메소드는 이러한 접미사를 반복하지 않고 문자열 "baeldung.com"에 접미사와 접두사를 추가하는 데 사용된다.
+다음 예제에서 appendIfMissing 및 prependIfMissing 메소드는 이러한 접미사를 반복하지 않고 문자열 "baeldung.com"에 접미사와 접두사를 추가하는데 사용된다.
 
 ```java
 String string = "baeldung.com";
