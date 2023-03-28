@@ -52,7 +52,7 @@ random.ints().limit(10).forEach(System.out::println);
 ```
 
 ### 2) map
-`map` 메서드는 각 요소를 해당 결과에 매핑하는 데 사용된다. 다음 코드는 맵을 사용하여 고유한 숫자 제곱을 인쇄한다.
+`map` 메서드는 각 요소를 해당 결과에 매핑하는데 사용된다. 다음 코드는 맵을 사용하여 고유한 숫자 제곱을 인쇄한다.
 
 ```java
 List<Integer> numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5);
@@ -62,7 +62,7 @@ List<Integer> squaresList = numbers.stream().map( i -> i*i).distinct().collect(C
 ```
 
 ### 3) filter
-`filter` 방법은 기준에 따라 요소를 제거하는 데 사용된다. 다음 코드는 필터를 사용하여 빈 문자열의 수를 인쇄한다.
+`filter` 방법은 기준에 따라 요소를 제거하는데 사용된다. 다음 코드는 필터를 사용하여 빈 문자열의 수를 인쇄한다.
 
 ```java
 List<String>strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
@@ -80,7 +80,7 @@ random.ints().limit(10).forEach(System.out::println);
 ```
 
 ### 5) sorted
-`sorted` 메서드는 스트림을 정렬하는 데 사용된다. 다음 코드는 10개의 난수를 정렬된 순서로 인쇄하는 방법이다.
+`sorted` 메서드는 스트림을 정렬하는데 사용된다. 다음 코드는 10개의 난수를 정렬된 순서로 인쇄하는 방법이다.
 
 ```java
 Random random = new Random();
@@ -100,7 +100,7 @@ long count = strings.parallelStream().filter(string -> string.isEmpty()).count()
 순차 스트림과 병렬 스트림 사이를 전환하는 것은 매우 쉽다.
 
 ### 7) Collectors
-`Collectors`는 스트림 요소에 대한 처리 결과를 결합하는 데 사용된다. Collectors는 목록이나 문자열을 반환하는 데 사용할 수 있다.
+`Collectors`는 스트림 요소에 대한 처리 결과를 결합하는데 사용된다. Collectors는 목록이나 문자열을 반환하는데 사용할 수 있다.
 
 ```java
 List<String>strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
