@@ -1,5 +1,5 @@
 ---
-title: Java HashMap
+title: Java HashMap 가이드
 author: dejavuhyo
 date: 2023-03-29 09:30:00 +0900
 categories: [Language, Java]
