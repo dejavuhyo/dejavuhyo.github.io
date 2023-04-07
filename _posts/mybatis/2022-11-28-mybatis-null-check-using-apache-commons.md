@@ -2,7 +2,7 @@
 title: MyBatis Apache Commons를 이용하여 null 체크
 author: dejavuhyo
 date: 2022-11-28 21:00:00 +0900
-categories: [DevOps, MyBatis]
+categories: [Framework, MyBatis]
 tags: [mybatis-null, mybatis-null-check, null-check, apache-commons, mybatis-apache-commons, mybatis-null-체크, null-체크]
 ---
 

@@ -2,7 +2,7 @@
 title: Hibernate Query Language
 author: dejavuhyo
 date: 2023-01-09 20:30:00 +0900
-categories: [DevOps, JPA/Hibernate]
+categories: [Framework, JPA/Hibernate]
 tags: [hibernate-query-language, hibernate, query-language, hibernate-query, 하이버네이트, 하이버네이트-쿼리, 하이버네이트-쿼리-언어, 쿼리-언어]
 ---
 
@@ -108,10 +108,10 @@ List results = query.list();
 ## 9. UPDATE 절
 대량 업데이트는 Hibernate 3에서 HQL에 새로 추가되었으며 Hibernate 2에서와는 다르게 Hibernate 3에서 작업을 삭제한다. 쿼리 인터페이스에는 이제 HQL UPDATE 또는 DELETE 문을 실행하기 위한 executeUpdate()라는 메서드가 포함되어 있다.
 
-UPDATE 절은 하나 이상의 개체에 대한 하나 이상의 속성을 업데이트하는데 사용할 수 있다. 
+UPDATE 절은 하나 이상의 개체에 대한 하나 이상의 속성을 업데이트하는데 사용할 수 있다.
 
 ```java
-String hql = "UPDATE Employee set salary = :salary "  + 
+String hql = "UPDATE Employee set salary = :salary "  +
              "WHERE id = :employee_id";
 Query query = session.createQuery(hql);
 query.setParameter("salary", 1000);
@@ -124,7 +124,7 @@ System.out.println("Rows affected: " + result);
 DELETE 절을 사용하여 하나 이상의 개체를 삭제할 수 있다.
 
 ```java
-String hql = "DELETE FROM Employee "  + 
+String hql = "DELETE FROM Employee "  +
              "WHERE id = :employee_id";
 Query query = session.createQuery(hql);
 query.setParameter("employee_id", 10);
@@ -136,7 +136,7 @@ System.out.println("Rows affected: " + result);
 HQL은 한 개체에서 다른 개체로 레코드를 삽입할 수 있는 경우에만 INSERT INTO 절을 지원한다.
 
 ```java
-String hql = "INSERT INTO Employee(firstName, lastName, salary)"  + 
+String hql = "INSERT INTO Employee(firstName, lastName, salary)"  +
              "SELECT firstName, lastName, salary FROM old_employee";
 Query query = session.createQuery(hql);
 int result = query.executeUpdate();

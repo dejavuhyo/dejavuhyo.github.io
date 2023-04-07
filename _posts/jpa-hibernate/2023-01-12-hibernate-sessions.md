@@ -2,7 +2,7 @@
 title: Hibernate Sessions
 author: dejavuhyo
 date: 2023-01-12 18:20:00 +0900
-categories: [DevOps, JPA/Hibernate]
+categories: [Framework, JPA/Hibernate]
 tags: [hibernate, hibernate-architecture, configuration-object, sessionfactory-object, session-object, transaction-object, query-object, criteria-object, 하이버네이트-아키텍처, 하이버네이트]
 ---
 
@@ -34,7 +34,7 @@ try {
 
 catch (Exception e) {
    if (tx!=null) tx.rollback();
-   e.printStackTrace(); 
+   e.printStackTrace();
 } finally {
    session.close();
 }

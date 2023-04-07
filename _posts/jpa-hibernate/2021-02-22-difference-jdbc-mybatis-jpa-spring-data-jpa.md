@@ -2,7 +2,7 @@
 title: JDBC, Mybatis, JPA, Spring Data JPA 차이점
 author: dejavuhyo
 date: 2021-02-22 06:00:00 +0900
-categories: [DevOps, JPA/Hibernate]
+categories: [Framework, JPA/Hibernate]
 tags: [jdbc, mybatis, jpa-hibernate, spring-data-jpa]
 ---
 
@@ -15,12 +15,12 @@ RDBMS에 액세스 하는 경우, 애플리케이션에서는 JDBC 데이터 소
 
 JDBC 데이터 소스의 구현은 애플리케이션 서버, OSS 라이브러리 Third-Party 라이브러리, Spring Framework 등이 제공되고 있기 때문에 프로젝트 요구 사항 및 배포 환경에 맞는 데이터 소스의 선정이 필요하다. 대표적인 데이터 소스 3가지를 소개한다.
 
-### 1) Application Server에서 제공하는 JDBC 데이터 소스 
+### 1) Application Server에서 제공하는 JDBC 데이터 소스
 
 | 애플리케이션 서버 | 참조 페이지 |
 |:-----:|:-----:|
 | Apache Tomcat 9.0 | [Apache Tomcat 9.0 User Guide (The Tomcat JDBC Connection Pool)](http://tomcat.apache.org/tomcat-9.0-doc/jdbc-pool.html), [Apache Tomcat 9.0 User Guide (JNDI Datasource HOW-TO)](http://tomcat.apache.org/tomcat-9.0-doc/jndi-datasource-examples-howto.html) |
-| Apache Tomcat 8.5 | [Apache Tomcat 8.5 User Guide (The Tomcat JDBC Connection Pool)](http://tomcat.apache.org/tomcat-8.5-doc/jdbc-pool.html), [Apache Tomcat 8.5 User Guide (JNDI Datasource HOW-TO)](http://tomcat.apache.org/tomcat-8.5-doc/jndi-datasource-examples-howto.html) | 
+| Apache Tomcat 8.5 | [Apache Tomcat 8.5 User Guide (The Tomcat JDBC Connection Pool)](http://tomcat.apache.org/tomcat-8.5-doc/jdbc-pool.html), [Apache Tomcat 8.5 User Guide (JNDI Datasource HOW-TO)](http://tomcat.apache.org/tomcat-8.5-doc/jndi-datasource-examples-howto.html) |
 | Apache Tomcat 7 | [Apache Tomcat 7 User Guide (The Tomcat JDBC Connection Pool)](http://tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html), [Apache Tomcat 7 User Guide (JNDI Datasource HOW-TO)](http://tomcat.apache.org/tomcat-7.0-doc/jndi-datasource-examples-howto.html) |
 | Oracle WebLogic Server 12c | [Oracle WebLogic Server 12.2.1.4 Documentation](https://docs.oracle.com/en/middleware/fusion-middleware/weblogic-server/12.2.1.4/intro/jdbc.html#GUID-9FD5F552-B2E4-4FEC-8C10-503A08764B52) |
 | IBM WebSphere Application Server Version 9.0 | [ WebSphere Application Server Online information center](https://www.ibm.com/support/knowledgecenter/ko/SSEQTP_9.0.5/com.ibm.websphere.wlp.doc/ae/twlp_dep_configuring_ds.html) |

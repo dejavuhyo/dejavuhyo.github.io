@@ -2,7 +2,7 @@
 title: Hibernate Mapping Types
 author: dejavuhyo
 date: 2023-01-06 21:50:00 +0900
-categories: [DevOps, JPA/Hibernate]
+categories: [Framework, JPA/Hibernate]
 tags: [hibernate, hibernate-mapping-types, mapping-types, hibernate-mapping, primitive-types, date-time-types, binary-large-object-types, jdk-related-types, 하이버네이트-매핑-타입, 매핑-타입]
 ---
 

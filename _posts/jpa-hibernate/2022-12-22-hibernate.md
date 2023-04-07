@@ -2,7 +2,7 @@
 title: Hibernate
 author: dejavuhyo
 date: 2022-12-22 21:30:00 +0900
-categories: [DevOps, JPA/Hibernate]
+categories: [Framework, JPA/Hibernate]
 tags: [hibernate, hibernate-advantages, hibernate-supported-databases, orm, object-relational-mapping]
 ---
 

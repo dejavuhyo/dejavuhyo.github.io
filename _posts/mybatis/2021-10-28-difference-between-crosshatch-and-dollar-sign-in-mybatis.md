@@ -2,7 +2,7 @@
 title: MyBatis 크러스햇지(#{})와 달러 사인(${})의 차이점
 author: dejavuhyo
 date: 2021-10-28 06:00:00 +0900
-categories: [DevOps, MyBatis]
+categories: [Framework, MyBatis]
 tags: [crosshatch-dollar-sign, crosshatch-dollar-sign-mybatis, 크러스햇지-달러-사인, 크러스햇지-달러-사인-차이점, mybatis-크러스햇지-달러-사인]
 ---
 
