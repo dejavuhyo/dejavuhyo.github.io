@@ -2,7 +2,7 @@
 title: MyBatis SQL 삽입공격
 author: dejavuhyo
 date: 2021-10-26 06:00:00 +0900
-categories: [DevOps, MyBatis]
+categories: [Framework, MyBatis]
 tags: [mybatis-data-map, sql-injection, mybatis-sql-삽입공격, sql-삽입공격]
 ---
 
@@ -79,7 +79,7 @@ name 인자를 `#{name}` 형태로 받도록 수정한다.
         FROM STUDENTS
         WHERE NUM = #{num}
     </select>
-    
+
     <!-- static SQL 사용 -->
     <delete id="delStudent" parameterClass="Student">
         DELETE STUDENTS

@@ -2,7 +2,7 @@
 title: MyBatis selectKey 사용 방법
 author: dejavuhyo
 date: 2021-07-12 06:00:00 +0900
-categories: [DevOps, MyBatis]
+categories: [Framework, MyBatis]
 tags: [mybatis-selectkey, selectkey, 키값-리턴]
 ---
 

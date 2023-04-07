@@ -2,7 +2,7 @@
 title: MyBatis CDATA
 author: dejavuhyo
 date: 2022-07-07 16:00:00 +0900
-categories: [DevOps, MyBatis]
+categories: [Framework, MyBatis]
 tags: [mybatis-cdata, mybatis, cdata, mybatis-문자열, mybatis-특수문자]
 ---
 

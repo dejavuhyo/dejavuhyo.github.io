@@ -2,7 +2,7 @@
 title: MyBatis 대소문자 구분 없이 like 검색
 author: dejavuhyo
 date: 2022-11-30 21:20:00 +0900
-categories: [DevOps, MyBatis]
+categories: [Framework, MyBatis]
 tags: [mybatis-like, like-search, mybatis-like-search, like-upper, like-lower, mybatis-upper-lower, like-검색]
 ---
 

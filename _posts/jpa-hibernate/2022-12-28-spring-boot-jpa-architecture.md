@@ -2,7 +2,7 @@
 title: Spring Boot JPA Architecture
 author: dejavuhyo
 date: 2022-12-28 19:40:00 +0900
-categories: [DevOps, JPA/Hibernate]
+categories: [Framework, JPA/Hibernate]
 tags: [spring-boot-jpa, jpa-architecture, jpa-relationships, jpa-class, entitymanagerfactory, entitymanager, entity, entitytransaction, persistence, query]
 ---
 

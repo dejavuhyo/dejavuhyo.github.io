@@ -2,7 +2,7 @@
 title: MyBatis foreach 문법
 author: dejavuhyo
 date: 2020-02-20 11:00:00 +0900
-categories: [DevOps, MyBatis]
+categories: [Framework, MyBatis]
 tags: [mybatis-foreach, mybatis-반복문]
 ---
 

@@ -2,7 +2,7 @@
 title: MyBatis List 파라미터 foreach 사용
 author: dejavuhyo
 date: 2022-11-25 22:00:00 +0900
-categories: [DevOps, MyBatis]
+categories: [Framework, MyBatis]
 tags: [mybatis-list, mybatis, mybatis-foreach, mybatis-list-mybatis, mybatis-foreach-사용, mybatis-list-파라미터]
 ---
 
@@ -56,7 +56,7 @@ public class CenResource {
 @NoArgsConstructor
 public class InfoDTO {
     private List<Info> custCdList;
-    
+
     private String compCd;
     private String custCd;
     private String custLoclNm;

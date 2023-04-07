@@ -2,7 +2,7 @@
 title: MyBatis selectKey 컬럼 여러개
 author: dejavuhyo
 date: 2021-08-11 06:00:00 +0900
-categories: [DevOps, MyBatis]
+categories: [Framework, MyBatis]
 tags: [mybatis-multiple-selectkey, multiple-selectkey, selectkey, mybatis-selectkey-컬럼-여러개, selectkey-컬럼-여러개]
 ---
 
@@ -13,7 +13,7 @@ Mybatis 3.2.6 버전부터는 selectKey에 여러 개 컬럼의 데이터를 조
 <insert id="insertUser">
     INSERT INTO user(user_id, user_name, column1, column2)
     VALUES (#{userId}, #{userName}, #{column1}, #{column2})
-    
+
     <selectKey keyColumn="user_id, user_name" keyProperty="userId, userName" resultType="hashmap" order="AFTER">
         SELECT user_id, user_name
         FROM user
