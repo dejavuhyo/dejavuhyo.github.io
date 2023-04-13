@@ -9,7 +9,7 @@ categories: [Language, Java]
 ## 1. 대소문자를 구분하지 않는 키가 있는 맵
 하나의 항목이 있는 Map<String, Integer>가 있다.
 
-![first-entry](/assets/img/2022-12-31-java/first-entry.png)
+![first-entry](/assets/img/2023-04-14-java-map-with-case-insensitive-keys/first-entry.png)
 
 ```java
 map.put("ABC", 2);
@@ -17,11 +17,11 @@ map.put("ABC", 2);
 
 대소문자를 구분하는 키가 있는 맵으로 작업할 때 다음 두 항목으로 끝난다.
 
-![sensetive-key](/assets/img/2022-12-31-java/sensetive-key.png)
+![sensetive-key](/assets/img/2023-04-14-java-map-with-case-insensitive-keys/sensetive-key.png)
 
 그러나 대소문자를 구분하지 않는 키가 있는 맵으로 작업할 때 내용은 다음과 같다.
 
-![insensetive-key](/assets/img/2022-12-31-java/insensetive-key.png)
+![insensetive-key](/assets/img/2023-04-14-java-map-with-case-insensitive-keys/insensetive-key.png)
 
 다음 예제에서는 인기 있는 일부 Map 구현(TreeMap, HashMap 및 LinkedHashMap)의 대소문자를 구분하지 않는 구현이다.
 
