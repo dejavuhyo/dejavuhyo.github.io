@@ -2,6 +2,7 @@
 title: Java HashMap 초기화
 author: dejavuhyo
 date: 2023-04-18 10:10:00 +0900
+categories: [Language, Java]
 tags: [java-initialize-hashmap, initialize-hashmap, java-hashmap, 자바-맵-초기화, 맵-초기화, 자바-해시맵]
 ---
 
