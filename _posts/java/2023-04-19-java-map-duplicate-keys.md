@@ -2,6 +2,7 @@
 title: Java 맵에 중복 키 저장
 author: dejavuhyo
 date: 2023-04-19 08:45:00 +0900
+categories: [Language, Java]
 tags: [java-map-keys, map-duplicate-keys, duplicate-keys, 자바-맵-중복-키, 맵-중복-키, 중복-키]
 ---
 
