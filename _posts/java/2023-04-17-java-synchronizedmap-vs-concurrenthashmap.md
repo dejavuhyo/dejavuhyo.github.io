@@ -2,8 +2,8 @@
 title: Java Collections.synchronizedMap과 ConcurrentHashMap 차이점
 author: dejavuhyo
 date: 2023-04-17 09:10:00 +0900
-tags: [java-synchronizedmap, java-concurrenthashmap, synchronizedmap-vs-concurrenthashmap, synchronizedmap-concurrenthashmap-차이점]
 categories: [Language, Java]
+tags: [java-synchronizedmap, java-concurrenthashmap, synchronizedmap-vs-concurrenthashmap, synchronizedmap-concurrenthashmap-차이점]
 ---
 
 ## 1. 차이점
