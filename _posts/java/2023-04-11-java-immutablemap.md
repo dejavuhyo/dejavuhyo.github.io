@@ -2,8 +2,8 @@
 title: Java ImmutableMap
 author: dejavuhyo
 date: 2023-04-11 09:30:00 +0900
-tags: [java-immutablemap, immutablemap, 자바-불변맵, 불변맵]
 categories: [Language, Java]
+tags: [java-immutablemap, immutablemap, 자바-불변맵, 불변맵]
 ---
 
 ## 1. Unmodifiable vs Immutable
