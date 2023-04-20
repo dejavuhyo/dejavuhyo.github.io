@@ -2,8 +2,8 @@
 title: Java 대소문자를 구분하지 않는 키가 있는 맵
 author: dejavuhyo
 date: 2023-04-14 08:15:00 +0900
-tags: [java-map-case-insensitive-keys, java-map, map-case-insensitive-keys, caseinsensitivemap, linkedcaseinsensitivemap, 자바-맵]
 categories: [Language, Java]
+tags: [java-map-case-insensitive-keys, java-map, map-case-insensitive-keys, caseinsensitivemap, linkedcaseinsensitivemap, 자바-맵]
 ---
 
 ## 1. 대소문자를 구분하지 않는 키가 있는 맵
