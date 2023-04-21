@@ -36,10 +36,10 @@ public void givenStaticMap_whenUpdated_thenCorrect() {
 이중 중괄호 구문을 사용하여 맵을 초기화할 수도 있다.
 
 ```java
-Map<String, String> doubleBraceMap  = new HashMap<String, String>() {{
+Map<String, String> doubleBraceMap  = new HashMap<String, String>() {% raw %}{{
     put("key1", "value1");
     put("key2", "value2");
-}};
+}}{% endraw %};
 ```
 
 **이 초기화 기술은 사용할 때마다 익명의 추가 클래스를 생성하고, 둘러싸는 개체에 대한 숨겨진 참조를 보유하며, 메모리 누수 문제를 일으킬 수 있기 때문에 이 초기화 기술을 피해야 한다.**
