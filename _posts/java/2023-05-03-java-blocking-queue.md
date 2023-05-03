@@ -3,7 +3,7 @@ title: Java BlockingQueue
 author: dejavuhyo
 date: 2023-05-03 09:30:00 +0900
 categories: [Language, Java]
-tags: [java-blocking-queue, blocking-queue, 자바-블로킹-큐, 블로킹-큐, 자바-큐, 큐]
+tags: [java-queue, blocking-queue, 자바-블로킹-큐, 블로킹-큐, 자바-큐, 큐]
 ---
 
 ## 1. BlockingQueue 유형
