@@ -1,7 +1,7 @@
 ---
 title: Java ArrayDeque
 author: dejavuhyo
-date: 2023-02-07 09:00:00 +0900
+date: 2023-05-10 09:15:00 +0900
 categories: [Language, Java]
 tags: [java-deque, array-deque, 자바-큐, 큐]
 ---
