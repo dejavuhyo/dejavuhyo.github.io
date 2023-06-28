@@ -1,5 +1,5 @@
 ---
-title: Java Iterator 크기
+title: Java 컬렉션 요소 제거
 author: dejavuhyo
 date: 2023-06-26 08:55:00 +0900
 categories: [Language, Java]
