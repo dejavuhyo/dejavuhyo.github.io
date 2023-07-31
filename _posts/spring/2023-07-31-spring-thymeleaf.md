@@ -1,7 +1,7 @@
 ---
 title: Spring Thymeleaf
 author: dejavuhyo
-date: 2023-01-01 08:50:00 +0900
+date: 2023-07-31 08:50:00 +0900
 categories: [Framework, Spring]
 tags: [spring-thymeleaf, thymeleaf]
 ---
