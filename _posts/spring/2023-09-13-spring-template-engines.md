@@ -6,7 +6,7 @@ categories: [Framework, Spring]
 tags: [spring-template-engines, template-engines, thymeleaf, freemarker, groovy, jade4j, 템플릿-엔진]
 ---
 
-## 1.Spring 뷰 기술
+## 1. Spring 뷰 기술
 Spring MVC 애플리케이션의 문제가 한 뷰 기술에서 다른 뷰 기술로 완전히 분리되어 있다는 점을 고려하면 기본적으로 구성 문제이다.
 
 각 뷰 유형을 렌더링하려면 각 기술에 해당하는 ViewResolver 빈을 정의해야 한다. 이는 일반적으로 JSP 파일을 반환하는 것과 동일한 방식으로 `@Controller` 매핑 메서드에서 뷰 이름을 반환할 수 있음을 의미한다.
