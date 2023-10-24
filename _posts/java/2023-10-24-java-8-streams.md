@@ -3,7 +3,7 @@ title: Java 8 Stream API
 author: dejavuhyo
 date: 2023-10-24 22:20:00 +0900
 categories: [Language, Java]
-tags: [spring-handlerinterceptor, spring-filter, handlerinterceptor-filter]
+tags: [java-stream, stream-api, stream, 자바-스트림, 스트림]
 ---
 
 ## 1. 스트림 생성
