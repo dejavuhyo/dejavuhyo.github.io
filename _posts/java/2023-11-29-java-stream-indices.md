@@ -1,5 +1,5 @@
 ---
-title: Java 인덱스를 사용하여 스트림을 반복하는 방법
+title: Java 인덱스를 사용하여 스트림 반복
 author: dejavuhyo
 date: 2023-11-29 22:20:00 +0900
 categories: [Language, Java]
