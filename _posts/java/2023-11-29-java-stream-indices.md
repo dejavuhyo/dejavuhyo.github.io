@@ -3,7 +3,7 @@ title: Java 인덱스를 사용하여 스트림 반복
 author: dejavuhyo
 date: 2023-11-29 22:20:00 +0900
 categories: [Language, Java]
-tags: [java-stream, stream-string, 자바-스트림, 스트림-문자열]
+tags: [java-stream, stream-indices, 자바-스트림, 스트림-반복, 스트림-인덱스]
 ---
 
 ## 1. 일반 자바 사용
