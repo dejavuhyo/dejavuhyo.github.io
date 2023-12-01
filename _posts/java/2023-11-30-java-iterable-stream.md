@@ -3,7 +3,7 @@ title: Java 스트림 반복
 author: dejavuhyo
 date: 2023-11-30 21:00:00 +0900
 categories: [Language, Java]
-tags: [java-stream, stream-string, 자바-스트림, 스트림-문자열]
+tags: [java-stream, iterable-stream, 자바-스트림, 스트림-반복]
 ---
 
 ## 1. Iterable을 스트림 으로 변환
