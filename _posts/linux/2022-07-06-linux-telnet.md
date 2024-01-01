@@ -28,4 +28,4 @@ telnet: connect to address 192.168.0.2: Connection refused
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/92663>
+* [https://wikidocs.net/92663](https://wikidocs.net/92663)

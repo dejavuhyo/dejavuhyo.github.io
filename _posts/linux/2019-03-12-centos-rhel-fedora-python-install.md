@@ -57,4 +57,4 @@ No module named '_ctypes'
 ```
 
 ## [출처 및 참고]
-* <https://tecadmin.net/install-python-3-7-on-centos/>
+* [https://tecadmin.net/install-python-3-7-on-centos/](https://tecadmin.net/install-python-3-7-on-centos/)

@@ -57,4 +57,4 @@ $ uname -v
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/47983>
+* [https://wikidocs.net/47983](https://wikidocs.net/47983)

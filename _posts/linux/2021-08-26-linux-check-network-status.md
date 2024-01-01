@@ -68,5 +68,5 @@ $ netstat -nlpt
 | UNKNOWN | 소켓의 상태를 알 수 없음 |
 
 ## [출처 및 참고]
-* <https://baejangho.com/entry/Linux-how-to-see-network-stat>
-* <https://m.blog.naver.com/PostView.nhn?blogId=ncloud24&logNo=221388026417&proxyReferer=https:%2F%2Fwww.google.com%2F>
+* [https://baejangho.com/entry/Linux-how-to-see-network-stat](https://baejangho.com/entry/Linux-how-to-see-network-stat)
+* [https://m.blog.naver.com/PostView.nhn?blogId=ncloud24&logNo=221388026417&proxyReferer=https:%2F%2Fwww.google.com%2F](https://m.blog.naver.com/PostView.nhn?blogId=ncloud24&logNo=221388026417&proxyReferer=https:%2F%2Fwww.google.com%2F)

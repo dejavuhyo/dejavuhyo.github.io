@@ -163,4 +163,4 @@ dmz 존에 영구적으로 등록된 서비스 목록 확인
 ```
 
 ## [출처 및 참고]
-* <https://www.lesstif.com/system-admin/linux-unix/rhel-centos-tips-tricks/rhel-centos-7-firewalld>
+* [https://www.lesstif.com/system-admin/linux-unix/rhel-centos-tips-tricks/rhel-centos-7-firewalld](https://www.lesstif.com/system-admin/linux-unix/rhel-centos-tips-tricks/rhel-centos-7-firewalld)

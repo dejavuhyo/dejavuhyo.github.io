@@ -32,4 +32,4 @@ wait 100
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/85880>
+* [https://wikidocs.net/85880](https://wikidocs.net/85880)

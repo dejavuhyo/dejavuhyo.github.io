@@ -30,4 +30,4 @@ two
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/47998>
+* [https://wikidocs.net/47998](https://wikidocs.net/47998)

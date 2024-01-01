@@ -86,4 +86,4 @@ FTP 모드에서 사용할 수 있는 전용 명령어는 일반 유닉스 명�
 * type: 전송 모드를 설정한다. (type 또는 type ascii 또는 type binary)
 
 ## [출처 및 참고]
-* <https://www.linux.co.kr/home/lecture/?leccode=300>
+* [https://www.linux.co.kr/home/lecture/?leccode=300](https://www.linux.co.kr/home/lecture/?leccode=300)

@@ -52,4 +52,4 @@ tags: [background-process-run, background-process, nohup, 백그라운드-프로
 ```
 
 ## [출처 및 참고]
-* <https://dptablo.tistory.com/236>
+* [https://dptablo.tistory.com/236](https://dptablo.tistory.com/236)

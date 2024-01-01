@@ -44,4 +44,4 @@ $ sudo journalctl -u zookeeper.service -o short-iso
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/160181>
+* [https://wikidocs.net/160181](https://wikidocs.net/160181)

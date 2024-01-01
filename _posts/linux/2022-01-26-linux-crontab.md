@@ -83,4 +83,4 @@ sudo bash -c 'echo \"
   - /var/spool/cron/crontab/유저명
 
 ## [출처 및 참고]
-* <https://wikidocs.net/82568>
+* [https://wikidocs.net/82568](https://wikidocs.net/82568)

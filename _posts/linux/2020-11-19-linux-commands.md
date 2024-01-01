@@ -171,4 +171,4 @@ download *file*
 continue a stopped download
 
 ## [출처 및 참고]
-* <https://fosswire.com/post/2007/08/unixlinux-command-cheat-sheet/>
+* [https://fosswire.com/post/2007/08/unixlinux-command-cheat-sheet/](https://fosswire.com/post/2007/08/unixlinux-command-cheat-sheet/)

@@ -108,4 +108,4 @@ $ journalctl -u zookeeper -f
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/134877>
+* [https://wikidocs.net/134877](https://wikidocs.net/134877)

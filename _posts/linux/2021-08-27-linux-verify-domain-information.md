@@ -103,6 +103,6 @@ Address: 209.132.183.105
 ```
 
 ## [출처 및 참고]
-* <https://ko.wikipedia.org/wiki/Nslookup>
-* <https://www.lesstif.com/system-admin/nslookup-20775988.html>
-* <https://www.thegeekstuff.com/2012/07/nslookup-examples/>
+* [https://ko.wikipedia.org/wiki/Nslookup](https://ko.wikipedia.org/wiki/Nslookup)
+* [https://www.lesstif.com/system-admin/nslookup-20775988.html](https://www.lesstif.com/system-admin/nslookup-20775988.html)
+* [https://www.thegeekstuff.com/2012/07/nslookup-examples/](https://www.thegeekstuff.com/2012/07/nslookup-examples/)

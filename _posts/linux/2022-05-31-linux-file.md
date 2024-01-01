@@ -40,4 +40,4 @@ cctv.jar:                 Zip archive data, at least v1.0 to extract
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/48071>
+* [https://wikidocs.net/48071](https://wikidocs.net/48071)

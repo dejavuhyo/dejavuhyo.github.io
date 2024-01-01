@@ -55,4 +55,4 @@ Cgroup은 다음과 같은 점에서 프로세스와 유사하다.
 * `ns`: namespace 서브시스템
 
 ## [출처 및 참고]
-* <https://access.redhat.com/documentation/ko-kr/red_hat_enterprise_linux/6/html/resource_management_guide/ch01>
+* [https://access.redhat.com/documentation/ko-kr/red_hat_enterprise_linux/6/html/resource_management_guide/ch01](https://access.redhat.com/documentation/ko-kr/red_hat_enterprise_linux/6/html/resource_management_guide/ch01)

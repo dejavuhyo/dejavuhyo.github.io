@@ -55,4 +55,4 @@ $ date +%Y-%m-%d -d '20190101 +1days'
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/30100>
+* [https://wikidocs.net/30100](https://wikidocs.net/30100)

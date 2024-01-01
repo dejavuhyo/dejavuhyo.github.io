@@ -66,4 +66,4 @@ $ cat hadoop-2.10.1.tar.gz.split.* > hadoop-2.10.1.tar.gz
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/48068>
+* [https://wikidocs.net/48068](https://wikidocs.net/48068)

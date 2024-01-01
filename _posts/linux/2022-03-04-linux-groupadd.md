@@ -49,4 +49,4 @@ usera : groupa, groupb
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/160884>
+* [https://wikidocs.net/160884](https://wikidocs.net/160884)

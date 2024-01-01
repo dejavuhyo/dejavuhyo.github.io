@@ -128,4 +128,4 @@ root            hard    nproc           65536
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/156944>
+* [https://wikidocs.net/156944](https://wikidocs.net/156944)

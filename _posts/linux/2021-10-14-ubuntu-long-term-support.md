@@ -32,6 +32,6 @@ Standard와 LTS로 구분을 하는 이유는 안정성 때문인데, 개발 환
 ![ubuntu-release](/assets/img/2021-10-14-ubuntu-long-term-support/ubuntu-release.png)
 
 ## [출처 및 참고]
-* <https://ko.wikipedia.org/wiki/%EC%9E%A5%EA%B8%B0_%EC%A7%80%EC%9B%90_%EB%B2%84%EC%A0%84>
-* <https://ko.wikipedia.org/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_%EB%B2%84%EC%A0%84_%EC%97%AD%EC%82%AC>
-* <https://kangjjing.tistory.com/30>
+* [https://ko.wikipedia.org/wiki/%EC%9E%A5%EA%B8%B0_%EC%A7%80%EC%9B%90_%EB%B2%84%EC%A0%84](https://ko.wikipedia.org/wiki/%EC%9E%A5%EA%B8%B0_%EC%A7%80%EC%9B%90_%EB%B2%84%EC%A0%84)
+* [https://ko.wikipedia.org/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_%EB%B2%84%EC%A0%84_%EC%97%AD%EC%82%AC](https://ko.wikipedia.org/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_%EB%B2%84%EC%A0%84_%EC%97%AD%EC%82%AC)
+* [https://kangjjing.tistory.com/30](https://kangjjing.tistory.com/30)

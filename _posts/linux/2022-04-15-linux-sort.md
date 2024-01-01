@@ -1,4 +1,4 @@
----
++---
 title: Linux sort
 author: dejavuhyo
 date: 2022-04-15 10:00:00 +0900
@@ -52,4 +52,4 @@ d 4
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/33770>
+* [https://wikidocs.net/33770](https://wikidocs.net/33770)

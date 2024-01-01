@@ -167,4 +167,4 @@ set: set [-abefhkmnptuvxBCHP] [-o option-name] [--] [arg ...]
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/72712>
+* [https://wikidocs.net/72712](https://wikidocs.net/72712)

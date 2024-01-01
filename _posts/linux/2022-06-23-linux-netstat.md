@@ -86,4 +86,4 @@ $ netstat -an | egrep "ESTABLISHED|TIME_WAIT"
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/48021>
+* [https://wikidocs.net/48021](https://wikidocs.net/48021)

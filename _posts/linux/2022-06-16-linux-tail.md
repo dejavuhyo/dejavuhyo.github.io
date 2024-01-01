@@ -38,4 +38,4 @@ four
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/48003>
+* [https://wikidocs.net/48003](https://wikidocs.net/48003)

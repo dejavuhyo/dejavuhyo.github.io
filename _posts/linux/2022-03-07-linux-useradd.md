@@ -54,4 +54,4 @@ $ usermod -a -G grp1,grp2 user1
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/104098>
+* [https://wikidocs.net/104098](https://wikidocs.net/104098)

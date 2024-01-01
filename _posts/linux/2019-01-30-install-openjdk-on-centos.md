@@ -111,4 +111,4 @@ javac 1.8.0_191
 ```
 
 ## [출처 및 참고]
-* <https://blog.hanumoka.net/2018/04/30/centOs-20180430-centos-install-jdk/>
+* [https://blog.hanumoka.net/2018/04/30/centOs-20180430-centos-install-jdk/](https://blog.hanumoka.net/2018/04/30/centOs-20180430-centos-install-jdk/)

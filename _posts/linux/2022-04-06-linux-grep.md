@@ -99,4 +99,4 @@ jackson-jaxrs-1.9.13.jar
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/32351>
+* [https://wikidocs.net/32351](https://wikidocs.net/32351)

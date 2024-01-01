@@ -48,4 +48,4 @@ Linux 커널은 Linux 운영 체제(OS)의 주요 구성 요소이자 컴퓨터 
 또한 Linux 커널은 실시간 패치 적용 중에 계속 작업할 수 있으므로 패치가 보안 수정에 적용되는 동안 다운타임이 발생하지 않는다.
 
 ## [출처 및 참고]
-* <https://www.redhat.com/ko/topics/linux/what-is-the-linux-kernel>
+* [https://www.redhat.com/ko/topics/linux/what-is-the-linux-kernel](https://www.redhat.com/ko/topics/linux/what-is-the-linux-kernel)

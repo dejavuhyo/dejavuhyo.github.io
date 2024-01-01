@@ -20,4 +20,4 @@ $ ssh-copy-id -p 1000 user@hostname
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/122417>
+* [https://wikidocs.net/122417](https://wikidocs.net/122417>)

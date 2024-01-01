@@ -43,4 +43,4 @@ $ wget -O ./tmp/oozie.tar.gz http://apache.mirror.cdnetworks.com/oozie/4.3.1/ooz
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/48024>
+* [https://wikidocs.net/48024](https://wikidocs.net/48024)

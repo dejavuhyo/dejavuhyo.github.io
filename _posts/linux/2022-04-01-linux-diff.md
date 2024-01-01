@@ -46,4 +46,4 @@ $ diff a b
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/33651>
+* [https://wikidocs.net/33651](https://wikidocs.net/33651)
