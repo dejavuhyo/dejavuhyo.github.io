@@ -285,7 +285,7 @@ public class StudentController {
 ```
 
 ## 8. 변환 사용
-이중 괄호 구문 `{% raw %}{{}}{% endraw %`을 사용하여 표시할 데이터 형식을 지정한다. 이는 컨텍스트 파일의 conversionService bean에서 해당 유형의 필드에 대해 구성된 포맷터를 사용한다.
+이중 괄호 구문 `{% raw %}{% raw %}{{}}{% endraw %{% endraw %`을 사용하여 표시할 데이터 형식을 지정한다. 이는 컨텍스트 파일의 conversionService bean에서 해당 유형의 필드에 대해 구성된 포맷터를 사용한다.
 
 Student 클래스에서 이름 필드의 형식을 지정하는 방법이다.
 
