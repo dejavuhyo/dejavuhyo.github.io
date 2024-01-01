@@ -20,4 +20,4 @@ Wed Apr 1 05:08:24 UTC 2020
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/54525>
+* [https://wikidocs.net/54525](https://wikidocs.net/54525)

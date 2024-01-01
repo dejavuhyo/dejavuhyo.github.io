@@ -25,4 +25,4 @@ Address: 210.89.160.88
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/92662>
+* [https://wikidocs.net/92662](https://wikidocs.net/92662)

@@ -49,4 +49,4 @@ $ xmllint --xpath "xml/key" sample.xml
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/72709>
+* [https://wikidocs.net/72709](https://wikidocs.net/72709)

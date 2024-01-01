@@ -25,4 +25,4 @@ apt install htop
 ![htop](/assets/img/2022-02-09-linux-htop/htop.png)
 
 ## [출처 및 참고]
-* <https://wikidocs.net/145642>
+* [https://wikidocs.net/145642](https://wikidocs.net/145642)

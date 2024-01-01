@@ -21,4 +21,4 @@ $ nohup test.sh > test.log &
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/155602>
+* [https://wikidocs.net/155602](https://wikidocs.net/155602)

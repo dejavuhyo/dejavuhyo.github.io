@@ -30,4 +30,4 @@ $ tcpdump -r tcp.log
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/124139>
+* [https://wikidocs.net/124139](https://wikidocs.net/124139)

@@ -80,5 +80,5 @@ Debian 기반에서 시작하였고, 편리한 설치와 사용법 때문에 데
 초기에는 데스크톱 환경으로 가장 많이 사용하는 배포본으로 널리 알려졌고, 이후 서버용으로도 사용하고 있다. 6개월 단위로 새 버전을 발표하며, 2년 주기로 LTS(Long Term Support: 5년간 기술지원 제공) 버전을 발표한다.
 
 ## [출처 및 참고]
-* <https://www.samsungsds.com/kr/insights/linux_distribution.html>
-* <https://namu.wiki/w/Linux/%EB%B0%B0%ED%8F%AC%ED%8C%90>
+* [https://www.samsungsds.com/kr/insights/linux_distribution.html](https://www.samsungsds.com/kr/insights/linux_distribution.html)
+* [https://namu.wiki/w/Linux/%EB%B0%B0%ED%8F%AC%ED%8C%90](https://namu.wiki/w/Linux/%EB%B0%B0%ED%8F%AC%ED%8C%90)

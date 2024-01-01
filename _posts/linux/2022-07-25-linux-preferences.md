@@ -31,4 +31,4 @@ fi
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/73709>
+* [https://wikidocs.net/73709](https://wikidocs.net/73709)

@@ -75,4 +75,4 @@ a, b, c
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/33341>
+* [https://wikidocs.net/33341](https://wikidocs.net/33341)

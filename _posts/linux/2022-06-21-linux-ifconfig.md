@@ -38,4 +38,4 @@ $ ifconfig eth0 192.168.0.1 broadcast 192.168.0.255 netmask 255.255.255.0
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/48057>
+* [https://wikidocs.net/48057](https://wikidocs.net/48057)

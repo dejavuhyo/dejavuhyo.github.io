@@ -18,4 +18,4 @@ $ lynx http://www.naver.com
 * `=`: 하이퍼링크에서 누르면 현재 링크의 URL을 확인할 수 있음
 
 ## [출처 및 참고]
-* <https://wikidocs.net/48055>
+* [https://wikidocs.net/48055](https://wikidocs.net/48055)

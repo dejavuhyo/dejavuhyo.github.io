@@ -57,6 +57,6 @@ BaseOS 저장소의 핵심 운영체제 패키지보다 더 자주 업데이트 
 ![difference](/assets/img/2021-07-22-rhel-8-main-function/difference.png)
 
 ## [출처 및 참고]
-* <https://www.s-core.co.kr/insight/view/rhelred-hat-enterprise-linux-8-%EC%A3%BC%EC%9A%94-%EB%B3%80%EA%B2%BD-%EC%82%AC%ED%95%AD-%EA%B0%80%EC%9D%B4%EB%93%9C/>
-* <https://www.redhat.com/ko/enterprise-linux-8/details#technologies>
-* <https://sysops.tistory.com/97>
+* [https://www.s-core.co.kr/insight/view/rhelred-hat-enterprise-linux-8-%EC%A3%BC%EC%9A%94-%EB%B3%80%EA%B2%BD-%EC%82%AC%ED%95%AD-%EA%B0%80%EC%9D%B4%EB%93%9C/](https://www.s-core.co.kr/insight/view/rhelred-hat-enterprise-linux-8-%EC%A3%BC%EC%9A%94-%EB%B3%80%EA%B2%BD-%EC%82%AC%ED%95%AD-%EA%B0%80%EC%9D%B4%EB%93%9C/)
+* [https://www.redhat.com/ko/enterprise-linux-8/details#technologies](https://www.redhat.com/ko/enterprise-linux-8/details#technologies)
+* [https://sysops.tistory.com/97](https://sysops.tistory.com/97)

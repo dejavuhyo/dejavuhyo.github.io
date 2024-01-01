@@ -40,4 +40,4 @@ $ exec java -cp '/etc/hadoop/conf' org.apache.hadoop.hdfs.server.datanode.Secure
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/111050>
+* [https://wikidocs.net/111050](https://wikidocs.net/111050)

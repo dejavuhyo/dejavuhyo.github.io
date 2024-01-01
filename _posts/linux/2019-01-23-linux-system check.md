@@ -49,4 +49,4 @@ tags: [linux-system-check, system-check, 리눅스-시스템-확인, 시스템-�
 ```
 
 ## [출처 및 참고]
-* <https://webdir.tistory.com/103>
+* [https://webdir.tistory.com/103](https://webdir.tistory.com/103)

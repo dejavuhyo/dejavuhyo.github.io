@@ -31,9 +31,9 @@ Hello$
 
 색상은 아래 링크를 참고
 
-* <https://gist.github.com/vratiu/9780109>
+* [https://gist.github.com/vratiu/9780109](https://gist.github.com/vratiu/9780109)
 
-* <https://gist.github.com/daytonn/8677243>
+* [https://gist.github.com/daytonn/8677243](https://gist.github.com/daytonn/8677243)
 
 ```shell
 RED='\033[0;31m'
@@ -48,4 +48,4 @@ echo -e ${RED}${vText}${NC}
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/32941>
+* [https://wikidocs.net/32941](https://wikidocs.net/32941)

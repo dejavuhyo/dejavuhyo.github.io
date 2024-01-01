@@ -69,4 +69,4 @@ Swap:           0B     0B         0B
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/36771>
+* [https://wikidocs.net/36771](https://wikidocs.net/36771)

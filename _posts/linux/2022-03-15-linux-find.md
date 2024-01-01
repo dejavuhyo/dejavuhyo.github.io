@@ -66,4 +66,4 @@ $ find ./logs/ -name "*.log" -mtime +6 -delete
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/47974>
+* [https://wikidocs.net/47974](https://wikidocs.net/47974)

@@ -25,9 +25,9 @@ spring-boot-application에 로그 설정이 되어 있으면 nohup을 사용하�
 
 > 로그설정:
 >
-> <https://dejavuhyo.github.io/posts/spring-boot-logback/>
+> [https://dejavuhyo.github.io/posts/spring-boot-logback/](https://dejavuhyo.github.io/posts/spring-boot-logback/)
 >
-> <https://blog.naver.com/dejavuhyo/222129041829>
+> [https://blog.naver.com/dejavuhyo/222129041829](https://blog.naver.com/dejavuhyo/222129041829)
 
 ```shell
 #!/bin/bash

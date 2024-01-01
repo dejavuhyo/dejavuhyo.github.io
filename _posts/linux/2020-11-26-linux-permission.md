@@ -156,5 +156,5 @@ For complete documentation, run: info coreutils 'chown invocation'
 ```
 
 ## [출처 및 참고]
-* <https://eunguru.tistory.com/93>
-* <https://jhnyang.tistory.com/11>
+* [https://eunguru.tistory.com/93](https://eunguru.tistory.com/93)
+* [https://jhnyang.tistory.com/11](https://jhnyang.tistory.com/11)

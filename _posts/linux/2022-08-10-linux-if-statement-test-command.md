@@ -38,4 +38,4 @@ A
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/112181>
+* [https://wikidocs.net/112181](https://wikidocs.net/112181)

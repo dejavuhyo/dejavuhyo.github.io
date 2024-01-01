@@ -57,4 +57,4 @@ fi
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/50694>
+* [https://wikidocs.net/50694](https://wikidocs.net/50694)

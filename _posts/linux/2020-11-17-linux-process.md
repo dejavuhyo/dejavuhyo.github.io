@@ -130,5 +130,5 @@ kill -9 [PID]
 | SIGXFSZ | 없음 | 종료 (코어 덤프) | 파일 크기 제한 초과 |
 
 ## [출처 및 참고]
-* <https://eehoeskrap.tistory.com/245>
-* <https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%89%EC%8A%A4_%EC%8B%A0%ED%98%B8>
+* [https://eehoeskrap.tistory.com/245](https://eehoeskrap.tistory.com/245)
+* [https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%89%EC%8A%A4_%EC%8B%A0%ED%98%B8](https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%89%EC%8A%A4_%EC%8B%A0%ED%98%B8)

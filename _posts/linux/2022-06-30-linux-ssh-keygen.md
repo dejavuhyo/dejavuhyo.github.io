@@ -47,4 +47,4 @@ total 16
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/106513>
+* [https://wikidocs.net/106513](https://wikidocs.net/106513)

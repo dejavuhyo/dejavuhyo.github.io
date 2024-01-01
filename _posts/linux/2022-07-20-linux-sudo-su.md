@@ -38,4 +38,4 @@ $ sudo -u hdfs hdfs dfsadmin -report
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/72730>
+* [https://wikidocs.net/72730](https://wikidocs.net/72730)

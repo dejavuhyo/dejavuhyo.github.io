@@ -28,6 +28,6 @@ SSH key는 공개키(public key), 비공개키(private key)로 이루어지며, 
 > **private key:** 외부 노출되면 안되는 키, 로컬 컴퓨터 내부에 저장, 암호화 정보 복호화
 
 ## [출처 및 참고]
-* <https://ko.wikipedia.org/wiki/%EC%8B%9C%ED%81%90%EC%96%B4_%EC%85%B8>
-* <https://velog.io/@hyeseong-dev/%EB%A6%AC%EB%88%85%EC%8A%A4-ssh%EB%9E%80>
-* <https://developsd.tistory.com/114>
+* [https://ko.wikipedia.org/wiki/%EC%8B%9C%ED%81%90%EC%96%B4_%EC%85%B8](https://ko.wikipedia.org/wiki/%EC%8B%9C%ED%81%90%EC%96%B4_%EC%85%B8)
+* [https://velog.io/@hyeseong-dev/%EB%A6%AC%EB%88%85%EC%8A%A4-ssh%EB%9E%80](https://velog.io/@hyeseong-dev/%EB%A6%AC%EB%88%85%EC%8A%A4-ssh%EB%9E%80)
+* [https://developsd.tistory.com/114](https://developsd.tistory.com/114)

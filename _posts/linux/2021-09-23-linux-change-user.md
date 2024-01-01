@@ -57,4 +57,4 @@ su와는 달리, sudo는 인증할 때 다른 사용자의 비밀번호가 아�
 일부 유닉스 계열 운영 체제에서는 wheel 그룹에 속해 있는 사용자들에게만 super 사용자로 su 할 수 있다. 침입자가 그 그룹에 속해 있는 계정 중에 하나를 침입할 수도 있어서, 이러한 보안 문제를 완화하지 않을 수도 있다. 그러나 GNU su는 철학적인 이유 때문에 wheel 그룹을 지원하지 않는다.
 
 ## [출처 및 참고]
-* <https://ko.wikipedia.org/wiki/Su_(%EC%9C%A0%EB%8B%89%EC%8A%A4)>
+* [https://ko.wikipedia.org/wiki/Su_(%EC%9C%A0%EB%8B%89%EC%8A%A4)](https://ko.wikipedia.org/wiki/Su_(%EC%9C%A0%EB%8B%89%EC%8A%A4))

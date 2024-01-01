@@ -29,4 +29,4 @@ alias ll='ls -l --color=auto'
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/47989>
+* [https://wikidocs.net/47989](https://wikidocs.net/47989)

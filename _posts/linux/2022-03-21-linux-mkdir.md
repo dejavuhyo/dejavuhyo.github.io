@@ -26,4 +26,4 @@ $ mkdir -p par1/dir1
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/47982>
+* [https://wikidocs.net/47982](https://wikidocs.net/47982)

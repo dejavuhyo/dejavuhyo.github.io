@@ -72,4 +72,4 @@ ONBOOT=yes
 ```
 
 ## [출처 및 참고]
-* <https://skysoo1111.tistory.com/36>
+* [https://skysoo1111.tistory.com/36](https://skysoo1111.tistory.com/36)

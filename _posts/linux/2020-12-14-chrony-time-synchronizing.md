@@ -202,6 +202,6 @@ System clock synchronized: yes
 ```
 
 ## [출처 및 참고]
-* <https://joungkyun.gitbook.io/annyung-3-user-guide/chapter6/chapter6-chrony>
-* <https://itragdoll.tistory.com/23>
-* <https://m.blog.naver.com/PostView.nhn?blogId=hymne&logNo=221007971952&proxyReferer=https:%2F%2Fwww.google.com%2F>
+* [https://joungkyun.gitbook.io/annyung-3-user-guide/chapter6/chapter6-chrony](https://joungkyun.gitbook.io/annyung-3-user-guide/chapter6/chapter6-chrony)
+* [https://itragdoll.tistory.com/23](https://itragdoll.tistory.com/23)
+* [https://m.blog.naver.com/PostView.nhn?blogId=hymne&logNo=221007971952&proxyReferer=https:%2F%2Fwww.google.com%2F](https://m.blog.naver.com/PostView.nhn?blogId=hymne&logNo=221007971952&proxyReferer=https:%2F%2Fwww.google.com%2F)

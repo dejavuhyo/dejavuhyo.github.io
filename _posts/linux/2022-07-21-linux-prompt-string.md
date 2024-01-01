@@ -44,4 +44,4 @@ export PS1="[$GREEN\u$WHITE@$PURPLE\h$WHITE \W]\$$NON_COLOR "
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/73419>
+* [https://wikidocs.net/73419](https://wikidocs.net/73419)

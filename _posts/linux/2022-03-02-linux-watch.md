@@ -34,4 +34,4 @@ $ watch -d date
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/44360>
+* [https://wikidocs.net/44360](https://wikidocs.net/44360)

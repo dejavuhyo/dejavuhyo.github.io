@@ -92,4 +92,4 @@ tags: [rpm, linux-rpm, rpm-command, rpm-명령어, 리눅스-rpm, 리눅스-rpm-
 ```
 
 ## [출처 및 참고]
-* <https://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_rpm_%EB%AA%85%EB%A0%B9%EC%96%B4>
+* [https://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_rpm_%EB%AA%85%EB%A0%B9%EC%96%B4](https://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_rpm_%EB%AA%85%EB%A0%B9%EC%96%B4)

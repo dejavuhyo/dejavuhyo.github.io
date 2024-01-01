@@ -30,4 +30,4 @@ $ more -N sample.txt
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/48005>
+* [https://wikidocs.net/48005](https://wikidocs.net/48005)

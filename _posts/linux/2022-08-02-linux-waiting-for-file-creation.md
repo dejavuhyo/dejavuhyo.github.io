@@ -34,4 +34,4 @@ done
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/87085>
+* [https://wikidocs.net/87085](https://wikidocs.net/87085)

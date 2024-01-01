@@ -299,5 +299,5 @@ Cleaning repos: base epel extras updates
 ```
 
 ## [출처 및 참고]
-* <https://conory.com/blog/42596>
-* <https://ossian.tistory.com/80>
+* [https://conory.com/blog/42596](https://conory.com/blog/42596)
+* [https://ossian.tistory.com/80](https://ossian.tistory.com/80)

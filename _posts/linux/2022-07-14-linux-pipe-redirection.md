@@ -62,4 +62,4 @@ $ sample.sh > /dev/null 2>&1
 ```
 
 ## [출처 및 참고]
-* <https://wikidocs.net/29734>
+* [https://wikidocs.net/29734](https://wikidocs.net/29734)
