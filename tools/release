@@ -8,7 +8,7 @@
 # and production branch.
 #
 #
-# Usage: run on the default, release or the patch branch
+# Usage: run on main branch or the patch branch
 #
 # Requires: Git, NPM and RubyGems
 
@@ -18,7 +18,8 @@ opt_pre=false # preview mode option
 
 working_branch="$(git branch --show-current)"
 
-DEFAULT_BRANCH="$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')"
+# AKA the default branch, main/master branch
+STAGING_BRANCH="$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')"
 
 PROD_BRANCH="production"
 
@@ -64,16 +65,15 @@ _check_cli() {
 }
 
 _check_git() {
-  # ensure that changes have been committed
+  # ensure nothing is uncommitted
   if [[ -n $(git status . -s) ]]; then
     echo "> Abort: Commit the staged files first, and then run this tool again."
     exit 1
   fi
 
-  if [[ $working_branch != "$DEFAULT_BRANCH" &&
-    $working_branch != hotfix/* &&
-    $working_branch != "$PROD_BRANCH" ]]; then
-    echo "> Abort: Please run on the default, release or patch branch."
+  # ensure the working branch is the default/patch branch
+  if [[ $working_branch != "$STAGING_BRANCH" && $working_branch != hotfix/* ]]; then
+    echo "> Abort: Please run on the $STAGING_BRANCH branch or a patch branche."
     exit 1
   fi
 }
@@ -101,15 +101,13 @@ check() {
   _check_node_packages
 }
 
-# Auto-generate a new version number to the file 'package.json'
+# auto-generate a new version number to the file 'package.json' and
 bump_node() {
-  bump="standard-version -i $CHANGE_LOG"
-
   if $opt_pre; then
-    bump="$bump -p rc"
+    standard-version -i "$CHANGE_LOG" -p rc
+  else
+    standard-version -i "$CHANGE_LOG"
   fi
-
-  eval "$bump"
 
   # Change heading of Patch version to heading level 2 (a bug from `standard-version`)
   sed -i "s/^### \[/## \[/g" "$CHANGE_LOG"
@@ -119,34 +117,29 @@ bump_node() {
 
 ## Bump new version to gem config file
 bump_gem() {
-  _ver="$1"
-
-  if $opt_pre; then
-    _ver="${1/-/.}"
-  fi
-
-  sed -i "s/[[:digit:]]\+\.[[:digit:]]\+\.[[:digit:]]\+/$_ver/" "$GEM_SPEC"
+  sed -i "s/[[:digit:]]\+\.[[:digit:]]\+\.[[:digit:]]\+/$1/" "$GEM_SPEC"
 }
 
-# Creates a new tag on the production branch with the given version number.
-# Also commits the changes and merges the production branch into the default branch.
-branch() {
+# Update the git branches, create a new tag, and then build the gem package.
+release() {
   _version="$1" # X.Y.Z
-
-  git add .
-  git commit -m "chore(release): $_version"
+  _latest_commit="$(git rev-parse HEAD)"
 
   # Create a new tag on production branch
   echo -e "> Create tag v$_version\n"
   git tag "v$_version"
 
-  git checkout "$DEFAULT_BRANCH"
-  git merge --no-ff --no-edit "$PROD_BRANCH"
+  git checkout "$STAGING_BRANCH"
 
   if [[ $working_branch == hotfix/* ]]; then
+    git merge --no-ff --no-edit "$working_branch"
     # delete the patch branch
     git branch -D "$working_branch"
   fi
+
+  # cherry-pick the latest commit from production branch to default branch
+  git cherry-pick "$_latest_commit"
+
 }
 
 ## Build a gem package
@@ -171,7 +164,7 @@ build_gem() {
 main() {
   check
 
-  if [[ $opt_pre = false && $working_branch != "$PROD_BRANCH" ]]; then
+  if [[ $opt_pre = false ]]; then
     git checkout "$PROD_BRANCH"
     git merge --no-ff --no-edit "$working_branch"
   fi
@@ -182,11 +175,15 @@ main() {
 
   bump_gem "$_version"
 
-  if [[ $opt_pre = false ]]; then
-    branch "$_version"
-  fi
-
   echo -e "> Build the gem package for v$_version\n"
+
+  if [[ $opt_pre = false ]]; then
+    echo -e "> Bumped version number to $_version\n"
+    git add .
+    git commit -m "chore(release): $_version"
+
+    release "$_version"
+  fi
 
   build_gem
 }
