@@ -108,4 +108,4 @@ tags: [nexus-maven-repository, nexus-repository, maven-repository, nexus-reposit
 ```
 
 ## [출처 및 참고]
-* [longbe00.blogspot.com/2015/06/nexus-maven-repository.html](longbe00.blogspot.com/2015/06/nexus-maven-repository.html)
+* [https://longbe00.blogspot.com/2015/06/nexus-maven-repository.html](https://longbe00.blogspot.com/2015/06/nexus-maven-repository.html)

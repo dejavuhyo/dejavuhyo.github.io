@@ -44,9 +44,9 @@ Oracle은 Linux, macOS 및 Windows용 OpenJDK 빌드를 압축된 아카이브 �
 
 ⛔️ *특히 LTS 버전을 사용하려는 경우 Oracle의 OpenJDK 빌드를 사용하지 않는다.*
 
-* Website: <https://www.oracle.com/java/>
+* Website: [https://www.oracle.com/java/](https://www.oracle.com/java/)
 
-* Releases: <https://jdk.java.net/>
+* Releases: [https://jdk.java.net/](https://jdk.java.net/)
 
 * Docker Images: (n/a)
 
@@ -57,9 +57,9 @@ Oracle은 OpenJDK와 정확히 동일한 소스인 Oracle Java SE Development Ki
 
 ⛔️ *변호사와 상담하기 전에 Oracle JDK(Java SE Development Kit)를 사용하지 않는다.*
 
-* Website: <https://www.oracle.com/java/>
+* Website: [https://www.oracle.com/java/](https://www.oracle.com/java/)
 
-* Releases: <https://www.oracle.com/java/technologies/downloads/archive/>
+* Releases: [https://www.oracle.com/java/technologies/downloads/archive/](https://www.oracle.com/java/technologies/downloads/archive/)
 
 * Docker Images: (n/a)
 
@@ -76,11 +76,11 @@ Adoptium은 해당 업스트림 소스가 적극적으로 유지되는 한 LTS �
 
 ✅ *Adoptium Eclipse Temurin OpenJDK 빌드를 적극 권장한다.*
 
-* Website: <https://adoptium.net/>
+* Website: [https://adoptium.net/](https://adoptium.net/)
 
-* Releases: <https://adoptium.net/temurin/archive/>
+* Releases: [https://adoptium.net/temurin/archive/](https://adoptium.net/temurin/archive/)
 
-* Docker Images: <https://hub.docker.com/_/eclipse-temurin/>
+* Docker Images: [https://hub.docker.com/_/eclipse-temurin/](https://hub.docker.com/_/eclipse-temurin/)
 
 ### 4) AdoptOpenJDK
 AdoptOpenJDK 프로젝트는 Eclipse Adoptium의 전신이며 기본 HotSpot 및 OpenJ9 가상 머신 모두에 대해 고품질 OpenJDK 빌드를 제공했다.
@@ -89,11 +89,11 @@ AdoptOpenJDK 프로젝트는 Eclipse Adoptium의 전신이며 기본 HotSpot 및
 
 ⛔️ *더 이상 AdoptOpenJDK를 사용하지 않는다. Adoptium Eclipse Temurin을 사용한다.*
 
-* Website: <https://adoptopenjdk.net/>
+* Website: [https://adoptopenjdk.net/](https://adoptopenjdk.net/)
 
-* Releases: <https://adoptopenjdk.net/archive.html?variant=openjdk11&jvmVariant=hotspot>
+* Releases: [https://adoptopenjdk.net/archive.html?variant=openjdk11&jvmVariant=hotspot](https://adoptopenjdk.net/archive.html?variant=openjdk11&jvmVariant=hotspot)
 
-* Docker Images: <https://hub.docker.com/_/adoptopenjdk>
+* Docker Images: [https://hub.docker.com/_/adoptopenjdk](https://hub.docker.com/_/adoptopenjdk)
 
 ### 5) Azul Zulu
 Azul Systems, Inc.는 전문 Java 기술과 JDK에 대한 상업적 지원을 전문으로 한다. Azul은 높은 업계 평판을 가지고 있으며 Java 플랫폼을 발전시키기 위해 다양한 작업 그룹에 참여하고 있다.
@@ -104,11 +104,11 @@ Azul은 많은 운영 체제 및 아키텍처에 대해 Azul Zulu라는 오픈 �
 
 ✅ *OpenJDK의 Azul Zulu 빌드가 좋은 선택이다.*
 
-* Website: <https://www.azul.com/ko/>
+* Website: [https://www.azul.com/ko/](https://www.azul.com/ko/)
 
-* Releases: <https://www.azul.com/downloads/?package=jdk>
+* Releases: [https://www.azul.com/downloads/?package=jdk](https://www.azul.com/downloads/?package=jdk)
 
-* Docker Images: <https://hub.docker.com/r/azul/zulu-openjdk>
+* Docker Images: [https://hub.docker.com/r/azul/zulu-openjdk](https://hub.docker.com/r/azul/zulu-openjdk)
 
 ### 6) Azul Zing
 Azul Zing은 현재 Azul Platform Prime으로 판매되는 상용 JDK이다. 프로덕션 용도로 사용하려면 Azul Systems와 상업적 계약이 필요하다.
@@ -117,9 +117,9 @@ Azul Zing은 GC 일시 중지가 문제인 금융 거래 응용 프로그램의 
 
 ⚠️ *GC 일시 중지 시간이 문제인 경우 Azul Zing / Azul Platform Prime을 고려한다. 라이센스 없이 프로덕션 환경에서 사용하지 않는다.*
 
-* Website: <https://www.azul.com/>
+* Website: [https://www.azul.com/](https://www.azul.com/)
 
-* Releases: <https://www.azul.com/products/prime/stream-download/>
+* Releases: [https://www.azul.com/products/prime/stream-download/](https://www.azul.com/products/prime/stream-download/)
 
 * Docker Images: (n/a)
 
@@ -134,11 +134,11 @@ BellSoft는 거의 모든 운영 체제 및 아키텍처에 대해 Liberica JDK�
 
 ✅ *BellSoft Liberica JDK 빌드가 좋은 선택이다.*
 
-* Website: <https://bell-sw.com/>
+* Website: [https://bell-sw.com/](https://bell-sw.com/)
 
-* Releases: <https://bell-sw.com/pages/downloads/?>
+* Releases: [https://bell-sw.com/pages/downloads/?](https://bell-sw.com/pages/downloads/?)
 
-* Docker Images: <https://hub.docker.com/u/bellsoft>
+* Docker Images: [https://hub.docker.com/u/bellsoft](https://hub.docker.com/u/bellsoft)
 
 ### 8) IBM Semeru Runtime
 IBM은 J9라고 하는 자체 버전의 Java Virtual Machine을 개발했으며 Eclipse OpenJ9로 오픈 소스 되었다. 기본 HotSpot Java Virtual Machine의 대안이지만 그다지 인기를 얻지는 못했다.
@@ -147,9 +147,9 @@ IBM은 이제 Eclipse OpenJ9 Java Virtual Machine 및 일부 OpenJDK 클래스 �
 
 ⛔️ *OpenJ9 가상 머신이 필요하다는 것을 알고 있는 경우에만 IBM Semeru Runtime을 사용한다.*
 
-* Website: <https://developer.ibm.com/languages/java/semeru-runtimes/>
+* Website: [https://developer.ibm.com/languages/java/semeru-runtimes/](https://developer.ibm.com/languages/java/semeru-runtimes/)
 
-* Releases: <https://developer.ibm.com/languages/java/semeru-runtimes/downloads/>
+* Releases: [https://developer.ibm.com/languages/java/semeru-runtimes/downloads/](https://developer.ibm.com/languages/java/semeru-runtimes/downloads/)
 
 * Docker Images: (n/a)
 
@@ -164,11 +164,11 @@ Amazon은 주요 개발 플랫폼에 대한 릴리스와 자체 Amazon Linux 2�
 
 ✅ *Corretto 빌드는 특히 AWS의 Amazon Linux 2에서 직접 Java 애플리케이션을 실행하는 경우에 좋은 선택이다.*
 
-* Website: <https://aws.amazon.com/de/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc>
+* Website: [https://aws.amazon.com/de/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc](https://aws.amazon.com/de/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc)
 
-* Releases: <https://aws.amazon.com/de/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc>
+* Releases: [https://aws.amazon.com/de/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc](https://aws.amazon.com/de/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc)
 
-* Docker Images: <https://hub.docker.com/_/amazoncorretto>
+* Docker Images: [https://hub.docker.com/_/amazoncorretto](https://hub.docker.com/_/amazoncorretto)
 
 ### 10) Microsoft Build of OpenJDK
 2021년에 Microsoft는 OpenJDK의 Microsoft Build, 또 다른 OpenJDK 빌드를 게시했다.
@@ -179,44 +179,44 @@ Microsoft는 주요 개발 플랫폼에 대한 릴리스를 제공한다.
 
 ⚠️ *Azure에서 직접 Java 애플리케이션을 실행하는 경우에만 OpenJDK의 Microsoft 빌드를 사용한다.*
 
-* Website: <https://www.microsoft.com/openjdk>
+* Website: [https://www.microsoft.com/openjdk](https://www.microsoft.com/openjdk)
 
-* Releases: <https://learn.microsoft.com/en-us/java/openjdk/download>
+* Releases: [https://learn.microsoft.com/en-us/java/openjdk/download](https://learn.microsoft.com/en-us/java/openjdk/download)
 
-* Docker Images: <https://learn.microsoft.com/en-us/java/openjdk/containers>
+* Docker Images: [https://learn.microsoft.com/en-us/java/openjdk/containers](https://learn.microsoft.com/en-us/java/openjdk/containers)
 
 ### 11) Alibaba Dragonwell
 Alibaba는 백 포트와 몇 가지 추가 기능을 포함하는 OpenJDK 빌드를 제공한다.
 
 ⛔️ *정부에서 강제하지 않는 한 Alibaba Dragonwell을 사용하지 않는다.*
 
-* Website: <https://dragonwell-jdk.io/>
+* Website: [https://dragonwell-jdk.io/](https://dragonwell-jdk.io/)
 
-* Releases: <https://dragonwell-jdk.io/#/index>
+* Releases: [https://dragonwell-jdk.io/#/index](https://dragonwell-jdk.io/#/index)
 
-* Docker Images: <https://github.com/alibaba/dragonwell11/wiki/Use-Dragonwell-11-docker-images>
+* Docker Images: [https://github.com/alibaba/dragonwell11/wiki/Use-Dragonwell-11-docker-images](https://github.com/alibaba/dragonwell11/wiki/Use-Dragonwell-11-docker-images)
 
 ### 12) SapMachine
 SapMachine은 SAP에서 유지 관리하는 또 다른 OpenJDK 빌드이다.
 
 ⚠️ *SAP 서버에서 Java 애플리케이션을 실행하는 경우에만 SapMachine을 사용한다.*
 
-* Website: <https://sap.github.io/SapMachine/>
+* Website: [https://sap.github.io/SapMachine/](https://sap.github.io/SapMachine/)
 
-* Releases: <https://dragonwell-jdk.io/#/index>
+* Releases: [https://dragonwell-jdk.io/#/index](https://dragonwell-jdk.io/#/index)
 
-* Docker Images: <https://hub.docker.com/_/sapmachine>
+* Docker Images: [https://hub.docker.com/_/sapmachine](https://hub.docker.com/_/sapmachine)
 
 ### 13) Red Hat OpenJDK
 Red Hat은 LTS 버전용 OpenJDK 빌드를 제공한다.
 
 ⚠️ *Red Hat Enterprise Linux에서 직접 Java 애플리케이션을 실행하는 경우에만 Red Hat OpenJDK를 사용한다.*
 
-* Website: <https://developers.redhat.com/products/openjdk/overview>
+* Website: [https://developers.redhat.com/products/openjdk/overview](https://developers.redhat.com/products/openjdk/overview)
 
-* Releases: <https://developers.redhat.com/products/openjdk/download>
+* Releases: [https://developers.redhat.com/products/openjdk/download](https://developers.redhat.com/products/openjdk/download)
 
-* Docker Images: <https://catalog.redhat.com/software/containers/ubi8/openjdk-11/5dd6a4b45a13461646f677f4>
+* Docker Images: [https://catalog.redhat.com/software/containers/ubi8/openjdk-11/5dd6a4b45a13461646f677f4](https://catalog.redhat.com/software/containers/ubi8/openjdk-11/5dd6a4b45a13461646f677f4)
 
 ### 14) ojdkbuild
 프로젝트가 중단되었다. ojdkbuild 프로젝트는 예를 들어 zlib 또는 OpenSSL의 패키지 버전 대신 시스템 라이브러리를 사용하여 Linux OpenJDK 패키지에 가능한 한 동작이 유사한 OpenJDK의 Windows x86_64 바이너리를 제공하는 것을 목표로 했다.
@@ -225,9 +225,9 @@ CentOS에 포함된 패키지를 사용했다. 이러한 빌드의 사용 사례
 
 ⛔️ *프로젝트가 중단 되었으므로 ojdkbuild를 사용하지 않는다.*
 
-* Website: <https://github.com/ojdkbuild/ojdkbuild>
+* Website: [https://github.com/ojdkbuild/ojdkbuild](https://github.com/ojdkbuild/ojdkbuild)
 
-* Releases: <https://github.com/ojdkbuild/ojdkbuild/releases>
+* Releases: [https://github.com/ojdkbuild/ojdkbuild/releases](https://github.com/ojdkbuild/ojdkbuild/releases)
 
 * Docker Images: (n/a)
 
@@ -240,11 +240,11 @@ GraalVM은 Oracle에서 개발했다. OpenJDK를 기반으로 하지만 새로�
 
 🤷 *검증되지 않았다.*
 
-* Website: <https://www.graalvm.org/>
+* Website: [https://www.graalvm.org/](https://www.graalvm.org/)
 
-* Releases: <https://github.com/graalvm/graalvm-ce-builds/releases>
+* Releases: [https://github.com/graalvm/graalvm-ce-builds/releases](https://github.com/graalvm/graalvm-ce-builds/releases)
 
-* Docker Images: <https://github.com/graalvm/container/pkgs/container/graalvm-ce>
+* Docker Images: [https://github.com/graalvm/container/pkgs/container/graalvm-ce](https://github.com/graalvm/container/pkgs/container/graalvm-ce)
 
 ## [출처 및 참고]
 * [https://whichjdk.com/](https://whichjdk.com/)

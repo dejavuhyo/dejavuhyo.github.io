@@ -47,6 +47,6 @@ groupId, artifactId, version은 임의로 정의해도 되며, ```${project.base
 ![repository](/assets/img/2021-06-24-maven-add-external-library/repository.png)
 
 ## [출처 및 참고]
-* [itnp.kr/post/maven-local-repository](itnp.kr/post/maven-local-repository)
-* [maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html](maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html)
+* [https://itnp.kr/post/maven-local-repository](https://itnp.kr/post/maven-local-repository)
+* [https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html](https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html)
 * [https://sleepyeyes.tistory.com/43](https://sleepyeyes.tistory.com/43)

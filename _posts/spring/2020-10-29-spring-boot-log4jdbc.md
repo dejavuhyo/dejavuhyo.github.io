@@ -46,7 +46,7 @@ spring.datasource.password=password
 
 * **경로:** src/main/resources/logback.xml
 
-* **logback.xml 상세 설정:** <https://dejavuhyo.github.io/posts/spring-boot-logback/>
+* **logback.xml 상세 설정:** [https://dejavuhyo.github.io/posts/spring-boot-logback/](https://dejavuhyo.github.io/posts/spring-boot-logback/)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

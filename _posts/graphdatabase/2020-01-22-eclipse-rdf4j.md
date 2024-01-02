@@ -46,7 +46,7 @@ rdf4j는 war 파일로 배포되기 때문에 apache-tomcat의 webapps 폴더에
 
 ### 1) apache-tomcat 다운로드
 
-* [Apache Tomcat](tomcat.apache.org)
+* [Apache Tomcat](https://tomcat.apache.org)
 
 ### 2) rdf4j 다운로드
 
@@ -66,8 +66,9 @@ rdf4j는 war 파일로 배포되기 때문에 apache-tomcat의 webapps 폴더에
 
 ### 5) rdf4j-server 및 rdf4j-workbench 접속
 
-* [localhost:8080/rdf4j-server](localhost:8080/rdf4j-server)
-* [localhost:8080/rdf4j-workbench](localhost:8080/rdf4j-workbench)
+* `http://localhost:8080/rdf4j-server`
+
+* `http://localhost:8080/rdf4j-workbench`
 
 ![img004](/assets/img/2020-01-22-eclipse-rdf4j/img004.png)
 

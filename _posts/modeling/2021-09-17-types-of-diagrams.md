@@ -90,4 +90,4 @@ tags: [types-of-diagrams, uml, 다이어그램-종류, 다이어그램]
 ## [출처 및 참고]
 * [https://ko.wikipedia.org/wiki/%ED%86%B5%ED%95%A9_%EB%AA%A8%EB%8D%B8%EB%A7%81_%EC%96%B8%EC%96%B4](https://ko.wikipedia.org/wiki/%ED%86%B5%ED%95%A9_%EB%AA%A8%EB%8D%B8%EB%A7%81_%EC%96%B8%EC%96%B4)
 * [https://sfeg.tistory.com/339](https://sfeg.tistory.com/339)
-* [wiki.hash.kr/index.php/%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8](wiki.hash.kr/index.php/%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8)
+* [https://wiki.hash.kr/index.php/%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8](https://wiki.hash.kr/index.php/%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8)

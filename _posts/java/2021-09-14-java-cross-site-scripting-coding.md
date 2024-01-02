@@ -24,7 +24,9 @@ tags: [cross-site-scripting, 크로스-사이트-스크립트]
 ## 3. 예제
 다음의 예제는 외부 입력을 name 값으로, 특별한 처리 과정 없이 결과 페이지 생성에 사용하고 있다. 만약 악의적인 공격자가 name 값에 다음의 스크립트를 넣으면, 희생자의 권한으로 attack.jsp 코드가 수행되게 되며, 수행하게 되면 희생자의 쿠키 정보 유출 등의 피해를 주게 된다.
 
-예) `<script>url = "http://devil.com/attack.jsp;"</script>`
+```html
+<script>url = "http://devil.com/attack.jsp;"</script>
+```
 
 * 안전하지 않은 코드의 예
 

@@ -10,7 +10,7 @@ tags: [intellij-svn, intellij, svn]
 
 ### 1) svn 다운로드
 
-* 경로: <https://www.visualsvn.com/downloads/>
+* 경로: [https://www.visualsvn.com/downloads/](https://www.visualsvn.com/downloads/)
 
 * Apache Subversion command line tools 다운로드
 

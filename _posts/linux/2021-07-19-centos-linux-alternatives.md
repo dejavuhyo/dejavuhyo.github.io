@@ -63,7 +63,7 @@ AlmaLinux의 첫 베타 버전은 2021년 1월 28일에 이미 출시되었다. 
 
 ![red-hat-enterprise-linux](/assets/img/2021-07-19-centos-linux-alternatives/red-hat-enterprise-linux.png)
 
-[Red Hat Enterprise Linux(RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)는 퍼블릭 클라우드에 가장 많이 구축된 상용 리눅스 배포판이다. RHEL은 수백 개의 퍼블릭 클라우드 및 서비스 프로바이더는 물론 수천 개의 다른 유형의 소프트웨어 및 하드웨어에 대해 인증을 받았다.
+[Red Hat Enterprise Linux(RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)는 퍼블릭 클라우드에 가장 많이 구축된 상용 리눅스 배포판이다. RHEL은 수백 개의 퍼블릭 클라우드 및 서비스 프로바이더는 물론 수천 개의 다른 유형의 소프트웨어 및 하드웨어에 대해 인증을 받았다. 
 
 Red Hat Enterprise Linux는 세계 최고의 오픈 소스 운영 체제이다. 내장된 보안 및 관리 편의성으로 제어 기능을 제공하므로 안정적인 고성능 플랫폼에서 중요 워크로드를 자신 있게 실행할 수 있다. 애플리케이션 배포, 데이터 센터 인프라 또는 가상 및 클라우드 환경에 무료로 Red Hat Enterprise Linux를 평가할 수 있다.
 
@@ -73,7 +73,7 @@ Red Hat Enterprise Linux는 세계 최고의 오픈 소스 운영 체제이다. 
 
 ![springdale-linux](/assets/img/2021-07-19-centos-linux-alternatives/springdale-linux.png)
 
-[Springdale Linux](springdale.math.ias.edu/)는 프린스턴 대학교 및 고등 연구소의 컴퓨팅 담당 직원이다. Scientific Linux와 마찬가지로 CentOS Linux의 Scientific Linux fork이다. (작년에 발표되었다.)
+[Springdale Linux](https://springdale.math.ias.edu/)는 프린스턴 대학교 및 고등 연구소의 컴퓨팅 담당 직원이다. Scientific Linux와 마찬가지로 CentOS Linux의 Scientific Linux fork이다. (작년에 발표되었다.)
 
 Springdale은 잘 알려져 있지 않지만, 개발자들은 CentOS가 Springdale을 출시하기 전에 스프링데일 리눅스 8 스프링데일 8을 출시했다고 한다.
 
@@ -87,4 +87,4 @@ Springdale은 잘 알려져 있지 않지만, 개발자들은 CentOS가 Springda
 * [https://almalinux.org/](https://almalinux.org/)
 * [https://www.oracle.com/linux/](https://www.oracle.com/linux/)
 * [https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
-* [springdale.math.ias.edu/](springdale.math.ias.edu/)
+* [https://springdale.math.ias.edu/](https://springdale.math.ias.edu/)

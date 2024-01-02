@@ -221,4 +221,4 @@ sorted() 실행 후 : 5
 | `Stream<T> sorted()`, `Stream<T> sorted(Comparator<? super T> comparator)` | 해당 스트림을 주어진 비교자(comparator)를 이용하여 정렬함. 비교자를 전달하지 않으면 영문사전 순(natural order)으로 정렬함 |
 
 ## [출처 및 참고]
-* [www.tcpschool.com/java/java_stream_intermediate](www.tcpschool.com/java/java_stream_intermediate)
+* [https://www.tcpschool.com/java/java_stream_intermediate](https://www.tcpschool.com/java/java_stream_intermediate)

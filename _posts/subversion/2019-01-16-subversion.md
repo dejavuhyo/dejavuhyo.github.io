@@ -141,4 +141,4 @@ tags: [subversion, svn]
 
 ## [출처 및 참고]
 * [https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B8%8C%EB%B2%84%EC%A0%84](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B8%8C%EB%B2%84%EC%A0%84)
-* [euntark86.blogspot.com/2017/01/svn.html](euntark86.blogspot.com/2017/01/svn.html)
+* [https://euntark86.blogspot.com/2017/01/svn.html](https://euntark86.blogspot.com/2017/01/svn.html)

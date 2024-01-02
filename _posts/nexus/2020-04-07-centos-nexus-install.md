@@ -8,8 +8,9 @@ tags: [centos-nexus, centos-nexus-install, nexus-repository, nexus, sonatype-nex
 
 ## 1. jdk 설치
 
-* <https://dejavuhyo.blog.me/221454888121>
-* <https://dejavuhyo.blog.me/221469375994>
+* [https://dejavuhyo.blog.me/221454888121](https://dejavuhyo.blog.me/221454888121)
+
+* [https://dejavuhyo.blog.me/221469375994](https://dejavuhyo.blog.me/221469375994)
 
 ## 2. 계정 생성
 

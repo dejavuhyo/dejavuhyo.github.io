@@ -9,7 +9,7 @@ tags: [maven-blocked-mirror, maven-blocked, blocked-mirror, maven-http-repositor
 ## 1. Maven 3.8.1
 Maven 3.8.1 버전에서 http에 대한 외부 연결을 막는 설정이 default로 변경되었다.
 
-* <https://maven.apache.org/docs/3.8.1/release-notes.html>
+* [https://maven.apache.org/docs/3.8.1/release-notes.html](https://maven.apache.org/docs/3.8.1/release-notes.html)
 
 ## 2. 문제점
 `mvn clean package` 명령 실행 시 Maven에서 http uri를 block 하여 내부망에 존재하는 http에 접속할 수 없어 `failed to collect dependencies ... [maven-default-http-blocker]...` error와 함께 build에 실패한다.
@@ -17,7 +17,7 @@ Maven 3.8.1 버전에서 http에 대한 외부 연결을 막는 설정이 defaul
 ## 3. 해결방법
 `apache-maven-3.8.4\conf` 경로에 있는 `settings.xml` 파일을 수정한다.
 
-* <https://stackoverflow.com/questions/67001968/how-to-disable-maven-blocking-external-http-repositories>
+* [https://stackoverflow.com/questions/67001968/how-to-disable-maven-blocking-external-http-repositories](https://stackoverflow.com/questions/67001968/how-to-disable-maven-blocking-external-http-repositories)
 
 ### 1) settings.xml 열기
 `settings.xml` 파일을 열고 `maven-default-http-blocker`를 검색한다.

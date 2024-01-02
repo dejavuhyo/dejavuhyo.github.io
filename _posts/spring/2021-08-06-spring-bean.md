@@ -116,7 +116,7 @@ XML 방식으로 Bean을 정의하는데 필요한 속성들은 아래와 같다
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="www.springframework.org/schema/beans"
+<beans xmlns="http://www.springframework.org/schema/beans"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xmlns:context="http://www.springframework.org/schema/context"
       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd

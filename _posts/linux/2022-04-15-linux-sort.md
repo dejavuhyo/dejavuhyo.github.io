@@ -1,4 +1,4 @@
-+---
+---
 title: Linux sort
 author: dejavuhyo
 date: 2022-04-15 10:00:00 +0900

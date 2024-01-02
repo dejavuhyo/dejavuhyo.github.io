@@ -9,7 +9,7 @@ tags: [abstract-factory-pattern, abstract-factory, design-pattern, 추상-팩토
 ## 1. Abstract Factory 패턴이란
 Abstract는 '추상적인'이라는 의미이고, Factory는 '공장'이라는 의미이다. 즉, abstract factory는 '추상적인 공장'이라는 의미이다.
 
-Abstract Factory 패턴에서는 추상적인 공장이 등장하고, 추상적인 부품을 조합해서 추상적인 제품을 만든다. 즉, 부품의 구체적인 구현에는 주목하지 않고 인터페이스(API)에 주목한다. 그리고 인터페이스(API)만을 사용해서 부품을 조립하고 제품으로 완성한다. 이러한 패턴을 **Abstract Factory 패턴** 이라고 한다.
+Abstract Factory 패턴에서는 추상적인 공장이 등장하고, 추상적인 부품을 조합해서 추상적인 제품을 만든다. 즉, 부품의 구체적인 구현에는 주목하지 않고 인터페이스(API)에 주목한다. 그리고 인터페이스(API)만을 사용해서 부품을 조립하고 제품으로 완성한다. 이러한 패턴을 _**Abstract Factory 패턴**_ 이라고 한다.
 
 ## 2. 객체
 
@@ -119,7 +119,7 @@ public abstract class Page {
 ### 5) Factory 클래스
 getFactory 메소드는 클래스의 이름을 지정해서 구체적인 공장의 인스턴스를 작성한다. getFactory 안에서는 Class 클래스의 forName 메소드를 사용해서, 그 클래스를 동적으로 읽는다. 그리고 newInstance 메소드를 이용해서, 그 클래스의 인스턴스를 한 개 작성한다. 이것이 getFactory의 반환값이 된다.
 
-Class 클래스는 `java.lang` 패키지에 속하는 클래스로서 '클래스를 표현하는 클래스'이다. Class 클래스는 Java의 표준 라이브러리에 포함되어 있다. forName은 java.lang.Class의 클래스 메소드(static 메소드)이고, newInstance는 `java.lang.Class`의 인스턴스 메소드이다.
+Class 클래스는 java.lang 패키지에 속하는 클래스로서 '클래스를 표현하는 클래스'이다. Class 클래스는 Java의 표준 라이브러리에 포함되어 있다. forName은 java.lang.Class의 클래스 메소드(static 메소드)이고, newInstance는 java.lang.Class의 인스턴스 메소드이다.
 
 getFactory 메소드의 안에는 구체적인 공장의 인스턴스를 만들지만, 반환값은 추상적인 공장이라는 점에 주의해야한다.
 
@@ -212,7 +212,7 @@ public class ListFactory extends Factory {
 ```
 
 ### 8) ListLink 클래스
-Link 클래스의 하위 클래스이다. 구현해야 할 메소드는 상위 클래스에서 추상 메소드였던 makeHTML이다. ListLink에서는 `<li>` 태그와 `<a>` 태그를 사용해서 HTML의 일부분을 작성하고 있다.
+Link 클래스의 하위 클래스이다. 구현해야 할 메소드는 상위 클래스에서 추상 메소드였던 makeHTML이다. ListLink에서는 <li> 태그와 <a> 태그를 사용해서 HTML의 일부분을 작성하고 있다.
 
 ```java
 package listfactory;
@@ -233,7 +233,7 @@ Tray 클래스의 하위 클래스이다. tray 필드 안에는 HTML로 출력�
 
 변수 item의 내용이 실제로 무엇인지를 조사해서 switch문이나 if문을 사용하는 프로그램을 작성해서는 안된다. 그것은 매우 비오브젝트(비객체) 지향적인 프로그램이 되고만다. 변수 item은 Item형이고 Item 클래스에서는 makeHTML이라는 메소드가 선언되고 있다. 그리고 ListLink나 ListTray는 모두 Item 클래스의 하위 클래스이다. 그러므로 안심하고 makeHTML 메소드를 호출하면 된다.
 
-여기에서 사용되고 있는 `java.util.Iterator`라는 클래스는 Iterator 패턴에서 배운 것과 기능적으로는 같지만, 여기에서는 Java의 클래스 라이브러리로 제공되고 있는 것이다. `java.util.ArrayList` 클래스에서 `java.util.Iterator` 클래스를 만들기 위해서는 iterator라는 메소드가 사용된다.
+여기에서 사용되고 있는 java.util.Iterator라는 클래스는 Iterator 패턴에서 배운 것과 기능적으로는 같지만, 여기에서는 Java의 클래스 라이브러리로 제공되고 있는 것이다. java.util.ArrayList 클래스에서 java.util.Iterator 클래스를 만들기 위해서는 iterator라는 메소드가 사용된다.
 
 ```java
 package listfactory;
@@ -262,7 +262,7 @@ public class ListTray extends Tray {
 ```
 
 ### 10) ListPage 클래스
-Page 클래스의 하위 클래스이다. ListPage는 필드의 내용을 사용해 페이지를 구성하고 있다. 저자 이름(author)은 `<address>` 태그를 사용해 표현하고 있다.
+Page 클래스의 하위 클래스이다. ListPage는 필드의 내용을 사용해 페이지를 구성하고 있다. 저자 이름(author)은 <address> 태그를 사용해 표현하고 있다.
 
 ```java
 package listfactory;
@@ -315,7 +315,7 @@ public class TableFactory extends Factory {
 ## 4. 별도의 구체적인 공장을 추가하기
 
 ### 1) TableLink 클래스
-Link 클래스의 하위 클래스이다. makeHTML에서는 테이블의 1열을 구성하는 `<td>` 태그를 사용하고 있다.
+Link 클래스의 하위 클래스이다. makeHTML에서는 테이블의 1열을 구성하는 <td> 태그를 사용하고 있다.
 
 ```java
 package tablefactory;
@@ -332,7 +332,7 @@ public class TableLink extends Link {
 ```
 
 ### 2) TableTray 클래스
-Tray 클래스의 하위 클래스이다. makeHTML에서는 `<td>`와 `<table>` 태그를 사용해서 Item들을 출력하고 있다.
+Tray 클래스의 하위 클래스이다. makeHTML에서는 <td>와 <table> 태그를 사용해서 Item들을 출력하고 있다.
 
 ```java
 package tablefactory;

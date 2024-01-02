@@ -76,13 +76,13 @@ services:
 
 ### 1) Jenkins
 
-* [localhost:9080](localhost:9080)
+* `http://localhost:9080`
 
 ![jenkins](/assets/img/2021-05-20-install-application-using-docker-compose/jenkins.png)
 
 ### 2) GitLab
 
-* [localhost:8929](localhost:8929)
+* `http://localhost:8929`
 
 ![gitlab](/assets/img/2021-05-20-install-application-using-docker-compose/gitlab.png)
 

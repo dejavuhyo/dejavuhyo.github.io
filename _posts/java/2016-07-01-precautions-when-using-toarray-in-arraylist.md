@@ -84,4 +84,4 @@ String[] b = (String[])list.toArray(a);
 ```
 
 ## [출처 및 참고]
-* [gnujava.com/board/article_view.jsp?article_no=5261&board_no=1&table_cd=EPAR01&table_no=01](gnujava.com/board/article_view.jsp?article_no=5261&board_no=1&table_cd=EPAR01&table_no=01)
+* [https://gnujava.com/board/article_view.jsp?article_no=5261&board_no=1&table_cd=EPAR01&table_no=01](https://gnujava.com/board/article_view.jsp?article_no=5261&board_no=1&table_cd=EPAR01&table_no=01)

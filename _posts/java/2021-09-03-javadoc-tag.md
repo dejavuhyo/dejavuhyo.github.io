@@ -97,7 +97,7 @@ HTML 문장의 `<a>` 태그와 같은 형식으로 링크 및 레이블을 지�
 ```text
 /**
  * 주석의 설명문
- * @see <a href="http://dejavuhyo.github.io">공대베짱이</a>
+ * @see <a href="https://dejavuhyo.github.io">공대베짱이</a>
  */
 ```
 
@@ -424,4 +424,4 @@ $ javadoc -d doc FileName.java
 ```
 
 ## [출처 및 참고]
-* [www.devkuma.com/books/pages/1239](www.devkuma.com/books/pages/1239)
+* [https://www.devkuma.com/books/pages/1239](https://www.devkuma.com/books/pages/1239)

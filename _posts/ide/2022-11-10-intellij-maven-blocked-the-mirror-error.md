@@ -9,7 +9,7 @@ tags: [maven-blocked-mirror, maven-blocked, blocked-mirror, maven-http-repositor
 ## 1. Maven 3.8.1
 Maven 3.8.1 버전에서 http에 대한 외부 연결을 막는 설정이 default로 변경되었다.
 
-* <https://maven.apache.org/docs/3.8.1/release-notes.html>
+* [https://maven.apache.org/docs/3.8.1/release-notes.html](https://maven.apache.org/docs/3.8.1/release-notes.html)
 
 ## 2. 문제점
 내부망에 존재하는 http에 접속할 수 없어 `Blocked the mirror` error와 함께 build에 실패한다.

@@ -8,7 +8,7 @@ tags: [spring-log4jdbc, log4jdbc, jdbc-url, log4jdbc-jdbc-url, database-jdbc-url
 
 ## 1. Log4jdbc 설정
 
-* Spring Boot Log4jdbc 설정: <https://dejavuhyo.github.io/posts/spring-boot-log4jdbc/>
+* Spring Boot Log4jdbc 설정: [https://dejavuhyo.github.io/posts/spring-boot-log4jdbc/](https://dejavuhyo.github.io/posts/spring-boot-log4jdbc/)
 
 ## 2. driver-class-name 설정
 

@@ -41,4 +41,4 @@ from
 ```
 
 ## [출처 및 참고]
-* [www.webmadang.net/database/database.do?action=read&boardid=4003&page=1&seq=35](www.webmadang.net/database/database.do?action=read&boardid=4003&page=1&seq=35)
+* [https://www.webmadang.net/database/database.do?action=read&boardid=4003&page=1&seq=35](https://www.webmadang.net/database/database.do?action=read&boardid=4003&page=1&seq=35)

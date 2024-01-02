@@ -156,6 +156,6 @@ spring.datasource.password=ENC(BbJAsSr4uISv+mTAw2fN+UTy2dodoDh3++YchPhw5qI=)
 ```
 
 ## [출처 및 참고]
-* [www.jasypt.org/](www.jasypt.org/)
+* [https://www.jasypt.org/](https://www.jasypt.org/)
 * [https://goateedev.tistory.com/131](https://goateedev.tistory.com/131)
 * [https://elfinlas.github.io/2017/12/21/jsaypt/](https://elfinlas.github.io/2017/12/21/jsaypt/)

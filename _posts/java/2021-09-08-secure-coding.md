@@ -44,14 +44,14 @@ tags: [secure-coding, secure-coding-guide, 시큐어-코딩, 시큐어-코딩-�
 ### 1) CWE(Common Weakness Enumeration)
 보안약점(Weakness): 보안취약점의 근본 원인이 되는 SW 허점, 결점, 오류 등
 
-* [약점에 대한 정보 제공](cwe.mitre.org)
+* [약점에 대한 정보 제공](https://cwe.mitre.org)
 
 ### 2) CVE(Common Vulnerabilities and Exposures)
 보안취약점(Vulnerability): 해킹 등 실제 보안사고에 이용되는 SW 보안약점
 
-* [보안 취약점에 대한 정보 제공](cve.mitre.org)
+* [보안 취약점에 대한 정보 제공](https://cve.mitre.org)
 
 ## [출처 및 참고]
 * [https://ko.wikipedia.org/wiki/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%EA%B0%9C%EB%B0%9C_%EB%B3%B4%EC%95%88](https://ko.wikipedia.org/wiki/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%EA%B0%9C%EB%B0%9C_%EB%B3%B4%EC%95%88)
-* [www.devkuma.com/books/pages/1165](www.devkuma.com/books/pages/1165)
+* [https://www.devkuma.com/books/pages/1165](https://www.devkuma.com/books/pages/1165)
 * [https://www.kisa.or.kr/public/laws/laws3_View.jsp?cPage=6&mode=view&p_No=259&b_No=259&d_No=55&ST=T&SV=](https://www.kisa.or.kr/public/laws/laws3_View.jsp?cPage=6&mode=view&p_No=259&b_No=259&d_No=55&ST=T&SV=)
