@@ -130,7 +130,7 @@ HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고
 
 ### 1) 슬래시 구분자(/)는 계층 관계를 나타내는데 사용
 
-> 예) http://restapi.example.com/houses/apartments
+> 예) `http://restapi.example.com/houses/apartments`
 
 ### 2) URI 마지막 문자에 슬래시(/)를 포함하지 않음
 
@@ -138,7 +138,7 @@ HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고
 
 * REST API는 분명한 URI를 만들어 통신을 해야 하기 때문에 혼동을 주지 않도록 URI 경로의 마지막에는 슬래시(/)를 사용하지 않는다.
 
-> 예) http://restapi.example.com/houses/apartments/ (X)
+> 예) `http://restapi.example.com/houses/apartments/` (X)
 
 ### 3) 하이픈(-)은 URI 가독성을 높이는데 사용
 
@@ -160,9 +160,9 @@ HTTP URI(Uniform Resource Identifier)를 통해 자원(Resource)을 명시하고
 
 * Accept header를 사용한다.
 
-> 예) http://restapi.example.com/members/soccer/345/photo.jpg (X)
+> 예) `http://restapi.example.com/members/soccer/345/photo.jpg` (X)
 >
-> 예) GET / members/soccer/345/photo HTTP/1.1 Host: restapi.example.com Accept: image/jpg (O)
+> 예) GET /members/soccer/345/photo HTTP/1.1 Host: restapi.example.com Accept: image/jpg (O)
 
 ### 7) 리소스 간에는 연관 관계가 있는 경우
 

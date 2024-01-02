@@ -19,9 +19,9 @@ JDBC 데이터 소스의 구현은 애플리케이션 서버, OSS 라이브러�
 
 | 애플리케이션 서버 | 참조 페이지 |
 |:-----:|:-----:|
-| Apache Tomcat 9.0 | [Apache Tomcat 9.0 User Guide (The Tomcat JDBC Connection Pool)](http://tomcat.apache.org/tomcat-9.0-doc/jdbc-pool.html), [Apache Tomcat 9.0 User Guide (JNDI Datasource HOW-TO)](http://tomcat.apache.org/tomcat-9.0-doc/jndi-datasource-examples-howto.html) |
-| Apache Tomcat 8.5 | [Apache Tomcat 8.5 User Guide (The Tomcat JDBC Connection Pool)](http://tomcat.apache.org/tomcat-8.5-doc/jdbc-pool.html), [Apache Tomcat 8.5 User Guide (JNDI Datasource HOW-TO)](http://tomcat.apache.org/tomcat-8.5-doc/jndi-datasource-examples-howto.html) |
-| Apache Tomcat 7 | [Apache Tomcat 7 User Guide (The Tomcat JDBC Connection Pool)](http://tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html), [Apache Tomcat 7 User Guide (JNDI Datasource HOW-TO)](http://tomcat.apache.org/tomcat-7.0-doc/jndi-datasource-examples-howto.html) |
+| Apache Tomcat 9.0 | [Apache Tomcat 9.0 User Guide (The Tomcat JDBC Connection Pool)](tomcat.apache.org/tomcat-9.0-doc/jdbc-pool.html), [Apache Tomcat 9.0 User Guide (JNDI Datasource HOW-TO)](tomcat.apache.org/tomcat-9.0-doc/jndi-datasource-examples-howto.html) |
+| Apache Tomcat 8.5 | [Apache Tomcat 8.5 User Guide (The Tomcat JDBC Connection Pool)](tomcat.apache.org/tomcat-8.5-doc/jdbc-pool.html), [Apache Tomcat 8.5 User Guide (JNDI Datasource HOW-TO)](tomcat.apache.org/tomcat-8.5-doc/jndi-datasource-examples-howto.html) |
+| Apache Tomcat 7 | [Apache Tomcat 7 User Guide (The Tomcat JDBC Connection Pool)](tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html), [Apache Tomcat 7 User Guide (JNDI Datasource HOW-TO)](tomcat.apache.org/tomcat-7.0-doc/jndi-datasource-examples-howto.html) |
 | Oracle WebLogic Server 12c | [Oracle WebLogic Server 12.2.1.4 Documentation](https://docs.oracle.com/en/middleware/fusion-middleware/weblogic-server/12.2.1.4/intro/jdbc.html#GUID-9FD5F552-B2E4-4FEC-8C10-503A08764B52) |
 | IBM WebSphere Application Server Version 9.0 | [ WebSphere Application Server Online information center](https://www.ibm.com/support/knowledgecenter/ko/SSEQTP_9.0.5/com.ibm.websphere.wlp.doc/ae/twlp_dep_configuring_ds.html) |
 | JBoss Enterprise Application Platform 7.2 | [JBoss Enterprise Application Platform 7.2 Product Documentation](https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.2/html/configuration_guide/datasource_management) |
@@ -33,7 +33,7 @@ JDBC 데이터 소스의 구현은 애플리케이션 서버, OSS 라이브러�
 
 | 애플리케이션 서버 | 참조 페이지 |
 |:-----:|:-----:|
-| Apache Commons DBCP | [Apache Commons DBCP](http://commons.apache.org/proper/commons-dbcp/index.html) |
+| Apache Commons DBCP | [Apache Commons DBCP](commons.apache.org/proper/commons-dbcp/index.html) |
 
 ### 3) Spring Framework에서 제공하는 JDBC 데이터 소스
 Spring Framework에서 제공되는 JDBC 데이터 소스 구현 클래스는 connection 풀링 기능이 없기 때문에 웹 애플리케이션의 데이터 소스로 사용하는 것은 아니다.
@@ -140,7 +140,7 @@ MyBatis-Spring을 사용하면
 
 등의 장점이 있다.
 
-* [Mybatis-Spring Reference Documentation 참조](http://mybatis.org/spring/ko/index.html)
+* [Mybatis-Spring Reference Documentation 참조](mybatis.org/spring/ko/index.html)
 
 ### 3) MyBatis-Spring의 구성 요소
 MyBatis-Spring은 다음 구성 요소를 연계하는 것으로, MyBatis3와 Spring의 통합을 실현하고있다.

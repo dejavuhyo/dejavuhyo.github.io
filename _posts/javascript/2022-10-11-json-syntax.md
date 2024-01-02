@@ -48,4 +48,4 @@ JSON 표준의 창시자인 더글라스 크록포드는 JSON에는 주석이 �
 반드시 주석을 사용해야 한다면, 주석이 포함된 JSON 데이터를 파싱하기 전에 주석만을 먼저 제거해야 한다. 하지만 되도록 JSON에는 주석을 사용하지 않는 것이 좋다.
 
 ## [출처 및 참고]
-* [http://www.tcpschool.com/json/json_basic_syntax](http://www.tcpschool.com/json/json_basic_syntax)
+* [www.tcpschool.com/json/json_basic_syntax](www.tcpschool.com/json/json_basic_syntax)

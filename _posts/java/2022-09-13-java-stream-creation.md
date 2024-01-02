@@ -210,4 +210,4 @@ System.out.println(stream.count()); // 스트림의 요소의 총 개수를 출�
 ```
 
 ## [출처 및 참고]
-* [http://www.tcpschool.com/java/java_stream_creation](http://www.tcpschool.com/java/java_stream_creation)
+* [www.tcpschool.com/java/java_stream_creation](www.tcpschool.com/java/java_stream_creation)

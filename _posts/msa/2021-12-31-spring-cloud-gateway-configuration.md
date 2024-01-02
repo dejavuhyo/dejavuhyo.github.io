@@ -197,7 +197,7 @@ IntelliJ 기준으로 Eureka, Gateway, Board 모듈을 import 하고, 각 모듈
 
 ![modules](/assets/img/2021-12-31-spring-cloud-gateway-configuration/modules.png)
 
-<http://localhost:8080/board> board 서비스를 호출한다.
+`http://localhost:8080/board` board 서비스를 호출한다.
 
 ![service](/assets/img/2021-12-31-spring-cloud-gateway-configuration/service.png)
 

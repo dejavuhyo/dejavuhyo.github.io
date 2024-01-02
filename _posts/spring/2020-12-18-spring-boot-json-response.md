@@ -322,7 +322,7 @@ public class SearchVO {
 ```
 
 * 결과
-  - 요청 URL: http://localhost:8080/getTableVal?searchKwd=회사&viewCnt=10&pageNum=1
+  - 요청 URL: `http://localhost:8080/getTableVal?searchKwd=회사&viewCnt=10&pageNum=1`
 
 ```json
 {

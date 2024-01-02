@@ -136,7 +136,7 @@ success
 
 ## 9. 웹 접속
 
-* **접속 주소:** http://서버주소:8081/nexus
+* **접속 주소:** `http://서버주소:8081/nexus`
 * **초기 ID/PW:** admin / admin123
 
 ![img001](/assets/img/2020-04-07-centos-nexus-install/img001.png)

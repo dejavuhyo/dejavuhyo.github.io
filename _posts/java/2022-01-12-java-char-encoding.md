@@ -45,7 +45,7 @@ The fa��ade pattern is a software design pattern.
 ### 2) Charsets
 이진 표현에 대한 문자 매핑은 포함하는 문자에 따라 크게 다를 수 있다. 매핑에 포함된 문자의 수는 실제 사용에서 소수에서 모든 문자까지 다양할 수 있다. 매핑 정의에 포함된 문자 집합을 공식적으로 charset 이라고 한다.
 
-예를 들어 [ASCII는 128자의 문자 집합](http://ee.hawaii.edu/~tep/EE160/Book/chap4/subsection2.1.1.1.html)이 있다.
+예를 들어 [ASCII는 128자의 문자 집합](ee.hawaii.edu/~tep/EE160/Book/chap4/subsection2.1.1.1.html)이 있다.
 
 ### 3) Code Point
 코드 포인트는 실제 인코딩에서 문자를 분리하는 추상화이다. 코드 포인트는 특정 문자 정수 기준이다.

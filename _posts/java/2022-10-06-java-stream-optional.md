@@ -133,4 +133,4 @@ Optional 클래스의 메소드는 다음과 같다.
 | `<X extends Throwable> T orElseThrow(Supplier<? extends X>  exceptionSupplier)` | 저장된 값이 존재하면 그 값을 반환하고, 값이 존재하지 않으면 인수로 전달된 예외를 발생시킴 |
 
 ## [출처 및 참고]
-* [http://www.tcpschool.com/java/java_stream_optional](http://www.tcpschool.com/java/java_stream_optional)
+* [www.tcpschool.com/java/java_stream_optional](www.tcpschool.com/java/java_stream_optional)

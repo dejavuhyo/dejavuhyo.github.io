@@ -157,9 +157,9 @@ REMI 저장소는 최신 버전의 패키지가 저장되어있다. 기본 저�
 Yum 저장소에는 REMI 저장소 패키지가 없기 때문에 rpm 파일을 따로 다운로드받아서 설치해야한다.
 
 * OS 버전별 패키지 파일 URL
-  - CentOS 5: http://rpms.famillecollet.com/enterprise/remi-release-5.rpm
-  - CentOS 6: http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
-  - CentOS 7: http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
+  - CentOS 5: `http://rpms.famillecollet.com/enterprise/remi-release-5.rpm`
+  - CentOS 6: `http://rpms.famillecollet.com/enterprise/remi-release-6.rpm`
+  - CentOS 7: `http://rpms.famillecollet.com/enterprise/remi-release-7.rpm`
 
 * 설치
 

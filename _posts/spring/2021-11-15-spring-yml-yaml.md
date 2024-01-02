@@ -197,7 +197,7 @@ windows_drive: 'c:'
 
 ### 2) YAML 문법 체크
 
-* <http://www.yamllint.com/>
+* `https://www.yamllint.com/`
 
 ![yaml-lint](/assets/img/2021-11-15-yaml/yaml-lint.png)
 
@@ -205,4 +205,4 @@ windows_drive: 'c:'
 * [https://ko.wikipedia.org/wiki/YAML](https://ko.wikipedia.org/wiki/YAML)
 * [https://yaml.org/](https://yaml.org/)
 * [https://www.json2yaml.com/](https://www.json2yaml.com/)
-* [http://www.yamllint.com/](http://www.yamllint.com/)
+* [https://www.yamllint.com//](https://www.yamllint.com/)

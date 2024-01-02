@@ -8,7 +8,7 @@ tags: [install-nginx, nginx, windows-nginx, 윈도우-nginx-설치, nginx-설치
 
 ## 1. Nginx 다운로드
 
-* 윈도우용 Nginx 다운로드: <http://nginx.org/en/download.html>
+* 윈도우용 Nginx 다운로드: `http://nginx.org/en/download.html`
 
 ![nginx-download](/assets/img/2022-11-07-install-nginx-in-windows/nginx-download.png)
 
@@ -33,7 +33,7 @@ nginx.exe 파일이 있는 위치에서 명령어를 실행시킨다.
 ```
 
 ## 3. 실행 확인
-브라우저에서 <http://localhost>로 접속한다. 기본 80 port로 설정되어 있다.
+브라우저에서 `http://localhost`로 접속한다. 기본 80 port로 설정되어 있다.
 
 ![nginx-start](/assets/img/2022-11-07-install-nginx-in-windows/nginx-start.png)
 

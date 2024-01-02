@@ -51,4 +51,4 @@ System.out.println("> 연산자에 의한 결과 : "+ (ch1 > ch2));
 > 아스키코드(ASCII)는 영문 대소문자를 사용하는 7비트의 문자 인코딩 방식이다. 아스키코드는 문자를 7비트로 표현하므로, 총 128개의 문자를 표현할 수 있다.
 
 ## [출처 및 참고]
-* [http://www.tcpschool.com/java/java_operator_comparison](http://www.tcpschool.com/java/java_operator_comparison)
+* [www.tcpschool.com/java/java_operator_comparison](www.tcpschool.com/java/java_operator_comparison)

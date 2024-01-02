@@ -22,7 +22,7 @@ tags: [mqtt-broker, mqtt-mosquitto, mosquitto-install, mosquitto-setup, mosquitt
 
 ### 3) OpenSSL
 
-* <http://slproweb.com/products/Win32OpenSSL.html>
+* <https://slproweb.com/products/Win32OpenSSL.html>
 
 ## 2. 설치
 
