@@ -74,4 +74,4 @@ if (param == null || param.length() == 0) {
 반면, `length()` 함수는 내장객체인 int 변수 하나만 리턴하기 때문에 빠르다.
 
 ## [출처 및 참고]
-* [tazz.tistory.com/30](tazz.tistory.com/30)
+* [https://tazz.tistory.com/30](https://tazz.tistory.com/30)

@@ -8,7 +8,7 @@ tags: [docker-jenkins-install, jenkins-install, docker-jenkins, 도커-젠킨스
 
 ## 1. Jenkins Docker images 다운로드
 
-* <https://hub.docker.com/r/jenkins/jenkins>
+* [https://hub.docker.com/r/jenkins/jenkins](https://hub.docker.com/r/jenkins/jenkins)
 
 ![jenkins-docker-images](/assets/img/2021-03-05-install-jenkins-with-docker/jenkins-docker-images.png)
 
@@ -36,7 +36,7 @@ tags: [docker-jenkins-install, jenkins-install, docker-jenkins, 도커-젠킨스
 
 ## 5. 접속
 
-* [127.0.0.1:9080](127.0.0.1:9080)
+* `http://127.0.0.1:9080`
 
 ## 6. Permission denied 오류
 

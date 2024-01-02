@@ -39,8 +39,9 @@ tags: [maven, maven-structure, 메이븐, 메이븐-구조]
 
 ### 1) Java 설치 필요
 
-* <https://dejavuhyo.blog.me/221454888121>
-* <https://dejavuhyo.blog.me/221469375994>
+* [https://dejavuhyo.blog.me/221454888121](https://dejavuhyo.blog.me/221454888121)
+
+* [https://dejavuhyo.blog.me/221469375994](https://dejavuhyo.blog.me/221469375994)
 
 ### 2) 다운로드
 
@@ -430,7 +431,7 @@ jar 패키징된 파일을 실행하기 위해서 ManifestFile을 생성해주�
 ### 4) Source Plugin
 package 시에 Source 코드를 포함시킨다. 아래의 코드를 추가하면 package 수행 및 install 수행 시 기본jar명-sources.jar 파일이 추가로 하나 생성된다. 내부에 goal 설정은 plugin 별로 고유의 goal이 있다.
 
-* Plugin Documentation: <https://maven.apache.org/plugins/maven-source-plugin/plugin-info.html>
+* Plugin Documentation: [https://maven.apache.org/plugins/maven-source-plugin/plugin-info.html](https://maven.apache.org/plugins/maven-source-plugin/plugin-info.html)
 
 ```xml
 <plugin>
@@ -474,9 +475,9 @@ javadoc plugin 을 설정하는 코드로 configuration 항목은 한글 관련 
  </plugin>
 ```
 
-* javadoc goal 명령어 모음 및 goal 과 관련된 내용: <https://maven.apache.org/plugins/maven-javadoc-plugin/plugin-info.html>
+* javadoc goal 명령어 모음 및 goal 과 관련된 내용: [https://maven.apache.org/plugins/maven-javadoc-plugin/plugin-info.html](https://maven.apache.org/plugins/maven-javadoc-plugin/plugin-info.html)
 
-* remote에 자동 업로드 참고: <https://www.lesstif.com/display/JAVA/maven+site+plugin>
+* remote에 자동 업로드 참고: [https://www.lesstif.com/display/JAVA/maven+site+plugin](https://www.lesstif.com/display/JAVA/maven+site+plugin)
 
 ```text
 mvn javadoc:javadoc
@@ -491,7 +492,7 @@ mvn javadoc:test-aggregate-jar
 
 ### 6) Tomcat 배포 플러그인
 
-* 참고: [blog.iotinfra.net/?p=1201](blog.iotinfra.net/?p=1201)
+* 참고: [https://blog.iotinfra.net/?p=1201](https://blog.iotinfra.net/?p=1201)
 * 참고: [https://www.lesstif.com/java/tomcat7-maven-plugin-app-deploy-14090451.html](https://www.lesstif.com/java/tomcat7-maven-plugin-app-deploy-14090451.html)
 
 * tomcat-user.xml

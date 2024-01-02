@@ -34,11 +34,9 @@ List<String> list = Arrays.asList("foo", "bar", "baz");
 이중 중괄호 초기화 기술과 같이 장황함을 줄이는 다른 방법이 있다.
 
 ```java
-{% raw %}
 Set<String> set = Collections.unmodifiableSet(new HashSet<String>() {{
     add("foo"); add("bar"); add("baz");
 }});
-{% endraw %}
 ```
 
 또는 Java 8 스트림을 사용한다.

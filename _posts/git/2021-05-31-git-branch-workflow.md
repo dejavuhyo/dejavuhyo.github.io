@@ -36,7 +36,7 @@ tags: [git-branch-workflow, branch-workflow, branch-workflow, git-브랜치-작�
 > 브랜치를 능숙하게 사용하면 상황에 맞게 여러 작업을 동시에 진행할 수 있다.
 
 ## 2. 성공적인 Git 브랜칭 모델
-[A successful Git branching model](nvie.com/posts/a-successful-git-branching-model/) 모델에서는 크게 4가지 종류의 브랜치를 이용하여 개발을 진행한다.
+[A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/) 모델에서는 크게 4가지 종류의 브랜치를 이용하여 개발을 진행한다.
 
 * 메인 브랜치(Main branch)
 

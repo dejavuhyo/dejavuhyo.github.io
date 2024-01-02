@@ -38,7 +38,7 @@ XML 형식의 파일 `hibernate.cfg.xml`을 고려하여 필요한 hibernate 속
 ## 3. MySQL 데이터베이스를 사용한 Hibernate 예제
 `hibernate.cfg.xml` 구성 파일을 생성하여 응용 프로그램의 클래스 경로 루트에 배치한다. MySQL 데이터베이스에서 testdb 데이터베이스를 사용할 수 있고 데이터베이스에 액세스할 수 있는 사용자 테스트가 있는지 확인해야 한다.
 
-XML 구성 파일은 [www.hibernate.org/dtd/hibernate-configuration-3.0.dtd](www.hibernate.org/dtd/hibernate-configuration-3.0.dtd)에서 제공되는 Hibernate 3 구성 DTD를 준수해야 한다.
+XML 구성 파일은 [https://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd](https://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd)에서 제공되는 Hibernate 3 구성 DTD를 준수해야 한다.
 
 ```xml
 <?xml version = "1.0" encoding = "utf-8"?>

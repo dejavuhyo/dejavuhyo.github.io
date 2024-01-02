@@ -125,9 +125,9 @@ public class OpenApiConfig {
 
         Info info = new Info().title("Board API Docs").version(appVersion)
                 .description("Spring Boot를 이용한 Board API Docs 입니다.")
-                .termsOfService("http://swagger.io/terms/")
+                .termsOfService("https://swagger.io/terms/")
                 .contact(new Contact().name("dejavuhyo").url("https://dejavuhyo.github.io/").email("dejavuhyo@gmail.com"))
-                .license(new License().name("Apache License Version 2.0").url("http://www.apache.org/licenses/LICENSE-2.0"));
+                .license(new License().name("Apache License Version 2.0").url("https://www.apache.org/licenses/LICENSE-2.0"));
 
         return new OpenAPI()
                 .components(new Components())
@@ -148,7 +148,7 @@ public class OpenApiConfig {
 
 ## 4. GitHub 소스코드
 
-* <https://github.com/dejavuhyo/springdoc-openapi>
+* [https://github.com/dejavuhyo/springdoc-openapi](https://github.com/dejavuhyo/springdoc-openapi)
 
 ## [출처 및 참고]
 * [https://springdoc.org/](https://springdoc.org/)

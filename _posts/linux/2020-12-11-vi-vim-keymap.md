@@ -192,5 +192,5 @@ tags: [vi-keymap, vim-keymap, visual-editor, keymap, vi-단축키, vim-단축키
 ![img010](/assets/img/2020-12-11-vi-vim-keymap/img010.jpg)
 
 ## [출처 및 참고]
-* [www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html](www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
+* [https://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html](https://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
 * [https://iamfreeman.tistory.com/entry/vi-vim-%ED%8E%B8%EC%A7%91%EA%B8%B0-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC-%EB%8B%A8%EC%B6%95%ED%82%A4-%EB%AA%A8%EC%9D%8C-%EB%AA%A9%EB%A1%9D](https://iamfreeman.tistory.com/entry/vi-vim-%ED%8E%B8%EC%A7%91%EA%B8%B0-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC-%EB%8B%A8%EC%B6%95%ED%82%A4-%EB%AA%A8%EC%9D%8C-%EB%AA%A9%EB%A1%9D)

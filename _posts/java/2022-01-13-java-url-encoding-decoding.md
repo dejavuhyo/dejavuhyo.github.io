@@ -21,7 +21,7 @@ URI 인코딩의 첫 번째 단계는 해당 부분을 검사한 다음 관련 �
 URI의 예이다.
 
 ```java
-String testUrl = "http://www.baeldung.com?key1=value+1&key2=value%40%21%242&key3=value%253";
+String testUrl = "https://www.baeldung.com?key1=value+1&key2=value%40%21%242&key3=value%253";
 ```
 
 URI를 분석하는 한 가지 방법은 String 표현을 java.net.URI 클래스에 로드하는 것이다.
@@ -59,7 +59,7 @@ public void givenRequestParam_whenUTF8Scheme_thenEncode() throws Exception {
 
     String encodedURL = requestParams.keySet().stream()
       .map(key -> key + "=" + encodeValue(requestParams.get(key)))
-      .collect(joining("&", "http://www.baeldung.com?", ""));
+      .collect(joining("&", "https://www.baeldung.com?", ""));
 
     assertThat(testUrl, is(encodedURL));
 ```
@@ -97,7 +97,7 @@ public void givenRequestParam_whenUTF8Scheme_thenDecodeRequestParams() {
       .collect(Collectors.joining("&"));
 
     assertEquals(
-      "http://www.baeldung.com?key1=value 1&key2=value@!$2&key3=value%3",
+      "https://www.baeldung.com?key1=value 1&key2=value@!$2&key3=value%3",
       scheme + "://" + host + "?" + decodedQuery);
 }
 ```

@@ -28,7 +28,7 @@ tags: [mosquitto-install, mosquitto-linux, mosquitto-install-linux]
 ### 1) 다운로드
 
 ```shell
-[root@localhost ~]# wget https://slproweb.com/products/Win32OpenSSL.html
+[root@localhost ~]# wget https://www.openssl.org/source/openssl-1.1.1g.tar.gz
 [root@localhost ~]# tar -zxvf openssl-1.1.1g.tar.gz
 [root@localhost ~]# cp -Rf openssl-1.1.1g /usr/local/openssl
 [root@localhost ~]# cd /usr/local/openssl
@@ -170,4 +170,4 @@ export PATH
 ```
 
 ## [출처 및 참고]
-* [cheonbrave.blogspot.com/2016/11/mqtt-mosquitto-broker.html](cheonbrave.blogspot.com/2016/11/mqtt-mosquitto-broker.html)
+* [https://cheonbrave.blogspot.com/2016/11/mqtt-mosquitto-broker.html](https://cheonbrave.blogspot.com/2016/11/mqtt-mosquitto-broker.html)

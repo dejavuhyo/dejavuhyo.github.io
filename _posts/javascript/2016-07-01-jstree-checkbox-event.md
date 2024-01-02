@@ -8,7 +8,7 @@ tags: [jstree, jstree-체크박스]
 
 ## 1. 공식 사이트
 
-* <https://www.jstree.com/>
+* [https://www.jstree.com/](https://www.jstree.com/)
 
 ## 2. 체크박스 트리
 

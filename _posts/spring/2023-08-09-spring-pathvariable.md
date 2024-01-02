@@ -22,7 +22,7 @@ public String getEmployeesById(@PathVariable String id) {
 `/api/employees/{id}`에 대한 간단한 GET 요청은 추출된 id 값으로 getEmployeesById를 호출한다.
 
 ```text
-http://localhost:8080/api/employees/111 
+http://localhost:8080/api/employees/111
 ---- 
 ID: 111
 ```

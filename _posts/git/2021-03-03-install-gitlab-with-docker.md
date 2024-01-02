@@ -8,7 +8,7 @@ tags: [docker-gitlab-install, gitlab-install, docker-gitlab, 도커-깃랩-설�
 
 ## 1. GitLab Docker images 다운로드
 
-* <https://hub.docker.com/r/gitlab/gitlab-ce>
+* [https://hub.docker.com/r/gitlab/gitlab-ce](https://hub.docker.com/r/gitlab/gitlab-ce)
 
 ![gitlab-docker-images](/assets/img/2021-03-03-install-gitlab-with-docker/gitlab-docker-images.png)
 
@@ -69,7 +69,7 @@ root@127:/# gitlab-ctl reconfigure
 
 ## 5. 접속
 
-* [127.0.0.1:8929](127.0.0.1:8929)
+* `http://127.0.0.1:8929`
 
 ## 6. 에러 종류
 

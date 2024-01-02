@@ -273,5 +273,5 @@ Deleted branch hotfix-1.2.1 (was abbe5d6).
 
 ## [출처 및 참고]
 * [https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/)
-* [amazingguni.github.io/blog/2016/03/git-branch-%EA%B7%9C%EC%B9%99](amazingguni.github.io/blog/2016/03/git-branch-%EA%B7%9C%EC%B9%99)
+* [https://amazingguni.github.io/blog/2016/03/git-branch-%EA%B7%9C%EC%B9%99](https://amazingguni.github.io/blog/2016/03/git-branch-%EA%B7%9C%EC%B9%99)
 * [https://luckygg.tistory.com/212](https://luckygg.tistory.com/212)

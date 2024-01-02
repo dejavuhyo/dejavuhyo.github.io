@@ -1,5 +1,5 @@
 ---
-title: Java Functional Interfaces List
+title: Java Functional Interfaces
 author: dejavuhyo
 date: 2023-01-11 21:30:00 +0900
 categories: [Language, Java]

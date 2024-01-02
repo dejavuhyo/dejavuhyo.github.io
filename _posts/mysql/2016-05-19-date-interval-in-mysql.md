@@ -32,4 +32,4 @@ SELECT TO_DAYS(CAST('2016-06-01' AS DATE)) - TO_DAYS(CAST('2016-05-19' AS DATE))
 ```
 
 ## [출처 및 참고]
-* [www.webmadang.net/database/database.do?action=read&boardid=4003&page=1&seq=26](www.webmadang.net/database/database.do?action=read&boardid=4003&page=1&seq=26)
+* [https://www.webmadang.net/database/database.do?action=read&boardid=4003&page=1&seq=26](https://www.webmadang.net/database/database.do?action=read&boardid=4003&page=1&seq=26)

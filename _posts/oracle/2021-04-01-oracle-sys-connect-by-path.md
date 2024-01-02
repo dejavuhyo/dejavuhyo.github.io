@@ -109,4 +109,4 @@ CONNECT BY PRIOR CLASS_CODE = UP_CLASS_CODE
 
 ## [출처 및 참고]
 * [https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions164.htm](https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions164.htm)
-* [sqlfiddle.com/](sqlfiddle.com/)
+* [https://sqlfiddle.com/](https://sqlfiddle.com/)

@@ -45,7 +45,7 @@ nexusurl="http://{넥서스IP}:{넥서스Port}/repository/nexus/"
 
 find . -name '*.*' -type f | cut -c 3- | grep "/" > $files
 
-while read i; dow
+while read i; do
   echo "upload $i to $nexusurl"
   curl -v -u $username:$password --upload-file $i "$nexusurl$i"
 done <$files

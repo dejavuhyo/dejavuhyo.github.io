@@ -8,7 +8,7 @@ tags: [install-nginx, nginx, windows-nginx, 윈도우-nginx-설치, nginx-설치
 
 ## 1. Nginx 다운로드
 
-* 윈도우용 Nginx 다운로드: `http://nginx.org/en/download.html`
+* 윈도우용 Nginx 다운로드: [https://nginx.org/en/download.html](https://nginx.org/en/download.html)
 
 ![nginx-download](/assets/img/2022-11-07-install-nginx-in-windows/nginx-download.png)
 

@@ -83,4 +83,4 @@ array는 참조된 엘리먼트를 메모리에 같은 크기로 연속적인 �
 | while | 반복문 중 하나. |
 
 ## [출처 및 참고]
-* [wiki.hash.kr/index.php/%EC%9E%90%EB%B0%94_%EC%98%88%EC%95%BD%EC%96%B4](wiki.hash.kr/index.php/%EC%9E%90%EB%B0%94_%EC%98%88%EC%95%BD%EC%96%B4)
+* [https://wiki.hash.kr/index.php/%EC%9E%90%EB%B0%94_%EC%98%88%EC%95%BD%EC%96%B4](https://wiki.hash.kr/index.php/%EC%9E%90%EB%B0%94_%EC%98%88%EC%95%BD%EC%96%B4)
