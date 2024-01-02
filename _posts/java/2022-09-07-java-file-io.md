@@ -124,4 +124,4 @@ D:\data\data.txt
 ```
 
 ## [출처 및 참고]
-* [http://www.tcpschool.com/java/java_io_file](http://www.tcpschool.com/java/java_io_file)
+* [www.tcpschool.com/java/java_io_file](www.tcpschool.com/java/java_io_file)

@@ -73,7 +73,7 @@ Red Hat Enterprise Linux는 세계 최고의 오픈 소스 운영 체제이다. 
 
 ![springdale-linux](/assets/img/2021-07-19-centos-linux-alternatives/springdale-linux.png)
 
-[Springdale Linux](http://springdale.math.ias.edu/)는 프린스턴 대학교 및 고등 연구소의 컴퓨팅 담당 직원이다. Scientific Linux와 마찬가지로 CentOS Linux의 Scientific Linux fork이다. (작년에 발표되었다.)
+[Springdale Linux](springdale.math.ias.edu/)는 프린스턴 대학교 및 고등 연구소의 컴퓨팅 담당 직원이다. Scientific Linux와 마찬가지로 CentOS Linux의 Scientific Linux fork이다. (작년에 발표되었다.)
 
 Springdale은 잘 알려져 있지 않지만, 개발자들은 CentOS가 Springdale을 출시하기 전에 스프링데일 리눅스 8 스프링데일 8을 출시했다고 한다.
 
@@ -87,4 +87,4 @@ Springdale은 잘 알려져 있지 않지만, 개발자들은 CentOS가 Springda
 * [https://almalinux.org/](https://almalinux.org/)
 * [https://www.oracle.com/linux/](https://www.oracle.com/linux/)
 * [https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
-* [http://springdale.math.ias.edu/](http://springdale.math.ias.edu/)
+* [springdale.math.ias.edu/](springdale.math.ias.edu/)

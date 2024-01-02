@@ -174,7 +174,7 @@ Spring Boot는 `spring-boot-starter-thymeleaf` 종속성을 추가하여 Thymele
 명시적인 구성은 필요하지 않다. 기본적으로 HTML 파일은 `resources/templates` 위치에 배치되어야 한다.
 
 ## 4. FreeMarker
-[FreeMarker](http://freemarker.org/)는 Apache Software Foundation에서 구축한 Java 기반 템플릿 엔진이다. 웹 페이지를 생성하는데 사용할 수 있을 뿐만 아니라 소스 코드, XML 파일, 구성 파일, 이메일 및 기타 텍스트 기반 형식도 생성할 수 있다.
+[FreeMarker](https://freemarker.apache.org/)는 Apache Software Foundation에서 구축한 Java 기반 템플릿 엔진이다. 웹 페이지를 생성하는데 사용할 수 있을 뿐만 아니라 소스 코드, XML 파일, 구성 파일, 이메일 및 기타 텍스트 기반 형식도 생성할 수 있다.
 
 생성은 FreeMarker 템플릿 언어를 사용하여 작성된 템플릿 파일을 기반으로 수행된다.
 

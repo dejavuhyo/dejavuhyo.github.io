@@ -104,7 +104,7 @@ tags: [jenkins-gitlab-tomcat, jenkins-gitlab, jenkins-tomcat, jenkins-tomcat-dep
 
 ## 5. 배포 확인
 
-* http://서버주소:8080/
+* `http://서버주소:8080/`
 
 ![img025](/assets/img/2020-04-09-jenkins-gitlab-tomcat/img025.png)
 

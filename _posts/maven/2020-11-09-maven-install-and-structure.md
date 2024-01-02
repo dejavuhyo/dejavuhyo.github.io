@@ -201,7 +201,7 @@ project 태그 바로 하위에 있으며 plugins은 빌드에서 사용할 플�
 ```
 
 ### 5) Repository
-의존성을 다운로드 받을 위치의 repository로 기술되지 않을 시 기본적인 위치는 <http://repo.maven.apache.org/maven2>이다. 다수의 repository 기술 가능하며 회사 내부의 repository를 기술 하기도 한다.
+의존성을 다운로드 받을 위치의 repository로 기술되지 않을 시 기본적인 위치는 `http://repo.maven.apache.org/maven2`이다. 다수의 repository 기술 가능하며 회사 내부의 repository를 기술 하기도 한다.
 
 * nexus, artifactory를 이용
 
@@ -306,7 +306,7 @@ Maven은 dependency 및 packaging한 프로젝트 결과물을 local에 특정 �
 * 여러 프로젝트에서 중복된 라이브러리 다운로드를 피하기위한 목적을 가진다.
 
 ### 2) Repository
-의존성을 다운로드 받을 위치의 repository로 기술되지 않을 시 기본적인 위치는 <http://repo.maven.apache.org/maven2>이다. 다수의 repository 기술 가능하며 회사 내부의 repository를 기술 하기도 한다.(nexus, artifactory를 이용)
+의존성을 다운로드 받을 위치의 repository로 기술되지 않을 시 기본적인 위치는 `http://repo.maven.apache.org/maven2`이다. 다수의 repository 기술 가능하며 회사 내부의 repository를 기술 하기도 한다.(nexus, artifactory를 이용)
 
 ```xml
 <repositories>
@@ -491,8 +491,8 @@ mvn javadoc:test-aggregate-jar
 
 ### 6) Tomcat 배포 플러그인
 
-* 참고: <http://blog.iotinfra.net/?p=1201>
-* 참고: <https://www.lesstif.com/java/tomcat7-maven-plugin-app-deploy-14090451.html>
+* 참고: [blog.iotinfra.net/?p=1201](blog.iotinfra.net/?p=1201)
+* 참고: [https://www.lesstif.com/java/tomcat7-maven-plugin-app-deploy-14090451.html](https://www.lesstif.com/java/tomcat7-maven-plugin-app-deploy-14090451.html)
 
 * tomcat-user.xml
 

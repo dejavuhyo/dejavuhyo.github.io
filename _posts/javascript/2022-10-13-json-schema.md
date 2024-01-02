@@ -11,7 +11,7 @@ JSON은 좀 더 쉽게 데이터를 교환하고 저장하기 위하여 만들�
 
 따라서 적법한 JSON 데이터의 형식을 기술한 문서를 JSON 스키마(schema)라고 한다.
 
-JSON 스키마에 대한 더 자세한 사항은 [링크](http://json-schema.org)를 참고한다.
+JSON 스키마에 대한 더 자세한 사항은 [링크](json-schema.org)를 참고한다.
 
 ## 2. JSON 스키마 검증(validation)
 JSON 스키마는 다음과 같은 세 가지 검증 과정을 거친다.
@@ -89,4 +89,4 @@ type 키워드를 사용하여 유효한 타입을 명시하면, 해당 데이�
 properties 키워드를 사용하면, 해당 객체가 가지는 프로퍼티가 유효한지를 검사할 수 있다.
 
 ## [출처 및 참고]
-* [http://www.tcpschool.com/json/json_schema_schema](http://www.tcpschool.com/json/json_schema_schema)
+* [www.tcpschool.com/json/json_schema_schema](www.tcpschool.com/json/json_schema_schema)

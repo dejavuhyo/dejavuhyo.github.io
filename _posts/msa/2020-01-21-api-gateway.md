@@ -311,5 +311,5 @@ ribbon.ReadTimeout=30000
 ## [출처 및 참고]
 * [https://github.com/Netflix/zuul/wiki](https://github.com/Netflix/zuul/wiki)
 * [https://netflixtechblog.com/announcing-zuul-edge-service-in-the-cloud-ab3af5be08ee](https://netflixtechblog.com/announcing-zuul-edge-service-in-the-cloud-ab3af5be08ee)
-* [http://woowabros.github.io/r&d/2017/06/13/apigateway.html](http://woowabros.github.io/r&d/2017/06/13/apigateway.html)
+* [https://woowabros.github.io/r&d/2017/06/13/apigateway.html](https://woowabros.github.io/r&d/2017/06/13/apigateway.html)
 * [https://eblo.tistory.com/69](https://eblo.tistory.com/69)

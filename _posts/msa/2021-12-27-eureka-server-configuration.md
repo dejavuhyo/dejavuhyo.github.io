@@ -104,7 +104,7 @@ spring.security.user.password=admin
 
 ## 5. 실행
 
-* <http://localhost:8761>
+* `http://localhost:8761`
 
 * 로그인
   - admin / admin

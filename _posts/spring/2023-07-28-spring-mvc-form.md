@@ -190,7 +190,7 @@ JSP 페이지는 단순히 EL 표현식을 사용하여 모델의 Employee 객�
 ## 6. 애플리케이션 테스트
 Tomcat 서버에 간단한 애플리케이션을 배포하고 로컬에서 액세스할 수 있다.
 
-> http://localhost:8080/spring-mvc-xml/employee
+> `http://localhost:8080/spring-mvc-xml/employee`
 
 제출 작업 전 기본 양식을 포함하는 보기이다.
 

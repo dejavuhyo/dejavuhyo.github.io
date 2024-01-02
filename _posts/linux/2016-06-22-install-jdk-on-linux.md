@@ -11,7 +11,7 @@ tags: [install-jdk-linux, install-java-linux, linux-jdk, linux-java, 리눅스-j
 * jdk-6u45-linux-x64.bin
 
 ## 2. JDK 다운로드
-* [http://www.oracle.com/technetwork/java/javase/archive-139210.html](http://www.oracle.com/technetwork/java/javase/archive-139210.html)
+* [www.oracle.com/technetwork/java/javase/archive-139210.html](www.oracle.com/technetwork/java/javase/archive-139210.html)
 
 ## 3. 압축 풀기
 

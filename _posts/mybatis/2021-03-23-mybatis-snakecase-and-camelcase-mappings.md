@@ -76,4 +76,4 @@ public class TestTable {
 
 ## [출처 및 참고]
 * [https://mybatis.org/mybatis-3/ko/configuration.html#settings](https://mybatis.org/mybatis-3/ko/configuration.html#settings)
-* [http://www.devkuma.com/books/pages/744](http://www.devkuma.com/books/pages/744)
+* [https://www.devkuma.com/books/pages/744](https://www.devkuma.com/books/pages/744)

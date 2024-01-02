@@ -49,4 +49,4 @@ System.out.println("=- 연산자에 의한 결과 : "+ num3);
 ```
 
 ## [출처 및 참고]
-* [http://www.tcpschool.com/java/java_operator_assignment](http://www.tcpschool.com/java/java_operator_assignment)
+* [www.tcpschool.com/java/java_operator_assignment](www.tcpschool.com/java/java_operator_assignment)

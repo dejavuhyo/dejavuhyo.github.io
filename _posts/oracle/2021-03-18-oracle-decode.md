@@ -173,4 +173,4 @@ DEPTNO10  DEPTNO20  DEPTNO30  DEPTNO40
 
 ## [출처 및 참고]
 * [https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions040.htm](https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions040.htm)
-* [http://www.gurubee.net/lecture/1028](http://www.gurubee.net/lecture/1028)
+* [www.gurubee.net/lecture/1028](www.gurubee.net/lecture/1028)

@@ -48,4 +48,4 @@ tags: [java-stream, java-stream-api, stream, stream-api, 자바-스트림, 스�
 ![operation-principle](/assets/img/2022-09-08-java-stream/operation-principle.png)
 
 ## [출처 및 참고]
-* [http://www.tcpschool.com/java/java_stream_concept](http://www.tcpschool.com/java/java_stream_concept)
+* [www.tcpschool.com/java/java_stream_concept](www.tcpschool.com/java/java_stream_concept)

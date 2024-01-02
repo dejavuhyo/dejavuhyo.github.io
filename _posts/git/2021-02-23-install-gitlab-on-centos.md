@@ -61,7 +61,7 @@ GitLab 패키지 저장소를 추가하고 패키지를 설치한다.
 ### 2) 패키지 설치
 DNS를 올바르게 설정했는지 확인하고 '도메인 혹은 IP'를 GitLab 인스턴스에 액세스할 URL로 변경한다. 설치시 해당 URL에서 GitLab이 자동으로 구성되고 시작된다.
 
-https:// URL의 경우 GitLab이 암호화를 사용하여 인증서를 자동으로 요청하므로 인바운드 HTTP 액세스와 유효한 호스트 이름이 필요하다. 사용자 자신의 인증서를 사용하거나 http://를 사용할 수도 있다.
+`https://` URL의 경우 GitLab이 암호화를 사용하여 인증서를 자동으로 요청하므로 인바운드 HTTP 액세스와 유효한 호스트 이름이 필요하다. 사용자 자신의 인증서를 사용하거나 `http://`를 사용할 수도 있다.
 
 ```shell
 [root@localhost ~]# EXTERNAL_URL="도메인 혹은 IP" dnf install -y gitlab-ce
