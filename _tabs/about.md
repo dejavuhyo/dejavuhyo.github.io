@@ -4,11 +4,11 @@ icon: fas fa-info-circle
 order: 4
 --- 
 
-<a href="https://raw.githubusercontent.com/dejavuhyo/dejavuhyo.github.io/master/assets/img/favicons/android-chrome-192x192.png" title="me"><img src="https://raw.githubusercontent.com/dejavuhyo/dejavuhyo.github.io/master/assets/img/favicons/android-chrome-192x192.png" alt="공대베짱이" /></a>
-
 ## ✨공대베짱이✨
 
 ### 💻밥줄과 취미 사이 ːː 못 먹어도 고!🎸
+
+<a href="https://raw.githubusercontent.com/dejavuhyo/dejavuhyo.github.io/master/assets/img/favicons/android-chrome-192x192.png" title="me"><img src="https://raw.githubusercontent.com/dejavuhyo/dejavuhyo.github.io/master/assets/img/favicons/android-chrome-192x192.png" alt="공대베짱이" /></a>
 
 ## ⌨️Tech Stack🖱️
 
