@@ -1,5 +1,5 @@
 ---
-title: IntelliJ에서 GitLab 최초 Commit
+title: IntelliJ GitLab 최초 Commit
 author: dejavuhyo
 date: 2019-12-18 11:30:00 +0900
 categories: [Application, IDE]
