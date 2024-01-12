@@ -1,9 +1,9 @@
 ---
-title: 가장 많이 사용되는 IntelliJ IDEA 단축키
+title: 가장 많이 사용되는 IntelliJ 단축키
 author: dejavuhyo
 date: 2020-01-20 17:00:00 +0900
 categories: [Application, IDE]
-tags: [intellij-keymap, 인텔리제이-단축키, 인텔리제이-키맵]
+tags: [intellij-shortcuts, intellij-keymap, 인텔리제이-단축키, 인텔리제이-키맵]
 ---
 
 IntelliJ IDEA는 편집, 탐색, 리팩토링, 디버깅 등 일상적으로 수행하는 대부분의 작업에 대하여 해당 명령어의 키보드 단축키를 제공한다. 이러한 단축키를 배우고 연습하여 기억해 두면 작업 흐름을 원활하게 유지하는데 도움이 된다.
