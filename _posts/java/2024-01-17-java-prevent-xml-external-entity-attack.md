@@ -186,7 +186,7 @@ SAXReader xmlReader = new SAXReader();
 xmlReader.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
 ```
 
-* [JDOM 라이브러리](http://www.jdom.org/)의 경우
+* [JDOM 라이브러리](jdom.org)의 경우
 
 ```java
 SAXBuilder builder = new SAXBuilder();
