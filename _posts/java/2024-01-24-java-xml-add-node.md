@@ -1,13 +1,15 @@
 ---
-title: Java XML 노드 추가
+title: Java XML root 노드 추가
 author: dejavuhyo
 date: 2024-01-24 09:15:00 +0900
 categories: [Language, Java]
 tags: [java-xml, xml-node, xml-add-node, jackson-xml, 자바-xml, xml-노드, xml-노드-추가]
 ---
 
-## 1. XML 노드 추가
-예제의 XML은 표준을 따르지 않기 때문에 출력을 더 읽기 쉽고 표준을 준수하도록 사용자 정의를 할 수 있다.
+## 1. XML root 노드 추가
+표준 XML은 root 태그가 있다. 그러나 XML 변환시 표준 XML 형식을 따르지 않는 경우가 있다.
+
+XML을 더 읽기 쉽고 표준을 준수하도록 root 태그를 추가할 수 있다.
 
 ## 2. Jackson Dependency 추가
 
