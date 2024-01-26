@@ -2,7 +2,7 @@
 title: Spring Response Header 설정
 author: dejavuhyo
 date: 2024-01-26 09:15:00 +0900
-categories: [Language, Java]
+categories: [Framework, Spring]
 tags: [spring-response-header, response-header, spring-response, spring-header, 응답-헤더, 스프링-헤더]
 ---
 
