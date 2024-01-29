@@ -11,7 +11,7 @@ Jackson을 사용하여 JSON을 세 가지 다른 방식으로 구문 분석한�
 
 * 첫 번째이자 가장 일반적인 것은 [ObjectMapper](https://fasterxml.github.io/jackson-databind/javadoc/2.9/com/fasterxml/jackson/databind/ObjectMapper.html)를 사용한 데이터 바인딩이다.
 
-* 두 번째는 [TreeTraversingParser](http://fasterxml.github.io/jackson-databind/javadoc/2.9/com/fasterxml/jackson/databind/node/TreeTraversingParser.html) 및 [JsonNode](http://fasterxml.github.io/jackson-databind/javadoc/2.9/com/fasterxml/jackson/databind/JsonNode.html)를 사용하여 트리 데이터 구조에 매핑하는 것이다.
+* 두 번째는 [TreeTraversingParser](https://fasterxml.github.io/jackson-databind/javadoc/2.9/com/fasterxml/jackson/databind/node/TreeTraversingParser.html) 및 [JsonNode](https://fasterxml.github.io/jackson-databind/javadoc/2.9/com/fasterxml/jackson/databind/JsonNode.html)를 사용하여 트리 데이터 구조에 매핑하는 것이다.
 
 * 세 번째는 [JsonParser](https://fasterxml.github.io/jackson-core/javadoc/2.9/com/fasterxml/jackson/core/JsonParser.html) 및 [JsonGenerator](https://fasterxml.github.io/jackson-core/javadoc/2.9/com/fasterxml/jackson/core/JsonGenerator.html?is-external=true)를 사용하여 토큰별로 트리 데이터 구조를 스트리밍하는 것이다.
 
