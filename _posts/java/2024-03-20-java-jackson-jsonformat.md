@@ -1,7 +1,7 @@
 ---
 title: Java Jackson @JsonFormat
 author: dejavuhyo
-date: 2024-01-01 15:26:00 +0900
+date: 2024-03-20 15:26:00 +0900
 categories: [Language, Java]
 tags: [java-jackson, jackson-jsonformat, jsonformat]
 ---
