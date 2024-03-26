@@ -185,7 +185,7 @@ private void wasCalled() {
 이제 `filter()` 작업에서 `wasCalled()` 메서드를 호출해본다.
 
 ```java
-List<String> list = Arrays.asList(“abc1”, “abc2”, “abc3”);
+List<String> list = Arrays.asList("abc1", "abc2", "abc3");
 counter = 0;
 Stream<String> stream = list.stream().filter(element -> {
     wasCalled();
