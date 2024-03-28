@@ -36,7 +36,7 @@ spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 
 또는 해당 속성을 `application.yaml` 파일에 추가하여 애플리케이션의 데이터베이스 구성에 YAML을 사용할 수도 있다.
 
-```yaml
+```yml
 spring:
   datasource:
     url: jdbc:h2:mem:mydb
@@ -57,7 +57,7 @@ spring.datasource.url=jdbc:h2:file:/data/demo
 
 마찬가지로 `application.yaml`에서 파일 기반 스토리지에 대해 동일한 속성을 추가할 수 있다.
 
-```yaml
+```yml
 spring:
   datasource:
     url: jdbc:h2:file:/data/demo
@@ -105,7 +105,7 @@ spring.h2.console.enabled=true
 
 YAML 구성을 사용하는 경우 `application.yaml`에 속성을 추가해야 한다.
 
-```yaml
+```yml
 spring:
   h2:
     console.enabled: true
@@ -133,7 +133,7 @@ spring.h2.console.settings.web-allow-others=false
 
 마찬가지로 YAML 구성을 사용할 때 위 속성을 다음과 같이 추가할 수 있다.
 
-```yaml
+```yml
 spring:
   h2:
     console:
