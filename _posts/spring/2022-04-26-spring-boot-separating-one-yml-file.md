@@ -9,7 +9,7 @@ tags: [spring-boot-yml, yml-separate, yml-분리, yml-개발-운영]
 ## 1. activate 설정
 application.yml에 active하려는 환경을 설정한다.
 
-```yaml
+```yml
 spring:
   profiles:
     active: local
@@ -18,7 +18,7 @@ spring:
 ## 2. 내용 작성
 application.yml에 local, dev, prod를 설정한다.
 
-```yaml
+```yml
 spring:
   profiles:
     active: local
