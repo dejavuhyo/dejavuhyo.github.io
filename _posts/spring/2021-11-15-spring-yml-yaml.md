@@ -45,7 +45,7 @@ YAML은 모든 데이터를 리스트, 해쉬, 스칼라 데이터의 조합으�
 
 * 2칸 들여쓰기 (추천)
 
-```yaml
+```yml
 person:
   name: Chungsub Kim
   job: Developer
@@ -56,7 +56,7 @@ person:
 
 * 4칸 들여쓰기
 
-```yaml
+```yml
 person:
     name: Chungsub Kim
     job: Developer
@@ -68,7 +68,7 @@ person:
 ### 2) 데이터 정의 (map)
 데이터는 `key: value` 형식으로 정의한다.
 
-```yaml
+```yml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -80,7 +80,7 @@ metadata:
 ### 3) 배열 정의 (array)
 배열은 `-`로 표시한다.
 
-```yaml
+```yml
 person:
   name: Chungsub Kim
   job: Developer
@@ -92,7 +92,7 @@ person:
 ### 4) 주석 (comment)
 주석은 `#`으로 표시한다.
 
-```yaml
+```yml
 # comment
 person:
   name: Chungsub Kim
@@ -107,7 +107,7 @@ person:
 
 * 참/거짓
 
-```yaml
+```yml
 study_hard: yes
 give_up: no
 hello: True
@@ -117,7 +117,7 @@ manual: false
 
 * 숫자
 
-```yaml
+```yml
 # number
 version: 1.2
 
@@ -130,7 +130,7 @@ version: "1.2"
 
 * `|` 지시어는 마지막 줄바꿈이 포함
 
-```yaml
+```yml
 newlines_sample: |
             number one line
 
@@ -141,7 +141,7 @@ newlines_sample: |
 
 * `|-` 지시어는 마지막 줄바꿈을 제외
 
-```yaml
+```yml
 newlines_sample: |-
             number one line
 
@@ -152,7 +152,7 @@ newlines_sample: |-
 
 * `>` 지시어는 중간에 들어간 빈줄을 제외
 
-```yaml
+```yml
 newlines_sample: >
             number one line
 
@@ -166,7 +166,7 @@ newlines_sample: >
 ### 1) 띄어쓰기
 key와 value 사이에는 반드시 빈칸이 필요하다.
 
-```yaml
+```yml
 # error (not key-value, string)
 key:value
 
@@ -177,7 +177,7 @@ key: value
 ### 2) 문자열 따옴표
 대부분의 문자열을 따옴표 없이 사용할 수 있지만 `:`가 들어간 경우는 반드시 따옴표가 필요하다.
 
-```yaml
+```yml
 # error
 windows_drive: c:
 
