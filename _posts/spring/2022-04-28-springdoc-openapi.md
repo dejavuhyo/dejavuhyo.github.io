@@ -49,7 +49,7 @@ HTML 형식의 swagger 문서의 사용자 정의 경로의 경우, spring-boot 
 
 * application.yml
 
-```yaml
+```yml
 springdoc:
   swagger-ui:
     path: /swger-ui.html
