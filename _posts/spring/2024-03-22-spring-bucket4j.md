@@ -454,7 +454,7 @@ Bucket4j Spring Boot Starter는 속도 제한 키를 정의하기 위해 사전 
 ### 3) 애플리케이션 구성
 Bucket4j 스타터 라이브러리를 사용하도록 애플리케이션을 구성한다. 먼저 API 키와 버킷을 메모리에 저장하도록 Caffeine 캐싱을 구성한다.
 
-```yaml
+```yml
 spring:
   cache:
     cache-names:
@@ -465,7 +465,7 @@ spring:
 
 다음으로 Bucket4j를 구성한다.
 
-```yaml
+```yml
 bucket4j:
   enabled: true
   filters:
