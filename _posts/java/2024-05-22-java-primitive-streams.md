@@ -3,7 +3,7 @@ title: Java 기본 스트림
 author: dejavuhyo
 date: 2024-05-22 10:25:00 +0900
 categories: [Language, Java]
-tags: [java-stream, Stream-primitive, 스트림-기본]
+tags: [java-stream, stream-primitive, 스트림-기본]
 ---
 
 ## 1. Primitive Streams
