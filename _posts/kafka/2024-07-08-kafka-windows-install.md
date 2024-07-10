@@ -52,7 +52,7 @@ netstat -a
 ### 1) topic 생성 (broker)
 
 ```shell
-kafka-topics.bat --create --bootstrap-server localhost:9092 --topic kafka-test
+kafka-topics.bat --create --bootstrap-server localhost:9092 --topic topic-test
 ```
 
 * 생성한 topic 조회
@@ -66,7 +66,7 @@ kafka-topics.bat --list --bootstrap-server localhost:9092
 ### 2) topic에 message 보내기 (producer)
 
 ```shell
-kafka-console-producer.bat --broker-list localhost:9092 --topic kafka-test
+kafka-console-producer.bat --broker-list localhost:9092 --topic topic-test
 ```
 
 ![producer](/assets/img/2024-07-08-kafka-windows-install/producer.png)
@@ -74,7 +74,7 @@ kafka-console-producer.bat --broker-list localhost:9092 --topic kafka-test
 ### 3) topic에 message 가져오기 (consumer)
 
 ```shell
-kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic kafka-test --from-beginning
+kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic topic-test --from-beginning
 ```
 
 ![consumer](/assets/img/2024-07-08-kafka-windows-install/consumer.png)
