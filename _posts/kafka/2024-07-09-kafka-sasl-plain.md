@@ -50,7 +50,7 @@ sasl.enabled.mechanisms=PLAIN
 * Linux: `../bin/kafka-server-start.sh`
 
 ```text
-export KAFKA_OPTS=-Djava.security.auth.login.config=../../config/kafka_server_jaas.conf
+export KAFKA_OPTS=-Djava.security.auth.login.config=../config/kafka_server_jaas.conf
 ```
 
 * Windows: `../bin/windows/kafka-server-start.bat`
