@@ -31,7 +31,7 @@ tags: [docker-gitlab-install, gitlab-install, docker-gitlab, 도커-깃랩-설�
   - 443: HTTPS
 
 ```shell
-[root@localhost ~]# docker run --detach --hostname 127.0.0.1 --publish 80:80 --publish 8022:22 --name gitlab --restart always --volume /srv/gitlab/config:/etc/gitlab --volume /srv/gitlab/logs:/var/log/gitlab --volume /srv/gitlab/data:/var/opt/gitlab gitlab/gitlab-ce:latest
+[root@localhost ~]# docker run --detach --hostname 127.0.0.1 --publish 8929:80 --publish 2224:22 --name gitlab --restart always --volume /srv/gitlab/config:/etc/gitlab --volume /srv/gitlab/logs:/var/log/gitlab --volume /srv/gitlab/data:/var/opt/gitlab gitlab/gitlab-ce:latest
 ```
 
 ## 4. GitLab Configuration 설정
@@ -51,8 +51,8 @@ root@127:/# nano /etc/gitlab/gitlab.rb
 ```
 
 ```text
-external_url 'http://127.0.0.1:80'
-gitlab_rails['gitlab_shell_ssh_port'] = 8022
+external_url 'http://127.0.0.1:8929'
+gitlab_rails['gitlab_shell_ssh_port'] = 2224
 ```
 
 ### 3) 설정 적용
@@ -69,7 +69,7 @@ root@127:/# gitlab-ctl reconfigure
 
 ## 5. 접속
 
-* `http://127.0.0.1`
+* `http://127.0.0.1:8929`
 
 ## 6. 에러 종류
 
