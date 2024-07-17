@@ -19,11 +19,11 @@ tags: [jpa-many-to-many, jpa-다대다, 다대다-관계]
 
 학생은 여러 과목을 좋아할 수 있으며, 많은 학생이 같은 과목을 좋아할 수도 있다.
 
-![simple-er](/assets/img/2024-01-01-jpa-many-to-many/simple-er.png)
+![simple-er](/assets/img/2024-07-17-jpa-many-to-many/simple-er.png)
 
 알다시피, RDBMS에서는 외래 키로 관계를 만들 수 있다. 양쪽 모두 다른 쪽을 참조할 수 있어야 하므로 외래 키를 보관할 별도의 테이블을 만들어야 한다.
 
-![simple-model-updated](/assets/img/2024-01-01-jpa-many-to-many/simple-model-updated.png)
+![simple-model-updated](/assets/img/2024-07-17-jpa-many-to-many/simple-model-updated.png)
 
 이러한 테이블을 조인 테이블이라고 한다. 조인 테이블에서 외래 키의 조합은 복합 기본 키가 된다.
 
@@ -103,11 +103,11 @@ Set<Student> likes;
 
 이 예를 사용하면 ER 다이어그램에서 관계에 속성을 첨부하는 것은 다음과 같다.
 
-![relation-attribute-er](/assets/img/2024-01-01-jpa-many-to-many/relation-attribute-er.png)
+![relation-attribute-er](/assets/img/2024-07-17-jpa-many-to-many/relation-attribute-er.png)
 
 간단한 다대다 관계와 거의 같은 방식으로 모델링할 수 있다. 유일한 차이점은 조인 테이블에 새 속성을 첨부한다는 것이다.
 
-![relation-attribute-model-updated](/assets/img/2024-01-01-jpa-many-to-many/relation-attribute-model-updated.png)
+![relation-attribute-model-updated](/assets/img/2024-07-17-jpa-many-to-many/relation-attribute-model-updated.png)
 
 ### 2) JPA 복합 키 생성
 간단한 다대다 관계의 구현은 다소 간단했다. 유일한 문제는 엔티티를 직접 연결했기 때문에 그런 방식으로 관계에 속성을 추가할 수 없다는 것이다. 따라서 관계 자체에 속성을 추가할 방법이 없다.
@@ -221,7 +221,7 @@ Student 및 Course 클래스에 대한 관계를 `@ManyToOne`으로 구성했다
 
 따라서 등록의 속성을 보유하는 엔터티를 도입할 수 있다.
 
-![relation-entity-er-updated](/assets/img/2024-01-01-jpa-many-to-many/relation-entity-er-updated.png)
+![relation-entity-er-updated](/assets/img/2024-07-17-jpa-many-to-many/relation-entity-er-updated.png)
 
 이 경우 등록 엔터티는 다른 두 엔터티 간의 관계를 나타낸다.
 
@@ -231,7 +231,7 @@ Student 및 Course 클래스에 대한 관계를 `@ManyToOne`으로 구성했다
 
 이제 두 개의 외래 키는 기본 키의 일부가 되지 않는다.
 
-![relation-entity-model-updated](/assets/img/2024-01-01-jpa-many-to-many/relation-entity-model-updated.png)
+![relation-entity-model-updated](/assets/img/2024-07-17-jpa-many-to-many/relation-entity-model-updated.png)
 
 ### 2) JPA 구현
 course_registration이 일반 테이블이 되었으므로 이를 모델링하는 일반적인 JPA 엔터티를 만들 수 있다.
