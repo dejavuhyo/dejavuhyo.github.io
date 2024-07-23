@@ -64,5 +64,5 @@ Rollback 시에는 해당 트랜잭션을 재시작하거나 폐기한다.
 * **완료(Committed):** 트랜잭션이 성공적으로 종료되어 Commit 연산을 실행한 후의 상태
 
 ## [출처 및 참고]
-* [https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4_%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98](https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4_%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98)
+* [https://en.wikipedia.org/wiki/Database_transaction](https://en.wikipedia.org/wiki/Database_transaction)
 * [https://coding-factory.tistory.com/226](https://coding-factory.tistory.com/226)

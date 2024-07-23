@@ -108,7 +108,7 @@ XID는 xmin, xmax 값들을 구분하기 위한 고윳값이다
 ![snapshot-structure](/assets/img/2022-02-08-multiversion-concurrency-control/snapshot-structure.png)
 
 ## [출처 및 참고]
-* [https://ko.wikipedia.org/wiki/%EB%8B%A4%EC%A4%91_%EB%B2%84%EC%A0%84_%EB%8F%99%EC%8B%9C%EC%84%B1_%EC%A0%9C%EC%96%B4](https://ko.wikipedia.org/wiki/%EB%8B%A4%EC%A4%91_%EB%B2%84%EC%A0%84_%EB%8F%99%EC%8B%9C%EC%84%B1_%EC%A0%9C%EC%96%B4)
+* [https://en.wikipedia.org/wiki/Multiversion_concurrency_control](https://en.wikipedia.org/wiki/Multiversion_concurrency_control)
 * [https://mozi.tistory.com/561](https://mozi.tistory.com/561)
 * [https://www.slideshare.net/pgday_seoul/mvcc-in-postgre](https://www.slideshare.net/pgday_seoul/mvcc-in-postgre)
 * [https://www.datanet.co.kr/news/articleView.html?idxno=116534](https://www.datanet.co.kr/news/articleView.html?idxno=116534)

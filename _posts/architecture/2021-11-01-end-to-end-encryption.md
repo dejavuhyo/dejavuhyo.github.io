@@ -42,6 +42,6 @@ Gmail을 사용하는 경우 Google은 귀하가 이메일에 입력한 모든 �
 모든 사람은 프라이버시에 대한 권리가 있다. E2EE는 언론의 자유를 보호하고 박해받는 활동가, 반체제 인사 및 언론인을 위협으로부터 보호한다.
 
 ## [출처 및 참고]
-* [https://wiki.hash.kr/index.php/%EC%A2%85%EB%8B%A8%EA%B0%84_%EC%95%94%ED%98%B8%ED%99%94](https://wiki.hash.kr/index.php/%EC%A2%85%EB%8B%A8%EA%B0%84_%EC%95%94%ED%98%B8%ED%99%94)
+* [https://wiki.hash.kr/index.php/종단간_암호화](https://wiki.hash.kr/index.php/종단간_암호화)
 * [https://doubleoctopus.com/security-wiki/encryption-and-cryptography/end-to-end-encryption/](https://doubleoctopus.com/security-wiki/encryption-and-cryptography/end-to-end-encryption/)
 * [https://protonmail.com/blog/what-is-end-to-end-encryption/](https://protonmail.com/blog/what-is-end-to-end-encryption/)
