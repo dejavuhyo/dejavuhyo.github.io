@@ -1,7 +1,7 @@
 ---
 title: Hibernate @NotNull와 @Column(nullable = false)
 author: dejavuhyo
-date: 2024-07-04 10:44:00 +0900
+date: 2024-07-05 10:44:00 +0900
 categories: [Framework, JPA/Hibernate]
 tags: [hibernate-notnull, hibernate-nullable, notnull-nullable]
 ---
