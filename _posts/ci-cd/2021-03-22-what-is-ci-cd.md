@@ -2,7 +2,7 @@
 title: CI/CD 개념
 author: dejavuhyo
 date: 2021-03-22 06:00:00 +0900
-categories: [DevOps, Git]
+categories: [DevOps, CD/CD]
 tags: [ci-cd, ci, cd, 지속적-통합, 지속적-제공]
 ---
 
