@@ -1,5 +1,5 @@
 ---
-title: CentOS 9 Docker 설치
+title: CentOS 9에 Docker 설치
 author: dejavuhyo
 date: 2024-07-31 08:33:00 +0900
 categories: [DevOps, Docker]
