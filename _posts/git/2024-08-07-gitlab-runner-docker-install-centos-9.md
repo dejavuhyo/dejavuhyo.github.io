@@ -47,22 +47,22 @@ $ docker-compose up -d
 
 ### 1) GitLab Admin Area 페이지 이동
 
-![admin-area](/assets/img/2024-08-07-install-gitlab-runner-docker-centos-9/admin-area.png)
+![admin-area](/assets/img/2024-08-07-gitlab-runner-docker-install-centos-9/admin-area.png)
 
 ### 2) CI/CD > Runners 페이지 이동
 `New instance runner` 클릭한다.
 
-![new-instance-runner](/assets/img/2024-08-07-install-gitlab-runner-docker-centos-9/new-instance-runner.png)
+![new-instance-runner](/assets/img/2024-08-07-gitlab-runner-docker-install-centos-9/new-instance-runner.png)
 
 ### 3) Tags 항목
 `Run untaged jobs` 체크, `Create runner` 클릭한다
 
-![create-runner](/assets/img/2024-08-07-install-gitlab-runner-docker-centos-9/create-runner.png)
+![create-runner](/assets/img/2024-08-07-gitlab-runner-docker-install-centos-9/create-runner.png)
 
 ### 4) Register runner
 `Step1` 명령어 복사한다.
 
-![setp1](/assets/img/2024-08-07-install-gitlab-runner-docker-centos-9/setp1.png)
+![step1](/assets/img/2024-08-07-gitlab-runner-docker-install-centos-9/step1.png)
 
 ### 4) GitLab Runner 컨테이너 접속
 
@@ -87,12 +87,12 @@ $ docker exec -it gitlab-runner /bin/bash
 ### 5) 정상 등록 확인
 `You’ve registered a new runner!` 문구가 나타난다.
 
-![registered](/assets/img/2024-08-07-install-gitlab-runner-docker-centos-9/registered.png)
+![registered](/assets/img/2024-08-07-gitlab-runner-docker-install-centos-9/registered.png)
 
 ### 6) CI/CD > Runners 페이지 이동
 등록된 러너가 목록에 나타난다.
 
-![runners](/assets/img/2024-08-07-install-gitlab-runner-docker-centos-9/runners.png)
+![runners](/assets/img/2024-08-07-gitlab-runner-docker-install-centos-9/runners.png)
 
 ## 5. GitLab Runner 구성
 GitLab Runner 및 등록된 개별 Runner의 동작을 변경할 수 있다.
