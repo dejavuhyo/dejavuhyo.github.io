@@ -13,6 +13,8 @@ CORS는 교차 출처 요청을 허용하는 것이 안전한지 아닌지를 �
 
 CORS의 사양은 원래 W3C 권고안으로 배포되었으나 해당 문서는 쓸모없어진(obsolete) 상태이다. 현재 CORS를 재정의하면서 활발히 유지보수된 사양은 [WHATWG](https://ko.wikipedia.org/wiki/WHATWG)의 Fetch Living Standard이다.
 
+![cors-url](/assets/img/2022-12-05-spring-boot-cors-error/cors-url.png)
+
 ## 2. CORS 동작 원리
 
 ![cors-operation](/assets/img/2022-12-05-spring-boot-cors-error/cors-operation.png)
@@ -21,6 +23,14 @@ CORS의 사양은 원래 W3C 권고안으로 배포되었으나 해당 문서는
 
 ### 1) Configuration 설정
 Global하게 적용하는 방법이다.
+
+> 서버측에서 ACAO 헤더의 값을 와일드카드(`*`)로 설정하면 출처가 다른 모든 웹 사이트에서 접근할 수 있기 때문에 보안에 취약하다.
+
+```text
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+...
+```
 
 * WebConfig.java
 
@@ -35,7 +45,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry corsRegistry) {
         corsRegistry.addMapping("/**") // CORS를 적용할 URL패턴 정의
-                .allowedOrigins("*") // 자원 공유를 허락할 Origin 지정
+                .allowedOrigins("http://front-server.com") // 자원 공유를 허락할 Origin 지정
                 .allowedMethods("GET", "POST") // 허용할 HTTP method 지정
                 .maxAge(3000); // 설정 시간만큼 pre-flight 리퀘스트 캐싱
     }
@@ -57,7 +67,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 @RequiredArgsConstructor
 @RestController
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin(origins = "http://front-server.com")
 @RequestMapping(path = "/board")
 public class Controller {
 
@@ -78,7 +88,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping(path = "/board")
 public class Controller {
 
-    @CrossOrigin(origins = "*", allowedHeaders = "*")
+    @CrossOrigin(origins = "http://front-server.com")
     @GetMapping(path = "/{id}")
     public ResponseEntity<String> find(@PathVariable("id") String id) {
         ...
@@ -89,4 +99,6 @@ public class Controller {
 
 ## [출처 및 참고]
 * [https://ko.wikipedia.org/wiki/교차_출처_리소스_공유](https://ko.wikipedia.org/wiki/교차_출처_리소스_공유)
+* [https://www.bugbountyclub.com/pentestgym/view/60](https://www.bugbountyclub.com/pentestgym/view/60)
+* [https://docs.tosspayments.com/resources/glossary/cors](https://docs.tosspayments.com/resources/glossary/cors)
 * [https://dev-pengun.tistory.com/entry/Spring-Boot-CORS-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0#1.%20CORS%EB%9E%80?](https://dev-pengun.tistory.com/entry/Spring-Boot-CORS-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0#1.%20CORS%EB%9E%80?)
