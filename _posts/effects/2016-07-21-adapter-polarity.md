@@ -30,7 +30,7 @@ tags: [adapter, adapter-polarity, 어댑터, 어댑터-극성, 전원공급장�
 
 ## 3. 어댑터 극성 명칭
 
-![ac-adaptor-polarity1](/assets/img/2016-07-21-adapter-polarity/ac-adaptor-polarity1.png)
+![ac-adaptor-polarity1](/assets/img/2016-07-21-adapter-polarity/ac-adaptor-polarity1.jpg)
 
 ![ac-adaptor-polarity2](/assets/img/2016-07-21-adapter-polarity/ac-adaptor-polarity2.png)
 
