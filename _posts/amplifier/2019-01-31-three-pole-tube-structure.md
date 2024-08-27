@@ -59,4 +59,4 @@ tags: [three-pole-tube, tube-structure, 3극관, 3극관-구조, 진공관]
 > 6C33 계열은 러시아에서 군용으로 제작된 3극관인데, 방열형의 필라민트가 2중으로 되어 있어 내구성이 좋고 높은 출력을 낼 수 있다. 서방 세계에 알려진 이후 파워 앰프의 출력관으로 종종 사용되며, 임피던스가 낮아 OTL앰프의 출력관으로도 활약하게 되었다.
 
 ## [출처 및 참고]
-* [analogstyle.co.kr/archives/4224](analogstyle.co.kr/archives/4224)
+* http://analogstyle.co.kr/archives/4224

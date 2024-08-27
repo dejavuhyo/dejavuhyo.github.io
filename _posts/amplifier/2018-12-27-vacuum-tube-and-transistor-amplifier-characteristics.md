@@ -80,4 +80,4 @@ tags: [vacuum-tube, transistor, tube-amplifier, transistor-amplifier, 진공관-
 > 크렐 KST-100의 내부. 출력 트랜지스터에 주목하자. 트랜지스터는 개별 출력은 진공관보다 작을지 몰라도 크기가 작으므로 이런 구성이 가능하다. 즉 그리 크지 않은 크기로 전류 공급 능력이 우수한 또는 고출력의 앰프를 구현할 수 있는 것이다. 진공관을 채널당 10개씩 사용한 앰프라면 상상만 해도 골치가 아파진다.
 
 ## [출처 및 참고]
-* [analogstyle.co.kr/archives/3970](analogstyle.co.kr/archives/3970)
+* http://analogstyle.co.kr/archives/3970

@@ -104,4 +104,4 @@ tags: [three-pole-output-tube, tube-output, 3극관, 3극-출력관, 진공관]
 > 왼쪽 두 개는 EB, 오른쪽 두 개가 ED이다. 노란색 베이스가 지멘스, 오른쪽 끝은 발보사 제품이다. ED는 대형 삼극관으로서 귀한 유럽계 고전관 중에서 '꿈의 삼극관'으로 불리는 최고의 진공관이다.
 
 ## [출처 및 참고]
-* [analogstyle.co.kr/archives/4226](analogstyle.co.kr/archives/4226)
+* http://analogstyle.co.kr/archives/4226
