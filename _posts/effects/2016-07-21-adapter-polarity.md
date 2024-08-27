@@ -35,5 +35,5 @@ tags: [adapter, adapter-polarity, 어댑터, 어댑터-극성, 전원공급장�
 ![ac-adaptor-polarity2](/assets/img/2016-07-21-adapter-polarity/ac-adaptor-polarity2.png)
 
 ## [출처 및 참고]
-* [https://yearningsoul.tistory.com](http://yearningsoul.tistory.com)
+* [https://yearningsoul.tistory.com](https://yearningsoul.tistory.com)
 * [https://www.anjunsa.com/board/index.php?boardid=board_data&mode=view&no=3](https://www.anjunsa.com/board/index.php?boardid=board_data&mode=view&no=3)
