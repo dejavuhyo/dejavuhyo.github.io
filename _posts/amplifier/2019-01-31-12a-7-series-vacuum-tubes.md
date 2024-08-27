@@ -15,7 +15,7 @@ tags: [vacuum-tube, transistor, tube-amplifier, transistor-amplifier, 진공관-
 
 그런데 `12A*7`은 하나의 진공관 안에 두 개의 3극관이 들어 있는 '쌍3극관'이다. 플레이트, 캐소드, 컨트롤 그리드 뿐만 아니라, 히터도 두 개로 분리되어 있다. `12A*7`에 들어있는 3극관 개개의 히터 전압은 일반적인 진공관처럼 6.3V인데, 두 개의 히터를 별개로 점화시킬 수 있어야 하므로 핀이 세 개 나와 있다.
 
-![untitled-2](/assets/img/2019-01-31-12a*7-series-vacuum-tubes/untitled-2.jpg)
+![untitled-2](/assets/img/2019-01-31-12a-7-series-vacuum-tubes/untitled-2.jpg)
 
 즉 4번과 9번, 5번과 9번에 6.3V 전력을 공급하면 각각의 히터를 점화시킬 수 있다. 한편 9번 핀을 사용하지 않고 4번과 5번 핀에 12.6V 전력을 공급하면 두 개의 히터가 직렬로 연결되어 함께 점화된다. 마찬가지로 4, 5번을 묶고 9번 사이에 6.3V 전력을 공급하면 두 개의 히터가 병렬로 연결되어 함께 점화된다. 히터의 소비 전력은 약 1.8W, 즉 12V를 공급할 경우에는 0.15A, 6V 공급시에는 0.3A의 전류를 공급해주어야 한다.
 
@@ -30,7 +30,7 @@ tags: [vacuum-tube, transistor, tube-amplifier, transistor-amplifier, 진공관-
 
 12AX7의 뒷단에 12AU7이 약방의 감초처럼(캐소드 팔로워 회로) 자주 등장하는 이유가 바로 이것이다. 하지만 명기로 손꼽히는 마란츠 7은 포노단에 12AX7 세 개, 라인단에도 12AX7 세 개 만을 사용하고 있고 , EAR의 V20 인티앰프는 (임피던스가 높은) 12AX7을 심지어 출력관으로 사용하기도 하니, 오디오 회로라는 것은 설계자의 창의성에 따라 얼마든지 변할 수 있는 성질을 갖고 있나보다.
 
-![telefunken-ecc803s](/assets/img/2019-01-31-12a*7-series-vacuum-tubes/telefunken-ecc803s.jpg)
+![telefunken-ecc803s](/assets/img/2019-01-31-12a-7-series-vacuum-tubes/telefunken-ecc803s.jpg)
 
 > 12AX7의 최고봉 텔레풍켄 ECC803S. ECC83의 프리미엄 버전 ECC803 중에서도 선별된 특별한 것들이다. 명기 마란츠 7에도 텔레풍켄의 제품이 장착되어 있다.
 
@@ -42,7 +42,7 @@ tags: [vacuum-tube, transistor, tube-amplifier, transistor-amplifier, 진공관-
 
 미국산으로는 12AX7을 소폭 변경한 저잡음관으로 12AX7A, 12AX7T 등이 있고 특히 7025는 오디오용 저잡음관으로 제작되었고, 골드핀을 갖는 7729는 CBS에서 사용할 용도로 특별히 제작된 것이라고 한다. 군용으로 납품되던 고신뢰관은 5751, 통신 장비에 사용된 것은 6681의 형번을 갖고 있다. 한편 실바니아에서 만든 12AD7은 12AX7과 같은 특성의 저잡음관으로 히터 용량만 약간 크다.
 
-![rca-7025](/assets/img/2019-01-31-12a*7-series-vacuum-tubes/rca-7025.jpg)
+![rca-7025](/assets/img/2019-01-31-12a-7-series-vacuum-tubes/rca-7025.jpg)
 
 > RCA의 7025. 7025는 12AX7을 오디오용 저잡음관으로 제작한 고신뢰관이다.
 
@@ -51,7 +51,7 @@ tags: [vacuum-tube, transistor, tube-amplifier, transistor-amplifier, 진공관-
 ## 3. 쭉쭉 뻗는 광대역의 음, 12AT7
 12AX7과 유사한 쌍삼극관으로 핀 배치나 구조, 히터 전력 등이 동일하다. 다만 증폭도(μ)가 55~60으로 12AX7보다 낮다. 그래서 12AX7 자리에 12AT7을 끼우면 소리가 약간 작아지는 대신, 고역이 또렷해지거나 섬세해지는 효과를 볼 수도 있다(물론 제작사가 12AX7을 그 자리에 사용한 이유가 있을 테니, 굳이 12AT7로 교체해볼 이유는 없겠지만, 호기심 많은 애호가라면 이를 통해 소리의 변화를 즐길 수도 있다는 이야기다).
 
-![mullard-ecc81](/assets/img/2019-01-31-12a*7-series-vacuum-tubes/mullard-ecc81.jpg)
+![mullard-ecc81](/assets/img/2019-01-31-12a-7-series-vacuum-tubes/mullard-ecc81.jpg)
 
 원래 오디오보다는 TV나 FM 라디오 등의 고주파 회로에 자주 사용될 목적으로 개발되었지만, 우수한 고주파 특성을 눈여겨 본 앰프 제작사들이 오디오 시장에 끌어들였다. 다만 흔히 이야기하는 '소리의 직진성'이 좋기 때문인지 대체적으로 부드러운 느낌은 덜하다. 제품의 편차가 큰 편인데, 좋지 못한 제품의 경우 딱딱하거나 푸석푸석하다는 느낌이 들기도 한다.
 
@@ -59,7 +59,7 @@ tags: [vacuum-tube, transistor, tube-amplifier, transistor-amplifier, 진공관-
 
 군용은 6201, 통신 장비용은 6679의 형번을 가지며 CBS 방송국용 골드핀 버전은 7728이다. 12AX7과 마찬가지로 소브텍, 슈광 EI, 텅스램 등 다양한 메이커에서 신관을 제작하고 있으며, 엔틱 셀렉션, 골든 드래곤과 같이 선별관을 취급하는 회사도 많으므로 선택의 폭이 넓다. 한편 12AZ7이라는 진공관도 볼 수 있는데, 이는 12AT7과 거의 동일한 특성에 히터 용량만 다르다. 매킨토시의 275 앰프에 사용된 바 있다.
 
-![mcintosh-mc275](/assets/img/2019-01-31-12a*7-series-vacuum-tubes/mcintosh-mc275.jpg)
+![mcintosh-mc275](/assets/img/2019-01-31-12a-7-series-vacuum-tubes/mcintosh-mc275.jpg)
 
 > 매킨토시 신형 MC275. 오리지널 제품은 12AX7외에 12BH7과 12AZ7을 사용하고 있었으나 몇 차례 신형이 발매되면서 두 진공관을 12AT7로 통일하여 사용하게 되었다.
 
@@ -68,7 +68,7 @@ tags: [vacuum-tube, transistor, tube-amplifier, transistor-amplifier, 진공관-
 
 12AU7의 소리는 대체로 온화하고 편안하며 치우침이 없이 단정하다. 텔레풍켄의 제품들은 대체로 이런 특색에 맑고 선명함이 가미된다.
 
-![12au7](/assets/img/2019-01-31-12a*7-series-vacuum-tubes/12au7.jpg)
+![12au7](/assets/img/2019-01-31-12a-7-series-vacuum-tubes/12au7.jpg)
 
 12AU7은 증폭도가 낮은 대신 내부 임피던스가 낮아서(전류를 많이 흘릴 수 있어서) 12AX7이나 12AT7의 뒷단에서 다음 회로로 연결할 때 임피던스를 낮출(전류 공급 능력을 높일) 용도 - 캐소드 팔로워 회로에 많이 사용된다. 또한 높은 증폭도를 필요로 하지 않는 라인 전용 프리앰프에 널리 사용되며, 파워 앰프에서는 전압 증폭을 하는 초단보다 드라이브 단 또는 위상 반전단에 많이 사용된다.
 
@@ -76,7 +76,7 @@ tags: [vacuum-tube, transistor, tube-amplifier, transistor-amplifier, 진공관-
 
 영국 GEC(미국의 GE가 아니다)의 B309도 12AU7의 동등관이다. 다양한 제품들이 생산되었고 현재에도 생산되고 있는 상황은 위 12AX7, 12AT7에서 언급한 것과 같다.
 
-![amperex-7316](/assets/img/2019-01-31-12a*7-series-vacuum-tubes/amperex-7316.jpg)
+![amperex-7316](/assets/img/2019-01-31-12a-7-series-vacuum-tubes/amperex-7316.jpg)
 
 > 암페렉스 7316은 12AU7을 오디오에 적합하도록 더욱 세밀하게 다음은 고신뢰관이다.
 
@@ -87,7 +87,7 @@ tags: [vacuum-tube, transistor, tube-amplifier, transistor-amplifier, 진공관-
 
 하지만 희한하게도 (특히 최근일수록) 12AY7을 앰프에 사용하는 메이커는 12AT7을 사용하는 메이커보다 훨씬 드물다. 특히 국내에서 12AY7을 사용하는 제품은 찾아보기 어려운데, 이 때문에 저렴한 가격에 구할 수 있다.
 
-![ge-jan-6072a-12ay7](/assets/img/2019-01-31-12a*7-series-vacuum-tubes/ge-jan-6072a-12ay7.jpg)
+![ge-jan-6072a-12ay7](/assets/img/2019-01-31-12a-7-series-vacuum-tubes/ge-jan-6072a-12ay7.jpg)
 
 > 미국 GE의 6072A. JAN은 ‘Joint Army & Navy’의 약어로 미육해군에 납품된 군용을 의미한다. 화이트 로고가 먼저 생산되었고 후에 그린 로고가 대량 생산되었는데 화이트 로고가 높은 평가를 받고 있다.
 
@@ -96,4 +96,4 @@ tags: [vacuum-tube, transistor, tube-amplifier, transistor-amplifier, 진공관-
 한편 영국 브리마의 CV4068은 군용관으로 12AU7과 12AY7 사이의 증폭도를 갖고 있는데, 12AU7이나 12AY7의 고신뢰관으로 분류되기도 한다.
 
 ## [출처 및 참고]
-* [analogstyle.co.kr/archives/4257](analogstyle.co.kr/archives/4257)
+* http://analogstyle.co.kr/archives/4257
