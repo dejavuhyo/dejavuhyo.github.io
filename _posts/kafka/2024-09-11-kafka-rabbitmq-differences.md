@@ -6,6 +6,8 @@ categories: [Application, Architecture]
 tags: [kafka-rabbitmq, kafka, rabbitmq]
 ---
 
+![rabbitmq-kafka](/assets/img/2024-09-11-kafka-rabbitmq-differences/rabbitmq-kafka.png)
+
 ## 1. Kafka와 RabbitMQ 특징
 Kafka와 RabbitMQ는 스트림 처리에 사용할 수 있는 메시지 대기열 시스템이다. 데이터 스트림은 고속 처리가 필요한 대용량의 연속적인 증분 데이터이다.
 
@@ -15,8 +17,6 @@ Apache Kafka는 실시간 데이터 파이프라인 및 스트리밍 애플리�
 
 ## 2. 아키텍처 차이점
 RabbitMQ와 Apache Kafka 둘 다 생산자가 소비자에게 메시지를 보낼 수 있다. 생산자는 정보를 게시하는 애플리케이션이고, 소비자는 정보를 구독하고 처리하는 애플리케이션이다.
-
-![rabbitmq-kafka](/assets/img/2024-09-11-kafka-rabbitmq-differences/rabbitmq-kafka.png)
 
 RabbitMQ와 Kafka에서 생산자와 소비자가 상호 작용하는 방식이 서로 다르다.
 
