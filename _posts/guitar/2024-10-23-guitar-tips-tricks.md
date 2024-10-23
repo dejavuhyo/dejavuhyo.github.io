@@ -6,7 +6,7 @@ categories: [Hobby, Guitar]
 tags: [guitar, guitar-tips, guitar-tricks, 기타, 기타-팁, 기타-요령]
 ---
 
-![guitar](/assets/img/2024-10-23-guitar-tips-tricks/guitar.png)
+![guitar](/assets/img/2024-10-23-guitar-tips-tricks/guitar.jpg)
 
 ## 1. 새로운 스트링을 늘리는 가장 효과적인 방법
 대부분이 이미 알겠지만, 기타는 줄을 바꾼 직후에 튜닝을 유지하기 어렵다. 특히 줄을 제대로 늘리지 않은 경우 더욱 그렇다. 천을 가져다가 줄을 따라 위아래로 밀면서 당기면 천에서 발생하는 마찰로 줄이 뜨거워지고 새로운 긴장에 훨씬 더 빨리 익숙해진다.
