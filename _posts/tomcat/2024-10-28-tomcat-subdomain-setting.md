@@ -24,11 +24,18 @@ $ sudo vi server.xml
     <!-- 기본 호스트 -->
     <Host name="domain.com"  appBase="webapps"
             unpackWARs="true" autoDeploy="true">
+            
+        <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs"
+           prefix="localhost_access_log" suffix=".txt"
+           pattern="%h %l %u %t &quot;%r&quot; %s %b" />
     </Host>
 
     <!-- 서브도메인 호스트 추가 -->
     <Host name="sub.domain.com"  appBase="sub_webapps"
             unpackWARs="true" autoDeploy="true">
+        <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs"
+           prefix="localhost_access_log" suffix=".txt"
+           pattern="%h %l %u %t &quot;%r&quot; %s %b" />
     </Host>
 
 </Engine>
