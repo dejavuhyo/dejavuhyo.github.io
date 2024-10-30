@@ -40,7 +40,7 @@ tags: [guitar-history, acoustic-guitar, electric-guitar, 기타-역사, 어쿠�
 
 1790년대까지 스페인 기타는 유형이 표준화되었고 현대 기타와 매우 유사한 6개의 현이 있었다. 여기가 기타 역사가 본격적으로 시작되는 곳이며, 혁신이 가속화되어 결국 오늘날 우리가 알고 사랑하는 악기가 탄생하는 계기가 되었다.
 
-![the-classical-guitar](/assets/img/2024-10-30-guitar-history/the-classical-guitar.jpg)
+![the-classical-guitar](/assets/img/2024-10-30-guitar-history/the-classical-guitar.png)
 
 ## 4. 최초의 모던 기타
 19세기 초에 기타는 오늘날의 6현 악기와 매우 비슷해 보였지만 크기는 더 작았다.
