@@ -11,6 +11,8 @@ tags: [java-stack, stack, 자바-스택, 스택]
 
 스택은 가장 나중에 들어온 데이터가 가장 먼저 빠져나가는 후입선출(LIFO : Last In First Out) 구조로 되어 있어, 데이터가 입력된 순서대로 처리되는 것이 아니라 나중에 들어온 데이터를 먼저 처리할 때 사용한다.
 
+![stack](/assets/img/2024-11-26-java-stack/stack.png)
+
 ## 2. 선언
 
 ```java
