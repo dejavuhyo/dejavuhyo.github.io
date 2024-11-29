@@ -14,6 +14,7 @@ tags: [java-array, array, array-value, 자바-배열, 배열, 배열-값]
 * 예제
 
 ```java
+{% raw %}
 public class Test {
     public static void main(String[] args) {
         int[][] ary = {{1, 2}, {3, 4, 5}, {6, 7, 8, 9}};
@@ -24,6 +25,7 @@ public class Test {
         }
     }
 }
+{% endraw %}
 ```
 
 * 결과
@@ -46,6 +48,7 @@ public class Test {
 * 예제
 
 ```java
+{% raw %}
 import java.util.Arrays;
 
 public class Test {
@@ -54,6 +57,7 @@ public class Test {
         System.out.println(Arrays.deepToString(ary));
     }
 }
+{% endraw %}
 ```
 
 * 결과
