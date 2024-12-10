@@ -1,7 +1,7 @@
 ---
 title: JPA 조인 유형
 author: dejavuhyo
-date: 2024-09-24 10:34:00 +0900
+date: 2024-09-26 10:34:00 +0900
 categories: [Framework, JPA/Hibernate]
 tags: [jpa-join-type, jpa-join, jpa-조인-유형, jpa-조인]
 ---
