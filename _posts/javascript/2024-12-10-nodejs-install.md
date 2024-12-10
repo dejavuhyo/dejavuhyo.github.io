@@ -42,7 +42,7 @@ Node.js 사이트에서 설치 파일을 [다운로드](https://nodejs.org/en/do
 
 * npm package manager: 패키지 관리
 
-* Online documentation shortcuts: 온라인 문서에 대한 바로가기
+* Online documentation shortcuts: 온라인 문서 바로가기
 
 * Add to PATH: PATH 환경변수 등록
 
