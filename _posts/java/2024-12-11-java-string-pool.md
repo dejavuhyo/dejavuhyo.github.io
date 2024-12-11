@@ -28,6 +28,8 @@ Java String Pool은 문자열 객체를 저장하기 위한 힙 메모리의 특
 ## 3. String Pool 예제
 String Pool 작동 방식 예제이다.
 
+![java-string-pool](/assets/img/2024-12-11-java-string-pool/java-string-pool.png)
+
 ```java
 public class JavaStringPool {
     public static void main(String[] args) {
