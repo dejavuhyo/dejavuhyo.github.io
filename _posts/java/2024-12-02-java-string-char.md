@@ -1,5 +1,5 @@
 ---
-title: Java String 문자열을 char 배열로 변환
+title: Java String을 char 배열로 변환
 author: dejavuhyo
 date: 2024-12-02 13:50:00 +0900
 categories: [Language, Java]
