@@ -6,14 +6,7 @@ categories: [Language, Java]
 tags: [java-string, java-double, string-double, 자바-스트링, 자바-더블, 스트링-더블]
 ---
 
-## 1. String에서 Double로 변환
-Java String에서 double로 변환은 여러 가지 방법으로 수행할 수 있다. double은 기본 데이터 유형이다. Double은 해당 래퍼 클래스이다.
-
-Java는 자동 박싱을 지원한다. 따라서 double 기본 값과 Double 객체를 서로 바꿔 사용할 수 있다. Double 클래스는 Java에서 문자열을 double로 변환하는 다양한 메서드를 제공한다.
-
-## 2. 다양한 방법
-
-### 1) Double.parseDouble()
+## 1. Double.parseDouble()
 `Double.parseDouble()`을 사용하여 String 객체를 double로 변환할 수 있다. 문자열은 "+" 또는 "-"로 시작하여 양수 및 음수 double 값을 선언할 수 있다. 문자열은 "d"로 끝나 double 값을 포함한다는 것을 나타낼 수 있다.
 
 문자열이 null이면 이 메서드는 NullPointerException을 throw한다. 문자열이 구문 분석할 수 없으면 NumberFormatException을 throw한다.
@@ -50,7 +43,7 @@ public class StringToDouble {
 12.34
 ```
 
-### 2) Double.valueOf()
+## 2. Double.valueOf()
 이 메서드는 Double 객체를 반환한다. `parseDouble()` 메서드와 매우 유사하다. `valueOf()` 메서드를 사용하여 문자열을 Double 객체로 변환하는 몇 가지 예제이다.
 
 * 예제
@@ -78,7 +71,7 @@ public class StringToDouble {
 12.34
 ```
 
-### 3) new Double(String s)
+## 3. new Double(String s)
 이 Double 클래스 생성자는 문자열 인수를 받아들이고 Double 객체로 변환한다.
 
 이 생성자는 Java 9에서 더 이상 사용되지 않는다. Java는 문자열을 double로 변환하기 위해 `parseDouble()` 또는 `valueOf()` 메서드를 사용할 것을 제안한다.
@@ -102,7 +95,7 @@ public class StringToDouble {
 }
 ```
 
-### 4) DecimalFormat.parse()
+## 4. DecimalFormat.parse()
 DecimalFormat은 매우 유용한 클래스이다. `parse()` 메서드를 사용하여 포맷된 문자열을 double 값으로 변환할 수 있다. 백분율 값, 통화 값, 과학적 값을 구문 분석할 수 있다.
 
 DecimalFormat은 특정 유형의 포매터를 얻기 위한 다양한 메서드를 제공한다. 이러한 포매터 중 일부는 Locale도 지원한다.
