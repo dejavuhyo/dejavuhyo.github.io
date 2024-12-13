@@ -3,7 +3,7 @@ title: Java String 비교
 author: dejavuhyo
 date: 2024-12-13 08:30:00 +0900
 categories: [Language, Java]
-tags: [java-string, string-comparison, 자바-스트링, 스트링 비교]
+tags: [java-string, string-comparison, 자바-스트링, 스트링-비교]
 ---
 
 ## 1. equals() 메서드
