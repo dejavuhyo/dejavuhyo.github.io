@@ -88,7 +88,7 @@ public class StringToDouble {
 * 예제
 
 ```java
-public class Test {
+public class StringToDouble {
     public static void main(String[] args) {
         Double d7 = new Double("+10.234");
         System.out.println(d7);
@@ -118,7 +118,7 @@ import java.text.DecimalFormat;
 import java.text.ParseException;
 import java.util.Locale;
 
-public class Test {
+public class StringToDouble {
     public static void main(String[] args) {
         try {
             double d10 = DecimalFormat.getNumberInstance().parse("1,23.45d").doubleValue();
