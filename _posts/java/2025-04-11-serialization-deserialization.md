@@ -25,7 +25,7 @@ tags: [serialization, deserialization, 직렬화, 역직렬화]
 
 ## 4. 예제
 
-## 1) Serializable 인터페이스
+### 1) Serializable 인터페이스
 
 ```java
 public class Person implements Serializable {
@@ -110,9 +110,9 @@ public class Person implements Serializable {
 ## 5. 오류 사항
 
 ### 1) 객체의 멤버변수가 추가되었을 경우
-InvalidClassException 예외가 발생한다. serialVersionUID가 일치하지 않는다는 뜻이다.
+`InvalidClassException` 예외가 발생한다. serialVersionUID가 일치하지 않는다는 뜻이다.
 
-멤버변수의 추가로인해 serialVersionUID가 새로운 값을 가지면서 이전 serialVersionUID 값과 일치하지 않아 생긴 예외이다.
+멤버변수의 추가로인해 `serialVersionUID`가 새로운 값을 가지면서 이전 `serialVersionUID` 값과 일치하지 않아 생긴 예외이다.
 
 ```text
 Caused by: java.io.InvalidClassException: Person; local class incompatible: stream classdesc serialVersionUID = 8310077512291807673, local class serialVersionUID = 2986034573208750977
@@ -169,4 +169,3 @@ public class Person implements Serializable {
 * [https://tmd8633.tistory.com/28](https://tmd8633.tistory.com/28)
 * [https://inkyu-yoon.github.io/docs/Language/Java/Serialization](https://inkyu-yoon.github.io/docs/Language/Java/Serialization)
 * [https://happydhkim.tistory.com/entry/%EC%A7%81%EB%A0%AC%ED%99%94Serialization%EC%99%80-%EC%97%AD%EC%A7%81%EB%A0%AC%ED%99%94Deserialization#google_vignette](https://happydhkim.tistory.com/entry/%EC%A7%81%EB%A0%AC%ED%99%94Serialization%EC%99%80-%EC%97%AD%EC%A7%81%EB%A0%AC%ED%99%94Deserialization#google_vignette)
-* 
