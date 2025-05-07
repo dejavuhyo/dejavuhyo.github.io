@@ -108,28 +108,28 @@ tags: [intellij-highlights, intellij-file, file-status-highlights, file-highligh
 
 | Color | File Status | Description |
 |:-----:|:-----:|:-----:|
-| ![modified-lines-light](/assets/img/2025-05-07-intellij-file-status-highlights/modified-lines-light.png) #C3D6E8 | Modified lines | 마지막 업데이트 이후 수정된 줄이다. |
-| ![whitespace-modified-lines-light](/assets/img/2025-05-07-intellij-file-status-highlights/whitespace-modified-lines-light.png) #EDDCBC | Whitespace-modified lines | 마지막 업데이트 이후 공백만 수정된 줄이다. |
-| ![added-lines-light](/assets/img/2025-05-07-intellij-file-status-highlights/added-lines-light.png) #C9DEC1 | Added lines | 마지막 업데이트 이후 추가된 라인이다. |
-| ![gutter-gray](/assets/img/2025-05-07-intellij-file-status-highlights/gutter-gray.png) #9F9F9F | Deleted lines | 마지막 업데이트 이후 삭제된 라인이다. |
+| ![modified-lines-light](/assets/img/2025-05-07-intellij-file-status-highlights/modified-lines-light.png) <span style='color: #C3D6E8'>#C3D6E8</span> | Modified lines | 마지막 업데이트 이후 수정된 줄이다. |
+| ![whitespace-modified-lines-light](/assets/img/2025-05-07-intellij-file-status-highlights/whitespace-modified-lines-light.png) <span style='color: #EDDCBC'>#EDDCBC</span> | Whitespace-modified lines | 마지막 업데이트 이후 공백만 수정된 줄이다. |
+| ![added-lines-light](/assets/img/2025-05-07-intellij-file-status-highlights/added-lines-light.png) <span style='color: #C9DEC1'>#C9DEC1</span> | Added lines | 마지막 업데이트 이후 추가된 라인이다. |
+| ![gutter-gray](/assets/img/2025-05-07-intellij-file-status-highlights/gutter-gray.png) <span style='color: #9F9F9F'>#9F9F9F</span> | Deleted lines | 마지막 업데이트 이후 삭제된 라인이다. |
 
 ### 2) Darcula theme
 
 | Color | File Status | Description |
 |:-----:|:-----:|:-----:|
-| ![modified-lines-darcula](/assets/img/2025-05-07-intellij-file-status-highlights/modified-lines-darcula.png) #374752 | Modified lines | 마지막 업데이트 이후 수정된 줄이다. |
-| ![whitespace-modified-lines-darcula](/assets/img/2025-05-07-intellij-file-status-highlights/whitespace-modified-lines-darcula.png) #4C4638 | Whitespace-modified lines | 마지막 업데이트 이후 공백만 수정된 줄이다. |
-| ![added-lines-darcula](/assets/img/2025-05-07-intellij-file-status-highlights/added-lines-darcula.png) #384C38 | Added lines | 마지막 업데이트 이후 추가된 라인이다. |
-| ![deleted-line-darcula](/assets/img/2025-05-07-intellij-file-status-highlights/deleted-line-darcula.png) #656E76 | Deleted lines | 마지막 업데이트 이후 삭제된 라인이다. |
+| ![modified-lines-darcula](/assets/img/2025-05-07-intellij-file-status-highlights/modified-lines-darcula.png) <span style='color: #374752'>#374752</span> | Modified lines | 마지막 업데이트 이후 수정된 줄이다. |
+| ![whitespace-modified-lines-darcula](/assets/img/2025-05-07-intellij-file-status-highlights/whitespace-modified-lines-darcula.png) <span style='color: #4C4638'>#4C4638</span> | Whitespace-modified lines | 마지막 업데이트 이후 공백만 수정된 줄이다. |
+| ![added-lines-darcula](/assets/img/2025-05-07-intellij-file-status-highlights/added-lines-darcula.png) <span style='color: #384C38'>#384C38</span> | Added lines | 마지막 업데이트 이후 추가된 라인이다. |
+| ![deleted-line-darcula](/assets/img/2025-05-07-intellij-file-status-highlights/deleted-line-darcula.png) <span style='color: #656E76'>#656E76</span> | Deleted lines | 마지막 업데이트 이후 삭제된 라인이다. |
 
 ### 3) High-contrast theme
 
 | Color | File Status | Description |
 |:-----:|:-----:|:-----:|
-| ![modified-lines-hcontrast](/assets/img/2025-05-07-intellij-file-status-highlights/modified-lines-hcontrast.png) #1AABFF | Modified lines | 마지막 업데이트 이후 수정된 줄이다. |
-| ![whitespace-modified-lines-hcontrast](/assets/img/2025-05-07-intellij-file-status-highlights/whitespace-modified-lines-hcontrast.png) #666666 | Whitespace-modified lines | 마지막 업데이트 이후 공백만 수정된 줄이다. |
-| ![added-lines-hcontrast](/assets/img/2025-05-07-intellij-file-status-highlights/added-lines-hcontrast.png) #009924 | Added lines | 마지막 업데이트 이후 추가된 라인이다. |
-| ![deleted-line-hcontrast](/assets/img/2025-05-07-intellij-file-status-highlights/deleted-line-hcontrast.png) #FFA14F | Deleted lines | 마지막 업데이트 이후 삭제된 라인이다. |
+| ![modified-lines-hcontrast](/assets/img/2025-05-07-intellij-file-status-highlights/modified-lines-hcontrast.png) <span style='color: #1AABFF'>#1AABFF</span> | Modified lines | 마지막 업데이트 이후 수정된 줄이다. |
+| ![whitespace-modified-lines-hcontrast](/assets/img/2025-05-07-intellij-file-status-highlights/whitespace-modified-lines-hcontrast.png) <span style='color: #666666'>#666666</span> | Whitespace-modified lines | 마지막 업데이트 이후 공백만 수정된 줄이다. |
+| ![added-lines-hcontrast](/assets/img/2025-05-07-intellij-file-status-highlights/added-lines-hcontrast.png) <span style='color: #009924'>#009924</span> | Added lines | 마지막 업데이트 이후 추가된 라인이다. |
+| ![deleted-line-hcontrast](/assets/img/2025-05-07-intellij-file-status-highlights/deleted-line-hcontrast.png) <span style='color: #FFA14F'>#FFA14F</span> | Deleted lines | 마지막 업데이트 이후 삭제된 라인이다. |
 
 ## [출처 및 참고]
 * [https://www.jetbrains.com/help/idea/file-status-highlights.html](https://www.jetbrains.com/help/idea/file-status-highlights.html)
