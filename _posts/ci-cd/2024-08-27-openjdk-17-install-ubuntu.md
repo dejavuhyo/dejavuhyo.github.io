@@ -2,7 +2,7 @@
 title: Ubuntu에 OpenJDK 17 설치
 author: dejavuhyo
 date: 2024-08-27 08:35:00 +0900
-categories: [DevOps, Linux]
+categories: [DevOps, CI/CD]
 tags: [ubuntu-openjdk ubuntu-jdk, openjdk, openjdk-install]
 ---
 
