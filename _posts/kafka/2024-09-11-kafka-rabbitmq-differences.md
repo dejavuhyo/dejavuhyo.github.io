@@ -2,7 +2,7 @@
 title: Kafka와 RabbitMQ의 차이점
 author: dejavuhyo
 date: 2024-09-11 13:19:00 +0900
-categories: [Application, Architecture]
+categories: [DevOps, Kafka]
 tags: [kafka-rabbitmq, kafka, rabbitmq]
 ---
 
