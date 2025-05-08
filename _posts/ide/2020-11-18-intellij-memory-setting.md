@@ -2,7 +2,7 @@
 title: IntelliJ 메모리 설정
 author: dejavuhyo
 date: 2020-11-18 09:30:00 +0900
-categories: [Application, IDE]
+categories: [DevOps, IDE]
 tags: [intellij-memory, intellij-jvm, intellij, memory]
 ---
 

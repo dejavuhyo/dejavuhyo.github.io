@@ -2,7 +2,7 @@
 title: IntelliJ 마우스를 사용하지 않아도 되는 10개 위치
 author: dejavuhyo
 date: 2024-01-19 14:00:00 +0900
-categories: [Application, IDE]
+categories: [DevOps, IDE]
 tags: [intellij-shortcuts, intellij-keymap, 인텔리제이-단축키, 인텔리제이-키맵]
 ---
 

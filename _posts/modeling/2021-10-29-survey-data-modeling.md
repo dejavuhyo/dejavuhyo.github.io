@@ -2,7 +2,7 @@
 title: 설문조사 데이터 모델링
 author: dejavuhyo
 date: 2021-10-29 06:00:00 +0900
-categories: [Application, Modeling]
+categories: [DevOps, Modeling]
 tags: [survey-data-modeling, survey-modeling, survey-erd, 설문조사-데이터-모델링, 설문조사-모델링, 설문조사-erd]
 ---
 

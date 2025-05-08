@@ -2,7 +2,7 @@
 title: IntelliJ JSP 수정시 자동 업데이트
 author: dejavuhyo
 date: 2024-11-07 09:32:00 +0900
-categories: [Application, IDE]
+categories: [DevOps, IDE]
 tags: [intellij, intellij-tomcat, intellij-jsp, intellij-jsp-update, 인텔리제이-jsp-업데이트, jsp-업데이트]
 ---
 

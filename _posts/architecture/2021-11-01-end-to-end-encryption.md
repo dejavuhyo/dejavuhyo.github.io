@@ -2,7 +2,7 @@
 title: 종단 간 암호화
 author: dejavuhyo
 date: 2021-11-01 06:00:00 +0900
-categories: [Application, Architecture]
+categories: [DevOps, Architecture]
 tags: [end-to-end-encryption, e2ee, 종단-간-암호화, 암호화]
 ---
 

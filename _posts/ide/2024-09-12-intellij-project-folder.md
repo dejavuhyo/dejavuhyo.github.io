@@ -2,7 +2,7 @@
 title: IntelliJ 프로젝트 폴더가 보이지 않는 경우
 author: dejavuhyo
 date: 2024-09-12 10:54:00 +0900
-categories: [Application, IDE]
+categories: [DevOps, IDE]
 tags: [intellij-project, project-folder, intellij-filder, 인텔리제이-프로젝트, 인텔리제이-폴더]
 ---
 

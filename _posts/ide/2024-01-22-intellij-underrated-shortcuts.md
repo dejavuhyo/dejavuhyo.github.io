@@ -2,7 +2,7 @@
 title: IntelliJ 저평가된 단축키
 author: dejavuhyo
 date: 2024-01-22 13:00:00 +0900
-categories: [Application, IDE]
+categories: [DevOps, IDE]
 tags: [intellij-shortcuts, intellij-keymap, 인텔리제이-단축키, 인텔리제이-키맵]
 ---
 

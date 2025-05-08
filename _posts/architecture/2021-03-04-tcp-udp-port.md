@@ -2,7 +2,7 @@
 title: TCP/UDP 포트 목록
 author: dejavuhyo
 date: 2021-03-04 06:10:00 +0900
-categories: [Application, Architecture]
+categories: [DevOps, Architecture]
 tags: [tcp-udp-port, tcp-port, udp-port, tcp-포트, udp-포트]
 ---
 

@@ -2,7 +2,7 @@
 title: IntelliJ Maven Repository 경로 변경
 author: dejavuhyo
 date: 2022-05-11 17:20:00 +0900
-categories: [Application, IDE]
+categories: [DevOps, IDE]
 tags: [intellij-change-maven-repository, intellij-maven, maven-repository, intellij-maven-repository, 인텔리제이-메이븐-레파지토리, 메이븐-레파지토리-변경]
 ---
 

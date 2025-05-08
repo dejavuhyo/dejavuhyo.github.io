@@ -2,7 +2,7 @@
 title: IntelliJ Git Branch 변경
 author: dejavuhyo
 date: 2022-05-20 11:55:00 +0900
-categories: [Application, IDE]
+categories: [DevOps, IDE]
 tags: [intellij-change-git-branch, intellij-git-branch, change-git-branch, 인텔리제이-깃-브랜치-변경, 깃-브랜치-변경, 브랜치-변경]
 ---
 

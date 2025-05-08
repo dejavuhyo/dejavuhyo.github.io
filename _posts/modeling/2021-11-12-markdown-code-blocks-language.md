@@ -2,7 +2,7 @@
 title: Markdown 코드블록 언어의 종류
 author: dejavuhyo
 date: 2021-11-12 06:00:00 +0900
-categories: [Application, Modeling]
+categories: [DevOps, Modeling]
 tags: [markdown-code-blocks, code-blocks, code-blocks-language, 코드블록, 코드블록-언어]
 ---
 

@@ -2,7 +2,7 @@
 title: 키보드 특수문자 영어 명칭
 author: dejavuhyo
 date: 2017-09-14 14:10:00 +0900
-categories: [Application, Modeling]
+categories: [DevOps, Modeling]
 tags: [types-of-diagrams, uml, 다이어그램-종류, 다이어그램]
 ---
 

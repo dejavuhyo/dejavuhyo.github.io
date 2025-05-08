@@ -2,7 +2,7 @@
 title: IntelliJ v2020.3 GitLab 최초 Commit
 author: dejavuhyo
 date: 2021-03-16 06:00:00 +0900
-categories: [Application, IDE]
+categories: [DevOps, IDE]
 tags: [gitlab-commit, gitlab-origin-commit, intellij-gitlab-commit, 깃랩-커밋, 깃랩-origin-커밋, 인텔리제이-깃랩-커밋]
 ---
 

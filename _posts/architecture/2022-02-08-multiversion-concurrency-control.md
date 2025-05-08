@@ -2,7 +2,7 @@
 title: 다중 버전 동시성 제어
 author: dejavuhyo
 date: 2022-02-08 10:00:00 +0900
-categories: [Application, Architecture]
+categories: [DevOps, Architecture]
 tags: [multiversion-concurrency-control, mcc, mvcc, 다중-버전-동시성-제어]
 ---
 
