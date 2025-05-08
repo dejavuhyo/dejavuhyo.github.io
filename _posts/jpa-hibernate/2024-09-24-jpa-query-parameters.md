@@ -2,7 +2,7 @@
 title: JPA 쿼리 매개변수
 author: dejavuhyo
 date: 2024-09-24 09:12:00 +0900
-categories: [Application, IDE]
+categories: [Framework, JPA/Hibernate]
 tags: [jpa-query-parameter, jap-query, query-parameter, jpa-쿼리, 쿼리-매개변수]
 ---
 
