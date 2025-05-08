@@ -1,5 +1,5 @@
 ---
-title: Git 사용자 name과 email 변경
+title: Git 사용자 Name과 Email 변경
 author: dejavuhyo
 date: 2021-05-24 06:00:00 +0900
 categories: [DevOps, Git]
