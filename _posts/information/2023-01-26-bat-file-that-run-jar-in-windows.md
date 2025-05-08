@@ -2,7 +2,7 @@
 title: Windows에서 jar 실행하는 bat 파일
 author: dejavuhyo
 date: 2023-01-26 20:40:00 +0900
-categories: [DevOps, Architecture]
+categories: [DevOps, Information]
 tags: [windows-bat, windows-batch, batch-jar, bat-jar, bat, batch, bat-jar-run, bat-파일, jar-실행, 배치파일, 윈도우-배치파일]
 ---
 

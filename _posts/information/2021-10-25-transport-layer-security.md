@@ -2,7 +2,7 @@
 title: Transport Layer Security
 author: dejavuhyo
 date: 2021-10-25 10:30:00 +0900
-categories: [DevOps, Architecture]
+categories: [DevOps, Information]
 tags: [transport-layer-security, tls, 암호화-프로토콜]
 ---
 

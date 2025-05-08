@@ -2,7 +2,7 @@
 title: 오픈소스 소프트웨어 라이선스 종류
 author: dejavuhyo
 date: 2019-03-27 13:17:00 +0900
-categories: [DevOps, Architecture]
+categories: [DevOps, Information]
 tags: [open-source-software-licenses, software-licenses, open-source-licenses, 오픈소스-소프트웨어-라이선스, 소프트웨어-라이선스, 오픈소스-라이선스, 소프트웨어-라이선스]
 ---
 

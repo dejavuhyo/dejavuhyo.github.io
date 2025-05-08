@@ -2,7 +2,7 @@
 title: OpenStack 개념
 author: dejavuhyo
 date: 2021-02-08 19:50:00 +0900
-categories: [DevOps, Architecture]
+categories: [DevOps, Information]
 tags: [openstack-concept, openstack, openstack-개념]
 ---
 
