@@ -2,7 +2,7 @@
 title: IntelliJ Untrusted Server's Certificate 메시지
 author: dejavuhyo
 date: 2022-05-02 08:50:00 +0900
-categories: [Application, IDE]
+categories: [DevOps, IDE]
 tags: [intellij-untrusted-servers-certificate, untrusted-servers-certificate, intellij-certificate]
 ---
 

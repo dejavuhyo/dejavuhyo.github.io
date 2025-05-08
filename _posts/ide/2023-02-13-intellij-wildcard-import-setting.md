@@ -2,7 +2,7 @@
 title: IntelliJ 와일드카드 import 설정 변경
 author: dejavuhyo
 date: 2023-02-13 21:20:00 +0900
-categories: [Application, IDE]
+categories: [DevOps, IDE]
 tags: [intellij-import, intellij-wildcard, wildcard-import, import-setting, wildcard, import]
 ---
 

@@ -2,7 +2,7 @@
 title: Tesseract
 author: dejavuhyo
 date: 2021-09-29 06:00:00 +0900
-categories: [Application, OCR]
+categories: [DevOps, OCR]
 tags: [tesseract, ocr, 테서랙트, ocr-엔진]
 ---
 

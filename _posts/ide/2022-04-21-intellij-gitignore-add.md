@@ -2,7 +2,7 @@
 title: IntelliJ gitignore 추가
 author: dejavuhyo
 date: 2022-04-21 10:00:00 +0900
-categories: [Application, IDE]
+categories: [DevOps, IDE]
 tags: [intellij-gitignore-add, intellij-gitignore, gitignore, gitignore-add, 인텔리제이-gitignore-추가, gitignore-추가]
 ---
 

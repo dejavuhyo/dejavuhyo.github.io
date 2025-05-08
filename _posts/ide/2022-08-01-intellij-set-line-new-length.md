@@ -2,7 +2,7 @@
 title: IntelliJ 줄바꿈 길이 설정
 author: dejavuhyo
 date: 2022-08-01 09:15:00 +0900
-categories: [Application, IDE]
+categories: [DevOps, IDE]
 tags: [intellij-set-line, intellij-line-new-length, intellij-line-length, intellij-hard-wrap, hard-wrap, intellij-soft-wrap, soft-wrap, 인텔리제이-hard-wrap, 인텔리제이-soft-wrap, 인텔리제이-줄바꿈-길이-설정, 줄바꿈-길이-설정, 줄바꿈-길이, 줄바꿈-설정]
 ---
 

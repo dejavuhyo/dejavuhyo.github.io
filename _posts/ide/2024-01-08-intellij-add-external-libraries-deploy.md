@@ -2,7 +2,7 @@
 title: IntelliJ 외부 라이브러리 추가하여 배포
 author: dejavuhyo
 date: 2024-01-08 09:20:00 +0900
-categories: [Framework, Spring]
+categories: [DevOps, IDE]
 tags: [intellij-jar, intellij-maven-jar, build-artifacts, 외부-jar-배포, jar-배포, jar-추가-배포, 라이브러리-추가]
 ---
 

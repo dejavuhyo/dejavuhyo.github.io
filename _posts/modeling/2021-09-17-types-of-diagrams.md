@@ -2,7 +2,7 @@
 title: 다이어그램의 종류
 author: dejavuhyo
 date: 2021-09-17 06:00:00 +0900
-categories: [Application, Modeling]
+categories: [DevOps, Modeling]
 tags: [types-of-diagrams, uml, 다이어그램-종류, 다이어그램]
 ---
 

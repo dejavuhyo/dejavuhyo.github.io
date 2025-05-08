@@ -2,7 +2,7 @@
 title: 메시지 데이터 모델링
 author: dejavuhyo
 date: 2021-10-27 06:00:00 +0900
-categories: [Application, Modeling]
+categories: [DevOps, Modeling]
 tags: [message-data-modeling, message-modeling, message-erd, 메시지-데이터-모델링, 메시지-모델링, 메시지-erd]
 ---
 

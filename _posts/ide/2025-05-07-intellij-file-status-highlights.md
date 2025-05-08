@@ -2,7 +2,7 @@
 title: IntelliJ 파일 상태 하이라이트
 author: dejavuhyo
 date: 2025-05-07 11:45:00 +0900
-categories: [Application, IDE]
+categories: [DevOps, IDE]
 tags: [intellij-highlights, intellij-file, file-status-highlights, file-highlights, intellij-파일-상태, intellij-파일-하이라이트]
 ---
 
