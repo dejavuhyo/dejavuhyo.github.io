@@ -2,7 +2,7 @@
 title: Hibernate 기본 키로 UUID 생성
 author: dejavuhyo
 date: 2024-09-23 08:35:00 +0900
-categories: [Application, IDE]
+categories: [Framework, JPA/Hibernate]
 tags: [hibernate-primary-key, primary-key, hibernate-key, hibernate-uuid, 하이버네이트-기본-키]
 ---
 
