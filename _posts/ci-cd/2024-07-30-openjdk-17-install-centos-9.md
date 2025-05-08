@@ -2,7 +2,7 @@
 title: CentOS 9에 OpenJDK 17 설치
 author: dejavuhyo
 date: 2024-07-30 09:33:00 +0900
-categories: [DevOps, Linux]
+categories: [DevOps, CI/CD]
 tags: [centos-openjdk, centos-jdk, openjdk, openjdk-install]
 ---
 

@@ -2,7 +2,7 @@
 title: MySQL에서 날짜간의 간격 구하기
 author: dejavuhyo
 date: 2016-05-19 11:13:00 +0900
-categories: [Language, Java]
+categories: [Database, MySQL]
 tags: [interval-between-dates, interval-dates, 날짜-간격, mysql-날짜-간격]
 ---
 
