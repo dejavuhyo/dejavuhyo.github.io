@@ -6,13 +6,13 @@ order: 4
 
 ## 💻밥줄과 취미 사이 ːː 못 먹어도 고!🎸
 
+### 공대베짱이
+
 <a href="https://raw.githubusercontent.com/dejavuhyo/dejavuhyo.github.io/master/assets/img/favicons/android-chrome-192x192.png" title="me"><img src="https://raw.githubusercontent.com/dejavuhyo/dejavuhyo.github.io/master/assets/img/favicons/android-chrome-192x192.png" alt="공대베짱이" /></a>
 
-### ✨공대베짱이✨
+## Tech Stack
 
-## ⌨️Tech Stack🖱️
-
-### ✔️Language
+### Language
 
 <a href="https://img.shields.io/badge/OpenJDK-000000?style=for-the-badge&logo=openjdk&logoColor=white" title="OpenJDK"><img src="https://img.shields.io/badge/OpenJDK-000000?style=for-the-badge&logo=openjdk&logoColor=white" alt="OpenJDK" /></a>
 <a href="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" title="JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /></a>
@@ -22,7 +22,7 @@ order: 4
 <a href="https://img.shields.io/badge/AutoHotkey-334455?style=for-the-badge&logo=autohotkey&logoColor=white" title="AutoHotkey"><img src="https://img.shields.io/badge/AutoHotkey-334455?style=for-the-badge&logo=autohotkey&logoColor=white" alt="AutoHotkey" /></a>
 <a href="https://img.shields.io/badge/Jekyll-CC0000?style=for-the-badge&logo=jekyll&logoColor=white" title="Jekyll"><img src="https://img.shields.io/badge/Jekyll-CC0000?style=for-the-badge&logo=jekyll&logoColor=white" alt="Jekyll" /></a>
 
-### ✔️OS
+### OS
 
 <a href="https://img.shields.io/badge/Amazon%20AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" title="Amazon AWS"><img src="https://img.shields.io/badge/Amazon%20AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Amazon AWS" /></a>
 <a href="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white" title="Amazon EC2"><img src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white" alt="Amazon EC2" /></a>
@@ -33,7 +33,7 @@ order: 4
 <a href="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" title="Ubuntu"><img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu" /></a>
 <a href="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" title="Windows"><img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" /></a>
 
-### ✔️Framework
+### Framework
 
 <a href="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" title="Spring"><img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring" /></a>
 <a href="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" title="Spring Boot"><img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" /></a>
@@ -49,7 +49,7 @@ order: 4
 <a href="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" title="Vue.js"><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Node.js" /></a>
 <a href="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" title="HTML5"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" /></a>
 
-### ✔️Database
+### Database
 
 <a href="https://img.shields.io/badge/EnterpriseDB-FF3E00?style=for-the-badge&logo=enterprisedb&logoColor=white" title="EnterpriseDB"><img src="https://img.shields.io/badge/EnterpriseDB-FF3E00?style=for-the-badge&logo=enterprisedb&logoColor=white" alt="EnterpriseDB" /></a>
 <a href="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" title="PostgreSQL"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" /></a>
@@ -61,7 +61,7 @@ order: 4
 <a href="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" title="SQLite"><img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" /></a>
 <a href="https://img.shields.io/badge/KnowledgeBase-3E8DCC?style=for-the-badge&logo=knowledgebase&logoColor=white" title="KnowledgeBase"><img src="https://img.shields.io/badge/KnowledgeBase-3E8DCC?style=for-the-badge&logo=knowledgebase&logoColor=white" alt="KnowledgeBase" /></a>
 
-### ✔️DevOps
+### DevOps
 
 <a href="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" title="Docker"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" /></a>
 <a href="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" title="Jenkins"><img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins" /></a>
@@ -78,7 +78,7 @@ order: 4
 <a href="https://img.shields.io/badge/Semantic%20Web-005A9C?style=for-the-badge&logo=semanticweb&logoColor=white" title="Semantic Web"><img src="https://img.shields.io/badge/Semantic%20Web-005A9C?style=for-the-badge&logo=semanticweb&logoColor=white" alt="Semantic Web" /></a>
 <a href="https://img.shields.io/badge/Semantic%20UI-00B5AD?style=for-the-badge&logo=semanticui&logoColor=white" title="Semantic UI"><img src="https://img.shields.io/badge/Semantic%20UI-00B5AD?style=for-the-badge&logo=semanticui&logoColor=white" alt="Semantic UI" /></a>
 
-### ✔️SCM
+### SCM
 
 <a href="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" title="Git"><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" /></a>
 <a href="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" title="GitHub"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
@@ -86,7 +86,7 @@ order: 4
 <a href="https://img.shields.io/badge/Subversion-809CC9?style=for-the-badge&logo=subversion&logoColor=white" title="Subversion"><img src="https://img.shields.io/badge/Subversion-809CC9?style=for-the-badge&logo=subversion&logoColor=white" alt="Subversion" /></a>
 <a href="https://img.shields.io/badge/TeamCity-000000?style=for-the-badge&logo=teamcity&logoColor=white" title="TeamCity"><img src="https://img.shields.io/badge/TeamCity-000000?style=for-the-badge&logo=teamcity&logoColor=white" alt="TeamCity" /></a>
 
-### ✔️IDE
+### IDE
 
 <a href="https://img.shields.io/badge/JetBrains-000000?style=for-the-badge&logo=jetbrains&logoColor=white" title="JetBrains"><img src="https://img.shields.io/badge/JetBrains-000000?style=for-the-badge&logo=jetbrains&logoColor=white" alt="JetBrains" /></a>
 <a href="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white" title="IntelliJ IDEA"><img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white" alt="IntelliJ IDEA" /></a>
@@ -99,6 +99,6 @@ order: 4
 <a href="https://img.shields.io/badge/DBeaver-382923?style=for-the-badge&logo=dbeaver&logoColor=white" title="DBeaver"><img src="https://img.shields.io/badge/DBeaver-382923?style=for-the-badge&logo=dbeaver&logoColor=white" alt="DBeaver" /></a>
 <a href="https://img.shields.io/badge/FileZilla-BF0000?style=for-the-badge&logo=filezilla&logoColor=white" title="FileZilla"><img src="https://img.shields.io/badge/FileZilla-BF0000?style=for-the-badge&logo=filezilla&logoColor=white" alt="FileZilla" /></a>
 
-### ✔️AI
+### AI
 <a href="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" title="OpenAI"><img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" /></a>
 <a href="https://img.shields.io/badge/ChatBot-0066FF?style=for-the-badge&logo=chatbot&logoColor=white" title="ChatBot"><img src="https://img.shields.io/badge/ChatBot-0066FF?style=for-the-badge&logo=chatbot&logoColor=white" alt="ChatBot" /></a>
