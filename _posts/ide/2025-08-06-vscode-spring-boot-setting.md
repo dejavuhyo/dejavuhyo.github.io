@@ -36,14 +36,14 @@ Spring Initializr 확장 프로그램을 사용하면 종속성을 검색하고 
 
 확장 프로그램을 설치한 후 명령 팔레트(`Ctrl + Shift + P`)를 열고 Spring Initializr을 입력하여 Maven이나 Gradle 프로젝트를 생성한 다음 마법사를 따른다.
 
-<iframe src="https://code.visualstudio.com/assets/docs/java/java-spring-boot/spring-initializr.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://code.visualstudio.com/assets/docs/java/java-spring-boot/spring-initializr.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 4. 프로젝트 편집
 Spring Initializr 확장 기능을 사용하면 새 Spring Boot 프로젝트를 생성한 후 종속성을 추가할 수 있다.
 
 `pom.xml` 파일로 이동하여 마우스 오른쪽 버튼을 클릭하고 '스타터 추가...'를 선택한다. 드롭다운 메뉴에 이미 추가된 종속성이 `√`로 시작하는 항목으로 표시된다. 프로젝트에 추가할 다른 종속성을 검색하거나 기존 종속성을 클릭하여 제거할 수 있다.
 
-<iframe src="https://code.visualstudio.com/assets/docs/java/java-spring-boot/spring-initializr-add-starters.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://code.visualstudio.com/assets/docs/java/java-spring-boot/spring-initializr-add-starters.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 5. 애플리케이션 개발
 [Spring Boot Tools](https://marketplace.visualstudio.com/items?itemName=vmware.vscode-spring-boot) 확장 기능은 Spring Boot `application.properties`, `application.yml` 및 `.java` 파일 작업을 위한 풍부한 언어 지원을 제공한다.
@@ -66,12 +66,12 @@ Spring Initializr 확장 기능을 사용하면 새 Spring Boot 프로젝트를 
 
 아래는 라이브 애플리케이션 정보를 보여주는 예이다.
 
-<iframe src="https://code.visualstudio.com/assets/docs/java/java-spring-boot/spring-live-info.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://code.visualstudio.com/assets/docs/java/java-spring-boot/spring-live-info.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 6. 애플리케이션 실행
 `F5`를 사용하여 애플리케이션을 실행하는 것 외에도 [Spring Boot Dashboard](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-boot-dashboard) 확장 기능이 있다. 이를 통해 작업 공간에서 사용 가능한 모든 Spring Boot 프로젝트를 보고 관리할 수 있을 뿐만 아니라 프로젝트를 빠르게 시작, 중지 또는 디버깅할 수 있다.
 
-<iframe src="https://code.visualstudio.com/assets/docs/java/java-spring-boot/spring-dashboard.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://code.visualstudio.com/assets/docs/java/java-spring-boot/spring-dashboard.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## [출처 및 참고]
 * [https://code.visualstudio.com/docs/java/java-spring-boot](https://code.visualstudio.com/docs/java/java-spring-boot)
