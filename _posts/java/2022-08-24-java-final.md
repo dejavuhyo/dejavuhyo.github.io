@@ -10,11 +10,11 @@ tags: [java-final, final, final-classes, final-methods, final-variables, 자바-
 상속을 통해 기존 코드를 재사용할 수 있지만 때때로 다양한 이유로 확장성에 대한 제한을 설정 해야한다. final 키워드를 사용하면 가능하다.
 
 ## 2. Final Classes
-final로 표시된 수업은 확장할 수 없다. Java 코어 라이브러리의 코드를 보면 거기에 많은 final 클래스가 있다. 한 가지 예는 String 클래스이다.
+final로 표시된 클래스는 확장할 수 없다. Java 코어 라이브러리의 코드를 보면 거기에 많은 final 클래스가 많이 있다. 한 가지 예는 String 클래스이다.
 
-String 클래스를 확장하고 해당 메서드를 재정의하고 모든 String 인스턴스를 특정 String 하위 클래스의 인스턴스로 대체 할 수 있는 상황이 있다.
+String 클래스를 확장하고, 해당 메서드를 재정의하고, 모든 String 인스턴스를 특정 String 하위 클래스의 인스턴스로 대체 할 수 있는 상황이 있다.
 
-그러면 String 개체에 대한 연산 결과를 예측할 수 없게 된다. 그리고 String 클래스가 모든 곳에서 사용된다는 점을 감안하면 받아들일 수 없다. 그래서 String 클래스는 final 로 표시된다.
+그러면 String 개체에 대한 연산 결과를 예측할 수 없게 된다. 그리고 String 클래스가 모든 곳에서 사용된다는 점을 감안하면 받아들일 수 없다. 그래서 String 클래스는 final로 표시된다.
 
 final 클래스에서 상속을 시도하면 컴파일러 오류가 발생한다. 이를 보여주기 위해 final 클래스인 Cat을 생성한다.
 
