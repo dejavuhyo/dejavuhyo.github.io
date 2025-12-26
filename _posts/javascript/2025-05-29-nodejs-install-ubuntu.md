@@ -29,7 +29,7 @@ sudo -E bash nodesource_setup.sh
 
 ### 1) N|Solid
 
-* N|Solid 설치
+* `N|Solid` 설치
 
 ```shell
 sudo apt-get install -y nsolid
