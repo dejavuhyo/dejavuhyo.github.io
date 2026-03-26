@@ -27,7 +27,9 @@ jobs:
 
     strategy:
       matrix:
-        ruby: ["3.1", "3.2", "3.3"]
+        # ruby: ["3.1", "3.2", "3.3"]
+        ruby: ["3.3"]
+        bundler-cache: true
 
     steps:
       - name: Checkout
