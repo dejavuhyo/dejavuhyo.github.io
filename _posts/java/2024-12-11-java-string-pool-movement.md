@@ -1,9 +1,9 @@
 ---
-title: Java String Pool
+title: Java String Pool 동작
 author: dejavuhyo
 date: 2024-12-11 10:00:00 +0900
 categories: [Language, Java]
-tags: [java-string, string-pool, 자바-스트링, 스트링-풀]
+tags: [java-string, string-pool, 자바-스트링, 스트링-풀, 스트링-풀-동작]
 ---
 
 ## 1. String Pool

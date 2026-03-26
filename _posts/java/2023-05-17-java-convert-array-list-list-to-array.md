@@ -1,5 +1,5 @@
 ---
-title: Java Array에서 List 변환
+title: Java Array에서 List 및 List에서 Array로 변환
 author: dejavuhyo
 date: 2023-05-17 09:50:00 +0900
 categories: [Language, Java]
