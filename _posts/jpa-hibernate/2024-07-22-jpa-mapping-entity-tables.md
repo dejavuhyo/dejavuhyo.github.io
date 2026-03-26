@@ -3,7 +3,7 @@ title: JPA 단일 엔터티 여러 테이블 매핑
 author: dejavuhyo
 date: 2024-07-22 08:38:00 +0900
 categories: [Framework, JPA/Hibernate]
-tags: [jpa-Entity, mapping-entity, tables-mapping, 엔터티-테이블-매핑, 테이블-매핑]
+tags: [jpa, entity, mapping-entity, tables-mapping, 엔터티-테이블-매핑, 테이블-매핑]
 ---
 
 ## 1. 테이블에 매핑

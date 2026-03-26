@@ -3,7 +3,7 @@ title: JPA Entity Equality
 author: dejavuhyo
 date: 2024-07-02 11:24:00 +0900
 categories: [Framework, JPA/Hibernate]
-tags: [jpa-entity, entity-equality, 엔티티-동등성]
+tags: [jpa, entity, entity-equality, 엔티티-동등성]
 ---
 
 ## 1. 고려사항
