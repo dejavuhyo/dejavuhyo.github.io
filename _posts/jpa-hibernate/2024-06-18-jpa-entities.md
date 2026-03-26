@@ -3,7 +3,7 @@ title: JPA Entities
 author: dejavuhyo
 date: 2024-06-18 16:36:00 +0900
 categories: [Framework, JPA/Hibernate]
-tags: [jpa, jpa-entities, jpa-엔터티]
+tags: [jpa, entities, jpa-엔터티]
 ---
 
 ## 1. Entity

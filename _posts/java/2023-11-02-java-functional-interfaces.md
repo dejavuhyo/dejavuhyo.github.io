@@ -1,5 +1,5 @@
 ---
-title: Java 8 Functional 인터페이스
+title: Java Functional 인터페이스
 author: dejavuhyo
 date: 2023-11-02 21:40:00 +0900
 categories: [Language, Java]
