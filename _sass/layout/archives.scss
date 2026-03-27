@@ -1,16 +1,9 @@
-@use '../abstracts/breakpoints' as bp;
-@use '../abstracts/placeholders';
+/*
+  Style for Archives
+*/
 
 #archives {
   letter-spacing: 0.03rem;
-
-  @include bp.lt(bp.get(sm)) {
-    margin-top: -1rem;
-
-    ul {
-      letter-spacing: 0;
-    }
-  }
 
   $timeline-width: 4px;
 
@@ -65,8 +58,9 @@
     li {
       font-size: 1.1rem;
       line-height: 3rem;
-
-      @extend %text-ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
 
       &:nth-child(odd) {
         background-color: var(--main-bg, #ffffff);
@@ -138,3 +132,13 @@
     }
   }
 } /* #archives */
+
+@media all and (max-width: 576px) {
+  #archives {
+    margin-top: -1rem;
+
+    ul {
+      letter-spacing: 0;
+    }
+  }
+}

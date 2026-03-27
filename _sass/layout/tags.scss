@@ -1,4 +1,6 @@
-@use '../abstracts/breakpoints' as bp;
+/*
+  Styles for Tab Tags
+*/
 
 .tag {
   border-radius: 0.7em;
@@ -13,11 +15,5 @@
     margin-left: 0.6em;
     font-size: 0.7em;
     font-family: Oswald, sans-serif;
-  }
-}
-
-#tags {
-  @include bp.lt(bp.get(lg)) {
-    justify-content: center !important;
   }
 }
