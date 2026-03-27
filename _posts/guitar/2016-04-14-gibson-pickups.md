@@ -37,4 +37,4 @@ tags: [gibson-pickups, humbucker-pickups, guitar-pickups, 깁슨-픽업, 험버�
 ![gibson-pickups2](/assets/img/2016-04-14-gibson-pickups/gibson-pickups2.jpg)
 
 ## [출처 및 참고]
-* [http://www.guitarparadise.co.kr/gp200901/board.php?board=gpreview&command=body&no=12](http://www.guitarparadise.co.kr/gp200901/board.php?board=gpreview&command=body&no=12)
+* http://www.guitarparadise.co.kr/gp200901/board.php?board=gpreview&command=body&no=12

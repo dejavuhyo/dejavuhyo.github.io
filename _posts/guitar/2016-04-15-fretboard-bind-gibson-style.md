@@ -20,4 +20,4 @@ tags: [fretboard-bind, 깁슨-프렛보드, 깁슨-바인딩-깃, 바인딩-깃]
 ![schecter-style](/assets/img/2016-04-15-fretboard-bind-gibson-style/schecter-style.png)
 
 ## [출처 및 참고]
-* [http://www.mule.co.kr/community/bbscontent.aspx?idx=5357474&page=1&sort=55&searchword=&searchregion=1](http://www.mule.co.kr/community/bbscontent.aspx?idx=5357474&page=1&sort=55&searchword=&searchregion=1)
+* http://www.mule.co.kr/community/bbscontent.aspx?idx=5357474&page=1&sort=55&searchword=&searchregion=1

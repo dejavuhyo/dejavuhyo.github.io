@@ -36,4 +36,4 @@ tags: [alnico-pickups, guitar-pickups, 알니코-픽업, 기타-픽업]
 현재 펜더는 각각 기타의 특성에 맞게 알니코 픽업을 선택해서 쓰고 있으며 아메리칸 딜럭스 스트라토캐스터의 경우 미묘한 특성을 최대한 활용하기 위해 넥 픽업에 알니코 III, 미들 픽업에 알니코 II, 브릿지 픽업에 알니코 V를 조합하여 사용하고 있다.
 
 ## [출처 및 참고]
-* [http://www.guitarnet.co.kr/n/product/product_brand_main_article_contents.php?idx=&at_idx=140&page=3](http://www.guitarnet.co.kr/n/product/product_brand_main_article_contents.php?idx=&at_idx=140&page=3)
+* http://www.guitarnet.co.kr/n/product/product_brand_main_article_contents.php?idx=&at_idx=140&page=3

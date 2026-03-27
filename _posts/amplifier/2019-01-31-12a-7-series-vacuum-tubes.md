@@ -96,4 +96,4 @@ tags: [vacuum-tube, transistor, tube-amplifier, transistor-amplifier, 진공관-
 한편 영국 브리마의 CV4068은 군용관으로 12AU7과 12AY7 사이의 증폭도를 갖고 있는데, 12AU7이나 12AY7의 고신뢰관으로 분류되기도 한다.
 
 ## [출처 및 참고]
-* [http://analogstyle.co.kr/archives/4257](http://analogstyle.co.kr/archives/4257)
+* http://analogstyle.co.kr/archives/4257
