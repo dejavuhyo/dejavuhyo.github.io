@@ -6,27 +6,44 @@ categories: [DevOps, Docker]
 tags: [ubuntu-docker-compose, docker-compose, 우분투-도커-컴포즈, 도커-컴포즈]
 ---
 
-## 1. 다운로드 및 설치
-Docker Compose를 사용하려면 먼저 Docker Engine을 설치 하고 제대로 실행되는지 확인해야 한다. Docker가 실행되면 Compose를 다운로드하고 YAML 파일을 만들어 애플리케이션을 구성한다.
+## 1. 패키지 인덱스 업데이트 및 Docker Compose 최신 버전 설치
 
-다음 명령을 입력하여 공식 GitHub 저장소에서 Docker Compose의 최신 버전을 다운로드한다.
+Ubuntu 및 Debian의 경우 다음 명령을 실행한다.
 
 ```shell
-$ sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+$ sudo apt-get update
+$ sudo apt-get install docker-compose-plugin
 ```
 
-## 2. 실행 권한 부여
+RPM 기반 배포판의 경우 다음 명령을 실행한다.
 
 ```shell
-$ sudo chmod +x /usr/local/bin/docker-compose
+$ sudo yum update
+$ sudo yum install docker-compose-plugin
 ```
 
-## 3. 설치 확인
+## 2. 설치 확인
 
 ```shell
-$ docker-compose --version
+$ docker compose version
+```
+
+## 3. Docker Compose 업데이트
+Docker Compose 플러그인을 업데이트하려면 다음 명령을 실행한다.
+
+Ubuntu 및 Debian의 경우 다음 명령을 실행한다.
+
+```shell
+$ sudo apt-get update
+$ sudo apt-get install docker-compose-plugin
+```
+
+RPM 기반 배포판의 경우 다음 명령을 실행한다.
+
+```shell
+$ sudo yum update
+$ sudo yum install docker-compose-plugin
 ```
 
 ## [출처 및 참고]
-* [https://medium.com/@tomer.klein/step-by-step-tutorial-installing-docker-and-docker-compose-on-ubuntu-a98a1b7aaed0](https://medium.com/@tomer.klein/step-by-step-tutorial-installing-docker-and-docker-compose-on-ubuntu-a98a1b7aaed0)
-* [https://www.ionos.com/digitalguide/server/configuration/docker-compose-on-ubuntu/](https://www.ionos.com/digitalguide/server/configuration/docker-compose-on-ubuntu/)
+* [https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/)
