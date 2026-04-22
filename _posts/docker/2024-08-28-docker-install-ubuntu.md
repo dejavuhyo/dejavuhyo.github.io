@@ -6,34 +6,51 @@ categories: [DevOps, Docker]
 tags: [ubuntu-docker, docker, ubuntu-docker-install, docker-install]
 ---
 
-## 1. 이전 버전 제거
+## 1. 충돌하는 모든 패키지 제거
 
 ```shell
-$ for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+$ sudo apt remove $(dpkg --get-selections docker.io docker-compose docker-compose-v2 docker-doc podman-docker containerd runc | cut -f1)
 ```
 
-## 2. apt 저장소를 사용하여 설치
+## 2. apt 저장소 설정
 
 ```shell
 # Add Docker's official GPG key:
-$ sudo apt-get update
-$ sudo apt-get install ca-certificates curl
+$ sudo apt update
+$ sudo apt install ca-certificates curl
 $ sudo install -m 0755 -d /etc/apt/keyrings
 $ sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 $ sudo chmod a+r /etc/apt/keyrings/docker.asc
 
 # Add the repository to Apt sources:
-$ echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
-  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-$ sudo apt-get update
+$ sudo tee /etc/apt/sources.list.d/docker.sources <<EOF
+Types: deb
+URIs: https://download.docker.com/linux/ubuntu
+Suites: $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}")
+Components: stable
+Architectures: $(dpkg --print-architecture)
+Signed-By: /etc/apt/keyrings/docker.asc
+EOF
+
+$ sudo apt update
 ```
 
-## 3. Docker 엔진 설치
+## 3. Docker 패키지 설치
 
 ```shell
-$ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+$ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
+Docker 서비스는 설치 후 자동으로 시작된다. Docker가 실행 중인지 확인하려면 다음 명령어를 사용한다.
+
+```shell
+$ sudo systemctl status docker
+```
+
+일부 시스템에서는 이 기능이 비활성화되어 있을 수 있으며, 수동으로 시작해야 할 수 있다.
+
+```shell
+$ sudo systemctl start docker
 ```
 
 ### 4. Docker Engine 설치 성공 확인
