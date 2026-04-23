@@ -12,7 +12,7 @@ tags: [linux-nohup, nohup, 리눅스-nohup]
 ## 2. 사용예제
 nohup 명령을 이용할 때 포어그라운드로 실행하게 되면 다른 작업을 처리할 수 없기 때문에 `&`를 이용하여 백그라운드로 실행하는 것이 좋다.
 
-```shell
+```bash
 # test.sh 실행, 표준 출력이 nohup.out 으로 저장
 $ nohup test.sh &
 

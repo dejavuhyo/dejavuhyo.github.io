@@ -11,7 +11,7 @@ tags: [linux-waiting-for-file-creation, linux-file-creation, linux-waiting, linu
 
 ## 2. 사용 예제
 
-```shell
+```bash
 #!/bin/bash
 
 vFileLocation="s3://bucket-name/sample.file"

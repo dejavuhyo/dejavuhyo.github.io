@@ -15,7 +15,7 @@ ulimit은 사용자가 사용할 수 있는 자원의 한계를 확인하고 설
 
 ### 1) Soft limit
 
-```shell
+```bash
 $ ulimit -a
 core file size          (blocks, -c) 0
 data seg size           (kbytes, -d) unlimited
@@ -37,7 +37,7 @@ file locks                      (-x) unlimited
 
 ### 2) hard limit
 
-```shell
+```bash
 $ ulimit -aH
 core file size          (blocks, -c) unlimited
 data seg size           (kbytes, -d) unlimited
@@ -60,7 +60,7 @@ file locks                      (-x) unlimited
 ## 3. 영구 설정 변경
 `/etc/security/limits.conf` 파일을 수정하여 영구적인 설정을 변경할 수 있다.
 
-```shell
+```bash
 $ cat /etc/security/limits.conf
 # /etc/security/limits.conf
 ```

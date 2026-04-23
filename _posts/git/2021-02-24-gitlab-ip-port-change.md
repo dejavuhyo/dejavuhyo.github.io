@@ -8,7 +8,7 @@ tags: [gitlab-ip-change, gitlab-port-change, ip-port-change, gitlab-ip-변경, g
 
 ## 1. 편집
 
-```shell
+```bash
 [root@localhost ~]# vi /etc/gitlab/gitlab.rb 
 ```
 
@@ -53,7 +53,7 @@ unicorn['port'] = 8001
 
 ## 3. 설정 적용
 
-```shell
+```bash
 [root@localhost ~]# gitlab-ctl reconfigure
 ```
 
@@ -61,19 +61,19 @@ unicorn['port'] = 8001
 
 ### 1) 포트 추가
 
-```shell
+```bash
 [root@localhost ~]# firewall-cmd --permanent --zone=public --add-port=8001/tcp
 ```
 
 ### 2) Open 확인
 
-```shell
+```bash
 [root@localhost ~]# firewall-cmd --list-all
 ```
 
 ### 3) 방화벽 재시작
 
-```shell
+```bash
 [root@localhost ~]# systemctl restart firewalld
 ```
 

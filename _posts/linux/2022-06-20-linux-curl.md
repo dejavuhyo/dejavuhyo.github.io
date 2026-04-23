@@ -31,7 +31,7 @@ curl은 여러 프로토콜을 이용하여 네트워크 명령을 전송하는 
 
 ## 3. 사용예제
 
-```shell
+```bash
 # 파일 다운로드
 $ curl -O http://apache.mirror.cdnetworks.com/oozie/4.3.1/oozie-4.3.1.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -78,21 +78,21 @@ $ curl -X POST -d "{\"key\":\"val\"}" http://127.0.0.1
 
 ### 1) 프록시 설정
 
-```shell
+```bash
 $ curl -x proxy_host:proxy_port http://target-url
 ```
 
 ### 2) HTTP 인증
 특정 사이트에서 로그인 정보를 필요로 하는 경우 `-u`, `--user` 옵션을 이용해서 로그인 할 수 있다.
 
-```shell
+```bash
 $ curl -X POST --user "user:password" http://airflow/api/v1/dags/sample/dagRuns
 ```
 
 ### 3) Kerberos 인증 사용
 Kerberos 인증을 `curl` 명령으로 사용하는 경우에는 `--negotiate` 옵션을 이용한다.
 
-```shell
+```bash
 # --negotiate 옵션을 사용하기 전에 kinit으로 Kerberos 인증을 해야 함
 # -u: 옵션은 커버로스 인증을 사용
 $ curl --negotiate -u: -sS -L -X GET -k https://name-node.com:8090
@@ -103,7 +103,7 @@ curl을 사용하여 실제로 전달한 정보를 파일로 저장하여 확인
 
 form을 이용하여 전달한 데이터가 실제로 어떻게 전달되는 지 확인하고, 수정할 때 유용하게 사용할 수 있다.
 
-```shell
+```bash
 # sample.log 파일에 송/수신 저장
 curl --trace-ascii sample.log www.google.com
 
@@ -135,7 +135,7 @@ $ cat sample.log
 ### 5) 파일 업로드
 파일을 직접 업로드 하는 경우 `--data-binary` 옵션을 이용한다.
 
-```shell
+```bash
 $ curl --location --request PUT 'https://url' \
 --header 'Content-Type: application/octet-stream'\
 --data-binary "@../user-file"
@@ -144,7 +144,7 @@ $ curl --location --request PUT 'https://url' \
 ### 6) HTTP/2 stream 0 was not closed cleanly: PROTOCOL_ERROR (err 1) 오류
 curl을 이용할 때 이런 오류가 발생하는 경우에는 다음과 같이 http1.1 옵션을 추가한다.
 
-```shell
+```bash
 $ curl --location --request PUT 'https://urlt' \
 --header 'Content-Type: application/octet-stream' --http1.1 \
 --data-binary "@../user-file"

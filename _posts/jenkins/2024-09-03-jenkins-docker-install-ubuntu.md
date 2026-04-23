@@ -8,7 +8,7 @@ tags: [ubuntu-jenkins, jenkins-docker, jenkins-install, 우분투-젠킨스, 젠
 
 ## 1. Jenkins Docker 이미지 pull
 
-```shell
+```bash
 $ sudo docker pull jenkins/jenkins:lts
 ```
 
@@ -16,7 +16,7 @@ $ sudo docker pull jenkins/jenkins:lts
 
 ### 1) 이미지 실행
 
-```shell
+```bash
 $ sudo docker run --name jenkins -p 8080:8080 -p 50000:50000 --restart=on-failure -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
 ```
 
@@ -42,7 +42,7 @@ services:
 
 ### 2) docker-compose 실행
 
-```shell
+```bash
 $ sudo docker-compose up -d
 ```
 
@@ -56,13 +56,13 @@ http://127.0.0.1:8080
 
 ### 1) jenkins 컨테이너 접속
 
-```shell
+```bash
 $ sudo docker exec -it jenkins /bin/bash
 ```
 
 ### 2) Administrator password 확인
 
-```shell
+```bash
 root@12a53e47f651:/# cat /var/jenkins_home/secrets/initialAdminPassword
 ```
 

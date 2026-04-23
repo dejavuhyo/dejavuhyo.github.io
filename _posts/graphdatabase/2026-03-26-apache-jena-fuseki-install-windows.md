@@ -19,7 +19,7 @@ Apache Jena [다운로드](https://jena.apache.org/download/index.cgi) 사이트
 
 아래 명령어로 fuseki 서버를 실행시킨다.
 
-```shell
+```bash
 fuseki-server.bat
 ```
 

@@ -11,7 +11,7 @@ tags: [linux-lynx, lynx, 리눅스-lynx, 리눅스]
 
 ## 2. 사용예제
 
-```shell
+```bash
 $ lynx http://www.naver.com
 ```
 

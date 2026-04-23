@@ -17,7 +17,7 @@ tags: [linux-head, head, 리눅스-head, 리눅스-헤드]
 
 ## 3. 사용예제
 
-```shell
+```bash
 $ cat sample.txt
 one
 two

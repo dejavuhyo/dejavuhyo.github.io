@@ -21,14 +21,14 @@ tags: [install-nginx, nginx, windows-nginx, 윈도우-nginx-설치, nginx-설치
 ### 2) 명령 프롬프트
 nginx.exe 파일이 있는 위치에서 명령어를 실행시킨다.
 
-```shell
+```bash
 > nginx
 ```
 
 ### 3) 장상 종료
 nginx.exe 파일이 있는 위치에서 명령어를 실행시킨다.
 
-```shell
+```bash
 > nginx -s quit
 ```
 

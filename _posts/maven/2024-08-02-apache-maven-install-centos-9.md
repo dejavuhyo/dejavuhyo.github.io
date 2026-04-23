@@ -11,13 +11,13 @@ tags: [maven, apache-maven, centos-maven, maven-install, 메이븐-설치]
 
 wget 명령을 사용하여 Maven을 다운로드할 수 있다. 시스템에 wget이 설치되어 있지 않으면
 
-```shell
+```bash
 $ sudo dnf install wget
 ```
 
 또는
 
-```shell
+```bash
 $ sudo dnf install wget
 ```
 
@@ -25,7 +25,7 @@ $ sudo dnf install wget
 
 그런 다음 다음을 사용하여 Maven을 다운로드 한다.
 
-```shell
+```bash
 $ cd /opt
 $ wget https://dlcdn.apache.org/maven/maven-3/3.9.8/binaries/apache-maven-3.9.8-bin.tar.gz
 ```
@@ -33,14 +33,14 @@ $ wget https://dlcdn.apache.org/maven/maven-3/3.9.8/binaries/apache-maven-3.9.8-
 ## 2. Maven 추출 및 설치
 다운로드 후 Maven 아카이브를 `/opt` 디렉토리나 원하는 다른 디렉토리에 추출한다.
 
-```shell
+```bash
 $ tar zxvf apache-maven-3.9.8-bin.tar.gz
 ```
 
 ## 3. 환경 변수 구성
 Maven을 전역적으로 사용하려면 `M2_HOME` 및 `PATH` 환경 변수를 설정해야 한다. `/etc/profile.d` 디렉토리에 새 파일을 만들어서 할 수 있다.
 
-```shell
+```bash
 $ sudo vi /etc/profile.d/maven.sh
 ```
 
@@ -53,7 +53,7 @@ export PATH=${M2_HOME}/bin:${PATH}
 
 스크립트를 실행 가능하게 만들고 새로운 환경 변수를 로드한다.
 
-```shell
+```bash
 $ sudo chmod +x /etc/profile.d/maven.sh
 $ source /etc/profile.d/maven.sh
 ```
@@ -61,7 +61,7 @@ $ source /etc/profile.d/maven.sh
 ## 4. 설치 확인
 Maven이 올바르게 설치되었는지 확인한다.
 
-```shell
+```bash
 $ mvn -version
 ```
 

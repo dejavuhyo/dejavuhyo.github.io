@@ -9,7 +9,7 @@ tags: [start-nginx, stop-nginx, restart-nginx, nginx, nginx-command-line, comman
 ## 1. 형태
 Nginx를 시작하려면 실행 파일을 실행한다. Nginx가 시작되면 `-s` 매개 변수를 사용하여 실행 파일을 호출하여 제어할 수 있다. 다음 구문을 사용한다.
 
-```shell
+```bash
 $ nginx -s signal
 ```
 
@@ -25,13 +25,13 @@ $ nginx -s signal
 
 ## 2. 시작
 
-```shell
+```bash
 $ nginx
 ```
 
 권한이 없거나, 이미 포트가 오픈되어 있으면 아래 에러가 발생한다.
 
-```shell
+```bash
 # permission denied
 $ nginx
 nginx: [alert] could not open error log file: open() "/var/log/nginx/error.log" failed (13: Permission denied)
@@ -46,7 +46,7 @@ nginx: [emerg] still could not bind()
 ## 3. 중지
 worker 프로세스가 현재 요청의 서비스를 마칠 때까지 기다리는 동안 nginx 프로세스를 중지하기 위해 다음 명령을 실행할 수 있다.
 
-```shell
+```bash
 # 연결 중인 컨넥션이 모두 완료될 때까지 기다린 후 종료
 $ nginx -s quit
 
@@ -59,7 +59,7 @@ $ nginx -s stop
 ## 4. 구성 다시 로드
 구성을 다시 로드하는 명령이 nginx로 전송되거나 nginx가 다시 시작될 때까지 구성 파일의 변경 사항이 적용되지 않는다. 구성을 다시 로드하려면 다음을 실행한다.
 
-```shell
+```bash
 $ nginx -s reload
 ```
 

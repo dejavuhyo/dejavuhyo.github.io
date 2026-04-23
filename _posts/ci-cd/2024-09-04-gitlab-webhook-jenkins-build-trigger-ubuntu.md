@@ -133,25 +133,25 @@ Docker로 설치한 Jenkins 컨테이너 안에 Docker Build를 위해 Docker를
 
 ### 1) Docker Container 접속
 
-```shell
+```bash
 $ sudo docker exec -it jenkins /bin/bash
 ```
 
 ### 2) Docker 설치를 위한 Shell 다운로드
 
-```shell
+```bash
 root@1dbb561762de:/# curl -fsSL get.docker.com -o get-docker.sh
 ```
 
 ### 3) Docker install shell script 실행
 
-```shell
+```bash
 root@1dbb561762de:/# sh get-docker.sh
 ```
 
 ### 4) Docker 설치 확인
 
-```shell
+```bash
 root@1dbb561762de:/# docker --version
 Docker version 27.1.0, build 6312585
 ```

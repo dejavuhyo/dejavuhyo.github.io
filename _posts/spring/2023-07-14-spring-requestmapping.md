@@ -21,7 +21,7 @@ public String getFoosBySimplePath() {
 
  curl 명령으로 이 매핑을 테스트하려면 다음을 실행한다.
 
-```shell
+```bash
 curl -i http://localhost:8080/ex/foos
 ```
 
@@ -40,7 +40,7 @@ public String postFoos() {
 
 curl 명령을 통해 POST를 테스트하려면 다음을 실행한다.
 
-```shell
+```bash
 curl -i -X POST http://localhost:8080/ex/foos
 ```
 
@@ -59,7 +59,7 @@ public String getFoosWithHeader() {
 
 테스트하기 위해 curl 헤더 지원을 사용한다.
 
-```shell
+```bash
 curl -i -H "key:val" http://localhost:8080/ex/foos
 ```
 
@@ -75,7 +75,7 @@ public String getFoosWithHeaders() {
 
 다음 명령으로 테스트할 수 있다.
 
-```shell
+```bash
 curl -i -H "key1:val1" -H "key2:val2" http://localhost:8080/ex/foos
 ```
 
@@ -96,7 +96,7 @@ public String getFoosAsJsonFromBrowser() {
 
 Accept 헤더를 정의하는 이 방법에 대한 일치는 유연하다. equals 대신에 contains를 사용하므로 다음과 같은 요청은 여전히 ​​올바르게 매핑된다.
 
-```shell
+```bash
 curl -H "Accept:application/json,text/html" http://localhost:8080/ex/foos
 ```
 
@@ -114,7 +114,7 @@ public String getFoosAsJsonFromREST() {
 
 이것은 같은 방식으로 curl을 통해 소비된다.
 
-```shell
+```bash
 curl -H "Accept:application/json" http://localhost:8080/ex/foos
 ```
 
@@ -164,7 +164,7 @@ public String getFoosBySimplePathWithPathVariable(@PathVariable("id") long id) {
 
 curl로 테스트할 수 있다.
 
-```shell
+```bash
 curl http://localhost:8080/ex/foos/1
 ```
 
@@ -197,7 +197,7 @@ public String getFoosBySimplePathWithPathVariables(@PathVariable long fooid, @Pa
 
 이것은 같은 방식으로 컬을 사용하여 쉽게 테스트할 수 있다.
 
-```shell
+```bash
 curl http://localhost:8080/ex/foos/1/bar/2
 ```
 
@@ -247,7 +247,7 @@ public String getBarBySimplePathWithRequestParam(@RequestParam("id") long id) {
 
 id 매개변수로 요청을 보내려면 curl에서 매개변수 지원을 사용한다.
 
-```shell
+```bash
 curl -i -d id=100 http://localhost:8080/ex/bars
 ```
 
@@ -298,7 +298,7 @@ public String getFoosOrBarsByPath() {
 
 이제 이 두 컬 명령은 모두 동일한 메서드에 도달해야 한다.
 
-```shell
+```bash
 curl -i http://localhost:8080/ex/advanced/foos
 curl -i http://localhost:8080/ex/advanced/bars
 ```
@@ -316,7 +316,7 @@ public String putAndPostFoos() {
 
 curl을 사용하면 이제 두 가지 모두 동일한 방법을 사용한다.
 
-```shell
+```bash
 curl -i -X POST http://localhost:8080/ex/foos/multiple
 curl -i -X PUT http://localhost:8080/ex/foos/multiple
 ```

@@ -19,13 +19,13 @@ ENTRYPOINT ["java", "-jar", "/app.jar"]
 
 물론 docker build를 통해 Docker 이미지를 빌드할 수 있다.
 
-```shell
+```bash
 docker build --tag=docker-with-spring-profile:latest .
 ```
 
 따라서 docker-with-spring-profile 이미지에서 애플리케이션을 실행할 수 있다.
 
-```shell
+```bash
 docker run docker-with-spring-profile:latest
 ```
 
@@ -49,7 +49,7 @@ ENTRYPOINT ["java", "-Dspring.profiles.active=test", "-jar", "/app.jar"]
 
 프로필 변경 사항을 보려면 동일한 명령을 사용하여 컨테이너를 다시 실행한다.
 
-```shell
+```bash
 docker run docker-with-spring-profile:latest
 ```
 
@@ -68,13 +68,13 @@ docker run docker-with-spring-profile:latest
 
 따라서 `docker run` 명령과 함께 이를 실제로 활용하여 시작 시 Spring 프로필을 설정할 수 있다.
 
-```shell
+```bash
 docker run -e "SPRING_PROFILES_ACTIVE=test" docker-with-spring-profile:latest
 ```
 
 또한 사용 사례에 따라 쉼표로 구분된 문자열을 통해 한 번에 두 개 이상의 프로필을 설정할 수 있다.
 
-```shell
+```bash
 docker run -e "SPRING_PROFILES_ACTIVE=test1,test2,test3" docker-with-spring-profile:latest
 ```
 
@@ -121,7 +121,7 @@ environment:
 
 따라서 두 가지 다른 docker-compose 파일을 통해 컨테이너를 실행할 수 있다.
 
-```shell
+```bash
 # for the profile 'test'
 docker-compose -f docker-compose-test.yml up
 

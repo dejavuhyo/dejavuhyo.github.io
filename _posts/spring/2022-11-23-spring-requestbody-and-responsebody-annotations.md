@@ -37,7 +37,7 @@ public class LoginForm {
 
 CURL을 사용하여 이를 테스트한다.
 
-```shell
+```bash
 curl -i \
 -H "Accept: application/json" \
 -H "Content-Type:application/json" \
@@ -120,7 +120,7 @@ public ResponseTransfer postResponseXmlContent(
 
 다음과 같이 실행해 본다.
 
-```shell
+```bash
 curl -i \
 -H "Accept: application/json" \
 -H "Content-Type:application/json" \
@@ -141,7 +141,7 @@ Date: Thu, 20 Feb 2020 19:43:06 GMT
 
 Accept 매개변수를 변경해 본다.
 
-```shell
+```bash
 curl -i \
 -H "Accept: application/xml" \
 -H "Content-Type:application/json" \

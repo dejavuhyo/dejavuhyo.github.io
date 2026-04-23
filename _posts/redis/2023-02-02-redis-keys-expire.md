@@ -14,21 +14,21 @@ tags: [redis-keys-expire, redis, redis-command, 레디스, 레디스-키-만료,
 
 ## 3. Syntax
 
-```shell
+```bash
 redis 127.0.0.1:6379> Expire KEY_NAME TIME_IN_SECONDS
 ```
 
 ### 1) Example
 먼저 Redis에서 키를 만들고 여기에 값을 설정한다.
 
-```shell
+```bash
 redis 127.0.0.1:6379> SET tutorialspoint redis
 OK
 ```
 
 이제 이전에 생성한 키의 타임아웃을 설정한다.
 
-```shell
+```bash
 redis 127.0.0.1:6379> EXPIRE tutorialspoint 60
 (integer) 1
 ```

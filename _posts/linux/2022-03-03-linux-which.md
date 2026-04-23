@@ -17,7 +17,7 @@ tags: [linux-which, which, 리눅스-which]
 
 ## 3. 사용예제
 
-```shell
+```bash
 # rm 명령어의 위치를 확인 
 $ which rm
 /bin/rm

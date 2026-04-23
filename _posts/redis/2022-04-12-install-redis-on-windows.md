@@ -22,7 +22,7 @@ Microsoft는 [WSL 설치에 대한 자세한 지침](https://docs.microsoft.com/
 ### 1) 레디스 설치
 Windows에서 Ubuntu를 실행하고 나면 `apt-get`을 사용하여 Redis를 설치할 수 있다.
 
-```shell
+```bash
 $ sudo apt-add-repository ppa:redislabs/redis
 $ sudo apt-get update
 $ sudo apt-get upgrade
@@ -31,14 +31,14 @@ $ sudo apt-get install redis-server
 
 다음과 같이 Redis 서버를 시작한다.
 
-```shell
+```bash
 $ sudo service redis-server start
 ```
 
 ### 2) 레디스에 연결
 Redis CLI에 연결하여 Redis 서버가 실행 중인지 테스트할 수 있다.
 
-```shell
+```bash
 $ redis-cli
 127.0.0.1:6379> ping
 PONG

@@ -10,13 +10,13 @@ tags: [linux-shellscript, start-shellscript, stop-shellscript, 시작-쉘스크�
 
 ### 1) 파일생성
 
-```shell
+```bash
 [root@localhost ~]# touch start.sh
 ```
 
 ### 2) 편집
 
-```shell
+```bash
 [root@localhost ~]# vi start.sh
 ```
 
@@ -29,7 +29,7 @@ spring-boot-application에 로그 설정이 되어 있으면 nohup을 사용하�
 >
 > [https://blog.naver.com/dejavuhyo/222129041829](https://blog.naver.com/dejavuhyo/222129041829)
 
-```shell
+```bash
 #!/bin/bash
 
 java -jar spring-boot-application.jar &
@@ -39,19 +39,19 @@ java -jar spring-boot-application.jar &
 
 ### 1) 파일생성
 
-```shell
+```bash
 [root@localhost ~]# touch stop.sh
 ```
 
 ### 2) 편집
 
-```shell
+```bash
 [root@localhost ~]# vi stop.sh
 ```
 
 ### 3) 추가
 
-```shell
+```bash
 #!/bin/bash
 
 APP_PID=$(ps -ef | grep java | grep spring-boot-application.jar | grep -v grep | awk '{print $2}')

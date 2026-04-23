@@ -22,7 +22,7 @@ tags: [linux-uname, uname, 리눅스-uname]
 
 ## 3. 사용예제
 
-```shell
+```bash
 # 시스템 명을 표시 
 $ uname
 Linux

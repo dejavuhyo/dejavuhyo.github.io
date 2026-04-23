@@ -14,13 +14,13 @@ tags: [centos-oraclejdk-install, oraclejdk-install, centos-java-home, jdk, oracl
 
 ## 2. 설치된 JDK 확인
 
-```shell
+```bash
 $ rpm -qa | grep jdk
 ```
 
 ## 3. 설치된 JDK 삭제
 
-```shell
+```bash
 yum remove java*
 ```
 
@@ -32,14 +32,14 @@ yum remove java*
 
 * `/usr/local` 경로
 
-```shell
+```bash
 $ tar -zxvf jdk-8u201-linux-x64.tar.gz
 ```
 
 ## 6. 바로가기 설정
 jdk 버전 변경시 `/etc/profile` 수정 없이 바로가기만 변경하면 되기 때문에 편리함
 
-```shell
+```bash
 $ ln -s jdk1.8.0_201 java
 ```
 
@@ -47,7 +47,7 @@ $ ln -s jdk1.8.0_201 java
 
 ## 7. 환경변수 설정
 
-```shell
+```bash
 $ vi /etc/profile
 ```
 
@@ -61,13 +61,13 @@ export CLASSPATH=.:$JAVA_HOME/lib/tools.jar
 
 적용 (혹은 reboot)
 
-```shell
+```bash
 $ source /etc/profile
 ```
 
 ## 8. 설치 확인
 
-```shell
+```bash
 [root@localhost ~]# java -version
 java version "1.8.0_201"
 Java(TM) SE Runtime Environment (build 1.8.0_201-b09)

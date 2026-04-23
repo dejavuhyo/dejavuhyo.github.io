@@ -85,7 +85,7 @@ public void addResourceHandlers(ResourceHandlerRegistry registry) {
 
 이 구성을 사용하면 클라이언트가 `http://localhost:8080/js/46944c7e3a9bd20cc30fdc085cae46f2.js`에 대한 요청을 할 때,
 
-```shell
+```bash
 curl -i http://localhost:8080/js/foo-46944c7e3a9bd20cc30fdc085cae46f2.js
 ```
 

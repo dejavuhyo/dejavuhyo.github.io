@@ -11,7 +11,7 @@ tags: [linux-nslookup, nslookup, 리눅스-nslookup, 리눅스]
 
 ## 2. 사용예제
 
-```shell
+```bash
 $ nslookup www.naver.com
 Server:     10.20.30.60
 Address:    10.20.30.60#53

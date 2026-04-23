@@ -14,13 +14,13 @@ tags: [redis-string-mget, redis-command, 레디스, 레디스-mget, 레디스-�
 
 ## 3. Syntax
 
-```shell
+```bash
 redis 127.0.0.1:6379> MGET KEY1 KEY2 .. KEYN
 ```
 
 ### 1) Example
 
-```shell
+```bash
 redis 127.0.0.1:6379> SET key1 "hello"
 OK
 redis 127.0.0.1:6379> SET key2 "world"

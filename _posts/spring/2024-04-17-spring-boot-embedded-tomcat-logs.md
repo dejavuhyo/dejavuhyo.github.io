@@ -36,7 +36,7 @@ server.tomcat.accesslog.enabled=true
 
 마찬가지로 VM 인수를 사용하여 액세스 로그를 활성화할 수 있다.
 
-```shell
+```bash
 java -jar -Dserver.tomcat.basedir=tomcat -Dserver.tomcat.accesslog.enabled=true app.jar
 ```
 

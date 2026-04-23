@@ -21,7 +21,7 @@ tags: [linux-crontab, crontab, 리눅스-크론탭, 크론탭]
 ### 1) 크론탭 등록
 `-e` 옵션으로 실행하면 크론탭을 등록하기 위한 파일이 열린다. vi에디터와 동일한 명령으로 필요한 명령어를 등록할 수 있다.
 
-```shell
+```bash
 # 크론탭을 등록
 $ crontab -e
 
@@ -42,7 +42,7 @@ $ crontab -l
 | 월 | 1 ~ 12 |
 | 요일 | 0 ~ 7 (0, 7이 일요일) |
 
-```shell
+```bash
 # 입력 형태 
 분 시 일 월 요일 명령어
 
@@ -66,7 +66,7 @@ $ crontab -l
 ### 3) echo로 크론탭 등록
 크론탭을 일괄로 등록하고 싶을 때 echo 명령을 이용하여 처리할 수 있다. `/var/spool/cron/유저명`에 유저별 크론탭이 있다. 여기에 넣어주면 `crontab -e`와 동일한 효과를 얻을 수 있다.
 
-```shell
+```bash
 sudo bash -c 'echo \"
 # hadoop log cleansing
 0 1 * * * find /var/log/hadoop -not -name \"*.gz\" -type f -mtime +2 -exec gzip {} \;

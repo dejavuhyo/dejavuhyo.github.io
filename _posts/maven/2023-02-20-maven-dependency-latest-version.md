@@ -99,7 +99,7 @@ Maven2는 또한 결과를 얻기 위해 `LATEST` 및 `RELEASE`라는 두 가지
 ## 4. 사용 가능한 업데이트 표시
 우선, 프로젝트를 업데이트할 수 있는지 여부와 방법을 알기 위해 작업에 적합한 도구는 다음과 같다.
 
-```shell
+```bash
 mvn versions:display-dependency-updates
 ```
 
@@ -119,7 +119,7 @@ mvn versions:display-dependency-updates
 
 우리는 `version:use-releases`를 사용하여 해당 `RELEASE`가 게시되었는지 확인하고 동시에 `SNAPSHOT`을 해당 `RELEASE`로 변환할 수 있다.
 
-```shell
+```bash
 mvn versions:use-releases
 ```
 
@@ -128,7 +128,7 @@ mvn versions:use-releases
 ### 2) 다음 릴리스로 업데이트
 `Versions:use-next-releases`를 사용하여 `SNAPSHOT`이 아닌 모든 종속성을 가장 가까운 버전으로 포팅할 수 있다.
 
-```shell
+```bash
 mvn versions:use-next-releases
 ```
 
@@ -141,7 +141,7 @@ mvn versions:use-next-releases
 ### 3) 최신 RELEASE로 업데이트
 모든 `non-SNAPSHOT` 종속성을 최신 릴리스로 업데이트하는 것은 동일한 방식으로 작동하며 단순히 목표를 `versions:use-latest-releases`로 변경한다.
 
-```shell
+```bash
 mvn versions:use-latest-releases
 ```
 

@@ -14,13 +14,13 @@ tags: [gitignore, gitignore-not-working, git, gitignore-오류]
 
 * 루트 폴더(최상위 폴더)에서 캐쉬를 삭제한다.
 
-```shell
+```bash
 git rm -r --cached .
 ```
 
 작업 중인 디렉터리 모든 파일들의 git index가 초기화되어 `.gitignore`가 다시 적용된다.
 
-```shell
+```bash
 git add -A
 git commit -m "gitignore 다시 적용"
 ```
@@ -33,13 +33,13 @@ git commit -m "gitignore 다시 적용"
 
 * 루트 폴더(최상위 폴더)에서 캐쉬를 삭제한다.
 
-```shell
+```bash
 git rm -r --cached A.txt B.txt
 ```  
 
 선택한 파일의 git index가 초기화되어 `.gitignore`가 다시 적용된다.
 
-```shell
+```bash
 git add -A
 git commit -m "gitignore 다시 적용"
 ```

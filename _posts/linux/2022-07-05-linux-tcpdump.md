@@ -18,7 +18,7 @@ tags: [linux-tcpdump, tcpdump, 리눅스-tcpdump, 리눅스]
 
 ## 3. 사용예제
 
-```shell
+```bash
 # 파일로 저장
 $ tcpdump -w tcp.log
 

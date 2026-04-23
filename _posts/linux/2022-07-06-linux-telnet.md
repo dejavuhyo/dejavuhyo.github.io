@@ -11,7 +11,7 @@ tags: [linux-telnet, telnet, 리눅스-telnet, 리눅스]
 
 ## 2. 사용예제
 
-```shell
+```bash
 # 192.168.1.20주소의 80번 포트에 접속
 $ telnet 192.168.1.20 80
 

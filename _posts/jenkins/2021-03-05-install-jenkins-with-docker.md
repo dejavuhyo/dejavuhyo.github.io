@@ -12,25 +12,25 @@ tags: [docker-jenkins-install, jenkins-install, docker-jenkins, 도커-젠킨스
 
 ![jenkins-docker-images](/assets/img/2021-03-05-install-jenkins-with-docker/jenkins-docker-images.png)
 
-```shell
+```bash
 [root@localhost ~]# docker pull jenkins/jenkins
 ```
 
 ## 2. pull 이미지 확인
 
-```shell
+```bash
 [root@localhost ~]# docker images
 ```
 
 ## 3. Jenkins Images 실행
 
-```shell
+```bash
 [root@localhost ~]# docker run --name jenkins -p 9080:8080 -p 50000:50000 -v /var/jenkins_home jenkins:latest
 ```
 
 ## 4. Jenkins 로그 확인
 
-```shell
+```bash
 [root@localhost ~]# docker logs jenkins
 ```
 
@@ -49,7 +49,7 @@ Can not write to /var/jenkins_home/copy_reference_file.log. Wrong volume permiss
 
 * 해결 방법
 
-```shell
+```bash
 [root@localhost /]# chown -R 1000:1000 /var/jenkins_home/
 ```
 

@@ -28,7 +28,7 @@ tags: [linux-free, free, 리눅스-free]
 | buffers | 버퍼 메모리 용량. 파일 저장을 위한 임시 저장 공간 등 |
 | cached | 캐쉬 메모리 용량. 자주 사용하는 데이터를 메모리에 캐슁하여 IO 속도 증가 |
 
-```shell
+```bash
 $ free 
              total       used       free     shared    buffers     cached
 Mem:       3921016    1925576    1995440        144     159096     999700
@@ -45,7 +45,7 @@ Swap:           0B         0B         0B
 ## 4. 주기적인 메모리 사용량 확인
 메모리 사용량을 주기적으로 확인하는 방법은 -s 옵션을 이용하는 방법과 watch 명령을 이용하는 방법이 있다.
 
-```shell
+```bash
 # 1초에 한번씩 메모리 사용량 출력
 $ free -h -s 1
              total       used       free     shared    buffers     cached

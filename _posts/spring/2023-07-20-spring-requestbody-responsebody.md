@@ -37,7 +37,7 @@ HttpRequest 본문을 나타내는데 사용하는 개체는 LoginForm 개체에
 
 CURL을 사용하여 이것을 테스트한다.
 
-```shell
+```bash
 curl -i \
 -H "Accept: application/json" \
 -H "Content-Type:application/json" \
@@ -118,7 +118,7 @@ public ResponseTransfer postResponseXmlContent(
 
 이제 요청 헤더에서 전송된 Accept 매개변수 의 값에 따라 다른 응답을 받게 된다.
 
-```shell
+```bash
 curl -i \ 
 -H "Accept: application/json" \ 
 -H "Content-Type:application/json" \ 
@@ -139,7 +139,7 @@ Date: Thu, 20 Feb 2020 19:43:06 GMT
 
 Accept 매개변수를 변경해 본다.
 
-```shell
+```bash
 curl -i \
 -H "Accept: application/xml" \
 -H "Content-Type:application/json" \

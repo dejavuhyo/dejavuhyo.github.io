@@ -11,7 +11,7 @@ tags: [linux-ifconfig, ifconfig, 리눅스-ifconfig, 리눅스]
 
 ## 2. 사용예제
 
-```shell
+```bash
 # 네트워크 인터페이스의 정보 확인
 $ ifconfig
 eth0      Link encap:Ethernet  HWaddr 02:DA:18:B7:C6:F7

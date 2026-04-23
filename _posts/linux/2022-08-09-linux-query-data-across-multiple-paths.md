@@ -12,7 +12,7 @@ tags: [linux-multiple-paths, multiple-paths, linux-query-data, 리눅스-여러-
 ## 2. 사용 예제
 다음은 `vTargetDate`, `vTargetHour`를 입력 받거나, 자동으로 설정되어 `vLocations`의 여러 경로의 데이터를 aws 커맨드로 조회할 때 사용하는 예제이다.
 
-```shell
+```bash
 #!/bin/bash
 
 # 사용자가 TargetDate, TargetHour를 입력하지 않으면 자동으로 설정 

@@ -13,7 +13,7 @@ exec 커맨드로 실행하면 bash쉘의 프로세스가 자바 프로그램이
 
 다음의 상황을 살펴보면 macbook에서 masternode로 접근하여 echo를 실행하면 masternode의 bash쉘이다. exec로 명령을 실행하면 bash쉘이 echo 명령으로 대체되고, 종료되면 bash쉘이 없기 때문에 다시 macbook으로 돌아온다.
 
-```shell
+```bash
 ➜  macbook ✗ ssh root@masternode
 [root@masternode ~]# echo "aa"
 aa
@@ -32,7 +32,7 @@ aa
 
 ## 3. 사용예제
 
-```shell
+```bash
 $ exec echo "aa"
 aa
 

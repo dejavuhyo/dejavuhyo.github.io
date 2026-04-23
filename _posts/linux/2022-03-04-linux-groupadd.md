@@ -18,7 +18,7 @@ tags: [linux-groupadd, groupadd, 리눅스-groupadd]
 ## 3. /etc/group
 시스템의 그룹정보를 확인할 수 있다.
 
-```shell
+```bash
 # 그룹명:비밀번호:그룹ID:그룹사용자
 $ cat /etc/group
 root:x:0:
@@ -30,7 +30,7 @@ groupa:x:10001:usera,userb
 
 ### 1) 그룹 추가
 
-```shell
+```bash
 # 그룹 groupa 추가
 $ groupadd groupa
 ```
@@ -38,7 +38,7 @@ $ groupadd groupa
 ### 2) 사용자 그룹 확인
 groups 명령으로 현재 사용자, 특정 사용자의의 그룹을 확인할 수 있다.
 
-```shell
+```bash
 # 현재 사용자의 그룹 확인
 $ groups
 groupa

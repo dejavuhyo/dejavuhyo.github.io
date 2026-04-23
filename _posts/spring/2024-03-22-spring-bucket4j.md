@@ -123,7 +123,7 @@ class AreaCalculationController {
 
 API가 실행되고 있는지 확인한다.
 
-```shell
+```bash
 $ curl -X POST http://localhost:9001/api/v1/area/rectangle \
     -H "Content-Type: application/json" \
     -d '{ "length": 10, "width": 12 }'
@@ -164,7 +164,7 @@ public ResponseEntity<AreaV1> rectangle(@RequestBody RectangleDimensionsV1 dimen
 }
 ```
 
-```shell
+```bash
 # 21st request within 1 minute
 $ curl -v -X POST http://localhost:9001/api/v1/area/rectangle \
     -H "Content-Type: application/json" \
@@ -287,7 +287,7 @@ ConsumptionProbe 메서드 getRemainingTokens 및 getNanosToWaitForRefill을 호
 
 API를 호출해 본다.
 
-```shell
+```bash
 ## successful request
 $ curl -v -X POST http://localhost:9001/api/v1/area/rectangle \
     -H "Content-Type: application/json" -H "X-api-key:FX001-99999" \
@@ -369,7 +369,7 @@ RateLimitInterceptor는 면적 계산 API 엔드포인트에 대한 각 요청�
 
 새로운 엔드포인트를 시험한다.
 
-```shell
+```bash
 ## successful request
 $ curl -v -X POST http://localhost:9001/api/v1/area/triangle \
     -H "Content-Type: application/json" -H "X-api-key:FX001-99999" \
@@ -513,7 +513,7 @@ PricingPlanService 및 RateLimitInterceptor를 순차적으로 평가되는 속�
 
 시도해 본다.
 
-```shell
+```bash
 ## successful request
 $ curl -v -X POST http://localhost:9000/api/v1/area/triangle \
     -H "Content-Type: application/json" -H "X-api-key:FX001-99999" \

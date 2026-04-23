@@ -20,7 +20,7 @@ tags: [linux-split, split, 리눅스-split, 리눅스]
 
 ## 3. 사용예제
 
-```shell
+```bash
 # origintxt 파일을 100줄 단위로 분할한다.
 $ split -l 100 origin.txt
 xaa
@@ -42,7 +42,7 @@ x0003
 
 ### 1) tar 압축 파일 분할
 
-```shell
+```bash
 # hadoop-2.10.1.tar.gz 파일을 30메가 단위로 분할하고, 파일 prefix 지정
 $ split -b 30m hadoop-2.10.1.tar.gz hadoop-2.10.1.tar.gz.split.
 

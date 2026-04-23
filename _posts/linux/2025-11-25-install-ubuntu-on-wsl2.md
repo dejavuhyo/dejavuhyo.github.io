@@ -16,7 +16,7 @@ tags: [wsl-ubuntu, wsl-ubuntu-install, ubuntu-imstall, wsl-ubuntu-설치]
 
 ### 1) 방법 1: Console 설치
 
-```shell
+```bash
 wsl --install -d Ubuntu-22.04.5
 ```
 ### 2) 방법 2: Microsoft Store에서 Ubuntu 22.04.5 LTS 설치

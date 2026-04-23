@@ -11,7 +11,7 @@ tags: [linux-shell-script-string, shell-script-string, linux-shell-script, linux
 ### 1) Uppercase, Lowercase
 문자열의 대문자화와 소문자화는 다음과 같이 처리한다.
 
-```shell
+```bash
 #!/bin/bash
 
 str="abcd"
@@ -26,7 +26,7 @@ echo ${str,,}
 | `${변수명/문자A/문자B}` | 첫번째 문자A를 문자B로 변경 |
 | `${변수명//문자A/문자B}` | 모든 문자A를 문자B로 변경 |
 
-```shell
+```bash
 vParam=a.b
 
 $ echo ${vParam/./_}

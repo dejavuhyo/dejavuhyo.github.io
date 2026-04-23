@@ -12,7 +12,7 @@ tags: [java-jar-vs-war, jar-vs-war, java-jar-war, jar-war, jar-war-차이점]
 ## 2. JAR (Java Archive)
 JAVA 애플리케이션이 동작할 수 있도록 자바 프로젝트를 압축한 파일이다. Class(JAVA 리소스, 속성 파일), 라이브러리 파일을 포함한다. JRE(JAVA Runtime Environment)만 있어도 실행할 수 있다.
 
-```shell
+```bash
 $ java -jar file_name.jar
 ```
 

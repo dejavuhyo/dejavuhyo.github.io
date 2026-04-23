@@ -14,21 +14,21 @@ tags: [redis-keys-rename, redis, redis-command, 레디스, 레디스-키-이름-
 
 ## 3. Syntax
 
-```shell
+```bash
 redis 127.0.0.1:6379> RENAME OLD_KEY_NAME NEW_KEY_NAME 
 ```
 
 ### 1) Example
 먼저 Redis에서 일부 키를 생성하고 그 안에 일부 값을 설정한다.
 
-```shell
+```bash
 redis 127.0.0.1:6379> SET tutorial1 redis
 OK
 ```
 
 이제 키 'tutorial1'의 이름을 'new-tutorial'로 바꾼다.
 
-```shell
+```bash
 redis 127.0.0.1:6379> RENAME tutorial1 new-tutorial
 OK
 ```

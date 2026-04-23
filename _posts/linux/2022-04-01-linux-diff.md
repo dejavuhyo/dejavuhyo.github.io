@@ -24,7 +24,7 @@ tags: [linux-diff, diff, 리눅스-diff, 리눅스-문자열]
 | 3 | c | c |
 | 4 |  | b |
 
-```shell
+```bash
 $ cat a
 a
 b

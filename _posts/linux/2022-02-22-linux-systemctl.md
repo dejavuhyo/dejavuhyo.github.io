@@ -41,7 +41,7 @@ ExecStart=/opt/zookeeper/bin/zkServer.sh --conf ${ZOKEEPER_CONF} start
 ### 3) 서비스 등록
 등록된 서비스를 실행, 정지하는 명령은 다음과 같다.
 
-```shell
+```bash
 # 실행
 $ systemctl start zookeeper
 
@@ -58,7 +58,7 @@ $ systemctl is-active zookeeper
 ### 4) 서비스 삭제
 서비스 삭제는 서비스 파일을 삭제하고 리로드하면 된다.
 
-```shell
+```bash
 # 서비스 자동 실행을 제거
 $ systemctl disable zookeeper
 
@@ -72,7 +72,7 @@ $ systemctl reset-failed
 
 ### 5) 서비스 목록 확인
 
-```shell
+```bash
 # 등록한 서비스 목록을 확인
 $ systemctl list-units --type service --all
 
@@ -99,7 +99,7 @@ $ systemctl --state=not-found --all
 ## 4. 서비스 로그
 서비스로 실행한 프로그램의 로그를 확인하기 위해서는 jourctl 명령을 이용할 수 있다.
 
-```shell
+```bash
 # -u 옵션으로 서비스 지정
 $ journalctl -u zookeeper
 

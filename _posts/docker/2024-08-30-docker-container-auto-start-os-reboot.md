@@ -23,19 +23,19 @@ Docker는 컨테이너가 종료될 때 또는 Docker가 재시작될 때 컨테
 
 다음 명령은 Redis 컨테이너를 시작하고, 컨테이너가 명시적으로 중지되거나 데몬이 다시 시작되지 않는 한 항상 다시 시작되도록 구성한다.
 
-```shell
+```bash
 $ docker run -d --restart unless-stopped redis
 ```
 
 다음 명령은 이미 실행 중인 컨테이너인 `redis`에 대한 재시작 정책을 변경한다.
 
-```shell
+```bash
 $ docker update --restart unless-stopped redis
 ```
 
 다음 명령은 실행 중인 모든 컨테이너를 다시 시작한다.
 
-```shell
+```bash
 $ docker update --restart unless-stopped $(docker ps -q)
 ```
 

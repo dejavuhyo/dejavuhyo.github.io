@@ -46,7 +46,7 @@ public ProducerFactory<String, String> producerFactory() {
 
 CLI 명령을 사용하여 토픽 생성 시 이 속성을 수동으로 구성한다.
 
-```shell
+```bash
 ./kafka-topics.sh --bootstrap-server localhost:9092 --create --topic longMessage --partitions 1 --replication-factor 1 --config max.message.bytes=20971520
 ```
 

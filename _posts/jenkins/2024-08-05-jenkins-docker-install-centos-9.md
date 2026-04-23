@@ -8,7 +8,7 @@ tags: [centos-jenkins, jenkins-docker, jenkins-install, 젠킨스-도커, 젠킨
 
 ## 1. Jenkins Docker 이미지 pull
 
-```shell
+```bash
 $ docker pull jenkins/jenkins:lts
 ```
 
@@ -16,7 +16,7 @@ $ docker pull jenkins/jenkins:lts
 
 ### 1) 이미지 실행
 
-```shell
+```bash
 $ docker run --name jenkins -p 8080:8080 -p 50000:50000 --restart=on-failure -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
 ```
 
@@ -42,7 +42,7 @@ services:
 
 ### 2) docker-compose 실행
 
-```shell
+```bash
 $ docker-compose up -d
 ```
 
@@ -56,13 +56,13 @@ http://127.0.0.1:8080
 
 ### 1) jenkins 컨테이너 접속
 
-```shell
+```bash
 $ docker exec -it jenkins /bin/bash
 ```
 
 ### 2) Administrator password 확인
 
-```shell
+```bash
 root@12a53e47f651:/# cat /var/jenkins_home/secrets/initialAdminPassword
 ```
 
@@ -77,7 +77,7 @@ Can not write to /var/jenkins_home/copy_reference_file.log. Wrong volume permiss
 
 * 해결 방법
 
-```shell
+```bash
 $ chown -R 1000:1000 /var/jenkins_home/
 ```
 

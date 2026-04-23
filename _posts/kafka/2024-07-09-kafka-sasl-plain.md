@@ -65,13 +65,13 @@ set KAFKA_OPTS=-Djava.security.auth.login.config=../../config/kafka_server_jaas.
 
 * Linux
 
-```shell
+```bash
 ./zookeeper-server-start.sh ../config/zookeeper.properties
 ```
 
 * Windows
 
-```shell
+```bash
 zookeeper-server-start.bat ../../config/zookeeper.properties
 ```
 
@@ -79,13 +79,13 @@ zookeeper-server-start.bat ../../config/zookeeper.properties
 
 * Linux
 
-```shell
+```bash
 ./kafka-server-start.sh ../config/server.properties
 ```
 
 * Windows
 
-```shell
+```bash
 kafka-server-start.bat ../../config/server.properties
 ```
 
@@ -119,13 +119,13 @@ sasl.jaas.config=org.apache.kafka.common.security.plain.PlainLoginModule require
 
 * Linux
 
-```shell
+```bash
 ./kafka-console-producer.sh --broker-list localhost:9092 --topic topic-test --producer.config=../config/producer_jaas.conf
 ```
 
 * Windows
 
-```shell
+```bash
 kafka-console-producer.bat --broker-list localhost:9092 --topic topic-test --producer.config=../../config/producer_jaas.conf
 ```
 
@@ -133,13 +133,13 @@ kafka-console-producer.bat --broker-list localhost:9092 --topic topic-test --pro
 
 * Linux
 
-```shell
+```bash
 ./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic topic-test --group local-group --consumer.config=../config/consumer_jaas.conf
 ```
 
 * Windows
 
-```shell
+```bash
 kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic topic-test --group local-group --consumer.config=../../config/consumer_jaas.conf
 ```
 

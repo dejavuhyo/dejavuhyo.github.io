@@ -27,7 +27,7 @@ tags: [linux-jobs, jobs, 리눅스-jobs]
 
 `[]`로 표시되는 것은 작업의 순서이다. `-`는 이전 프로세스, `+`는 현재 프로세스이다.
 
-```shell
+```bash
 # 실행중인 프로세스를 표시 
 $ jobs 
 [1]   Stopped                 watch date

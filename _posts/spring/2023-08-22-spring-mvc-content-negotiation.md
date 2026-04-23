@@ -64,7 +64,7 @@ public @ResponseBody Employee getEmployeeById(@PathVariable long id) {
 
 리소스의 미디어 유형을 지정하기 위해 JSON 확장을 사용하여 호출한다.
 
-```shell
+```bash
 curl http://localhost:8080/spring-mvc-basics/employee/10.json
 ```
 
@@ -80,7 +80,7 @@ JSON 확장을 사용하면 다음과 같은 결과를 얻을 수 있다.
 
 그리고 다음은 요청-응답이 XML로 표시되는 모습이다.
 
-```shell
+```bash
 curl http://localhost:8080/spring-mvc-basics/employee/10.xml
 ```
 
@@ -96,7 +96,7 @@ curl http://localhost:8080/spring-mvc-basics/employee/10.xml
 
 이제 확장을 사용하지 않거나 구성되지 않은 확장을 사용하면 기본 콘텐츠 유형이 반환된다.
 
-```shell
+```bash
 curl http://localhost:8080/spring-mvc-basics/employee/10
 ```
 
@@ -139,7 +139,7 @@ XML만 사용하여 정확히 동일한 구성이다.
 
 favorParameter 속성 값을 true로 설정하여 이 전략을 활성화할 수 있다.
 
-```shell
+```bash
 curl http://localhost:8080/spring-mvc-basics/employee/10?mediaType=json
 ```
 
@@ -155,7 +155,7 @@ JSON 응답 본문은 다음과 같다.
 
 XML 매개변수를 사용하면 출력이 XML 형식이 된다.
 
-```shell
+```bash
 curl http://localhost:8080/spring-mvc-basics/employee/10?mediaType=xml
 ```
 

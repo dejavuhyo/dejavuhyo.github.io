@@ -174,7 +174,7 @@ public class WebInitializer implements WebApplicationInitializer {
 ### 5) Curl을 사용하여 Spring Mvc 유효성 검사 테스트
 다음 명령과 함께 cURL을 사용하여 API를 테스트할 수 있다.
 
-```shell
+```bash
 curl -i -X POST -H "Accept:application/json" 
   "localhost:8080/spring-mvc-forms/user?email=aaa&password=12&age=12"
 ```

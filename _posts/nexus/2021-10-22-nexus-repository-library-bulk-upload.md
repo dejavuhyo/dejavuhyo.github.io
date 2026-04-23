@@ -34,7 +34,7 @@ nexus-버전 폴더는 Nexus Repository 실행에 관련된 폴더이며, sonaty
 
 * `nexus_bulk_upload.sh`
 
-```shell
+```bash
 #!/bin/bash
 
 files="./files.out"
