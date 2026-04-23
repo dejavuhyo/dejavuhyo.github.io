@@ -14,14 +14,14 @@ Redis 소스 파일은에서 [다운로드 사이트](https://redis.io/download/
 
 Redis 다운로드 사이트에서 안정적인 최신 버전의 Redis에 대한 소스 파일을 얻으려면 다음을 실행한다.
 
-```shell
+```bash
 $ wget https://download.redis.io/redis-stable.tar.gz
 ```
 
 ## 3. 레디스 컴파일
 Redis를 컴파일하려면 먼저 tarball을 루트 디렉터리로 변경한 다음 make를 실행한다.
 
-```shell
+```bash
 $ tar -xzvf redis-stable.tar.gz
 $ cd redis-stable
 $ make
@@ -35,14 +35,14 @@ $ make
 
 이 바이너리를 `/usr/local/bin`에 설치하려면 다음을 실행한다.
 
-```shell
+```bash
 $ make install
 ```
 
 ## 4. 포그라운드에서 Redis 시작 및 중지
 설치가 완료되면 다음을 실행하여 Redis를 시작할 수 있다.
 
-```shell
+```bash
 $ redis-server
 ```
 

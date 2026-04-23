@@ -34,7 +34,7 @@ tags: [linux-find, find, 리눅스-find]
 
 ### 1) 검색
 
-```shell
+```bash
 # txt로 끝나는 파일 검색 
 $ find ./ -name "*.txt"
 
@@ -47,14 +47,14 @@ $ find ./ -name "com*" -type f
 
 ### 2) 검색후 추가 작업
 
-```shell
+```bash
 # logs 폴더 아래에서 log로 끝나는 파일을 찾이서 log.tar.gz 으로 압축 
 $ find ./logs -name "*.log" -exec tar -czf "./logs/log.tar.gz" {} \;
 ```
 
 ### 3) 삭제 관련
 
-```shell
+```bash
 # logs 폴더 아래에서 20190101이 있는 파일을 찾아서 삭제(rm) 
 $ find ./logs/ -name "*20190101*" -exec rm -rf {} \;
 

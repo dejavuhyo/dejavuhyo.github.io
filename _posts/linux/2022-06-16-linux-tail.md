@@ -18,7 +18,7 @@ tags: [linux-tail, tail, 리눅스-tail, 리눅스]
 
 ## 3. 사용예제
 
-```shell
+```bash
 $ cat sample.txt
 one
 two

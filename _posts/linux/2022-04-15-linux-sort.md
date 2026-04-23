@@ -19,7 +19,7 @@ tags: [linux-sort, sort, 리눅스-sort, 리눅스-문자열]
 
 ## 3. 사용예제
 
-```shell
+```bash
 # 원본 파일 내용
 $ cat s
 a 1

@@ -14,14 +14,14 @@ tags: [redis-string-set, redis, redis-command, 레디스, 레디스-문자열-�
 
 ## 3. Syntax
 
-```shell
+```bash
 redis 127.0.0.1:6379> GET KEY_NAME
 ```
 
 ### 1) Example
 먼저 Redis에서 키를 설정한 다음 가져온다.
 
-```shell
+```bash
 redis 127.0.0.1:6379> SET tutorialspoint redis 
 OK 
 redis 127.0.0.1:6379> GET tutorialspoint 

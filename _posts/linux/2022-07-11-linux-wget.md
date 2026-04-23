@@ -20,7 +20,7 @@ tags: [linux-wget, wget, 리눅스-wget, 리눅스]
 
 ### 1) 파일 다운로드
 
-```shell
+```bash
 # oozie 4.3.1 파일을 다운로드
 $ wget http://apache.mirror.cdnetworks.com/oozie/4.3.1/oozie-4.3.1.tar.gz
 --2019-09-18 03:57:17--  http://apache.mirror.cdnetworks.com/oozie/4.3.1/oozie-4.3.1.tar.gz
@@ -37,7 +37,7 @@ Saving to: “oozie-4.3.1.tar.gz”
 
 ### 2) 파일 다운로드 위치를 지정
 
-```shell
+```bash
 # tmp/oozie.tar.gz 으로 파일 저장
 $ wget -O ./tmp/oozie.tar.gz http://apache.mirror.cdnetworks.com/oozie/4.3.1/oozie-4.3.1.tar.gz
 ```

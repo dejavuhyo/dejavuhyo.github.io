@@ -80,7 +80,7 @@ public @ResponseBody Foo findById(@PathVariable long id) {
 
 이제 클라이언트는 요청(예: curl command)에서 `application/json`에 "Accept" 헤더를 지정한다.
 
-```shell
+```bash
 curl --header "Accept: application/json" 
   http://localhost:8080/spring-boot-rest/foos/1
 ```
@@ -115,7 +115,7 @@ public @ResponseBody void update(@RequestBody Foo foo, @PathVariable String id) 
 
 다음으로, "Content-Type"을 application/json으로 지정하여 JSON 개체와 함께 이를 사용한다.
 
-```shell
+```bash
 curl -i -X PUT -H "Content-Type: application/json"  
 -d '{"id":"83","name":"klik"}' http://localhost:8080/spring-boot-rest/foos/1
 ```
@@ -168,7 +168,7 @@ public class WebConfig implements WebMvcConfigurer {
 
 이 시점에서 백엔드에서 XML을 활성화하면 XML 표현과 함께 API를 사용할 수 있다.
 
-```shell
+```bash
 curl --header "Accept: application/xml" 
   http://localhost:8080/spring-boot-rest/foos/1
 ```

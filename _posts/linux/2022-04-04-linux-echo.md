@@ -21,7 +21,7 @@ tags: [linux-echo, echo, 리눅스-echo, 리눅스-문자열]
 
 ### 1) 개행없이 문자를 출력
 
-```shell
+```bash
 $ echo -n "Hello"
 Hello$
 ```
@@ -35,7 +35,7 @@ Hello$
 
 * [https://gist.github.com/daytonn/8677243](https://gist.github.com/daytonn/8677243)
 
-```shell
+```bash
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m'  # Color off

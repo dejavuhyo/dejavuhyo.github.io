@@ -136,7 +136,7 @@ public void addResourceHandlers(ResourceHandlerRegistry registry) {
 
 다음 curl 요청은 애플리케이션의 `webappp/resources` 또는 classpath의 other-resources 폴더에 저장된 `Hello.html` 페이지를 표시한다.
 
-```shell
+```bash
 curl -i http://localhost:8080/handling-spring-static-resources/resources/Hello.html
 ```
 
@@ -194,7 +194,7 @@ registry
 
 따라서 다음 curl 요청은 파일 시스템의 `Users/Me/` 디렉터리에 있는 압축된 버전의 `Home.html` 파일을 가져온다.
 
-```shell
+```bash
 curl -H  "Accept-Encoding:gzip" 
   http://localhost:8080/handling-spring-static-resources/other-files/Hello.html
 ```

@@ -34,7 +34,7 @@ Kafka를 다운로드하고 설치하려면 [공식 가이드](https://kafka.apa
 ## 2. Topics 구성
 이전에는 명령줄 도구를 실행하여 Kafka에서 토픽을 생성했다.
 
-```shell
+```bash
 $ bin/kafka-topics.sh --create \
   --zookeeper localhost:2181 \
   --replication-factor 1 --partitions 1 \

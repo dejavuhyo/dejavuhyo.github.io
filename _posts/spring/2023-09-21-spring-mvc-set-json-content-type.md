@@ -42,7 +42,7 @@ public String getGreetingWhileReturnTypeIsString() {
 
 CURL을 사용하여 이를 테스트한다.
 
-```shell
+```bash
 curl http://localhost:8080/greetings-with-response-body
 ```
 
@@ -135,7 +135,7 @@ public Map<String, Object> getGreetingWhileReturnTypeIsMap() {
 
 이를 확인한다.
 
-```shell
+```bash
 curl http://localhost:8080/greetings-with-map-return-type
 ```
 

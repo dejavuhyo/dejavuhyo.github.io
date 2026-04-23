@@ -12,7 +12,7 @@ tags: [linux-pipe, linux-redirection, pipe-redirection, linux-pipe-redirection, 
 ## 2. 파이프(Pipe)
 파이프는 `command1 | command2`와 같은 형태로 사용되고, command1의 표준 출력을 command2의 표준 입력으로 전달한다. `&`를 붙이면 표준 에러도 함께 전달한다.
 
-```shell
+```bash
 $ command1 | command2
 $ command1 |& commnad2
 
@@ -29,7 +29,7 @@ $ cat file.txt | grep a
 | `>` | 파일 쓰기(overwrite) |
 | `>>` | 파일 쓰기(insert) |
 
-```shell
+```bash
 # 파일 입력
 $ command < infile
 
@@ -53,7 +53,7 @@ $ command >>& outfile
 
 `/dev/null`은 표준 출력을 버리기 위한 용도로 사용되는 디스크립터 이다. 처리 결과로 출력되는 로그를 보지 않기 위해 사용하고, `2>&1`과 함께 사용하여 표준 출력, 표준 에러를 화면에 표시하지 않는 용도로 사용한다.
 
-```shell
+```bash
 # sample.sh의 표준 출력을 보이지 않도록 리다이렉션
 $ sample.sh > /dev/null
 

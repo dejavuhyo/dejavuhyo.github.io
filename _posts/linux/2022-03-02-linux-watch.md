@@ -18,7 +18,7 @@ tags: [linux-watch, watch, 리눅스-watch]
 
 ## 3. 사용예제
 
-```shell
+```bash
 # date 명령어를 반복하여 출력. 반복 간격은 기본값 2초 
 $ watch date
 Every 2.0s: date                                                                                                                                                                                                                                      Thu Aug  1 01:37:33 2019

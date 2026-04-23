@@ -24,7 +24,7 @@ gzip은 파일을 압축할 때, gunzip은 파일의 압축을 해제할 때 사
 
 ### 1) 파일 압축
 
-```shell
+```bash
 # sample.txt 파일을 압축하면 sample.txt.gz 파일이 생성
 $ ls
 sample.txt
@@ -35,7 +35,7 @@ sample.txt.gz
 
 ### 2) 압축 정보 확인
 
-```shell
+```bash
 $ gzip -l sample.txt.gz
          compressed        uncompressed  ratio uncompressed_name
                 278                 412  38.1% work
@@ -43,7 +43,7 @@ $ gzip -l sample.txt.gz
 
 ### 3) 파일 압축 해제
 
-```shell
+```bash
 # sample.txt.gz 파일의 압축을 해재하면 sample.txt 파일 생성
 $ ls
 sample.txt.gz
@@ -59,14 +59,14 @@ sample.txt
 ### 4) 파이프를 이용한 압축 해제
 압축파일을 읽어서 표준 입력으로 받아 들여서 압축을 해제할 수도 있다.
 
-```shell
+```bash
 $ cat sample.txt.gz | gzip -d
 ```
 
 ### 5) 압축 파일 읽기
 압축파일을 읽어서 표준 출력으로 출력한다. `gzip -c`, `zcat`은 동일하게 동작한다.
 
-```shell
+```bash
 $ gunzip -c sample.txt.gz
 a, b, c
 

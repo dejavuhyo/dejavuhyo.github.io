@@ -155,7 +155,7 @@ public class ItemController {
 ### 1) Application Start
 Spring 프로필을 언급하는 것을 기억한다. 예를 들어 명령줄에서 [Spring Boot maven plugin](https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/)을 사용할 수 있다.
 
-```shell
+```bash
 mvn spring-boot:run -Pdocker-compose -Dspring-boot.run.profiles=docker-compose
 ```
 
@@ -173,7 +173,7 @@ CONTAINER ID   IMAGE             COMMAND                  CREATED        STATUS 
 ### 2) Application Check
 Actuator 엔드포인트를 사용하여 애플리케이션이 실행되고 있는지 확인할 수 있다.
 
-```shell
+```bash
 curl --location 'http://localhost:8080/actuator/health'
 ```
 
@@ -187,7 +187,7 @@ curl --location 'http://localhost:8080/actuator/health'
 
 데이터베이스 확인을 위해 엔드포인트 `http://localhost:8080/item`에서 POST 호출을 사용하여 일부 항목을 추가한다. 예를 들어, curl Post 요청을 확인한다.
 
-```shell
+```bash
 curl --location 'http://localhost:8080/item' \
 --header 'Content-Type: application/json' \
 --data '{

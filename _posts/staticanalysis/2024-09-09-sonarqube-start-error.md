@@ -24,14 +24,14 @@ Elasticsearch 구동시에 많이 발생하는 에러이며, SonarQube는 Elasti
 
 * vm.max_map_count 설정 확인
 
-```shell
+```bash
 $ sudo sysctl -a | grep vm.max_map_count
 vm.max_map_count = 65530
 ```
 
 * vm.max_map_count 변경
 
-```shell
+```bash
 $ sudo sysctl -w vm.max_map_count = 262144
 vm.max_map_count = 262144
 

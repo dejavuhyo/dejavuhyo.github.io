@@ -9,7 +9,7 @@ tags: [centos-gitlab-runner, gitlab-runner, gitlab-runner-docker, gitlab-runner-
 ## 1. GitLab Runner Docker 이미지 pull
 GitLab Runner 최신 안정된 릴리즈 `latest` 이미지를 pull 한다.
 
-```shell
+```bash
 $ docker pull gitlab/gitlab-runner:latest
 ```
 
@@ -17,7 +17,7 @@ $ docker pull gitlab/gitlab-runner:latest
 
 ### 1) 이미지 실행
 
-```shell
+```bash
 $ docker run -d --name gitlab-runner gitlab/gitlab-runner:latest
 ```
 
@@ -39,7 +39,7 @@ services:
 
 ### 2) docker-compose 실행
 
-```shell
+```bash
 $ docker-compose up -d
 ```
 
@@ -66,7 +66,7 @@ $ docker-compose up -d
 
 ### 4) GitLab Runner 컨테이너 접속
 
-```shell
+```bash
 $ docker exec -it gitlab-runner /bin/bash
 ```
 
@@ -129,7 +129,7 @@ build:
 
 Runner 옵션을 수정하려면 Runner 작업 디렉토리(예: /gitlab-runner)에서 아래 명령을 실행하고 수정한다.
 
-```shell
+```bash
 $ vi gitlab-runner/config/config.toml
 ```
 

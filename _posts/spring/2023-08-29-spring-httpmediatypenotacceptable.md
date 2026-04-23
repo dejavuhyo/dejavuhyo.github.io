@@ -30,7 +30,7 @@ public Map<String, String> example() {
 
 인식할 수 없는 콘텐츠 유형이 포함된 CURL을 사용하여 요청을 보낸다.
 
-```shell
+```bash
 curl -X POST --header "Accept: application/pdf" http://localhost:8080/test -v
 
 > POST /test HTTP/1.1

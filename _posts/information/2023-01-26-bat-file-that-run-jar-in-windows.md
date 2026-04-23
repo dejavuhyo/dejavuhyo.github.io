@@ -10,7 +10,7 @@ tags: [windows-bat, windows-batch, batch-jar, bat-jar, bat, batch, bat-jar-run, 
 
 * start.bat
 
-```shell
+```bash
 @echo off
 title "API START"
 set JAVA_PATH=C:\Java\jdk-17.0.5+8\bin
@@ -28,7 +28,7 @@ exit
 
 * stop.bat
 
-```shell
+```bash
 @echo off
 title "API STOP"
 taskkill /im java.exe /f
@@ -42,31 +42,31 @@ exit
 ### 1) 콘솔창이 없어지지 않음
 System.out.print/println 같은 콘솔 명령어를 실행할 때에는 java 명령어를 사용하고 IzPack, JFrame 같은 GUI 프로그램은 javaw 명령어로 실행한다.
 
-```shell
+```bash
 \jdk-17.0.5+8\bin\java.exe -jar api-0.0.1-SNAPSHOT.jar
 ```
 
 ### 2) 실행 시 콘솔창이 없어짐
 
-```shell
+```bash
 start \jdk-17.0.5+8\bin\javaw.exe -jar api-0.0.1-SNAPSHOT.jar
 ```
 
 ### 3) 프로세스 상세 목록
 
-```shell
+```bash
 tasklist -v
 ```
 
 ### 4) 프로세스 ID로 강제 종료
 
-```shell
+```bash
 taskkill /pid [PID] /f
 ```
 
 ### 5) 프로세스 이름으로 강제 종료
 
-```shell
+```bash
 taskkill /im [프로세스 이름] /f
 ```
 

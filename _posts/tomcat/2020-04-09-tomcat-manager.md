@@ -13,7 +13,7 @@ Jenkins에서 war 파일 배포를 위해 manager 접속이 필요하다. manage
 
 * 편집
 
-```shell
+```bash
 [root@localhost apache-tomcat-9.0.34]# vi conf/tomcat-users.xml
 ```
 
@@ -42,7 +42,7 @@ Jenkins에서 war 파일 배포를 위해 manager 접속이 필요하다. manage
 
 * 편집
 
-```shell
+```bash
 [root@localhost apache-tomcat-9.0.34]# vi webapps/manager/META-INF/context.xml
 ```
 

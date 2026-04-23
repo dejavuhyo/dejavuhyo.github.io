@@ -31,7 +31,7 @@ cat file_name.txt | grep PATTERN
 
 주요 사용방법은 다음과 같다.
 
-```shell
+```bash
 # test.txt 파일 내용
 $ cat test.txt
 a
@@ -74,7 +74,7 @@ test.txt
 
 ### 1) 여러개의 파일에서 파일명과 함께 검색
 
-```shell
+```bash
 # 여러개의 파일에서 파일명과 함께 검색한 문자 출력
 $ grep a *
 test2.txt:a
@@ -83,7 +83,7 @@ test.txt:a
 
 ### 2) 정규식을 이용한 검색
 
-```shell
+```bash
 # 정규식을 이용한 검색
 $ cat test.txt | grep "[a|b]"
 a
@@ -93,7 +93,7 @@ b
 ### 3) 문자가 있는 파일 출력
 jar파일에서 클래스 찾기
 
-```shell
+```bash
 $ grep -l "org.codehaus.jackson.jaxrs.JacksonJaxbJsonProvider" * 
 jackson-jaxrs-1.9.13.jar
 ```

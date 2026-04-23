@@ -21,7 +21,7 @@ tags: [kafka, kafka-windows, kafka-install, 카프카-설치, 카프카-윈도�
 
 ## 2. Zookeeper 실행
 
-```shell
+```bash
 zookeeper-server-start.bat ..\..\config\zookeeper.properties
 ```
 
@@ -29,7 +29,7 @@ zookeeper-server-start.bat ..\..\config\zookeeper.properties
 
 ## 3. Kafka 서버 실행
 
-```shell
+```bash
 kafka-server-start.bat ..\..\config\server.properties
 ```
 
@@ -37,7 +37,7 @@ kafka-server-start.bat ..\..\config\server.properties
 
 ## 4. Zookeeper 및 Kafka 실행 확인
 
-```shell
+```bash
 netstat -a
 ```
 
@@ -51,13 +51,13 @@ netstat -a
 
 ### 1) topic 생성 (broker)
 
-```shell
+```bash
 kafka-topics.bat --create --bootstrap-server localhost:9092 --topic topic-test
 ```
 
 * 생성한 topic 조회
 
-```shell
+```bash
 kafka-topics.bat --list --bootstrap-server localhost:9092
 ```
 
@@ -65,7 +65,7 @@ kafka-topics.bat --list --bootstrap-server localhost:9092
 
 ### 2) topic에 message 보내기 (producer)
 
-```shell
+```bash
 kafka-console-producer.bat --broker-list localhost:9092 --topic topic-test
 ```
 
@@ -73,7 +73,7 @@ kafka-console-producer.bat --broker-list localhost:9092 --topic topic-test
 
 ### 3) topic에 message 가져오기 (consumer)
 
-```shell
+```bash
 kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic topic-test --from-beginning
 ```
 

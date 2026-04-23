@@ -19,7 +19,7 @@ lsof(list open files)의 약자로 열려 있는(사용 중인) 모든 파일을
 
 ## 3. 사용예제
 
-```shell
+```bash
 $ lsof
 COMMAND     PID   TID            USER   FD      TYPE             DEVICE SIZE/OFF       NODE NAME
 systemd       1                  root  rtd   unknown                                        /proc/1/root (readlink: Permission denied)

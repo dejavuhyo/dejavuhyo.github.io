@@ -29,7 +29,7 @@ kill은 프로세스에 시그널을 전송한다. 시그널을 생략하면 TER
 
 ## 3. 사용 예제
 
-```shell
+```bash
 # 잡아이디를 이용한 종료
 $ jobs
 [1]+  Stopped                 hive

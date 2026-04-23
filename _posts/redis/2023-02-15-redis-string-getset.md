@@ -14,13 +14,13 @@ tags: [redis-string-getset, redis, redis-command, 레디스, 레디스-getset, �
 
 ## 3. Syntax
 
-```shell
+```bash
 redis 127.0.0.1:6379> GETSET KEY_NAME VALUE
 ```
 
 ### 1) Example
 
-```shell
+```bash
 redis 127.0.0.1:6379> GETSET mynewkey "This is my test key"
 (nil)
 redis 127.0.0.1:6379> GETSET mynewkey "This is my new value to test getset"

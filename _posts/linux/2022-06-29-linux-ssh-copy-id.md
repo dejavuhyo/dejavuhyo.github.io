@@ -11,7 +11,7 @@ tags: [linux-ssh-copy-id, ssh-copy-id, 리눅스-ssh-copy-id, 리눅스]
 
 ## 2. 사용예제
 
-```shell
+```bash
 # 127.0.0.1 호스테에 22번 포트로 접속
 $ ssh-copy-id user@127.0.0.1
 

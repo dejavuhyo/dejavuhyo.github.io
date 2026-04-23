@@ -12,13 +12,13 @@ tags: [docker-gitlab-install, gitlab-install, docker-gitlab, 도커-깃랩-설�
 
 ![gitlab-docker-images](/assets/img/2021-03-03-install-gitlab-with-docker/gitlab-docker-images.png)
 
-```shell
+```bash
 [root@localhost ~]# docker pull gitlab/gitlab-ce:latest
 ```
 
 ## 2. Pull 이미지 확인
 
-```shell
+```bash
 [root@localhost ~]# docker images
 ```
 
@@ -30,7 +30,7 @@ tags: [docker-gitlab-install, gitlab-install, docker-gitlab, 도커-깃랩-설�
   - 80: HTTP
   - 443: HTTPS
 
-```shell
+```bash
 [root@localhost ~]# docker run --detach --hostname 127.0.0.1 --publish 8929:80 --publish 2224:22 --name gitlab --restart always --volume /srv/gitlab/config:/etc/gitlab --volume /srv/gitlab/logs:/var/log/gitlab --volume /srv/gitlab/data:/var/opt/gitlab gitlab/gitlab-ce:latest
 ```
 
@@ -39,14 +39,14 @@ tags: [docker-gitlab-install, gitlab-install, docker-gitlab, 도커-깃랩-설�
 
 ### 1) gitlab 컨테이너 접속
 
-```shell
+```bash
 [root@localhost ~]# docker exec -it gitlab /bin/bash
 ```
 
 ### 2) nano 에디터로 gitlab.rb 파일 수정
 Ctrl + o로 저장하고 Enter를 누른 후 Ctrl + x로 나노 에디터를 나온다.
 
-```shell
+```bash
 root@127:/# nano /etc/gitlab/gitlab.rb
 ```
 
@@ -57,13 +57,13 @@ gitlab_rails['gitlab_shell_ssh_port'] = 2224
 
 ### 3) 설정 적용
 
-```shell
+```bash
 root@127:/# gitlab-ctl reconfigure
 ```
 
 ### 4) Docker 재시작
 
-```shell
+```bash
 [root@localhost ~]# docker restart gitlab
 ```
 

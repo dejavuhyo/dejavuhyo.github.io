@@ -47,13 +47,13 @@ public class Sample {
 
 javap 명령의 구문은 다음과 같다.
 
-```shell
+```bash
 javap [option] [classname]
 ```
 
 예를 들어 `Sample.class`의 버전을 확인해 본다.
 
-```shell
+```bash
 javap -verbose Sample
 
 //stripped output ..
@@ -73,13 +73,13 @@ javap는 많은 세부 정보를 제공 하지만 주요 버전에만 관심을 
 
 Linux 기반 시스템의 경우 다음 명령을 사용하여 주요 버전만 얻을 수 있다.
 
-```shell
+```bash
 javap -verbose Sample | grep major
 ```
 
 마찬가지로 Windows 시스템의 경우 사용할 수 있는 명령은 다음과 같다.
 
-```shell
+```bash
 javap -verbose Sample | findstr major
 ```
 
@@ -106,7 +106,7 @@ u4는 클래스 파일 형식을 식별하는 매직 넘버이다. 값은 `0xCAF
 
 Linux 기반 시스템의 경우 [hexdump](https://www.baeldung.com/linux/create-hex-dump#using-hexdump) 유틸리티를 사용하여 모든 `.class` 파일을 구문 분석 할 수 있다.
 
-```shell
+```bash
 > hexdump -v Sample.class
 0000000 ca fe ba be 00 00 00 34 00 22 07 00 02 01 00 0b
 0000010 74 65 73 74 2f 53 61 6d 70 6c 65 07 00 04 01 00
@@ -117,7 +117,7 @@ Linux 기반 시스템의 경우 [hexdump](https://www.baeldung.com/linux/create
 
 대안으로, hexdump를 사용하여 주요 릴리스 버전을 십진수로 직접 얻을 수 있다.
 
-```shell
+```bash
 > hexdump -s 7 -n 1 -e '"%d"' Sample.class
 52
 ```

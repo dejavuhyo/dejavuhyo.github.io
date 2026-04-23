@@ -17,7 +17,7 @@ tags: [linux-file, file, 리눅스-file, 리눅스-파일]
 
 ## 3. 사용예제
 
-```shell
+```bash
 # 텍스트 파일 확인
 $ file ANSI.txt
 ANSI.txt: ISO-8859 text, with no line terminators

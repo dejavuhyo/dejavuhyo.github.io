@@ -50,7 +50,7 @@ tags: [linux-netstat, netstat, 리눅스-netstat, 리눅스]
 
 ## 5. 사용예제
 
-```shell
+```bash
 # 네트워크 연결상태, 소켓정보 출력
 $ netstat
 Active Internet connections (w/o servers)

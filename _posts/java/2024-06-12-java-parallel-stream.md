@@ -96,7 +96,7 @@ assertThat(sum).isEqualTo(15);
 
 그러나 API를 사용하면 JVM 매개변수를 전달하여 사용할 스레드 수를 지정할 수 있다.
 
-```shell
+```bash
 -D java.util.concurrent.ForkJoinPool.common.parallelism=4
 ```
 

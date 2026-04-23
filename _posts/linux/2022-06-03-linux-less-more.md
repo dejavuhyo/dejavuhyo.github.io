@@ -19,7 +19,7 @@ tags: [linux-less-more, linux-less, linux-more, less-more, 리눅스-less-more, 
 
 ## 3. 사용예제
 
-```shell
+```bash
 # sample.txt 파일을 열람
 $ less sample.txt
 $ more sample.txt

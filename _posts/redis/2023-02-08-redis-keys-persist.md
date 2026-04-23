@@ -14,21 +14,21 @@ tags: [redis-keys-persist, redis, redis-command, 레디스, 레디스-키-지속
 
 ## 3. Syntax
 
-```shell
+```bash
 redis 127.0.0.1:6379> PERSIST KEY_NAME
 ```
 
 ### 1) Example
 먼저 Redis에서 키를 만들고 여기에 값을 설정한다.
 
-```shell
+```bash
 redis 127.0.0.1:6379> SET tutorial1 redis
 OK
 ```
 
 이제 키 만료를 설정하고 나중에 만료를 제거한다.
 
-```shell
+```bash
 redis 127.0.0.1:6379> EXPIRE tutorial1 60 
 1) (integer) 1 
 redis 127.0.0.1:6379> TTL tutorial1 

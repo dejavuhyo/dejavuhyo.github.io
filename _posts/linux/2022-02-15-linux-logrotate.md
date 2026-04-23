@@ -53,7 +53,7 @@ tags: [linux-logrotate, logrotate, 리눅스-logrotate]
 
 ## 4. 사용예제
 
-```shell
+```bash
 # 실행
 logrotate -s /home/deploy/logstatus -f /home/deploy/logconf.conf
 

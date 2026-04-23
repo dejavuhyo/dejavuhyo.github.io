@@ -14,21 +14,21 @@ tags: [redis-keys-dump, redis, redis-command, 레디스, 레디스-키-덤프, �
 
 ## 3. Syntax
 
-```shell
+```bash
 redis 127.0.0.1:6379> DUMP KEY_NAME
 ```
 
 ### 1) Example
 먼저 Redis에서 키를 만들고 여기에 값을 설정한다.
 
-```shell
+```bash
 redis 127.0.0.1:6379> SET tutorialspoint redis
 OK
 ```
 
 이제 이전에 생성한 키의 덤프를 생성한다.
 
-```shell
+```bash
 redis 127.0.0.1:6379> DUMP tutorialspoint
 "\x00\x05redis\x06\x00S\xbd\xc1q\x17z\x81\xb2"
 ```

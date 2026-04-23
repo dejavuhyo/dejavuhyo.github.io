@@ -17,7 +17,7 @@ tags: [linux-mkdir, mkdir, 리눅스-mkdir]
 
 ## 3. 사용예제
 
-```shell
+```bash
 # dir1 디렉토리를 생성한다.
 $ mkdir dir1
 

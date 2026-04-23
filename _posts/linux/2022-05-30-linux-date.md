@@ -20,7 +20,7 @@ tags: [linux-date, date, 리눅스-date, 리눅스-날짜]
 
 ### 1) 일자 출력 포맷 지정
 
-```shell
+```bash
 # 년월일 형태
 $ date +%Y%m%d
 20190212
@@ -40,7 +40,7 @@ $ date +%W
 
 ### 2) 일자 변경
 
-```shell
+```bash
 # 1일 전
 $ date +%Y-%m-%d -d '1 days ago'
 2019-02-11

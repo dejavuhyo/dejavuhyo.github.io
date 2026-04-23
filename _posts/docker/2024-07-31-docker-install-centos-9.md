@@ -8,7 +8,7 @@ tags: [centos-docker, docker, centos-docker-install, docker-install]
 
 ## 1. 이전 버전 제거
 
-```shell
+```bash
 $ sudo dnf remove docker \
                   docker-client \
                   docker-client-latest \
@@ -22,14 +22,14 @@ $ sudo dnf remove docker \
 ## 2. Docker 저장소 설정
 `yum-utils` 패키지(`yum-config-manager` 유틸리티 제공)를 설치하고 저장소를 설정한다.
 
-```shell
+```bash
 $ sudo dnf install -y yum-utils
 $ sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 ```
 
 ## 3. Docker 엔진 설치
 
-```shell
+```bash
 $ sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
@@ -37,7 +37,7 @@ GPG 키 수락 메시지가 표시되면 지문이 `060A 61C5 1B55 8A7F 742B 77A
 
 ## 4. Docker 시작
 
-```shell
+```bash
 $ sudo systemctl start docker
 $ sudo systemctl enable docker
 Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /usr/lib/systemd/system/docker.service.
@@ -45,14 +45,14 @@ Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /
 
 * 버전 확인
 
-```shell
+```bash
 $ docker --version
 Docker version 27.0.3, build 7d4bcd8
 ```
 
 ### 5. Docker Engine 설치 성공 확인
 
-```shell
+```bash
 $ sudo docker run hello-world
 Unable to find image 'hello-world:latest' locally
 ^[latest: Pulling from library/hello-world

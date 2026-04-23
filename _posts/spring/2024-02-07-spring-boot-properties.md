@@ -216,7 +216,7 @@ spring.config.import=classpath:datasource.properties,
 
 `spring.config.import` 속성은 서버 시작 인수를 사용하여 설정할 수도 있다.
 
-```shell
+```bash
 $ java -jar myproject.jar --spring.config.import=\
     classpath:datasource.properties,\
     classpath:mysql-properties.properties,\

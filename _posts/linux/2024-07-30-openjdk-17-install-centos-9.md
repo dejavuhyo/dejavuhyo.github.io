@@ -8,43 +8,43 @@ tags: [centos-openjdk, centos-jdk, openjdk, openjdk-install]
 
 ## 1. 운영 체제 확인
 
-```shell
+```bash
 $ cat /etc/*release
 ```
 
 ## 2. 패키지 저장소 업데이트
 
-```shell
+```bash
 $ sudo dnf update
 ```
 
 ## 3. 설치된 JDK 확인
 
-```shell
+```bash
 $ dnf list installed | grep java
 ```
 
 ## 4. 설치 가능한 JDK 버전 확인
 
-```shell
+```bash
 $ dnf list java*jdk-devel
 ```
 
 ## 5. 설치
 
-```shell
+```bash
 $ dnf install java-17-openjdk-devel.x86_64
 ```
 
 ## 6. Java 버전 확인
 
-```shell
+```bash
 $ java -version
 ```
 
 ## 5. Java 홈 경로 설정 확인
 
-```shell
+```bash
 $ echo $JAVA_HOME
 ```
 
@@ -52,7 +52,7 @@ $ echo $JAVA_HOME
 
 ### 1) javac 위치 확인
 
-```shell
+```bash
 $ which javac
 /usr/bin/javac
 ```
@@ -60,14 +60,14 @@ $ which javac
 ### 2) 원본 파일 위치 확인
 `/usr/bin/javac`는 심볼릭 링크 이므로, 원본 파일 위치 확인
 
-```shell
+```bash
 $ readlink -f /usr/bin/javac
 /usr/lib/jvm/java-17-openjdk-17.0.6.0.10-3.el9.x86_64/bin/javac
 ```
 
 ### 3) JAVA_HOME 환경변수 등록
 
-```shell
+```bash
 $ vi /etc/profile
 ```
 
@@ -79,18 +79,18 @@ export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-17.0.6.0.10-3.el9.x86_64
 
 ### 4) profile 적용
 
-```shell
+```bash
 $ source /etc/profile
 ```
 
 ### 5) JAVA_HOME 확인
 
-```shell
+```bash
 $ echo $JAVA_HOME
 /usr/lib/jvm/java-17-openjdk-17.0.6.0.10-3.el9.x86_64
 ```
 
-```shell
+```bash
 $ $JAVA_HOME/bin/javac -version
 javac 17.0.6
 ```

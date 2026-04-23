@@ -45,7 +45,7 @@ mysql> set global max_connections=500;
 
 * 편집
 
-```shell
+```bash
 [root@localhost ~]# vi /etc/my.cnf
 ```
 
@@ -58,7 +58,7 @@ max_connections = 500
 
 * 재시작
 
-```shell
+```bash
 [root@localhost ~]# service mysqld restart
 ```
 

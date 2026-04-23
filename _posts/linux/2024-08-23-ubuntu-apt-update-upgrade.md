@@ -15,7 +15,7 @@ tags: [ubuntu-update, ubuntu-upgrade, ubuntu-update-upgrade, update-upgrade]
 
 실제로 설치된 패키지들을 업데이트하지 않는다. 이용 가능한 패키지들의 새로운 버전이 있는지를 파악하고, 시스템이 다음 단계인 upgrade 명령을 통해 실제 업데이트를 수행할 수 있도록 준비한다.
 
-```shell
+```bash
 sudo apt update
 ```
 
@@ -26,7 +26,7 @@ sudo apt update
 
 의존성 문제나 중요한 시스템 변경이 필요한 경우, 해당 패키지는 업그레이드되지 않을 수 있다.
 
-```shell
+```bash
 sudo apt upgrade
 ```
 

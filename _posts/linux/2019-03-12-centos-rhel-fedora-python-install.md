@@ -12,28 +12,28 @@ Python is a powerful programming language. It is very friendly and easy to learn
 ## 2. Requirements
 This Python installation required GCC compiler on your system. Login to your server using ssh or shell access. Now, use the following command to install prerequisites for Python before installing it.
 
-```shell
+```bash
 [root@localhost local]# yum install gcc openssl-devel bzip2-devel
 ```
 
 ## 3. Download Python
 Download Python using the following command from python official site. You can also download the latest version in place of specified below.
 
-```shell
+```bash
 [root@localhost local]# cd /usr/local/
 [root@localhost local]# wget https://www.python.org/ftp/python/3.7.2/Python-3.7.2.tgz
 ```
 
 Now extract the downloaded package.
 
-```shell
+```bash
 [root@localhost local]# tar xzf Python-3.7.2.tgz
 ```
 
 ## 4. Install Python
 Use below set of commands to compile Python source code on your system using altinstall.
 
-```shell
+```bash
 [root@localhost local]# cd Python-3.7.2
 [root@localhost local]# ./configure --enable-optimizations
 [root@localhost local]# make altinstall
@@ -44,7 +44,7 @@ make altinstall is used to prevent replacing the default python binary file `/us
 ## 5. Check Python Version
 Check the latest version installed of python. Use command python3.7 instead of just python.
 
-```shell
+```bash
 [root@localhost local]# python3.7 -V
 Python 3.7.2
 ```
@@ -52,7 +52,7 @@ Python 3.7.2
 ## 6. Error
 No module named '_ctypes'
 
-```shell
+```bash
 [root@localhost local]# yum install libffi-devel
 ```
 

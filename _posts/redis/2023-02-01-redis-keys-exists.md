@@ -14,20 +14,20 @@ tags: [redis-keys-exists, redis, redis-command, 레디스, 레디스-키-존재,
 
 ## 3. Syntax
 
-```shell
+```bash
 redis 127.0.0.1:6379> EXISTS KEY_NAME
 ```
 
 ### 1) Example
 
-```shell
+```bash
 redis 127.0.0.1:6379> EXISTS tutorialspoint-new-key
 (integer) 0
 ```
 
 이제 이름이 tutorialspoint-new-key인 키를 생성하고 존재 여부를 확인한다.
 
-```shell
+```bash
 redis 127.0.0.1:6379> EXISTS tutorialspoint-new-key
 (integer) 1
 ```
