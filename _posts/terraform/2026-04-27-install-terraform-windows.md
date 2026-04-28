@@ -6,6 +6,8 @@ categories: [DevOps, Terraform]
 tags: [terraform, terraform-install, 테라폼, 테라폼-설치]
 ---
 
+![terraform-logo](/assets/img/2026-04-27-install-terraform-windows/terraform-logo.png)
+
 ## 1. Terraform 다운로드
 [Terraform](https://developer.hashicorp.com/terraform/install) 사이트에서 install 파일 다운로드 한다.
 
