@@ -12,7 +12,7 @@ Jenkins에서 Docker 빌드를 위해 Jenkins Container를 예로 들었다.
 Jenkins에 Docker 관련 플러그인은 설치하였으나, Jenkins Container 안에는 Docker가 설치되어 있지 않다.
 
 ```bash
-$ sudo docker exec -it jenkins /bin/bash
+sudo docker exec -it jenkins /bin/bash
 ```
 
 ## 2. Docker 설치를 위한 Shell 다운로드
