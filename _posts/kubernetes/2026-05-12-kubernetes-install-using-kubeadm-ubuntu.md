@@ -4,9 +4,9 @@ author: dejavuhyo
 date: 2026-05-12 10:00:00 +0900
 categories: [DevOps, Kubernetes]
 tags: [kubernetes, kubeadm, kubelet, kubectl, kubernetes-install, k8s, k8s-install, 쿠버네티스, 쿠버네티스-설치]
-image:
-  path: /assets/img/2026-05-12-kubernetes-install-using-kubeadm-ubuntu/kubernetes-logo.png
 ---
+
+![kubernetes-logo](/assets/img/2026-05-12-kubernetes-install-using-kubeadm-ubuntu/kubernetes-logo.png)
 
 ## 1. Swap 비활성화
 쿠버네티스는 성능과 안정성을 위해 스왑 메모리 사용을 권장하지 않는다.
