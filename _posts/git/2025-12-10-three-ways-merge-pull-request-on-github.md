@@ -2,7 +2,7 @@
 title: GitHub에서 Pull Request(PR)를 병합할 때 사용할 수 있는 세 가지 방법
 author: dejavuhyo
 date: 2025-12-10 14:20:00 +0900
-categories: [DevOps, Git]
+categories: [GitOps, Git]
 tags: [github, github-pull-request, github-merge, 깃허브-pr, 깃허브-merge]
 ---
 

@@ -2,7 +2,7 @@
 title: GitLab Filtering outbound requests
 author: dejavuhyo
 date: 2024-07-29 08:27:00 +0900
-categories: [DevOps, Git]
+categories: [GitOps, Git]
 tags: [gitlab, gitlab-filtering, filtering-outbound-requests, gitlab-webhooks, 깃랩-웹훅, 깃랩-필터링, 아웃바운드-요청-필터링]
 ---
 

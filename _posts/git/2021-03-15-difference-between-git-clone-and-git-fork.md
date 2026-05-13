@@ -2,7 +2,7 @@
 title: Git Clone과 Git Fork의 차이점
 author: dejavuhyo
 date: 2021-03-15 06:10:00 +0900
-categories: [DevOps, Git]
+categories: [GitOps, Git]
 tags: [clone-vs-fork, git-clone, git-form, clone-fork-difference, clone-fork-차이점]
 ---
 

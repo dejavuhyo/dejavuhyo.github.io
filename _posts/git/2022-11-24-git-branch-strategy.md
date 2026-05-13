@@ -2,7 +2,7 @@
 title: Git branch 전략
 author: dejavuhyo
 date: 2022-11-24 21:00:00 +0900
-categories: [DevOps, Git]
+categories: [GitOps, Git]
 tags: [git-branch, git-branch-strategy, branch-strategy, git, git-flow, github-flow, gitlab-flow, 깃-브랜치, 깃-브랜치-전략, 브랜치-전략]
 ---
 

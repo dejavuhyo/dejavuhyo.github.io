@@ -2,7 +2,7 @@
 title: gitignore가 동작하지 않을 때 대처법
 author: dejavuhyo
 date: 2022-04-22 09:10:00 +0900
-categories: [DevOps, Git]
+categories: [GitOps, Git]
 tags: [gitignore, gitignore-not-working, git, gitignore-오류]
 ---
 

@@ -2,7 +2,7 @@
 title: Ubuntu에 Docker 이미지로 GitLab 설치
 author: dejavuhyo
 date: 2024-09-02 08:33:00 +0900
-categories: [DevOps, Git]
+categories: [GitOps, Git]
 tags: [ubuntu-gitlab, gitlab-docker, gitlab-install, 우분투-깃랩, 깃랩-도커, 깃랩-설치]
 ---
 
