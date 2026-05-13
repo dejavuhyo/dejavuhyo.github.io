@@ -1,9 +1,9 @@
 ---
-title: Apache Fuseki API
+title: Apache Jena Fuseki API
 author: dejavuhyo
 date: 2026-05-08 15:30:00 +0900
 categories: [Database, GraphDatabase]
-tags: [apache-jena, jena, jena-fuseki, fuseki, graphdb, fuseki-api, jena-api, jena-fuseki-api]
+tags: [apache-jena, jena, apache-jena-fuseki, fuseki, graphdb, fuseki-api, jena-api]
 ---
 
 ## 1. Maven 의존성 추가
