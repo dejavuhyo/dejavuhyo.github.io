@@ -2,7 +2,7 @@
 title: GitLab과 GitHub 지속적 통합(CI) 비교
 author: dejavuhyo
 date: 2022-04-18 16:00:00 +0900
-categories: [DevOps, Git]
+categories: [GitOps, Git]
 tags: [github-vs-gitlab, github, gitlab, continuous-integration-comparison, ci-comparison, github-ci, gitlab-ci, github-cd, gitlab-cd, github-gitlab-비교, github-gitlab-지속적-통합]
 ---
 

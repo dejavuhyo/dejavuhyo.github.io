@@ -2,7 +2,7 @@
 title: CentOS 9에 Docker 이미지로 GitLab 설치
 author: dejavuhyo
 date: 2024-08-06 10:32:00 +0900
-categories: [DevOps, Git]
+categories: [GitOps, Git]
 tags: [centos-gitlab, gitlab-docker, gitlab-docker-compose, gitlab-install, 깃랩-도커, 깃랩-설치]
 ---
 

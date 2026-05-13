@@ -2,7 +2,7 @@
 title: CentOS 9에 Docker 이미지로 GitLab Runner 설치
 author: dejavuhyo
 date: 2024-08-07 08:40:00 +0900
-categories: [DevOps, Git]
+categories: [GitOps, Git]
 tags: [centos-gitlab-runner, gitlab-runner, gitlab-runner-docker, gitlab-runner-docker-compose, gitlab-runner-install]
 ---
 

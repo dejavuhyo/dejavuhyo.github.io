@@ -2,7 +2,7 @@
 title: Git 병합 방법 장단점 및 팀 운영 관점 비교
 author: dejavuhyo
 date: 2026-01-16 14:30:00 +0900
-categories: [DevOps, Git]
+categories: [GitOps, Git]
 tags: [git, git-merge, squash-and-merge, merge-commit, rebase-and-merge, 깃-병합, 깃-병합-비교]
 ---
 

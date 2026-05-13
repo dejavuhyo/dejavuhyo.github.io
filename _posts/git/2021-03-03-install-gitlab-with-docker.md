@@ -2,7 +2,7 @@
 title: Docker를 이용하여 GitLab 설치
 author: dejavuhyo
 date: 2021-03-03 06:10:00 +0900
-categories: [DevOps, Git]
+categories: [GitOps, Git]
 tags: [docker-gitlab-install, gitlab-install, docker-gitlab, 도커-깃랩-설치, 깃랩-설치, 도커-깃랩]
 ---
 

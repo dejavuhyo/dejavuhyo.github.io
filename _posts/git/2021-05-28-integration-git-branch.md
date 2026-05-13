@@ -2,7 +2,7 @@
 title: Git 브랜치 통합
 author: dejavuhyo
 date: 2021-05-28 06:00:00 +0900
-categories: [DevOps, Git]
+categories: [GitOps, Git]
 tags: [git-branch-integration, branch-integration, branch-merge, branch-rebase, git-브랜치-통합, 깃-브랜치-통합, 브랜치-통합, 브랜치-병합]
 ---
 

@@ -2,7 +2,7 @@
 title: Git 브랜치 전환
 author: dejavuhyo
 date: 2021-05-27 06:00:00 +0900
-categories: [DevOps, Git]
+categories: [GitOps, Git]
 tags: [git-branch-switch, branch-switch, git-브랜치-전환, 깃-브랜치-전환, 브랜치-전환]
 ---
 

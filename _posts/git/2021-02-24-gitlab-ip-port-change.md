@@ -2,7 +2,7 @@
 title: GitLab IP, Port 변경
 author: dejavuhyo
 date: 2021-02-24 06:10:00 +0900
-categories: [DevOps, Git]
+categories: [GitOps, Git]
 tags: [gitlab-ip-change, gitlab-port-change, ip-port-change, gitlab-ip-변경, gitlab-port-변경, ip-port-변경]
 ---
 
