@@ -2,7 +2,7 @@
 title: Apache Kafka란
 author: dejavuhyo
 date: 2023-05-15 12:20:00 +0900
-categories: [DevOps, Kafka]
+categories: [MessagingPlatform, Kafka]
 tags: [apache-kafka, kafka, 아파치-카프카, 카프카]
 ---
 

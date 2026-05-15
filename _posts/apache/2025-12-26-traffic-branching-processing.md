@@ -2,7 +2,7 @@
 title: Apache Traffic 분기 처리 방식
 author: dejavuhyo
 date: 2025-12-26 09:15:00 +0900
-categories: [DevOps, Apache]
+categories: [WEB/WAS, Apache]
 tags: [apache-traffic, traffic-brancing, 아파치-트래픽, 아파치-트래픽-분기, 트래픽-분기]
 ---
 

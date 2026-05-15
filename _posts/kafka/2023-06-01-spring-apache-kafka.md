@@ -2,7 +2,7 @@
 title: Spring Apache Kafka
 author: dejavuhyo
 date: 2023-06-01 08:50:00 +0900
-categories: [Framework, Spring]
+categories: [MessagingPlatform, Kafka]
 tags: [spring-apache-kafka, apache-kafka, spring-kafka, kafka, 스프링-아파치-카프카, 스프링-카프카, 아파치-카프카, 카프카]
 ---
 

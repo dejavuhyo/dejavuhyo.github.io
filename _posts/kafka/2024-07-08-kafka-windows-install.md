@@ -2,7 +2,7 @@
 title: Kafka Windows 설치 및 테스트
 author: dejavuhyo
 date: 2024-07-08 13:05:00 +0900
-categories: [DevOps, Kafka]
+categories: [MessagingPlatform, Kafka]
 tags: [kafka, kafka-windows, kafka-install, 카프카-설치, 카프카-윈도우]
 ---
 
