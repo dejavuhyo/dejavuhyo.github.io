@@ -2,7 +2,7 @@
 title: Apache Kafka Quickstart
 author: dejavuhyo
 date: 2023-05-31 09:20:00 +0900
-categories: [DevOps, Kafka]
+categories: [MessagingPlatform, Kafka]
 tags: [apache-kafka, kafka, kafka-quickstart, 아파치-카프카, 카프카, 카프카-빠른-시작]
 ---
 

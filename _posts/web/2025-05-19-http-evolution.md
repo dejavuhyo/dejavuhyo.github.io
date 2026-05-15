@@ -2,7 +2,7 @@
 title: HTTP의 발전
 author: dejavuhyo
 date: 2025-05-19 08:30:00 +0900
-categories: [DevOps, Web]
+categories: [WEB/WAS, Web]
 tags: [http, web, world-wide-web, http-protocol, http-발전, http-프로토콜]
 ---
 

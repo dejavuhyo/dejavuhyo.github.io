@@ -2,7 +2,7 @@
 title: Kafka 대용량 메시지 보내기
 author: dejavuhyo
 date: 2024-07-10 11:35:00 +0900
-categories: [DevOps, Kafka]
+categories: [MessagingPlatform, Kafka]
 tags: [kafka, kafka-message, kafka-large-message, 카프카-메시지, 카프카-대용량-메시지]
 ---
 

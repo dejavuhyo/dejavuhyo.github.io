@@ -2,7 +2,7 @@
 title: Kafka SASL/PLAIN 설정
 author: dejavuhyo
 date: 2024-07-09 10:25:00 +0900
-categories: [DevOps, Kafka]
+categories: [MessagingPlatform, Kafka]
 tags: [kafka, kafka-sasl-plain, sasl-plain, 카프카, 카프카-인증]
 ---
 

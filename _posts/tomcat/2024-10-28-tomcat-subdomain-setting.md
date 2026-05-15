@@ -2,7 +2,7 @@
 title: Tomcat 서브도메인 설정
 author: dejavuhyo
 date: 2024-10-28 10:13:00 +0900
-categories: [DevOps, Tomcat]
+categories: [WEB/WAS, Tomcat]
 tags: [tomcat, tomcat-subdomain, subdomain, 톰캣, 톰캣-서브도메인, 서브도메인]
 ---
 
