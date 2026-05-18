@@ -35,7 +35,7 @@ $ sudo docker run --detach \
 
 ### 1) docker-compose.yml 생성
 
-```yml
+```yaml
 version: '3.9'
 services:
   gitlab:

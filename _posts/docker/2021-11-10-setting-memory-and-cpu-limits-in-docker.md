@@ -43,7 +43,7 @@ docker-compose 파일을 사용하여 비슷한 결과를 얻을 수 있다. 형
 ### 1) 버전 3 이상, docker swarm 포함
 Nginx 서비스에 CPU의 절반과 512MB의 메모리를 제한하고 CPU의 1/4과 128MB의 메모리를 예약하도록 한다. 서비스 구성에서 "배포" 및 "소스" 세그먼트를 생성해야 한다.
 
-```yml
+```yaml
 services:
   service:
     image: nginx
@@ -66,7 +66,7 @@ $ docker stack deploy --compose-file docker-compose.yml bael_stack
 ### 2) 버전 2 docker-compose 포함
 이전 버전의 docker-compose에서는 서비스의 기본 속성과 동일한 수준으로 리소스 제한을 설정할 수 있다. 또한 이름이 약간 다르다.
 
-```yml
+```yaml
 service:
   image: nginx
   mem_limit: 512m

@@ -78,7 +78,7 @@ $ sudo docker run -d --name sonarqube \
 
 * docker-compose.yml 예제
 
-```yml
+```yaml
 version: "3"
 
 services:

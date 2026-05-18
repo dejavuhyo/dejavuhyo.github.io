@@ -17,7 +17,7 @@ spring.datasource.password=testpwd
 
 반면에 `application.yml`을 만들 수 있다. 이는 속성 파일과 비교하여 계층적 데이터가 있을 때 읽기 쉬운 YML 기반 파일이다.
 
-```yml
+```yaml
 spring:
   datasource:
     url: 'jdbc:h2:mem:testDB'

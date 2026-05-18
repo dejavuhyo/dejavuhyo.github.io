@@ -140,7 +140,7 @@ public class BoardFilter extends AbstractGatewayFilterFactory<BoardFilter.Config
 
 ### 4) application.yml 설정
 
-```yml
+```yaml
 server:
   port: 8080
 
