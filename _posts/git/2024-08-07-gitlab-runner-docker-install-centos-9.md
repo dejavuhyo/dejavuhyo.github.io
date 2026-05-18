@@ -25,7 +25,7 @@ $ docker run -d --name gitlab-runner gitlab/gitlab-runner:latest
 
 ### 1) docker-compose.yml 생성
 
-```yml
+```yaml
 version: '3.9'
 services:
   gitlab-runner:
@@ -113,7 +113,7 @@ GitLab.com의 자동 확장(Auto-scaling) Shared Runner는 단일 작업이 1vCP
 ### 2) Docker 특권(privileged) 모드 설정
 아래 CI 파이프라인(`.gitlab-ci.yml`)과 같이, Docker-in-Docker 컨테이너를 사용하여 docker build와 같은 스크립트를 실행하기 위해서는 특권 모드(privileged mode) 설정이 필요하다.
 
-```yml
+```yaml
 image: docker:git
 services:
 - docker:dind

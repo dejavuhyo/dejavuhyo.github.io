@@ -12,7 +12,7 @@ tags: [docker-compose, docker, 도커-컴포즈, 도커, docker-compose-애플�
 
 * docker-compose.yml
 
-```yml
+```yaml
 version: "3.9"
 services:
   jenkins:

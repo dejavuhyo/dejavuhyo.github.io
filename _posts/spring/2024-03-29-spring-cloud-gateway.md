@@ -42,7 +42,7 @@ public RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
 
 라우팅 구성은 순수 Java를 사용하거나 속성 구성을 사용하여 생성할 수 있다.
 
-```yml
+```yaml
 spring:
   application:
     name: gateway-service
@@ -119,7 +119,7 @@ Spring Cloud Gateway는 현재 버전 4.1.1의 마일스톤 저장소에 있다.
 ### 2) 코드 구현
 이제 `application.yml` 파일에 간단한 라우팅 구성을 만든다.
 
-```yml
+```yaml
 spring:
   cloud:
     gateway:

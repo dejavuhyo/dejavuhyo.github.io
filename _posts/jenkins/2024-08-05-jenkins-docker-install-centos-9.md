@@ -24,7 +24,7 @@ $ docker run --name jenkins -p 8080:8080 -p 50000:50000 --restart=on-failure -v 
 
 ### 1) docker-compose.yml 생성
 
-```yml
+```yaml
 version: '3.9'
 services:
   jenkins:

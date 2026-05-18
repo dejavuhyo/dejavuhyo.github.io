@@ -102,7 +102,7 @@ ENTRYPOINT ["java", "-jar", "/app.jar"]
 
 "test" profile에 대한 `docker-compose-test.yml` 파일을 만들어 본다.
 
-```yml
+```yaml
 version: "3.5"
 services:
   docker-with-spring-profile:
@@ -113,7 +113,7 @@ services:
 
 마찬가지로 "prod" profile에 대해 다른 파일 `docker-compose-prod.yml`을 만든다. 유일한 차이점은 두 번째 파일의 "prod" 프로필이다.
 
-```yml
+```yaml
 //...
 environment:
   - "SPRING_PROFILES_ACTIVE=prod"
