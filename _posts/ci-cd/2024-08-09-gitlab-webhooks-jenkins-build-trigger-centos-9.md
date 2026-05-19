@@ -2,7 +2,7 @@
 title: CentOS 9에서 GitLab Webhooks로 Jenkins 빌드 유발
 author: dejavuhyo
 date: 2024-08-09 08:58:00 +0900
-categories: [DevOps, Jenkins]
+categories: [DevOps, CI/CD]
 tags: [jenkins-gitlab, jenkins-build, jenkins-ci, gitlab-webhooks, jenkins-build-trigger, jenkins-빌드-유발]
 ---
 
