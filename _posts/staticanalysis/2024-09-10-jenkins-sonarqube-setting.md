@@ -2,8 +2,8 @@
 title: Jenkins에 SonarQube 연동
 author: dejavuhyo
 date: 2024-09-10 08:33:00 +0900
-categories: [DevOps, Jenkins]
-tags: [jenkins-sonarqube, 젠킨스-소나큐브, 소나큐브-연동]
+categories: [DevOps, StaticAnalysis]
+tags: [sonarqube, jenkins-sonarqube, 젠킨스-소나큐브, 소나큐브-연동]
 ---
 
 ## 1. 환경

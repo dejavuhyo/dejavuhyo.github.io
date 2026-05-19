@@ -2,7 +2,7 @@
 title: Ubuntu에서 GitLab Webhook으로 Jenkins 빌드 유발
 author: dejavuhyo
 date: 2024-09-04 10:56:00 +0900
-categories: [DevOps, Jenkins]
+categories: [DevOps, CI/CD]
 tags: [jenkins-gitlab, jenkins-build, jenkins-ci, gitlab-webhook, jenkins-build-trigger, jenkins-빌드-유발]
 ---
 
