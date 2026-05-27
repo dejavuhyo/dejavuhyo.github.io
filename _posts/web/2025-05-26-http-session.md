@@ -2,7 +2,7 @@
 title: HTTP 세션
 author: dejavuhyo
 date: 2025-05-26 08:30:00 +0900
-categories: [WEB/WAS, Web]
+categories: [WEB/WAS, HTTP]
 tags: [http, session, http-session, http-세션, 세션]
 ---
 
