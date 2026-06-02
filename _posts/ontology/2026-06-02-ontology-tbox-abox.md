@@ -1,7 +1,7 @@
 ---
 title: 온톨로지 TBox와 ABox
 author: dejavuhyo
-date: 2026-06-02 11:00:00 +0900
+date: 2026-06-02 10:00:00 +0900
 categories: [Language, Ontology]
 tags: [ontology, tbox, terminological-box, abox, assertion-box, 온톨로지, 추론]
 ---
